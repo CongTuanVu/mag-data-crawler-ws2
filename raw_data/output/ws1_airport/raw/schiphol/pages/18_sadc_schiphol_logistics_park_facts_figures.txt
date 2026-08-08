@@ -1,0 +1,312 @@
+Facts & figures - SADC
+Consent
+Details
+[#IABV2SETTINGS#]
+About
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+[#GPC_BANNER_ICON#]
+[#GPC_TOAST_TEXT#]
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Details
+Necessary
+8
+Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+Google
+6
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+_GRECAPTCHA
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+_grecaptcha
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+rc::a
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+rc::b
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+rc::c
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+rc::f
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+www.sadc.nl
+2
+CookieConsent
+Stores the user's cookie consent state for the current domain
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+wpEmojiSettingsSupports
+This cookie is part of a bundle of cookies which serve the purpose of content delivery and presentation. The cookies keep the correct state of font, blog/picture sliders, color themes and other website settings.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+Preferences
+0
+Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.
+We do not use cookies of this type.
+Statistics
+3
+Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.
+Mapbox
+2
+Learn more about this provider
+mapbox.eventData.uuid:#
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+mapbox.eventData:#
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+embed-cdn.spotifycdn.com
+1
+sentryReplaySession
+Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+Marketing
+14
+Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.
+Spotify
+2
+Learn more about this provider
+sp_landing
+Used to implement audio-content from Spotify on the website. Can also be used to register user interaction and preferences in context with audio-content - This can serve statistics and marketing purposes.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+sp_t
+Used to implement audio-content from Spotify on the website. Can also be used to register user interaction and preferences in context with audio-content - This can serve statistics and marketing purposes.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+YouTube
+12
+Learn more about this provider
+__Secure-ROLLOUT_TOKEN
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+__Secure-YEC
+Stores the user's video player preferences using embedded YouTube video
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+__Secure-YNID
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+LAST_RESULT_ENTRY_KEY
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+LogsDatabaseV2:V#||LogsRequestsStore
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+ServiceWorkerLogsDatabase#SWHealthLog
+Necessary for the implementation and functionality of YouTube video-content on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+TESTCOOKIESENABLED
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+VISITOR_INFO1_LIVE
+Tries to estimate the users' bandwidth on pages with integrated YouTube videos.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+YSC
+Registers a unique ID to keep statistics of what videos from YouTube the user has seen.
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+yt-icons-last-purged
+Necessary for the implementation and functionality of YouTube video-content on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+ytidb::LAST_RESULT_ENTRY_KEY
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+YtIdbMeta#databases
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+Unclassified
+0
+Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
+We do not use cookies of this type.
+Cross-domain consent
+[#BULK_CONSENT_DOMAINS_COUNT#]
+[#BULK_CONSENT_TITLE#]
+List of domains your consent applies to:
+[#BULK_CONSENT_DOMAINS#]
+Cookie declaration last updated on 7/27/26 by
+Cookiebot
+[#IABV2_TITLE#]
+[#IABV2_BODY_INTRO#]
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+[#IABV2_BODY_PREFERENCE_INTRO#]
+[#IABV2_LABEL_PURPOSES#]
+[#IABV2_BODY_PURPOSES_INTRO#]
+[#IABV2_BODY_PURPOSES#]
+[#IABV2_LABEL_FEATURES#]
+[#IABV2_BODY_FEATURES_INTRO#]
+[#IABV2_BODY_FEATURES#]
+[#IABV2_LABEL_PARTNERS#]
+[#IABV2_BODY_PARTNERS_INTRO#]
+[#IABV2_BODY_PARTNERS#]
+About
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+Please state your consent ID and date when you contact us regarding your consent.
+Do not sell or share my personal information
+Deny
+Allow selection
+Customize
+Allow all
+Locaties
+Schiphol Trade Park
+PolanenPark
+Bedrijvenpark De President
+Schiphol Logistics Park
+Business Park Amsterdam Osdorp
+Beschikbaarheid
+Facts & Figures
+Nieuws
+Contact
+Over SADC
+Nieuws
+Contact
+Onze innovaties
+Locaties
+Over SADC
+Nieuws
+Contact
+Schiphol Trade Park
+PolanenPark
+Bedrijvenpark De President
+Schiphol Logistics Park
+Business Park Amsterdam Osdorp
+Beschikbaarheid
+Facts & Figures
+Nieuws
+Contact
++31 (0)20 - 20 666 40
+Evert van de Beekstraat 1-35
+3de verdieping The Base A
+1118 CL Schiphol
+Facts & Figures
+Ontdek meer
+Schiphol Logistics Park
+Beschikbaarheid
+Facts & figures
+Nieuws
+Contact
+Optimale bereikbaarheid per auto en LZV’s
+Het terrein ligt naast de op- en afrit van de A4 en is verbonden met de A5, A9 en N201. De locatie is ruim opgezet en daardoor ideaal bereikbaar voor auto’s en lange en zware voertuigen.
+Strategische multimodale verbindingen
+Schiphol Logistics Park biedt een directe aansluiting voor goederentransport via weg en lucht (Schiphol). De locatie biedt hierdoor toegang tot zowel de Europese als wereldwijde markten.
+Milieucategorie 3.2
+Schiphol Logistics Park voldoet aan strikte milieueisen voor verantwoord ondernemerschap.
+Goede bereikbaarheid met OV
+De buslijn 340 heeft een halte op de Naritaweg op het bedrijventerrein, waarmee Station Hoofddorp in minder dan vijf minuten bereikbaar is. Met één overstap per bus en trein is Schiphol-Centrum binnen twaalf minuten te bereiken. Buslijn 340 rijdt tussen Haarlem NS Station en Uithoorn Busstation.
+Glasvezelnetwerk beschikbaar
+Schiphol Logistics Park beschikt over een modern glasvezelnetwerk voor optimale verbindingen.
+Parkmanagement voor kwaliteit en veiligheid
+De Vereniging Parkmanagement Schiphol Logistics Park zorgt voor het onderhoud, de kwaliteit en de veiligheid op het terrein.
+Totale oppervlakte van 43 hectare
+Het bedrijventerrein bestaat uit een oostelijk en westelijk deel. Schiphol Logistics Park is volledig ontwikkeld en gericht op grootschalige logistieke operaties.
+Samen klaar voor
+de toekomst
+Contact
++31 (0)20 - 20 666 40
+Stuur een bericht
+Evert van de Beekstraat 1-35
+3de verdieping The Base A
+1118 CL Schiphol
+Locaties
+Schiphol Logistics Park
+Schiphol Trade Park
+Business Park Amsterdam Osdorp
+Bedrijvenpark De President
+Polanenpark
+Alle locaties
+Bedrijf
+Over SADC
+Podcasts
+Vacatures
+Sustainability
+CO2 Prestatieladder-Traject
+Ecomonitor SADC
+Partners
+Amsterdam Airport Area (AAA)
+Amsterdam Logistics Board
+PHB
+© 2026 SADC. Alle rechten voorbehouden
+Privacy

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+
+# Secrets / config local
+.env
+config/*.local.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Crawl output: giữ cấu trúc thư mục nhưng không commit data nặng.
+# Bỏ comment các dòng dưới nếu KHÔNG muốn commit data crawl:
+# raw_data/output/**/raw/*
+# raw_data/output/**/features/*
+!raw_data/output/**/.gitkeep

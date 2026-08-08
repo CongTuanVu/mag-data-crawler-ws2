@@ -1,0 +1,333 @@
+We’re hard at work at Schiphol Trade Park - SADC
+Consent
+Details
+[#IABV2SETTINGS#]
+About
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+[#GPC_BANNER_ICON#]
+[#GPC_TOAST_TEXT#]
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Details
+Necessary
+8
+Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+Google
+6
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+_GRECAPTCHA
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+_grecaptcha
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+rc::a
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+rc::b
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+rc::c
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+rc::f
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+www.sadc.nl
+2
+CookieConsent
+Stores the user's cookie consent state for the current domain
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+wpEmojiSettingsSupports
+This cookie is part of a bundle of cookies which serve the purpose of content delivery and presentation. The cookies keep the correct state of font, blog/picture sliders, color themes and other website settings.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+Preferences
+0
+Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.
+We do not use cookies of this type.
+Statistics
+3
+Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.
+Mapbox
+2
+Learn more about this provider
+mapbox.eventData.uuid:#
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+mapbox.eventData:#
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+embed-cdn.spotifycdn.com
+1
+sentryReplaySession
+Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+Marketing
+14
+Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.
+Spotify
+2
+Learn more about this provider
+sp_landing
+Used to implement audio-content from Spotify on the website. Can also be used to register user interaction and preferences in context with audio-content - This can serve statistics and marketing purposes.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+sp_t
+Used to implement audio-content from Spotify on the website. Can also be used to register user interaction and preferences in context with audio-content - This can serve statistics and marketing purposes.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+YouTube
+12
+Learn more about this provider
+__Secure-ROLLOUT_TOKEN
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+__Secure-YEC
+Stores the user's video player preferences using embedded YouTube video
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+__Secure-YNID
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+LAST_RESULT_ENTRY_KEY
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+LogsDatabaseV2:V#||LogsRequestsStore
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+ServiceWorkerLogsDatabase#SWHealthLog
+Necessary for the implementation and functionality of YouTube video-content on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+TESTCOOKIESENABLED
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+VISITOR_INFO1_LIVE
+Tries to estimate the users' bandwidth on pages with integrated YouTube videos.
+Maximum Storage Duration
+: 180 days
+Type
+: HTTP Cookie
+YSC
+Registers a unique ID to keep statistics of what videos from YouTube the user has seen.
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+yt-icons-last-purged
+Necessary for the implementation and functionality of YouTube video-content on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+ytidb::LAST_RESULT_ENTRY_KEY
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+YtIdbMeta#databases
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+Unclassified
+0
+Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
+We do not use cookies of this type.
+Cross-domain consent
+[#BULK_CONSENT_DOMAINS_COUNT#]
+[#BULK_CONSENT_TITLE#]
+List of domains your consent applies to:
+[#BULK_CONSENT_DOMAINS#]
+Cookie declaration last updated on 7/27/26 by
+Cookiebot
+[#IABV2_TITLE#]
+[#IABV2_BODY_INTRO#]
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+[#IABV2_BODY_PREFERENCE_INTRO#]
+[#IABV2_LABEL_PURPOSES#]
+[#IABV2_BODY_PURPOSES_INTRO#]
+[#IABV2_BODY_PURPOSES#]
+[#IABV2_LABEL_FEATURES#]
+[#IABV2_BODY_FEATURES_INTRO#]
+[#IABV2_BODY_FEATURES#]
+[#IABV2_LABEL_PARTNERS#]
+[#IABV2_BODY_PARTNERS_INTRO#]
+[#IABV2_BODY_PARTNERS#]
+About
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+Please state your consent ID and date when you contact us regarding your consent.
+Do not sell or share my personal information
+Deny
+Allow selection
+Customize
+Allow all
+Locaties
+Schiphol Trade Park
+PolanenPark
+Bedrijvenpark De President
+Schiphol Logistics Park
+Business Park Amsterdam Osdorp
+Beschikbaarheid
+Facts & Figures
+Nieuws
+Contact
+Over SADC
+Nieuws
+Contact
+Onze innovaties
+Locaties
+Over SADC
+Nieuws
+Contact
+Schiphol Trade Park
+PolanenPark
+Bedrijvenpark De President
+Schiphol Logistics Park
+Business Park Amsterdam Osdorp
+Beschikbaarheid
+Facts & Figures
+Nieuws
+Contact
++31 (0)20 - 20 666 40
+Evert van de Beekstraat 1-35
+3de verdieping The Base A
+1118 CL Schiphol
+SADC
+We’re hard at work at Schiphol Trade Park
+We’re hard at work at Schiphol Trade Park
+18 mei 2021
+PropertyNL recently published an interview with SADC’s area development manager Reinoud Fleurke and sustainability coordinator Yasha Schadee. An English translation is provided below, or you can read the
+original version in Dutch
+.
+When you’re an area developer and you want to go circular, you have to get investors, developers and clients on board. SADC has developed a strategy for Schiphol Trade Park.
+By Lizanne Schipper
+On the digital map of building plots at Schiphol Trade Park, there are still a lot of spaces marked in green, showing the message ‘available soon’. There’s no doubt that there is plenty of demand for this 350-hectare site, just south of Hoofddorp and Schiphol. Construction has been ongoing at a steady, controlled pace for a few years already, taking in various site areas. “We work in phases,” says Reinoud Fleurke, the area development manager at SADC. “We’re now at a stage where it’s necessary to add more plots again. The demand is consistently high.”
+Fleurke is currently working from home, but for the background of his videocalls, he has put up a picture of the C-Béta barn – a circular work and event location at Schiphol Trade Park that was renovated for SADC. Area development may be the core business, but C-Béta, says Fleurke, is SADC’s “showcase.”
+The logistics sector is booming
+So, Schiphol Trade Park hasn’t suffered from market players putting the brakes on developments because of the coronavirus crisis? “Not at all,” says Fleurke. “Logistics is booming. Sectors like life sciences, food and e-commerce are even performing particularly well. And their need for business space in the vicinity of Amsterdam and Schiphol is extremely high. There are some really great players in the pipeline.” In many cases, they are international companies with ties to this region for their distribution, so they are prepared to pay a bit of a premium for it. “Of course, this isn’t the cheapest location,” says Fleurke. Several businesses are making the move away from more central Amsterdam locations because of the local government’s plans to transform some business parks into residential areas.
+Some tenants have already made themselves at home at Schiphol Trade Park, such as French logistics provider Gefco. They had to relocate their distribution centre due to the expansion of Schiphol. Last year they moved into a stylish building owned by Segro. The very first finished plot at Schiphol Trade Park was also delivered early last year by Delta Development Group and VolkerWessels. That was Abc Square, some 37,000 m2 of high-quality logistics space, purchased by Barings Real Estate. Its tenants include ICE Robotics, the American manufacturer of cleaning robots, and Rapid Logistics, a home-grown logistics service provider. Delta Development Group is currently busy with a second development, which will be even bigger.
+The rest of the plots that have been sold are now undergoing “intensive construction,” says Fleurke. He expects the delivery of several tens of thousands of square metres before the end of this year. For example, construction is underway on a 12,000 m2 warehouse for Japanese company Nippon Express. But Fleurke expects that within two years, all current construction activities will be complete. So new plots at Schiphol Trade Park need to be made available so that planning procedures can progress in the meantime. The City of Amsterdam is a co-shareholder in SADC.
+As Fleurke puts it, area developers will not be able to avoid taking an extremely flexible or adaptive approach in the future. For example, there is much speculation that in the future, Amsterdam’s Noord/Zuid metro line will be extended to Hoofddorp station, which borders on one part of Schiphol Trade Park. Of course, this remains to be confirmed, but Fleurke believes it’s “highly likely.”
+Sustainability
+A lot of Schiphol Trade Park’s offices will be built close to Hoofddorp station, but a good proportion of square metres will also be set aside for high-quality logistics. And all of that must be approached in the most sustainable way possible. A four-star BREEAM certificate has already been awarded, but Schiphol Trade Park isn’t wasting time in pursuing an illustrious fifth star. Such certification also helps attract sustainability-oriented developers, investors and users, notes Yasha Schadee, who has worked as sustainability coordinator at SADC since 2017. She explains that when it comes to circular development, you have to consider every single step. The area developer certainly has the biggest influence at the area level and in terms of public space. But that influence diminishes at the construction stage, and is even more limited in regard to use. “If you want to be the most sustainable work location in Europe, which is our ambition, you have to embrace a circular way of working at every level,” adds Fleurke. That’s why collaboration is essential. “We start a conversation. We can’t just take a standpoint that only focuses on requirements.”
+In 2019, SADC set out a method to make it happen. What works best is to entice other players to choose the green path, says Schadee. Of course, there will always be a few requirements. “These are often things that are attainable for anyone, but are maybe not yet a legal requirement. A good example is to ask developers to ensure their roofs are suitable for solar panels. That can only benefit the investment value. We also expect an ecological vision, for example plans for plants on facades, for example by installing green walls.” Another example is setting up a so-called “material passport,” in which developers can record precisely what materials have been used in every element of the construction, facilitating the reuse of these materials in the future.
+The wellbeing of employees
+Employee welfare is another key part of the sustainable approach, says Schadee. “Outside, you don’t want to walk past endless blank walls. Employees inhabit our business parks. Soon there will be thousands of people walking around here. It’s in the best interests of businesses to ensure it is a pleasant environment that attracts talent.” So, sustainability is as important on the exterior: space for nature, green façades and lots of windows so that those on the outside can see what’s going on inside. “You want to see people working on the ground floor. That’s also important for the experience,” says Schadee.
+SADC “sets a standard,” says Fleurke. “But if specific measures don’t work for a company and it has better ideas, we are always happy to talk about it. You have to be ambitious, but also realistic.” The developers and businesses are guided by a sustainability team that also includes representatives from TU Delft. This team not only helps with the sustainable development but will monitor the implementation after the build.
+And in terms of getting the site users on board, Schiphol Trade Park actively manages the area. Fleurke says: “There are opportunities for companies to make their business operations more circular, be it through the joint procurement of services, local energy management, management of green façades and waste management. Ongoing management of the business park is just as important as the development phase. That’s when you can really look after and grow value.”
+Terug naar overzicht
+Nieuws
+Relevante
+ontwikkelingen
+Van grijs naar groen: SADC ontwikkelt de werklandschappen van de toekomst.
+InterviewNieuws
+22/07/2026
+CTS GROUP vestigt zich met uniek logistiek centrum op Schiphol Trade Park
+EnergiecoöperatieInnovatieNieuwsSchiphol Tradepark
+07/07/2026
+Rijnland en Schiphol Trade Park werken samen aan duurzaam transportgemaal
+Nieuws
+06/07/2026
+Samen klaar voor
+de toekomst
+Contact
++31 (0)20 - 20 666 40
+Stuur een bericht
+Evert van de Beekstraat 1-35
+3de verdieping The Base A
+1118 CL Schiphol
+Locaties
+Schiphol Logistics Park
+Schiphol Trade Park
+Business Park Amsterdam Osdorp
+Bedrijvenpark De President
+Polanenpark
+Alle locaties
+Bedrijf
+Over SADC
+Podcasts
+Vacatures
+Sustainability
+CO2 Prestatieladder-Traject
+Ecomonitor SADC
+Partners
+Amsterdam Airport Area (AAA)
+Amsterdam Logistics Board
+PHB
+© 2026 SADC. Alle rechten voorbehouden
+Privacy
+Copy link
+✓
+Thanks for sharing!
+Instantly find any service to add to
+AddToAny
+More…
