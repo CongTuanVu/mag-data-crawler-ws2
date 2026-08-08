@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "source_image": "https://images.ctfassets.net/biom0eqyyi6b/50xK2WYOXpwHGaeu0GIdPw/23fcddcbcca645b1b2bb634d4d55c59b/cards_gebouw_wtc.jpg",
+    "page_url": "https://www.schiphol.nl/en/real-estate/schiphol-business-district/",
+    "caption": "Khu Thương mại Schiphol (Business District)",
+    "bytes": 186317
+  },
+  "planning": {
+    "file": "planning.jpg",
+    "source_image": "https://www.sadc.nl/wp-content/uploads/2024/10/Luchtfoto-Schiphol-Logistics-Park-mei-2024-naamsvermelding-The-Flying-Dutchmen-8.jpg",
+    "page_url": "https://www.sadc.nl/locaties/schiphol-logistics-park/",
+    "caption": "Ảnh trên không khu hậu cần Schiphol Logistics Park",
+    "bytes": 115583
+  },
+  "vision": {
+    "file": "vision.jpg",
+    "source_image": "https://images.ctfassets.net/biom0eqyyi6b/3yvHwKmQliKIWphjJpXRLO/08ede8cccbd6b17e4366e7bf9fabcaee/luchthaven_van_de_toekomst.jpg",
+    "page_url": "https://www.schiphol.nl/en/projects/all-schiphol-projects/we-re-building-the-airport-of-the-future/",
+    "caption": "Định hướng 'Sân bay của tương lai'",
+    "bytes": 148326
+  },
+  "experience": {
+    "file": "experience.jpg",
+    "source_image": "https://images.ctfassets.net/biom0eqyyi6b/6062bn07vFOeNYhtqvLqyP/a977a9efb1d76b5b3543898592da9c91/fortune_bar.jpg",
+    "page_url": "https://www.schiphol.nl/en/real-estate/facilities/",
+    "caption": "Tiện ích & không gian trải nghiệm tại Schiphol",
+    "bytes": 89889
+  }
+}

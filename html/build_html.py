@@ -13,6 +13,7 @@ Chạy:
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import sys
 from datetime import datetime, timezone
@@ -72,6 +73,11 @@ TEMPLATE = r"""<!DOCTYPE html>
   .src{font-size:11px;color:#9aa7be;text-decoration:none}
   .quote{border-left:3px solid var(--teal);background:#f3f8f6;padding:8px 13px;border-radius:0 8px 8px 0;
      font-style:italic;color:#37475d;font-size:13.5px;margin:8px 0 0}
+  .hero-img{width:100%;height:238px;object-fit:cover;display:block}
+  .hero-cap{font-size:11px;color:var(--muted);padding:5px 26px;background:#f6f8fc;border-bottom:1px solid var(--line);font-style:italic}
+  figure.ill{margin:12px 0 0}
+  figure.ill img{width:100%;max-height:230px;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
+  figure.ill figcaption{font-size:11.5px;color:var(--muted);margin-top:5px;font-style:italic}
   .foot{padding:12px 26px;border-top:2px solid var(--navy);background:#f6f8fc;font-size:12px;color:var(--muted);font-style:italic}
   .foot b{color:var(--navy);font-style:normal}
   details.prov{max-width:1120px;margin:0 auto 20px;background:#fff;border:1px solid #b9c2d2;border-radius:6px;padding:6px 18px 14px}
@@ -88,6 +94,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="tag">PHÂN TÍCH AEROTROPOLIS · BENCHMARK</div>
   </div>
   <div class="subbar" id="subbar"></div>
+  <div id="heroimg"></div>
   <div class="grid">
     <div class="lab">Giới thiệu</div>          <div class="cell lead" id="intro"></div>
     <div class="lab">Vị trí & lịch sử</div>    <div class="cell" id="loc"></div>
@@ -120,8 +127,14 @@ TEMPLATE = r"""<!DOCTYPE html>
 
 <script>
 const DATA = __DATA__;
+const IMAGES = __IMAGES__;
 const GENERATED = "__GENERATED__";
 const rec = DATA.record, prov = DATA.provenance || {};
+function figureFor(section){
+  const im = IMAGES[section]; if(!im) return "";
+  const cap = im.caption + (im.page_url?` · <a href="${im.page_url}" target="_blank">nguồn</a>`:"");
+  return `<figure class="ill"><img src="${im.datauri}" alt="${im.caption||''}"><figcaption>${cap}</figcaption></figure>`;
+}
 const FLAGS = {"Hà Lan":"🇳🇱","Hàn Quốc":"🇰🇷","Trung Quốc":"🇨🇳","Việt Nam":"🇻🇳","Singapore":"🇸🇬","Đức":"🇩🇪","UAE":"🇦🇪","Nhật Bản":"🇯🇵"};
 
 /* ---- Từ điển dịch thuật ngữ EN -> VI ---- */
@@ -156,8 +169,15 @@ document.getElementById("subbar").innerHTML =
   `<div>${rec.is_target?'<span class="pill">DỰ ÁN MỤC TIÊU</span>':'<span class="pill">CASE THAM CHIẾU</span>'}</div>` +
   (rec.official_website?`<div>🔗 <a href="${rec.official_website}" target="_blank">${rec.official_website.replace(/^https?:\/\//,'')}</a></div>`:"");
 
+/* ---- Ảnh hero ---- */
+if(IMAGES.hero){
+  document.getElementById("heroimg").innerHTML =
+    `<img class="hero-img" src="${IMAGES.hero.datauri}" alt="${IMAGES.hero.caption||''}">`+
+    `<div class="hero-cap">${IMAGES.hero.caption||""}${IMAGES.hero.page_url?` · <a href="${IMAGES.hero.page_url}" target="_blank">nguồn</a>`:""}</div>`;
+}
+
 /* ---- Giới thiệu ---- */
-let intro = `${b(rec.case_name||"")}${rec.aerotropolis?` (còn gọi ${rec.aerotropolis.split('/').pop().trim()})`:""} là khu đô thị sân bay của ${b(rec.country||"")}`;
+let intro =`${b(rec.case_name||"")}${rec.aerotropolis?` (còn gọi ${rec.aerotropolis.split('/').pop().trim()})`:""} là khu đô thị sân bay của ${b(rec.country||"")}`;
 if(has("airport_name")) intro += `, phát triển quanh ${b("sân bay "+rec.airport_name)}`;
 if(has("reference_city")) intro += ` và gắn liền với vùng đô thị ${b(rec.reference_city)}`;
 intro += ".";
@@ -193,6 +213,7 @@ if(has("logistics_park_ha")) parks.push(`${b("Schiphol Logistics Park")} (~${fmt
 if(has("trade_park_ha")) parks.push(`${b("Schiphol Trade Park")} (~${fmtVi(rec.trade_park_ha)} ha)`);
 if(parks.length) plan += `Ở cấp vùng, hệ sinh thái mở rộng với ${joinVi(parks)} — các khu hậu cần - kinh doanh phát triển theo từng giai đoạn ở phía nam Hoofddorp.${src("trade_park_ha")}`;
 set("planning", plan?P(plan):"");
+document.getElementById("planning").innerHTML += figureFor("planning");
 
 /* ---- Tầm nhìn & bền vững ---- */
 let vis = "";
@@ -204,6 +225,7 @@ if(has("vision_label")){
 }
 if(has("sustainability")) vis += `Về phát triển bền vững, khu hậu cần theo đuổi ${joinVi(trList(rec.sustainability,VI.sustain))}, hướng tới trở thành khu logistics bền vững hàng đầu.${src("sustainability")}`;
 set("vision", vis?P(vis):"");
+document.getElementById("vision").innerHTML += figureFor("vision");
 
 /* ===== Slide B — CVP (lời văn) ===== */
 let pr = "";
@@ -225,6 +247,7 @@ set("cvp_service", sv?P(sv):"");
 let ex = "";
 if(has("cvp_experience")) ex += `Trải nghiệm tại chỗ phong phú với ${joinVi(trList(rec.cvp_experience,Object.assign({},VI.amenity,VI.highlight)))}; lưu trú có các khách sạn cao cấp kết nối trực tiếp nhà ga.${src("cvp_experience")}`;
 set("cvp_experience", ex?P(ex):"");
+document.getElementById("cvp_experience").innerHTML += figureFor("experience");
 
 let cv = "";
 if(has("cvp_convenience")) cv += `Khả năng kết nối là thế mạnh nổi bật: tiếp cận bằng cả ${b("ô tô, xe buýt, tàu hoả và máy bay")}, liền kề các cao tốc ${b("A4/A5/A9/A10")}; chỉ 2–8 phút tới nhà ga NS và sảnh sân bay, tàu cao tốc đi ${b("Paris")} chạy 9 chuyến mỗi ngày.${src("cvp_convenience")} `;
@@ -255,6 +278,23 @@ Object.entries(urlMap).forEach(([u,keys],i)=>{
 """
 
 
+def load_images(name: str) -> dict:
+    """Đọc html/assets/<name>/images.json -> nhúng ảnh base64 (self-contained)."""
+    d = HERE / "assets" / name
+    j = d / "images.json"
+    if not j.exists():
+        return {}
+    out = {}
+    for section, info in json.loads(j.read_text(encoding="utf-8")).items():
+        p = d / info.get("file", "")
+        if not p.exists():
+            continue
+        b64 = base64.b64encode(p.read_bytes()).decode()
+        out[section] = {"datauri": f"data:image/jpeg;base64,{b64}",
+                        "caption": info.get("caption", ""), "page_url": info.get("page_url", "")}
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Sinh trang web tĩnh (lời văn tiếng Việt) cho 1 aerotropolis")
     ap.add_argument("--name", default="schiphol")
@@ -266,11 +306,14 @@ def main() -> None:
         raise SystemExit(f"Không thấy JSON: {json_path}")
 
     data = json.loads(json_path.read_text(encoding="utf-8"))
+    images = load_images(args.name)
     title = data.get("record", {}).get("case_name", args.name)
     html = (TEMPLATE
             .replace("__DATA__", json.dumps(data, ensure_ascii=False))
+            .replace("__IMAGES__", json.dumps(images, ensure_ascii=False))
             .replace("__GENERATED__", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"))
             .replace("__TITLE__", title))
+    print(f"[img] nhúng {len(images)} ảnh")
 
     (HERE / f"{args.name}.html").write_text(html, encoding="utf-8")
     (HERE / "index.html").write_text(html, encoding="utf-8")
