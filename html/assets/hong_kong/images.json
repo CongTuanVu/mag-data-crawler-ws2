@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "source_image": "https://threerunwaysystem.hongkongairport.com/media/1967/third-runway-panorama-2022-07-13-1_r1_.jpg",
+    "page_url": "https://threerunwaysystem.hongkongairport.com/en/three-runway-system/project-overview/",
+    "caption": "Toàn cảnh hệ ba đường băng trên đảo Chek Lap Kok",
+    "bytes": 41718
+  },
+  "planning": {
+    "file": "planning.jpg",
+    "source_image": "https://threerunwaysystem.hongkongairport.com/media/1989/3rs_map_en_220725.jpg",
+    "page_url": "https://threerunwaysystem.hongkongairport.com/en/three-runway-system/project-overview/",
+    "caption": "Sơ đồ hệ ba đường băng và mặt bằng mở rộng sân bay",
+    "bytes": 81263
+  },
+  "vision": {
+    "file": "vision.jpg",
+    "source_image": "https://www.hongkongairport.com/iwov-resources/image/airport-authority/vision-mission/vision_and_mission_main_image_2025.png",
+    "page_url": "https://www.hongkongairport.com/en/airport-authority/vision-mission/index.page",
+    "caption": "Tầm nhìn & sứ mệnh của Airport Authority Hong Kong",
+    "bytes": 66096
+  },
+  "experience": {
+    "file": "experience.jpg",
+    "source_image": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/assets/images/visiting/skycity/1600x650-skycity.jpg?ext=.jpg",
+    "page_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+    "caption": "SKYCITY — lõi thương mại & giải trí nối thẳng AsiaWorld-Expo",
+    "bytes": 77922
+  }
+}

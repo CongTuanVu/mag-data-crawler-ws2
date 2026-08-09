@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import io
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -61,6 +62,42 @@ CURATION = {
         ("planning",   "07_bradfield_city_trang_ch_nh",                        "Bản đồ phân khu Bradfield City: Enterprise, AMRF, Central Park, University, Commercial", "city%20spaces%20map"),
         ("vision",     "05_nsw_gov_delivering_bradfield_city",                 "Phối cảnh Bradfield City theo Master Plan duyệt 9/2024", "BDA-artist-impres"),
         ("experience", "06_bradfield_city_what_is_bradfield_city",             "Không gian mở và tiện ích công cộng — 1/3 diện tích thành phố", "Food-and-Beverage-venu"),
+    ],
+    "dubai_south": [
+        ("hero",       "01_dubai_south_trang_ch_ch_nh_th_c",                   "Hệ sinh thái hàng không Dubai South bao quanh sân bay Al Maktoum", "Home_4_Home_Page_slider_1"),
+        ("planning",   "04_dubai_south_mbr_aerospace_hub",                     "Sơ đồ quy hoạch khu hàng không MBR Aerospace Hub", "Master_Plan"),
+        ("vision",     "01_dubai_south_trang_ch_ch_nh_th_c",                   "Tầm nhìn dài hạn dẫn dắt quá trình phát triển Dubai South", "Home_5_Home_Page_slider_1B"),
+        ("experience", "07_dubai_south_live_khu_d_n_c",                        "Khu dân cư ven nước The Pulse Beachfront", "The_Pulse_BeachFrount"),
+    ],
+    "changi": [
+        ("hero",       "07_changi_fact_sheet_terminal_5",                      "Phối cảnh trên không Nhà ga T5 và khu Changi East", "terminal-5-aerial"),
+        ("planning",   "06_changi_future_developments",                        "Sơ đồ mặt bằng khu phát triển Changi East", "site-plan"),
+        ("vision",     "06_changi_future_developments",                        "Nhà ga T5 — bước mở rộng công suất lên 135 triệu khách/năm", "terminal-5:"),
+        ("experience", "08_changi_fact_sheet_jewel",                           "Forest Valley trong Jewel Changi Airport", "forest valley"),
+    ],
+    "hong_kong": [
+        ("hero",       "03_hkia_three_runway_system_t_ng_quan_d_n",            "Toàn cảnh hệ ba đường băng trên đảo Chek Lap Kok", "third-runway-panorama"),
+        ("planning",   "03_hkia_three_runway_system_t_ng_quan_d_n",            "Sơ đồ hệ ba đường băng và mặt bằng mở rộng sân bay", "3rs_map_en"),
+        ("vision",     "02_hkia_vision_mission_airport_authority",             "Tầm nhìn & sứ mệnh của Airport Authority Hong Kong", "vision_and_mission"),
+        ("experience", "05_asiaworld_expo_skycity",                            "SKYCITY — lõi thương mại & giải trí nối thẳng AsiaWorld-Expo", "1600x650-skycity"),
+    ],
+    "frankfurt": [
+        ("hero",       "06_skylineatlas_gateway_gardens",                      "Toàn cảnh khu văn phòng Gateway Gardens cạnh sân bay Frankfurt", "gateway-gardens-frankfurt"),
+        ("planning",   "05_gateway_gardens_trang_ch_nh_th_c_khu",              "Khu Gateway Gardens (~35 ha) giữa sân bay Frankfurt và nút giao Frankfurter Kreuz", "main-slider/0"),
+        ("vision",     "12_fraport_sustainability",                            "Định hướng phát triển bền vững của Fraport", "AM_05_2022"),
+        ("experience", "05_gateway_gardens_trang_ch_nh_th_c_khu",              "Không gian làm việc, khách sạn và tiện ích trong Gateway Gardens", "pages/main/3"),
+    ],
+    "dfw": [
+        ("hero",       "05_dfw_nghi_n_c_u_t_c_ng_kinh_t_78_3_t_usd",           "Sân bay DFW về đêm — cửa ngõ hàng không của vùng Bắc Texas", "Roadway_Terminal_D_Night"),
+        ("planning",   "07_wikipedia_dallas_fort_worth_international_airport",  "Sơ đồ mặt bằng sân bay DFW (FAA airport diagram) — 5 nhà ga, 7 đường băng", "FAA airport diagram"),
+        ("vision",     "07_wikipedia_dallas_fort_worth_international_airport",  "Ảnh trên không DFW — quỹ đất 17.183 acre lớn hơn Manhattan", "aerial photograph of DFW"),
+        ("experience", "07_wikipedia_dallas_fort_worth_international_airport",  "Không gian bán lẻ & ẩm thực trong nhà ga DFW", "Gate C35"),
+    ],
+    "kuala_lumpur": [
+        ("hero",       "01_klia_aeropolis_trang_ch_nh_th_c",                   "KLIA Aeropolis — đô thị sân bay thế kỷ 21 quanh KLIA", "bnr-aeropolis-01"),
+        ("planning",   "01_klia_aeropolis_trang_ch_nh_th_c",                   "Sơ đồ vị trí và phạm vi 100 km² của KLIA Aeropolis", "klia-map"),
+        ("vision",     "04_klia_aeropolis_aerospace_park",                     "Aerospace Park — cụm hàng không vũ trụ và MRO", "header-Aerospace"),
+        ("experience", "05_klia_aeropolis_c_m_mice_leisure",                   "Cụm MICE & Leisure: hội nghị, arena, du lịch sự kiện", "mice-overview"),
     ],
 }
 
@@ -211,6 +248,20 @@ def inspect_case(name: str, section_filter: str | None = None) -> None:
                 print(f"        near: {c['near'][:96]}")
 
 
+def upsize_url(url: str, want_w: int = 1400) -> str:
+    """Nâng tham số bề rộng trên URL ảnh của các CDN/DAM (scene7, Next.js image…).
+
+    Trang thường nhúng bản thumbnail (`wid=250`) của ĐÚNG tấm ảnh cần; lấy nguyên
+    thumbnail thì ảnh vỡ khi hiển thị full-width. Đổi tham số là lấy bản lớn hơn
+    của cùng asset, không phải đổi sang ảnh khác.
+    """
+    def bump(m):
+        return f"{m.group(1)}={want_w}" if int(m.group(2)) < want_w else m.group(0)
+    url = re.sub(r"\b(wid|w)=(\d+)", bump, url)
+    url = re.sub(r"\b(hei|h)=(\d+)", lambda m: "", url).replace("&&", "&").rstrip("&?")
+    return url
+
+
 def fetch_resize(url: str, max_w: int = 820) -> bytes | None:
     r = requests.get(url, headers=HEADERS, timeout=25)
     r.raise_for_status()
@@ -274,10 +325,17 @@ def main() -> None:
         if img_url in used:
             print(f"  [warn] {section}: TRÙNG ảnh với mục '{used[img_url]}' — nên đổi slug/want")
         used[img_url] = section
-        try:
-            data = fetch_resize(img_url, args.max_width)
-        except Exception as exc:  # noqa: BLE001
-            print(f"  [fail] {section}: {img_url[:60]} -> {exc}")
+        # Thử bản độ phân giải cao trước; CDN nào không nhận tham số đã sửa
+        # (vd Next.js chỉ cho phép vài giá trị `w`) thì quay về URL gốc.
+        data = None
+        for candidate in dict.fromkeys([upsize_url(img_url), img_url]):
+            try:
+                data = fetch_resize(candidate, args.max_width)
+                break
+            except Exception as exc:  # noqa: BLE001
+                last_err = exc
+        if data is None:
+            print(f"  [fail] {section}: {img_url[:60]} -> {last_err}")
             continue
         fname = f"{section}.jpg"
         (out_dir / fname).write_bytes(data)

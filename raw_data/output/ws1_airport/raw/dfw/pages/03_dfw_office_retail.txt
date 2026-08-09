@@ -1,0 +1,787 @@
+Office/Retail | DFW International Airport
+Consent
+Details
+[#IABV2SETTINGS#]
+About
+This website uses cookies
+We use cookies to personalize content and ads, to provide social media features, and to analyze our traffic. We also share information about your use of our site with our social media, advertising, and analytics partners who may combine it with other information that you have provided to them or that they have collected from your use of their services.
+[#GPC_BANNER_ICON#]
+[#GPC_TOAST_TEXT#]
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Details
+Necessary
+9
+Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+Adelphic
+1
+Learn more about this provider
+cu
+Used to detect if the visitor has accepted the marketing category in the cookie banner. This cookie is necessary for GDPR-compliance of the website.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Cookiebot
+1
+Learn more about this provider
+CookieConsent
+Stores the user's cookie consent state for the current domain
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Google
+3
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.
+test_cookie
+Used to check if the user's browser supports cookies.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+rc::a
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+rc::c
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+www.dfwairport.com
+4
+firebase_remote_config#app_namespace_store
+Used in connection with the synchronisation between the website and third-party Data Management Platform. The cookie serves to monitor this process for security reasons.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+firebase-heartbeat-database#firebase-heartbeat-store
+Used in order to detect spam and improve the website's security.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+firebase-installations-database#firebase-installations-store
+Control cookie used in connection to the website’s Content Delivery Network (CDN).
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+loglevel
+Maintains settings and outputs when using the Developer Tools Console on current session.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+Preferences
+1
+Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.
+www.dfwairport.com
+1
+isEmployeeUser
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+Statistics
+14
+Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.
+Google
+3
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.
+_ga
+Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+Maximum Storage Duration
+: 2 years
+Type
+: HTTP Cookie
+_ga_#
+Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+Maximum Storage Duration
+: 2 years
+Type
+: HTTP Cookie
+_gat
+Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+Quantcast
+3
+Learn more about this provider
+__qca
+Collects data on the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded with the purpose of generating reports for optimising the website content.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+_dlt
+Sets a unique ID for the session. This allows the website to obtain data on visitor behaviour for statistical purposes.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+__qca
+Collects data on the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded with the purpose of generating reports for optimising the website content.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+TikTok
+1
+Learn more about this provider
+_tt_enable_cookie
+Used by the social networking service, TikTok, for tracking the use of embedded services.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+consentag.eu
+2
+bid
+Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+Maximum Storage Duration
+: 5 months
+Type
+: HTTP Cookie
+browserId
+Sets a ID for the visitor. This serves to count the number of specific visitors on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+maps.locuslabs.com
+3
+AI_buffer_1
+Pending
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+AI_sentBuffer_1
+Pending
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+ll_installId_dd16e685-2d90-4189-9cc8-c04d895353fe
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+www.dfwairport.com
+2
+mapbox.eventData.uuid:#
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+mapbox.eventData:#
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+Marketing
+53
+Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third-party advertisers.
+Meta Platforms, Inc.
+3
+Learn more about this provider
+lastExternalReferrer
+Detects how the user reached the website by registering their last URL-address.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+lastExternalReferrerTime
+Detects how the user reached the website by registering their last URL-address.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+_fbp
+Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.
+Maximum Storage Duration
+: 3 months
+Type
+: HTTP Cookie
+Amazon
+2
+Learn more about this provider
+ad-id
+Used by Amazon Advertising to register user actions and target content on the website based on ad clicks on a different website.
+Maximum Storage Duration
+: 253 days
+Type
+: HTTP Cookie
+ad-privacy
+Used by Amazon Advertising to register user actions and target content on the website based on ad clicks on a different website.
+Maximum Storage Duration
+: 400 days
+Type
+: HTTP Cookie
+Appnexus
+1
+Learn more about this provider
+px
+Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+Crimtan
+2
+Learn more about this provider
+cid
+Registers user behaviour and navigation on the website, and any interaction with active campaigns. This is used for optimizing advertisement and for efficient retargeting.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+cid_#
+Collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Whois Privacy Protection Service, Inc.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Google
+8
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.
+_gcl_au
+Used to measure the efficiency of the website’s advertisement efforts, by collecting data on the conversion rate of the website’s ads across multiple websites.
+Maximum Storage Duration
+: 3 months
+Type
+: HTTP Cookie
+_gid
+Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+IDE
+Used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.
+Maximum Storage Duration
+: 400 days
+Type
+: HTTP Cookie
+gmp\conversion#
+Pending
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+NID
+Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.
+Maximum Storage Duration
+: 6 months
+Type
+: HTTP Cookie
+pagead/1p-user-list/#
+Tracks if the user has shown interest in specific products or events across multiple websites and detects how the user navigates between sites. This is used for measurement of advertisement efforts and facilitates payment of referral-fees between websites.
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+ddm/activity/src=#
+Pending
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+_gcl_ls
+Tracks the conversion rate between the user and the advertisement banners on the website - This serves to optimise the relevance of the advertisements on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+Microsoft
+7
+Learn more about this provider
+_uetsid
+Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+_uetsid_exp
+Contains the expiry-date for the cookie with corresponding name.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+_uetvid
+Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+_uetvid_exp
+Contains the expiry-date for the cookie with corresponding name.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+MUID
+Used widely by Microsoft as a unique user ID. The cookie enables user tracking by synchronising the ID across many Microsoft domains.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+_uetsid
+Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+_uetvid
+Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Ninthdecimal
+2
+Learn more about this provider
+v1/lci/sync/adv-tpad/c-20395/
+Pending
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+ndat
+Used to track the visitor across multiple devices including TV. This is done in order to re-target the visitor through multiple channels.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Oath
+1
+Learn more about this provider
+spp.pl
+Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+Quantcast
+2
+Learn more about this provider
+_qcses_p-hER7M8FaP9aY-
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+mc
+Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads.
+Maximum Storage Duration
+: 13 months
+Type
+: HTTP Cookie
+Simpli.fi
+2
+Learn more about this provider
+suid
+Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+suid_legacy
+Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Tapad
+2
+Learn more about this provider
+TapAd_DID
+Used to determine what type of devices (smartphones, tablets, computers, TVs etc.) is used by a user.
+Maximum Storage Duration
+: 2 months
+Type
+: HTTP Cookie
+TapAd_TS
+Used to determine what type of devices (smartphones, tablets, computers, TVs etc.) is used by a user.
+Maximum Storage Duration
+: 2 months
+Type
+: HTTP Cookie
+The Trade Desk
+1
+Learn more about this provider
+track/pxl/
+Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+TikTok
+7
+Learn more about this provider
+tt_appInfo
+Used by the social networking service, TikTok, for tracking the use of embedded services.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+tt_pixel_session_index
+Used by the social networking service, TikTok, for tracking the use of embedded services.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+tt_sessionId
+Used by the social networking service, TikTok, for tracking the use of embedded services.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+_ttp [x2]
+Used by the social networking service, TikTok, for tracking the use of embedded services.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+ttcsid
+Pending
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+ttcsid_#
+Tracks the conversion rate between the user and the advertisement banners on the website - This serves to optimise the relevance of the advertisements on the website.
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+YouTube
+4
+Learn more about this provider
+LAST_RESULT_ENTRY_KEY
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+yt-icons-last-purged
+Necessary for the implementation and functionality of YouTube video-content on the website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+ytidb::LAST_RESULT_ENTRY_KEY
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+YtIdbMeta#databases
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: Persistent
+Type
+: IndexedDB
+capig.stape.us
+1
+cee
+Registers a unique ID that identifies the user's device during return visits. Used for conversion tracking and to measure the efficacy of online ads.
+Maximum Storage Duration
+: 3 months
+Type
+: HTTP Cookie
+consentag.eu
+1
+__tmbid
+Pending
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+pix.pontiac.media
+1
+pixel
+Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+pixel.logtrackback.com
+1
+track
+Pending
+Maximum Storage Duration
+: Session
+Type
+: Pixel Tracker
+scripts.inmarkethub.com
+3
+cimcid
+Pending
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+inmarket_pixid
+Pending
+Maximum Storage Duration
+: Session
+Type
+: HTTP Cookie
+inmarket_token
+Pending
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+www.gstatic.com
+www.youtube-nocookie.com
+2
+TESTCOOKIESENABLED [x2]
+Used to track user’s interaction with embedded content.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+Unclassified
+2
+Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
+pontiac.media
+1
+pontiacId
+Pending
+Maximum Storage Duration
+: 3 months
+Type
+: HTTP Cookie
+www.dfwairport.com
+1
+internalError
+Pending
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+Cross-domain consent
+[#BULK_CONSENT_DOMAINS_COUNT#]
+[#BULK_CONSENT_TITLE#]
+List of domains your consent applies to:
+[#BULK_CONSENT_DOMAINS#]
+Cookie declaration last updated on 7/22/26 by
+Cookiebot
+[#IABV2_TITLE#]
+[#IABV2_BODY_INTRO#]
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+[#IABV2_BODY_PREFERENCE_INTRO#]
+[#IABV2_LABEL_PURPOSES#]
+[#IABV2_BODY_PURPOSES_INTRO#]
+[#IABV2_BODY_PURPOSES#]
+[#IABV2_LABEL_FEATURES#]
+[#IABV2_BODY_FEATURES_INTRO#]
+[#IABV2_BODY_FEATURES#]
+[#IABV2_LABEL_PARTNERS#]
+[#IABV2_BODY_PARTNERS_INTRO#]
+[#IABV2_BODY_PARTNERS#]
+About
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies, we need your permission.
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+Learn more about who we are, how you can contact us, and how we process personal data in our Privacy Policy.
+Please state your consent ID and date when you contact us regarding your consent.
+Do not sell or share my personal information
+Allow all
+Customize
+Allow selection
+Deny
+Summer Travel Update
+Dismiss
+Skip to main content
+Flights
+Park
+Book Parking
+Parking Products
+Terminal
+Express
+Remote
+Valet
+Cell Phone Lots
+Parking FAQs
+Parking Availability
+Refunds & Payments
+Shop/Dine/Services
+Explore
+In the Terminals
+Shopping, Dining, and Services
+Wi-Fi & Technology
+Traveler Lounges
+Art at DFW
+Family Friendly Amenities
+Traveling with Pets
+Map
+Transportation
+DFW Airport Shuttle Tracker
+Directions
+Park
+Rental Cars
+Ground Transportation
+Public Transit
+Plan
+Airlines
+Customs Clearance
+Connect/Transfer
+Passenger Assistance
+Lost and Found
+Corporate Aviation
+Hotels & Suites
+Visit Dallas & Fort Worth
+Founders' Plaza
+Security Wait Times
+Construction at DFW
+Business & Community
+About DFW
+About DFW & Fast Facts
+Board
+Executive Leadership
+Our Brand
+Strategic Plan
+Traffic Statistics
+Investors
+Code & Construction
+DFW Airport Project Tracker
+Operations
+Safety Management System
+Publications
+In the Community
+Sustainability
+Stormwater Management
+ESG
+Aircraft Noise
+Department of Public Safety
+Business Opportunities
+Concessions
+Advertising
+Commercial Development
+Cargo
+Business Development
+Procurement
+Risk Management
+Access DFW
+Secure Access Program
+Ground Transportation Business Operations
+Resources
+Careers at DFW
+Support
+Account
+Sign in
+Create account
+Create your myDFW account to:
+Prebook parking faster
+Manage parking bookings
+Receive specials and discounts
+Participate in myDFW Rewards
+Search
+Enter keywords to search
+What are you looking for?
+Explore popular searches from fellow travelers
+Construction
+Restroom
+Connect
+Map
+Security
+Assistance
+Accessibility
+Powered by
+Google Translate
+English
+Tây Ban Nha
+Đức
+Ả Rập
+Nhật
+Croatia
+Hà Lan
+Chọn Ngôn ngữ
+Ả Rập
+Croatia
+Đức
+Hà Lan
+Nhật
+Tây Ban Nha
+Được hỗ trợ bởi
+Dịch
+Commercial Development
+Office/Retail
+Southgate Plaza
+Location:
+Near the Rental Car Center, Airfield Drive and the south entrance
+Space:
+32 acres; Hospitality, retail, office, restaurants
+Description:
+Southgate Plaza is a master-planned development which is well positioned outside of the terminal area. DFW Airport has located its headquarters and a 137-room Hyatt Place Hotel in this district.
+Inquire
+Belt Line Station
+Location:
+SH 161, Beltline Rd., Valley View Ln.
+Space:
+70 acres; Retail, hotel, flex-showroom/light industrial developments
+Description:
+The Beltline Station District provides transit-oriented leasable land for a combination of retail, hotel, and flex-showroom/light industrial developments.
+Inquire
+Go to top
+Passengers
+Accessibility
+Flights
+Airlines
+Prebook Parking
+Parking Availability
+Security wait times
+Map
+Shop/Dine/Services
+Construction at DFW
+Report a safety issue or concern to DFW Airport
+Business & Community
+Careers at DFW
+#OneDFW
+About DFW
+Community
+Board & Administration
+Business Opportunities
+Procurement
+General
+Weather at DFW
+Department of Public Safety
+Report missing property
+Newsletter Sign Up
+Customer Support
+Newsroom
+Open Records Request
+myDFW Rewards
+Download the DFW Airport app
+Follow us
+Click to open certificate verification popup
+© 2026 Dallas Fort Worth International Airport
+Title VI Nondiscrimination
+Public Information Act
+Legal
+Văn bản gốc
+Đánh giá bản dịch này
+Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google Dịch

@@ -89,5 +89,97 @@
       "Dự án định hình đô thị, chạy từ St Marys qua sân bay mới tới Bradfield City Centre, sẽ tạo cú hích kinh tế lớn cho Tây Sydney, với hơn 14.000 việc làm trong giai đoạn thi công cho kinh tế bang NSW và cả nước."
     ],
     "airport_name": "quốc tế Tây Sydney – Nancy-Bird Walton"
+  },
+  "dubai_south": {
+    "airport_name": "quốc tế Al Maktoum",
+    "positioning": "Đô thị sân bay (Dubai World Central)",
+    "planning_concept": "Dubai South là nơi thành công đến từ đổi mới sáng tạo, công nghệ, cơ hội, phát triển bền vững và đầu tư thông minh.",
+    "total_investment_usd": "128 tỷ AED (khoảng 34,85 tỷ USD)",
+    "development_context": "Trong năm, Dubai South đón thêm 653 doanh nghiệp mới, nâng tổng số doanh nghiệp đang hoạt động lên hơn 4.200, với tỷ lệ giữ chân khách thuê đạt 90%.",
+    "location_desc": "Khu hậu cần dài 18 km gồm nhiều phân khu được tối ưu cho phân phối hàng hoá.",
+    "lead_developer": "Dubai South",
+    "economic_zone_name": "Khu tự do Dubai South (Dubai South Free Zone)",
+    "cvp_convenience": [
+      "hàng hoá di chuyển giữa cảng biển và sân bay chỉ trong khoảng 20 phút",
+      "Khu hậu cần dài 18 km gồm nhiều phân khu được tối ưu cho phân phối hàng hoá."
+    ],
+    "rail_connections": [
+      "Các ga Expo trên tuyến metro Route 2020 của Dubai đã đi vào khai thác"
+    ]
+  },
+  "changi": {
+    "airport_name": "Changi (Singapore)",
+    "positioning": "Đô thị sân bay / trung tâm trung chuyển hàng không",
+    "planning_concept": "dự án phát triển Changi East, bao gồm việc xây dựng Nhà ga T5 mới cho sân bay Changi.",
+    "development_context": "Lượng khách qua sân bay Changi đạt mức cao nhất mọi thời đại trong năm 2025, với 69,98 triệu lượt, tăng 3,4% so với năm 2024.",
+    "investor_governance": "Changi Airport Group là doanh nghiệp nhà nước vận hành sân bay Changi và phát triển bất động sản hàng không quanh sân bay.",
+    "lead_developer": "Changi Airport Group",
+    "cvp_convenience": [
+      "khoảng 100 hãng bay khai thác hơn 7.300 chuyến mỗi tuần tại Changi, nối Singapore với hơn 170 thành phố ở 50 quốc gia",
+      "nối Singapore với hơn 170 thành phố tại 50 quốc gia và vùng lãnh thổ trên thế giới."
+    ],
+    "rail_connections": [
+      "Tuyến Thomson–East Coast sẽ kéo dài tới Nhà ga T5 để nối thẳng vào trung tâm thành phố và đi tiếp lên phía bắc."
+    ]
+  },
+  "hong_kong": {
+    "airport_name": "quốc tế Hong Kong",
+    "positioning": "Đô thị sân bay / SKYCITY",
+    "total_investment_usd": "9 tỷ HKD",
+    "investor_governance": "Airport Authority Hong Kong là cơ quan luật định do Chính quyền Đặc khu Hong Kong sở hữu hoàn toàn.",
+    "lead_developer": "Airport Authority Hong Kong",
+    "cvp_convenience": [
+      "Bến tàu SkyPier bắt đầu khai thác từ năm 2008–2009.",
+      "Cửa khẩu cầu Hong Kong – Chu Hải – Ma Cao, với tuyến nối Chek Lap Kok đi Chu Hải và Ma Cao."
+    ],
+    "rail_connections": [
+      "Tuyến Tung Chung chạy cùng hành lang với Airport Express về ga Central, giá vé rẻ hơn nhưng thời gian lâu hơn.",
+      "Tuyến Airport Express nối thẳng sân bay với ga Central."
+    ]
+  },
+  "frankfurt": {
+    "airport_name": "Frankfurt",
+    "positioning": "Đô thị sân bay (Airport City)",
+    "planning_concept": "Gateway Gardens là dự án liên doanh giữa Thành phố Frankfurt và công ty bất động sản Gateway Gardens GmbH, trong đó Fraport AG, Groß & Partner và OFB mỗi bên nắm một phần ba.",
+    "investor_governance": "Gateway Gardens là dự án liên doanh giữa Thành phố Frankfurt và công ty bất động sản Gateway Gardens GmbH, trong đó Fraport AG, Groß & Partner và OFB mỗi bên nắm một phần ba.",
+    "lead_developer": "Fraport AG",
+    "cvp_convenience": [
+      "nằm sát nút giao cao tốc Frankfurter Kreuz, diện tích khoảng 35 ha.",
+      "Ga tàu đường dài nằm ngay dưới toà The Squaire, tàu cao tốc ICE dừng trực tiếp tại sân bay."
+    ],
+    "rail_connections": [
+      "Ga S-Bahn riêng của Gateway Gardens hoạt động từ tháng 12/2019.",
+      "Tàu cao tốc ICE chạy thẳng từ ga sân bay đi Köln, Berlin và Munich."
+    ]
+  },
+  "dfw": {
+    "airport_name": "quốc tế Dallas–Fort Worth",
+    "positioning": "Aerotropolis (đô thị sân bay)",
+    "development_context": "Sân bay DFW đóng góp 78,3 tỷ USD mỗi năm cho kinh tế Bắc Texas và hỗ trợ 684.000 việc làm.",
+    "total_investment_usd": "78 tỷ USD tác động kinh tế mỗi năm",
+    "lead_developer": "Sân bay quốc tế Dallas–Fort Worth (DFW Airport Board)",
+    "cvp_convenience": [
+      "193 điểm đến nội địa và 78 điểm đến quốc tế bay thẳng.",
+      "sân bay đông thứ ba thế giới về lượt cất/hạ cánh và thứ hai thế giới về lượng khách trong các năm 2022–2023."
+    ],
+    "rail_connections": [
+      "Tuyến Orange Line từ ga Nhà ga A đi Dallas và Las Colinas; tuyến Silver Line từ ga Nhà ga B đi phía bắc.",
+      "Tuyến TEXRail và tuyến Trinity Railway Express."
+    ]
+  },
+  "kuala_lumpur": {
+    "airport_name": "quốc tế Kuala Lumpur",
+    "positioning": "Đô thị sân bay của thế kỷ 21",
+    "planning_concept": "Dự án trải rộng 100 km² với hoạt động dẫn dắt bởi ba cụm chức năng cốt lõi, bám theo các quy hoạch tổng thể quốc gia.",
+    "lead_developer": "Malaysia Airports (MAHB)",
+    "economic_zone_name": "Khu thương mại tự do số (Digital Free Trade Zone)",
+    "cvp_convenience": [
+      "Tuyến KLIA Ekspres và KLIA Transit, có khu vực đón trả riêng cho xe khách, taxi, xe thuê và xe cá nhân.",
+      "kết nối đồng thời đường hàng không, đường biển và đường bộ."
+    ],
+    "rail_connections": [
+      "KL Sentral là ga đầu mối của tuyến KLIA Ekspres do ERL Berhad vận hành.",
+      "Ga tuyến Express Rail Link nằm trong Nhà ga chính, hệ thống do Siemens cung cấp."
+    ]
   }
 }

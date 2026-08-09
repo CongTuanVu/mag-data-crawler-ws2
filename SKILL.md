@@ -12,15 +12,18 @@
 
 | | Nội dung |
 |---|---|
-| **Vào** | `refer_file/<case>.txt` — bảng markdown, mỗi dòng 1 nguồn, có link `[tên](url)` và cột ghi chú ngay sau link · `html/vi_text.json` — bản dịch tiếng Việt của các câu văn (biên soạn ở Pha 6b) |
+| **Vào** | `refer_file/aerotropolis.txt` — danh mục case ứng viên · `features/ws1_airport/feature_spec.md` — bộ trường cần phủ · *(sinh ở Pha −1)* `refer_file/<case>.txt` — bảng markdown, mỗi dòng 1 nguồn, có link `[tên](url)` và cột ghi chú ngay sau link · `html/vi_text.json` — bản dịch tiếng Việt (biên soạn ở Pha 6b) |
 | **Ra** | `html/<case>.html` + `html/index.html` — trang 2 slide tiếng Việt, tự chứa, mở bằng `file://` |
 | **Phụ phẩm** | `raw/<case>/pages/*` · `raw/<case>/manifest.json` · `raw/<case>/crawl_log.csv` · `features/<case>_airport_city.json` · `features/airport_city_benchmark.{csv,jsonl}` · `html/assets/<case>/*` |
 
-Toàn tuyến 8 pha. **Pha 0–2 là cơ khí** (chạy lệnh, đọc log). **Pha 3–5 là phần
-agent phải suy nghĩ** (viết regex bám ngôn ngữ của website case đó). **Pha 6–8
-là trình bày + nghiệm thu.**
+Toàn tuyến 9 pha. **Pha −1 là nghiên cứu nguồn** (chọn case, tìm link, viết bảng).
+**Pha 0–2 là cơ khí** (chạy lệnh, đọc log). **Pha 3–5 là phần agent phải suy nghĩ**
+(viết regex bám ngôn ngữ của website case đó). **Pha 6–8 là trình bày + nghiệm thu.**
 
 ```
+refer_file/aerotropolis.txt  +  features/ws1_airport/feature_spec.md
+   │ [Pha −1] chọn case chưa làm → tìm nguồn phủ đủ trường → viết bảng
+   ▼
 refer_file/<case>.txt
    │ [Pha 0] kiểm định dạng bảng
    │ [Pha 1] crawl_sources.py ──▶ raw/<case>/pages/*.txt + manifest + crawl_log
@@ -33,6 +36,141 @@ refer_file/<case>.txt
    │ [Pha 8] build_html.py ──▶ html/<case>.html   +   checklist nghiệm thu
    ▼
 ```
+
+---
+
+## Pha −1 — Dựng `refer_file/<case>.txt`
+
+**Mục tiêu tìm kiếm không phải "tìm ít trang nói về dự án", mà là _phủ đủ bộ trường
+trong_** [`features/ws1_airport/feature_spec.md`](features/ws1_airport/feature_spec.md).
+Spec là đề bài; mỗi nguồn đưa vào bảng phải trả lời được ít nhất một nhóm trường.
+Trường không nguồn nào nói ⇒ sẽ là `null` ở Pha 5 — đó là kết quả hợp lệ, nhưng
+phải là do **nguồn thật sự không công bố**, không phải do lười tìm.
+
+### −1.1 Chọn case & chống trùng *(làm TRƯỚC khi tìm kiếm)*
+
+Danh mục ứng viên: [`refer_file/aerotropolis.txt`](refer_file/aerotropolis.txt)
+(tên · quốc gia · sân bay trung tâm · đặc điểm). Case đã làm nằm ở **ba nơi** và
+phải khớp nhau — kiểm cả ba, đừng chỉ nhìn thư mục `refer_file/`:
+
+```bash
+python - <<'EOF'
+import json, re, sys; from pathlib import Path
+sys.stdout.reconfigure(encoding="utf-8")
+done = {p.stem.lower() for p in Path("refer_file").glob("*.txt")} - {"aerotropolis"}
+reg = re.findall(r'^\s{4}"([a-z_0-9]+)":\s*\{',
+     Path("agent_extractor/ws1_airport/extract_airport_city.py").read_text(encoding="utf-8"), re.M)
+b = Path("raw_data/output/ws1_airport/features/airport_city_benchmark.jsonl")
+names = [json.loads(l)["case_name"] for l in b.read_text(encoding="utf-8").splitlines() if l.strip()] if b.exists() else []
+print("refer_file:", sorted(done), "\nREGISTRY  :", reg, "\nbenchmark :", names)
+for r in Path("refer_file/aerotropolis.txt").read_text(encoding="utf-8").splitlines():
+    if not r.startswith("|") or "**" not in r: continue
+    c = [x.strip() for x in r.split("|")]; name = c[2].replace("**","")
+    key = re.split(r"[/–-]", name)[0].strip().lower().split()[0]
+    print(f"  [{'ĐÃ LÀM' if any(key in d or d in key for d in done) else '  --  '}] {name[:46]:48} {c[3]}")
+EOF
+```
+
+Lệch nhau nghĩa là có case làm dở (vd có `refer_file` nhưng chưa có `REGISTRY`) —
+xử lý case dở đó trước khi mở case mới. Case mới thì **thêm dòng vào
+`aerotropolis.txt`** trước, để lần sau vẫn chống trùng được.
+
+`<case>` = một từ, không dấu, `snake_case`, dùng **xuyên suốt 4 lệnh** của pipeline
+(`incheon`, `taoyuan`, `western_sydney`). Đặt tên file `refer_file/<case>.txt` đúng
+bằng `<case>`.
+
+### −1.2 Bản đồ trường → loại trang cần tìm
+
+Dùng bảng này làm danh sách săn nguồn. Cột "truy vấn mẫu" ghép thêm tên dự án.
+
+| Nhóm trường trong spec | Loại trang cần có | Truy vấn mẫu | ⭐ |
+|---|---|---|---|
+| `passengers_million` · `cargo_million_tonnes` · `air_movements` · `destinations` · `airlines` · `transfer_pct` | **Trang số liệu chính chủ**: "Facts & Figures", "At a Glance", "Statistics", báo cáo thường niên | `<sân bay> facts and figures statistics` | ⭐⭐⭐⭐⭐ |
+| đối chiếu chéo các KPI trên | Wikipedia trang sân bay (infobox có số sạch, dễ regex) | `<sân bay> wikipedia` | ⭐⭐⭐⭐ |
+| `positioning` · `planning_concept` · `cornerstones` · `subzones` · `area_km2` | Trang **quy hoạch / masterplan / about the project** của chủ đầu tư hoặc cơ quan quy hoạch | `<dự án> master plan precincts zones` | ⭐⭐⭐⭐⭐ |
+| `investor_governance` · `lead_developer` · `brand_partners` | Trang **cơ quan quản lý / ban quản lý dự án** ("About us", "Authority") | `<dự án> development authority about` | ⭐⭐⭐⭐⭐ |
+| `total_investment_usd` · `jobs_created` · `development_context` | **Thông cáo chính phủ** (chính phủ, bộ, chính quyền bang/thành phố) | `<dự án> investment billion jobs government` | ⭐⭐⭐⭐⭐ |
+| `economic_zone_name` · `economic_zone_year` · `logistics_park_ha` | Trang **đặc khu / khu phi thuế quan / logistics park** | `<dự án> free trade zone logistics park` | ⭐⭐⭐⭐ |
+| `commercial_re` · `num_office_buildings` · `num_companies_realestate` · `office_rent_eur_m2_year` · `cvp_price` | Trang **bất động sản / cho thuê / offering** | `<dự án> real estate office space for lease` | ⭐⭐⭐⭐ |
+| `residential_product_desc` · `basic_amenities` · `highlight_amenities` · `cvp_experience` | Trang **tiện ích / khu ở / dự án điểm nhấn** | `<dự án> housing amenities facilities` | ⭐⭐⭐⭐ |
+| `rail_connections` · `metro_lines` · `cvp_convenience` · `connection_modes` | Trang **đơn vị vận hành đường sắt/metro** hoặc trang hướng dẫn đi lại | `<sân bay> airport rail link metro travel time` | ⭐⭐⭐⭐⭐ |
+| `vision_label` · `vision_qualities` · `sustainability` · `aviation_policy` | Trang **tầm nhìn / chiến lược / ESG** | `<dự án> vision strategy ESG sustainability` | ⭐⭐⭐⭐ |
+| `founded_year` · `airport_build_period` · `urban_build_period` | Trang **lịch sử** hoặc mốc khai trương | `<sân bay> history opened timeline` | ⭐⭐⭐ |
+| `reference_city` · bối cảnh đô thị | Trang **chính quyền thành phố tham chiếu** | `<thành phố> official english site` | ⭐⭐⭐ |
+
+**Quy tắc chấm sao** — sao quyết định điều kiện chốt Pha 2 ("mọi nguồn ⭐⭐⭐⭐⭐ đều
+phải crawl ok"), nên đừng rải sao bừa:
+
+- ⭐⭐⭐⭐⭐ — **nguồn chuẩn duy nhất** cho một nhóm trường. Chết là phải tìm thay thế
+  trước khi đi tiếp. Đây cũng là trang sẽ được trỏ bằng `prefer=` ở Pha 4.
+- ⭐⭐⭐⭐ — nguồn tốt, có thể đối chiếu chéo hoặc bổ sung.
+- ⭐⭐⭐ — nền/bối cảnh. Chết thì chấp nhận được.
+
+**Ngưỡng phủ:** mỗi nhóm trường ≥ 1 nguồn; tổng thường **18–21 nguồn**. Ít hơn ~12
+thì gần như chắc chắn sẽ thủng nhiều trường ở Pha 5.
+
+### −1.3 Ưu tiên & tránh nguồn
+
+- **Bản EN của trang chính chủ** trước tiên (§ 4.4). Trang song ngữ thường có
+  `/en/`, `/eng/`, `english.` — thử đổi tiền tố trước khi bỏ cuộc.
+- **Ưu tiên trang có số nằm trong câu văn**, tránh trang mà số chỉ hiện trong biểu
+  đồ hoặc bảng dựng bằng JS — extractor chỉ đọc `.txt`, không đọc được canvas.
+- **PDF được** (crawler bóc bằng PyMuPDF) — hợp cho precinct plan, báo cáo thường niên.
+- **Không** dùng nguồn sau paywall/đăng nhập (vi phạm contract "crawl hợp pháp").
+- Anchor `[tên]` phải **ngắn và không trùng nhau sau khi cắt 50 ký tự** — nó thành
+  tên file. Đừng để hai dòng cùng mở đầu bằng một chuỗi dài giống nhau.
+
+### −1.4 Thử nguồn sống TRƯỚC khi chốt bảng
+
+Lỗi hay gặp nhất là chốt xong bảng mới phát hiện site chặn bot — mất cả một vòng
+crawl. Thử trước bằng chính crawler, dưới một tên case tạm:
+
+```bash
+# file tạm chỉ chứa các URL nghi ngờ, đúng định dạng bảng
+python raw_data/crawler/crawl_sources.py --name _probe --input <file tạm> --no-shots --timeout 60
+rm -rf raw_data/output/ws1_airport/raw/_probe
+```
+
+| Kết quả | Nghĩa | Xử lý |
+|---|---|---|
+| `200` + vài nghìn ký tự | Dùng được | Đưa vào bảng |
+| `200` nhưng < 1.500 ký tự | Nội dung dựng bằng JS sau khi tải | Tăng `--timeout`, hoặc tìm subpage tĩnh |
+| `403` | Chặn bot ở tầng CDN | Thử `--headful`; **không được thì đổi nguồn khác cùng nội dung** |
+| `ERR_HTTP2_PROTOCOL_ERROR` | Site không chịu HTTP/2 của Chromium | Đổi nguồn |
+
+Đã gặp thật: `taoyuan-aerotropolis.com`, `topics.amcham.com.tw`, `wsiairport.com.au`
+chặn 403 kể cả `--headful`; `westernsydneyairport.gov.au` và `infrastructure.gov.au`
+lỗi HTTP/2. Cả bốn đều phải thay bằng nguồn khác cùng nội dung.
+
+### −1.5 Viết bảng
+
+Header 3 dòng tự do (tên case · đặc thù · ghi chú nguồn chặn), rồi bảng 5 cột:
+
+```
+Case: <Tên đầy đủ> (<Quốc gia>) — sân bay <Tên sân bay>
+Đặc thù: <1–2 câu: mô hình quản trị, cấu trúc phân khu — thứ khiến case này khác các case khác>
+Nguồn đã fetch xác minh <ngày>. Ghi chú: <site nào cần Playwright / bị chặn / đã thay>
+
+| #      | Website / nguồn | Tiêu chí trong benchmark | Có thể lấy dữ liệu gì? | Mức độ ưu tiên |
+| ------ | --------------- | ------------------------ | ---------------------- | -------------- |
+| **1**  | [Anchor ngắn](https://…) | **Nhóm trường** | `field_a`, `field_b`: giá trị kỳ vọng cụ thể… | ⭐⭐⭐⭐⭐ |
+```
+
+Hai cột quyết định chất lượng cả pipeline:
+
+- **Cột 3 "Tiêu chí"** = ô ngay sau ô chứa link ⇒ parser lấy làm `purpose`. Không
+  được rỗng.
+- **Cột 4 "Có thể lấy dữ liệu gì?"** — ghi **tên trường trong spec + giá trị kỳ vọng
+  đã đọc được từ trang**. Pha 4 dùng cột này làm danh sách việc, Pha 5 dùng nó để
+  phán đoán trường `null` nào là chính đáng. Ghi `logistics_park_ha: 45 ha` hữu ích
+  gấp nhiều lần ghi "thông tin logistics".
+
+Ghi giá trị kỳ vọng có nghĩa là **phải mở trang ra đọc trước khi đưa vào bảng** —
+đúng tinh thần "không đoán" của Pha 4. Không đọc thì sẽ đưa vào những trang nghe
+tên có vẻ đúng nhưng không chứa số nào.
+
+**Chốt Pha −1 khi:** mọi nhóm trường ở bảng −1.2 có ≥1 nguồn, mọi nguồn ⭐⭐⭐⭐⭐ đã
+thử sống, và mỗi dòng đều có cột 4 ghi tên trường cụ thể. Rồi sang Pha 0.
 
 ---
 
@@ -482,6 +620,9 @@ Cách trang được dựng — thiết kế bám slide gốc, bảng ánh xạ 
 | Hiện tượng | Nguyên nhân | Xử lý |
 |---|---|---|
 | `Không tách được URL nào từ …` | `refer_file` sai định dạng link | Quay lại pha 0 |
+| Làm xong mới phát hiện case đã có | Bỏ qua bước chống trùng | Pha −1.1 — kiểm cả 3 nơi: `refer_file/`, `REGISTRY`, benchmark |
+| Pha 5 thủng hàng loạt trường dù regex đúng | `refer_file` không phủ đủ nhóm trường của spec | Pha −1.2 — bổ sung nguồn rồi crawl lại (append giữ data cũ) |
+| Cột 4 chỉ ghi chung chung ("thông tin quy hoạch") | Đưa nguồn vào bảng mà chưa mở trang ra đọc | Pha −1.5 — ghi tên trường + giá trị kỳ vọng |
 | `Chưa có raw cho '<case>'` | Chưa crawl, hoặc `--name` khác nhau giữa 2 lệnh | Dùng đúng một `<case>` xuyên suốt 4 lệnh |
 | `Chưa curate ảnh cho '<case>'` | Thiếu `CURATION[<case>]` | Pha 7 |
 | `Không thấy JSON: …` | Chưa chạy extractor | Pha 5 |
@@ -505,6 +646,10 @@ Cách trang được dựng — thiết kế bám slide gốc, bảng ánh xạ 
 
 ## Chạy lại toàn tuyến (khi đã ổn định)
 
+> Pha −1 và 6b là việc **biên soạn**, không có lệnh — làm một lần rồi giữ trong
+> `refer_file/<case>.txt` và `html/vi_text.json`. Bốn lệnh dưới đây tái lập được
+> toàn bộ output từ hai file đó.
+
 ```bash
 python raw_data/crawler/crawl_sources.py --name <case> --input refer_file/<case>.txt
 python agent_extractor/ws1_airport/extract_airport_city.py --name <case>
@@ -523,3 +668,6 @@ python html/build_html.py --name <case>
   bám đúng bộ trường của [`feature_spec.md`](features/ws1_airport/feature_spec.md).
 - **Case mục tiêu GBAC:** `is_target=True`; nhiều trường sẽ null vì dự án chưa công
   bố — đó là kết quả hợp lệ và chính là thông tin cần thấy khi đối sánh.
+- **Case còn trong danh mục:** [`refer_file/aerotropolis.txt`](refer_file/aerotropolis.txt)
+  còn 6 case chưa làm — Dubai South · Changi · Hong Kong · Dallas–Fort Worth ·
+  Frankfurt · Kuala Lumpur Aeropolis. Mỗi case bắt đầu lại từ Pha −1.

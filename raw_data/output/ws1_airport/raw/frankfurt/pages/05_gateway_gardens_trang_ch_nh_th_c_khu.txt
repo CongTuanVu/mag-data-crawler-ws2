@@ -1,0 +1,243 @@
+Consent
+Details
+[#IABV2SETTINGS#]
+About
+This website uses cookies
+We would like to use cookies and similar technologies with your consent to analyse your use of the website for the purpose of content improvement.
+To the extent necessary for these purposes, we share your information (e.g., your IP address, your browsing behaviour on our website) with our partners. Some partners reserve the right to process your transmitted information for their own purposes (e.g. for the display of personalised advertising, to improve their own services). Our partners may combine the information with other data that you provide to our partners elsewhere (e.g. on other websites, in apps). Your information may also be combined across multiple devices. Please note that our partners' servers may be located in third countries where an equivalent level of data protection may not be guaranteed. You can find more information under "Show details" and in our privacy policy.
+You can activate the functions of the website for all of the above purposes ("Allow all cookies") or only for the selected purposes ("Allow selection"). You can freely revoke your consent at any time with effect for the future.
+[#GPC_BANNER_ICON#]
+[#GPC_TOAST_TEXT#]
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Details
+Necessary
+3
+Necessary cookies are required for the provision and proper operation of our website. We cannot provide you with the basic functions of the website without these cookies.
+Cookiebot
+1
+Learn more about this provider
+CookieConsent
+Stores the user's cookie consent state for the current domain
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Google
+2
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.
+rc::a
+This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+Maximum Storage Duration
+: Persistent
+Type
+: HTML Local Storage
+rc::c
+This cookie is used to distinguish between humans and bots.
+Maximum Storage Duration
+: Session
+Type
+: HTML Local Storage
+Preferences
+0
+Preference cookies allow us to retrieve information about your preferences or settings regarding our website when you revisit our website at a later time. In this way, the website "remembers", for example, your preferred language.
+We do not use cookies of this type.
+Statistics
+4
+Statistics cookies help us to understand how you interact with our website by collecting and analysing information about your access and subsequent use of the website. This helps us to gain insights into how we can optimise the website and further develop it based on user demands. However, we only obtain aggregated reports and information through which we cannot identify you personally.
+Google
+4
+Learn more about this provider
+Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.
+_ga
+Registers a unique ID that is used to generate statistical data on how the visitor uses the website.
+Maximum Storage Duration
+: 2 years
+Type
+: HTTP Cookie
+_ga_#
+Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit.
+Maximum Storage Duration
+: 2 years
+Type
+: HTTP Cookie
+_gat
+Used by Google Analytics to throttle request rate
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+_gid
+Registers a unique ID that is used to generate statistical data on how the visitor uses the website.
+Maximum Storage Duration
+: 1 day
+Type
+: HTTP Cookie
+Marketing
+0
+Marketing cookies are used to identify and evaluate your interests based on your browser activity (e.g., when you visit our website). This information is used by our partners to provide you with customised (so-called "personalized") content and advertising (e.g. video suggestions that are relevant to you, display of personalized advertising on the advertising banner of a website you visit). Marketing cookies are used by the partners listed below when you access and use their content on our website. Please note that we cannot control the use of the transmitted information by our partners.
+We do not use cookies of this type.
+Unclassified
+1
+Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
+www.gateway-gardens.de
+1
+google_maps_enabled
+Pending
+Maximum Storage Duration
+: 1 year
+Type
+: HTTP Cookie
+Cross-domain consent
+[#BULK_CONSENT_DOMAINS_COUNT#]
+[#BULK_CONSENT_TITLE#]
+List of domains your consent applies to:
+[#BULK_CONSENT_DOMAINS#]
+Cookie declaration last updated on 7/20/26 by
+Cookiebot
+[#IABV2_TITLE#]
+[#IABV2_BODY_INTRO#]
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+[#IABV2_BODY_PREFERENCE_INTRO#]
+[#IABV2_LABEL_PURPOSES#]
+[#IABV2_BODY_PURPOSES_INTRO#]
+[#IABV2_BODY_PURPOSES#]
+[#IABV2_LABEL_FEATURES#]
+[#IABV2_BODY_FEATURES_INTRO#]
+[#IABV2_BODY_FEATURES#]
+[#IABV2_LABEL_PARTNERS#]
+[#IABV2_BODY_PARTNERS_INTRO#]
+[#IABV2_BODY_PARTNERS#]
+About
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+Learn more about who we are, how you can contact us and how we process personal data in our
+Privacy Policy
+Please state your consent ID and date when you contact us regarding your consent.
+Do not sell or share my personal information
+Allow all cookies
+Customize
+Allow selection
+Use necessary cookies only
+At a glance
+de
+en
+Home
+Location & connections
+Life & leisure
+Businesses
+Press
+News
+Contact
+At a glance
+Project partners
+Downloads / gallery
+Submit a rental inquiry
+Imprint
+Privacy
+Nice
+to
+meet you.
+Enjoy the green surroundings.
+Your location at Frankfurt Airport.
+Discover all the benefits
+Businesses
+Whether it’s smart tech companies or global corporations
+An inspiring environment
+Location & connections
+A workplace is only as good as its accessibility.
+Best accessibility and a green location
+Life & leisure
+From cafés, restaurants and a supermarket to a bilingual day-care center for children.
+Everything you need for day-to-day life.
+Businesses
+Whether it’s smart tech companies or global corporations
+An inspiring environment
+Location & connections
+A workplace is only as good as its accessibility.
+Best accessibility and a green location
+Gateway Gardens is rethinking the workplace as such.
+With high comfort and perfect connections.
+Search via keywords:
+360° view
+Bilingual day care
+Business locations
+Cafés & restaurants
+Campus
+Conferences
+Fitness and gym
+Frankfurt Airport
+Green quarter
+Infrastructure
+Mobility
+Parking
+Reachability
+Rental inquiry
+Shopping
+Explore Gateway Gardens in a 360-degree panorama
+Get an overview of the new North Portal, the S-Bahn station and the spacious park. Imagine what it would be like to work here.
+Start 360-degree panorama
+Start panoramic tour
+Close
+What does modern location mean?
+A good infrastructure is one thing, the green location with high recreational value is another. Gateway Gardens combines both to create a modern working environment that leaves hardly anything to be desired.
+Location & connections
+We believe the quality of an environment affects people’s well-being – and the way they work.This is why we have created a location that combines various benefits in one holistic concept.
+Gateway Gardens actively puts people and their needs at the heart of its philosophy
+Life & leisure
+Gateway Gardens is an invitation to think big and new. The spacious areas in the greenery, the open campus character of the quarter and the extraordinary, modern architectural environment are inspiring.
+Businesses
+Gateway Gardens, a location steeped in history, reinvented.
+Part of the US airbase and the “Gateway to Europe” from 1945 to 2004, it is now an innovative quarter that is not just conveniently located but also an attractive place to visit, well-connected and home to a fantastic business community
+The tower of the former Rhein-Main Air Base
+View of the extended eastern terminal facility around 1960
+Highway sign for the US air base
+The Rhein-Main Air Base was once the largest base of the United States Air Force outside of the USA. Operations at the base ended in 2005
+The first American family moves into Gateway Gardens on July 12th, 1950
+News
+Press releases
+26.05.2023
+Gateway Gardens goes Social Media
+Neue Kanäle: Instagram und LinkedIn
+25.02.2022
+Staycity Aparthotel Frankfurt Airport eröffnet
+Projekt von OFB und Groß & Partner in Gateway Gardens fertiggestellt
+22.12.2021
+Gateway Gardens' Gesichter
+Jens Wassermann, Standortleiter Frankfurt bei msg systems
+22.12.2021
+Neues Zuhause auf Zeit in Gateway Gardens
+Eröffnung eines Best Western Aparthotels
+22.12.2021
+Gemeinsame Weihnachtsaktion für einen guten Zweck
+Unterstützung für unheilbar erkrankte Kinder und Jugendliche
+22.12.2021
+Neues aus dem Quartier
+Neue Unternehmen, Aktionen und Veranstaltungen im 4. Quartal 2021
+Click and drag to rotate
+Nice
+to meet
+you.
+Home
+Location & connections
+Life & leisure
+Businesses
+Press
+News
+Contact
+At a glance
+Downloads / gallery
+Submit a rental inquiry
+Imprint
+Privacy
+de
+en
+Submit a rental inquiry
+© 2021 Grundstücksgesellschaft Gateway Gardens GmbH

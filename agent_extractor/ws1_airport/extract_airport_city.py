@@ -72,6 +72,60 @@ REGISTRY = {
         "reference_city": "Sydney",
         "official_website": "https://www.wsiairport.com.au",
     },
+    "dubai_south": {
+        "case_name": "Dubai South",
+        "aerotropolis": "Dubai South / Dubai World Central",
+        "country": "UAE",
+        "is_target": False,
+        "airport_name": "Al Maktoum International Airport",
+        "reference_city": "Dubai",
+        "official_website": "https://www.dubaisouth.ae",
+    },
+    "changi": {
+        "case_name": "Singapore Changi Aerotropolis",
+        "aerotropolis": "Changi Airport City / Changi East",
+        "country": "Singapore",
+        "is_target": False,
+        "airport_name": "Singapore Changi Airport",
+        "reference_city": "Singapore",
+        "official_website": "https://www.changiairport.com",
+    },
+    "hong_kong": {
+        "case_name": "Hong Kong Airport City / SKYCITY",
+        "aerotropolis": "Hong Kong Airport City / SKYCITY",
+        "country": "Hong Kong",
+        "is_target": False,
+        "airport_name": "Hong Kong International Airport",
+        "reference_city": "Hong Kong",
+        "official_website": "https://www.hongkongairport.com",
+    },
+    "frankfurt": {
+        "case_name": "Frankfurt Airport City",
+        "aerotropolis": "Frankfurt Airport City / Gateway Gardens",
+        "country": "Đức",
+        "is_target": False,
+        "airport_name": "Frankfurt Airport",
+        "reference_city": "Frankfurt Rhine-Main",
+        "official_website": "https://www.fraport.com",
+    },
+    "dfw": {
+        "case_name": "Dallas–Fort Worth Aerotropolis",
+        "aerotropolis": "DFW Aerotropolis / DFW Airport commercial land",
+        "country": "Mỹ",
+        "is_target": False,
+        "airport_name": "Dallas Fort Worth International Airport",
+        "reference_city": "Dallas – Fort Worth",
+        "official_website": "https://www.dfwairport.com",
+    },
+    "kuala_lumpur": {
+        "case_name": "KLIA Aeropolis",
+        "aerotropolis": "KLIA Aeropolis / Airport City Sepang",
+        "country": "Malaysia",
+        "is_target": False,
+        "airport_name": "Kuala Lumpur International Airport",
+        "reference_city": "Kuala Lumpur – Sepang",
+        "official_website": "https://www.aeropolis.com.my",
+    },
 }
 
 
@@ -592,11 +646,406 @@ def build_western_sydney(pages, rec: dict) -> None:
         "sustainability", "open space", "biodiversity", "blue-green", "net zero"])
 
 
+def build_dubai_south(pages, rec: dict) -> None:
+    """Dubai South: đại đô thị sân bay do nhà nước Dubai làm chủ, chia theo 'district'.
+
+    Trang chính chủ nặng marketing và render bằng JS nên rất ít số; phần lớn KPI
+    phải lấy từ trang Wikipedia của Al Maktoum. Số khách là CÔNG SUẤT THIẾT KẾ,
+    không phải sản lượng thực — sân bay mới đang mở rộng.
+    """
+    WIKI_AP = "al_maktoum"
+    rec["positioning"] = ({"value": "Airport City / Dubai World Central", "confidence": "high"}
+                          if _search(pages, r"Dubai South")[0] else None)
+    rec["planning_concept"] = field_text(pages, r"(Dubai South is [^.]{20,}\.)")
+    rec["cornerstones"] = field_presence(pages, ["aviation", "logistics", "real estate"])
+    rec["subzones"] = field_presence(pages, [
+        "Logistics District", "Aviation District", "Business District",
+        "Residential District", "Commercial District", "Golf District", "Expo City"])
+
+    rec["area_km2"] = field_num(pages, r"([\d,]+)\s*(?:square kilometres|square kilometers|km2)", unit="km²")
+    rec["distance_to_city_km"] = None
+    rec["passengers_million"] = field_num(
+        pages, r"capacity for up to ([\d,]+) million passengers",
+        unit="triệu/năm (công suất thiết kế)", prefer=WIKI_AP)
+    rec["cargo_million_tonnes"] = field_num(pages, r"([\d.,]+)\s*million tonnes",
+                                            unit="triệu tấn/năm (công suất)", prefer=WIKI_AP)
+    rec["air_movements"] = None
+    rec["destinations"] = None
+    rec["airlines"] = None
+    rec["transfer_pct"] = None
+    rec["airport_area_ha"] = None
+    rec["employees"] = None
+    rec["num_companies_airport"] = field_num(
+        pages, r"total number of operational businesses to more than ([\d,]+)",
+        cast=int, unit="doanh nghiệp")
+    rec["num_companies_realestate"] = None
+    rec["num_office_buildings"] = None
+    rec["jobs_created"] = None
+    # "launched in 2025" trong newsroom là tin của năm đó, KHÔNG phải năm thành lập
+    # -> neo vào câu mô tả gốc trên Wikipedia.
+    rec["founded_year"] = field_num(pages, r"in (\d{4}), planned to be an economic zone",
+                                    cast=int, unit="năm", prefer="wikipedia_dubai_south")
+
+    rec["total_investment_usd"] = field_text(
+        pages, r"([\d,]+ billion AED \(\$[\d.,]+ billion USD\))")
+    rec["development_context"] = field_text(
+        pages, r"(During the year, Dubai South welcomed [\d,]+ new companies" + SENT + ")")
+    rec["location_desc"] = field_text(pages, r"(The [\d,]+-kilometre Logistics District" + SENT + ")")
+    rec["investor_governance"] = None
+    rec["lead_developer"] = field_text(pages, r"(Dubai South)")
+    rec["economic_zone_name"] = field_text(pages, r"(Dubai South Free Zone|Dubai World Central)")
+    rec["economic_zone_year"] = None
+
+    rec["commercial_re"] = field_presence(pages, [
+        "logistics", "warehouse", "office", "retail", "aviation", "MRO", "e-commerce", "business centre"])
+    rec["residential_product_desc"] = None  # trang Live là marketing JS, không có câu mô tả sản phẩm
+    rec["basic_amenities"] = field_presence(pages, [
+        "retail", "schools", "parks", "community", "gym", "supermarket"])
+    rec["highlight_amenities"] = field_presence(pages, [
+        "Expo City", "EZDubai", "Emirates Flight Training Academy", "golf"])
+    rec["logistics_park_ha"] = None
+    rec["logistics_park_name"] = None
+    rec["trade_park_ha"] = None
+    rec["trade_park_name"] = None
+
+    rec["cvp_product"] = field_presence(pages, [
+        "warehouse", "office", "logistics", "retail", "plots", "business centre"])
+    rec["cvp_price"] = None
+    rec["office_rent_eur_m2_year"] = None
+    rec["cvp_price_note"] = None
+    rec["cvp_service"] = field_presence(pages, [
+        "business setup", "licence", "free zone", "100% foreign ownership", "one-stop"])
+    rec["cvp_experience"] = field_presence(pages, ["Expo City", "retail", "parks", "golf", "community"])
+    rec["cvp_convenience"] = field_collect(pages, [
+        r"movement of cargo between the seaport and airport in as little as \d+ minutes",
+        r"The [\d,]+-kilometre Logistics District features several zones[^.]+\.",
+    ])
+    rec["rail_connections"] = field_collect(pages, [
+        r"Expo Stations on Dubai Metro Route 2020 are now open",
+    ])
+    rec["cvp_brand"] = field_presence(pages, ["Dubai South", "Emirates", "DP World", "Expo City Dubai"])
+
+    rec["vision_label"] = None
+    rec["vision_qualities"] = None
+    rec["aviation_policy"] = None
+    rec["sustainability"] = field_presence(pages, ["sustainability", "solar", "green", "net zero"])
+
+
+def build_changi(pages, rec: dict) -> None:
+    """Changi: airport city do Changi Airport Group (DNNN) vận hành.
+
+    Nguồn chuẩn cho KPI là thông cáo "chỉ số vận hành" hằng năm (trang 03), không
+    phải trang Facts & Figures — trang đó thiên về mô tả nhà ga.
+    """
+    OPS = "03_changi"  # thông cáo chỉ số vận hành năm gần nhất
+    rec["positioning"] = ({"value": "Airport City / Air Hub", "confidence": "high"}
+                          if _search(pages, r"air hub")[0] else None)
+    rec["planning_concept"] = field_text(pages, r"(The Changi East development[^.]{20,}\.)")
+    rec["cornerstones"] = None
+    rec["subzones"] = field_presence(pages, [
+        "Changi East", "Terminal 5", "Jewel", "Changi Business Park", "Changi Airfreight Centre"])
+
+    # Trang Changi East đã crawl KHÔNG nêu diện tích 1.080 ha; pattern "…hectare" trần
+    # bắt nhầm con số khác trên trang khác -> để None (không bịa).
+    rec["area_km2"] = None
+    rec["distance_to_city_km"] = None
+    rec["passengers_million"] = field_num(pages, r"([\d.,]+) million passenger movements",
+                                          unit="triệu/năm", prefer=OPS)
+    rec["cargo_million_tonnes"] = field_num(
+        pages, r"Airfreight throughput totalled ([\d.,]+) million tonnes",
+        unit="triệu tấn/năm", prefer=OPS)
+    rec["air_movements"] = field_num(pages, r"to ([\d,]+) movements", cast=int,
+                                     unit="lượt/năm", prefer=OPS)
+    rec["destinations"] = field_num(pages, r"over ([\d,]+) cities in \d+ countries", cast=int,
+                                    unit="thành phố", prefer=OPS)
+    rec["airlines"] = field_num(pages, r"some ([\d,]+) airlines operate", cast=int,
+                                unit="hãng", prefer=OPS)
+    rec["transfer_pct"] = None
+    rec["airport_area_ha"] = None
+    rec["employees"] = None
+    rec["num_companies_airport"] = None
+    rec["num_companies_realestate"] = None
+    rec["num_office_buildings"] = None
+    rec["jobs_created"] = None
+    rec["founded_year"] = field_num(pages, r"officially commenced operations in (\d{4})",
+                                    cast=int, unit="năm", prefer="our_story")
+
+    rec["total_investment_usd"] = None
+    rec["development_context"] = field_text(
+        pages, r"(Passenger traffic at (?:Singapore )?Changi Airport was an all-time high" + SENT + ")")
+    rec["location_desc"] = None
+    rec["investor_governance"] = field_text(pages, r"(Changi Airport Group \(CAG\)[^.]{20,}\.)")
+    rec["lead_developer"] = field_text(pages, r"(Changi Airport Group)")
+    rec["economic_zone_name"] = None
+    rec["economic_zone_year"] = None
+
+    rec["commercial_re"] = field_presence(pages, [
+        "retail", "dining", "office", "business park", "hotel", "cargo", "logistics", "MRO"])
+    rec["residential_product_desc"] = None
+    rec["basic_amenities"] = field_presence(pages, [
+        "retail", "dining", "gardens", "lounge", "cinema", "swimming pool", "playground"])
+    rec["highlight_amenities"] = field_presence(pages, [
+        "Rain Vortex", "Forest Valley", "Canopy Park", "Jewel", "Changi Experience Studio"])
+    rec["logistics_park_ha"] = None
+    rec["logistics_park_name"] = None
+    rec["trade_park_ha"] = None
+    rec["trade_park_name"] = None
+
+    rec["cvp_product"] = field_presence(pages, [
+        "office", "business park", "retail", "cargo", "logistics", "industrial"])
+    rec["cvp_price"] = None
+    rec["office_rent_eur_m2_year"] = None
+    rec["cvp_price_note"] = None
+    rec["cvp_service"] = field_presence(pages, [
+        "transit", "lounge", "free tour", "baggage", "concierge"])
+    rec["cvp_experience"] = field_presence(pages, [
+        "Rain Vortex", "Canopy Park", "gardens", "cinema", "retail", "dining"])
+    rec["cvp_convenience"] = field_collect(pages, [
+        r"some [\d,]+ airlines operate more than [\d,]+ weekly scheduled flights[^.]+\.",
+        r"connecting Singapore to over [\d,]+ cities in \d+ countries[^.]*\.",
+    ])
+    rec["rail_connections"] = field_collect(pages, [
+        r"East West Line[^.]{10,}\.",
+        r"Thomson[- ]East Coast Line[^.]{10,}\.",
+    ])
+    rec["cvp_brand"] = field_presence(pages, ["Changi Airport Group", "Jewel", "JTC", "CapitaLand"])
+
+    rec["vision_label"] = None
+    rec["vision_qualities"] = None
+    rec["aviation_policy"] = None
+    rec["sustainability"] = field_presence(pages, [
+        "sustainability", "solar", "carbon", "green", "net zero"])
+
+
+def _blank(rec: dict) -> None:
+    """Đặt None cho mọi trường của spec — builder chỉ cần gán trường thật sự có nguồn.
+
+    Có hàm này vì `split_value_provenance` và benchmark CSV cần bộ cột ổn định giữa
+    các case; thiếu khoá thì cột lệch nhau giữa các dòng jsonl.
+    """
+    for k in ("positioning planning_concept cornerstones subzones area_km2 distance_to_city_km "
+              "passengers_million cargo_million_tonnes air_movements destinations airlines "
+              "transfer_pct airport_area_ha employees num_companies_airport "
+              "num_companies_realestate num_office_buildings jobs_created founded_year "
+              "total_investment_usd development_context location_desc investor_governance "
+              "lead_developer economic_zone_name economic_zone_year commercial_re "
+              "residential_product_desc basic_amenities highlight_amenities logistics_park_ha "
+              "logistics_park_name trade_park_ha trade_park_name cvp_product cvp_price "
+              "office_rent_eur_m2_year cvp_price_note cvp_service cvp_experience "
+              "cvp_convenience rail_connections cvp_brand vision_label vision_qualities "
+              "aviation_policy sustainability smart_city airport_build_period "
+              "urban_build_period brand_partners connection_modes metro_lines "
+              "airport_privilege experience_desc price_vs_reference sales_scheme").split():
+        rec.setdefault(k, None)
+
+
+def build_hong_kong(pages, rec: dict) -> None:
+    """Hong Kong: AAHK vừa vận hành sân bay vừa là chủ đầu tư BĐS trên đảo Chek Lap Kok.
+
+    Lưu ý nguồn: trang Facts & Figures của AAHK ghi rõ "*2019 figures" — đây là số
+    trước COVID, KHÔNG phải sản lượng hiện tại. Đơn vị ghi kèm để không hiểu nhầm.
+    """
+    FF = "facts_figures"
+    rec["positioning"] = ({"value": "Airport City / SKYCITY", "confidence": "high"}
+                          if _search(pages, r"Airport City")[0] else None)
+    rec["planning_concept"] = None  # cụm "Airport City" chỉ xuất hiện trong menu điều hướng
+    rec["subzones"] = field_presence(pages, [
+        "SKYCITY", "AsiaWorld-Expo", "11 SKIES", "SkyPier", "Tung Chung", "Cathay City"])
+    rec["passengers_million"] = field_num(pages, r"([\d.,]+)\s*million\s*passengers handled",
+                                          unit="triệu/năm (số 2019)", prefer=FF)
+    rec["cargo_million_tonnes"] = field_num(
+        pages, r"([\d.,]+)\s*million\s*tonnes of cargo and airmail",
+        unit="triệu tấn/năm (số 2019)", prefer=FF)
+    rec["air_movements"] = field_num(pages, r"([\d,]+)\s*air\s*traffic\s*movements", cast=int,
+                                     unit="lượt/năm (số 2019)", prefer=FF)
+    rec["destinations"] = field_num(pages, r"over\s*([\d,]+)\s*destinations worldwide", cast=int,
+                                    unit="điểm đến", prefer=FF)
+    rec["airlines"] = field_num(pages, r"destinations worldwide by around ([\d,]+) airlines",
+                                cast=int, unit="hãng", prefer=FF)
+    rec["founded_year"] = field_num(pages, r"opened (?:in|on)\D{0,14}(\d{4})", cast=int,
+                                    unit="năm", prefer="wikipedia_hong_kong")
+    rec["total_investment_usd"] = field_text(pages, r"(HK\$[\d.,]+ billion)")
+    rec["investor_governance"] = field_text(pages, r"(Airport Authority Hong Kong[^.]{25,}\.)")
+    rec["lead_developer"] = field_text(pages, r"(Airport Authority Hong Kong)")
+    rec["commercial_re"] = field_presence(pages, [
+        "retail", "dining", "hotel", "office", "cargo", "logistics", "exhibition", "entertainment"])
+    rec["basic_amenities"] = field_presence(pages, ["retail", "dining", "hotel", "shopping"])
+    rec["highlight_amenities"] = field_presence(pages, [
+        "SKYCITY", "AsiaWorld-Expo", "11 SKIES", "arena"])
+    rec["cvp_product"] = field_presence(pages, ["retail", "office", "hotel", "cargo", "exhibition"])
+    rec["cvp_experience"] = field_presence(pages, ["retail", "dining", "entertainment", "exhibition"])
+    rec["cvp_convenience"] = field_collect(pages, [
+        r"SkyPier[^.]{20,}\.",
+        r"Hong Kong[–-]Zhuhai[–-]Macau Bridge[^.]{15,}\.",
+    ])
+    rec["rail_connections"] = field_collect(pages, [
+        r"Tung Chung line[^.]{15,}\.",
+        r"Airport Express[^.]{15,}\.",
+    ])
+    rec["cvp_brand"] = field_presence(pages, [
+        "Airport Authority Hong Kong", "Cathay Pacific", "AsiaWorld-Expo"])
+    rec["sustainability"] = field_presence(pages, ["carbon", "sustainability", "green", "net zero"])
+
+
+def build_frankfurt(pages, rec: dict) -> None:
+    """Frankfurt: Fraport AG vừa vận hành sân bay vừa phát triển BĐS.
+
+    `area_km2` ở đây là quy mô LÕI VĂN PHÒNG Gateway Gardens (~35 ha), không phải
+    toàn sân bay — case này không có ranh giới "đô thị sân bay" thống nhất.
+    """
+    TR = "s_li_u_v_n_t_i"  # thông cáo số liệu cả năm
+    rec["positioning"] = ({"value": "Airport City", "confidence": "high"}
+                          if _search(pages, r"Airport City")[0] else None)
+    rec["planning_concept"] = field_text(pages, r"(Gateway Gardens is[^.]{25,}\.)")
+    rec["subzones"] = field_presence(pages, [
+        "Gateway Gardens", "The Squaire", "CargoCity Süd", "Terminal 3", "Airport City"])
+    rec["area_km2"] = field_num(pages, r"surface area of around ([\d,]+) hectares",
+                                factor=0.01, unit="km² (khu Gateway Gardens)")
+    rec["passengers_million"] = field_num(
+        pages, r"welcomed (?:around|approximately) ([\d.,]+) million passengers",
+        unit="triệu/năm", prefer=TR)
+    rec["cargo_million_tonnes"] = field_num(pages, r"to around ([\d.,]+) million metric tons",
+                                            unit="triệu tấn/năm", prefer=TR)
+    rec["airlines"] = field_num(pages, r"a total of ([\d,]+) airlines served", cast=int,
+                                unit="hãng", prefer=TR)
+    rec["destinations"] = field_num(pages, r"airlines served ([\d,]+) destinations", cast=int,
+                                    unit="điểm đến", prefer=TR)
+    rec["founded_year"] = field_num(pages, r"first construction phase of Gateway Gardens was inaugurated on \d+ \w+ (\d{4})",
+                                    cast=int, unit="năm (giai đoạn 1 Gateway Gardens)")
+    rec["investor_governance"] = field_text(pages, r"(Gateway Gardens is a joint project[^.]{20,}\.)")
+    rec["lead_developer"] = field_text(pages, r"(Fraport AG)")
+    rec["development_context"] = field_text(pages, r"(Frankfurt Airport \(FRA\) welcomed[^.]{20,}\.)")
+    rec["commercial_re"] = field_presence(pages, [
+        "office", "hotel", "conference", "logistics", "retail", "warehouse", "real estate"])
+    rec["basic_amenities"] = field_presence(pages, [
+        "restaurants", "hotels", "park", "conference", "cafés", "shopping"])
+    rec["highlight_amenities"] = field_presence(pages, ["The Squaire", "Gateway Gardens", "Hyatt Place"])
+    rec["cvp_product"] = field_presence(pages, ["office", "logistics", "hotel", "retail", "real estate"])
+    rec["cvp_service"] = field_presence(pages, ["energy", "facility management", "leasing", "property management"])
+    rec["cvp_experience"] = field_presence(pages, ["restaurants", "hotels", "park", "shopping"])
+    rec["cvp_convenience"] = field_collect(pages, [
+        r"Frankfurter Kreuz[^.]{15,}\.",
+        r"long[- ]distance station[^.]{15,}\.",
+    ])
+    rec["rail_connections"] = field_collect(pages, [
+        r"S-Bahn[^.]{15,}\.",
+        r"ICE \d[^.]{10,}\.",
+    ])
+    rec["cvp_brand"] = field_presence(pages, ["Fraport", "Lufthansa", "Groß & Partner", "OFB"])
+    rec["sustainability"] = field_presence(pages, [
+        "carbon", "climate", "sustainability", "renewable", "noise"])
+
+
+def build_dfw(pages, rec: dict) -> None:
+    """DFW: sân bay là pháp nhân sở hữu quỹ đất và tự cho thuê phát triển thương mại.
+
+    Nguồn Mỹ dùng ACRE — phải quy đổi sang ha bằng `factor` (1 acre = 0,404686 ha),
+    không quy đổi thì `airport_area_ha` sai gấp ~2,5 lần.
+    """
+    FACTS = "facts_figures"
+    rec["positioning"] = ({"value": "Aerotropolis", "confidence": "high"}
+                          if _search(pages, r"[Aa]erotropolis")[0] else None)
+    rec["planning_concept"] = None  # cụm "commercial development" chỉ có trong menu điều hướng
+    rec["subzones"] = field_presence(pages, [
+        "Beltline Station District", "Passport Park", "Cargo", "Southgate Plaza", "Founders Plaza"])
+    rec["airport_area_ha"] = field_num(pages, r"Real property consists of ([\d,]+) acres",
+                                       factor=0.404686, unit="ha", prefer=FACTS)
+    rec["passengers_million"] = field_num(pages, r"more than ([\d,]+) million customers",
+                                          unit="triệu/năm", prefer=FACTS)
+    rec["airlines"] = field_num(pages, r"([\d,]+) passenger airlines", cast=int, unit="hãng")
+    rec["jobs_created"] = field_num(pages, r"([\d,]+) jobs supported", cast=int, unit="việc làm")
+    rec["founded_year"] = field_num(pages, r"became operational for its first time on[^,]+, (\d{4})",
+                                    cast=int, unit="năm", prefer=FACTS)
+    rec["development_context"] = field_text(
+        pages, r"(DFW Airport[^.]{0,40}\$[\d.,]+ billion[^.]{10,}\.)")
+    rec["total_investment_usd"] = field_text(pages, r"(\$[\d.,]+ billion in total economic impact)")
+    rec["investor_governance"] = None  # chỉ khớp infobox Wikipedia, không phải câu văn
+    rec["lead_developer"] = field_text(pages, r"(Dallas Fort Worth International Airport)")
+    rec["commercial_re"] = field_presence(pages, [
+        "office", "retail", "hotel", "logistics", "industrial", "flex", "warehouse", "showroom"])
+    rec["basic_amenities"] = field_presence(pages, ["retail", "hotel", "golf", "restaurants"])
+    rec["highlight_amenities"] = field_presence(pages, [
+        "Grapevine Mills", "Founders Plaza", "golf course", "Beltline Station District"])
+    rec["cvp_product"] = field_presence(pages, [
+        "office", "retail", "logistics", "industrial", "flex", "land lease"])
+    rec["cvp_service"] = field_presence(pages, [
+        "lease", "property management", "ground lease", "tenant"])
+    rec["cvp_experience"] = field_presence(pages, ["retail", "hotel", "golf", "restaurants"])
+    rec["cvp_convenience"] = field_collect(pages, [
+        r"([\d,]+) domestic and [\d,]+ international nonstop destinations[^.]*\.",
+        r"third-busiest airport in the world[^.]{10,}\.",
+    ])
+    rec["rail_connections"] = field_collect(pages, [
+        r"Orange Line[^.]{15,}\.",
+        r"TEXRail[^.]{15,}\.",
+    ])
+    rec["cvp_brand"] = field_presence(pages, ["American Airlines", "DFW Airport", "DART", "TEXRail"])
+    rec["sustainability"] = field_presence(pages, ["carbon", "net zero", "sustainability", "renewable"])
+
+
+def build_kuala_lumpur(pages, rec: dict) -> None:
+    """KLIA Aeropolis: MAHB phát triển theo BA CỤM chức năng, không theo phân khu địa lý.
+
+    Khác các case khác: "cluster" là trục tổ chức chính, nên đọc vào `cornerstones`
+    chứ không phải `subzones`.
+    """
+    WIKI_AP = "wikipedia_kuala_lumpur"
+    rec["positioning"] = ({"value": "Airport City of the 21st Century", "confidence": "high"}
+                          if _search(pages, r"Airport City of the 21st Century")[0] else None)
+    rec["planning_concept"] = field_text(pages, r"(The development spans across [\d,]+ sq km[^.]{10,}\.)")
+    rec["cornerstones"] = field_presence(pages, [
+        "Air Cargo and Logistics", "Air Cargo & Logistics", "Aerospace and Aviation",
+        "Aerospace & Aviation", "MICE and Leisure", "MICE & Leisure"])
+    rec["subzones"] = field_presence(pages, [
+        "Aerospace Park", "Digital Free Trade Zone", "Gateway@klia2", "klia2", "Air Cargo"])
+    rec["area_km2"] = field_num(pages, r"spans across ([\d,]+) sq km", unit="km²")
+    # Neo vào nhãn infobox "Passengers" ĐỨNG TRƯỚC số; bắt "([\d,]+) Passengers" sẽ
+    # nuốt nhầm "1500 passengers" trong một câu mô tả khác trên cùng trang.
+    rec["passengers_million"] = field_num(pages, r"Passengers\s*([\d,]{7,})",
+                                          factor=1e-6, unit="triệu/năm", prefer=WIKI_AP)
+    rec["air_movements"] = field_num(pages, r"Aircraft movements\s*([\d,]+)", cast=int,
+                                     unit="lượt/năm", prefer=WIKI_AP)
+    rec["cargo_million_tonnes"] = field_num(pages, r"Cargo \(tonnes\)\s*([\d,]+)",
+                                            factor=1e-6, unit="triệu tấn/năm", prefer=WIKI_AP)
+    rec["founded_year"] = field_num(pages, r"Main Terminal Building[^)]*\)\s*\d+ \w+ (\d{4})",
+                                    cast=int, unit="năm", prefer=WIKI_AP)
+    rec["investor_governance"] = None  # trang MAHB là danh sách tin, không có câu mô tả quản trị
+    rec["lead_developer"] = field_text(pages, r"(Malaysia Airports Holdings Berhad|Malaysia Airports)")
+    rec["economic_zone_name"] = field_text(pages, r"(Digital Free Trade Zone)")
+    rec["commercial_re"] = field_presence(pages, [
+        "cargo", "logistics", "aerospace", "MRO", "retail", "hotel", "industrial", "warehouse"])
+    rec["basic_amenities"] = field_presence(pages, ["retail", "hotel", "convention", "arena"])
+    rec["highlight_amenities"] = field_presence(pages, [
+        "Aerospace Park", "ASEAN pavilion", "indoor arena", "convention centre",
+        "Sepang International Circuit"])
+    rec["cvp_product"] = field_presence(pages, [
+        "cargo", "logistics", "aerospace", "MRO", "industrial", "warehouse"])
+    rec["cvp_service"] = field_presence(pages, ["free trade zone", "customs", "e-commerce", "fulfilment"])
+    rec["cvp_experience"] = field_presence(pages, ["MICE", "convention", "arena", "retail", "leisure"])
+    rec["cvp_convenience"] = field_collect(pages, [
+        r"KLIA Ekspres[^.]{15,}\.",
+        r"air, sea and land connectivity[^.]*\.",
+    ])
+    rec["rail_connections"] = field_collect(pages, [
+        r"KL Sentral[^.]{15,}\.",
+        r"Express Rail Link[^.]{15,}\.",
+    ])
+    rec["cvp_brand"] = field_presence(pages, [
+        "Malaysia Airports", "Alibaba", "Khazanah", "AirAsia"])
+    rec["sustainability"] = field_presence(pages, ["sustainability", "green", "carbon", "solar"])
+
+
 CASE_BUILDERS = {
     "schiphol": build_schiphol,
     "incheon": build_incheon,
     "taoyuan": build_taoyuan,
     "western_sydney": build_western_sydney,
+    "dubai_south": build_dubai_south,
+    "changi": build_changi,
+    "hong_kong": build_hong_kong,
+    "frankfurt": build_frankfurt,
+    "dfw": build_dfw,
+    "kuala_lumpur": build_kuala_lumpur,
 }
 
 
@@ -611,6 +1060,7 @@ def extract(name: str) -> dict:
             f"Pha 3-4 của SKILL.md: thêm entry REGISTRY['{name}'] và hàm build_{name}() "
             f"vào CASE_BUILDERS (pattern phải bám ngôn ngữ website của case đó).")
     builder(pages, rec)
+    _blank(rec)          # bù các trường builder không gán -> bộ cột ổn định giữa case
     rec["_pages_used"] = len(pages)
     return rec
 

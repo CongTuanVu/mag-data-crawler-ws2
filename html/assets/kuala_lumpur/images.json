@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "source_image": "https://www.aeropolis.com.my/sites/default/files/2021-12/bnr-aeropolis-01v2.jpg",
+    "page_url": "https://www.aeropolis.com.my/",
+    "caption": "KLIA Aeropolis — đô thị sân bay thế kỷ 21 quanh KLIA",
+    "bytes": 73681
+  },
+  "planning": {
+    "file": "planning.jpg",
+    "source_image": "https://www.aeropolis.com.my/themes/aeropolisbootstrap/images/klia-map.png",
+    "page_url": "https://www.aeropolis.com.my/",
+    "caption": "Sơ đồ vị trí và phạm vi 100 km² của KLIA Aeropolis",
+    "bytes": 27990
+  },
+  "vision": {
+    "file": "vision.jpg",
+    "source_image": "https://www.aeropolis.com.my/sites/default/files/inline-images/header-Aerospace-img_0_0.jpg",
+    "page_url": "https://www.aeropolis.com.my/clusters/aerospace-aviation/aerospace-park",
+    "caption": "Aerospace Park — cụm hàng không vũ trụ và MRO",
+    "bytes": 32119
+  },
+  "experience": {
+    "file": "experience.jpg",
+    "source_image": "https://www.aeropolis.com.my/sites/default/files/inline-images/mice-overview_0.jpg",
+    "page_url": "https://www.aeropolis.com.my/clusters/mice-leisure/overview",
+    "caption": "Cụm MICE & Leisure: hội nghị, arena, du lịch sự kiện",
+    "bytes": 55666
+  }
+}
