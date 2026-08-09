@@ -1,0 +1,312 @@
+{
+  "record": {
+    "case_name": "Western Sydney Aerotropolis",
+    "aerotropolis": "Western Sydney Aerotropolis / Bradfield City",
+    "country": "Úc",
+    "is_target": false,
+    "airport_name": "Western Sydney International (Nancy-Bird Walton)",
+    "reference_city": "Sydney",
+    "official_website": "https://www.wsiairport.com.au",
+    "positioning": "Aerotropolis",
+    "planning_concept": "The Aerotropolis will create an innovation precinct and a home for technology, science and creative industries, ensuring the Western Parkland City has:",
+    "cornerstones": null,
+    "subzones": [
+      "Aerotropolis Core",
+      "Badgerys Creek",
+      "Wianamatta-South Creek",
+      "Northern Gateway",
+      "Agribusiness",
+      "Bradfield City"
+    ],
+    "area_km2": 112.0,
+    "distance_to_city_km": null,
+    "passengers_million": 10.0,
+    "cargo_million_tonnes": 1.8,
+    "air_movements": null,
+    "destinations": null,
+    "airlines": null,
+    "transfer_pct": null,
+    "airport_area_ha": 1700.0,
+    "employees": null,
+    "num_companies_airport": null,
+    "num_companies_realestate": null,
+    "num_office_buildings": null,
+    "jobs_created": 200000,
+    "founded_year": 2026,
+    "urban_build_period": "Western Sydney to open to passengers on 25 October and freight on 26 July 2026",
+    "total_investment_usd": "Over $25 billion investment by the NSW and Commonwealth Governments in the airport and critical transport infrastructure",
+    "development_context": "With over $14.4 billion in planned developments, the Aerotropolis is expected to create 200,000 jobs.",
+    "location_desc": "As Australia’s first new city in 100 years, Bradfield City will set a new benchmark in liveability, connectivity, sustainability and innovation.",
+    "investor_governance": "The Bradfield Development Authority is building Western Sydney's future through Bradfield City and attracting investment to the Aerotropolis.",
+    "lead_developer": "Bradfield Development Authority",
+    "airport_build_period": "Construction of Stage 1 began on 24 September 2018, and major construction was completed in June 2025.",
+    "commercial_re": [
+      "advanced manufacturing",
+      "logistics",
+      "agribusiness",
+      "retail",
+      "hotel",
+      "university",
+      "cargo",
+      "commercial"
+    ],
+    "residential_product_desc": "Major Australian infrastructure developer Plenary will deliver the first 1,400 homes on a 5.7 hectare First Land Release adjacent to the Advance Manufacturing Readiness Facility, Central Park and the Bradfield Metro Station, with 10% designated as affordable housing.",
+    "basic_amenities": [
+      "university",
+      "retail",
+      "childcare",
+      "health facilities",
+      "Central Park",
+      "open space"
+    ],
+    "highlight_amenities": [
+      "Advanced Manufacturing Readiness Facility",
+      "Central Park",
+      "Bradfield Metro Station"
+    ],
+    "logistics_park_ha": null,
+    "logistics_park_name": null,
+    "trade_park_ha": null,
+    "trade_park_name": null,
+    "cvp_product": [
+      "advanced manufacturing",
+      "commercial",
+      "residential",
+      "university",
+      "industrial"
+    ],
+    "cvp_price": null,
+    "office_rent_eur_m2_year": null,
+    "cvp_price_note": null,
+    "cvp_service": [
+      "Investor Concierge",
+      "InvestorLink",
+      "Planning referrals",
+      "Special Infrastructure Contributions"
+    ],
+    "cvp_experience": [
+      "Central Park",
+      "open space",
+      "walkable",
+      "cycle"
+    ],
+    "cvp_convenience": [
+      "Most homes will be within a 400 metre walk of the Bradfield Metro Station, supporting walkability and reducing car dependency.",
+      "the airport offers 24-hour and curfew-free operations"
+    ],
+    "rail_connections": [
+      "deliver six new stations between St Marys and the new Bradfield City Centre",
+      "The city-shaping project, from St Marys through to the new airport and Bradfield City Centre, will provide a major economic stimulus for Western Sydney, supporting more than 14,000 jobs during construction for the NSW and national economies."
+    ],
+    "cvp_brand": [
+      "Bradfield Development Authority",
+      "WSA Co",
+      "Sydney Metro"
+    ],
+    "vision_label": null,
+    "vision_qualities": null,
+    "aviation_policy": null,
+    "sustainability": [
+      "sustainability",
+      "open space",
+      "biodiversity",
+      "blue-green",
+      "net zero"
+    ],
+    "_pages_used": 19
+  },
+  "provenance": {
+    "positioning": {
+      "confidence": "high"
+    },
+    "planning_concept": {
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
+      "source_file": "03_nsw_planning_aerotropolis_explained.txt",
+      "snippet": "The Aerotropolis will create an innovation precinct and a home for technology, science and creative industries, ensuring the Western Parkland City has:",
+      "confidence": "high"
+    },
+    "subzones": {
+      "source_urls": [
+        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained"
+      ],
+      "confidence": "high"
+    },
+    "area_km2": {
+      "unit": "km²",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "snippet": "11,200 hectares of rezoned land",
+      "confidence": "high"
+    },
+    "passengers_million": {
+      "unit": "triệu/năm (công suất giai đoạn 1)",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+      "source_file": "11_wikipedia_western_sydney_airport.txt",
+      "snippet": "capacity of up to 10 million annual passengers",
+      "confidence": "high"
+    },
+    "cargo_million_tonnes": {
+      "unit": "triệu tấn/năm (công suất)",
+      "source_url": "https://australianaviation.com.au/2026/07/western-sydney-airport-officially-opens-to-freight/",
+      "source_file": "19_australian_aviation_wsi_ch_nh_th_c_m_cho_h_ng_ho.txt",
+      "snippet": "capacity to deliver 1.8 million tonnes of air cargo",
+      "confidence": "high"
+    },
+    "airport_area_ha": {
+      "unit": "ha",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+      "source_file": "11_wikipedia_western_sydney_airport.txt",
+      "snippet": "consists of approximately 1,700 hectares",
+      "confidence": "high"
+    },
+    "jobs_created": {
+      "unit": "việc làm",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "snippet": "expected to create 200,000 jobs",
+      "confidence": "high"
+    },
+    "founded_year": {
+      "unit": "năm",
+      "source_url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026",
+      "source_file": "10_th_t_ng_c_ng_y_m_c_a_ch_nh_th_c_wsi.txt",
+      "snippet": "will welcome its first passengers on 25 October 2026",
+      "confidence": "high"
+    },
+    "urban_build_period": {
+      "source_url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026",
+      "source_file": "10_th_t_ng_c_ng_y_m_c_a_ch_nh_th_c_wsi.txt",
+      "snippet": "Western Sydney to open to passengers on 25 October and freight on 26 July 2026",
+      "confidence": "high"
+    },
+    "total_investment_usd": {
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "snippet": "Over $25 billion investment by the NSW and Commonwealth Governments in the airport and critical transport infrastructure",
+      "confidence": "high"
+    },
+    "development_context": {
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "snippet": "With over $14.4 billion in planned developments, the Aerotropolis is expected to create 200,000 jobs.",
+      "confidence": "high"
+    },
+    "location_desc": {
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "06_bradfield_city_what_is_bradfield_city.txt",
+      "snippet": "As Australia’s first new city in 100 years, Bradfield City will set a new benchmark in liveability, connectivity, sustainability and innovation.",
+      "confidence": "high"
+    },
+    "investor_governance": {
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
+      "source_file": "08_bradfield_development_authority_about_us.txt",
+      "snippet": "The Bradfield Development Authority is building Western Sydney's future through Bradfield City and attracting investment to the Aerotropolis.",
+      "confidence": "high"
+    },
+    "lead_developer": {
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "snippet": "Bradfield Development Authority",
+      "confidence": "high"
+    },
+    "airport_build_period": {
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+      "source_file": "11_wikipedia_western_sydney_airport.txt",
+      "snippet": "Construction of Stage 1 began on 24 September 2018, and major construction was completed in June 2025.",
+      "confidence": "high"
+    },
+    "commercial_re": {
+      "source_urls": [
+        "https://bradfield.city/",
+        "https://bradfield.city/what-bradfield-city",
+        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis"
+      ],
+      "confidence": "high"
+    },
+    "residential_product_desc": {
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "06_bradfield_city_what_is_bradfield_city.txt",
+      "snippet": "Major Australian infrastructure developer Plenary will deliver the first 1,400 homes on a 5.7 hectare First Land Release adjacent to the Advance Manufacturing R",
+      "confidence": "high"
+    },
+    "basic_amenities": {
+      "source_urls": [
+        "https://bradfield.city/what-bradfield-city",
+        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis"
+      ],
+      "confidence": "high"
+    },
+    "highlight_amenities": {
+      "source_urls": [
+        "https://bradfield.city/what-bradfield-city",
+        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city"
+      ],
+      "confidence": "high"
+    },
+    "cvp_product": {
+      "source_urls": [
+        "https://bradfield.city/what-bradfield-city",
+        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis"
+      ],
+      "confidence": "high"
+    },
+    "cvp_service": {
+      "source_urls": [
+        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis"
+      ],
+      "confidence": "high"
+    },
+    "cvp_experience": {
+      "source_urls": [
+        "https://bradfield.city/what-bradfield-city",
+        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis"
+      ],
+      "confidence": "high"
+    },
+    "cvp_convenience": {
+      "source_urls": [
+        "https://bradfield.city/what-bradfield-city",
+        "https://en.wikipedia.org/wiki/Western_Sydney_Airport"
+      ],
+      "source_files": [
+        "06_bradfield_city_what_is_bradfield_city.txt",
+        "11_wikipedia_western_sydney_airport.txt"
+      ],
+      "confidence": "high"
+    },
+    "rail_connections": {
+      "source_urls": [
+        "https://www.sydneymetro.info/westernsydneyairportline"
+      ],
+      "source_files": [
+        "12_sydney_metro_western_sydney_airport_line_t_ng_quan.txt"
+      ],
+      "confidence": "high"
+    },
+    "cvp_brand": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained"
+      ],
+      "confidence": "high"
+    },
+    "sustainability": {
+      "source_urls": [
+        "https://bradfield.city/",
+        "https://shared-drupal-s3fs.s3.ap-southeast-2.amazonaws.com/master-test/s3fs-public/dpe-public/documents/NSW%2BPlanning%2BPortal%2Bexhibitions%2B/IPG/1.+Final+documents/Western+Sydney+Aerotropolis+Precinct+Plan+July+2025.pdf",
+        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
+        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis"
+      ],
+      "confidence": "high"
+    }
+  }
+}

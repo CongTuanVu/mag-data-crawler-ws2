@@ -1,0 +1,323 @@
+Incheon International Airport Corporation > About the Corporation > General Overview > History
+Shortcuts to the text
+Shortcuts to the menu
+Shortcuts to the footer
+Incheon International Airport
+Login
+Customer Center
+POPUP
+ENG
+KOR
+CHN
+JPN
+Login
+Customer Center
+POPUP
+ENG
+KOR
+CHN
+JPN
+Close Menu
+fnctId=sitemenu,menuViewType=top
+About the Corporation
+General Overview
+Business Areas
+Vision
+History
+Institutional Symbol (CI) / Slogan
+Incheon Airport at a Glance
+Directions
+Organization
+Overview of the Organization
+Executives and Management
+Public Relations Center
+Awards
+Gallery
+Publications
+ESG Management
+ESG Management
+Incheon Airport’s ESG
+E Low-Carbon Eco-Friendly Airport
+S People-Oriented Accountable Management
+G Establishing Transparent and Fair Governance
+Ethical Management
+Introduction to Ethical Management
+Ethical Management News
+Internal control system
+Human Rights Management
+Human Rights Management System
+Human Rights Management News
+Voluntary Compliance with Fair Trade
+Customer Communication
+Announcements
+Press Release
+PR Observatory Deck
+Terminal 2 Kang Dong Suk Hall
+Oseongsan Mnt. Observatory Deck
+Aviation Statistics
+View Incheon Airport Statistics
+Key Businesses
+Passenger Services
+Improvement of Airport Services
+Hub Competitiveness
+Logistics Services
+Introduction
+Why Incheon
+Specialty
+Global Recognition
+Airport Operations/Safety
+Baggage Handling System
+A-CDM
+Safety Management System
+Environmental Management System
+Energy Management System
+Aviation Security Management System
+Airport Construction
+Project Overview
+Phase 1–4 Construction Projects
+Business Hub
+Airport Economic Zone
+Development of a Complex City
+Completed Investment Projects
+Aviation MRO Business
+Overseas Business
+Overview
+Project Performance
+Overseas Projects
+Educational Institution
+Curriculum
+Support Services
+Regulations
+Rental and Occupancy Support
+Rental of Office Facilities
+Leasing Commercial Facilities
+Application for Occupancy
+Tenant Service Center
+Others
+Sitemap
+To Search
+Open Menu
+Sitemap
+About the Corporation
+History
+at home
+About the Corporation
+About the Corporation
+ESG Management
+Customer Communication
+Key Businesses
+Support Services
+Others
+General Overview
+General Overview
+Organization
+Public Relations Center
+History
+Business Areas
+Vision
+History
+Institutional Symbol (CI) / Slogan
+Incheon Airport at a Glance
+Directions
+Sharing
+Bookmark
+Favorite Menu
+Close
+Add to Menu
+Reset
+To Print
+History
+/WEB-INF/jsp/k2web/com/cop/site/layout.jsp
+co_en_JW_MS_K2WT001_S
+Legal Foundation: Incheon International Airport Corporation Act (Enacted on Jan. 26, 1999)
+Related Legislation
+Act on the Management of Public Institutions (August 1997)
+Enforcement Decree of the Act on the Improvement of Managerial Structure and Privatization of Public Enterprises (January 2007)
+Metropolitan Area New Airport Construction Promotion Act (May 1991)
+Past CEOs
+1st
+Kang Dong-seok
+President
+Apr.1999–Mar.2002
+2nd
+Cho Woo-hyun
+President
+Mar.2002–Mar.2005
+3rd
+Lee Jae-hee
+President
+Jul.2005–Jul.2008
+4th
+Lee Chae-wook
+President
+Sep.2008–Feb.2013
+5th
+Chung Chang-su
+President
+Jun.2013–Mar.2014
+6th
+Park Wan-su
+President
+Oct.2014–Dec.2015
+7th
+Chung Il-young
+President
+Feb.2016–Apr.2019
+8th
+Koo Bon-hwan
+President
+Apr.2019–Sep.2020
+9th
+Kim Kyung-wook
+President
+Feb.2021–Apr.2023
+10th
+Lee Hag-jae
+President
+Jun.2023–Mar.2026
+History
+fnctId=hist,fnctNo=41
+Journey of Incheon Airport,the World’s Leading Airport
+2024~2020
+2019~2010
+2009~1992
+2024~2020
+2024.
+01.
+21
+Achieved 200,000 continuous hours of uninterrupted operation for navigational safety facilities
+2023.
+09.
+06
+Garnered anew the highest grade in ACI Customer Experience Certification, the first of its kind worldwide
+2023.
+09.
+01
+Garnered the highest grade in the ACI Airport Carbon Accreditation, marking a first in the nation
+2023.
+07.
+28
+Launched the Smart Pass departure procedure
+2022.
+10.
+24
+Awarded the ACI Technology Innovation Award, the first in the country
+2022.
+07.
+28
+Garnered the highest grade in ACI Customer Experience Certification, a global first
+2022.
+02.
+25
+Became the first Asian airport to join the global RE100 initiative
+2021.
+12.
+22
+Surpassed the cumulative handling of 700 million pieces of baggage
+2021.
+10.
+10
+Achieved 180,000 hours of uninterrupted operation for navigational safety facilities
+2021.
+07.
+27
+Reached a cumulative total of 50 million tons in air cargo handling
+2021.
+06.
+17
+Commenced operations on the 4th runway
+2021.
+05.
+04
+Secured the first Maintenance, Repair, and Overhaul (MRO) contract with Israel’s IAI company
+2021.
+03.
+29
+Celebrated the 20th anniversary of Incheon International Airport’s opening
+2021.
+03.
+23
+Won the contract for the operation and development of Batam Airport in Indonesia
+2020.
+08.
+31
+Became the first in the Asia-Pacific region to obtain ACI Airport Health Accreditation (AHA)
+Inquiries
+Telephone : +082-32-741-2161, 2162
+Managing department : Management Strategy Team
+페이지 만족도 설문조사
+Content Satisfaction Survey
+Very Satisfied
+Satisfied
+Neutral
+Dissatisfied
+Very Dissatisfied
+Participate
+Terms of Service
+Privacy Policy
+Surveillance Camera Policy
+Aviation Safety Reporting
+Copyright Protection Policy
+Refusal of Unauthorized Email Collection
+Guidelines for Visually Impaired Users
+Logistics Services
+Complex City Development
+MRO
+Overseas Business / Education
+Incheon International Airport
+47, Gonghang-ro 424beon-gil, Yeongjong-gu, Incheon (23358)
+Terminal 1, Incheon International Airport
+272 Gonghang-ro, Yeongjong-gu, Incheon (23358)
+Terminal 2, Incheon International Airport
+446 Je2terminal-daero, Yeongjong-gu, Incheon (23358)
+Facebook Shortcuts
+Instagram Shortcuts
+Youtube Shortcuts
+Naver Blog Shortcuts
+Related Sites
+Internet Billing System
+Air Cargo Information System
+Korea Aviation Security Academy
+Aviation Academy
+Flight Information Service
+Loading Unit Management Website
+Incheon Airport Human Resource Development Center
+Airport Industry Research Institute (AIRI)
+Incheon Airport SkyMons
+Incheon Airport Energy Co., Ltd.
+Incheon Airport Facilities Management Co., Ltd.
+Incheon Airport Operation Services Co., Ltd.
+Incheon Airport Security Co., Ltd.
+Tenant Services Portal
+Ministry of Land, Infrastructure, and Transport Website
+Incheon International Airport Police
+Safe Travel with the Ministry of Foreign Affairs
+When Language is a Barrier
+Road Name Address Guide
+Overseas Infectious Disease NOW
+Korea Airports Corporation
+Safety Dream
+Korea Customs Service
+Immigration Policy Headquarters
+Safety Management Information System
+Copyright Incheon International Airport Corporation. All rights reserved.
+Integrated Search
+Search
+Popular Search Terms
+job vacancy
+e
+annual report
+email
+airport operations manual
+Close search box
+Move to the top
+팝업존(
+0
+개)
+there is no registered data
+이전 슬라이드
+다음 슬라이드
+Number of Pop-ups: Total
+0
+Close
+Do not show this again today.

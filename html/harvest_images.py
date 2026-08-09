@@ -18,6 +18,8 @@ import sys
 from pathlib import Path
 
 import requests
+from urllib.parse import urljoin
+
 from bs4 import BeautifulSoup
 from PIL import Image
 
@@ -31,13 +33,34 @@ ROOT = HERE.parent
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                          "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
 
-# Mục trình bày -> (slug trang nguồn, caption). Curate cho từng case.
+# Mục trình bày -> (slug trang nguồn, caption[, want]).
+#   want = chuỗi con của URL/alt để chỉ ĐÚNG ảnh cần lấy.
+# Bỏ trống `want` sẽ rơi về og:image — gần như luôn là ảnh thương hiệu chung, SAI
+# ngữ cảnh mục. Chạy `--inspect` để xem ứng viên thật trước khi điền.
 CURATION = {
     "schiphol": [
         ("hero",       "03_schiphol_business_district",        "Khu Thương mại Schiphol (Business District)"),
         ("planning",   "17_sadc_schiphol_logistics_park",      "Ảnh trên không khu hậu cần Schiphol Logistics Park"),
         ("vision",     "29_schiphol_airport_of_the_future",    "Định hướng 'Sân bay của tương lai'"),
         ("experience", "08_schiphol_real_estate_facilities",   "Tiện ích & không gian trải nghiệm tại Schiphol"),
+    ],
+    "incheon": [
+        ("hero",       "08_incheon_airport_esg_management",                    "Nhà ga hành khách sân bay quốc tế Incheon", "esg-intro-strategy1"),
+        ("planning",   "01_incheon_airport_development_of_a_complex_city_air_", "Bản đồ quy hoạch Air City: các phân khu IBC-I/II/III, MRO, logistics, sân golf", "complex-city-view1"),
+        ("vision",     "01_incheon_airport_development_of_a_complex_city_air_", "Phối cảnh phân khu IBC-III — giai đoạn phát triển tương lai", "complex-city-view3"),
+        ("experience", "17_inspire_entertainment_resort_visitkorea",           "Tổ hợp giải trí INSPIRE trên đảo Yeongjong (nằm trong IBC-III)", "3073488_image2"),
+    ],
+    "taoyuan": [
+        ("hero",       "15_aecom_taoyuan_aerotropolis_development",            "Toàn cảnh sân bay Đào Viên và vùng đô thị sân bay bao quanh", "taoyuan-aerotropolis-1-1"),
+        ("planning",   "15_aecom_taoyuan_aerotropolis_development",            "Ranh giới quy hoạch Taoyuan Aerotropolis (4.564 ha) trên nền ảnh thực địa", "taoyuan-aerotropolis-2-new"),
+        ("vision",     "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro", "Hồ điều tiết phòng chống thiên tai — 5/12 hồ, sức chứa 1,47 triệu tấn nước", "Disaster Prevention Retention Basin 1"),
+        ("experience", "12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt",        "Sơ đồ tuyến MRT sân bay A1–A21 với dịch vụ check-in nội đô", "metro_pic"),
+    ],
+    "western_sydney": [
+        ("hero",       "06_bradfield_city_what_is_bradfield_city",             "Toàn cảnh Bradfield City — lõi đô thị của Western Sydney Aerotropolis", "about-bradfield-city-h"),
+        ("planning",   "07_bradfield_city_trang_ch_nh",                        "Bản đồ phân khu Bradfield City: Enterprise, AMRF, Central Park, University, Commercial", "city%20spaces%20map"),
+        ("vision",     "05_nsw_gov_delivering_bradfield_city",                 "Phối cảnh Bradfield City theo Master Plan duyệt 9/2024", "BDA-artist-impres"),
+        ("experience", "06_bradfield_city_what_is_bradfield_city",             "Không gian mở và tiện ích công cộng — 1/3 diện tích thành phố", "Food-and-Beverage-venu"),
     ],
 }
 
@@ -53,17 +76,139 @@ def page_url_map(case_dir: Path) -> dict:
     return out
 
 
-def pick_image_url(html_path: Path) -> str | None:
+def pick_image_url(html_path: Path, page_url: str = "") -> str | None:
     soup = BeautifulSoup(html_path.read_text(encoding="utf-8", errors="ignore"), "html.parser")
+
+    def absolutise(u: str) -> str:
+        """Nhiều site trả og:image / src dạng '/path/x.jpg' hoặc './x.jpg'.
+
+        requests không nuốt URL thiếu scheme -> phải ghép với URL trang gốc, nếu
+        không sẽ mất ảnh của mọi nguồn dùng đường dẫn tương đối (nsw.gov.au,
+        taoyuan-metro…).
+        """
+        return urljoin(page_url, u) if page_url else u
+
     og = soup.find("meta", attrs={"property": "og:image"})
     if og and og.get("content"):
-        return og["content"]
+        return absolutise(og["content"].strip())
     for i in soup.find_all("img"):
-        u = i.get("src") or i.get("data-src") or ""
+        u = (i.get("src") or i.get("data-src") or "").strip()
         if u and any(e in u.lower() for e in (".jpg", ".jpeg", ".png", ".webp")) \
            and not any(x in u.lower() for x in ("icon", "logo", "sprite", "favicon")):
-            return u
+            return absolutise(u)
     return None
+
+
+# Từ khoá nhận diện ảnh HỢP NGỮ CẢNH cho từng mục trình bày. Dùng để xếp hạng ứng
+# viên ở chế độ --inspect; người curate vẫn là người chốt.
+SECTION_HINTS = {
+    "hero":       ["aerial", "skyline", "panorama", "overview", "birdseye", "bird-eye",
+                   "cityscape", "airport", "toancanh", "空拍", "全景"],
+    "planning":   ["masterplan", "master-plan", "master_plan", "zoning", "zone", "precinct",
+                   "landuse", "land-use", "map", "plan", "layout", "district", "phankhu",
+                   "quyhoach", "規劃", "分區", "地圖"],
+    "vision":     ["vision", "future", "render", "concept", "impression", "proposed",
+                   "artist", "2050", "2030", "tamnhin", "願景"],
+    "experience": ["amenity", "facility", "park", "plaza", "retail", "resort", "leisure",
+                   "lifestyle", "community", "interior", "terminal", "station", "tiennich"],
+}
+JUNK = ("icon", "logo", "sprite", "favicon", "avatar", "placeholder", "blank",
+        "spacer", "banner-ad", "share", "btn", "button", "arrow", "menu")
+
+
+def _px(v) -> int:
+    try:
+        return int(str(v).strip().replace("px", ""))
+    except (TypeError, ValueError):
+        return 0
+
+
+def image_candidates(html_path: Path, page_url: str = "") -> list[dict]:
+    """Kiểm kê MỌI ảnh của trang kèm tín hiệu để chọn: alt, kích thước, chữ quanh ảnh.
+
+    Có hàm này vì `og:image` gần như luôn là ảnh chia sẻ mạng xã hội (ảnh thương
+    hiệu chung), không phải ảnh minh hoạ đúng mục — vd bản đồ phân khu cho mục
+    "Quy hoạch & phân khu". Curate phải nhìn danh sách thật rồi mới chọn.
+    """
+    soup = BeautifulSoup(html_path.read_text(encoding="utf-8", errors="ignore"), "html.parser")
+    absol = (lambda u: urljoin(page_url, u)) if page_url else (lambda u: u)
+    out: list[dict] = []
+    seen: set[str] = set()
+
+    og = soup.find("meta", attrs={"property": "og:image"})
+    if og and og.get("content"):
+        u = absol(og["content"].strip())
+        seen.add(u)
+        out.append({"url": u, "alt": "(og:image — ảnh chia sẻ MXH)", "w": 0, "h": 0,
+                    "near": "", "is_og": True})
+
+    for i in soup.find_all("img"):
+        u = (i.get("src") or i.get("data-src") or i.get("data-original") or "").strip()
+        if not u or u.startswith("data:"):
+            continue
+        u = absol(u)
+        if u in seen:
+            continue
+        seen.add(u)
+        # chữ quanh ảnh: figcaption gần nhất, hoặc text của thẻ cha
+        near = ""
+        fig = i.find_parent("figure")
+        if fig and fig.find("figcaption"):
+            near = fig.find("figcaption").get_text(" ", strip=True)
+        elif i.parent:
+            near = i.parent.get_text(" ", strip=True)
+        out.append({"url": u, "alt": (i.get("alt") or "").strip(),
+                    "w": _px(i.get("width")), "h": _px(i.get("height")),
+                    "near": " ".join(near.split())[:110], "is_og": False})
+    return out
+
+
+def score_candidate(c: dict, section: str) -> int:
+    """Điểm ưu tiên: khớp từ khoá mục > có alt/caption > không phải ảnh giao diện."""
+    hay = f"{c['url']} {c['alt']} {c['near']}".lower()
+    s = 0
+    for kw in SECTION_HINTS.get(section, []):
+        if kw in hay:
+            s += 10
+    if any(j in c["url"].lower() for j in JUNK):
+        s -= 25
+    if c["alt"] or c["near"]:
+        s += 3
+    if c["is_og"]:
+        s -= 2          # og:image là phương án chót, không phải phương án đầu
+    if max(c["w"], c["h"]) >= 600:
+        s += 4
+    if 0 < max(c["w"], c["h"]) < 150:
+        s -= 12
+    if c["url"].lower().endswith(".svg"):
+        s -= 8
+    return s
+
+
+def inspect_case(name: str, section_filter: str | None = None) -> None:
+    """In bảng ứng viên ảnh cho từng mục — chạy TRƯỚC khi viết CURATION."""
+    case_dir = ROOT / "raw_data" / "output" / "ws1_airport" / "raw" / name
+    urls = page_url_map(case_dir)
+    pages = sorted((case_dir / "pages").glob("*.html"))
+    for section in (["hero", "planning", "vision", "experience"]
+                    if not section_filter else [section_filter]):
+        print(f"\n{'='*78}\nMỤC: {section}   (từ khoá: {', '.join(SECTION_HINTS[section][:6])}…)\n{'='*78}")
+        ranked = []
+        for p in pages:
+            for c in image_candidates(p, urls.get(p.stem, "")):
+                sc = score_candidate(c, section)
+                if sc > 0:
+                    ranked.append((sc, p.stem, c))
+        ranked.sort(key=lambda x: -x[0])
+        if not ranked:
+            print("  (không ứng viên nào khớp từ khoá — dùng --inspect-page để xem toàn bộ)")
+        for sc, slug, c in ranked[:8]:
+            print(f"  [{sc:>3}] {slug[:46]}")
+            print(f"        url : {c['url'][:96]}")
+            if c["alt"]:
+                print(f"        alt : {c['alt'][:96]}")
+            if c["near"]:
+                print(f"        near: {c['near'][:96]}")
 
 
 def fetch_resize(url: str, max_w: int = 820) -> bytes | None:
@@ -81,7 +226,14 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Thu ảnh minh hoạ cho trang hồ sơ")
     ap.add_argument("--name", default="schiphol")
     ap.add_argument("--max-width", type=int, default=820)
+    ap.add_argument("--inspect", action="store_true",
+                    help="kiểm kê ứng viên ảnh theo từng mục (chạy TRƯỚC khi viết CURATION)")
+    ap.add_argument("--section", help="chỉ kiểm kê 1 mục: hero|planning|vision|experience")
     args = ap.parse_args()
+
+    if args.inspect:
+        inspect_case(args.name, args.section)
+        return
 
     cur = CURATION.get(args.name)
     if not cur:
@@ -94,15 +246,34 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     manifest = {}
-    for section, slug, caption in cur:
+    used: dict[str, str] = {}
+    for entry in cur:
+        # (section, slug, caption) hoặc (section, slug, caption, want)
+        section, slug, caption = entry[0], entry[1], entry[2]
+        want = entry[3] if len(entry) > 3 else None
         html_path = pages_dir / f"{slug}.html"
         if not html_path.exists():
             print(f"  [skip] {section}: không thấy {html_path.name}")
             continue
-        img_url = pick_image_url(html_path)
+        page_url = urls.get(slug, "")
+        img_url = None
+        if want:
+            # Chọn đúng ảnh đã curate (khớp chuỗi con trong url/alt) — chỉ dựa vào
+            # og:image thì hầu như luôn ra ảnh thương hiệu, sai ngữ cảnh mục.
+            for c in image_candidates(html_path, page_url):
+                if want.lower() in c["url"].lower() or want.lower() in c["alt"].lower():
+                    img_url = c["url"]
+                    break
+            if not img_url:
+                print(f"  [warn] {section}: không thấy ảnh khớp '{want}' trong {slug} -> quay về og:image")
+        if not img_url:
+            img_url = pick_image_url(html_path, page_url)
         if not img_url:
             print(f"  [skip] {section}: trang {slug} không có ảnh")
             continue
+        if img_url in used:
+            print(f"  [warn] {section}: TRÙNG ảnh với mục '{used[img_url]}' — nên đổi slug/want")
+        used[img_url] = section
         try:
             data = fetch_resize(img_url, args.max_width)
         except Exception as exc:  # noqa: BLE001

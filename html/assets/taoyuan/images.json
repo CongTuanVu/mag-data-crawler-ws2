@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "source_image": "https://aecom.com/content/wp-content/uploads/2021/01/taoyuan-aerotropolis-1-1.jpg",
+    "page_url": "https://aecom.com/projects/taoyuan-aerotropolis-development/",
+    "caption": "Toàn cảnh sân bay Đào Viên và vùng đô thị sân bay bao quanh",
+    "bytes": 94736
+  },
+  "planning": {
+    "file": "planning.jpg",
+    "source_image": "https://aecom.com/wp-content/uploads/2021/01/taoyuan-aerotropolis-2-new.jpg",
+    "page_url": "https://aecom.com/projects/taoyuan-aerotropolis-development/",
+    "caption": "Ranh giới quy hoạch Taoyuan Aerotropolis (4.564 ha) trên nền ảnh thực địa",
+    "bytes": 76069
+  },
+  "vision": {
+    "file": "vision.jpg",
+    "source_image": "https://ws.tycg.gov.tw/001/Upload/189/relpic/19663/1409605/c4c8ebac-9a88-4791-8f3a-16f5e1721066@710x470.jpg",
+    "page_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+    "caption": "Hồ điều tiết phòng chống thiên tai — 5/12 hồ, sức chứa 1,47 triệu tấn nước",
+    "bytes": 68622
+  },
+  "experience": {
+    "file": "experience.jpg",
+    "source_image": "https://travel.tycg.gov.tw/content/images/page/metro_pic.jpg",
+    "page_url": "https://travel.tycg.gov.tw/en/traffic/airportmrt",
+    "caption": "Sơ đồ tuyến MRT sân bay A1–A21 với dịch vụ check-in nội đô",
+    "bytes": 162351
+  }
+}

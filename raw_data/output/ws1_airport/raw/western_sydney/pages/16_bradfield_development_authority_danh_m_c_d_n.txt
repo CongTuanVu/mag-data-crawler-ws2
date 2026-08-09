@@ -1,0 +1,538 @@
+Bradfield Development Authority projects | NSW Government
+Skip to navigation
+Skip to content
+menu
+Open
+Menu
+search
+Show
+Search
+Chọn Ngôn ngữ
+Việt
+Ả Rập
+Abkhaz
+Aceh
+Acholi
+Afar
+Albania
+Alur
+Amharic
+Anh
+Armenia
+Assam
+Avar
+Awadhi
+Aymara
+Azerbaijan
+Ba Lan
+Ba Tư
+Bali
+Baluchi
+Bambara
+Bantu
+Baoulé
+Bashkir
+Basque
+Batak Karo
+Batak Simalungun
+Batak Toba
+Bắc Sami
+Belarus
+Bemba
+Bengal
+Betawi
+Bhojpuri
+Bikol
+Bosnia
+Bồ Đào Nha (Bồ Đào Nha)
+Bồ Đào Nha (Brazil)
+Breton
+Bulgaria
+Buryat
+Catalan
+Cebuano
+Chamorro
+Chechen
+Chichewa
+Chuuk
+Chuvash
+Corsi
+Creole (Haiti)
+Creole Seychelles
+Croatia
+Dari
+Dhivehi
+Dinka
+Do Thái
+Dogri
+Dombe
+Dyula
+Dzongkha
+Đan Mạch
+Đức
+Estonia
+Ewe
+Faroese
+Fiji
+Filipino
+Fon
+Frisia
+Friuli
+Fulani
+Gaa
+Gael Scotland
+Galicia
+Guarani
+Gujarat
+Hà Lan
+Hà Lan (Nam Phi)
+Hakha Chin
+Hàn
+Hausa
+Hawaii
+Hiligaynon
+Hindi
+Hmong
+Hungary
+Hunsrik
+Hy Lạp
+Iban
+Iceland
+Igbo
+Ilocano
+Indonesia
+Ireland
+Java
+Jingpo
+Kalaallisut
+Kannada
+Kanuri
+Kapampangan
+Kazakh
+Khasi
+Khmer
+Kiga
+Kikongo
+Kinyarwanda
+Kituba
+Kokborok
+Komi
+Konkani
+Krio
+Kurd (Kurmanji)
+Kurd (Sorani)
+Kyrgyz
+Lào
+Latgale
+Latinh
+Latvia
+Liguria
+Limburg
+Lingala
+Litva
+Lombard
+Luganda
+Luo
+Luxembourg
+Mã Lai
+Macedonia
+Madura
+Maithili
+Makassar
+Malagasy
+Malay (Jawi)
+Malayalam
+Malta
+Mam
+Manx
+Maori
+Marathi
+Mari đồng cỏ
+Marshall
+Marwadi
+Mauritian Creole
+Maya Yucatec
+Meiteilon (Manipuri)
+Minang
+Mizo
+Mông Cổ
+Myanmar (tiếng Miến Điện)
+N'Ko
+Na Uy
+Nahuatl (Đông Huasteca)
+Nam Ndebele
+Ndau
+Nepal
+Nepal Bhasa (Newar)
+Nga
+Nhật
+Nuer
+Occitan
+Odia (Oriya)
+Oromo
+Ossetia
+Pangasinan
+Papiamento
+Pashto
+Patois Jamaica
+Phạn
+Pháp
+Pháp (Canada)
+Phần Lan
+Punjab (Gurmukhi)
+Punjab (Shahmukhi)
+Q'eqchi'
+Quảng Đông
+Quechua
+Quốc tế ngữ
+Romani
+Rumani
+Rundi
+Samoa
+Sango
+Séc
+Sepedi
+Serbia
+Sesotho
+Shan
+Shona
+Sicily
+Silesia
+Sindhi
+Sinhala
+Slovak
+Slovenia
+Somali
+Sunda
+Susu
+Swahili
+Swati
+Tahiti
+Tajik
+Tamazight
+Tamazight (Tifinagh)
+Tamil
+Tatar
+Tatar Krym (Kirin)
+Tây Ban Nha
+Tây Tạng
+Telugu
+Tetum
+Thái
+Thổ Nhĩ Kỳ
+Thụy Điển
+Tiếng Georgia
+Tiếng Inuktut (Âm tiết)
+Tiếng Inuktut (Latinh)
+Tiếng Santal (Latinh)
+Tiếng Santal (Ol Chiki)
+Tiếng Tatar Krym (Latinh)
+Tigrinya
+Tiv
+Tok Pisin
+Tonga
+Trung (Giản thể)
+Trung (Phồn thể)
+Tshiluba
+Tsonga
+Tswana
+Tulu
+Tumbuka
+Turkmen
+Tuva
+Twi
+Udmurt
+Ukraina
+Urdu
+Uyghur
+Uzbek
+Venda
+Venice
+Waray
+Wolof
+Xứ Wales
+Ý
+Yakut
+Yiddish
+Yoruba
+Zapotec
+Zulu
+Được hỗ trợ bởi
+Dịch
+translate
+Language
+English
+Afrikaans (Afrikaans)
+Albanian (shqip)
+Arabic (العربية)
+Armenian (Հայերեն)
+Azerbaijani (Azərbaycan)
+Basque (Euskara)
+Belarusian (Беларуская)
+Bengali (বাংলা)
+Bosnian (Bosanski)
+Bulgarian (Български)
+Catalan (Català)
+Chinese Simplified (简体中文)
+Chinese Traditional (繁體中文)
+Croatian (Hrvatski)
+Czech (čeština)
+Danish (Dansk)
+Dari (دری)
+Dinka (Dinka)
+Dutch (Nederlands)
+Estonian (Eesti keel)
+Filipino (Tagalog)
+Finnish (Suomi)
+French (Français)
+Galician (Galego)
+Georgian (ქართული)
+German (Deutsch)
+Greek (Ελληνικά)
+Gujarati (ગુજરાતી)
+Haitian Creole (Kreyòl ayisyen)
+Hebrew (עברית)
+Hindi (हिन्दी)
+Hungarian (Magyar)
+Icelandic (íslenska)
+Indonesian (Bahasa Indonesia)
+Irish (Gaeilge)
+Italian (Italiano)
+Japanese (日本語)
+Khmer (ខ្មែរ)
+Korean (한국어)
+Kurdish - Kurmanji (Kurmancî)
+Kurdish - Sorani (سۆرانی)
+Lao (ລາວ)
+Latvian (Latviešu)
+Lithuanian (Lietuvių)
+Macedonian (Mакедонски)
+Malay (Bahasa Melayu)
+Malayalam (മലയാളം)
+Maltese (Malti)
+Marathi (मराठी)
+Mongolian (Монгол)
+Nepali (नेपाली)
+Norwegian (Norsk)
+Pashto (پښتو)
+Persian (فارسی)
+Polish (Polski)
+Portuguese (Português)
+Punjabi (ਪੰਜਾਬੀ)
+Romanian (Română)
+Russian (Русский)
+Samoan (Gagana Sāmoa)
+Serbian (Српски)
+Slovak (slovenčina)
+Slovenian (Slovenščina)
+Spanish (Español)
+Swahili (Kiswahili)
+Swedish (Svenska)
+Tamil (தமிழ்)
+Telugu (తెలుగు)
+Thai (ไทย)
+Tongan (Tonga)
+Turkish (Türkçe)
+Ukrainian (Українська)
+Urdu (اردو)
+Vietnamese (Tiếng Việt)
+Welsh (Cymraeg)
+Yiddish (ייִדיש)
+MyServiceNSW
+Logged in
+MyServiceNSW
+Manage account
+Logout of MyServiceNSW
+close
+Close Menu
+Living in NSW
+keyboard_arrow_right
+close
+Close Menu
+keyboard_arrow_left
+Living in NSW
+Back to previous menu
+Living in NSW
+east
+Aboriginal information and services
+Community services
+Driving, boating and transport
+Education and training
+Emergency
+Environment, land and water
+Family and relationships
+Grants and funding
+Health and wellbeing
+Housing and construction
+Legal and justice
+Life Events
+Regional and primary industries
+Visas and migration
+Popular right now
+NSW public holidays
+east
+Seniors Card Crossword
+east
+Driver Knowledge Test (DKT)
+east
+Pay your fine
+east
+Living in NSW
+Working and business
+keyboard_arrow_right
+close
+Close Menu
+keyboard_arrow_left
+Working and business
+Back to previous menu
+Working and business
+east
+Aboriginal information and services
+Business and economy
+Education and training
+Employment
+Grants and funding
+Money and taxes
+Visas and migration
+Popular right now
+News - Liquor and gaming regulation
+east
+Building and trade licences and registrations
+east
+COVID-19 business resources
+east
+Responsible Service of Alcohol (RSA) training
+east
+Working and business
+What's happening
+keyboard_arrow_right
+close
+Close Menu
+keyboard_arrow_left
+What's happening
+Back to previous menu
+What's happening
+east
+About NSW
+Arts and culture
+Events in NSW
+Visiting and exploring NSW
+NSW public holidays
+NSW school holidays
+Popular Events Right Now
+Schools Spectacular
+east
+White Cliffs Camel Cup and Bikekhana
+east
+Learn about the NSW Government's rental reforms
+east
+September 2026 Aircraft Showcase
+east
+What's happening
+Have your say
+Easy Read
+Home
+…
+Departments and agencies
+Bradfield Development Authority
+Our projects
+Bradfield Development Authority projects
+Discover projects shaping Western Sydney's future. We are delivering Australia's newest city, driving investment and growing industry in the Western Sydney Aerotropolis.
+Quick links
+Bradfield Development Authority
+About us
+Get involved
+Publications and resources
+News and updates
+Our projects
+Delivering Bradfield City
+We’re creating Bradfield City, a vibrant hub for innovation, sustainability, and economic growth. With world-class infrastructure and cutting-edge industries, it will be a great place to work, invest, and connect.
+Learn how Bradfield City will shape Western Sydney’s future.
+east
+Investing in the Western Sydney Aerotropolis
+The Western Sydney Aerotropolis is growing into a hub for industry and innovation. With world-class infrastructure and a strong business network, it’s the perfect place to invest and succeed.
+Explore how investing in the Aerotropolis creates opportunities.
+east
+Advanced Manufacturing Readiness Facility (AMRF)
+The AMRF helps businesses innovate, grow, and compete globally. With cutting-edge technology, expert support, and training, it speeds up development and reduces risk.
+Find out how the AMRF supports industry success.
+east
+Other projects
+Planning referrals
+We provide advice on major developments in the Aerotropolis to support smart growth.
+Learn how our planning referrals guide sustainable development.
+east
+Contact the Bradfield Development Authority
+Visit our
+contact us
+page or reach out to us directly at:
+Phone:
+1800 312 999
+Address:
+50 Belmore Street, Penrith, NSW 2750
+Follow the Bradfield Development Authority
+Follow us on social media.
+Facebook
+Linkedin
+X
+Instagram
+Youtube
+Top
+of page
+north
+This page is managed by
+Bradfield Development Authority
+Was this page helpful?
+Yes
+No
+Your feedback is welcomed
+Send
+Thanks for your feedback
+Your rating will help us improve the website.
+Your Visited Pages
+Delivering Bradfield City
+About the Bradfield Development Authority
+Popular
+NSW public holidays
+Seniors Card Crossword
+Driver Knowledge Test (DKT)
+Pay your fine
+NSW school holidays
+HSC exam resources
+Ministerial releases
+Search your family history
+NESA
+About this website
+Access to information
+Accessibility statement
+Copyright
+Disclaimer
+Privacy statement
+NSW Government directory
+Departments
+Cabinet Office
+Climate Change, Energy, the Environment and Water
+Communities and Justice
+Creative Industries, Tourism, Hospitality and Sport
+Customer Service
+Education
+Health
+Planning, Housing and Infrastructure
+Premier's Department
+Primary Industries and Regional Development
+Transport
+Treasury
+NSW Government
+The Premier
+NSW Ministers
+Find your local Member of Parliament
+Boards and Committees
+Find a job in NSW Government
+About NSW
+NSW Government communications
+Unsolicited proposals
+We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued connection to their country and culture.
+Copyright © 2026
+Văn bản gốc
+Đánh giá bản dịch này
+Ý kiến phản hồi của bạn sẽ được dùng để góp phần cải thiện Google Dịch

@@ -1,0 +1,278 @@
+Incheon International Airport Corporation > Key Businesses > Logistics Services > Introduction
+Shortcuts to the text
+Shortcuts to the menu
+Shortcuts to the footer
+Incheon International Airport
+Login
+Customer Center
+POPUP
+ENG
+KOR
+CHN
+JPN
+Login
+Customer Center
+POPUP
+ENG
+KOR
+CHN
+JPN
+Close Menu
+fnctId=sitemenu,menuViewType=top
+About the Corporation
+General Overview
+Business Areas
+Vision
+History
+Institutional Symbol (CI) / Slogan
+Incheon Airport at a Glance
+Directions
+Organization
+Overview of the Organization
+Executives and Management
+Public Relations Center
+Awards
+Gallery
+Publications
+ESG Management
+ESG Management
+Incheon Airport’s ESG
+E Low-Carbon Eco-Friendly Airport
+S People-Oriented Accountable Management
+G Establishing Transparent and Fair Governance
+Ethical Management
+Introduction to Ethical Management
+Ethical Management News
+Internal control system
+Human Rights Management
+Human Rights Management System
+Human Rights Management News
+Voluntary Compliance with Fair Trade
+Customer Communication
+Announcements
+Press Release
+PR Observatory Deck
+Terminal 2 Kang Dong Suk Hall
+Oseongsan Mnt. Observatory Deck
+Aviation Statistics
+View Incheon Airport Statistics
+Key Businesses
+Passenger Services
+Improvement of Airport Services
+Hub Competitiveness
+Logistics Services
+Introduction
+Why Incheon
+Specialty
+Global Recognition
+Airport Operations/Safety
+Baggage Handling System
+A-CDM
+Safety Management System
+Environmental Management System
+Energy Management System
+Aviation Security Management System
+Airport Construction
+Project Overview
+Phase 1–4 Construction Projects
+Business Hub
+Airport Economic Zone
+Development of a Complex City
+Completed Investment Projects
+Aviation MRO Business
+Overseas Business
+Overview
+Project Performance
+Overseas Projects
+Educational Institution
+Curriculum
+Support Services
+Regulations
+Rental and Occupancy Support
+Rental of Office Facilities
+Leasing Commercial Facilities
+Application for Occupancy
+Tenant Service Center
+Others
+Sitemap
+To Search
+Open Menu
+Sitemap
+Key Businesses
+Introduction
+at home
+Key Businesses
+About the Corporation
+ESG Management
+Customer Communication
+Key Businesses
+Support Services
+Others
+Logistics Services
+Passenger Services
+Logistics Services
+Airport Operations/Safety
+Airport Construction
+Business Hub
+Overseas Business
+Overseas Projects
+Introduction
+Introduction
+Why Incheon
+Specialty
+Global Recognition
+Sharing
+Bookmark
+Favorite Menu
+Close
+Add to Menu
+Reset
+To Print
+Introduction
+/WEB-INF/jsp/k2web/com/cop/site/layout.jsp
+co_en_JW_MS_K2WT001_S
+Incheon Airport: The Most Advanced, Reliable
+Global Logistics Hub
+Second in the World in International Air Cargo Traffic
+Ongoing Development of Logistics Infrastructure and Network
+Since its opening in 2001, Incheon International Airport has continuously developed its logistics infrastructure and network. As a result, in 2021 and 2022, the airport handled the second-largest volume of international cargo in the world, maintaining its position as a central logistics hub in Northeast Asia.
+The annual air cargo volume—which was only 1.19 million tons at the time of the airport’s opening—reached a cumulative total of 10 million tons by early 2006 or a mere five years later. The cumulative total reached 40 million tons by early 2018, and 50 million tons in just about three and a half years, accelerating the growth of air cargo traffic.
+A Premier Northeast Asian Air Logistics Hub with Exceptional Location
+High Transshipment Cargo Processing Rate
+In 2022, out of the 2.95 million tons of international air cargo processed at Incheon International Airport, 1.12 million tons were transshipment cargo, accounting for approximately 38% of the total. With a higher transshipment cargo processing rate than surrounding airports, Incheon Airport solidifies its position as a logistics hub airport in Northeast Asia.
+An Air Network Connecting the World
+Incheon Airport’s Aviation Network Operates Non-Stop 365 Days a Year
+As of December 2022, Incheon International Airport’s network connects to 152 cities in 53 countries through 87 airlines, operating non-stop 365 days a year. The destinations include 20 in China, 6 in Japan, 10 in Southeast Asia, 27 in North America, 5 in Latin America, and 18 in Europe.
+Incheon Airport Air Network
+87
+Airlines
+53
+Countries
+152
+Cities
+Getting Ready to Advance into a Mega Hub Logistics Airport with the Capacity to Handle 6.3 Million Tons through the Fourth Phase of Construction
+World-class Business and Logistics Hub
+Incheon International Airport is currently moving forward with its fourth phase of construction, with plans to become a “Mega Hub Airport” capable of accommodating 106 million passengers, 600,000 flights, and 6.3 million tons of cargo annually upon completion.
+As the key facility of the fourth phase, the fourth runway was successfully opened on June 17, 2021; the expansion of Terminal 2 is expected to be completed by 2024, positioning the airport as the world’s premier hub for business and logistics.
+Emerging as a Perishables Hub with the Opening of the Cool Cargo Center
+Initiation of Specialized Perishables Handling Facilities
+Temperature-sensitive cargo sees a 20% increase per annum, driven by the COVID-19 pandemic and rising income levels. In response to this trend, Incheon International Airport launched the “Cold Cargo Center” in September 2021 within the airside (aircraft operating area) to minimize transfer times for bio-pharmaceuticals and perishable goods, ensuring safe handling even in severe weather conditions to establish the airport as a leading perishables hub.
+Gaining Momentum as the Logistics Hub through the Expansion of the Free Trade Area
+Providing a More Competitive Environment
+Incheon International Airport’s Free Trade Area consists of the Airport Logistics Complex and Cargo Terminal area, offering customers a more competitive environment with convenient customs procedures, duty-free benefits, and various incentives.
+In April 2005, 2,093,000 square meters was designated as a Free Trade Area followed by an expansion in December 2007 when an additional 922,000 square meters of the First Airport Logistics Complex was also designated. Subsequently, in April 2020, 326,000 square meters of the Second Airport Logistics Complex was designated as a Free Trade Area. Tenant companies are guaranteed the freedom to engage in manufacturing, logistics, and trade activities, benefiting from low rental fees and customs duty deferment among other advantages.
+The Airport Logistics Complex and Cargo Terminal areas are interconnected via a direct return route, allowing for seamless movement between them without additional transportation procedures, enabling high-value-added logistics activities such as simple processing, assembly, and consumption reporting, and allowing companies to respond proactively to the rapidly changing global business environment.
+Currently, 35 logistics companies and one manufacturing company are operating within the Airport Logistics Complex, evolving from simple export-import logistics to high-value-added or converged logistics.
+In addition, the Cargo Terminal area houses major global express carriers such as Korean Air, Asiana Airlines, and international couriers within its eight cargo terminals, three air cargo warehouses, four specialized processing facilities, and two customs-bonded areas, establishing a robust logistics hub.
+Incheon International Airport Free Trade Area Tenant Management Guidelines
+Download
+Incheon International Airport Free Trade Area Overview Map
+Download
+주요사업-물류서비스-자유무역지역 확대 통해 항공화물 허브화 가속 안내- 구분, 일반화물터미널, 글로벌특송사, 항공화물창고, 특수목적시설, 세관보세구역
+Category
+Applicable Facilities
+General Cargo Terminal
+Korean Air 1, 2
+Asiana
+AACT 1,2
+Foreign Airlines
+Global Express Carriers
+DHL
+FedEx
+Air Cargo Warehouse
+Northern Air Cargo Warehouse
+Incheon Air Cargo A, B
+Special-pPurpose Facilities
+International Mail Logistics Facility
+U.S. Military Mail Facility
+Incheon Customs Logistics Center
+Hazardous Materials Storage
+Customs Bonded Area
+Customs Designated Storage
+Customs Office
+Continuous Operations Since Opening and the World’s Fastest Customs Service
+24-Hour Clearance System
+Since its inauguration in 2001, Incheon International Airport has maintained uninterrupted operations for 190,000 hours, ensuring the highest levels of safety. Leveraging UNI-PASS, the advanced electronic customs clearance system developed by the Korea Customs Service, Incheon Airport offers the fastest service among the 177 member countries of the World Customs Organization (WCO), providing a delay-free logistics environment with 24-hour clearance capability.
+First in Asia to Obtain the Highest Runway Operating Grade (CAT-III, RVR 75 m)
+Asia’s First Highest Runway Operating Grade
+In 2003, Incheon International Airport became the first in Asia to achieve the highest runway operating grade (CAT-III, landing visibility minimum RVR 100 m / takeoff visibility minimum RVR 175 m). Currently, all four runways operate at CAT-III (RVR 75 m), allowing aircraft to land safely even under low visibility conditions with runway visibility range of as short as 75 meters.
+Inquiries
+Telephone : +082-32-741-2276
+Email : logistics@biz.airport.kr
+Managing department : Logistics Development Team
+페이지 만족도 설문조사
+Content Satisfaction Survey
+Very Satisfied
+Satisfied
+Neutral
+Dissatisfied
+Very Dissatisfied
+Participate
+Terms of Service
+Privacy Policy
+Surveillance Camera Policy
+Aviation Safety Reporting
+Copyright Protection Policy
+Refusal of Unauthorized Email Collection
+Guidelines for Visually Impaired Users
+Logistics Services
+Complex City Development
+MRO
+Overseas Business / Education
+Incheon International Airport
+47, Gonghang-ro 424beon-gil, Yeongjong-gu, Incheon (23358)
+Terminal 1, Incheon International Airport
+272 Gonghang-ro, Yeongjong-gu, Incheon (23358)
+Terminal 2, Incheon International Airport
+446 Je2terminal-daero, Yeongjong-gu, Incheon (23358)
+Facebook Shortcuts
+Instagram Shortcuts
+Youtube Shortcuts
+Naver Blog Shortcuts
+Related Sites
+Internet Billing System
+Air Cargo Information System
+Korea Aviation Security Academy
+Aviation Academy
+Flight Information Service
+Loading Unit Management Website
+Incheon Airport Human Resource Development Center
+Airport Industry Research Institute (AIRI)
+Incheon Airport SkyMons
+Incheon Airport Energy Co., Ltd.
+Incheon Airport Facilities Management Co., Ltd.
+Incheon Airport Operation Services Co., Ltd.
+Incheon Airport Security Co., Ltd.
+Tenant Services Portal
+Ministry of Land, Infrastructure, and Transport Website
+Incheon International Airport Police
+Safe Travel with the Ministry of Foreign Affairs
+When Language is a Barrier
+Road Name Address Guide
+Overseas Infectious Disease NOW
+Korea Airports Corporation
+Safety Dream
+Korea Customs Service
+Immigration Policy Headquarters
+Safety Management Information System
+Copyright Incheon International Airport Corporation. All rights reserved.
+Integrated Search
+Search
+Popular Search Terms
+job vacancy
+e
+annual report
+email
+airport operations manual
+Close search box
+Move to the top
+팝업존(
+0
+개)
+there is no registered data
+이전 슬라이드
+다음 슬라이드
+Number of Pop-ups: Total
+0
+Close
+Do not show this again today.

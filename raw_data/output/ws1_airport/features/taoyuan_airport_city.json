@@ -1,0 +1,320 @@
+{
+  "record": {
+    "case_name": "Taoyuan Aerotropolis",
+    "aerotropolis": "Taoyuan Aerotropolis / Đô thị sân bay Đào Viên",
+    "country": "Đài Loan",
+    "is_target": false,
+    "airport_name": "Taiwan Taoyuan International Airport",
+    "reference_city": "Đào Viên – Đài Bắc",
+    "official_website": "https://www.taoyuanairport.com.tw",
+    "positioning": "Aerotropolis",
+    "planning_concept": "comprising the “egg yolk zone” managed by the Ministry of Transportation (including runways and free trade zones) and the “egg white zone” overseen by the Taoyuan City Government (including specialized industrial areas and airport MRT station corridors).",
+    "cornerstones": null,
+    "subzones": [
+      "industry zone",
+      "free-trade zone",
+      "commercial zone",
+      "residence zone",
+      "Air Cargo Terminal",
+      "International Logistics Center",
+      "Value-Added Park"
+    ],
+    "area_km2": 45.64,
+    "distance_to_city_km": null,
+    "passengers_million": 47.8,
+    "cargo_million_tonnes": 2.5,
+    "air_movements": 262217,
+    "destinations": null,
+    "airlines": null,
+    "transfer_pct": null,
+    "airport_area_ha": null,
+    "employees": null,
+    "num_companies_airport": null,
+    "num_companies_realestate": 34,
+    "num_office_buildings": null,
+    "jobs_created": 300000,
+    "founded_year": 1979,
+    "total_investment_usd": "Over NT$500 billion (US$17 billion)",
+    "development_context": "Over NT$500 billion (US$17 billion) will be invested in the aerotropolis to generate economic benefits exceeding NT$2.3 trillion (US$78 billion) and create over 300,000 jobs in the greater Taipei area, according to projections cited by the premier.",
+    "location_desc": "The project covers the Dayuan and Luzhu Districts of Taoyuan City, with a total urban planning area of 4,564 hectares.",
+    "investor_governance": "The Taoyuan Aerotropolis Engineering Office of the Civil Aviation Administration, MOTC is responsible for land expropriation and development across 1,756 hectares, including Taoyuan City Government’s Phase One development (1,190 hectares) and areas around the Navy base (566 hectares) delegated by the Civil Aeronautics Administration.",
+    "lead_developer": "Far Glory Aviation Free Trade Zone Co., Ltd.",
+    "economic_zone_name": "Taoyuan Aviation Free Trade Zone",
+    "economic_zone_year": 2006,
+    "commercial_re": [
+      "logistics",
+      "cargo",
+      "free trade zone",
+      "industrial",
+      "commercial",
+      "residential",
+      "warehouse"
+    ],
+    "residential_product_desc": null,
+    "basic_amenities": [
+      "bike paths",
+      "park landscapes",
+      "waterfront plazas",
+      "community amenities"
+    ],
+    "highlight_amenities": [
+      "smart streetlights",
+      "common utility tunnels",
+      "retention ponds"
+    ],
+    "logistics_park_ha": 45.0,
+    "logistics_park_name": "Taoyuan Aviation Free Trade Zone (Air Cargo Park)",
+    "trade_park_ha": null,
+    "trade_park_name": null,
+    "cvp_product": [
+      "logistics",
+      "warehouse",
+      "Value-Added Park",
+      "industry zone",
+      "free-trade zone"
+    ],
+    "cvp_price": null,
+    "office_rent_eur_m2_year": null,
+    "cvp_price_note": null,
+    "cvp_service": [
+      "In-Town Check-In",
+      "customs clearance",
+      "BIM",
+      "GIS",
+      "IoT"
+    ],
+    "cvp_experience": [
+      "recreational corridors",
+      "bike paths",
+      "waterfront plazas",
+      "park"
+    ],
+    "cvp_convenience": [
+      "From Taipei Main Station to Taiwan Taoyuan International Airport Terminal 1 Station, it only takes 35 minutes by Express Train, and takes 39 minutes to Terminal 2 Station.",
+      "It is only 8 km from Sun Yat-Sen freeway to the Park"
+    ],
+    "rail_connections": [
+      "from A1~A12 takes 35 minutes",
+      "from A1~A12 takes 49 minutes and from A1~A21 takes 82 minutes"
+    ],
+    "cvp_brand": [
+      "Taoyuan Aerotropolis",
+      "Far Glory",
+      "AECOM",
+      "Taoyuan Metro"
+    ],
+    "vision_label": null,
+    "vision_qualities": null,
+    "aviation_policy": null,
+    "smart_city": "The project integrates BIM (Building Information Modeling), GIS (Geographic Information System), and IoT (Internet of Things) technologies for underground utility management, facilitating water level monitoring, remote control systems, smart road inspection systems, and intelligent bus shelters.",
+    "sustainability": [
+      "recycled materials",
+      "circular economy",
+      "carbon emissions",
+      "retention ponds",
+      "smart streetlights"
+    ],
+    "_pages_used": 18
+  },
+  "provenance": {
+    "positioning": {
+      "confidence": "high"
+    },
+    "planning_concept": {
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "snippet": "comprising the “egg yolk zone” managed by the Ministry of Transportation (including runways and free trade zones) and the “egg white zone” overseen by the Taoyu",
+      "confidence": "high"
+    },
+    "subzones": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
+        "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
+      ],
+      "confidence": "high"
+    },
+    "area_km2": {
+      "unit": "km²",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "snippet": "total urban planning area of 4,564 hectares",
+      "confidence": "high"
+    },
+    "passengers_million": {
+      "unit": "triệu/năm",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
+      "snippet": "Number of passengers 47,795,969",
+      "confidence": "high"
+    },
+    "cargo_million_tonnes": {
+      "unit": "triệu tấn/năm",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
+      "snippet": "Airfreight movements 2,499,898.5 tonnes",
+      "confidence": "high"
+    },
+    "air_movements": {
+      "unit": "lượt/năm",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
+      "snippet": "Aircraft movements 262,217",
+      "confidence": "high"
+    },
+    "num_companies_realestate": {
+      "unit": "doanh nghiệp",
+      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
+      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
+      "snippet": "there are 34 Free Trade Zone enterprises",
+      "confidence": "high"
+    },
+    "jobs_created": {
+      "unit": "việc làm",
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
+      "source_file": "09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
+      "snippet": "create over 300,000 jobs",
+      "confidence": "high"
+    },
+    "founded_year": {
+      "unit": "năm",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
+      "snippet": "airport opened for commercial operations in 1979",
+      "confidence": "high"
+    },
+    "total_investment_usd": {
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
+      "source_file": "09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
+      "snippet": "Over NT$500 billion (US$17 billion)",
+      "confidence": "high"
+    },
+    "development_context": {
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
+      "source_file": "09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
+      "snippet": "Over NT$500 billion (US$17 billion) will be invested in the aerotropolis to generate economic benefits exceeding NT$2.3 trillion (US$78 billion) and create over",
+      "confidence": "high"
+    },
+    "location_desc": {
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "snippet": "The project covers the Dayuan and Luzhu Districts of Taoyuan City, with a total urban planning area of 4,564 hectares.",
+      "confidence": "high"
+    },
+    "investor_governance": {
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "snippet": "The Taoyuan Aerotropolis Engineering Office of the Civil Aviation Administration, MOTC is responsible for land expropriation and development across 1,756 hectar",
+      "confidence": "high"
+    },
+    "lead_developer": {
+      "source_url": "https://www.taiwan-ftz.com/ftzweb/en/ports/taoyuan",
+      "source_file": "11_taiwan_ftz_taoyuan_international_airport_free_trad.txt",
+      "snippet": "Far Glory Aviation Free Trade Zone Co., Ltd.",
+      "confidence": "high"
+    },
+    "economic_zone_name": {
+      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
+      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
+      "snippet": "Taoyuan Aviation Free Trade Zone",
+      "confidence": "high"
+    },
+    "economic_zone_year": {
+      "unit": "năm",
+      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
+      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
+      "snippet": "has started to operation on January 1, 2006",
+      "confidence": "high"
+    },
+    "commercial_re": {
+      "source_urls": [
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
+        "https://www.taoyuanairport.com.tw/passengervolume?lang=en"
+      ],
+      "confidence": "high"
+    },
+    "basic_amenities": {
+      "source_urls": [
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
+      ],
+      "confidence": "high"
+    },
+    "highlight_amenities": {
+      "source_urls": [
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
+      ],
+      "confidence": "high"
+    },
+    "logistics_park_ha": {
+      "unit": "ha",
+      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
+      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
+      "snippet": "is 45 hectares in area",
+      "confidence": "high"
+    },
+    "cvp_product": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
+      ],
+      "confidence": "high"
+    },
+    "cvp_service": {
+      "source_urls": [
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+        "https://travel.tycg.gov.tw/en/traffic/airportmrt",
+        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
+      ],
+      "confidence": "high"
+    },
+    "cvp_experience": {
+      "source_urls": [
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
+      ],
+      "confidence": "high"
+    },
+    "cvp_convenience": {
+      "source_urls": [
+        "https://travel.tycg.gov.tw/en/traffic/airportmrt",
+        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
+      ],
+      "source_files": [
+        "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
+        "12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt"
+      ],
+      "confidence": "high"
+    },
+    "rail_connections": {
+      "source_urls": [
+        "https://travel.tycg.gov.tw/en/traffic/airportmrt"
+      ],
+      "source_files": [
+        "12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt"
+      ],
+      "confidence": "high"
+    },
+    "cvp_brand": {
+      "source_urls": [
+        "https://aecom.com/projects/taoyuan-aerotropolis-development/",
+        "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
+      ],
+      "confidence": "high"
+    },
+    "smart_city": {
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "snippet": "The project integrates BIM (Building Information Modeling), GIS (Geographic Information System), and IoT (Internet of Things) technologies for underground utili",
+      "confidence": "high"
+    },
+    "sustainability": {
+      "source_urls": [
+        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
+      ],
+      "confidence": "high"
+    }
+  }
+}

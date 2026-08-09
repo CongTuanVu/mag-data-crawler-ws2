@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "source_image": "https://bradfield.city/sites/default/files/styles/wide/public/2026-04/about-bradfield-city-header.jpg.webp?itok=pSBSOLZ7",
+    "page_url": "https://bradfield.city/what-bradfield-city",
+    "caption": "Toàn cảnh Bradfield City — lõi đô thị của Western Sydney Aerotropolis",
+    "bytes": 278421
+  },
+  "planning": {
+    "file": "planning.jpg",
+    "source_image": "https://bradfield.city/sites/default/files/2026-03/city%20spaces%20map%201.png",
+    "page_url": "https://bradfield.city/",
+    "caption": "Bản đồ phân khu Bradfield City: Enterprise, AMRF, Central Park, University, Commercial",
+    "bytes": 93666
+  },
+  "vision": {
+    "file": "vision.jpg",
+    "source_image": "https://www.nsw.gov.au/sites/default/files/styles/hero_l_x1/public/2024-10/BDA-artist-impression-004_0.png?itok=GKFfzJHV",
+    "page_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+    "caption": "Phối cảnh Bradfield City theo Master Plan duyệt 9/2024",
+    "bytes": 114981
+  },
+  "experience": {
+    "file": "experience.jpg",
+    "source_image": "https://bradfield.city/sites/default/files/styles/wide/public/2026-03/Food-and-Beverage-venue-close-up.jpg.webp?itok=buamT2cs",
+    "page_url": "https://bradfield.city/what-bradfield-city",
+    "caption": "Không gian mở và tiện ích công cộng — 1/3 diện tích thành phố",
+    "bytes": 316002
+  }
+}

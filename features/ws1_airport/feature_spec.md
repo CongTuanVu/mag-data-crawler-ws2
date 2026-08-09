@@ -103,8 +103,25 @@ dự án **Gia Bình Airport City (GBAC)**.
 | `vision_qualities` | list | strategic-qualities | Quality of Network/Life/Service/Work |
 | `aviation_policy` | string | strategy | Aviation Policy Memorandum 2020-2050 |
 | `logistics_park_ha` | float | SADC – SLP facts | 43 |
+| `logistics_park_name` | string\|null | trang park | Schiphol Logistics Park |
 | `trade_park_ha` | float | SADC – Trade Park | 350 |
+| `trade_park_name` | string\|null | trang park | Schiphol Trade Park |
 | `sustainability` | list | SADC sustainability | BREEAM; circular; most sustainable; biodiversity; CO2 |
+
+> `*_park_name` tách khỏi `*_park_ha` để `build_html.py` không phải hardcode tên park
+> riêng của Schiphol; case không có tên park thì null và HTML dùng chữ chung.
+
+### 7) Quy đổi đơn vị tại nguồn
+
+Nhiều website công bố ở đơn vị khác spec. `field_num(..., factor=)` quy đổi ngay khi
+trích, để `record` luôn đúng đơn vị đã khai báo:
+
+| Case | Nguồn ghi | Trường | factor |
+|---|---|---|---|
+| Incheon | `2,093,000 square meters` | `logistics_park_ha` | `1e-4` |
+| Taoyuan | `4,564 hectares` | `area_km2` | `0.01` |
+| Taoyuan | `47,795,969` khách | `passengers_million` | `1e-6` |
+| Western Sydney | `11,200 hectares` | `area_km2` | `0.01` |
 
 ### Quy tắc chống lỗi đã áp dụng
 - **Ưu tiên nguồn chuẩn** cho chỉ số trùng (headline → "Facts & Figures 2025", tránh "over 300" marketing).

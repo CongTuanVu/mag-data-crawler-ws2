@@ -1,0 +1,1359 @@
+<!DOCTYPE html><html lang="en" class="mode-two-column cssanimations desktop" style="height: 100%;"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><script>document.querySelector("html").setAttribute('class','mode-two-column');if(localStorage.getItem('card-list-mode')==='mode-tile'){document.querySelector("html").classList.remove('mode-two-column');}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"><meta name="format-detection" content="telephone=no"><title>Taoyuan Airport MRT | Taoyuan Tourism</title><link href="/Content/css/all.css" rel="stylesheet"><link rel="stylesheet" href="/content/css/photoswipe.css"><link href="/Content/css/page-web-2022.css" rel="stylesheet"><link rel="stylesheet" href="/content/css/page-static.css"><link rel="stylesheet" href="/Content/css/microsoft-jhenghei-patch.css"><meta name="keyword" content="Taoyuan City, Travel, View, Tour"><meta name="subject" content="Taoyuan Airport MRT"><meta name="language" content="en"><meta name="owner" content="Taoyuan Government"><meta name="coverage" content="Worldwide"><meta name="distribution" content="Global"><meta name="rating" content="General"><meta property="og:title" content="Taoyuan Airport MRT"><meta property="og:type" content="website"><meta property="og:site_name" content="Taoyuan Tourism"><meta property="og:description" content=""><meta property="og:url" content="https://travel.tycg.gov.tw/en/traffic/airportmrt"><meta property="og:locale" content="zh_TW"><meta name="twitter:site" content="Taoyuan Tourism"><meta name="twitter:creator" content="Taoyuan Tourism"><meta name="twitter:title" content="Taoyuan Airport MRT"><meta name="twitter:description" content=""><link rel="apple-touch-icon" sizes="57x57" href="/Content/favicons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/Content/favicons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/Content/favicons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/Content/favicons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/Content/favicons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/Content/favicons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/Content/favicons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/Content/favicons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/Content/favicons/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" href="/Content/favicons/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/Content/favicons/android-chrome-192x192.png" sizes="192x192"><link rel="icon" type="image/png" href="/Content/favicons/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="/Content/favicons/favicon-16x16.png" sizes="16x16"><link rel="manifest" href="/Content/favicons/manifest.json"><meta name="msapplication-TileColor" content="#603cba"><meta name="msapplication-TileImage" content="/Content/favicons/mstile-144x144.png"><meta name="theme-color" content="#ffffff"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://travel.tycg.gov.tw/en/traffic/airportmrt","name":"Taoyuan Airport MRT","publisher":"Taoyuan Government","image":["https://travel.tycg.gov.tw/Content/images/not-found/default.jpg"]}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6D6V9VE8R7"></script><script>var LANG_MAP={"zh-tw":"tw","zh-cn":"cn",en:"en",ja:"ja",ko:"ko",id:"id",th:"th",vi:"vn",}
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-6D6V9VE8R7',{cookie_flags:'secure;samesite=lax'});dataLayer.push({'lang':LANG_MAP["en"]||'tw'})</script><style>*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+    /* :root {
+		--tw-primary: 0, 121, 150;
+		--tw-secondary: 179, 20, 19;
+		--tw-orange: 219, 124, 74;
+		.new-2024 {
+			--tw-primary: 30, 86, 94;
+			--tw-orange: 234, 112, 26;
+		}
+	} */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.pointer-events-auto {
+  pointer-events: auto;
+}
+.\!visible {
+  visibility: visible !important;
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-\[40px\] {
+  bottom: 40px;
+}
+.bottom-\[88px\] {
+  bottom: 88px;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.right-\[20px\] {
+  right: 20px;
+}
+.right-full {
+  right: 100%;
+}
+.top-0 {
+  top: 0px;
+}
+.top-4 {
+  top: 1rem;
+}
+.top-\[20px\] {
+  top: 20px;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-40 {
+  z-index: 40;
+}
+.z-\[3000\] {
+  z-index: 3000;
+}
+.z-\[9999\] {
+  z-index: 9999;
+}
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+.ml-\[2px\] {
+  margin-left: 2px;
+}
+.mr-\[4px\] {
+  margin-right: 4px;
+}
+.mt-\[-56px\] {
+  margin-top: -56px;
+}
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+.mt-\[4px\] {
+  margin-top: 4px;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.aspect-\[4\/3\] {
+  aspect-ratio: 4/3;
+}
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.\!h-\[96px\] {
+  height: 96px !important;
+}
+.h-\[100px\] {
+  height: 100px;
+}
+.h-\[100vh\] {
+  height: 100vh;
+}
+.h-\[10px\] {
+  height: 10px;
+}
+.h-\[16px\] {
+  height: 16px;
+}
+.h-\[180px\] {
+  height: 180px;
+}
+.h-\[18px\] {
+  height: 18px;
+}
+.h-\[20px\] {
+  height: 20px;
+}
+.h-\[30px\] {
+  height: 30px;
+}
+.h-\[3px\] {
+  height: 3px;
+}
+.h-\[40px\] {
+  height: 40px;
+}
+.h-\[65px\] {
+  height: 65px;
+}
+.max-h-\[80\%\] {
+  max-height: 80%;
+}
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+.min-h-\[160px\] {
+  min-height: 160px;
+}
+.min-h-\[32px\] {
+  min-height: 32px;
+}
+.min-h-\[64px\] {
+  min-height: 64px;
+}
+.min-h-\[calc\(100vh-80px\)\] {
+  min-height: calc(100vh - 80px);
+}
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[100px\] {
+  width: 100px;
+}
+.w-\[100vw\] {
+  width: 100vw;
+}
+.w-\[10px\] {
+  width: 10px;
+}
+.w-\[16px\] {
+  width: 16px;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[20px\] {
+  width: 20px;
+}
+.w-\[30px\] {
+  width: 30px;
+}
+.w-\[320px\] {
+  width: 320px;
+}
+.w-\[330px\] {
+  width: 330px;
+}
+.w-\[360px\] {
+  width: 360px;
+}
+.w-\[40px\] {
+  width: 40px;
+}
+.w-\[435px\] {
+  width: 435px;
+}
+.w-\[65px\] {
+  width: 65px;
+}
+.w-\[680px\] {
+  width: 680px;
+}
+.w-\[700px\] {
+  width: 700px;
+}
+.min-w-0 {
+  min-width: 0px;
+}
+.min-w-\[200px\] {
+  min-width: 200px;
+}
+.min-w-\[56px\] {
+  min-width: 56px;
+}
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+.max-w-\[135\%\] {
+  max-width: 135%;
+}
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.-translate-y-full {
+  --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.translate-y-\[100\%\] {
+  --tw-translate-y: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.resize {
+  resize: both;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-10 {
+  gap: 2.5rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.gap-\[27px\] {
+  gap: 27px;
+}
+.gap-\[4px\] {
+  gap: 4px;
+}
+.gap-\[8px\] {
+  gap: 8px;
+}
+.-space-x-\[6px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-6px * var(--tw-space-x-reverse));
+  margin-left: calc(-6px * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+.space-y-\[8px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(8px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(8px * var(--tw-space-y-reverse));
+}
+.self-stretch {
+  align-self: stretch;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+.text-nowrap {
+  text-wrap: nowrap;
+}
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
+.rounded-\[24px\] {
+  border-radius: 24px;
+}
+.rounded-\[400px\] {
+  border-radius: 400px;
+}
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+.rounded-b-\[8px\] {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.rounded-l-\[400px\] {
+  border-top-left-radius: 400px;
+  border-bottom-left-radius: 400px;
+}
+.rounded-r-\[400px\] {
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+.rounded-t-\[16px\] {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.rounded-tr-\[0\] {
+  border-top-right-radius: 0;
+}
+.border {
+  border-width: 1px;
+}
+.border-0 {
+  border-width: 0px;
+}
+.border-l-\[4px\] {
+  border-left-width: 4px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-\[\#ccc\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(204 204 204 / var(--tw-border-opacity, 1));
+}
+.border-\[\#d7d7d7\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(215 215 215 / var(--tw-border-opacity, 1));
+}
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--tw-primary) , var(--tw-border-opacity, 1));
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+.bg-\[\#666\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 102 102 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#DC0175\]\/10 {
+  background-color: rgb(220 1 117 / 0.1);
+}
+.bg-\[\#F7F7F7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#ccc\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 204 204 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#f0f0f0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#f7f7f7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
+}
+.bg-black\/35 {
+  background-color: rgb(0 0 0 / 0.35);
+}
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--tw-primary) , var(--tw-bg-opacity, 1));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.bg-none {
+  background-image: none;
+}
+.from-\[\#fc5e8a\] {
+  --tw-gradient-from: #fc5e8a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(252 94 138 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-\[\#dc0175\] {
+  --tw-gradient-to: #dc0175 var(--tw-gradient-to-position);
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-\[16px\] {
+  padding: 16px;
+}
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.px-\[16px\] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pb-\[136px\] {
+  padding-bottom: 136px;
+}
+.pb-\[24px\] {
+  padding-bottom: 24px;
+}
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-\[14px\] {
+  font-size: 14px;
+}
+.text-\[15px\] {
+  font-size: 15px;
+}
+.text-\[46px\] {
+  font-size: 46px;
+}
+.font-bold {
+  font-weight: 700;
+}
+.leading-6 {
+  line-height: 1.5rem;
+}
+.text-\[\#0F86D5\] {
+  --tw-text-opacity: 1;
+  color: rgb(15 134 213 / var(--tw-text-opacity, 1));
+}
+.text-\[\#4D9B1F\] {
+  --tw-text-opacity: 1;
+  color: rgb(77 155 31 / var(--tw-text-opacity, 1));
+}
+.text-\[\#7c7c7c\] {
+  --tw-text-opacity: 1;
+  color: rgb(124 124 124 / var(--tw-text-opacity, 1));
+}
+.text-\[\#828282\] {
+  --tw-text-opacity: 1;
+  color: rgb(130 130 130 / var(--tw-text-opacity, 1));
+}
+.text-\[\#979797\] {
+  --tw-text-opacity: 1;
+  color: rgb(151 151 151 / var(--tw-text-opacity, 1));
+}
+.text-\[\#CA6C07\] {
+  --tw-text-opacity: 1;
+  color: rgb(202 108 7 / var(--tw-text-opacity, 1));
+}
+.text-\[\#E13C0A\] {
+  --tw-text-opacity: 1;
+  color: rgb(225 60 10 / var(--tw-text-opacity, 1));
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.opacity-0 {
+  opacity: 0;
+}
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.drop-shadow-\[0_2px_2px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-drop-shadow: drop-shadow(0 2px 2px rgba(0,0,0,0.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.drop-shadow-\[0_3px_12px_rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
+  --tw-drop-shadow: drop-shadow(0 3px 12px rgba(0,0,0,0.4));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.drop-shadow-sm {
+  --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.before\:pt-\[78\.378378\%\]::before {
+  content: var(--tw-content);
+  padding-top: 78.378378%;
+}
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+}
+.hover\:drop-shadow-\[0_0_12px_rgba\(230\2c 0\2c 122\2c \.5\)\]:hover {
+  --tw-drop-shadow: drop-shadow(0 0 12px rgba(230,0,122,.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.focus-visible\:text-primary:focus-visible {
+  --tw-text-opacity: 1;
+  color: rgba(var(--tw-primary) , var(--tw-text-opacity, 1));
+}
+.focus-visible\:drop-shadow-\[0_0_12px_rgba\(230\2c 0\2c 122\2c \.5\)\]:focus-visible {
+  --tw-drop-shadow: drop-shadow(0 0 12px rgba(230,0,122,.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.group:focus-within .group-focus-within\:text-\[\#dc0175\] {
+  --tw-text-opacity: 1;
+  color: rgb(220 1 117 / var(--tw-text-opacity, 1));
+}
+.group:hover .group-hover\:bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--tw-primary) , var(--tw-bg-opacity, 1));
+}
+.group:hover .group-hover\:text-\[\#dc0175\] {
+  --tw-text-opacity: 1;
+  color: rgb(220 1 117 / var(--tw-text-opacity, 1));
+}
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+.group:focus-visible .group-focus-visible\:bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--tw-primary) , var(--tw-bg-opacity, 1));
+}
+.group:focus-visible .group-focus-visible\:opacity-100 {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+
+  .md\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .md\:top-auto {
+    top: auto;
+  }
+
+  .md\:mb-\[40px\] {
+    margin-bottom: 40px;
+  }
+
+  .md\:ml-\[24px\] {
+    margin-left: 24px;
+  }
+
+  .md\:max-w-\[640px\] {
+    max-width: 640px;
+  }
+
+  .md\:translate-y-full {
+    --tw-translate-y: 100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-x-6 {
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+
+  .md\:gap-y-10 {
+    row-gap: 2.5rem;
+  }
+
+  .md\:rounded-\[8px\] {
+    border-radius: 8px;
+  }
+
+  .md\:p-\[24px\] {
+    padding: 24px;
+  }
+
+  .md\:px-\[24px\] {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:pb-\[32px\] {
+    padding-bottom: 32px;
+  }
+
+  .md\:before\:pt-\[45\.833333\%\]::before {
+    content: var(--tw-content);
+    padding-top: 45.833333%;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .lg\:w-\[50px\] {
+    width: 50px;
+  }
+}
+@media (min-width: 1200px) {
+
+  .xl\:\!visible {
+    visibility: visible !important;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .xl\:h-\[720px\] {
+    height: 720px;
+  }
+
+  .xl\:max-w-\[295px\] {
+    max-width: 295px;
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .xl\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .xl\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .xl\:pb-\[230px\] {
+    padding-bottom: 230px;
+  }
+}
+@media (min-width: 1600px) {
+
+  .\32xl\:w-\[370px\] {
+    width: 370px;
+  }
+
+  .\32xl\:w-\[410px\] {
+    width: 410px;
+  }
+}
+</style><style></style><script async="" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&amp;hl=en"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.zZZZhVqDDCw.L.W.O/am=BIgABw/d=0/rs=AN8SPfoZpvrLG9RKhi_wuQUla5cHY0Z5Rg/m=el_main_css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.en_US.PlKIGH9gF_Q.O/am=BIgABw/d=1/ed=1/rs=AN8SPfqjYDfNGTWWJ1qK5c9aU9noNP9buw/m=el_main"></script></head><body class="foreign new-2020 en new-2023 float-show" data-is-login="False" data-lang="en" style="position: relative; min-height: 100%; top: 0px;"><a id="top" class="anchor-fix" title="Anchor" tabindex="-1">Anchor</a> <a href="#main-content" class="acc-show-at-focus js-scroll-anchor" title="Go to the content anchor">Go to the content anchor</a> <input name="__RequestVerificationToken" type="hidden" value="a1QjSC7ZboAN5jwLezpk1gVZZnBnnogZznHn_1AsHx0kpNuyAvbe_T4mA2NDNdaeBmsJmtM1QfogbYZ_peEvXqa0pj2DW6Sv7HSOpysb_os1"><div id="fb-root"></div><div class="main-container" id="main-container"><div id="header-root"><h1 class="sr-only">Taoyuan Tourism</h1><header class="white  header-wrapper-2022 fixed-top w-100 h-7 h-xl-10 px-xl-3"><div class="header-2022 d-flex align-items-center justify-content-between w-100 h-7 h-xl-10 mx-xl-auto px-2"><h1 class="main-logo-foreign main-logo-2022 flex-shrink-0 z-100 position-relative z-100"><a href="/en" class="fill-parent text-hide" title="Back to Home">桃園觀光導覽網</a></h1><button class="btn-open-menu-2022 d-xl-none rounded-[8px]"><span class="sr-only">導覽</span></button><div class="main-nav-wrapper-2022 invisible  xl:!visible"><div class="mobile-scroll-wrapper-2022"><nav class="main-nav-2022 d-flex flex-column flex-xl-row align-items-xl-center"><ul class="d-xl-flex align-items-start-center position-relative" id="main-nav-title-list"><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">Discover<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><div class="w-376px mr-3 mr-0-last"><a href="/en/travel/new-traveler" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="First time to Taoyuan"><div class="thumb-frame embed-responsive embed-responsive-3by4  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/discover-01.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">First time to Taoyuan<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div><div class="w-376px mr-3 mr-0-last"><a href="/en/travel/play-taoyuan" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="Travel tips for Taoyuan"><div class="thumb-frame embed-responsive embed-responsive-3by4  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/discover-02.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">Travel tips for Taoyuan<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div><div class="w-376px mr-3 mr-0-last"><a href="/en/multimedia/live-camera" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="Live Camera"><div class="thumb-frame embed-responsive embed-responsive-3by4  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/discover-03.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">Live Camera<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div><div class="d-flex flex-column align-self-stretch gap-[27px] w-376px mr-3 mr-0-last"><a href="/en/travel/season" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="Annual Highlights"><div class="thumb-frame embed-responsive embed-responsive-16by10  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/discover-04.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">Annual Highlights<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a><a href="/en/event" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="News"><div class="thumb-frame embed-responsive embed-responsive-16by10  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/discover-05.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">News<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div></div></li><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">Things to Do<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><div class="w-376px mr-3 mr-0-last"><a href="/en/travel/tourlist" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="Suggested Itinerary"><div class="thumb-frame embed-responsive embed-responsive-3by4  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/do-01.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">Suggested Itinerary<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 880px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">Featured Articles</div><ul class="row mt-2"><li class="col-6 mb-12px"><a href="/en/travel/get-around-by-airport-mrt" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Touring Taoyuan with Airport MRT</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/indigenous-homelands" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Northern Cross-Island Highway Adventure</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/daxi-old-town" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Daxi old town</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/shihmen-reservoir-tour" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Shihmen Reservoir</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/temple-blessing-tour" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Temple blessing tour</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/flower-viewing" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Flower-viewing</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/factory-tours" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>City Museum</div></a></li><li class="col-6 mb-12px"><a href="/en/consume/business-district" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Night market and business districts</div></a></li><li class="col-6 mb-12px"><a href="/en/consume/shopping-paradise" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Shopping Paradise in Taoyuan</div></a></li><li class="col-6 mb-12px"><a href="/en/consume/delicious" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Gourmet</div></a></li><li class="col-6 mb-12px"><a href="/en/travel/irresistible-souvenirs" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Irresistible souvenir</div></a></li><li class="col-6 mb-12px"><a href="/en/accommodation/recommend" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Accommodation Guide </div></a></li></ul></div></div></li><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">Places to Go<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><div class="district-map-blk align-self-start mr-6 position-relative"><img class="d-block w-[435px]" src="/content/images/menu/district-map-base.png" alt=""><div class="w-100 absolute-top-left"><img class="area-map d-block w-[435px] absolute-top-left trs-all" src="/content/images/menu/district-map-coastal.png" alt=""><img class="area-map d-block w-[435px] absolute-top-left trs-all" src="/content/images/menu/district-map-urban.png" alt=""><img class="area-map d-block w-[435px] absolute-top-left trs-all" src="/content/images/menu/district-map-mountainous.png" alt=""></div><ul class="mb-2 ml-n2 space-y-[8px] absolute-bottom-left"><li class="area-item"><a href="/en/travel/coastal" class="btn min-w-[200px] h-6 rounded-[16px] fz-18px hover-primary" title="Coastal area">Coastal area</a></li><li class="area-item"><a href="/en/travel/urban" class="btn min-w-[200px] h-6 rounded-[16px] fz-18px hover-primary" title="Urban area">Urban area</a></li><li class="area-item"><a href="/en/travel/mountainous" class="btn min-w-[200px] h-6 rounded-[16px] fz-18px hover-primary" title="Mountainous area">Mountainous area</a></li></ul></div><div class="d-flex flex-column align-self-stretch gap-[27px] w-376px mr-3 mr-0-last"><a href="/en/travel/districts" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="District"><div class="thumb-frame embed-responsive embed-responsive-16by10  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/place-01.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">District<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a><a href="/en/travel" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="Attractions"><div class="thumb-frame embed-responsive embed-responsive-16by10  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/place-02.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">Attractions<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 376px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">Popular Attractions</div><ul class="false mt-2"><li class="false mb-12px"><a href="/en/travel/attraction/2280" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Luzhu DaFuDi (蘆竹大夫第)</div></a></li><li class="false mb-12px"><a href="/en/travel/attraction/2287" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Dayuan Jianshan Archaeological Exhibition Hall (大園尖山考古展示館)</div></a></li><li class="false mb-12px"><a href="/en/travel/attraction/2286" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Xinwu Coastal Botanical Garden (新屋濱海植物園)</div></a></li><li class="false mb-12px"><a href="/en/travel/attraction/2277" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Xinwu Stone Weirs Story House (新屋石滬故事館)</div></a></li><li class="false mb-12px"><a href="/en/travel/attraction/2285" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Ocean Hakka Taiwanese Beach Seine Cultural Center (海洋客家牽罟文化館)</div></a></li><li class="false mb-12px"><a href="/en/travel/attraction/2222" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Waishe Light Railway Station (外社輕便車站)</div></a></li></ul></div></div></li><li class=" item mr-xl-3 mr-0-last"><a class="false menu-title-2022 d-flex align-items-center w-100 h-xl-6 p-2 text-decoration-none text-default fz-20px fz-xl-18px font-weight-bold hover-primary trs-all" href="#">Plan your trip<i class="icon icon-triangle d-xl-none ml-auto fz-10px text-muted rotate-270" aria-hidden="true"></i></a><div class="js-sub-menu nav-sub-list-2022 justify-content-start justify-content-xl-center h-xl-auto pt-7 p-xl-8 bg-light  shadow"><div class="w-376px mr-3 mr-0-last"><a href="/en/travel/plans" class="d-block rounded-16px overflow-hidden position-relative text-white hover-primary trs-all fz-28px" title="Travel Guide"><div class="thumb-frame embed-responsive embed-responsive-3by4  rounded-16px"><img src="/content/images/global/blank.gif" data-src="/content/images/menu/plan-01.jpg" alt="" class="thumb embed-responsive-item trs-all lazy rounded-16px"><noscript></noscript></div><div class="d-flex flex-column justify-content-end align-items-center w-100 h-50 p-3 absolute-bottom-left bg-gradient-top-black-80 font-weight-bold">Travel Guide<i class="flex-shrink-0 w-5 h-4px mt-1 bg-primary" aria-hidden="true"></i></div></a></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 376px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">Travel planning tool</div><ul class="false mt-2"><li class="false mb-12px"><a href="/en/multimedia/publication" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Publication</div></a></li><li class="false mb-12px"><a href="/en/travel/useful-links" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Links</div></a></li><li class="false mb-12px"><a href="/en/multimedia/faq" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>FAQs</div></a></li><li class="false mb-12px"><a href="/en/travel/servicecenter/visitor-center" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Visitor Center</div></a></li><li class="false mb-12px"><a href="/en/multimedia/albumlist" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Album</div></a></li></ul></div><div class="flex-shrink-0 miw-240px pl-3 mr-3 mr-0-last fz-18px" style="max-width: 376px;"><div class="text-info h-6 d-flex align-items-center justify-content-between w-100 px-2 py-1 text-decoration-none fz-30px font-weight-bold">Transportation</div><ul class="false mt-2"><li class="false mb-12px"><a href="/en/traffic/gettinghere" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Getting Here</div></a></li><li class="false mb-12px"><a href="/en/traffic/citytransportation" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>City Transportation</div></a></li><li class="false mb-12px"><a href="/en/traffic/airportmrt" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Taoyuan Airport MRT</div></a></li><li class="false mb-12px"><a href="/en/traffic/taiwantouristshuttle" class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Taiwan Tourist Shuttle</div></a></li><li class="false mb-12px"><a class="d-flex align-items-start mih-48px py-1 pl-2 text-default hover-primary trs-all fz-24px lh-initial" href="https://www.taoyuan-airport.com/?lang=en" target="_blank" rel="noopener noreferrer"><div class="d-flex justify-content-center align-items-center h-4 mr-12px"><i class="w-4px h-4px rounded-circle bg-default" aria-hidden="true"></i></div><div>Taiwan Taoyuan International Airport<i class="icon d-inline icon-link-out mt-1 ml-1 fz-13px text-info" aria-hidden="true"></i></div></a></li></ul></div></div></li></ul><div class="d-flex align-items-center ml-5"><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/en/siteinformation/sitemap" title="Sitemap"><i class="icon icon-sitemap fz-17px" aria-hidden="true"></i><div class="sr-only">Sitemap</div></a><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/en/travel/mapnavigate" title="Travel Map"><i class="icon icon-map fz-18px" aria-hidden="true"></i><div class="sr-only">Travel Map</div></a><div class="position-relative lang-switch-blk"><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="#" title="language"><i class="icon icon-global fz-18px" aria-hidden="true"></i><div class="sr-only">language</div></a><div class="lang-switch-list mt-4 pt-12px absolute-top-right drop-shadow-black-25 z-2000"><i class="icon icon-triangle mr-2 rotate-180 text-white absolute-top-right" aria-hidden="true"></i><ul class="w-136px p-12px rounded bg-white fz-15px"><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/zh-tw" title="繁體中文">繁體中文</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/ja" title="日本語">日本語</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/ko" title="한국어">한국어</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/zh-cn" title="簡體中文">簡體中文</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/id" title="Indonesia">Indonesia</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/th" title="ไทย">ไทย</a></li><li class="mb-1 mb-0-last"><a class="d-block w-100 text-decoration-none text-default hover-primary" href="/vi" title="Người việt nam">Người việt nam</a></li></ul></div></div><a class="menu-title-2022 d-flex justify-content-center align-items-center w-5 h-5 mr-4px mr-0-last text-decoration-none hover-primary trs-all" href="/en/search" title="Full-Text search"><i class="icon icon-magnifier fz-18px" aria-hidden="true"></i><div class="sr-only">Full-Text search</div></a></div></nav></div></div><button class="invisible mobile-nav-close-mask-2022 d-xl-none"><div class="sr-only">關閉選單</div></button></div></header><div class="absolute-top-left w-1 h-1 z-99999 mt-6 mt-xl-10 pointer-events-none "></div></div><noscript class="noscript-hint">JavaScript is disabled on your browser. Please enable JavaScript on your browser or upgrade to a JavaScript-capable browser to browse for this website.</noscript><main class="page-content-wrapper pb-0"><div class="breadcrumb d-flex align-items-center h-5 mb-n5 fz-13px position-relative z-200 text-default" data-path="Home&gt;Plan your trip&gt;Transportation"><a class="brick d-none d-xl-flex justify-content-center align-items-center w-20px ml-n2 text-decoration-none" href="javascript:void(0)" accesskey="C" title="Content anchor(C)">:::</a> <a class="d-block text-decoration-none text-inherit trs-all hover-primary" href="/en" title="Home">Home</a><div class="mx-4px">&gt;</div><span>Plan your trip</span><div class="mx-4px">&gt;</div><span>Transportation</span></div><a class="anchor-fix" id="main-content" tabindex="0" title="Anchor">Anchor</a><div class="unit-title-blk"><h2 class="unit-title">Taoyuan Airport MRT</h2></div><section class="max-width-900 m0a px-1 px-xl-auto py-3"><div class="article-blk"><p class="article-text">Taoyuan Airport MRT connects Taiwan Railways, High Speed Rail and Taipei Metro. It not only integrates the transportation networks of Northern Taoyuan but also opens the gate to the international markets for Taoyuan.</p><p class="article-text text-b15">From Taipei Main Station to Taiwan Taoyuan International Airport Terminal 1 Station, it only takes 35 minutes by Express Train, and takes 39 minutes to Terminal 2 Station. The Commuter Train takes 82 minutes from Taipei Main Station to Huanbei Station and only takes 19 minutes from Taoyuan HSR Station to Terminal 1 Station. It’s efficient and fast.</p><p class="article-text">Source: Taoyuan Metro Corporation</p></div><div class="article-blk"><h4 class="article-title4 title-hilight-t5 bg-light">Metro Route</h4><p class="static-section2">Notice: Click to enlarge</p><a class="js-photoswipe-item static-imgae" data-rel="photoswipe[photo]" data-size="1500x2555" href="/content/images/page/metro_pic.jpg" target="_blank" title="捷運路線圖"><div class="frame"><span class="thumb-frame rounded-16px"> <img alt="捷運路線圖" class=" lazyloaded" data-src="/content/images/page/metro_pic.jpg" src="/content/images/page/metro_pic.jpg"><noscript><img src=/content/images/page/metro_pic.jpg alt="Metro Route"></noscript></span></div></a></div><div class="article-blk"><h4 class="article-title4 title-hilight-t5 bg-light">Express Train</h4><ul class="static-colums-blk text-b15"><li class="item col-1of3 p-r-gutter"><div class="static-imgae text-b15" title="Express Train"><div class="frame"><span class="thumb-frame rounded-16px"> <img alt="Express Train" class=" lazyloaded" data-src="/content/images/page/metro_img-airpot-01.jpg" src="/content/images/page/metro_img-airpot-01.jpg"><noscript><img src=/content/images/page/metro_img-airpot-01.jpg alt="Express Train"></noscript></span></div></div></li><li class="item col-2of3 p-l-gutter"><p class="article-text"><span class="article-text-item-name">Business hours</span>06:00~23:00</p><p class="article-text"><span class="article-text-item-name">Frequency</span>Every 15~30 minutes</p><p class="article-text"><span class="article-text-item-name">Duration</span>from A1~A12 takes 35 minutes</p><p class="article-text"><span class="article-text-item-name">Stops</span>A1 Taipei Main station、A3 New Taipei Industrial Park Station、A8 Chang Gung Memorial Hospital Station、A12 Airport Terminal 1 Station、A13 Airport Terminal 2 Station</p><p class="article-text"><span class="article-text-item-name">Luggage Capacity</span>122 space for 28 inches and 604 space for 20 inches suitcase</p><p class="article-text text-b15"><span class="article-text-item-name">Charging Sockets</span>Charging Sockets</p></li></ul><h4 class="article-title4 title-hilight-t5 bg-light">Commuter Train</h4><ul class="static-colums-blk text-b15"><li class="item col-1of3 p-r-gutter"><div class="static-imgae text-b15" title="Commuter Train"><div class="frame"><span class="thumb-frame rounded-16px"> <img alt="Commuter Train" class=" lazyloaded" data-src="/content/images/page/metro_img-airpot-02.jpg" src="/content/images/page/metro_img-airpot-02.jpg"><noscript><img src=/content/images/page/metro_img-airpot-02.jpg alt="Commuter Train"></noscript></span></div></div></li><li class="item col-2of3 p-l-gutter"><p class="article-text"><span class="article-text-item-name">Business hours</span> 06:00~23:00</p><p class="article-text"><span class="article-text-item-name">Frequency</span> Every 15 minutes</p><p class="article-text"><span class="article-text-item-name">Duration</span> from A1~A12 takes 49 minutes and from A1~A21 takes 82 minutes</p><p class="article-text"><span class="article-text-item-name">Stops</span> Every stop from A1 to A21</p><p class="article-text"><span class="article-text-item-name">Luggage Capacity</span> 252 space for 20 inches suitcase</p><p class="article-text text-b15"><span class="article-text-item-name">Charging Sockets</span>No Charging Sockets</p></li></ul><h4 class="article-title4 title-hilight-t5 bg-light">Ticket Fares</h4><ul class="static-colums-blk text-b15"><li class="item col-1of3 p-r-gutter"><p class="static-section2">Notice: Click to enlarge</p><a class="js-photoswipe-item static-imgae" data-rel="photoswipe[photo]" data-size="1920x1423" href="/content/images/page/metro_original_B_en.jpg" target="_blank" title="Airport Metro Ticket Fares Chart"><div class="frame"><span class="thumb-frame rounded-16px"> <img alt="Airport Metro Ticket Fares Chart" class=" lazyloaded" data-src="/content/images/page/metro_original_S.jpg" src="/content/images/page/metro_original_S.jpg"><noscript><img src=/content/images/page/metro_original_S.jpg alt="Airport Metro Ticket Fares Chart"></noscript></span></div></a><p class="text-description">Airport Metro Ticket Fares Chart</p></li><li class="item col-2of3 p-l-gutter"><p class="article-text"><span class="article-text-item-name">Website</span> <a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="https://www.tymetro.com.tw/tymetro-new/en/_images/document/travel-guide/price.pdf" rel="noopener noreferrer" target="_blank" title="Tickets(Open new browser windows)"> <span class="border-bottom border-primary mr-4px">Tickets</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p></li></ul></div><div class="article-blk"><h3 class="article-title4 title-hilight-t5 bg-light">Airport Metro Service</h3><p class="article-title6">1. In-Town Check-In (ITCI)</p><p class="article-text text-li-style-1">Service Hours：A1 Taipei Main station、B1 In-Town Check-In Area 06:00~21:30</p><p class="article-text text-li-style-1">Passengers must complete the In-town Check-in Services 3 hours before flight departure on the same day.</p><p class="article-text text-li-style-1">Service availability of each airline varies based on individual flights. Please contact your airline in advance.</p><p class="article-text text-li-style-1">China Airlines, Mandarin Airlines Contact at +886-3-3988888</p><p class="article-text text-li-style-1">Eva Airways, UNI Air: Contact at +886-3-3516805</p><p class="article-text text-li-style-1">Complete custom tax refund (depending on the passenger).</p><p class="article-text text-li-style-1">Please confirm your checked luggage to pass X-ray security inspection.</p><p class="article-text text-li-style-1">Follow up by scanning your luggage tag under luggage tracking scanner.</p><p class="article-title6">2. Free 4G Wi-Fi in the metro</p><p class="article-title6">3. Easycard, iPass, ICASH2.0, Taoyuan Citizen Card and others are applicable.</p></div><div class="article-blk"><h3 class="article-title4 title-hilight-t5 bg-light">Metro Route Map Vision</h3><p class="static-section2">Notice: Click to enlarge</p><a class="js-photoswipe-item static-imgae" data-rel="photoswipe[photo]" data-size="3531x2480" href="/content/images/page/metro_listflag.jpg" target="_blank" title="Metro Route Map Vision"><div class="frame"><span class="thumb-frame rounded-16px"> <img alt="Metro Route Map Vision" class=" lazyloaded" data-src="/content/images/page/metro_listflag-s.jpg" src="/content/images/page/metro_listflag-s.jpg"><noscript><img src=/content/images/page/metro_listflag-s.jpg alt="Metro Route Map Vision"></noscript></span></div></a></div><div class="article-blk"><h3 class="article-title4 title-hilight-t5 bg-light">Taoyuan Metro Corporation</h3><p class="article-text"><a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="https://www.tymetro.com.tw/tymetro-new/en/index.php" rel="noopener noreferrer" target="_blank" title="Taoyuan Metro Official Website(Open new browser windows)"> <span class="border-bottom border-primary mr-4px">Taoyuan Metro Official Website</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p><p class="article-text"><span class="article-text-item-name">Contact Customer Service</span> +886-3-286-8789</p><p class="article-text"><span class="article-text-item-name">E-mail</span> <a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="mailto:tym-pr@tymetro.com.tw" rel="noopener noreferrer" target="_blank" title="Taoyuan Metro E-mail (Open new browser windows)"> <span class="border-bottom border-primary mr-4px">tym-pr@tymetro.com.tw</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p><p class="article-text"><span class="article-text-item-name">Facebook Page</span> <a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="https://www.facebook.com/TaoyuanMetro" rel="noopener noreferrer" target="_blank" title="Taoyuan Metro(Open new browser windows)"> <span class="border-bottom border-primary mr-4px"> Taoyuan Metro</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p></div><div class="article-blk"><h3 class="article-title4 title-hilight-t5 bg-light">Taoyuan International Airport Corporation Ltd.</h3><p class="article-text"><a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="https://www.taoyuan-airport.com/?lang=en" rel="noopener noreferrer" target="_blank" title="Taoyuan International Airport Official Website(Open new browser windows)"> <span class="border-bottom border-primary mr-4px">Taoyuan International Airport Official Website</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p><h4 class="article-title6">Airport Metro Boarding Spots</h4><p class="article-text"><span class="article-text-item-name">To Terminal 1</span> the boarding spot to A12 is located by the food court escalator at B1</p><p class="article-text bb-line-1"><span class="article-text-item-name">To Terminal 2</span> the boarding spot to A13 is located by the food court hallway at B2</p><p class="article-text"><span class="article-text-item-name">Contact Customer Service</span> +886-3-449-8666</p><p class="article-text"><span class="article-text-item-name">E-mail</span> <a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="mailto:customer-service@mail.taoyuan-airport.com" rel="noopener noreferrer" target="_blank" title="Taoyuan International Airport Corporation Ltd. E-mail(Open new browser windows)"> <span class="border-bottom border-primary mr-4px">customer-service@mail.taoyuan-airport.com</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p><p class="article-text"><span class="article-text-item-name">Facebook Page</span> <a class="w100 positon-relative d-inline-flex fz-16px img-bg-adjust text-info hover-main trs-all text-decoration-none" href="https://zh-tw.facebook.com/TIAfans" rel="noopener noreferrer" target="_blank" title="Taoyuan International Airport(Open new browser windows)"> <span class="border-bottom border-primary mr-4px">Taoyuan International Airport</span> <i aria-hidden="true" class="icon icon-link-out fz-14px text-primary text-decoration-none"></i> </a></p></div><div class="py-3 py-xl-5 position-relative d-flex align-items-center justify-content-center border-top border-light-gray max-width-1200 m0a"><div class="social-share-blk"><ul class="social-share-list" id="social-share-list" data-title="Taoyuan Airport MRT"><li class="item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://travel.tycg.gov.tw/en/traffic/airportmrt" class="js-btn-social-share btn-share-fb rounded-16px" rel="noopener noreferrer" target="_blank" title="Share to Facebook(Open new window)" data-method="facebook">Share to Facebook</a></li><li class="item"><a href="http://service.weibo.com/share/share.php?url=https://travel.tycg.gov.tw/en/traffic/airportmrt&amp;title=Taoyuan+Airport+MRT&amp;language=en" class="js-btn-social-share btn-share-weibo rounded-16px" rel="noopener noreferrer" target="_blank" title="Share to Weibo(Open new window)" data-method="weibo">Share to Weibo</a></li><li class="item"><a href="https://line.naver.jp/R/msg/text/?Taoyuan+Airport+MRT%20https://travel.tycg.gov.tw/en/traffic/airportmrt?openExternalBrowser=1" class="js-btn-social-share btn-share-line rounded-16px" rel="noopener noreferrer" target="_blank" id="js-btn-social-share btn-share-line" title="LINE it!(Open new window)" data-method="line">LINE it!</a></li></ul></div></div></section><section class="position-relative bg-light border-bottom border-gray-200 py-5 py-md-7 py-xl-10"><article class="px-2 pt-2 pt-md-3 px-xl-0 max-width-900 m0a mb-3"><h3 class="deco-border fz-40px fz-md-46px fz-xl-48px text-dark font-weight-bold text-center">More transportation modes</h3></article><ul class="row align-items-stretch py-3 py-md-5 maw-xxl-1400px m0a px-1 justify-content-center"><li class="col-6 col-md-4 col-xl-3 p-1 px-xl-2 pb-xl-4"><a class="d-block text-decoration-none bg-white rounded-16px shadow-lg text-default hover-primary trs-all" href="/en/traffic/gettinghere" title="Getting Here"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-16px"><img src="/content/images/2020-static/static-2020-bg-02.jpg" data-src="/content/images/2020-static/static-2020-bg-02.jpg" alt="" class="thumb embed-responsive-item rounded-16px lazyloaded"><noscript></noscript></div><div class="p-1 p-md-2 fz-xl-18">Getting Here</div></a></li><li class="col-6 col-md-4 col-xl-3 p-1 px-xl-2 pb-xl-4"><a class="d-block text-decoration-none bg-white rounded-16px shadow-lg text-default hover-primary trs-all" href="/en/traffic/taiwantouristshuttle" title="Taiwan Tourist Shuttle"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-16px"><img src="/content/images/2019-static/2019-static-1-2.jpg" data-src="/content/images/2019-static/2019-static-1-2.jpg" alt="" class="thumb embed-responsive-item rounded-16px lazyloaded"><noscript></noscript></div><div class="p-1 p-md-2 fz-xl-18">Taiwan Tourist Shuttle</div></a></li><li class="col-6 col-md-4 col-xl-3 p-1 px-xl-2 pb-xl-4"><a class="d-block text-decoration-none bg-white rounded-16px shadow-lg text-default hover-primary trs-all" href="/en/traffic/citytransportation" title="City Transportation"><div class="thumb-frame embed-responsive embed-responsive-4by3 undefined rounded-16px"><img src="/content/images/2023-foreign/traffic-07.jpg" data-src="/content/images/2022/static/banner-4-2-2.jpg" alt="" class="thumb embed-responsive-item rounded-16px lazyloaded"><noscript></noscript></div><div class="p-1 p-md-2 fz-xl-18">City Transportation</div></a></li></ul></section></main><link rel="stylesheet" href="/content/css/photoswipe.css"><script>window.aloneScriptArr=window.aloneScriptArr||[];window.aloneScriptArr.push('/scripts/alone/photoswipe.min.js');window.aloneScriptArr.push('/scripts/alone/photoswipe-ui-default.min.js');window.aloneScriptArr.push('/scripts/alone/photoswipe-use.min.js');</script><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"> <span class="text-hide">Close (Esc)</span> </button> <button class="pswp__button pswp__button--share" title="Share"> <span class="text-hide">Share</span> </button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"> <span class="text-hide">Toggle fullscreen</span> </button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"> <span class="text-hide">Zoom in/out</span> </button> <button class="pswp__button btn-slideshow pswp__button--slideshow" title="slideshow" id="pswp-btn-slideshow"> <span class="text-hide">slideshow</span> </button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> <span class="text-hide">Previous (arrow left)</span> </button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> <span class="text-hide">Next (arrow right)</span> </button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div><div id="app-root"><style>
+                .pswp__caption__center {
+                    text-align: center !important;
+                }
+            </style><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"><span class="sr-only">關閉</span></button><button class="pswp__button pswp__button--share" title="Share"><span class="sr-only">分享</span></button><button class="d-none pswp__button pswp__button--fs" title="Toggle fullscreen"><span class="sr-only">切換全螢幕</span></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"><span class="sr-only">放大/縮小</span></button><button class="d-none pswp__button btn-slideshow pswp__button--slideshow" title="slideshow" id="pswp-btn-slideshow"><span class="sr-only">幻燈片</span></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><span class="sr-only">上一張</span></button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><span class="sr-only">下一張</span></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div><div class="loading-overlay fixed-top w-100 h-100 d-flex flex-column flex-wrap justify-content-center align-items-center op-0 pointer-events-none"><div class="d-flex justify-content-center align-items-center py-2 px-2 bg-black-20 rounded-lg"><div class="d-inline-flex align-items-center undefined"><div class="loading-animate rounded-pill flex-shrink-0" style="width: 20px; height: 20px; margin-right: 10px; animation-delay: -0.32s; background-color: rgb(238, 238, 238);"></div><div class="loading-animate rounded-pill flex-shrink-0" style="width: 20px; height: 20px; margin-right: 10px; animation-delay: -0.16s; background-color: rgb(238, 238, 238);"></div><div class="loading-animate rounded-pill flex-shrink-0" style="width: 20px; height: 20px; background-color: rgb(238, 238, 238);"></div></div></div></div><div class="false fixed top-0 left-0 md:top-auto md:bottom-0 md:ml-[24px] md:mb-[40px] z-[9999] w-[100%] md:max-w-[640px] p-[16px] pb-[24px] md:p-[24px] md:pb-[32px] bg-[#666] text-white transition-all duration-500 ease-in-out drop-shadow-[0_3px_12px_rgba(0,0,0,0.4)] rounded-b-[8px] md:rounded-[8px]"><div class="flex justify-end mb-2"><button class="btn btn-ghost size-10" style="--color: white;"><i class="icon icon-close" aria-hidden="true"></i><div class="sr-only">Close</div></button></div><div>The website uses Cookies and other relevant technologies to optimize services. To provide you with a better experience, if you continue to use our site, you are consenting with our use of Cookies. <br>The website can also find scenic spots for users. To activate and utilize this AI-based service, please allow the site to acquire your location first.</div><div class="flex justify-end mt-2"><button class="btn h-5 px-2">Accept</button></div></div></div><footer class="position-relative z-100" id="footer-root"><footer class="footer-2022 bg-light border-top border-d7d7d7 z-200"><div class="d-none d-xl-block py-12 mx-n3 border-bottom"><div class="d-flex justify-content-center mx-auto maw-1280px"><div class="mr-12 mr-0-last" style="max-width: 240px;"><div class="fz-22px font-weight-bold">Discover</div><ul class="mt-20px"><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel/new-traveler" class="d-flex align-items-center text-default hover-secondary trs-all" title="First time to Taoyuan">First time to Taoyuan</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel/play-taoyuan" class="d-flex align-items-center text-default hover-secondary trs-all" title="Travel tips for Taoyuan">Travel tips for Taoyuan</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/multimedia/live-camera" class="d-flex align-items-center text-default hover-secondary trs-all" title="Live Camera">Live Camera</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/event" class="d-flex align-items-center text-default hover-secondary trs-all" title="News">News</a></li></ul></div><div class="mr-12 mr-0-last" style="max-width: 240px;"><div class="fz-22px font-weight-bold">Things to Do</div><ul class="mt-20px"><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel/tourlist" class="d-flex align-items-center text-default hover-secondary trs-all" title="Suggested Itinerary">Suggested Itinerary</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel/get-around-by-airport-mrt" class="d-flex align-items-center text-default hover-secondary trs-all" title="Touring Taoyuan with Airport MRT">Touring Taoyuan with Airport MRT</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/consume/delicious" class="d-flex align-items-center text-default hover-secondary trs-all" title="Gourmet">Gourmet</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel/irresistible-souvenirs" class="d-flex align-items-center text-default hover-secondary trs-all" title="Irresistible souvenir">Irresistible souvenir</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/accommodation/recommend" class="d-flex align-items-center text-default hover-secondary trs-all" title="Accommodation Guide ">Accommodation Guide </a></li></ul></div><div class="mr-12 mr-0-last" style="max-width: 240px;"><div class="fz-22px font-weight-bold">Places to Go</div><ul class="mt-20px"><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel" class="d-flex align-items-center text-default hover-secondary trs-all" title="Attractions">Attractions</a></li></ul></div><div class="mr-12 mr-0-last" style="max-width: 240px;"><div class="fz-22px font-weight-bold">Plan your trip</div><ul class="mt-20px"><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/travel/plans" class="d-flex align-items-center text-default hover-secondary trs-all" title="Travel Guide">Travel Guide</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/traffic/citytransportation" class="d-flex align-items-center text-default hover-secondary trs-all" title="City Transportation">City Transportation</a></li><li class="mr-10px miw-180px fz-15px mb-2 mb-0-last lh-initial"><a href="/en/multimedia/publication" class="d-flex align-items-center text-default hover-secondary trs-all" title="Publication">Publication</a></li></ul></div></div></div><div class="d-md-flex justify-content-center maw-1280px mx-auto py-5 px-2 py-xl-6"><div class="flex-shrink-0 w-200px mx-xl-5"><div class="google-translate-blk-2022 d-flex justify-content-center align-items-center h-6 border border-d7d7d7 rounded-16px position-relative w-100"><div id="google_translate_element"><div class="skiptranslate goog-te-gadget" dir="ltr" style=""><div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;"><img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;"><span style="vertical-align: middle;"><a aria-haspopup="true" class="VIpgJd-ZVi9od-xl07Ob-lTBxed" href="#"><span>Select Language</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span style="border-left: 1px solid rgb(187, 187, 187);">​</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span aria-hidden="true" style="color: rgb(118, 118, 118);">▼</span></a></span></div></div></div></div></div><div class="mx-xl-5"><ul class="row mt-2 mb-n12px mx-n6px fz-13px" style="width: 320px;"><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.facebook.com/traveltaoyuan" title="Facebook (Open window)" target="_blank" rel="noopener noreferrer"><i class="icon icon-fb-mark flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">Facebook</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.instagram.com/taoyuantravel/" title="Instagram (Open window)" target="_blank" rel="noopener noreferrer"><i class="icon icon-instagram flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">Instagram</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="https://www.youtube.com/channel/UCARB8y6PuoOBjZXJKIG-LDw" title="YouTube (Open window)" target="_blank" rel="noopener noreferrer"><i class="icon icon-youtube flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">YouTube</div></a></li><li class="col-6 px-6px mb-12px"><a class="d-flex align-items-start text-default text-decoration-none hover-primary trs-all" href="mailto:152051@mail.tycg.gov.tw,10049385@mail.tycg.gov.tw,sandy@csii.com.tw" title="Mail (Open window)" target="_blank" rel="noopener noreferrer"><i class="icon icon-mail flex-shrink-0 w-3 h-3 mr-1 fz-13px text-white bg-gray-500 rounded-circle" aria-hidden="true"></i><div class="pt-2px lh-initial">Mail</div></a></li></ul></div><div class="mx-xl-5"><div class="fz-13px"><div><p class="mb-4px mb-0-last d-flex justify-content-center justify-content-md-start w-xl-200px ">No.1, Shianfu Rd, Taoyuan Dist., Taoyuan City 330206 Taiwan.</p><p class="mb-4px mb-0-last  d-flex justify-content-center justify-content-md-start w-xl-200px ">Tel：+886-3-332-2101#6209</p></div><div class="mt-4px"><p class=" mb-4px mb-0-last d-flex justify-content-center justify-content-md-start">Service time： Mon.-Fri.</p><p class=" mb-4px mb-0-last d-flex justify-content-center justify-content-md-start">AM 8:00-12:00 PM 13:00-17:00</p></div></div></div><div class="mt-5 mt-md-0 ml-md-5 mx-xl-5"><ul class="fz-13px text-center text-md-left"><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/en/siteinformation/sitemap">Sitemap</a></li><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/en/siteinformation/securitypolicy">Security Policy</a></li><li class="mb-4px mb-xl-1 mb-0-last"><a class="text-decoration-none text-default hover-primary trs-all" href="/en/siteinformation/privacypolicy">Privacy Policy</a></li></ul><div class="w-md-20 mt-1 text-center text-md-left fz-13px">Visitor 2,861,985</div></div></div><div class="py-1 px-2 text-center bg-gray-200 fz-12px">Copyright © 2026 All rights reserved</div></footer></footer></div><script>var headerTheme=''</script><script src="/scripts/alone/react/app-0914b7b1d8104fadb757.js"></script><div class="func-btn-group fixed d-flex flex-column items-center gap-[8px] bottom-[40px] right-0 ml-auto mr-20px z-2000 pointer-events-none"><a class="group block relative pointer-events-auto outline-none" title="Chat with us (Open window)" target="_blank" rel="noopener noreferrer" href="https://travel.tycg.gov.tw/ai-service"><div class="flex justify-center items-center w-8 h-8 rounded-circle relative z-100 overflow-hidden" style="background: radial-gradient(50% 50%, rgb(220, 1, 117) 75%, rgb(254, 162, 154) 94.71%);"><div class="fill-parent group-hover:bg-primary group-focus-visible:bg-primary  trs-all"></div><img class="block w-6 relative" src="/content/images/global/chat-mascot.png" alt=""></div><div class="opacity-0 flex justify-end absolute top-4 right-full w-[100vw] pointer-events-none trs-all"><div class="false inline-flex items-center min-w-[56px] min-h-[32px] p-1 rounded-[8px] rounded-tr-[0] bg-gradient-to-b from-[#fc5e8a] to-[#dc0175]"><div class="inline-flex text-white text-[14px] font-bold"><span>Chat with us</span><span class="ml-[2px] animate-blink">|</span></div></div><svg class="" width="8" height="8" viewBox="0 0 8 8"><polygon points="8,0 0,0 0,8" fill="#fc5e8a"></polygon></svg></div></a><button class="pointer-events-auto btn btn-default flex-column w-6 h-6 rounded-circle z-2000 text-white"><i class="icon icon-top fz-18px text-white" aria-hidden="true"></i><div class="sr-only">TOP</div></button></div><div class="absolute-top-left w-0 h-0 z-99999 mt-10 mt-xl-15 pointer-events-none"></div><script src="/Scripts/_scripts.js"></script><div id="loading-overlay" class="loading-overlay"><div class="loading-hint"></div><p class="loading-desc">資料讀取中</p></div><script src="/scripts/alone/photoswipe.min.js"></script><script src="/scripts/alone/photoswipe-ui-default.min.js"></script><div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="display: none; border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;" data-id=""><div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd"><div class="VIpgJd-yAWNEb-hvhgNd-Ud7fr"><img src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24" alt=""><div class=" VIpgJd-yAWNEb-hvhgNd-IuizWc-i3jM8c " dir="ltr">Original text</div></div><div class="VIpgJd-yAWNEb-hvhgNd-k77Iif"><div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr"><div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate this translation</div><div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback will be used to help improve Google Translate</div></div><div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Good translation" aria-label="Good translation" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Poor translation" aria-label="Poor translation" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path></svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg></span></button></div></div><div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0"></iframe></div></div></div><script src="/scripts/alone/photoswipe-use.min.js"></script><div class="VIpgJd-ZVi9od-aZ2wEe-wOHMyf"><div class="VIpgJd-ZVi9od-aZ2wEe-OiiCO"><svg xmlns="http://www.w3.org/2000/svg" class="VIpgJd-ZVi9od-aZ2wEe" width="96px" height="96px" viewBox="0 0 66 66"><circle class="VIpgJd-ZVi9od-aZ2wEe-Jt5cK" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><iframe frameborder="0" class="VIpgJd-ZVi9od-xl07Ob-OEVmcd skiptranslate" title="Language Translate Widget" style="visibility: visible; box-sizing: content-box; width: 278px; height: 263px; display: none;"></iframe></body></html>

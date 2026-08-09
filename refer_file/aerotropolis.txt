@@ -1,0 +1,12 @@
+| #      | Aerotropolis / Airport City                        | Quốc gia       | Sân bay trung tâm                    | Đặc điểm nổi bật                                                             |
+| ------ | -------------------------------------------------- | -------------- | ------------------------------------ | ---------------------------------------------------------------------------- |
+| **1**  | **Incheon Aerotropolis / IFEZ**                    | 🇰🇷 Hàn Quốc  | Incheon International Airport        | Smart city, logistics, business, MICE, R&D, waterfront                       |
+| **2**  | **Schiphol Airport City / Amsterdam Aerotropolis** | 🇳🇱 Hà Lan    | Amsterdam Schiphol                   | Airport City lâu đời, logistics, văn phòng, thương mại                       |
+| **3**  | **Dubai Aerotropolis / Dubai South**               | 🇦🇪 UAE       | Al Maktoum International             | Quy hoạch đô thị khổng lồ xoay quanh sân bay, logistics & aviation           |
+| **4**  | **Singapore Changi Aerotropolis**                  | 🇸🇬 Singapore | Changi Airport                       | Airport + logistics + commercial + tourism + business                        |
+| **5**  | **Hong Kong Aerotropolis**                         | 🇭🇰 Hong Kong | Hong Kong International Airport      | Airport + logistics + Northern Metropolis + Lantau Tomorrow/Greater Bay Area |
+| **6**  | **Dallas–Fort Worth Aerotropolis**                 | 🇺🇸 Mỹ        | DFW International Airport            | Một trong những Aerotropolis tiêu biểu nhất Bắc Mỹ                           |
+| **7**  | **Frankfurt Airport City / Aerotropolis**          | 🇩🇪 Đức       | Frankfurt Airport                    | Aviation + logistics + finance + convention + office                         |
+| **8**  | **Kuala Lumpur Aeropolis**                         | 🇲🇾 Malaysia  | KLIA                                 | Airport City + logistics + commercial + industrial + urban development       |
+| **9**  | **Taoyuan Aerotropolis**                           | 🇹🇼 Đài Loan  | Taiwan Taoyuan International Airport | Một trong những dự án Aerotropolis được quy hoạch bài bản nhất châu Á        |
+| **10** | **Western Sydney Aerotropolis**                    | 🇦🇺 Australia | Western Sydney International Airport | Aerotropolis thế hệ mới, manufacturing, aerospace, logistics, innovation     |

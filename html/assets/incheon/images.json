@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "file": "hero.jpg",
+    "source_image": "https://www.airport.kr/sites/co_en/images/sub/esg-intro-strategy1.jpg",
+    "page_url": "https://www.airport.kr/co_en/4211/subview.do",
+    "caption": "Nhà ga hành khách sân bay quốc tế Incheon",
+    "bytes": 105978
+  },
+  "planning": {
+    "file": "planning.jpg",
+    "source_image": "https://www.airport.kr/sites/co_en/images/sub/complex-city-view1.jpg",
+    "page_url": "https://www.airport.kr/co_en/4389/subview.do",
+    "caption": "Bản đồ quy hoạch Air City: các phân khu IBC-I/II/III, MRO, logistics, sân golf",
+    "bytes": 140739
+  },
+  "vision": {
+    "file": "vision.jpg",
+    "source_image": "https://www.airport.kr/sites/co_en/images/sub/complex-city-view3.jpg",
+    "page_url": "https://www.airport.kr/co_en/4389/subview.do",
+    "caption": "Phối cảnh phân khu IBC-III — giai đoạn phát triển tương lai",
+    "bytes": 75309
+  },
+  "experience": {
+    "file": "experience.jpg",
+    "source_image": "https://tong.visitkorea.or.kr/cms/resource/88/3073488_image2_1.jpg",
+    "page_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
+    "caption": "Tổ hợp giải trí INSPIRE trên đảo Yeongjong (nằm trong IBC-III)",
+    "bytes": 75717
+  }
+}

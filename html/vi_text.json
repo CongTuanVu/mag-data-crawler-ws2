@@ -1,0 +1,93 @@
+{
+  "_about": [
+    "LỚP DỊCH — do người biên soạn viết, KHÔNG phải dữ liệu trích tự động.",
+    "Khoá cấp 1 = <case> (trùng --name). Khoá cấp 2 = tên trường trong record.",
+    "Giá trị: chuỗi (trường text) hoặc mảng CÙNG THỨ TỰ, CÙNG SỐ PHẦN TỬ với list gốc.",
+    "build_html.py hiển thị bản tiếng Việt này; bản gốc vẫn nằm trong record + provenance",
+    "và hiện ra khi rê chuột vào ⓘ, nên vẫn truy được nguồn.",
+    "Trường không khai ở đây thì hiển thị nguyên văn nguồn.",
+    "Tên riêng tổ chức/địa danh giữ nguyên trong ngoặc để còn tra cứu được."
+  ],
+  "schiphol": {
+    "positioning": "AirportCity (đô thị sân bay)",
+    "planning_concept": "được phát triển theo mô hình AirportCity — nơi hành khách, hãng hàng không và doanh nghiệp tiếp cận được mọi dịch vụ cần thiết, suốt 24 giờ mỗi ngày.",
+    "cvp_price": "nguồn thu đến từ nhiều dòng: phí sân bay và phí hành khách, phí nhượng quyền của các đơn vị bán lẻ và ẩm thực, doanh thu quảng cáo và bãi đỗ xe, tiền thuê cùng tiền cho thuê bất động sản, và lợi nhuận từ các công ty liên kết.",
+    "cvp_convenience": [
+      "tiếp cận được bằng ô tô, xe buýt, tàu hoả và máy bay.",
+      "liền kề các cao tốc A4, A5, A9, A10",
+      "tàu cao tốc đi Paris chạy 9 chuyến mỗi ngày.",
+      "đi bộ 2–8 phút tới ga tàu NS, trung tâm Schiphol Plaza và bến xe buýt."
+    ],
+    "rail_connections": [
+      "Amsterdam – sân bay Schiphol",
+      "sân bay Schiphol – Rotterdam",
+      "tuyến Intercity chạy thẳng"
+    ],
+    "vision_label": "Tầm nhìn 2050",
+    "aviation_policy": "Bản ghi nhớ Chính sách Hàng không 2020–2050",
+    "logistics_park_name": "khu hậu cần Schiphol Logistics Park",
+    "trade_park_name": "khu thương mại Schiphol Trade Park",
+    "airport_name": "Amsterdam Schiphol"
+  },
+  "incheon": {
+    "positioning": "Vùng kinh tế sân bay (Airport Economic Zone)",
+    "planning_concept": "Một vùng kinh tế rộng lớn nơi nhiều ngành gắn với hàng không hội tụ, tạo thành hệ sinh thái công nghiệp sinh ra giá trị và hoạt động kinh tế đa dạng thông qua mạng đường bay rộng khắp.",
+    "economic_zone_name": "Đặc khu kinh tế tự do Incheon (IFEZ)",
+    "development_context": "Được chỉ định năm 2003 là đặc khu kinh tế tự do đầu tiên của Hàn Quốc, IFEZ là trọng tâm trong chiến lược của chính phủ nhằm trở thành trung tâm kinh tế Đông Bắc Á.",
+    "location_desc": "Chỉ cách trung tâm Incheon 8 km và cách trung tâm Seoul khoảng 50 km, đặc khu kinh tế tự do Incheon nằm sát cảng Incheon và tiếp cận được các đô thị lớn chỉ trong 60–90 phút.",
+    "investor_governance": "Đặc khu kinh tế tự do Incheon định vị mình là trung tâm của các ngành mới và tương lai như công nghệ sinh học – y tế, sản xuất thông minh, tài chính công nghệ cao, robot thế hệ mới, công nghệ thông tin và trí tuệ nhân tạo; đồng thời vươn lên thành đầu mối phân phối, hậu cần, du lịch và MICE.",
+    "lead_developer": "Tổng công ty Cảng hàng không quốc tế Incheon (IIAC)",
+    "logistics_park_name": "Tổ hợp hậu cần sân bay (khu phi thuế quan)",
+    "cvp_convenience": [
+      "Chỉ cách trung tâm Incheon 8 km và cách trung tâm Seoul khoảng 50 km, đặc khu nằm sát cảng Incheon và tiếp cận được các đô thị lớn chỉ trong 60–90 phút.",
+      "Tàu chạy thẳng không dừng giữa sân bay quốc tế Incheon và ga Seoul"
+    ],
+    "rail_connections": [
+      "Tuyến đường sắt sân bay AREX đưa khách nhanh chóng và thuận tiện từ sân bay Gimpo và sân bay quốc tế Incheon tới nhiều điểm đến trong Seoul."
+    ],
+    "vision_label": "Vượt trên một sân bay, thay đổi thế giới",
+    "airport_name": "quốc tế Incheon"
+  },
+  "taoyuan": {
+    "positioning": "Aerotropolis (đô thị sân bay)",
+    "planning_concept": "gồm “lòng đỏ” do Bộ Giao thông Vận tải quản lý (đường băng và các khu phi thuế quan) và “lòng trắng” do Chính quyền thành phố Đào Viên phụ trách (các khu công nghiệp chuyên đề và hành lang quanh các ga MRT sân bay).",
+    "total_investment_usd": "Hơn 500 tỷ TWD (khoảng 17 tỷ USD)",
+    "development_context": "Hơn 500 tỷ TWD (khoảng 17 tỷ USD) sẽ được đầu tư vào đô thị sân bay này để tạo ra giá trị kinh tế vượt 2,3 nghìn tỷ TWD (khoảng 78 tỷ USD) và hơn 300.000 việc làm cho vùng đại đô thị Đài Bắc, theo dự báo mà thủ tướng dẫn lại.",
+    "location_desc": "Dự án trải trên hai quận Dayuan và Luzhu của thành phố Đào Viên, với tổng diện tích quy hoạch đô thị 4.564 ha.",
+    "investor_governance": "Ban Công trình Đô thị sân bay Đào Viên thuộc Cục Hàng không dân dụng (Bộ Giao thông Vận tải) chịu trách nhiệm thu hồi đất và phát triển trên 1.756 ha, bao gồm phần giai đoạn 1 do Chính quyền thành phố Đào Viên triển khai (1.190 ha) và khu vực quanh căn cứ hải quân (566 ha) được Cục Hàng không dân dụng uỷ quyền.",
+    "lead_developer": "Công ty Khu phi thuế quan Hàng không Far Glory",
+    "economic_zone_name": "Khu phi thuế quan Hàng không Đào Viên",
+    "logistics_park_name": "Khu phi thuế quan Hàng không Đào Viên (Air Cargo Park)",
+    "cvp_convenience": [
+      "Từ ga Đài Bắc tới ga Nhà ga 1 sân bay quốc tế Đào Viên chỉ mất 35 phút bằng tàu nhanh, và 39 phút tới ga Nhà ga 2.",
+      "Từ cao tốc Tôn Trung Sơn vào khu chỉ 8 km"
+    ],
+    "rail_connections": [
+      "chặng A1–A12 mất 35 phút (tàu nhanh)",
+      "chặng A1–A12 mất 49 phút và chặng A1–A21 mất 82 phút (tàu thường)"
+    ],
+    "smart_city": "Dự án tích hợp các công nghệ BIM (mô hình thông tin công trình), GIS (hệ thống thông tin địa lý) và IoT (kết nối vạn vật) để quản lý hạ tầng ngầm, cho phép theo dõi mực nước, điều khiển từ xa, kiểm tra mặt đường thông minh và nhà chờ xe buýt thông minh.",
+    "airport_name": "quốc tế Đào Viên"
+  },
+  "western_sydney": {
+    "positioning": "Aerotropolis (đô thị sân bay)",
+    "planning_concept": "Aerotropolis sẽ hình thành một khu đổi mới sáng tạo và là nơi quy tụ các ngành công nghệ, khoa học và công nghiệp sáng tạo, bảo đảm cho Western Parkland City có:",
+    "urban_build_period": "mở cửa đón khách ngày 25/10/2026 và đón hàng hoá ngày 26/7/2026",
+    "total_investment_usd": "Hơn 25 tỷ AUD do Chính quyền bang NSW và Chính phủ Liên bang đầu tư vào sân bay cùng hạ tầng giao thông trọng yếu",
+    "development_context": "Với hơn 14,4 tỷ AUD dự án đã lên kế hoạch, Aerotropolis được kỳ vọng tạo ra 200.000 việc làm.",
+    "location_desc": "Là thành phố mới đầu tiên của Úc sau 100 năm, Bradfield City sẽ đặt chuẩn mực mới về chất lượng sống, khả năng kết nối, tính bền vững và đổi mới sáng tạo.",
+    "investor_governance": "Cơ quan Phát triển Bradfield đang kiến tạo tương lai của Tây Sydney thông qua Bradfield City và thu hút đầu tư vào Aerotropolis.",
+    "lead_developer": "Cơ quan Phát triển Bradfield",
+    "airport_build_period": "2018–2025 (giai đoạn 1 khởi công ngày 24/9/2018, hoàn tất phần xây dựng chính vào tháng 6/2025)",
+    "residential_product_desc": "Nhà phát triển hạ tầng lớn của Úc là Plenary sẽ làm 1.400 căn nhà đầu tiên trên khu đất mở bán đợt đầu rộng 5,7 ha, nằm cạnh Trung tâm sẵn sàng sản xuất tiên tiến (AMRF), công viên Central Park và ga metro Bradfield, trong đó 10% là nhà ở vừa túi tiền.",
+    "cvp_convenience": [
+      "Phần lớn căn nhà nằm trong bán kính đi bộ 400 m tới ga metro Bradfield, khuyến khích đi bộ và giảm lệ thuộc ô tô.",
+      "sân bay khai thác 24 giờ, không có giờ giới nghiêm"
+    ],
+    "rail_connections": [
+      "xây sáu ga mới nối St Marys với lõi đô thị Bradfield City Centre",
+      "Dự án định hình đô thị, chạy từ St Marys qua sân bay mới tới Bradfield City Centre, sẽ tạo cú hích kinh tế lớn cho Tây Sydney, với hơn 14.000 việc làm trong giai đoạn thi công cho kinh tế bang NSW và cả nước."
+    ],
+    "airport_name": "quốc tế Tây Sydney – Nancy-Bird Walton"
+  }
+}

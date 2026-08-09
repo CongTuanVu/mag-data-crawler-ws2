@@ -128,26 +128,64 @@ TEMPLATE = r"""<!DOCTYPE html>
 <script>
 const DATA = __DATA__;
 const IMAGES = __IMAGES__;
+const VITEXT = __VITEXT__;
 const GENERATED = "__GENERATED__";
 const rec = DATA.record, prov = DATA.provenance || {};
+
+/* ---- Lớp dịch: ưu tiên bản tiếng Việt đã biên soạn, không có thì giữ nguyên văn.
+   Bản gốc luôn còn trong `rec`/`prov` và hiện khi rê chuột vào ⓘ. ---- */
+const vi = k => {
+  const t = VITEXT[k];
+  if (t == null) return rec[k];
+  if (Array.isArray(rec[k]) && Array.isArray(t) && t.length !== rec[k].length) return rec[k];
+  return t;
+};
 function figureFor(section){
   const im = IMAGES[section]; if(!im) return "";
   const cap = im.caption + (im.page_url?` · <a href="${im.page_url}" target="_blank">nguồn</a>`:"");
   return `<figure class="ill"><img src="${im.datauri}" alt="${im.caption||''}"><figcaption>${cap}</figcaption></figure>`;
 }
-const FLAGS = {"Hà Lan":"🇳🇱","Hàn Quốc":"🇰🇷","Trung Quốc":"🇨🇳","Việt Nam":"🇻🇳","Singapore":"🇸🇬","Đức":"🇩🇪","UAE":"🇦🇪","Nhật Bản":"🇯🇵"};
+const FLAGS = {"Hà Lan":"🇳🇱","Hàn Quốc":"🇰🇷","Trung Quốc":"🇨🇳","Việt Nam":"🇻🇳","Singapore":"🇸🇬","Đức":"🇩🇪","UAE":"🇦🇪","Nhật Bản":"🇯🇵","Đài Loan":"🇹🇼","Úc":"🇦🇺"};
 
 /* ---- Từ điển dịch thuật ngữ EN -> VI ---- */
 const VI = {
-  cornerstone:{"Aviation":"Hàng không","Consumer Products & Services":"Sản phẩm & Dịch vụ tiêu dùng","Real Estate":"Bất động sản"},
-  commercial:{"logistics":"hậu cần (logistics)","cargo":"kho vận hàng hoá","office":"văn phòng","real estate":"bất động sản","retail":"bán lẻ","hotel":"khách sạn","World Trade Center":"World Trade Center (WTC)","The Base":"toà The Base"},
-  amenity:{"meeting":"phòng họp","sports":"khu thể thao","restaurants":"nhà hàng","catering":"dịch vụ ẩm thực","child care":"trông trẻ","childcare":"trông trẻ","shops":"cửa hàng","Schiphol Plaza":"trung tâm mua sắm Schiphol Plaza","café":"quán cà phê","fitness":"phòng tập"},
-  highlight:{"World Trade Center":"World Trade Center (WTC)","WTC":"WTC","Hilton Hotel":"khách sạn Hilton","Sheraton Hotel":"khách sạn Sheraton","The Base":"toà The Base","The Outlook":"toà The Outlook","BREEAM":"công trình đạt chuẩn BREEAM"},
-  subzone:{"Schiphol Central Business District":"Khu trung tâm thương mại (CBD)","Schiphol East":"Schiphol East","Schiphol Southeast":"Schiphol Southeast","Schiphol Business District":"Khu Thương mại Schiphol"},
-  service:{"Spot":"nền tảng cộng đồng Spot","Leasing Managers":"đội ngũ cho thuê (Leasing Managers)","area director":"quản trị khu vực (area director)","flexible real estate":"giải pháp bất động sản linh hoạt"},
-  vision:{"Quality of Network":"Mạng lưới","Quality of Life":"Cuộc sống","Quality of Service":"Dịch vụ","Quality of Work":"Công việc"},
-  sustain:{"BREEAM":"chứng chỉ BREEAM","circular":"kinh tế tuần hoàn","most sustainable":"bền vững hàng đầu","biodiversity":"đa dạng sinh học","CO2":"giảm phát thải CO₂"},
-  product:{"office":"văn phòng","commercial space":"mặt bằng thương mại","development":"quỹ đất phát triển","logistics":"hậu cần","cargo":"kho vận","retail":"bán lẻ","real estate":"bất động sản"},
+  cornerstone:{"Aviation":"Hàng không","Consumer Products & Services":"Sản phẩm & Dịch vụ tiêu dùng","Real Estate":"Bất động sản",
+    "Business/R&D Hub":"Trung tâm kinh doanh & R&D","Tourism/Logistics Hub":"Trung tâm du lịch & hậu cần","Advanced Industry Hub":"Trung tâm công nghiệp tiên tiến","Aviation Support Hub":"Trung tâm dịch vụ hàng không"},
+  commercial:{"logistics":"hậu cần (logistics)","cargo":"kho vận hàng hoá","office":"văn phòng","real estate":"bất động sản","retail":"bán lẻ","hotel":"khách sạn","World Trade Center":"World Trade Center (WTC)","The Base":"toà The Base",
+    "MRO":"bảo dưỡng - sửa chữa máy bay (MRO)","casino":"casino","resort":"khu nghỉ dưỡng","GDC":"trung tâm phân phối toàn cầu (GDC)","fulfillment center":"trung tâm hoàn tất đơn hàng",
+    "free trade zone":"khu phi thuế quan","free-trade zone":"khu phi thuế quan","industrial":"công nghiệp","commercial":"thương mại","residential":"nhà ở","semiconductor":"bán dẫn","warehouse":"kho bãi",
+    "advanced manufacturing":"sản xuất tiên tiến","agribusiness":"nông nghiệp công nghệ cao","university":"đại học"},
+  amenity:{"meeting":"phòng họp","sports":"khu thể thao","restaurants":"nhà hàng","catering":"dịch vụ ẩm thực","child care":"trông trẻ","childcare":"trông trẻ","shops":"cửa hàng","Schiphol Plaza":"trung tâm mua sắm Schiphol Plaza","café":"quán cà phê","fitness":"phòng tập",
+    "Seminar rooms":"phòng hội thảo","sports complex":"tổ hợp thể thao","fitness center":"trung tâm thể hình","business center":"trung tâm thương vụ","banquet hall":"sảnh tiệc",
+    "arena":"nhà thi đấu - biểu diễn","water park":"công viên nước","casino":"casino","resort":"khu nghỉ dưỡng",
+    "bike paths":"đường xe đạp","park landscapes":"cảnh quan công viên","waterfront plazas":"quảng trường ven nước","community amenities":"tiện ích cộng đồng","recreational corridors":"hành lang nghỉ ngơi","park":"công viên",
+    "health facilities":"cơ sở y tế","open space":"không gian mở","Central Park":"công viên trung tâm Central Park","walkable":"đi bộ thuận tiện","cycle":"hạ tầng xe đạp","retail":"bán lẻ","university":"đại học","childcare":"trông trẻ"},
+  highlight:{"World Trade Center":"World Trade Center (WTC)","WTC":"WTC","Hilton Hotel":"khách sạn Hilton","Sheraton Hotel":"khách sạn Sheraton","The Base":"toà The Base","The Outlook":"toà The Outlook","BREEAM":"công trình đạt chuẩn BREEAM",
+    "15,000-seat performance arena":"nhà thi đấu - biểu diễn 15.000 chỗ","indoor water park":"công viên nước trong nhà","foreigner-only casino":"casino dành cho người nước ngoài","largest hotel ballroom in Korea":"sảnh tiệc khách sạn lớn nhất Hàn Quốc","digital entertainment street":"phố giải trí số",
+    "smart streetlights":"đèn đường thông minh","common utility tunnels":"hào kỹ thuật dùng chung","retention ponds":"hồ điều tiết",
+    "Advanced Manufacturing Readiness Facility":"Trung tâm sẵn sàng sản xuất tiên tiến (AMRF)","Bradfield Metro Station":"ga metro Bradfield"},
+  subzone:{"Schiphol Central Business District":"Khu trung tâm thương mại (CBD)","Schiphol East":"Schiphol East","Schiphol Southeast":"Schiphol Southeast","Schiphol Business District":"Khu Thương mại Schiphol",
+    "Songdo International City":"đô thị quốc tế Songdo","Yeongjong International City":"đô thị quốc tế Yeongjong","Cheongna International City":"đô thị quốc tế Cheongna","Airport Logistics Complex":"tổ hợp hậu cần sân bay",
+    "industry zone":"khu công nghiệp","free-trade zone":"khu phi thuế quan","commercial zone":"khu thương mại","residence zone":"khu dân cư","Air Cargo Terminal":"nhà ga hàng hoá","International Logistics Center":"trung tâm hậu cần quốc tế","Value-Added Park":"khu gia tăng giá trị",
+    "Aerotropolis Core":"lõi Aerotropolis","Badgerys Creek":"phân khu Badgerys Creek","Wianamatta-South Creek":"hành lang Wianamatta - South Creek","Northern Gateway":"cửa ngõ phía Bắc","Agribusiness":"phân khu nông nghiệp công nghệ cao","Bradfield City":"lõi đô thị Bradfield City"},
+  service:{"Spot":"nền tảng cộng đồng Spot","Leasing Managers":"đội ngũ cho thuê (Leasing Managers)","area director":"quản trị khu vực (area director)","flexible real estate":"giải pháp bất động sản linh hoạt",
+    "Visa-Free Entry":"miễn thị thực nhập cảnh","English as an Official Language":"tiếng Anh là ngôn ngữ chính thức","Regulatory Free Zone":"khu tự do về quy định","customs duty deferment":"hoãn nộp thuế nhập khẩu","low rental fees":"phí thuê thấp",
+    "In-Town Check-In":"làm thủ tục bay tại nội đô","customs clearance":"thông quan nhanh","duty":"ưu đãi thuế","BIM":"mô hình thông tin công trình (BIM)","GIS":"hệ thống thông tin địa lý (GIS)","IoT":"kết nối vạn vật (IoT)",
+    "Investor Concierge":"hỗ trợ nhà đầu tư một cửa","InvestorLink":"cổng kết nối đầu tư InvestorLink","Planning referrals":"tư vấn thủ tục quy hoạch","Special Infrastructure Contributions":"cơ chế đóng góp hạ tầng"},
+  brand:{"Royal Schiphol Group":"Tập đoàn Royal Schiphol Group","Schiphol Real Estate":"Schiphol Real Estate (đơn vị bất động sản)",
+    "Incheon International Airport Corporation":"Tổng công ty Cảng hàng không quốc tế Incheon (IIAC)","Incheon Free Economic Zone Authority":"Ban quản lý Đặc khu kinh tế tự do Incheon (IFEZ)","INSPIRE":"tổ hợp giải trí INSPIRE",
+    "Taoyuan Aerotropolis":"Ban dự án Taoyuan Aerotropolis","Far Glory":"Tập đoàn Far Glory","AECOM":"AECOM (tư vấn quản lý dự án)","Taoyuan Metro":"Công ty Metro Đào Viên",
+    "Bradfield Development Authority":"Cơ quan Phát triển Bradfield","WSA Co":"WSA Co (đơn vị vận hành sân bay)","Investment NSW":"Cơ quan Xúc tiến đầu tư bang NSW","Sydney Metro":"Sydney Metro (chủ đầu tư đường sắt đô thị)"},
+  vision:{"Quality of Network":"Mạng lưới","Quality of Life":"Cuộc sống","Quality of Service":"Dịch vụ","Quality of Work":"Công việc",
+    "Challenge":"Thách thức","Cooperation":"Hợp tác","Creativity":"Sáng tạo","Integrity":"Chính trực"},
+  sustain:{"BREEAM":"chứng chỉ BREEAM","circular":"kinh tế tuần hoàn","most sustainable":"bền vững hàng đầu","biodiversity":"đa dạng sinh học","CO2":"giảm phát thải CO₂",
+    "RE100":"cam kết RE100","Green Mobility":"giao thông xanh","Low-Carbon Eco-Friendly Airport":"sân bay sinh thái phát thải thấp","renewable energy":"năng lượng tái tạo",
+    "recycled materials":"vật liệu tái chế","circular economy":"kinh tế tuần hoàn","carbon emissions":"cắt giảm phát thải carbon","retention ponds":"hồ điều tiết","smart streetlights":"đèn đường thông minh",
+    "sustainability":"phát triển bền vững","open space":"không gian mở","blue-green":"hạ tầng xanh - mặt nước","net zero":"phát thải ròng bằng 0"},
+  product:{"office":"văn phòng","commercial space":"mặt bằng thương mại","development":"quỹ đất phát triển","logistics":"hậu cần","cargo":"kho vận","retail":"bán lẻ","real estate":"bất động sản",
+    "MRO":"bảo dưỡng - sửa chữa máy bay (MRO)","R&D":"nghiên cứu & phát triển","fulfillment center":"trung tâm hoàn tất đơn hàng","industrial complex":"tổ hợp công nghiệp","business platform":"nền tảng kinh doanh",
+    "warehouse":"kho bãi","Value-Added Park":"khu gia tăng giá trị","industry zone":"khu công nghiệp","free-trade zone":"khu phi thuế quan",
+    "advanced manufacturing":"sản xuất tiên tiến","commercial":"thương mại","residential":"nhà ở","university":"đại học","industrial":"công nghiệp"},
 };
 
 const dedupe = a => { const s=new Set(),o=[]; for(const x of a||[]){const k=String(x).toLowerCase(); if(!s.has(k)){s.add(k);o.push(x);}} return o; };
@@ -157,7 +195,15 @@ const joinVi = a => !a.length?"":(a.length===1?a[0]:a.slice(0,-1).join(", ")+" v
 const fmtVi = n => (typeof n==="number") ? n.toLocaleString("de-DE") : n;
 const b = s => `<b>${s}</b>`;
 const has = k => rec[k]!=null && !(Array.isArray(rec[k]) && !rec[k].length);
-const src = k => { const p=prov[k]; const u=p&&(p.source_url||(p.source_urls&&p.source_urls[0])); return u?` <a class="src" href="${u}" target="_blank" title="Nguồn">ⓘ</a>`:""; };
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+const src = k => {
+  const p=prov[k]; const u=p&&(p.source_url||(p.source_urls&&p.source_urls[0]));
+  if(!u) return "";
+  // title = câu gốc tại nguồn -> mệnh đề đã dịch vẫn kiểm chứng được ngay trên trang
+  const orig = (p && p.snippet) || (VITEXT[k]!=null && !Array.isArray(rec[k]) ? rec[k] : "");
+  const tip = orig ? `Nguồn — nguyên văn: ${esc(orig).slice(0,300)}` : "Nguồn";
+  return ` <a class="src" href="${u}" target="_blank" title="${tip}">ⓘ</a>`;
+};
 const P = html => `<p>${html}</p>`;
 const set = (id,html) => document.getElementById(id).innerHTML = html || "<p>—</p>";
 
@@ -178,84 +224,121 @@ if(IMAGES.hero){
 
 /* ---- Giới thiệu ---- */
 let intro =`${b(rec.case_name||"")}${rec.aerotropolis?` (còn gọi ${rec.aerotropolis.split('/').pop().trim()})`:""} là khu đô thị sân bay của ${b(rec.country||"")}`;
-if(has("airport_name")) intro += `, phát triển quanh ${b("sân bay "+rec.airport_name)}`;
+if(has("airport_name")) intro += `, phát triển quanh ${b("sân bay "+vi("airport_name"))}`;
 if(has("reference_city")) intro += ` và gắn liền với vùng đô thị ${b(rec.reference_city)}`;
 intro += ".";
-if(has("founded_year")) intro += ` Hình thành từ năm ${b(rec.founded_year)} trên vùng đất khai hoang Haarlemmermeer, sau hơn một thế kỷ nơi đây đã trở thành một trong những sân bay hàng đầu châu Âu và là hình mẫu kinh điển của mô hình ${b("AirportCity")}${src("founded_year")}.`;
+if(has("founded_year")) intro += ` Hình thành từ năm ${b(rec.founded_year)}${has("positioning")?`, nơi đây phát triển theo mô hình ${b(vi("positioning"))}`:""}.${src("founded_year")}`;
+if(has("history_note")) intro += ` ${rec.history_note}${src("history_note")}`;
 set("intro", P(intro));
 
 /* ---- Vị trí & lịch sử ---- */
-let loc = `Khu đô thị nằm ngay cạnh nhà ga hành khách, thuộc vùng đô thị ${b(rec.reference_city||"")}. `;
-loc += `Sân bay khởi đầu là một sân bay quân sự năm ${b(rec.founded_year||"")}, nhanh chóng mở rộng thành cảng hàng không dân dụng và phát triển liên tục hơn 100 năm tới nay.`;
+let loc = "";
+if(has("reference_city")) loc += `Khu đô thị nằm liền kề nhà ga hành khách, thuộc vùng đô thị ${b(rec.reference_city)}.`;
+/* location_desc thường đã nêu sẵn khoảng cách -> chỉ viết câu này khi không có nó, tránh lặp */
+if(has("distance_to_city_km") && !has("location_desc")) loc += ` Cách trung tâm khoảng ${b(fmtVi(rec.distance_to_city_km)+" km")}.${src("distance_to_city_km")}`;
+if(has("location_desc")) loc += ` ${vi("location_desc")}${src("location_desc")}`;
+if(has("airport_build_period")) loc += ` Sân bay được xây dựng trong giai đoạn ${b(vi("airport_build_period"))}.${src("airport_build_period")}`;
+if(has("urban_build_period")) loc += ` Phần đô thị triển khai giai đoạn ${b(vi("urban_build_period"))}.${src("urban_build_period")}`;
+if(has("development_context")) loc += ` ${vi("development_context")}${src("development_context")}`;
 set("loc", P(loc));
 
 /* ---- Quy mô (lời văn + KPI) ---- */
-let scale = `Về quy mô khai thác, sân bay đón ${b(fmtVi(rec.passengers_million)+" triệu")} lượt khách và ${b(fmtVi(rec.cargo_million_tonnes)+" triệu tấn")} hàng hoá mỗi năm qua ${b(fmtVi(rec.air_movements))} lượt cất/hạ cánh, kết nối ${b(fmtVi(rec.destinations)+" điểm đến")} của ${b(fmtVi(rec.airlines)+" hãng bay")}; khách trung chuyển chiếm ${b(fmtVi(rec.transfer_pct)+"%")}.${src("passengers_million")} `;
-scale += `Toàn khu rộng ${b(fmtVi(rec.airport_area_ha)+" ha")} — lớn hơn nhiều thành phố Hà Lan — là nơi làm việc của khoảng ${b(fmtVi(rec.employees)+" người")} thuộc gần ${b(fmtVi(rec.num_companies_airport)+" doanh nghiệp")}.${src("airport_area_ha")}`;
-const KPI = [["passengers_million","Hành khách","triệu/năm"],["cargo_million_tonnes","Hàng hoá","triệu tấn/năm"],["air_movements","Cất/hạ cánh","lượt/năm"],["destinations","Điểm đến","điểm"],["airlines","Hãng bay","hãng"],["transfer_pct","Trung chuyển","%"],["airport_area_ha","Diện tích","ha"],["employees","Lao động","người"],["num_office_buildings","Toà văn phòng","toà"]];
+const opClauses = [];
+if(has("passengers_million")) opClauses.push(`đón ${b(fmtVi(rec.passengers_million)+" triệu")} lượt khách`);
+if(has("cargo_million_tonnes")) opClauses.push(`${b(fmtVi(rec.cargo_million_tonnes)+" triệu tấn")} hàng hoá`);
+if(has("air_movements")) opClauses.push(`${b(fmtVi(rec.air_movements))} lượt cất/hạ cánh`);
+if(has("destinations")) opClauses.push(`${b(fmtVi(rec.destinations)+" điểm đến")}`);
+if(has("airlines")) opClauses.push(`${b(fmtVi(rec.airlines)+" hãng bay")}`);
+let scale = "";
+if(opClauses.length) scale += `Về quy mô khai thác mỗi năm, sân bay ${joinVi(opClauses)}.${src("passengers_million")} `;
+if(has("transfer_pct")) scale += `Khách trung chuyển chiếm ${b(fmtVi(rec.transfer_pct)+"%")}.${src("transfer_pct")} `;
+const sizeClauses = [];
+if(has("area_km2")) sizeClauses.push(`quy hoạch trên ${b(fmtVi(rec.area_km2)+" km²")}`);
+if(has("airport_area_ha")) sizeClauses.push(`diện tích sân bay ${b(fmtVi(rec.airport_area_ha)+" ha")}`);
+if(has("employees")) sizeClauses.push(`khoảng ${b(fmtVi(rec.employees)+" người")} làm việc`);
+if(has("num_companies_airport")) sizeClauses.push(`gần ${b(fmtVi(rec.num_companies_airport)+" doanh nghiệp")}`);
+if(has("jobs_created")) sizeClauses.push(`mục tiêu ${b(fmtVi(rec.jobs_created)+" việc làm")}`);
+if(sizeClauses.length) scale += `Về quy mô đất đai và lao động: ${joinVi(sizeClauses)}.${src("area_km2")||src("airport_area_ha")} `;
+if(has("total_investment_usd")) scale += `Tổng mức đầu tư: ${b(vi("total_investment_usd"))}.${src("total_investment_usd")}`;
+const KPI = [["passengers_million","Hành khách","triệu/năm"],["cargo_million_tonnes","Hàng hoá","triệu tấn/năm"],["air_movements","Cất/hạ cánh","lượt/năm"],["destinations","Điểm đến","điểm"],["airlines","Hãng bay","hãng"],["transfer_pct","Trung chuyển","%"],["area_km2","Quy mô KĐT","km²"],["airport_area_ha","Diện tích sân bay","ha"],["employees","Lao động","người"],["jobs_created","Việc làm mục tiêu","việc làm"],["num_office_buildings","Toà văn phòng","toà"]];
 let kpiHtml = '<div class="kpis">';
 for(const [k,l,u] of KPI){ if(!has(k)) continue; kpiHtml += `<div class="kpi"><div class="v">${fmtVi(rec[k])}</div><div class="u">${u}</div><div class="l">${l}</div></div>`; }
 kpiHtml += "</div>";
 set("scale", P(scale)+kpiHtml);
 
 /* ---- Định vị ---- */
-let pos = `Schiphol được định vị theo mô hình ${b("AirportCity")}`;
-if(has("planning_concept")) pos += ` — nơi hành khách, hãng bay và doanh nghiệp có thể tiếp cận mọi dịch vụ suốt 24 giờ mỗi ngày`;
-pos += ".";
-if(has("cornerstones")) pos += ` Mô hình đứng trên ${b("ba trụ cột")} bổ trợ lẫn nhau: ${joinVi(trList(rec.cornerstones,VI.cornerstone).map(b))}.${src("cornerstones")}`;
-set("positioning", P(pos));
+let pos = "";
+if(has("positioning")) pos += `${b(rec.case_name||"")} được định vị theo mô hình ${b(vi("positioning"))}.${src("positioning")} `;
+if(has("planning_concept")) pos += `${vi("planning_concept")}${src("planning_concept")} `;
+if(has("cornerstones")) pos += `Mô hình đứng trên ${b(rec.cornerstones.length+" trụ cột")} bổ trợ lẫn nhau: ${joinVi(trList(rec.cornerstones,VI.cornerstone).map(b))}.${src("cornerstones")}`;
+set("positioning", pos?P(pos):"");
 
 /* ---- Quy hoạch & phân khu ---- */
 let plan = "";
 if(has("subzones")) plan += `Khu vực được tổ chức thành nhiều phân khu chức năng, nổi bật là ${joinVi(trList(rec.subzones,VI.subzone).map(b))}.${src("subzones")} `;
 const parks=[];
-if(has("logistics_park_ha")) parks.push(`${b("Schiphol Logistics Park")} (~${fmtVi(rec.logistics_park_ha)} ha)`);
-if(has("trade_park_ha")) parks.push(`${b("Schiphol Trade Park")} (~${fmtVi(rec.trade_park_ha)} ha)`);
-if(parks.length) plan += `Ở cấp vùng, hệ sinh thái mở rộng với ${joinVi(parks)} — các khu hậu cần - kinh doanh phát triển theo từng giai đoạn ở phía nam Hoofddorp.${src("trade_park_ha")}`;
+if(has("logistics_park_ha")) parks.push(`${b(vi("logistics_park_name")||"khu hậu cần")} (~${fmtVi(rec.logistics_park_ha)} ha)`);
+if(has("trade_park_ha")) parks.push(`${b(vi("trade_park_name")||"khu thương mại - công nghiệp")} (~${fmtVi(rec.trade_park_ha)} ha)`);
+if(parks.length) plan += `Ở cấp vùng, hệ sinh thái mở rộng với ${joinVi(parks)} — các khu hậu cần - kinh doanh phát triển theo từng giai đoạn.${src("logistics_park_ha")||src("trade_park_ha")}`;
+if(has("economic_zone_name")) plan += ` Khu vực nằm trong ${b(vi("economic_zone_name"))}${has("economic_zone_year")?` (thành lập ${b(rec.economic_zone_year)})`:""}.${src("economic_zone_name")}`;
 set("planning", plan?P(plan):"");
 document.getElementById("planning").innerHTML += figureFor("planning");
 
 /* ---- Tầm nhìn & bền vững ---- */
 let vis = "";
 if(has("vision_label")){
-  vis += `Định hướng dài hạn được gói trong ${b(rec.vision_label)}`;
-  if(has("vision_qualities")) vis += `, xoay quanh bốn chất lượng cốt lõi: ${joinVi(trList(rec.vision_qualities,VI.vision).map(b))}`;
-  if(has("aviation_policy")) vis += `, trong khuôn khổ ${b(rec.aviation_policy)} của Hà Lan`;
+  vis += `Định hướng dài hạn được gói trong ${b(vi("vision_label"))}`;
+  if(has("vision_qualities")) vis += `, xoay quanh các giá trị cốt lõi: ${joinVi(trList(rec.vision_qualities,VI.vision).map(b))}`;
+  if(has("aviation_policy")) vis += `, trong khuôn khổ ${b(vi("aviation_policy"))}`;
   vis += `.${src("vision_qualities")} `;
 }
-if(has("sustainability")) vis += `Về phát triển bền vững, khu hậu cần theo đuổi ${joinVi(trList(rec.sustainability,VI.sustain))}, hướng tới trở thành khu logistics bền vững hàng đầu.${src("sustainability")}`;
+if(has("sustainability")) vis += `Về phát triển bền vững, dự án theo đuổi ${joinVi(trList(rec.sustainability,VI.sustain))}.${src("sustainability")}`;
 set("vision", vis?P(vis):"");
 document.getElementById("vision").innerHTML += figureFor("vision");
 
 /* ===== Slide B — CVP (lời văn) ===== */
 let pr = "";
 if(has("cvp_product")) pr += `Sản phẩm bất động sản thương mại tập trung vào ${joinVi(trList(rec.cvp_product,VI.product).map(b))}. `;
-if(has("num_office_buildings")||has("num_companies_realestate"))
-  pr += `Toàn khu có khoảng ${b(fmtVi(rec.num_office_buildings)+" toà")} văn phòng cho hơn ${b(fmtVi(rec.num_companies_realestate)+" doanh nghiệp")} thuê; nơi đây gần như không phát triển nhà ở mà thuần về thương mại - văn phòng.${src("num_office_buildings")}`;
+const stock=[];
+if(has("num_office_buildings")) stock.push(`${b(fmtVi(rec.num_office_buildings)+" toà")} văn phòng`);
+if(has("num_companies_realestate")) stock.push(`hơn ${b(fmtVi(rec.num_companies_realestate)+" doanh nghiệp")} thuê`);
+if(stock.length) pr += `Toàn khu có ${joinVi(stock)}.${src("num_office_buildings")||src("num_companies_realestate")} `;
+if(has("residential_product_desc")) pr += `Về nhà ở: ${vi("residential_product_desc")}${src("residential_product_desc")}`;
+else if(stock.length) pr += `Nguồn công bố không nêu sản phẩm nhà ở cho khu vực này.`;
 set("cvp_product", pr?P(pr):"");
 
 let price = "";
 if(has("office_rent_eur_m2_year")){ const r=rec.office_rent_eur_m2_year;
   price += `Giá chào thuê văn phòng dao động khoảng ${b("€"+fmtVi(r.min)+"–€"+fmtVi(r.max)+"/m²/năm")} (chưa gồm VAT), tuỳ vị trí toà nhà và phân khu.${src("office_rent_eur_m2_year")} `; }
-if(has("cvp_price")) price += `Ở cấp tập đoàn, nguồn thu đến từ nhiều dòng: phí hàng không và phí hành khách, phí nhượng quyền bán lẻ - ẩm thực, quảng cáo, bãi đỗ, cùng tiền thuê và cho thuê bất động sản.${src("cvp_price")}`;
+if(has("cvp_price")) price += `Về mô hình doanh thu: ${vi("cvp_price")}${src("cvp_price")} `;
+if(has("price_vs_reference")) price += `Mặt bằng giá so với đô thị tham chiếu: ${b(vi("price_vs_reference"))}.${src("price_vs_reference")} `;
+if(has("sales_scheme")) price += `Cơ chế bán/cho thuê: ${vi("sales_scheme")}${src("sales_scheme")}`;
 set("cvp_price", price?P(price):"");
 
 let sv = "";
-if(has("cvp_service")) sv += `Schiphol Real Estate đóng vai trò ${b("quản trị khu vực (area director)")} — không chỉ cho thuê mà còn phát triển và vận hành toàn khu, cung cấp giải pháp bất động sản linh hoạt. Cộng đồng doanh nghiệp được kết nối qua ${b("nền tảng Spot")} (sự kiện, hội thảo, thể thao) cùng đội ngũ Leasing Managers hỗ trợ trực tiếp.${src("cvp_service")}`;
+if(has("cvp_service")) sv += `Dịch vụ hỗ trợ nhà đầu tư & doanh nghiệp gồm ${joinVi(trList(rec.cvp_service,VI.service).map(b))}.${src("cvp_service")} `;
+if(has("smart_city")) sv += `Về đô thị thông minh: ${vi("smart_city")}${src("smart_city")} `;
+if(has("airport_privilege")) sv += `Đặc quyền gắn với sân bay: ${vi("airport_privilege")}${src("airport_privilege")}`;
 set("cvp_service", sv?P(sv):"");
 
 let ex = "";
-if(has("cvp_experience")) ex += `Trải nghiệm tại chỗ phong phú với ${joinVi(trList(rec.cvp_experience,Object.assign({},VI.amenity,VI.highlight)))}; lưu trú có các khách sạn cao cấp kết nối trực tiếp nhà ga.${src("cvp_experience")}`;
+if(has("cvp_experience")) ex += `Trải nghiệm tại chỗ gồm ${joinVi(trList(rec.cvp_experience,Object.assign({},VI.amenity,VI.highlight)))}.${src("cvp_experience")} `;
+if(has("experience_desc")) ex += `${vi("experience_desc")}${src("experience_desc")}`;
 set("cvp_experience", ex?P(ex):"");
 document.getElementById("cvp_experience").innerHTML += figureFor("experience");
 
 let cv = "";
-if(has("cvp_convenience")) cv += `Khả năng kết nối là thế mạnh nổi bật: tiếp cận bằng cả ${b("ô tô, xe buýt, tàu hoả và máy bay")}, liền kề các cao tốc ${b("A4/A5/A9/A10")}; chỉ 2–8 phút tới nhà ga NS và sảnh sân bay, tàu cao tốc đi ${b("Paris")} chạy 9 chuyến mỗi ngày.${src("cvp_convenience")} `;
-if(has("rail_connections")) cv += `Đường sắt NS nối trực tiếp ${b("Amsterdam")} và ${b("Rotterdam")} (Intercity direct).${src("rail_connections")}`;
+if(has("cvp_convenience")) cv += `Khả năng kết nối: ${joinVi(vi("cvp_convenience"))}${src("cvp_convenience")} `;
+if(has("connection_modes")) cv += `Phương thức tiếp cận gồm ${joinVi(vi("connection_modes").map(b))}.${src("connection_modes")} `;
+if(has("metro_lines")) cv += `Khu vực được phục vụ bởi ${b(fmtVi(rec.metro_lines)+" tuyến")} metro/đường sắt đô thị.${src("metro_lines")} `;
+if(has("rail_connections")) cv += `Kết nối đường sắt: ${joinVi(vi("rail_connections"))}${src("rail_connections")}`;
 set("cvp_convenience", cv?P(cv):"");
 
 let br = "";
-if(has("cvp_brand")) br += `Dự án do ${b("Royal Schiphol Group")} sở hữu và dẫn dắt, với ${b("Schiphol Real Estate")} là đơn vị phát triển - quản trị khu vực; hệ sinh thái quy tụ nhiều thương hiệu và đối tác quốc tế lớn.${src("cvp_brand")}`;
+if(has("investor_governance")) br += `Mô hình chủ đầu tư & quản trị: ${vi("investor_governance")}${src("investor_governance")} `;
+if(has("lead_developer")) br += `Bên dẫn dắt là ${b(vi("lead_developer"))}.${src("lead_developer")} `;
+if(has("cvp_brand")) br += `Hệ sinh thái thương hiệu quy tụ ${joinVi(trList(rec.cvp_brand,VI.brand).map(b))}.${src("cvp_brand")} `;
+if(has("brand_partners")) br += `Đối tác lớn: ${joinVi(dedupe(vi("brand_partners")).map(b))}.${src("brand_partners")}`;
 set("cvp_brand", br?P(br):"");
 
 /* ---- Footer + nguồn ---- */
@@ -295,6 +378,19 @@ def load_images(name: str) -> dict:
     return out
 
 
+def load_vi_text(name: str) -> dict:
+    """Đọc html/vi_text.json -> {field: bản tiếng Việt} cho 1 case.
+
+    Đây là nội dung BIÊN SOẠN (người viết), tách khỏi record trích tự động để
+    extractor vẫn deterministic và bản gốc vẫn truy được nguồn.
+    """
+    p = HERE / "vi_text.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return {k: v for k, v in data.get(name, {}).items() if not k.startswith("_")}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Sinh trang web tĩnh (lời văn tiếng Việt) cho 1 aerotropolis")
     ap.add_argument("--name", default="schiphol")
@@ -307,10 +403,13 @@ def main() -> None:
 
     data = json.loads(json_path.read_text(encoding="utf-8"))
     images = load_images(args.name)
+    vitext = load_vi_text(args.name)
+    print(f"[vi] {len(vitext)} trường dùng bản dịch tiếng Việt")
     title = data.get("record", {}).get("case_name", args.name)
     html = (TEMPLATE
             .replace("__DATA__", json.dumps(data, ensure_ascii=False))
             .replace("__IMAGES__", json.dumps(images, ensure_ascii=False))
+            .replace("__VITEXT__", json.dumps(vitext, ensure_ascii=False))
             .replace("__GENERATED__", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"))
             .replace("__TITLE__", title))
     print(f"[img] nhúng {len(images)} ảnh")
