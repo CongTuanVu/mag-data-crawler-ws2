@@ -10,3 +10,97 @@
 | **8**  | **Kuala Lumpur Aeropolis**                         | 🇲🇾 Malaysia  | KLIA                                 | Airport City + logistics + commercial + industrial + urban development       |
 | **9**  | **Taoyuan Aerotropolis**                           | 🇹🇼 Đài Loan  | Taiwan Taoyuan International Airport | Một trong những dự án Aerotropolis được quy hoạch bài bản nhất châu Á        |
 | **10** | **Western Sydney Aerotropolis**                    | 🇦🇺 Australia | Western Sydney International Airport | Aerotropolis thế hệ mới, manufacturing, aerospace, logistics, innovation     |
+| **11** | **Zhengzhou Airport Economy Zone (ZAEZ)**          | 🇨🇳 Trung Quốc | Zhengzhou Xinzheng International (CGO) | "China's Aerotropolis", ~415 km², điện tử/Foxconn, air cargo hub, FTZ         |
+| **12** | **Beijing Daxing Airport Economic Zone**           | 🇨🇳 Trung Quốc | Beijing Daxing International (PKX)   | Khu kinh tế sân bay quốc gia, FTZ Đại Hưng, liên kết Kinh–Tân–Ký (Jing-Jin-Ji) |
+| **13** | **Chengdu Tianfu Airport City**                    | 🇨🇳 Trung Quốc | Chengdu Tianfu International (TFU)   | Tianfu New Area, hàng không – hội nghị – công nghệ cao, cửa ngõ Tây Trung Quốc |
+| **14** | **Shanghai Hongqiao Airport Economy Zone / CBD**   | 🇨🇳 Trung Quốc | Shanghai Hongqiao (SHA)              | Hub đa phương thức air + HSR + metro, CBD Hongqiao, hội chợ CIIE              |
+| **15** | **Guangzhou Baiyun Airport Economic Zone**         | 🇨🇳 Trung Quốc | Guangzhou Baiyun International (CAN) | Air cargo, cross-border e-commerce, Greater Bay Area                          |
+| **16** | **Roissy–CDG / Le Bourget Aerotropolis**           | 🇫🇷 Pháp      | Paris Charles de Gaulle (CDG)        | ~420 km² vùng ảnh hưởng, cargo, hội nghị, văn phòng, Grand Roissy             |
+| **17** | **Munich Airport City**                            | 🇩🇪 Đức       | Munich Airport (MUC)                 | Munich Airport Center, LabCampus, MICE, bán lẻ, khách sạn                     |
+| **18** | **Zurich Airport City / The Circle**               | 🇨🇭 Thụy Sĩ   | Zurich Airport (ZRH)                 | The Circle: office + hotel + healthcare + retail tích hợp nhà ga              |
+| **19** | **Vienna Airport City**                            | 🇦🇹 Áo        | Vienna International Airport (VIE)   | Office Park, Air Cargo Center, cửa ngõ Trung & Đông Âu                        |
+| **20** | **Airport City Stockholm (Arlanda)**               | 🇸🇪 Thụy Điển | Stockholm Arlanda (ARN)              | Mô hình airport city Bắc Âu, logistics, R&D, phát triển bền vững              |
+| **21** | **Manchester Airport City**                        | 🇬🇧 Anh       | Manchester Airport (MAN)             | Enterprise Zone, Airport City North/South, logistics & office                 |
+| **22** | **Madrid–Barajas Airport City**                    | 🇪🇸 Tây Ban Nha | Adolfo Suárez Madrid–Barajas (MAD)   | Airport City Madrid, cargo, hub kết nối châu Âu – Mỹ Latinh                   |
+| **23** | **Istanbul Airport Aerotropolis**                  | 🇹🇷 Thổ Nhĩ Kỳ | Istanbul Airport (IST)               | Sân bay siêu lớn, ISTOC/cargo city, khách sạn, khu đô thị mới phía bắc        |
+| **24** | **Airport City Doha**                              | 🇶🇦 Qatar     | Hamad International Airport (DOH)    | Airport City + Free Zone Ras Bufontas, logistics, hospitality                 |
+| **25** | **Zayed Airport Business City / Abu Dhabi**        | 🇦🇪 UAE       | Zayed International Airport (AUH)    | Free zone hàng không, MRO Strata, kết nối KIZAD & cảng Khalifa                |
+| **26** | **King Salman International Airport City**         | 🇸🇦 Ả Rập Xê Út | King Salman International (RUH)      | Siêu dự án ~57 km², 6 đường băng, đô thị sân bay theo Vision 2030             |
+| **27** | **Airport City Tel Aviv**                          | 🇮🇱 Israel    | Ben Gurion International (TLV)       | Khu business park mang tên "Airport City", HQ doanh nghiệp, logistics         |
+| **28** | **Cairo Airport City**                             | 🇪🇬 Ai Cập    | Cairo International Airport (CAI)    | Airport city + cargo village, kết nối New Administrative Capital              |
+| **29** | **Ekurhuleni Aerotropolis**                        | 🇿🇦 Nam Phi   | O.R. Tambo International (JNB)       | Aerotropolis lớn nhất châu Phi, OR Tambo IDZ, kim hoàn & cargo                |
+| **30** | **Durban Aerotropolis / Dube TradePort**           | 🇿🇦 Nam Phi   | King Shaka International (DUR)       | Dube TradeZone, agrizone, cargo terminal, chiến lược aerotropolis cấp tỉnh    |
+| **31** | **Addis Ababa Bole Airport City**                  | 🇪🇹 Ethiopia  | Bole International Airport (ADD)     | Hub trung chuyển châu Phi của Ethiopian Airlines, cargo & MRO                 |
+| **32** | **Delhi Aerocity**                                 | 🇮🇳 Ấn Độ     | Indira Gandhi International (DEL)    | Hospitality district, office, retail, Aerocity Phase 2 mở rộng               |
+| **33** | **Noida International (Jewar) Aerotropolis**       | 🇮🇳 Ấn Độ     | Noida International Airport (DXN)    | Aerotropolis quy hoạch mới dọc Yamuna Expressway, MRO, film city              |
+| **34** | **Bengaluru Airport City**                         | 🇮🇳 Ấn Độ     | Kempegowda International (BLR)       | Business park, campus R&D, khách sạn, concert arena, mô hình airport city     |
+| **35** | **Hyderabad Aerocity / GMR Airport City**          | 🇮🇳 Ấn Độ     | Rajiv Gandhi International (HYD)     | Aerospace SEZ, GMR Aerocity, logistics & office, MRO hub                      |
+| **36** | **Suvarnabhumi Airport City**                      | 🇹🇭 Thái Lan  | Suvarnabhumi Airport (BKK)           | Airport city + free zone cargo, đô thị hoá quanh Bang Phli/Samut Prakan       |
+| **37** | **U-Tapao Aerotropolis / EEC**                     | 🇹🇭 Thái Lan  | U-Tapao International (UTP)          | Trụ cột Eastern Economic Corridor, MRO, hàng không – logistics – công nghiệp  |
+| **38** | **Clark Aerotropolis / New Clark City**            | 🇵🇭 Philippines | Clark International Airport (CRK)    | Chuyển từ căn cứ không quân sang aerotropolis, New Clark City, Clark Freeport |
+| **39** | **Soekarno-Hatta Airport City (Jakarta)**          | 🇮🇩 Indonesia | Soekarno-Hatta International (CGK)   | Aerocity Bandara, cargo village, khu thương mại & khách sạn quanh sân bay     |
+| **40** | **Long Thành Airport City**                        | 🇻🇳 Việt Nam  | Long Thanh International Airport     | Đô thị sân bay quy hoạch mới, logistics, công nghiệp, kết nối vùng Đông Nam Bộ |
+| **41** | **Narita Airport City**                            | 🇯🇵 Nhật Bản  | Narita International Airport (NRT)   | Quy hoạch "Narita Airport City", cargo hub, khu công nghiệp & logistics       |
+| **42** | **Haneda Innovation City (HICity)**                | 🇯🇵 Nhật Bản  | Tokyo Haneda Airport (HND)           | Smart city bên cạnh sân bay: R&D, robotics, y tế tiên tiến, văn hoá           |
+| **43** | **Auckland Airport Business District**             | 🇳🇿 New Zealand | Auckland Airport (AKL)               | "The Landing", Mānawa Bay, logistics & bán lẻ, mô hình airport city Nam TBD   |
+| **44** | **Denver Aerotropolis**                            | 🇺🇸 Mỹ        | Denver International Airport (DEN)   | Aerotropolis Regional Partnership, bioscience, khu đô thị mới phía đông       |
+| **45** | **Orlando Aerotropolis / Lake Nona**               | 🇺🇸 Mỹ        | Orlando International Airport (MCO)  | Lake Nona ~45 km², Medical City, smart city, du lịch & công nghệ cao          |
+| **46** | **Memphis Aerotropolis**                           | 🇺🇸 Mỹ        | Memphis International Airport (MEM)  | "America's Aerotropolis", siêu hub FedEx, logistics & phân phối               |
+| **47** | **Detroit Region Aerotropolis**                    | 🇺🇸 Mỹ        | Detroit Metro (DTW) + Willow Run     | Aerotropolis 2 sân bay, sản xuất ô tô, logistics, advanced manufacturing      |
+| **48** | **Atlanta Aerotropolis**                           | 🇺🇸 Mỹ        | Hartsfield–Jackson Atlanta (ATL)     | Aerotropolis Atlanta Alliance, sân bay đông khách nhất thế giới, cargo & MICE |
+| **49** | **Panamá Aerotropolis / Tocumen**                  | 🇵🇦 Panama    | Tocumen International Airport (PTY)  | "Hub of the Americas", Panama Pacifico & khu tự do, logistics liên Mỹ         |
+| **50** | **Belo Horizonte Aerotropolis / Confins**          | 🇧🇷 Brazil    | Belo Horizonte–Confins (CNF)         | Aerotropolis vận hành hiếm hoi ở Nam Mỹ, cargo, công nghệ & Aeroporto-Indústria |
+| **51** | **Athens Airport City**                            | 🇬🇷 Hy Lạp    | Athens International (ATH)           | Airport city quanh Spata, logistics, retail park, khách sạn & office            |
+| **52** | **Barcelona El Prat Airport City**                 | 🇪🇸 Tây Ban Nha | Barcelona El Prat (BCN)              | Aerópolis / Parc Aeroespacial, logistics & khu công nghệ ven sân bay            |
+| **53** | **Bremen Airport-Stadt**                           | 🇩🇪 Đức       | Bremen Airport (BRE)                 | "Airport-Stadt Bremen" – business park sát nhà ga, hàng không vũ trụ            |
+| **54** | **Budapest Airport City / BUD Cargo City**         | 🇭🇺 Hungary   | Budapest Ferenc Liszt (BUD)          | Cargo City, BUD Business Park, hub logistics Trung Âu                           |
+| **55** | **Dublin Airport Logistics Park**                  | 🇮🇪 Ireland   | Dublin Airport (DUB)                 | Airport Logistics Park, Dublin Airport Central, office & data economy           |
+| **56** | **Frankfurt-Hahn Airport City**                    | 🇩🇪 Đức       | Frankfurt-Hahn (HHN)                 | Sân bay cargo chuyên dụng, khu công nghiệp – logistics, vốn Trung Quốc          |
+| **57** | **Helsinki Aviapolis**                             | 🇫🇮 Phần Lan  | Helsinki-Vantaa (HEL)                | Aviapolis: đô thị sân bay Bắc Âu, office, logistics, dân cư & retail            |
+| **58** | **Heathrow Airport City / West London**            | 🇬🇧 Anh       | London Heathrow (LHR)                | Cụm kinh tế sân bay lớn nhất châu Âu, cargo, HQ doanh nghiệp, khách sạn         |
+| **59** | **Domodedovo Airport City**                        | 🇷🇺 Nga       | Moscow Domodedovo (DME)              | Airport city Nga, cargo terminal, khu công nghiệp – logistics ngoại vi Moscow   |
+| **60** | **Oslo Airport City (Gardermoen)**                 | 🇳🇴 Na Uy     | Oslo Airport (OSL)                   | Dự án airport city trung hoà carbon, năng lượng tái tạo, logistics & office     |
+| **61** | **Paris Vatry Eurocargo Hub**                      | 🇫🇷 Pháp      | Paris Vatry (XCR)                    | Sân bay cargo 24/7, khu logistics – e-commerce, cửa ngõ hàng hoá Trung Âu       |
+| **62** | **Warsaw Chopin / Airport City Poland**            | 🇵🇱 Ba Lan    | Warsaw Chopin (WAW)                  | Airport City Poland – office & hotel cạnh nhà ga, liên kết CPK tương lai        |
+| **63** | **Dubai International Aviation District (DXB)**    | 🇦🇪 UAE       | Dubai International (DXB)            | Dubai Airport Freezone (DAFZA), cargo village, cụm đô thị hàng không nội đô     |
+| **64** | **Jeddah Airport City**                            | 🇸🇦 Ả Rập Xê Út | King Abdulaziz International (JED)   | Airport city phục vụ Hajj/Umrah, cargo, logistics, kết nối King Abdullah EC     |
+| **65** | **Beijing Capital Airport Economic Zone**          | 🇨🇳 Trung Quốc | Beijing Capital International (PEK)  | Khu kinh tế sân bay thủ đô đầu tiên của TQ, Tianzhu FTZ, HQ hàng không          |
+| **66** | **Brisbane Airport Precinct**                      | 🇦🇺 Australia | Brisbane Airport (BNE)               | Airport city do BAC quy hoạch: DFO, Auto Mall, cargo & khu công nghiệp          |
+| **67** | **Cochin Airport City (CIAL)**                     | 🇮🇳 Ấn Độ     | Cochin International (COK)           | Sân bay chạy hoàn toàn bằng điện mặt trời, airport city, golf & convention      |
+| **68** | **Shanghai Pudong Airport Economy Zone**           | 🇨🇳 Trung Quốc | Shanghai Pudong (PVG)                | Cargo hub số 1 TQ, khu bảo thuế sân bay, liên kết Lâm Cảng FTZ                  |
+| **69** | **Subic Bay Freeport Airport Zone**                | 🇵🇭 Philippines | Subic Bay International (SFS)        | Chuyển đổi căn cứ quân sự, freeport + cảng biển + sân bay, logistics tích hợp   |
+| **70** | **Zhuhai Jinwan Aviation City**                    | 🇨🇳 Trung Quốc | Zhuhai Jinwan (ZUH)                  | Airshow China, cụm chế tạo hàng không, MRO, Greater Bay Area                    |
+| **71** | **Gia Bình Airport City**                          | 🇻🇳 Việt Nam  | Gia Bình International Airport       | Sân bay quốc tế mới Bắc Ninh, đô thị sân bay & logistics vùng Thủ đô            |
+| **72** | **New Manila International Airport City (Bulacan)**| 🇵🇭 Philippines | New Manila International (Bulacan)   | Aerotropolis tư nhân của San Miguel, đô thị sân bay quy mô lớn phía bắc Manila  |
+| **73** | **BWI Airport Business District**                  | 🇺🇸 Mỹ        | Baltimore-Washington (BWI)           | Cụm logistics & office vùng Washington–Baltimore, cargo Amazon Air              |
+| **74** | **Charlotte Airport Area / Dixie River**           | 🇺🇸 Mỹ        | Charlotte Douglas (CLT)              | Hub American Airlines, intermodal rail yard, khu logistics phía tây Charlotte   |
+| **75** | **Chicago O'Hare Aerotropolis**                    | 🇺🇸 Mỹ        | Chicago O'Hare (ORD)                 | O'Hare 21, Northwest Cargo Center, cụm office & logistics vùng Chicagoland      |
+| **76** | **Cleveland Hopkins Airport District**             | 🇺🇸 Mỹ        | Cleveland Hopkins (CLE)              | Airport city quy hoạch lại quanh sân bay, IX Center, logistics công nghiệp      |
+| **77** | **Edmonton Airport City / Alberta Aerotropolis**   | 🇨🇦 Canada    | Edmonton International (YEG)         | "Airport City Sustainability Campus", cargo, e-commerce, năng lượng xanh        |
+| **78** | **Fort Worth Alliance Global Logistics Hub**       | 🇺🇸 Mỹ        | Fort Worth Alliance (AFW)            | Sân bay cargo tư nhân đầu tiên thế giới, AllianceTexas, đường sắt – logistics   |
+| **79** | **Huntsville / Port of Huntsville**                | 🇺🇸 Mỹ        | Huntsville International (HSV)       | International Intermodal Center, Jetplex Industrial Park, cargo & aerospace     |
+| **80** | **Indianapolis Aerotropolis**                      | 🇺🇸 Mỹ        | Indianapolis International (IND)     | Hub FedEx số 2 thế giới, Ameriplex, logistics & phân phối Trung Tây             |
+| **81** | **Jackson-Evers Aerotropolis**                     | 🇺🇸 Mỹ        | Jackson-Evers International (JAN)    | Jackson Medgar Wiley Evers Aerotropolis Authority, logistics & công nghiệp      |
+| **82** | **Hamilton Aerotropolis (Munro)**                  | 🇨🇦 Canada    | John C. Munro Hamilton (YHM)         | Aerotropolis Employment Growth District, cargo đêm, logistics Ontario           |
+| **83** | **JFK Airport Redevelopment / Aerotropolis**       | 🇺🇸 Mỹ        | John F. Kennedy International (JFK)  | New Terminal One, JFK Air Cargo, Jamaica/Queens redevelopment                   |
+| **84** | **Kansas City Airport City**                       | 🇺🇸 Mỹ        | Kansas City International (MCI)      | New Terminal 2023, KCI Intermodal BusinessCentre, logistics foreign-trade zone  |
+| **85** | **Ontario Airport Logistics Cluster (Inland Empire)**| 🇺🇸 Mỹ      | Ontario International (ONT)          | Trung tâm logistics Inland Empire, cargo UPS/Amazon, kho vận e-commerce         |
+| **86** | **St. Louis Aerotropolis / Midcoast**              | 🇺🇸 Mỹ        | St. Louis Lambert (STL)              | Midwest Cargo Hub, "Aerotropolis Tax Credit", cầu hàng không Mỹ – Trung         |
+| **87** | **LAX Airport Area / LA Aerotropolis**             | 🇺🇸 Mỹ        | Los Angeles International (LAX)      | LAX Northside, Automated People Mover, cụm giải trí – hàng không vũ trụ         |
+| **88** | **Louisville Aerotropolis (UPS Worldport)**        | 🇺🇸 Mỹ        | Louisville International (SDF)       | UPS Worldport – siêu hub cargo, Renaissance Zone, logistics y tế & e-commerce   |
+| **89** | **Las Vegas Harry Reid Airport District**          | 🇺🇸 Mỹ        | Harry Reid International (LAS)       | Cụm MICE – khách sạn – casino gắn sân bay, dự án sân bay mới Ivanpah            |
+| **90** | **Miami Aerotropolis / Airport City**              | 🇺🇸 Mỹ        | Miami International (MIA)            | Cargo hub số 1 Mỹ Latinh, MIA Airport City, khu thương mại tự do Miami          |
+| **91** | **Milwaukee Mitchell Airport Business District**   | 🇺🇸 Mỹ        | Milwaukee Mitchell (MKE)             | Air cargo & logistics, khu công nghiệp phía nam Milwaukee                       |
+| **92** | **MSP Airport Economic Area**                      | 🇺🇸 Mỹ        | Minneapolis-Saint Paul (MSP)         | Hub Delta, khu văn phòng Bloomington/Mall of America, cargo & MRO               |
+| **93** | **Newark Liberty / Port Authority District**       | 🇺🇸 Mỹ        | Newark Liberty International (EWR)   | Kết hợp cảng biển Newark – sân bay, cargo & logistics vùng New York             |
+| **94** | **Northwest Florida Beaches Airport & VentureCrossings**| 🇺🇸 Mỹ   | Northwest Florida Beaches (ECP)      | Sân bay xây mới thế kỷ 21 gắn khu công nghiệp VentureCrossings, aerospace       |
+| **95** | **Philadelphia Airport City**                      | 🇺🇸 Mỹ        | Philadelphia International (PHL)     | Cargo dược phẩm & hoa tươi, Navy Yard, khu logistics đông bắc Hoa Kỳ            |
+| **96** | **Phoenix Sky Harbor Airport District**            | 🇺🇸 Mỹ        | Phoenix Sky Harbor (PHX)             | Sky Train, khu thương mại – MRO, cụm bán dẫn vùng Phoenix                       |
+| **97** | **Phoenix-Mesa Gateway Aerotropolis**              | 🇺🇸 Mỹ        | Phoenix-Mesa Gateway (AZA)           | SkyBridge Arizona (thông quan chung Mỹ–Mexico), aerospace & giáo dục hàng không |
+| **98** | **Piedmont Triad Aerotropolis**                    | 🇺🇸 Mỹ        | Piedmont Triad International (GSO)   | Boom Supersonic Superfactory, HAECO MRO, hub cargo FedEx khu vực                |
+| **99** | **Pittsburgh Airport Innovation Campus**           | 🇺🇸 Mỹ        | Pittsburgh International (PIT)       | Neighborhood 91 (in 3D kim loại), microgrid tự cấp, terminal mới                |
+| **100**| **Raleigh-Durham / Research Triangle Aerotropolis**| 🇺🇸 Mỹ        | Raleigh-Durham International (RDU)   | Gắn Research Triangle Park, R&D dược – công nghệ, office & logistics            |
+| **101**| **Rickenbacker Global Logistics Park**             | 🇺🇸 Mỹ        | Rickenbacker International (LCK)     | Sân bay cargo chuyên dụng, intermodal Norfolk Southern, kho vận bán lẻ Ohio     |
+| **102**| **Ted Stevens Anchorage Cargo Hub**                | 🇺🇸 Mỹ        | Ted Stevens Anchorage (ANC)          | Điểm trung chuyển cargo xuyên Thái Bình Dương, đặc quyền transfer hàng hoá      |
+| **103**| **Vancouver YVR Airport City**                     | 🇨🇦 Canada    | Vancouver International (YVR)        | Sea Island airport city, cargo châu Á – Bắc Mỹ, retail & khách sạn              |
+| **104**| **Dulles Airport Innovation Corridor**             | 🇺🇸 Mỹ        | Washington Dulles (IAD)              | Hành lang công nghệ Dulles, data center lớn nhất thế giới, Silver Line metro    |

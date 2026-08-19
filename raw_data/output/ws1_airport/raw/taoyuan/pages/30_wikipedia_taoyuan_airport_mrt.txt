@@ -1,0 +1,2718 @@
+Taoyuan Airport MRT - Wikipedia
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Special pages
+Search
+Search
+Appearance
+Donate
+Create account
+Log in
+Personal tools
+Donate
+Create account
+Log in
+Contents
+move to sidebar
+hide
+(Top)
+1
+Route
+2
+Operations
+Toggle Operations subsection
+2.1
+In-town check-in
+2.2
+Flight information
+2.3
+Fares
+3
+Rolling stock
+Toggle Rolling stock subsection
+3.1
+Passenger electric multiple units
+3.2
+Fleet roster
+3.3
+Engineering trains
+4
+History
+Toggle History subsection
+4.1
+Taipei terminus change and design
+4.2
+Construction and development
+4.2.1
+Civil engineering
+4.2.2
+Track
+4.2.3
+Taoyuan Airport section
+4.2.4
+Tunneling under the Tamsui River
+4.2.5
+Chingshan Road section
+4.3
+Trial operations
+5
+Route extension and future stations
+Toggle Route extension and future stations subsection
+5.1
+Zhongli railway station extension
+5.2
+Erchong station (A2a)
+5.3
+Fu Jen University Hospital station (A5a)
+6
+Stations
+7
+Ridership
+8
+See also
+9
+Notes
+10
+References
+11
+External links
+Toggle the table of contents
+Taoyuan Airport MRT
+8 languages
+Français
+客家語 / Hak-kâ-ngî
+日本語
+한국어
+Tiếng Việt
+閩南語 / Bân-lâm-gí
+粵語
+中文
+Edit links
+Article
+Talk
+English
+Read
+Edit
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Switch to legacy parser
+Expand all
+Edit interlanguage links
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Wikidata item
+Appearance
+move to sidebar
+hide
+Text
+Small
+Standard
+Large
+This page always uses small font size
+Width
+Standard
+Wide
+The content is as wide as possible for your browser window.
+Color
+Automatic
+Light
+Dark
+This page is always in light mode.
+From Wikipedia, the free encyclopedia
+Rapid transit line in northern Taiwan
+Taoyuan Airport MRT
+Taoyuan Metro Commuter train (left) and Express train (right)
+Overview
+Other name
+Taiwan Taoyuan International Airport Access MRT System (
+臺灣桃園國際機場聯外捷運系統
+)
+Native name
+桃園機場捷運
+Status
+In service
+Owner
+Railway Bureau, MOTC
+Taoyuan DORTS
+Line number
+A
+Locale
+Taipei
+,
+New Taipei
+, and
+Taoyuan
+Termini
+Taipei Main Station
+Laojie River
+Stations
+22
+Color on map
+Commuter:
+Blue
+Express:
+Purple
+Service
+Type
+Rapid transit
+System
+Taoyuan Metro
+Services
+Commuter: Taipei Main Station–Laojie River
+Express: Taipei Main Station–Airport Terminal 2
+Operator
+Taoyuan Metro Corporation
+Depot(s)
+Qingpu Depot, Luzhu Depot
+Rolling stock
+Commuter:
+Kawasaki
+–
+TRSC
+1000 series
+[
+1
+]
+Express: Kawasaki
+2000 series
+Daily ridership
+127,509 (August 2025)
+[
+2
+]
+History
+Opened
+2 March 2017
+;
+9 years ago
+(
+2 March 2017
+)
+Last extension
+2023
+Technical
+Line length
+52.0
+km (32.3
+mi)
+Character
+Elevated and Underground
+Track gauge
+1,435
+mm
+(
+4
+ft
+8
++
+1
+⁄
+2
+in
+)
+standard gauge
+Electrification
+750
+V
+DC
+third rail
+Operating speed
+100
+km/h (62
+mph)
+Signalling
+Siemens
+Trainguard MT
+CBTC
+(
+ATC
+,
+ATO
+,
+ATP
+)
+[
+3
+]
+hide
+Route map
+Taiwan Taoyuan International Airport MRT
+Traditional
+Chinese
+臺灣桃園國際機場聯外捷運系統
+Simplified
+Chinese
+台湾桃园国际机场联外捷运系统
+show
+Transcriptions
+Standard Mandarin
+Hanyu Pinyin
+Táiwān Táoyuán Guójì Jīchǎng Liánwài Jiéyùn Xìtǒng
+Bopomofo
+ㄊㄞˊ ㄨㄢ ㄊㄠˊ ㄩㄢˊ ㄍㄨㄛˊ ㄐㄧˋ ㄐㄧ ㄔㄤˇ ㄌㄧㄢˊㄨㄞˋ ㄐㄧㄝˊ ㄩㄣˋ ㄒㄧˋ ㄊㄨㄥˇ
+Wade–Giles
+T'ai
+2
+-wan
+1
+T'ao
+2
+-yüan
+2
+Kuo
+2
+-chi
+4
+Chi
+1
+-ch'ang
+3
+Lien
+2
+-wai
+4
+Chieh
+2
+-yün
+4
+Hsi
+4
+-t'ung
+3
+Tongyong Pinyin
+Táiwan Táoyuán Guójì Jichǎng Liánwài Jiéyùn Sìtǒng
+Hakka
+Pha̍k-fa-sṳ
+Thòi-vân Thò-yèn Koet-chi Kî-chhòng Lièn-ngoi Chhia̍p-yun Ne-thúng
+Southern Min
+Hokkien
+POJ
+Tâi-oân Thô-hn̂g Kok-chè Ki-tiûⁿ Liân-gōa Chia̍t-ūn Hē-thóng
+Taoyuan Airport MRT
+Traditional
+Chinese
+桃園機場捷運
+Simplified
+Chinese
+桃园机场捷运
+show
+Transcriptions
+Standard Mandarin
+Hanyu Pinyin
+Táoyuán Jīchǎng Jiéyùn
+Bopomofo
+ㄊㄠˊ ㄩㄢˊ ㄐㄧ ㄔㄤˇ ㄐㄧㄝˊ ㄩㄣˋ
+Wade–Giles
+T'ao
+2
+-yüan
+2
+Chi
+1
+-ch'ang
+3
+Chieh
+2
+-yün
+4
+Tongyong Pinyin
+Táoyuán Jichǎng Jiéyùn
+Hakka
+Pha̍k-fa-sṳ
+Thò-yèn Kî-chhòng Chhia̍p-yun
+Southern Min
+Hokkien
+POJ
+Thô-hn̂g Ki-tiûⁿ Chia̍t-ūn
+The
+Taoyuan Airport MRT
+(
+Chinese
+:
+桃園機場捷運
+) is a
+rapid transit
+line of the
+Taoyuan Metro
+that
+connects
+Taipei
+,
+Taoyuan
+and
+New Taipei
+with
+Taoyuan International Airport
+in northern Taiwan. The
+51.33
+km (31.89
+mi)
+line has 22 stations, from
+Taipei Main Station
+to
+Laojie River
+, and began commercial service on 2 March 2017.
+Commuter and Express services operate on the line, which features in-town check-in and baggage check at
+Taipei Main Station
+[
+4
+]
+and at
+New Taipei Industrial Park
+.
+[
+5
+]
+An extension to
+Zhongli railway station
+via
+Laojie River
+from the current terminus at
+Huanbei
+is under construction. The
+Laojie River metro station
+opened in July 2023, and the full extension is scheduled for completion in 2028.
+[
+6
+]
+Route
+[
+edit
+]
+The Taoyuan Airport MRT route starts from
+Taipei Main Station
+and heads west, passing through
+Sanchong
+,
+Taishan
+,
+Xinzhuang
+,
+Guishan
+,
+Linkou
+, and
+Luzhu
+before reaching
+Taoyuan International Airport
+, after which the route turns south to
+Taoyuan HSR station
+before terminating at
+Laojie River
+in
+Zhongli
+.
+[
+7
+]
+The route is currently
+53.07
+km (32.98
+mi)
+long
+[
+8
+]
+with 22 total stations,
+[
+4
+]
+of which 7 are underground and 15 are elevated;
+[
+a
+]
+approximately
+12.96
+km (8.05
+mi)
+of the line is underground while the remaining
+40.11
+km (24.92
+mi)
+is elevated.
+[
+8
+]
+There are two maintenance depots along the line:
+Qingpu Depot
+(near
+Linghang
+) and
+Luzhu Depot
+(near
+Kengkou
+).
+[
+8
+]
+Operations
+[
+edit
+]
+hide
+v
+t
+e
+Taoyuan Airport MRT
+Legend
+Time (E/C)
+(
+West Coast
+)
+(
+)
+(
+)
+(
+)
+Taipei Main Station
+0:00
+Taipei Main Station
+Beimen
+(
+)
+(
+West Coast
+)
+(
+)
+(
+)
+0:05
+Sanchong
+(
+)
+Erchong
+(
+)
+0:08/0:09
+New Taipei Industrial Park
+0:12
+Xinzhuang Fuduxin
+0:14
+Taishan
+Fu Jen University Hospital
+0:17
+Taishan Guihe
+Taipei Basin
+Linkou Plateau
+0:24
+National Taiwan Sport University
+0:22/0:28
+Chang Gung Memorial Hospital
+0:34
+Linkou
+Linkou Plateau
+Taoyuan Plateau
+0:41
+Shanbi
+0:44
+Kengkou
+0:35/0:47
+Airport Terminal 1
+TPE
+0:37/0:50
+Airport Terminal 2
+TPE
+Airport Terminal 3
+TPE
+0:54
+Airport Hotel
+0:57
+Dayuan
+1:00
+Hengshan
+1:03
+Linghang
+(
+)
+1:07
+Taoyuan HSR station
+(
+)
+1:10
+Taoyuan Sports Park
+1:15
+Xingnan
+1:19
+Huanbei
+Laojie River
+Zhongli
+(
+West Coast
+)
+Times shown are for trips originating from Taipei Main Station.
+Two types of services are offered: Commuter and Express. Commuter trains have a blue livery and stop at all stations, while Express trains have a purple livery and focus on serving passengers using
+Taoyuan International Airport
+(TPE), stopping at just two stations between
+Taipei Main Station
+and the airport, they are
+New Taipei Industrial Park
+and
+Chang Gung Memorial Hospital
+.
+[
+7
+]
+Express trains reach TPE from Taipei Main Station in 35 to 37 minutes depending on the terminal, with a 15-minute
+headway
+at all times.
+[
+10
+]
+While nearly all Express train services only run between Taipei Main Station and TPE, a few services during weekday rush hours and weekend afternoons
+[
+b
+]
+run to Huanbei with only one additional stop at
+Taoyuan HSR station
+, with an end-to-end travel time of 64 minutes. Commuter trains have a 15-minute headway at all times and serve the full route to Laojie River in 82 minutes.
+[
+10
+]
+Express trains have transverse row seating with underseat storage for luggage as well as three luggage racks per car; Commuter trains have longitudinal seating without underseat storage and only have two luggage racks per car.
+[
+11
+]
+Both services feature free wi-fi
+[
+12
+]
+as well as
+flight information display systems
+showing status of departing flights at TPE, although there are more displays on Express trains.
+[
+8
+]
+Express trains also offer wireless charging stations.
+[
+13
+]
+In-town check-in
+[
+edit
+]
+In-town check-in and baggage check services are available at
+Taipei Main Station
+[
+4
+]
+and
+New Taipei Industrial Park
+.
+[
+5
+]
+Baggage handling equipment is installed, including
+check-in counters
+,
+conveyor belts
+, container handling equipment, container elevators, and control systems.
+[
+14
+]
+Baggage is transported from the check-in counter into containers, which are loaded onto Express trains. Checked baggage is delivered to Terminal Two, where it is scanned and directed to the appropriate airline.
+[
+15
+]
+Flight information
+[
+edit
+]
+Flight information display systems
+, which also carry information on
+Taiwan Railway
+and
+THSR
+services from transfer stations, are installed at all stations served by Express trains from Taipei Main Station to TPE, as well as at
+Taoyuan HSR station
+.
+[
+16
+]
+[
+17
+]
+Fares
+[
+edit
+]
+Fares on the Taoyuan Airport MRT are based on distance traveled and there is no fare difference between Commuter and Express services.
+[
+18
+]
+Published one-way fares range from NT$30 to NT$160, with fares from Taipei Main Station to TPE priced at NT$160 and fares from Taoyuan HSR station to TPE priced at NT$30.
+[
+18
+]
+Since October 2018, a NT$10 promotional discount on all published one-way fares has been applied due to the operational profitability of the line since service began.
+[
+19
+]
+30, 60, 90, and 120-day periodic tickets allowing unlimited rides on the Taoyuan Airport MRT within specified station pairs are available, priced at a 30, 35, 40, or 50% discount, respectively,
+[
+20
+]
+[
+21
+]
+on the price of 21 published round-trip fares between the specified station pairs per 30-day period (21 being the approximate average number of weekdays per month).
+[
+18
+]
+Trips between airport stations, and between the airport stations and the airport hotel station, are free when using an IC card at the automatic gates.
+[
+22
+]
+Rolling stock
+[
+edit
+]
+Main articles:
+Taoyuan Metro 1000 series
+and
+Taoyuan Metro 2000 series
+Passenger electric multiple units
+[
+edit
+]
+Kawasaki
+manufactured all
+Express
+trains and seven
+Commuter
+train sets in Japan, while
+Taiwan Rolling Stock Company
+(TRSC) manufactured the remaining Commuter train sets.
+[
+23
+]
+[
+24
+]
+The car body is constructed from
+stainless steel
+[
+14
+]
+and each car is supplied with 750 V DC electricity from a
+third rail
+,
+[
+14
+]
+powered by
+IGBT
+–
+VVVF
+inverters and conventional
+3-phase AC
+induction motors
+provided by
+Mitsubishi Electric
+, and controlled with
+Siemens Mobility
+'s
+Trainguard MT
+communications-based train control
+(CBTC) system,
+[
+3
+]
+which has subsystems of
+automatic train control
+(ATC),
+automatic train operation
+(ATO) and
+automatic train protection
+(ATP).
+[
+25
+]
+Of the 41 train sets, 18 are Express trains while 23 are Commuter trains.
+[
+26
+]
+Four-car configurations are used for Commuter trains, while Express trains have five-car configurations due to an extra baggage car.
+[
+27
+]
+Commuter train cars have 50 longitudinal seats with two wheelchair areas and two luggage racks. Express train cars are equipped with 54 seats with one wheelchair area and three luggage racks.
+[
+27
+]
+Each train car has three doors per side except for baggage cars which have five doors per side; baggage cars have an onboard
+baggage handling system
+including control equipment.
+[
+27
+]
+Fleet roster
+[
+edit
+]
+All trains have open-gangway connections.
+Class
+Image
+Year built
+Builder
+Capacity
+Routes operated
+Formation
+Top speed (km/h)
+Fleet total
+Set numbers
+Design
+Service
+1000
+2011–
+Kawasaki
+TRSC
+[
+c
+]
+1116
+Commuter
+4-car sets
+DM1-M1-M2-DM2
+110
+100
+23
+[
+d
+]
+1001~1023
+[
+e
+]
+2000
+Kawasaki
+855
+Express
+5-car sets
+DM1-M1-M2-M3-DM2
+18
+[
+f
+]
+2001~2018
+[
+g
+]
+Engineering trains
+[
+edit
+]
+Taoyuan Metro uses a specialized fleet of
+engineering trains
+supplied by Hokuriku Heavy Industries for
+maintenance of way
+. Some of these trains include
+rail crane
+wagons,
+[
+28
+]
+rail inspection
+vehicles,
+[
+29
+]
+and 60-ton rescue locomotives.
+[
+30
+]
+In April 2017, Taoyuan Metro borrowed an ultrasonic flaw detection vehicle from
+Taipei Metro
+to conduct comprehensive inspections on its rail tracks after a crack was discovered on a track point at the emergency halt between
+Linkou
+and
+Shanbi
+. At that time, Taoyuan Metro only had a hand-pushed ultrasonic inspection device for such purposes.
+[
+31
+]
+History
+[
+edit
+]
+A rail system to connect
+Taoyuan International Airport
+with existing transportation hubs was proposed as early as the 1980s
+[
+32
+]
+and reemphasized over the years in government proclamations such as the
+New Ten Major Construction Projects
+.
+The metro route was originally planned to be constructed as a
+BOT
+project; in 1998, the project was auctioned to Evertransit International Development Corp. (
+長生國際開發
+), a subsidiary of Ever Fortune Industrial Co. (
+長億實業
+). However, the company failed to begin the construction, and in 2003, the government cancelled the contract.
+[
+7
+]
+After the BOT project failed to go through, the
+Ministry of Transportation and Communications
+(MOTC) decided to build the line directly from the government budget.
+MOTC originally planned for the line to be transferred to the
+Taiwan Railway Administration
+(TRA) to operate; President
+Ma Ying-jeou
+had also proposed the Bureau of High Speed Rail (BOHSR)
+[
+h
+]
+to operate the line with the
+Taipei Rapid Transit Corporation
+(TRTC) and the TRA. Later, the TRA announced they would not be able to operate the line so the MOTC asked TRTC to operate the line or have the Taoyuan City Government create the Taoyuan Rapid Transit Corporation to operate the line.
+Taipei terminus change and design
+[
+edit
+]
+The terminus in
+Taipei
+was originally planned for
+Ximen
+but was changed to
+Taipei Main Station
+to facilitate transfers to
+TRA
+,
+THSR
+, and
+Taipei Metro
+, as well as other transportation modes
+[
+33
+]
+including bus services at the adjacent
+Taipei Bus Station
+. However, there were disagreements between MOTC and the Taipei City Government over the precise location of the station platform within the Taipei Main Station area; MOTC preferred an elevated platform just north of Taipei Main Station while the city wanted an underground platform just west of the main station, across Chengde Road. The MOTC's elevated platform proposal was less expensive and faster to construct, but the city objected as the platform and track would have obstructed the scenery of the surrounding area. The two sides eventually compromised, agreeing to the underground platform proposal but with the Taipei City Government covering the additional cost. The revised project was approved in September 2004.
+[
+7
+]
+The
+Taipei Main Station terminus
+of the Taoyuan Airport MRT was built under the future
+Taipei Towers
+development
+[
+34
+]
+and was designed by architect
+Fumihiko Maki
+.
+[
+35
+]
+The station itself extends five stories underground.
+[
+36
+]
+The diaphragm wall is
+53 metres (173
+ft 11
+in)
+deep and excavation depth was around
+27 metres (88
+ft 7
+in)
+. Four underground levels were constructed: three for the terminus of the station and one for a parking lot.
+[
+37
+]
+China Engineering Consultants, Inc. (CECI) won the contract for construction of the Taipei City section of the Taoyuan Airport MRT, including construction of the station and platform at the Taipei terminus, through public appraisal on 8 July 2005.
+[
+33
+]
+Redevelopment of the
+47 hectares (116 acres)
+area will consist of retail, office, and hotel components.
+[
+36
+]
+Construction and development
+[
+edit
+]
+Airport MRT under construction under the future site of Taoyuan Airport Terminal 3 (2009)
+The BOHSR of the MOTC oversaw construction,
+[
+38
+]
+which began in 2006 and was scheduled for completion in 2013 but was plagued by multiple delays.
+[
+39
+]
+The entire system was budgeted at
+NT$
+113.85 billion.
+[
+40
+]
+Land acquisition for the Sanchong City section totaled
+2.07
+ha (5.12 acres)
+and cost
+NT$
+1.4 billion, including land and buildings.
+[
+41
+]
+In addition to tracks and stations, joint development projects have been constructed to boost development around stations. A
+special industrial zone
+was planned around the
+THSR Taoyuan Station
+area.
+[
+42
+]
+In April 2011, Kingdom Construction Corp. signed a contract to construct a 16-story residential and commercial building near Linkou Station.
+[
+43
+]
+Civil engineering
+[
+edit
+]
+The design of core E&M systems (including
+rolling stock
+,
+power supply
+, signaling, communications, depot equipment,
+platform screen doors
+, etc.) and the design and construction of two depots (Qingpu and Luzhu) were awarded as part of a contract worth NT$25.5 billion.
+[
+16
+]
+Hitachi
+, in cooperation with
+Marubeni
+Corporation
+[
+44
+]
+and
+Kawasaki Heavy Industries
+, won the bid for the E&M systems and signed the contract on 12 January 2006.
+[
+45
+]
+The groundbreaking ceremony for the power supply system was held on 1 October 2010 on behalf of five contractor companies including Hitachi.
+[
+46
+]
+Motorola
+supplied the digital
+radio
+communications system
+for the line.
+[
+47
+]
+The power supply for the system is drawn from two
+Taiwan Power Company
+161 kV supplies at three Bulk Supply Substations (BSS); one incoming line serves as the main power supply while the other serves a backup.
+[
+27
+]
+One substation (A8) is located between
+Chang Gung Memorial Hospital
+and
+Linkou
+. The main RC structure was completed in March 2011, while civil engineering was finished at the end of October.
+[
+48
+]
+The automatic fare collection system contract was awarded to Mercuries Data Systems (MDS) on 22 October 2010 for NT$355 million.
+[
+49
+]
+Platform screen doors
+are installed at all underground stations, while elevated stations are equipped with automatic platform gates.
+[
+27
+]
+Track
+[
+edit
+]
+A large portion (78.6%)
+of the route length is constructed on
+9.3
+m (30
+ft 6
+in)
+-wide
+viaducts
+, which is used in both dense urban districts as well as rural areas with steep slopes.
+[
+7
+]
+The route features both single-tracked and double-tracked viaducts;
+[
+7
+]
+single-tracked viaducts were constructed with a standard span of
+30
+m (98
+ft 5
+in)
+with mobile
+cranes
+while double-tracked viaducts were constructed using an advanced shoring technique for either
+35
+m (114
+ft 10
+in)
+or
+60
+m (196
+ft 10
+in)
+spans. A
+4
+m (13
+ft 1
+in)
+noise barrier wall is used on all viaducts, and floating
+track beds
+are used for environmentally-sensitive zones. During construction, some residents in
+Xinzhuang
+expressed concern over the 7 to 9-story high elevated track and its stability during potential earthquakes.
+[
+50
+]
+The Bureau of High Speed Rail responded that due to a base that penetrates
+20–30
+m (65
+ft 7
+in
+– 98
+ft 5
+in)
+into the ground, the tracks could withstand earthquake shake intensity over 5 without a problem.
+[
+50
+]
+By July 2011, the last of the line's elevated support pillars were erected and by August 2011, construction of the elevated viaducts were completed.
+[
+51
+]
+RAIL.ONE Group provided the
+ballastless track system
+for the line. 150,000 modified bi-block type B 355 ties were delivered for the line. The first set arrived between July and December 2010, while the last set began production in March 2011.
+[
+52
+]
+A section crossing over
+National Highway No. 1
+employs a V-shaped support system (instead of the usual vertical supports) and began construction in July 2009.
+[
+53
+]
+Construction near A1 Taipei Main Station (2009)
+Taoyuan Airport section
+[
+edit
+]
+The airport section consists of four underground stations (
+Airport Terminal 1
+,
+Airport Terminal 2
+,
+Airport Hotel
+, and the future
+Airport Terminal 3
+station) and is
+6.85
+km (4.26
+mi)
+long.
+[
+16
+]
+Both
+cut-and-cover
+and
+shield tunneling
+were used for tunnel construction.
+[
+7
+]
+Since shield tunnels were constructed underneath existing taxiways and the control tower area, an automatic system was integrated to monitor any soil and structure impact in real-time so that immediate response could be taken to any disruption. In the same section, secondary grouting and a micro-pile cut-off wall was used to reinforce the tunnels. In addition, a floating track bed was used for the tracks crossing these areas to reduce vibrations.
+[
+7
+]
+Continental Engineering Corporation
+constructed the underground stations and the tunnels in this section.
+[
+54
+]
+Five shield tunneling sections totaling
+3,600
+m (11,811
+ft 0
+in)
+and
+1,630
+m (5,347
+ft 9
+in)
+of cut-and-cover sections were excavated.
+[
+16
+]
+Arrival areas near the MRT departure areas were constructed.
+Tunneling under the Tamsui River
+[
+edit
+]
+The section passing below
+Tamsui River
+(about
+1
+km (0.62
+mi)
+in length) employed the shield-tunneling method. The double-O-tube (DOT) shield tunnel machine was used for the first time in Taiwan.
+[
+7
+]
+[
+55
+]
+The
+1.58
+km (0.98
+mi)
+-long tunnels took 1 year to dig, and were completed in December 2010.
+[
+56
+]
+Chingshan Road section
+[
+edit
+]
+This section was built along a steep roadside slope. Traditional construction methods would greatly increase the difficulty, cost, and excavation area necessary to build an elevated line through the area.
+[
+57
+]
+In order to reduce environmental impact and cut construction time, a bamboo-cut treatment was used in construction to keep the slope intact.
+[
+7
+]
+Top ring girders
+11.4
+m (37
+ft 5
+in)
+in diameter were used to gradually excavate the area, after which a
+10
+m (32
+ft 10
+in)
+diameter foundation can be placed.
+[
+57
+]
+A total of 15 bamboo-cut foundations were constructed, ranging from a height of
+5.88 to 16.35
+m (19
+ft 3
+in to 53
+ft 8
+in)
+.
+[
+57
+]
+By June 2010, the contractor (Fu Tsu Corporation) had completed 13 of the 15 bases, with the additional two under construction.
+[
+57
+]
+Trial operations
+[
+edit
+]
+Trial operations between Taipei and Huanbei began on 2 February 2017. 1.4 million passengers used the system during this period, double the expected 700,000 passengers.
+[
+58
+]
+[
+59
+]
+Route extension and future stations
+[
+edit
+]
+Zhongli railway station extension
+[
+edit
+]
+In December 2008, the MOTC announced that the system would be extended to Zhongli Sports Park, but was later changed to
+Zhongli Station
+in order to facilitate transfers to
+TRA
+services.
+[
+60
+]
+After the Zhongli Sports Park station was canceled, MOTC changed it to having the
+Taoyuan Metro Green Line
+to extend to Zhongli Station via Zhongli Sports Park. The extension also includes one intermediate station,
+Laojie River
+, which opened in July 2023.
+[
+6
+]
+The full extension to Zhongli Station is scheduled for completion in 2028.
+[
+6
+]
+A 2011 report by the
+Council for Economic Planning and Development
+estimated the total project cost at NT$13.801 billion, including the extension as well as development of the surrounding areas.
+[
+61
+]
+Erchong station (A2a)
+[
+edit
+]
+Erchong station is a planned station along the existing Taoyuan Airport MRT line between the
+Sanchong
+and
+New Taipei Industrial Park
+stations, near Erchong Riverside Park.
+[
+62
+]
+While the Taoyuan Airport MRT was in proposal stages,
+Sanchong
+residents living in the Boai New Community requested an additional station be added to the route, at the time presumptively named Boai (station code A2a). In order not to delay opening of the rest of the Taoyuan Airport MRT, space along the line was reserved for future construction of the proposed station. The total cost of the station has been estimated at NT$2.24 billion, with NT$1.94 billion for the station itself and NT$300 million for a necessary extension to the Erchong flood diversion wall, with an estimated completion in 2016.
+[
+63
+]
+As of 2020, the planned station is named Erchong and is in the final approval stages with the
+Taoyuan City Government
+.
+[
+64
+]
+Fu Jen University Hospital station (A5a)
+[
+edit
+]
+Fu Jen University Hospital station is a planned station along the existing line between the
+Taishan
+and
+Taishan Guihe
+stations. While the Taoyuan Airport MRT track passes just by
+Fu Jen Catholic University Hospital
+, the location of the proposed eponymous station is approximately a half-mile from the hospital.
+[
+62
+]
+The station was proposed by MOTC in 2006 following public demands, and space along the line was reserved for the station during construction while feasibility studies were conducted. As of 2020, the project is in the final approval stages at the
+Taoyuan City Government
+.
+[
+64
+]
+This station could also transfer to
+Wugu–Taishan light rail
+in the future.
+Stations
+[
+edit
+]
+Several stations were selected for public art installations.
+[
+65
+]
+Code
+Station name
+Station type
+Locale
+Sta. distance
+(km)
+Opened date
+Transfer
+Structure
+Platform
+Previous
+[
+66
+]
+Total
+Taoyuan Airport MRT
+A1
+Taipei Main Station
+台北車站
+Underground
+Double
+Island
+Zhongzheng
+Taipei
+—
+N/a
+0.00
+2017–3–2
+Taiwan High Speed Rail
+(
+Taipei
+)
+Western Trunk line
+(
+Taipei
+)
+Tamsui–Xinyi line
+(
+R10
+)
+Bannan line
+(
+BL12
+)
+Songshan–Xindian line
+(
+G13
+)
+A2
+Sanchong
+三重
+Elevated
+Island
+Sanchong
+New Taipei
+4.236
+4.236
+Zhonghe–Xinlu line
+A2a
+Unreleased
+Unreleased
+1.600
+5.836
+Planning
+[
+67
+]
+—
+N/a
+A3
+New Taipei Industrial Park
+新北產業園區
+Double island
+Xinzhuang
+2.193
+7.729
+2017–3–2
+Circular line
+A4
+Xinzhuang Fuduxin
+新莊副都心
+Side
+1.369
+9.098
+—
+N/a
+A5
+Taishan
+泰山
+Taishan
+0.931
+10.029
+A5a
+Unreleased
+1.100
+11.129
+Planning
+[
+67
+]
+Wugu-Taishan LRT
+Taishan-Banqiao LRT
+A6
+Taishan Guihe
+泰山貴和
+1.704
+12.833
+2017–3–2
+—
+N/a
+A7
+National Taiwan Sport University
+體育大學
+Underground
+Guishan
+Taoyuan
+4.570
+17.403
+A8
+Chang Gung Memorial Hospital
+長庚醫院
+Elevated
+Double island
+2.742
+20.145
+A9
+Linkou
+林口
+Side
+Linkou
+New Taipei
+1.205
+21.350
+A10
+Shanbi
+山鼻
+Luzhu
+Taoyuan
+8.395
+29.745
+A11
+Kengkou
+坑口
+Double island
+1.976
+31.721
+Green line
+A12
+Airport Terminal 1
+機場第一航廈
+Underground
+Island
+Dayuan
+3.155
+34.876
+—
+N/a
+A13
+Airport Terminal 2
+機場第二航廈
+Side
+1.020
+35.896
+A14
+Airport Terminal 3
+[
+zh
+]
+機場第三航廈
+Hybrid
+1.336
+Unreleased
+Est.
+2027
+[
+68
+]
+A14a
+Airport Hotel
+機場旅館
+Island
+37.232
+2017–3–2
+A15
+Dayuan
+大園
+Elevated
+Side
+1.898
+39.130
+A16
+Hengshan
+橫山
+2.250
+41.380
+Green line
+A17
+Linghang
+領航
+Double island
+1.580
+42.960
+—
+N/a
+A18
+Taoyuan HSR Station
+高鐵桃園站
+Side
+Zhongli
+1.610
+44.570
+Taiwan High Speed Rail
+A19
+Taoyuan Sports Park
+桃園體育園區
+1.740
+46.310
+—
+N/a
+A20
+Xingnan
+興南
+2.960
+49.270
+A21
+Huanbei
+環北
+Underground
+Island
+1.540
+50.810
+Orange line
+A22
+Laojie River
+老街溪
+0.950
+51.760
+2023–7–31
+—
+N/a
+A23
+Zhongli Railway Station
+中壢車站
+Unreleased
+Est.
+2028–7
+Zhongli extension line
+[
+69
+]
+:
+8–28,
+8–29
+Western Trunk line
+A Commuter train leaving
+New Taipei Industrial Park
+Chang Gung Memorial Hospital
+platform
+Airport Terminal 2
+faregates and information booth
+Ridership
+[
+edit
+]
+The table below shows the average daily ridership per month.
+[
+70
+]
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Year
+2017
+－
+－
+66,715
+[
+i
+]
+57,431
+53,075
+52,485
+53,358
+57,981
+52,379
+57,652
+53,890
+63,706
+56,867
+2018
+57,791
+60,313
+60,643
+60,929
+58,498
+61,665
+62,701
+67,357
+64,353
+65,941
+67,647
+75,058
+63,575
+2019
+69,360
+71,525
+70,824
+72,810
+72,080
+75,929
+77,830
+79,805
+76,235
+83,208
+79,969
+89,204
+76,565
+2020
+82,810
+58,868
+40,737
+33,621
+37,933
+43,162
+48,160
+53,257
+51,550
+51,720
+51,668
+53,423
+50,576
+2021
+46,793
+41,855
+49,168
+50,673
+27,172
+14,197
+18,872
+29,476
+33,598
+42,215
+46,668
+51,258
+37,662
+2022
+40,012
+39,098
+47,692
+39,609
+30,877
+36,888
+44,951
+48,921
+48,863
+53,097
+61,492
+72,154
+46,971
+2023
+69,207
+74,697
+78,160
+79,755
+80,102
+84,347
+92,396
+100,574
+100,648
+104,648
+107,033
+109,808
+90,115
+2024
+107,359
+107,957
+113,774
+109,348
+111,176
+112,685
+108,788
+117,122
+115,527
+113,230
+125,923
+130,532
+114,418
+2025
+117,976
+148,634
+125,347
+125,655
+122,382
+123,543
+122,431
+127,509
+See also
+[
+edit
+]
+Taipei Metro
+Taoyuan Metro
+Rail transport in Taiwan
+Notes
+[
+edit
+]
+↑
+including the soon to be opened underground station for Airport Terminal 3.
+[
+9
+]
+↑
+Express bound for Huanbei Service July 2020 schedule: From Chang Gung Memorial Hospital, 1 journey only: Weekday, 0606, From Taipei, 5-6 daily services: weekday, 0700, 0800, 1600, 1700, 1800; weekend, 1300, 1400, 1500, 1600, 1700, 1800. From Huanbei, six daily services: weekday, 0729, 0814, 0914, 1714, 1814, 1914; weekend, 1414, 1514, 1614, 1714, 1814, 1914.
+↑
+1002~1017 only
+↑
+3 constructing
+↑
+1021~1023 under construction
+↑
+7 constructing
+↑
+2012~2018 under construction
+↑
+BOHSR later merged into the MOTC
+Railway Bureau
+.
+↑
+Ticket price 50% off during the first month of operation
+References
+[
+edit
+]
+↑
+"桃園捷運車輛簡介"
+.
+club.ntu.edu.tw
+(in Chinese)
+. Retrieved
+4 February
+2018
+.
+↑
+"統計資料"
+. Retrieved
+16 September
+2025
+.
+Jump up to:
+1
+2
+交通部高速鐵路工程局 (19 May 2011).
+"ME01號誌車載設備工廠測試出國報告"
+. 國家發展委員會公務出國報告資訊網. p.
+6
+. Retrieved
+7 October
+2018
+.
+Jump up to:
+1
+2
+3
+"Taoyuan MRT operational information"
+(PDF)
+.
+Taoyuan Metro
+. 1 October 2017
+. Retrieved
+28 June
+2020
+.
+Jump up to:
+1
+2
+"環狀線1/31正式通車 機捷A3站市區預辦登機、行李託運也來了"
+[
+Circular Line opens 1/31 as well as Taoyuan MRT A3 station In-Town Check-In
+]
+(in Chinese).
+Eastern Broadcasting Company
+. 30 January 2020
+. Retrieved
+28 June
+2020
+.
+Jump up to:
+1
+2
+3
+"機場捷運延伸線計畫"
+[
+Taoyuan Airport MRT Extension Project
+]
+(in Chinese).
+Ministry of Transportation and Communications (Taiwan)
+. 24 October 2019
+. Retrieved
+28 June
+2020
+.
+Jump up to:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+"The Project of Taiwan Taoyuan International Airport Access MRT System"
+. Bureau of High Speed Rail, MOTC. Archived from
+the original
+on 20 February 2009
+. Retrieved
+9 December
+2010
+.
+Jump up to:
+1
+2
+3
+4
+"Taoyuan Metro Corporation Annual Report 2010-11"
+(PDF)
+.
+Taoyuan Metro
+. Retrieved
+28 June
+2020
+.
+↑
+"FAQ (p6)"
+.
+Taoyuan Metro
+. Retrieved
+28 June
+2020
+.
+Jump up to:
+1
+2
+"Timetable & Fare search"
+.
+Taoyuan Metro
+. Retrieved
+29 June
+2020
+.
+↑
+"About the Services - Luggage Storage Area"
+.
+Taoyuan Metro
+. Retrieved
+29 June
+2020
+.
+↑
+"New Taipei City launches free Wi-Fi services on buses"
+.
+Taiwan Today
+. 13 December 2017
+. Retrieved
+30 June
+2020
+.
+↑
+"Taiwan Airport MRT"
+.
+Ministry of Transportation and Communications (Taiwan)
+. Retrieved
+30 June
+2020
+.
+Jump up to:
+1
+2
+3
+"Taiwan Taoyuan International Airport Access MRT System Construction Project"
+(PDF)
+.
+Ministry of Transportation and Communications
+. December 2009
+. Retrieved
+8 August
+2011
+.
+↑
+"Int'l airport MRT station to offer direct luggage checking"
+. The China Post. 2 November 2011. Archived from
+the original
+on 4 March 2016
+. Retrieved
+3 November
+2011
+.
+Jump up to:
+1
+2
+3
+4
+"Brief of Construction Tenders"
+. Bureau of High Speed Rail, MOTC. Archived from
+the original
+on 4 July 2011
+. Retrieved
+5 January
+2011
+.
+↑
+"About the Services - flight information display system"
+.
+Taoyuan Metro
+. Retrieved
+29 June
+2020
+.
+Jump up to:
+1
+2
+3
+"Taoyuan Metro Fares"
+(PDF)
+.
+Taoyuan Metro
+. Retrieved
+4 July
+2020
+.
+↑
+"Airport MRT fares to be cut NT$10 from October"
+.
+Taipei Times
+. 17 July 2018
+. Retrieved
+4 July
+2020
+.
+↑
+"Taoyuam Metro Periodic Tickets"
+.
+Taoyuan Metro
+. Retrieved
+4 July
+2020
+.
+↑
+"Periodic Ticket/Group Ticket"
+.
+www.tymetro.com.tw
+(in Chinese (Taiwan))
+. Retrieved
+20 December
+2019
+.
+↑
+"Taoyuan Airport MRT"
+.
+www.taoyuan-airport.com
+(in Chinese (Taiwan))
+. Retrieved
+13 March
+2017
+.
+↑
+機捷車廂抵台 10月亮相
+. The Liberty Times. 13 August 2011
+. Retrieved
+13 August
+2011
+.
+{{
+cite news
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+↑
+Wang, Shu-Fen (12 August 2011).
+"机捷车厢抵台 10月亮相"
+[
+First Taoyuan Airport MRT train car arrives in Taiwan
+]
+.
+dailynews.sina.com
+(in Chinese).
+Central News Agency (Taiwan)
+. Retrieved
+4 July
+2020
+.
+↑
+蘇, 昭旭 (2017).
+世界捷運與輕軌百科
+. Taiwan: 人人出版.
+ISBN
+9789864610877
+.
+↑
+機場捷運車廂9月到 軌道測試
+(in Simplified Chinese). 自由時報. 25 February 2011
+. Retrieved
+24 February
+2011
+.
+{{
+cite news
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+Jump up to:
+1
+2
+3
+4
+5
+"E&M Mechanical System Engineering"
+. Department of High Speed Rail, MOTC. Archived from
+the original
+on 24 September 2015
+. Retrieved
+6 January
+2011
+.
+↑
+"Rail crane wagon (RCW) is delivered to Taiwan airport railway"
+. Hokuriku Heavy Industries. 19 September 2012
+. Retrieved
+31 October
+2019
+.
+↑
+"Rail inspection vehicle (RIV) is delivered to Taiwan airport railway"
+. Hokuriku Heavy Industries. 20 September 2012
+. Retrieved
+31 October
+2019
+.
+↑
+"Four 60-ton locomotives are delivered to Taiwan airport railway (between Toen International Airport and Taipei)"
+. Hokuriku Heavy Industries. 21 September 2012
+. Retrieved
+31 October
+2019
+.
+↑
+"機捷借來超音波探傷車 全面檢測鋼軌安全"
+. China Times. 15 April 2017
+. Retrieved
+12 March
+2021
+.
+↑
+Kwok, Reginald (16 June 2005).
+Globalizing Taipei: The Political Economy of Spatial Development
+.
+Routledge
+. p.
+197.
+ISBN
+9780415354516
+.
+Jump up to:
+1
+2
+"機場捷運線百年大計 臺北車站特定區- -國家門戶"
+(in Chinese).
+Department of Rapid Transit Systems, Taipei City Government
+. 1 September 2005. Archived from
+the original
+on 28 January 2008
+. Retrieved
+5 January
+2011
+.
+↑
+"Twin towers to appear at airport MRT line"
+. The China Post. 26 September 2006. Archived from
+the original
+on 23 September 2012
+. Retrieved
+13 August
+2010
+.
+↑
+台北中央駅空港高速線の駅デザイン
+(in Japanese). IKDS. September 2007. Archived from
+the original
+on 13 July 2011
+. Retrieved
+24 February
+2011
+.
+Jump up to:
+1
+2
+"Redevelopment of Taipei Main Station Area"
+. Maki and Associates. Archived from
+the original
+on 3 October 2009
+. Retrieved
+24 February
+2011
+.
+↑
+"專題報導 Special Report: 臺灣桃園國際機場聯外捷運系統 臺北站工程"
+. Department of Rapid Transit Systems. 1 March 2008
+. Retrieved
+19 June
+2010
+.
+{{
+cite web
+}}
+:  CS1 maint: url-status (
+link
+)
+↑
+"Lines under construction"
+. Transportation Bureau, Taipei County
+. Retrieved
+1 December
+2010
+.
+[
+permanent dead link
+]
+↑
+"High speed rail bureau chief resigns over project delays"
+.
+Taiwan News
+. 8 May 2013
+. Retrieved
+2 March
+2017
+.
+↑
+"Talk of the day -- Airport MRT line and expansion project in focus"
+. Focus Taiwan News Channel. 25 July 2010
+. Retrieved
+28 July
+2010
+.
+↑
+"臺灣桃園國際機場聯外捷運系統工程 三重市轄段用地取得"
+. Department of Rapid Transit Systems. 1 November 2007. Archived from
+the original
+on 18 August 2009
+. Retrieved
+19 June
+2010
+.
+↑
+"
+"Development and Operation Project of Special Industrial Zone of HSR Taoyuan Station District" Requests for Opinions from Vendors"
+. Department of High Speed Rail, MOTC. Archived from
+the original
+on 24 September 2015
+. Retrieved
+6 January
+2011
+.
+↑
+"Kingdom to develop land near future Linkou MRT"
+. The China Post. 13 April 2011. Archived from
+the original
+on 29 September 2012
+. Retrieved
+15 April
+2011
+.
+↑
+台北・中正国際空港鉄道建設契約を受注
+(in Japanese). Marubeni. 12 January 2006
+. Retrieved
+24 February
+2011
+.
+↑
+"Hitachi Signed Contract for Airport Access MRT System in Taiwan"
+. Hitachi. 12 January 2006. Archived from
+the original
+on 11 July 2011
+. Retrieved
+24 February
+2011
+.
+↑
+"The Groundbreaking Ceremony of Power Supply System for Taoyuan International Airport Access MRT System Construction Project"
+. Department of High Speed Rail, MOTC. Archived from
+the original
+on 3 March 2016
+. Retrieved
+6 January
+2011
+.
+↑
+"Motorola to Provide TETRA Radio Network for Taiwan Tao-Yuan Airport Link Transit System"
+. Motorola. 26 June 2007
+. Retrieved
+24 February
+2011
+.
+↑
+"BOHSR Newsletter: Jul. 2011"
+(PDF)
+. Bureau of High Speed Rail. July 2011. Archived from
+the original
+(PDF)
+on 24 September 2015
+. Retrieved
+6 August
+2011
+.
+↑
+"Contract Signing of Automatic Fare Collection System Works for Taoyuan International Airport Access MRT with Contractor"
+. Bureau of High Speed Rail, MOTC. Archived from
+the original
+on 24 September 2015
+. Retrieved
+6 January
+2011
+.
+Jump up to:
+1
+2
+"機場捷運七樓高 民眾憂安全"
+. 新浪新聞. 28 February 2011. Archived from
+the original
+on 2 March 2011
+. Retrieved
+28 February
+2011
+.
+↑
+"關切機場捷運進度 吳志揚視察A8長庚醫院站"
+. NOW News. 24 March 2011
+. Retrieved
+31 March
+2011
+.
+↑
+"Updates from APS Technology, Railinc, Wabtec, Bombardier, RAIL.ONE, David J. Joseph and Bowman, Barrett & Associates"
+. Progressive Railroading. 10 June 2010
+. Retrieved
+30 June
+2010
+.
+↑
+"桃園機場捷運 V型橋工程即將完成"
+. 自立晚報. 15 April 2011
+. Retrieved
+16 April
+2011
+.
+↑
+"Taiwan Taoyuan International Airport Access MRT System Construction Project Contract CU02"
+. Continental Engineering Corporation. Archived from
+the original
+on 31 August 2010
+. Retrieved
+24 February
+2011
+.
+↑
+機場捷運線雙圓潛盾機設備之設計考量
+. Department of Rapid Transit Systems. 1 March 2008. Archived from
+the original
+on 5 January 2009
+. Retrieved
+19 June
+2010
+.
+↑
+Grace Kuo (31 December 2010).
+"Super tunnel digger speeds up Taipei MRT project"
+. Taiwan Today
+. Retrieved
+31 December
+2010
+.
+Jump up to:
+1
+2
+3
+4
+"Cross passage of Shield Tunnel of Airport MRT & Bamboo-Cutting foundation Are to Be Completed with Great Expeditiousness"
+. MOTC. 23 July 2010
+. Retrieved
+1 December
+2010
+.
+↑
+"Airport MRT begins commercial operations"
+. The China Post. 2 March 2017. Archived from
+the original
+on 2 March 2017
+. Retrieved
+2 March
+2017
+.
+↑
+"Airport MRT to begin commercial operations"
+. The China Post. 2 March 2017. Archived from
+the original
+on 1 March 2017
+. Retrieved
+2 March
+2017
+.
+↑
+李順德 (5 December 2008).
+"再砸130億》機場捷運 延伸到中壢車站"
+(in Chinese).
+United Daily News
+. Archived from
+the original
+on 6 December 2008
+. Retrieved
+25 February
+2010
+.
+↑
+「台灣桃園國際機場聯外捷運系統延伸至中壢火車站規劃報告」案
+Archived
+21 July 2011 at the
+Wayback Machine
+Jump up to:
+1
+2
+"機場捷運增設A2a站及A5a站計畫 - 路線說明"
+[
+Taoyuan Airport MRT Station A2a and A5a expansion plan - route description
+]
+(in Chinese).
+Department of Rapid Transit Systems, New Taipei City Government
+. 28 April 2020
+. Retrieved
+5 July
+2020
+.
+↑
+"捷運機場線增博愛站 站址確定"
+[
+Tayouan Airport MRT Boai station expansion
+]
+(in Chinese).
+Liberty Times
+. 11 November 2010. Archived from
+the original
+on 13 November 2010
+. Retrieved
+5 July
+2020
+.
+Jump up to:
+1
+2
+"機場捷運增設A2a站及A5a站計畫 - 辦理情形"
+[
+Taoyuan Airport MRT Station A2a and A5a expansion plan - current status
+]
+(in Chinese).
+Department of Rapid Transit Systems, New Taipei City Government
+. 28 April 2020. Archived from
+the original
+on 7 June 2020
+. Retrieved
+5 July
+2020
+.
+↑
+"Public Art Sites Project Descriptions"
+. MRT Engineering Office, Bureau of High Speed Rail. Archived from
+the original
+on 15 March 2012
+. Retrieved
+1 December
+2010
+.
+↑
+"桃園捷運起迄站間票價資料"
+.
+桃園捷運公司
+(in Chinese (Taiwan)).
+Archived
+from the original on 23 December 2025
+. Retrieved
+11 December
+2025
+–
+via 政府資料開放平台.
+Jump up to:
+1
+2
+葉德正 (11 November 2025).
+"機捷增A2a、A5a 百億經費卡關"
+.
+聯合報
+(in Chinese (Taiwan)). 新北.
+Archived
+from the original on 6 January 2026
+. Retrieved
+11 December
+2025
+.
+↑
+胡瑞玲 (29 October 2025).
+"機捷A14站積漏水問題排除 交通部：2027年與第三航廈同步啟用"
+.
+聯合報
+(in Chinese (Taiwan)). 台北.
+Archived
+from the original on 29 October 2025
+. Retrieved
+11 December
+2025
+.
+↑
+桃園捷運綠線延伸中壢暨周邊土地整體開發計畫綜合規劃報告書
+.
+桃園市政府
+(Report) (in Chinese (Taiwan)).
+Archived
+from the original on 22 December 2025
+. Retrieved
+14 November
+2025
+.
+↑
+"全系統旅運量統計"
+. 桃園大眾捷運股份有限公司. Archived from
+the original
+on 11 December 2017
+. Retrieved
+11 December
+2017
+.
+External links
+[
+edit
+]
+Wikimedia Commons has media related to
+Taoyuan Airport MRT
+.
+Taoyuan Metro Corporation
+Department of Transportation, Taoyuan
+show
+v
+t
+e
+Taoyuan Metro
+Airport line (
+Taoyuan Airport MRT
+)
+Stations
+Taipei Main Station
+; 250
+m:
+Sanchong
+Erchong
+New Taipei Industrial Park
+Xinzhuang Fuduxin
+Taishan
+Fu Jen University Hospital
+Taishan Guihe
+National Taiwan Sport University
+Chang Gung Memorial Hospital
+Linkou
+Shanbi
+Kengkou
+Airport Terminal 1
+Airport Terminal 2
+Airport Terminal 3
+Airport Hotel
+Dayuan
+Hengshan
+Linghang
+Taoyuan HSR station
+Taoyuan Sports Park
+Xingnan
+Huanbei
+Laojie River
+Zhongli railway station
+Rolling stock
+Commuter train
+Express train
+Depots
+Luzhu Depot
+[
+zh
+]
+Qingpu Depot
+[
+zh
+]
+show
+v
+t
+e
+Taoyuan Metro
+lines
+In operation
+Taoyuan Airport MRT
+Under construction
+Green line
+Under planning
+Brown line
+Orange line
+show
+v
+t
+e
+Urban rail transit in Taiwan
+Taipei Metro
+New Taipei Metro
+Taoyuan Metro
+Taichung MRT
+Kaohsiung Metro
+Wenhu line
+Tamsui–Xinyi line
+Songshan–Xindian line
+Zhonghe–Xinlu line
+Bannan line
+Danhai LRT
+Ankeng LRT
+Circular line
+Sanying line
+Taoyuan Airport MRT
+Green line
+Red line
+Orange line
+Circular light rail
+Chiayi BRT
+Smart cards
+EasyCard
+iPASS
+TaiwanMoney Card
+Rail transport in Taiwan
+show
+v
+t
+e
+Taoyuan International Airport
+Terminals
+Terminal 1
+Terminal 2
+Facilities and services
+CAL Park
+Chung Cheng Aviation Museum
+(closed)
+Novotel Taipei Taoyuan International Airport
+Taiwan Air Cargo Terminals Limited
+Taoyuan Aerotropolis
+Taoyuan International Airport Corporation
+Taoyuan International Airport Services Limited
+Taoyuan International Airport Skytrain
+Ground transportation
+Taoyuan Airport MRT
+T1
+T2
+Taoyuan HSR station
+Air hub
+for
+China Airlines
+EVA Air
+Mandarin Airlines
+Starlux Airlines
+Tigerair Taiwan
+Uni Air
+Related
+Taipei
+Taipei Songshan Airport
+Taoyuan Air Base
+Taoyuan City
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Taoyuan_Airport_MRT&oldid=1369964750
+"
+Categories
+:
+Taoyuan Airport MRT
+Rail transportation in Taipei
+750 V DC railway electrification
+Taoyuan Metro
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Use dmy dates from August 2025
+CS1 Chinese-language sources (zh)
+Articles containing Chinese-language text
+CS1 Chinese (Taiwan)-language sources (zh-tw)
+CS1 maint: deprecated archival service
+CS1 uses Chinese-language script (zh)
+CS1 Simplified Chinese-language sources (zh-hans)
+CS1 uses Japanese-language script (ja)
+CS1 Japanese-language sources (ja)
+CS1 maint: url-status
+All articles with dead external links
+Articles with dead external links from January 2018
+Articles with permanently dead external links
+Webarchive template wayback links
+Commons category link is on Wikidata
+This page was last edited on 18 August 2026, at 07:55
+(UTC)
+.
+Page was rendered with
+Parsoid
+.
+Text is available under the
+Creative Commons Attribution-ShareAlike 4.0 License
+;
+additional terms may apply. By using this site, you agree to the
+Terms of Use
+and
+Privacy Policy
+. Wikipedia® is a registered trademark of the
+Wikimedia Foundation, Inc.
+, a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Legal & safety contacts
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Edit preview settings
+Search
+Search
+Toggle the table of contents
+Taoyuan Airport MRT
+8 languages
+Add topic

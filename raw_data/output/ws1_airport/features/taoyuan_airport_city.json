@@ -5,22 +5,31 @@
     "country": "Đài Loan",
     "is_target": false,
     "airport_name": "Taiwan Taoyuan International Airport",
-    "reference_city": "Đào Viên – Đài Bắc",
+    "reference_city": "Đào Viên (Taoyuan) – vùng đại đô thị Đài Bắc (greater Taipei)",
     "official_website": "https://www.taoyuanairport.com.tw",
-    "positioning": "Aerotropolis",
-    "planning_concept": "comprising the “egg yolk zone” managed by the Ministry of Transportation (including runways and free trade zones) and the “egg white zone” overseen by the Taoyuan City Government (including specialized industrial areas and airport MRT station corridors).",
-    "cornerstones": null,
-    "subzones": [
-      "industry zone",
-      "free-trade zone",
-      "commercial zone",
-      "residence zone",
-      "Air Cargo Terminal",
-      "International Logistics Center",
-      "Value-Added Park"
-    ],
-    "area_km2": 45.64,
+    "location_desc": "Dự án nằm tại các quận Dayuan và Luzhu của thành phố Đào Viên (Taoyuan City), lấy sân bay quốc tế Đào Viên làm trung tâm, tổng diện tích quy hoạch đô thị 4.564 ha; gần cảng Taipei Port và kết nối cao tốc, đường sắt cao tốc, MRT sân bay.",
     "distance_to_city_km": null,
+    "area_km2": 45.64,
+    "airport_build_period": "1979-nay",
+    "urban_build_period": "2015-nay",
+    "founded_year": 1979,
+    "development_context": "Xuất phát từ nhu cầu xây đường băng thứ ba, dự án tái tổ chức sử dụng đất quanh sân bay nhằm nâng cao năng lực cạnh tranh của sân bay quốc tế Đào Viên, thúc đẩy phát triển tổng thể của Đào Viên và chuyển đổi công nghiệp – quốc tế hoá của Đài Loan; đồng thời là hợp phần then chốt của Golden Decade National Vision Plan và Economic Power-Up Plan của chính phủ.",
+    "positioning": "Aerotropolis (đô thị sân bay) lớn nhất Đài Liwan tính đến nay, lấy sân bay quốc tế Đào Viên làm trung tâm, phát triển theo 3 trọng tâm: smart airport (sân bay thông minh), smart city (đô thị thông minh) và smart industry (công nghiệp thông minh), ưu tiên ngành ít ô nhiễm, ít tiêu hao năng lượng/nước và giá trị gia tăng cao.",
+    "planning_concept": "Cấu trúc “lòng đỏ trứng” (egg yolk zone) do Bộ Giao thông và Truyền thông (MOTC) quản lý – gồm đường băng và các khu thương mại tự do – bao quanh bởi “lòng trắng trứng” (egg white zone) do chính quyền thành phố Đào Viên quản lý – gồm các khu công nghiệp chuyên biệt và hành lang các ga MRT sân bay.",
+    "cornerstones": [
+      "sân bay thông minh (smart airport)",
+      "đô thị thông minh (smart city)",
+      "công nghiệp thông minh (smart industry)"
+    ],
+    "subzones": [
+      "khu công nghiệp (industry zone)",
+      "khu thương mại tự do (free-trade zone)",
+      "khu thương mại (commercial zone)",
+      "khu dân cư (residence zone)",
+      "Air Cargo Terminal (nhà ga hàng hoá hàng không)",
+      "International Logistics Center (trung tâm logistics quốc tế)",
+      "Value-Added Park (khu gia tăng giá trị)"
+    ],
     "passengers_million": 47.8,
     "cargo_million_tonnes": 2.5,
     "air_movements": 262217,
@@ -33,288 +42,650 @@
     "num_companies_realestate": 34,
     "num_office_buildings": null,
     "jobs_created": 300000,
-    "founded_year": 1979,
-    "total_investment_usd": "Over NT$500 billion (US$17 billion)",
-    "development_context": "Over NT$500 billion (US$17 billion) will be invested in the aerotropolis to generate economic benefits exceeding NT$2.3 trillion (US$78 billion) and create over 300,000 jobs in the greater Taipei area, according to projections cited by the premier.",
-    "location_desc": "The project covers the Dayuan and Luzhu Districts of Taoyuan City, with a total urban planning area of 4,564 hectares.",
-    "investor_governance": "The Taoyuan Aerotropolis Engineering Office of the Civil Aviation Administration, MOTC is responsible for land expropriation and development across 1,756 hectares, including Taoyuan City Government’s Phase One development (1,190 hectares) and areas around the Navy base (566 hectares) delegated by the Civil Aeronautics Administration.",
-    "lead_developer": "Far Glory Aviation Free Trade Zone Co., Ltd.",
-    "economic_zone_name": "Taoyuan Aviation Free Trade Zone",
-    "economic_zone_year": 2006,
-    "commercial_re": [
-      "logistics",
-      "cargo",
-      "free trade zone",
-      "industrial",
-      "commercial",
-      "residential",
-      "warehouse"
+    "total_investment_usd": "Trên NT$500 tỷ (US$17 tỷ) đầu tư vào aerotropolis (theo Hành chính viện, 2013); riêng Hành chính viện công bố mức đầu tư NT$463 tỷ (US$15,75 tỷ)",
+    "investor_governance": "Mô hình nhà nước dẫn dắt đa cấp: Taoyuan Aerotropolis Engineering Office thuộc Civil Aviation Administration, MOTC chịu trách nhiệm thu hồi và phát triển 1.756 ha, gồm giai đoạn 1 của chính quyền TP Đào Viên (1.190 ha) và khu quanh căn cứ hải quân (566 ha) do Civil Aeronautics Administration uỷ quyền; Executive Yuan lập tổ công tác liên bộ (quy hoạch đô thị & thu hồi đất, phát triển – xây dựng, quy hoạch công nghiệp & xúc tiến đầu tư).",
+    "gov_led_ratio_pct": null,
+    "private_ratio_pct": null,
+    "lead_developer": "Taoyuan Aerotropolis Co., Ltd. (do Phó Thị trưởng Đào Viên Wang Ming-Jiuh làm Chủ tịch) cùng Taoyuan Aerotropolis Engineering Office của Civil Aviation Administration, MOTC và chính quyền TP Đào Viên",
+    "cvp_product": [
+      "khu công nghiệp (industry zone)",
+      "khu thương mại tự do (free-trade zone)",
+      "khu thương mại (commercial zone)",
+      "khu nhà ở (residence zone)",
+      "logistics/kho vận",
+      "Value-Added Park (khu gia tăng giá trị)"
     ],
-    "residential_product_desc": null,
+    "commercial_re": [
+      "bán lẻ",
+      "văn phòng",
+      "khách sạn",
+      "kho vận/logistics (nhà kho, kho ngoại quan)",
+      "nhà ga hàng hoá (air cargo terminal)"
+    ],
+    "economic_zone_name": "Taoyuan International Airport Free Trade Zone",
+    "economic_zone_year": null,
+    "residential_product_desc": "Nhà ở tái định cư trong Taoyuan Aerotropolis: 1.924 căn do chính quyền thành phố xây trên 4 vị trí gần các ga MRT A18, A11, G17 và khu vực sân bay, cùng 4.100 lô đất (allotment) dành cho người dân tự xây; nguyên tắc \"xây trước, di dời sau\" và \"tái định cư tại chỗ lân cận\".",
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
     "basic_amenities": [
-      "bike paths",
-      "park landscapes",
-      "waterfront plazas",
-      "community amenities"
+      "công viên và không gian xanh",
+      "đường quy hoạch (khoảng 197 km)",
+      "cầu vượt sông và vượt cao tốc",
+      "hệ thống thoát nước, xử lý nước thải và phòng chống ngập",
+      "hào kỹ thuật dùng chung (common utility tunnels)",
+      "tiện ích cộng đồng (community amenities)"
     ],
     "highlight_amenities": [
-      "smart streetlights",
-      "common utility tunnels",
-      "retention ponds"
+      "Taoyuan International Airport (Nhà ga T3 và Đường băng 3)",
+      "Hyatt Regency Taoyuan International Airport (khách sạn 360 phòng, cạnh trung tâm hội nghị)",
+      "hồ điều tiết phòng chống thiên tai (Disaster Prevention Retention Basin)"
     ],
-    "logistics_park_ha": 45.0,
-    "logistics_park_name": "Taoyuan Aviation Free Trade Zone (Air Cargo Park)",
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_product": [
-      "logistics",
-      "warehouse",
-      "Value-Added Park",
-      "industry zone",
-      "free-trade zone"
-    ],
-    "cvp_price": null,
+    "cvp_price": "Nhà nước thu hồi đất theo cơ chế thu hồi từng khu (zone expropriation) rồi đấu giá/chào bán lô đất công nghiệp cho doanh nghiệp; khu thương mại tự do vận hành theo mô hình BOT và cho thuê bất động sản/kho bãi (Farglory: cho thuê BĐS, cho thuê kho ngoại quan; quy hoạch tổng thể nêu nguồn thu tiền thuê đất).",
     "office_rent_eur_m2_year": null,
     "cvp_price_note": null,
+    "price_vs_reference": null,
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "Thu hồi đất theo khu (zone expropriation) do nhà nước thực hiện, sau đó đấu giá lô đất công nghiệp cho doanh nghiệp (lô cuối cùng đấu giá thành công cuối năm 2024); song song là cơ chế bồi thường bằng đất (land-for-compensation) và cấp lô tái định cư cho người dân tự xây; khu tự do thương mại theo hợp đồng BOT 50 năm.",
     "cvp_service": [
-      "In-Town Check-In",
-      "customs clearance",
-      "BIM",
-      "GIS",
-      "IoT"
+      "In-Town Check-In (làm thủ tục bay tại ga A1, A3)",
+      "thông quan hàng hoá (customs clearance)",
+      "dịch vụ logistics gia tăng giá trị, phân phối và chuyển phát",
+      "cửa sổ một cửa (One-Stop Window) hỗ trợ đầu tư",
+      "nền tảng kết nối vốn vay \"Taoyuan Aerotropolis Financing and Loan Matchmaking Platform\" với 14 ngân hàng trong nước",
+      "Resettlement Housing Service Center (tư vấn nhà tái định cư, tự xây, tài chính)"
     ],
+    "airport_privilege": "Dịch vụ In-Town Check-In trên Taoyuan Airport MRT: hành khách có thể ký gửi hành lý, chọn chỗ ngồi và lấy thẻ lên máy bay ngay tại ga A1 Taipei Main Station và A3 New Taipei Industrial Park (hoàn tất trước giờ bay 3 tiếng trong cùng ngày); sân bay miễn phí vào các ga MRT A12, A13, A14a.",
+    "has_airport_privilege": true,
+    "smart_city": "Dự án lấy ba trọng tâm \"smart airport – smart city – smart industry\" (sân bay thông minh, đô thị thông minh, công nghiệp thông minh); ứng dụng công nghệ sinh hoạt thông minh và băng rộng thông minh thế hệ 4 (4G) do MOEA cùng chính quyền Đào Viên phát triển để nâng cao quản trị đô thị, hướng tới thành phố xanh – thông minh; khu thương mại tự do đã lắp hệ thống mạng số (cáp quang, truyền thông vô tuyến), thẻ ID điện tử ra vào và dự kiến lập trung tâm dữ liệu; quản trị thông minh cùng năng lượng xanh, giao thông tự hành, tái chế rác thải và hệ thống trung hoà carbon.",
+    "has_smart_city": true,
     "cvp_experience": [
-      "recreational corridors",
-      "bike paths",
-      "waterfront plazas",
-      "park"
+      "công viên và không gian xanh mới",
+      "khách sạn sân bay với nhà hàng, trung tâm giải trí và thể hình, spa",
+      "trung tâm hội nghị – triển lãm (Taoyuan Convention and Exhibition Center)",
+      "hồ điều tiết/không gian mặt nước phòng chống thiên tai"
     ],
+    "experience_desc": "Quy hoạch hướng tới \"đô thị nơi người ta chọn ở lại, làm việc, sinh sống và phát triển\" chứ không chỉ là điểm trung chuyển; nhấn mạnh cộng sinh giữa cư dân và công nghiệp, lồng ghép tư duy xanh – bền vững vào lối sống Aerotropolis, gắn với di sản văn hoá, sinh thái tự nhiên và bản sắc địa phương.",
     "cvp_convenience": [
-      "From Taipei Main Station to Taiwan Taoyuan International Airport Terminal 1 Station, it only takes 35 minutes by Express Train, and takes 39 minutes to Terminal 2 Station.",
-      "It is only 8 km from Sun Yat-Sen freeway to the Park"
+      "Taoyuan Airport MRT: Taipei Main Station – Nhà ga 1 chỉ 35 phút bằng tàu nhanh, 39 phút tới Nhà ga 2",
+      "Taoyuan HSR Station – Nhà ga 1 chỉ 19 phút",
+      "tàu thường (Commuter Train) 82 phút từ Taipei Main Station tới Huanbei; tàu nhanh 15–30 phút/chuyến",
+      "gần Taipei Port, kết nối logistics đường biển",
+      "mạng lưới cao tốc (National Freeway 1, National Freeway 2) và đường sắt cao tốc"
     ],
+    "connectivity_desc": "Là thành phố cửa ngõ của Đài Loan, Đào Viên có vị trí chiến lược cho logistics quốc tế và là đầu mối kết nối các thành phố khu vực châu Á – Thái Bình Dương; sân bay hưởng lợi từ năng lực logistics đường biển nhờ gần Taipei Port, cùng mạng lưới giao thông đồng bộ gồm cao tốc, đường sắt cao tốc và hệ thống Taoyuan Airport MRT.",
+    "connection_modes": [
+      "metro (Taoyuan Airport MRT, Green line)",
+      "đường sắt cao tốc (Taiwan High Speed Rail)",
+      "đường sắt thường (Taiwan Railways)",
+      "cao tốc/đường bộ (National Freeway 1, National Freeway 2)",
+      "cảng biển (Taipei Port)",
+      "Skytrain nội sân bay (Taoyuan Airport Skytrain)"
+    ],
+    "metro_lines": 2,
     "rail_connections": [
-      "from A1~A12 takes 35 minutes",
-      "from A1~A12 takes 49 minutes and from A1~A21 takes 82 minutes"
+      "Taoyuan Airport MRT (tuyến sân bay, ga A12 Airport Terminal 1, A13 Airport Terminal 2, A14a Airport Hotel)",
+      "Green line (tuyến Xanh, Taoyuan Metro) đang xây dựng",
+      "Taiwan High Speed Rail (Taoyuan HSR station)",
+      "Taiwan Railways (Western Trunk line, Zhongli Railway Station)",
+      "Taoyuan Airport Skytrain nối Nhà ga 1 và Nhà ga 2"
     ],
     "cvp_brand": [
-      "Taoyuan Aerotropolis",
-      "Far Glory",
+      "Taoyuan City Government",
+      "Ministry of Transportation and Communications (MOTC)",
+      "Civil Aeronautics Administration / Civil Aviation Administration (CAA)",
+      "Taoyuan Aerotropolis Co., Ltd.",
+      "Taoyuan International Airport Corporation (TIAC)",
       "AECOM",
-      "Taoyuan Metro"
+      "Taoyuan Metro Corporation"
     ],
-    "vision_label": null,
-    "vision_qualities": null,
-    "aviation_policy": null,
-    "smart_city": "The project integrates BIM (Building Information Modeling), GIS (Geographic Information System), and IoT (Internet of Things) technologies for underground utility management, facilitating water level monitoring, remote control systems, smart road inspection systems, and intelligent bus shelters.",
+    "brand_desc": "Được định vị là kế hoạch phát triển lớn nhất từ trước tới nay của Đài Loan và là dự án hạ tầng quan trọng nhất kể từ Mười công trình lớn thập niên 1970, lấy Taoyuan International Airport làm trung tâm với Nhà ga 3 và Đường băng 3; thương hiệu xây trên ba trọng tâm smart airport – smart city – smart industry, ưu tiên các ngành ít ô nhiễm, ít tiêu hao năng lượng, ít dùng nước và giá trị gia tăng cao, biến Đào Viên thành \"thủ đô cửa ngõ\" của Đài Loan.",
+    "brand_partners": [
+      "STARLUX Airlines",
+      "Gogoro (Gogoro Taiwan Limited)",
+      "Acer Group",
+      "Antung Trading",
+      "ASML Taiwan",
+      "DHL Supply Chain (Taiwan)",
+      "Nippon Express NEC Logistics Taiwan",
+      "Kintetsu World Express (Taiwan)",
+      "FARGLORY LOGISTICS",
+      "KLA-Tencor",
+      "AECOM",
+      "National Tsing Hua University",
+      "National Yang Ming Chiao Tung University",
+      "National Taiwan Ocean University"
+    ],
+    "vision_label": "Taoyuan Aerotropolis (Taoyuan Aerotropolis Core Plan / 桃園航空城核心計畫)",
+    "vision_qualities": [
+      "smart airport (sân bay thông minh)",
+      "smart city (đô thị thông minh)",
+      "smart industry (công nghiệp thông minh)",
+      "chất lượng sống",
+      "bền vững môi trường",
+      "quản trị thông minh",
+      "cộng sinh giữa cư dân và công nghiệp"
+    ],
+    "aviation_policy": "Taoyuan Aerotropolis Project (Kế hoạch lõi Aerotropolis do CAA/MOTC chủ trì cùng quy hoạch đô thị của Taoyuan City Government), là cấu phần then chốt của Golden Decade National Vision Plan và Economic Power-Up Plan; gắn với chương trình Free Economic Pilot Zones (FEPZs) và cơ chế Free Trade Zone; Executive Yuan lập tổ công tác liên bộ để điều phối.",
     "sustainability": [
-      "recycled materials",
-      "circular economy",
-      "carbon emissions",
-      "retention ponds",
-      "smart streetlights"
+      "đường sử dụng vật liệu tái chế (Roads Using Recycled Materials)",
+      "hồ điều tiết phòng chống thiên tai (Disaster Prevention Retention Basin)",
+      "năng lượng xanh",
+      "giao thông tự hành",
+      "tái chế chất thải",
+      "hệ thống trung hoà carbon giúp doanh nghiệp thực hành ESG tại chỗ",
+      "định hướng thành phố xanh – thông minh (smart green city)",
+      "bảo tồn di sản văn hoá và sinh thái tự nhiên trong quy hoạch"
     ],
-    "_pages_used": 18
+    "logistics_park_name": "Taoyuan Aviation Free Trade Zone (Air Cargo Park) / Farglory Free Trade Zone",
+    "logistics_park_ha": 45.0,
+    "trade_park_name": "Taoyuan International Airport Free Trade Zone",
+    "trade_park_ha": 34.85
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "high",
+      "snippet": "Táoyuán Hángkōng Chéng ) is a large urban planning development at the Taiwan Taoyuan International Airport",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
+      "source_file": "pages/07_wikipedia_taoyuan_aerotropolis.txt",
+      "source_name": "Wikipedia – Taoyuan Aerotropolis"
     },
-    "planning_concept": {
+    "aerotropolis": {
+      "confidence": "high",
+      "snippet": "Soaring High, Taoyuan Takes Off: Aerotropolis Development Project",
+      "source": "S02",
       "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
-      "snippet": "comprising the “egg yolk zone” managed by the Ministry of Transportation (including runways and free trade zones) and the “egg white zone” overseen by the Taoyu",
-      "confidence": "high"
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
     },
-    "subzones": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
-        "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
-        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
-      ],
-      "confidence": "high"
-    },
-    "area_km2": {
-      "unit": "km²",
+    "country": {
+      "confidence": "high",
+      "snippet": "As Taiwan’s gateway city, Taoyuan International Airport occupies a strategic location for international logistics",
+      "source": "S02",
       "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
-      "snippet": "total urban planning area of 4,564 hectares",
-      "confidence": "high"
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
     },
-    "passengers_million": {
-      "unit": "triệu/năm",
-      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
-      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
-      "snippet": "Number of passengers 47,795,969",
-      "confidence": "high"
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm",
-      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
-      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
-      "snippet": "Airfreight movements 2,499,898.5 tonnes",
-      "confidence": "high"
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "is a large urban planning development at the Taiwan Taoyuan International Airport",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
+      "source_file": "pages/07_wikipedia_taoyuan_aerotropolis.txt",
+      "source_name": "Wikipedia – Taoyuan Aerotropolis"
     },
-    "air_movements": {
-      "unit": "lượt/năm",
-      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
-      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
-      "snippet": "Aircraft movements 262,217",
-      "confidence": "high"
-    },
-    "num_companies_realestate": {
-      "unit": "doanh nghiệp",
-      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
-      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
-      "snippet": "there are 34 Free Trade Zone enterprises",
-      "confidence": "high"
-    },
-    "jobs_created": {
-      "unit": "việc làm",
+    "reference_city": {
+      "confidence": "medium",
+      "snippet": "create over 300,000 jobs in the greater Taipei area, according to projections cited by the premier.",
+      "source": "S09",
       "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
-      "source_file": "09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
-      "snippet": "create over 300,000 jobs",
-      "confidence": "high"
+      "source_file": "pages/09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
+      "source_name": "Executive Yuan – Taoyuan Aerotropolis, hạ tầng lớn nhất từ thập niên 1970"
     },
-    "founded_year": {
-      "unit": "năm",
-      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
-      "source_file": "08_wikipedia_taoyuan_international_airport.txt",
-      "snippet": "airport opened for commercial operations in 1979",
-      "confidence": "high"
-    },
-    "total_investment_usd": {
-      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
-      "source_file": "09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
-      "snippet": "Over NT$500 billion (US$17 billion)",
-      "confidence": "high"
-    },
-    "development_context": {
-      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
-      "source_file": "09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
-      "snippet": "Over NT$500 billion (US$17 billion) will be invested in the aerotropolis to generate economic benefits exceeding NT$2.3 trillion (US$78 billion) and create over",
-      "confidence": "high"
+    "official_website": {
+      "confidence": "medium",
+      "snippet": "url: https://www.taoyuanairport.com.tw/passengervolume?lang=en",
+      "source": "S04",
+      "source_url": "https://www.taoyuanairport.com.tw/passengervolume?lang=en",
+      "source_file": "pages/04_taoyuan_airport_passenger_volume.txt",
+      "source_name": "Taoyuan Airport – Passenger Volume"
     },
     "location_desc": {
-      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "confidence": "high",
       "snippet": "The project covers the Dayuan and Luzhu Districts of Taoyuan City, with a total urban planning area of 4,564 hectares.",
-      "confidence": "high"
+      "source": "S02",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
+    },
+    "area_km2": {
+      "confidence": "high",
+      "snippet": "The project covers the Dayuan and Luzhu Districts of Taoyuan City, with a total urban planning area of 4,564 hectares.",
+      "source": "S02",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
+    },
+    "airport_build_period": {
+      "confidence": "medium",
+      "snippet": "terminal, along with the airport, opened in 1979 to relieve the overcrowded Taipei Songshan Airport.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "urban_build_period": {
+      "confidence": "medium",
+      "snippet": "The Executive Yuan today held a meeting to discuss progress on the Taoyuan Aerotropolis development project, which has entered the zone expropriation stage",
+      "source": "S16",
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/cb53cf90-b925-4e17-a674-dd26d795f3df",
+      "source_file": "pages/16_executive_yuan_taoyuan_aerotropolis_plans_moving_f.txt",
+      "source_name": "Executive Yuan – Taoyuan Aerotropolis plans moving forward"
+    },
+    "founded_year": {
+      "confidence": "high",
+      "snippet": "terminal, along with the airport, opened in 1979 to relieve the overcrowded Taipei Songshan Airport.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "development_context": {
+      "confidence": "high",
+      "snippet": "In response to the need for a third runway, the “Taoyuan Aerotropolis Project” aims to reorganize land use around the airport to enhance Taoyuan International Airport’s competitiveness",
+      "source": "S02",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
+    },
+    "positioning": {
+      "confidence": "high",
+      "snippet": "With the 3 major focuses of smart airport, smart city, and smart industry, Taoyuan Aerotropolis will create a spillover effect that will attract investment and expand Taoyuan's strengths as an airport city.",
+      "source": "S24",
+      "source_url": "https://invest.tycg.gov.tw/invest-en/cp.aspx?n=3697",
+      "source_file": "pages/24_taoyuan_city_investment_service_center_taoyuan_aer.txt",
+      "source_name": "Taoyuan City Investment Service Center – Taoyuan Aerotropolis"
+    },
+    "planning_concept": {
+      "confidence": "high",
+      "snippet": "comprising the “egg yolk zone” managed by the Ministry of Transportation (including runways and free trade zones) and the “egg white zone” overseen by the Taoyuan City Government",
+      "source": "S02",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
+    },
+    "cornerstones": {
+      "confidence": "high",
+      "snippet": "With the 3 major focuses of smart airport, smart city, and smart industry, Taoyuan Aerotropolis will create a spillover effect",
+      "source": "S24",
+      "source_url": "https://invest.tycg.gov.tw/invest-en/cp.aspx?n=3697",
+      "source_file": "pages/24_taoyuan_city_investment_service_center_taoyuan_aer.txt",
+      "source_name": "Taoyuan City Investment Service Center – Taoyuan Aerotropolis"
+    },
+    "subzones": {
+      "confidence": "high",
+      "snippet": "Taoyuan Aerotropolis Project plans to construct a large-scale industry zone, free-trade zone, commercial zone, and residence zone.",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
+      "source_file": "pages/07_wikipedia_taoyuan_aerotropolis.txt",
+      "source_name": "Wikipedia – Taoyuan Aerotropolis"
+    },
+    "passengers_million": {
+      "confidence": "high",
+      "snippet": "Statistics (2025) Number of passengers 47,795,969 6.40%",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "cargo_million_tonnes": {
+      "confidence": "high",
+      "snippet": "Airfreight movements 2,499,898.5 tonnes 10.08%",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "air_movements": {
+      "confidence": "high",
+      "snippet": "Aircraft movements 262,217 5.77%",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "num_companies_realestate": {
+      "confidence": "medium",
+      "snippet": "As of the first quarter of 2026, there are 34 Free Trade Zone enterprises mover into the Value Added Zone (please see http://www.ftz.com.tw/port//). The leasing rate of Value Added Zone is 95.91%.",
+      "source": "S10",
+      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
+      "source_file": "pages/10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
+      "source_name": "CAA MOTC – Taoyuan Aviation Free Trade Zone"
+    },
+    "jobs_created": {
+      "confidence": "medium",
+      "snippet": "Over NT$500 billion (US$17 billion) will be invested in the aerotropolis to generate economic benefits exceeding NT$2.3 trillion (US$78 billion) and create over 300,000 jobs in the greater Taipei area",
+      "source": "S09",
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
+      "source_file": "pages/09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
+      "source_name": "Executive Yuan – Taoyuan Aerotropolis, hạ tầng lớn nhất từ thập niên 1970"
+    },
+    "total_investment_usd": {
+      "confidence": "high",
+      "snippet": "Over NT$500 billion (US$17 billion) will be invested in the aerotropolis to generate economic benefits exceeding NT$2.3 trillion (US$78 billion)",
+      "source": "S09",
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/7d0b8333-f713-4d3d-a7c6-9fc60d7b28f9",
+      "source_file": "pages/09_executive_yuan_taoyuan_aerotropolis_h_t_ng_l_n_nh_.txt",
+      "source_name": "Executive Yuan – Taoyuan Aerotropolis, hạ tầng lớn nhất từ thập niên 1970"
     },
     "investor_governance": {
+      "confidence": "high",
+      "snippet": "The Taoyuan Aerotropolis Engineering Office of the Civil Aviation Administration, MOTC is responsible for land expropriation and development across 1,756 hectares",
+      "source": "S02",
       "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
-      "snippet": "The Taoyuan Aerotropolis Engineering Office of the Civil Aviation Administration, MOTC is responsible for land expropriation and development across 1,756 hectar",
-      "confidence": "high"
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
     },
     "lead_developer": {
-      "source_url": "https://www.taiwan-ftz.com/ftzweb/en/ports/taoyuan",
-      "source_file": "11_taiwan_ftz_taoyuan_international_airport_free_trad.txt",
-      "snippet": "Far Glory Aviation Free Trade Zone Co., Ltd.",
-      "confidence": "high"
-    },
-    "economic_zone_name": {
-      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
-      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
-      "snippet": "Taoyuan Aviation Free Trade Zone",
-      "confidence": "high"
-    },
-    "economic_zone_year": {
-      "unit": "năm",
-      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
-      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
-      "snippet": "has started to operation on January 1, 2006",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
-        "https://www.taoyuanairport.com.tw/passengervolume?lang=en"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
-      ],
-      "confidence": "high"
-    },
-    "logistics_park_ha": {
-      "unit": "ha",
-      "source_url": "https://www.caa.gov.tw/Article.aspx?a=528&lang=2",
-      "source_file": "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
-      "snippet": "is 45 hectares in area",
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Taoyuan Deputy Mayor and Taoyuan Aerotropolis Co., Ltd. Chairman Wang Ming-Jiuh noted that as of early 2025, investment attraction for the seven priority industrial sites has reached nearly 80%",
+      "source": "S17",
+      "source_url": "https://english.cw.com.tw/article/article.action?id=4467",
+      "source_file": "pages/17_commonwealth_taoyuan_aerotropolis_t_c_ng_giao_th_n.txt",
+      "source_name": "CommonWealth – Taoyuan Aerotropolis: từ cổng giao thông đến smart city"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Taoyuan Aerotropolis Project plans to construct a large-scale industry zone, free-trade zone, commercial zone, and residence zone.",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_Aerotropolis",
+      "source_file": "pages/07_wikipedia_taoyuan_aerotropolis.txt",
+      "source_name": "Wikipedia – Taoyuan Aerotropolis"
+    },
+    "commercial_re": {
+      "confidence": "medium",
+      "snippet": "Redevelopment of the\n47 hectares (116 acres)\narea will consist of retail, office, and hotel components.",
+      "source": "S30",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_Airport_MRT",
+      "source_file": "pages/30_wikipedia_taoyuan_airport_mrt.txt",
+      "source_name": "Wikipedia – Taoyuan Airport MRT"
+    },
+    "economic_zone_name": {
+      "confidence": "high",
+      "snippet": "Taoyuan International Airport Free Trade Zone covers an area of 34.85 hectares at the northern edge of the Airport",
+      "source": "S11",
+      "source_url": "https://www.taiwan-ftz.com/ftzweb/en/ports/taoyuan",
+      "source_file": "pages/11_taiwan_ftz_taoyuan_international_airport_free_trad.txt",
+      "source_name": "Taiwan FTZ – Taoyuan International Airport Free Trade Zone"
+    },
+    "residential_product_desc": {
+      "confidence": "high",
+      "snippet": "In addition to reserving 4,100 units of resettlement blocks (allotments) for people to build their own housing, the City Government has also contracted out the resettling housing project, and will build 1,924 houses on four sites near the MRT A18, A11, G17 and the airport area",
+      "source": "S25",
+      "source_url": "https://eng.tycg.gov.tw/Photo_News_Content.aspx?n=933&sms=8201&s=497337",
+      "source_file": "pages/25_taoyuan_city_gov_en_1_924_c_n_nh_t_i_nh_c_aerotrop.txt",
+      "source_name": "Taoyuan City Gov (EN) – 1.924 căn nhà tái định cư Aerotropolis"
+    },
+    "basic_amenities": {
+      "confidence": "high",
+      "snippet": "developing approximately 197 kilometers of planned roads, constructing multiple bridges over rivers and highways, implementing land leveling projects, creating parks and green spaces, and carrying out flood control, drainage, sewage, and utility conduit projects",
+      "source": "S18",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21388&s=1412467",
+      "source_file": "pages/18_taoyuan_city_gov_sdgs_ph_ng_v_n_chuy_n_s_u_d_n_aer.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Phỏng vấn chuyên sâu dự án Aerotropolis"
+    },
+    "highlight_amenities": {
+      "confidence": "medium",
+      "snippet": "Located adjacent to the convention center is the\nHyatt Regency Taoyuan International Airport\n. The 360-room hotel is equipped with restaurants, recreation and fitness centers, and a hair salon and spa.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "cvp_price": {
+      "confidence": "medium",
+      "snippet": "Our current core businesses\nReal Estate Leasing\nWarehousing & Machinery Installation\nBonded warehouse rental",
+      "source": "S28",
+      "source_url": "https://www.ftz.com.tw/en/about/",
+      "source_file": "pages/28_farglory_free_trade_zone_about_us.txt",
+      "source_name": "Farglory Free Trade Zone – About us"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "investment attraction for the seven priority industrial sites has reached nearly 80%, with the final parcel of land successfully auctioned off at the end of 2024",
+      "source": "S17",
+      "source_url": "https://english.cw.com.tw/article/article.action?id=4467",
+      "source_file": "pages/17_commonwealth_taoyuan_aerotropolis_t_c_ng_giao_th_n.txt",
+      "source_name": "CommonWealth – Taoyuan Aerotropolis: từ cổng giao thông đến smart city"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-        "https://travel.tycg.gov.tw/en/traffic/airportmrt",
-        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "the municipal government has signed MOUs and jointly formed the \"Taoyuan Aerotropolis Financing and Loan Matchmaking Platform\" with 14 domestic banks.",
+      "source": "S24",
+      "source_url": "https://invest.tycg.gov.tw/invest-en/cp.aspx?n=3697",
+      "source_file": "pages/24_taoyuan_city_investment_service_center_taoyuan_aer.txt",
+      "source_name": "Taoyuan City Investment Service Center – Taoyuan Aerotropolis"
     },
-    "cvp_experience": {
-      "source_urls": [
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
-      ],
-      "confidence": "high"
+    "airport_privilege": {
+      "confidence": "high",
+      "snippet": "In-Town Check-In(A1、A3)\nPassengers can check-in their luggage, choose their seat, and obtain their boarding pass at as early as the A1 Taipei Main Station and A3 New Taipei Industrial Park Station.",
+      "source": "S14",
+      "source_url": "https://www.tymetro.com.tw/tymetro-new/en/index.php",
+      "source_file": "pages/14_taoyuan_metro_trang_ch_nh_en.txt",
+      "source_name": "Taoyuan Metro – Trang chính (EN)"
     },
-    "cvp_convenience": {
-      "source_urls": [
-        "https://travel.tycg.gov.tw/en/traffic/airportmrt",
-        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
-      ],
-      "source_files": [
-        "10_caa_motc_taoyuan_aviation_free_trade_zone.txt",
-        "12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt"
-      ],
-      "confidence": "high"
-    },
-    "rail_connections": {
-      "source_urls": [
-        "https://travel.tycg.gov.tw/en/traffic/airportmrt"
-      ],
-      "source_files": [
-        "12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt"
-      ],
-      "confidence": "high"
-    },
-    "cvp_brand": {
-      "source_urls": [
-        "https://aecom.com/projects/taoyuan-aerotropolis-development/",
-        "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-        "https://www.caa.gov.tw/Article.aspx?a=528&lang=2"
-      ],
-      "confidence": "high"
+    "has_airport_privilege": {
+      "confidence": "high",
+      "snippet": "Passengers must complete the In-town Check-in Services 3 hours before flight departure on the same day.",
+      "source": "S12",
+      "source_url": "https://travel.tycg.gov.tw/en/traffic/airportmrt",
+      "source_file": "pages/12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt",
+      "source_name": "Taoyuan Tourism (chính quyền TP) – Airport MRT"
     },
     "smart_city": {
+      "confidence": "high",
+      "snippet": "Smart living technologies will also be used to make the Taoyuan Aerotropolis a smart green city. The Ministry of Economic Affairs (MOEA) and Taoyuan County are developing fourth-generation (4G) smart broadband applications",
+      "source": "S16",
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/cb53cf90-b925-4e17-a674-dd26d795f3df",
+      "source_file": "pages/16_executive_yuan_taoyuan_aerotropolis_plans_moving_f.txt",
+      "source_name": "Executive Yuan – Taoyuan Aerotropolis plans moving forward"
+    },
+    "has_smart_city": {
+      "confidence": "high",
+      "snippet": "With the 3 major focuses of smart airport, smart city, and smart industry, Taoyuan Aerotropolis will create a spillover effect that will attract investment",
+      "source": "S24",
+      "source_url": "https://invest.tycg.gov.tw/invest-en/cp.aspx?n=3697",
+      "source_file": "pages/24_taoyuan_city_investment_service_center_taoyuan_aer.txt",
+      "source_name": "Taoyuan City Investment Service Center – Taoyuan Aerotropolis"
+    },
+    "cvp_experience": {
+      "confidence": "medium",
+      "snippet": "The project encompasses the construction of planned roads, common utility tunnels, bridges, and new parks.",
+      "source": "S02",
       "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
-      "source_file": "02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
-      "snippet": "The project integrates BIM (Building Information Modeling), GIS (Geographic Information System), and IoT (Internet of Things) technologies for underground utili",
-      "confidence": "high"
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "considerations were also given to cultural heritage, natural ecology, and local characteristics, aiming to embed green and sustainable thinking into the Aerotropolis lifestyle while fostering economic growth",
+      "source": "S18",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21388&s=1412467",
+      "source_file": "pages/18_taoyuan_city_gov_sdgs_ph_ng_v_n_chuy_n_s_u_d_n_aer.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Phỏng vấn chuyên sâu dự án Aerotropolis"
+    },
+    "cvp_convenience": {
+      "confidence": "high",
+      "snippet": "From Taipei Main Station to Taiwan Taoyuan International Airport Terminal 1 Station, it only takes 35 minutes by Express Train, and takes 39 minutes to Terminal 2 Station.",
+      "source": "S12",
+      "source_url": "https://travel.tycg.gov.tw/en/traffic/airportmrt",
+      "source_file": "pages/12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt",
+      "source_name": "Taoyuan Tourism (chính quyền TP) – Airport MRT"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "The airport benefits from extensive maritime logistics capabilities due to its proximity to Taipei Port, along with comprehensive transportation networks including highways, high-speed rail, and airport MRT systems.",
+      "source": "S02",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605",
+      "source_file": "pages/02_taoyuan_city_gov_sdgs_aerotropolis_development_pro.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Aerotropolis Development Project"
+    },
+    "connection_modes": {
+      "confidence": "high",
+      "snippet": "Taoyuan Airport MRT connects Taiwan Railways, High Speed Rail and Taipei Metro.",
+      "source": "S12",
+      "source_url": "https://travel.tycg.gov.tw/en/traffic/airportmrt",
+      "source_file": "pages/12_taoyuan_tourism_ch_nh_quy_n_tp_airport_mrt.txt",
+      "source_name": "Taoyuan Tourism (chính quyền TP) – Airport MRT"
+    },
+    "metro_lines": {
+      "confidence": "medium",
+      "snippet": "Taoyuan Metro\nlines\nIn operation\nTaoyuan Airport MRT\nUnder construction\nGreen line",
+      "source": "S31",
+      "source_url": "https://en.wikipedia.org/wiki/Green_line_(Taoyuan_Metro)",
+      "source_file": "pages/31_wikipedia_green_line_taoyuan_metro_c_n_g_i_aerotro.txt",
+      "source_name": "Wikipedia – Green line (Taoyuan Metro), còn gọi Aerotropolis line"
+    },
+    "rail_connections": {
+      "confidence": "high",
+      "snippet": "The Airport offers free admission to Taoyuan Airport MRT stations A12 (\nAirport Terminal 1\n), A13 (\nAirport Terminal 2\n), and A14a (\nAirport Hotel",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Taoyuan_International_Airport",
+      "source_file": "pages/08_wikipedia_taoyuan_international_airport.txt",
+      "source_name": "Wikipedia – Taoyuan International Airport"
+    },
+    "cvp_brand": {
+      "confidence": "high",
+      "snippet": "The Taoyuan Aerotropolis Project is a collaborative effort between the Ministry of Transportation and Communications and the Taoyuan City Government, with each party responsible for specific areas of work.",
+      "source": "S18",
+      "source_url": "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21388&s=1412467",
+      "source_file": "pages/18_taoyuan_city_gov_sdgs_ph_ng_v_n_chuy_n_s_u_d_n_aer.txt",
+      "source_name": "Taoyuan City Gov (SDGs) – Phỏng vấn chuyên sâu dự án Aerotropolis"
+    },
+    "brand_desc": {
+      "confidence": "high",
+      "snippet": "Taoyuan Aerotropolis is Taiwan's largest-ever development plan. Centered around Taoyuan International Airport (TIA) and with the addition of Terminal 3 and Runway 3",
+      "source": "S24",
+      "source_url": "https://invest.tycg.gov.tw/invest-en/cp.aspx?n=3697",
+      "source_file": "pages/24_taoyuan_city_investment_service_center_taoyuan_aer.txt",
+      "source_name": "Taoyuan City Investment Service Center – Taoyuan Aerotropolis"
+    },
+    "brand_partners": {
+      "confidence": "high",
+      "snippet": "The Taoyuan City Government has signed MOUs with STARLUX Airlines, Gogoro (Gogoro Taiwan Limited), Acer Group, and Antung Trading.",
+      "source": "S24",
+      "source_url": "https://invest.tycg.gov.tw/invest-en/cp.aspx?n=3697",
+      "source_file": "pages/24_taoyuan_city_investment_service_center_taoyuan_aer.txt",
+      "source_name": "Taoyuan City Investment Service Center – Taoyuan Aerotropolis"
+    },
+    "vision_label": {
+      "confidence": "medium",
+      "snippet": "桃園航空城核心計畫",
+      "source": "S22",
+      "source_url": "https://airport-city.caa.gov.tw/",
+      "source_file": "pages/22_c_c_h_ng_kh_ng_d_n_d_ng_taoyuan_aerotropolis_core_.txt",
+      "source_name": "Cục Hàng không Dân dụng – Taoyuan Aerotropolis Core Plan"
+    },
+    "vision_qualities": {
+      "confidence": "high",
+      "snippet": "\"We envision the Aerotropolis not just as an industrial park, but as a city that combines quality of life, environmental sustainability, and smart governance,\" Wang added.",
+      "source": "S17",
+      "source_url": "https://english.cw.com.tw/article/article.action?id=4467",
+      "source_file": "pages/17_commonwealth_taoyuan_aerotropolis_t_c_ng_giao_th_n.txt",
+      "source_name": "CommonWealth – Taoyuan Aerotropolis: từ cổng giao thông đến smart city"
+    },
+    "aviation_policy": {
+      "confidence": "high",
+      "snippet": "Vice Premier Jiang Yi-huah said the project is a key component of the government's Golden Decade National Vision Plan and the recently-unveiled Economic Power-Up Plan.",
+      "source": "S19",
+      "source_url": "https://english.ey.gov.tw/Page/61BF20C3E89B856/f9b32292-4cc4-4a3a-b3e4-3563b3dbbda0",
+      "source_file": "pages/19_executive_yuan_taoyuan_aerotropolis_d_n_d_t_c_t_c_.txt",
+      "source_name": "Executive Yuan – Taoyuan Aerotropolis dẫn dắt cất cánh kinh tế"
     },
     "sustainability": {
-      "source_urls": [
-        "https://sdgs.tycg.gov.tw/en/News_Content.aspx?n=21387&s=1409605"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Green energy, autonomous transport, waste recycling, and carbon neutrality systems are also being introduced to enable enterprises to practice ESG on site.",
+      "source": "S17",
+      "source_url": "https://english.cw.com.tw/article/article.action?id=4467",
+      "source_file": "pages/17_commonwealth_taoyuan_aerotropolis_t_c_ng_giao_th_n.txt",
+      "source_name": "CommonWealth – Taoyuan Aerotropolis: từ cổng giao thông đến smart city"
+    },
+    "logistics_park_name": {
+      "confidence": "high",
+      "snippet": "In 2003, Farglory officially obtained the right to a 50-year development and operation under the Build-Operate-Transfer (BOT) Scheme, from where the “Farglory Free Trade Zone” took off.",
+      "source": "S28",
+      "source_url": "https://www.ftz.com.tw/en/about/",
+      "source_file": "pages/28_farglory_free_trade_zone_about_us.txt",
+      "source_name": "Farglory Free Trade Zone – About us"
+    },
+    "logistics_park_ha": {
+      "confidence": "high",
+      "snippet": "The Farglory Free Trade Zone stretches over 45 hectares, and is the first air cargo park cum free trade zone set “within national territory but outside customs jurisdiction” in Taiwan.",
+      "source": "S28",
+      "source_url": "https://www.ftz.com.tw/en/about/",
+      "source_file": "pages/28_farglory_free_trade_zone_about_us.txt",
+      "source_name": "Farglory Free Trade Zone – About us"
+    },
+    "trade_park_name": {
+      "confidence": "high",
+      "snippet": "Taoyuan International Airport Free Trade Zone covers an area of 34.85 hectares at the northern edge of the Airport",
+      "source": "S11",
+      "source_url": "https://www.taiwan-ftz.com/ftzweb/en/ports/taoyuan",
+      "source_file": "pages/11_taiwan_ftz_taoyuan_international_airport_free_trad.txt",
+      "source_name": "Taiwan FTZ – Taoyuan International Airport Free Trade Zone"
+    },
+    "trade_park_ha": {
+      "confidence": "high",
+      "snippet": "Taoyuan International Airport Free Trade Zone covers an area of 34.85 hectares at the northern edge of the Airport",
+      "source": "S11",
+      "source_url": "https://www.taiwan-ftz.com/ftzweb/en/ports/taoyuan",
+      "source_file": "pages/11_taiwan_ftz_taoyuan_international_airport_free_trad.txt",
+      "source_name": "Taiwan FTZ – Taoyuan International Airport Free Trade Zone"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu chỉ nêu thời gian đi MRT (35 phút từ Taipei Main Station tới Nhà ga 1), không nêu khoảng cách km tới trung tâm thành phố tham chiếu.",
+    "destinations": "Tài liệu không nêu tổng số điểm đến trực tiếp; chỉ liệt kê một số thành phố có lưu lượng lớn.",
+    "airlines": "Tài liệu không nêu tổng số hãng hàng không khai thác tại sân bay.",
+    "transfer_pct": "Chỉ có bảng tỷ lệ transfer 15%/16%/18%/20% trong Airport Park Master Plan – đây là số dự báo theo kịch bản quy hoạch, không phải tỷ lệ thực tế đã ghi nhận.",
+    "airport_area_ha": "Tài liệu không nêu rõ diện tích khuôn viên sân bay; các con số 4.564 ha, 4.687 ha, 6.845 ha là phạm vi quy hoạch aerotropolis (yolk + white), còn 610,89 ha và 73,81 ha trong master plan không xác định rõ là toàn bộ khuôn viên sân bay.",
+    "employees": "Tài liệu không nêu số người đang làm việc trong khu.",
+    "num_companies_airport": "Tài liệu không nêu số doanh nghiệp hoạt động tại sân bay.",
+    "num_office_buildings": "Tài liệu không nêu số toà nhà văn phòng trong khu.",
+    "gov_led_ratio_pct": "Tài liệu không nêu tỷ lệ vốn/vai trò nhà nước bằng con số cụ thể.",
+    "private_ratio_pct": "Tài liệu không nêu tỷ lệ tư nhân bằng con số cụ thể.",
+    "economic_zone_year": "BASELINE_SAI: tài liệu không nêu năm thành lập Taoyuan Aviation Free Trade Zone; chỉ có mốc 2003 Farglory nhận quyền phát triển BOT 50 năm, không phải năm thành lập đặc khu.",
+    "residential_highrise_pct": "Tài liệu không nêu tỷ lệ căn hộ cao tầng.",
+    "residential_lowrise_pct": "Tài liệu không nêu tỷ lệ nhà thấp tầng.",
+    "residential_land_pct": "Tài liệu không nêu tỷ lệ đất nền/nhà liền đất.",
+    "office_rent_eur_m2_year": "Tài liệu không có dòng chào giá thuê văn phòng (Starting at/From) theo EUR/m²/năm.",
+    "cvp_price_note": "Không có chú thích về đơn vị/điều kiện giá trong tài liệu.",
+    "price_vs_reference": "Tài liệu không so sánh mặt bằng giá với thành phố tham chiếu.",
+    "living_fee_usd_per_m2_month": "Tài liệu không nêu phí quản lý/duy trì theo USD/m²/tháng.",
+    "has_urban_service_fee": "Không có bằng chứng về phí dịch vụ đô thị trong tài liệu."
+  },
+  "_meta": {
+    "case": "taoyuan",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:36:24+0700",
+    "fields_total": 75,
+    "fields_filled": 56,
+    "coverage_pct": 74.7,
+    "high_confidence": 40,
+    "from_baseline": 1,
+    "dossier": {
+      "pages_total": 28,
+      "pages_kept": 28,
+      "raw_chars": 827522,
+      "dossier_chars": 133908
+    },
+    "warnings": [
+      "economic_zone_year: bỏ giá trị baseline 2006 — BASELINE_SAI: tài liệu không nêu năm thành lập Taoyuan Aviation Free Trade Zone; chỉ có mốc 2003 Farglory nhận quyền phá"
+    ],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "**Taoyuan Aerotropolis** – **Đô thị sân bay Đào Viên** – là case tại **Đài Loan**, phát triển quanh **Taiwan Taoyuan International Airport** với thành phố tham chiếu là **Đào Viên (Taoyuan)** thuộc vùng đại đô thị **Đài Bắc (greater Taipei)**. Đây không phải dự án mục tiêu, thông tin chính thức được công bố tại website **https://www.taoyuanairport.com.tw**.",
+    "location": "Dự án nằm tại các quận **Dayuan** và **Luzhu** của thành phố **Đào Viên (Taoyuan City)**, lấy sân bay quốc tế **Đào Viên** làm trung tâm với tổng diện tích quy hoạch đô thị **4.564 ha**, tương ứng quy mô khu đô thị **45,64 km²**, gần cảng **Taipei Port** và kết nối cao tốc, đường sắt cao tốc cùng MRT sân bay. Sân bay được xây dựng từ năm **1979** đến nay, còn khu đô thị được triển khai từ năm **2015** đến nay, tính từ năm thành lập **1979**. Dự án xuất phát từ nhu cầu xây đường băng thứ ba, tái tổ chức sử dụng đất quanh sân bay nhằm nâng cao năng lực cạnh tranh của sân bay quốc tế **Đào Viên**, thúc đẩy phát triển tổng thể của **Đào Viên** và chuyển đổi công nghiệp – quốc tế hoá của **Đài Loan**; đồng thời là hợp phần then chốt của **Golden Decade National Vision Plan** và **Economic Power-Up Plan** của chính phủ.",
+    "positioning": "Được định vị là aerotropolis (đô thị sân bay) lớn nhất **Đài Loan** tính đến nay, dự án lấy sân bay quốc tế **Đào Viên** làm trung tâm và phát triển theo **3** trọng tâm gồm sân bay thông minh (**smart airport**), đô thị thông minh (**smart city**) và công nghiệp thông minh (**smart industry**), ưu tiên các ngành ít ô nhiễm, ít tiêu hao năng lượng/nước và giá trị gia tăng cao. Ý tưởng quy hoạch dựa trên cấu trúc “lòng đỏ trứng” (**egg yolk zone**) do Bộ Giao thông và Truyền thông (**MOTC**) quản lý – gồm đường băng và các khu thương mại tự do – bao quanh bởi “lòng trắng trứng” (**egg white zone**) do chính quyền thành phố **Đào Viên** quản lý, gồm các khu công nghiệp chuyên biệt và hành lang các ga MRT sân bay. Các phân khu bao gồm khu công nghiệp (**industry zone**), khu thương mại tự do (**free-trade zone**), khu thương mại (**commercial zone**), khu dân cư (**residence zone**), **Air Cargo Terminal** (nhà ga hàng hoá hàng không), **International Logistics Center** (trung tâm logistics quốc tế) và **Value-Added Park** (khu gia tăng giá trị).",
+    "kpi": "Sân bay phục vụ **47,8 triệu** khách/năm và **2,5 triệu tấn** hàng hoá/năm, với **262.217** lượt cất hạ cánh mỗi năm. Có **34** công ty thuê bất động sản và dự án tạo ra **300.000** việc làm.",
+    "investment": "Tổng mức đầu tư vào aerotropolis được nêu là trên **NT$500 tỷ** (**US$17 tỷ**) theo Hành chính viện năm **2013**, trong khi riêng Hành chính viện công bố mức đầu tư **NT$463 tỷ** (**US$15,75 tỷ**). Mô hình quản trị là nhà nước dẫn dắt đa cấp, với **Taoyuan Aerotropolis Engineering Office** thuộc **Civil Aviation Administration, MOTC** chịu trách nhiệm thu hồi và phát triển **1.756 ha**, gồm giai đoạn **1** của chính quyền TP **Đào Viên** (**1.190 ha**) và khu quanh căn cứ hải quân (**566 ha**) do **Civil Aeronautics Administration** uỷ quyền, còn **Executive Yuan** lập tổ công tác liên bộ phụ trách quy hoạch đô thị & thu hồi đất, phát triển – xây dựng, quy hoạch công nghiệp & xúc tiến đầu tư. Bên dẫn dắt là **Taoyuan Aerotropolis Co., Ltd.** do Phó Thị trưởng **Đào Viên** **Wang Ming-Jiuh** làm Chủ tịch, cùng **Taoyuan Aerotropolis Engineering Office** của **Civil Aviation Administration, MOTC** và chính quyền TP **Đào Viên**.",
+    "product": "Sản phẩm chào bán gồm khu công nghiệp (**industry zone**), khu thương mại tự do (**free-trade zone**), khu thương mại (**commercial zone**), khu nhà ở (**residence zone**), logistics/kho vận và **Value-Added Park** (khu gia tăng giá trị), trong đó đặc khu mang tên **Taoyuan International Airport Free Trade Zone**; bất động sản thương mại trải rộng từ bán lẻ, văn phòng, khách sạn đến kho vận/logistics (nhà kho, kho ngoại quan) và nhà ga hàng hoá (**air cargo terminal**). Về nhà ở, chính quyền thành phố xây **1.924** căn nhà tái định cư trên **4** vị trí gần các ga MRT **A18**, **A11**, **G17** và khu vực sân bay, cùng **4.100** lô đất (**allotment**) dành cho người dân tự xây, theo nguyên tắc “xây trước, di dời sau” và “tái định cư tại chỗ lân cận”. Hạ tầng tiện ích cơ bản gồm công viên và không gian xanh, đường quy hoạch khoảng **197 km**, cầu vượt sông và vượt cao tốc, hệ thống thoát nước, xử lý nước thải và phòng chống ngập, hào kỹ thuật dùng chung (**common utility tunnels**) cùng các tiện ích cộng đồng. Tiện ích điểm nhấn có **Taoyuan International Airport** với **Nhà ga T3** và **Đường băng 3**, khách sạn **Hyatt Regency Taoyuan International Airport** quy mô **360** phòng nằm cạnh trung tâm hội nghị, và hồ điều tiết phòng chống thiên tai (**Disaster Prevention Retention Basin**).",
+    "price": "Nhà nước thu hồi đất theo cơ chế thu hồi từng khu (**zone expropriation**) rồi đấu giá/chào bán lô đất công nghiệp cho doanh nghiệp, với lô cuối cùng đấu giá thành công cuối năm **2024**; song song là cơ chế bồi thường bằng đất (**land-for-compensation**) và cấp lô tái định cư cho người dân tự xây. Khu thương mại tự do vận hành theo mô hình **BOT** với hợp đồng **50** năm và cho thuê bất động sản/kho bãi – **Farglory** cho thuê bất động sản và kho ngoại quan – trong khi quy hoạch tổng thể nêu nguồn thu từ tiền thuê đất.",
+    "service": "Các dịch vụ cung cấp gồm **In-Town Check-In** (làm thủ tục bay tại ga **A1** và **A3**), thông quan hàng hoá (**customs clearance**), dịch vụ logistics gia tăng giá trị, phân phối và chuyển phát, cửa sổ một cửa (**One-Stop Window**) hỗ trợ đầu tư, nền tảng kết nối vốn vay “**Taoyuan Aerotropolis Financing and Loan Matchmaking Platform**” với **14** ngân hàng trong nước, cùng **Resettlement Housing Service Center** tư vấn nhà tái định cư, tự xây và tài chính. Với đặc quyền sân bay, hành khách đi **Taoyuan Airport MRT** có thể ký gửi hành lý, chọn chỗ ngồi và lấy thẻ lên máy bay ngay tại ga **A1 Taipei Main Station** và **A3 New Taipei Industrial Park**, hoàn tất trước giờ bay **3** tiếng trong cùng ngày, đồng thời sân bay miễn phí vào các ga MRT **A12**, **A13**, **A14a**. Dự án lấy ba trọng tâm “**smart airport – smart city – smart industry**”, ứng dụng công nghệ sinh hoạt thông minh và băng rộng thông minh thế hệ **4** (**4G**) do **MOEA** cùng chính quyền **Đào Viên** phát triển để nâng cao quản trị đô thị, hướng tới thành phố xanh – thông minh. Khu thương mại tự do đã lắp hệ thống mạng số (cáp quang, truyền thông vô tuyến), thẻ ID điện tử ra vào và dự kiến lập trung tâm dữ liệu, cùng quản trị thông minh gắn với năng lượng xanh, giao thông tự hành, tái chế rác thải và hệ thống trung hoà carbon.",
+    "experience": "Trải nghiệm cung cấp gồm công viên và không gian xanh mới, khách sạn sân bay với nhà hàng, trung tâm giải trí và thể hình, spa, trung tâm hội nghị – triển lãm **Taoyuan Convention and Exhibition Center**, cùng hồ điều tiết và không gian mặt nước phòng chống thiên tai. Quy hoạch hướng tới “đô thị nơi người ta chọn ở lại, làm việc, sinh sống và phát triển” chứ không chỉ là điểm trung chuyển, nhấn mạnh cộng sinh giữa cư dân và công nghiệp, lồng ghép tư duy xanh – bền vững vào lối sống **Aerotropolis**, gắn với di sản văn hoá, sinh thái tự nhiên và bản sắc địa phương.",
+    "convenience": "**Taoyuan Airport MRT** đưa hành khách từ **Taipei Main Station** tới **Nhà ga 1** chỉ trong **35** phút bằng tàu nhanh và **39** phút tới **Nhà ga 2**, từ **Taoyuan HSR Station** tới **Nhà ga 1** chỉ **19** phút, trong khi tàu thường (**Commuter Train**) mất **82** phút từ **Taipei Main Station** tới **Huanbei**, với tần suất tàu nhanh **15–30** phút/chuyến. Là thành phố cửa ngõ của **Đài Loan**, **Đào Viên** có vị trí chiến lược cho logistics quốc tế và là đầu mối kết nối các thành phố khu vực châu Á – Thái Bình Dương, sân bay hưởng lợi từ năng lực logistics đường biển nhờ gần **Taipei Port** cùng mạng lưới cao tốc (**National Freeway 1**, **National Freeway 2**) và đường sắt cao tốc. Hệ thống kết nối gồm **2** tuyến metro cùng đường sắt cao tốc (**Taiwan High Speed Rail**), đường sắt thường (**Taiwan Railways**), cảng biển (**Taipei Port**) và **Taoyuan Airport Skytrain** nội sân bay. Cụ thể là **Taoyuan Airport MRT** với các ga **A12 Airport Terminal 1**, **A13 Airport Terminal 2**, **A14a Airport Hotel**, tuyến Xanh (**Green line**, **Taoyuan Metro**) đang xây dựng, **Taiwan High Speed Rail** với ga **Taoyuan HSR**, **Taiwan Railways** (**Western Trunk line**, **Zhongli Railway Station**) và **Taoyuan Airport Skytrain** nối **Nhà ga 1** với **Nhà ga 2**.",
+    "brand": "Các thương hiệu chủ lực gồm **Taoyuan City Government**, **Ministry of Transportation and Communications (MOTC)**, **Civil Aeronautics Administration / Civil Aviation Administration (CAA)**, **Taoyuan Aerotropolis Co., Ltd.**, **Taoyuan International Airport Corporation (TIAC)**, **AECOM** và **Taoyuan Metro Corporation**. Dự án được định vị là kế hoạch phát triển lớn nhất từ trước tới nay của **Đài Loan** và là dự án hạ tầng quan trọng nhất kể từ **Mười công trình lớn** thập niên **1970**, lấy **Taoyuan International Airport** làm trung tâm với **Nhà ga 3** và **Đường băng 3**, xây thương hiệu trên ba trọng tâm **smart airport – smart city – smart industry**, ưu tiên các ngành ít ô nhiễm, ít tiêu hao năng lượng, ít dùng nước và giá trị gia tăng cao, biến **Đào Viên** thành “thủ đô cửa ngõ” của **Đài Loan**. Đối tác thương hiệu trải rộng từ **STARLUX Airlines**, **Gogoro (Gogoro Taiwan Limited)**, **Acer Group**, **Antung Trading**, **ASML Taiwan**, **DHL Supply Chain (Taiwan)**, **Nippon Express NEC Logistics Taiwan**, **Kintetsu World Express (Taiwan)**, **FARGLORY LOGISTICS**, **KLA-Tencor**, **AECOM** đến **National Tsing Hua University**, **National Yang Ming Chiao Tung University** và **National Taiwan Ocean University**.",
+    "vision": "Tầm nhìn mang tên **Taoyuan Aerotropolis** (**Taoyuan Aerotropolis Core Plan** / **桃園航空城核心計畫**), với các giá trị cốt lõi là sân bay thông minh (**smart airport**), đô thị thông minh (**smart city**), công nghiệp thông minh (**smart industry**), chất lượng sống, bền vững môi trường, quản trị thông minh và cộng sinh giữa cư dân và công nghiệp. Về chính sách hàng không, **Taoyuan Aerotropolis Project** là kế hoạch lõi do **CAA/MOTC** chủ trì cùng quy hoạch đô thị của **Taoyuan City Government**, là cấu phần then chốt của **Golden Decade National Vision Plan** và **Economic Power-Up Plan**, gắn với chương trình **Free Economic Pilot Zones (FEPZs)** và cơ chế **Free Trade Zone**, trong đó **Executive Yuan** lập tổ công tác liên bộ để điều phối. Định hướng bền vững gồm đường sử dụng vật liệu tái chế (**Roads Using Recycled Materials**), hồ điều tiết phòng chống thiên tai (**Disaster Prevention Retention Basin**), năng lượng xanh, giao thông tự hành, tái chế chất thải và hệ thống trung hoà carbon giúp doanh nghiệp thực hành **ESG** tại chỗ, hướng tới thành phố xanh – thông minh (**smart green city**) đồng thời bảo tồn di sản văn hoá và sinh thái tự nhiên trong quy hoạch.",
+    "parks": "Khu logistics mang tên **Taoyuan Aviation Free Trade Zone (Air Cargo Park)** / **Farglory Free Trade Zone** có diện tích **45,0 ha**. Khu thương mại – công nghiệp là **Taoyuan International Airport Free Trade Zone** với diện tích **34,85 ha**."
   }
 }

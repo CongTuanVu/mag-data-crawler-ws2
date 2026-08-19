@@ -108,8 +108,8 @@ dự án **Gia Bình Airport City (GBAC)**.
 | `trade_park_name` | string\|null | trang park | Schiphol Trade Park |
 | `sustainability` | list | SADC sustainability | BREEAM; circular; most sustainable; biodiversity; CO2 |
 
-> `*_park_name` tách khỏi `*_park_ha` để `build_html.py` không phải hardcode tên park
-> riêng của Schiphol; case không có tên park thì null và HTML dùng chữ chung.
+> `*_park_name` tách khỏi `*_park_ha` để lớp trình bày không phải hardcode tên park
+> riêng của Schiphol; case không có tên park thì null.
 
 ### 7) Quy đổi đơn vị tại nguồn
 

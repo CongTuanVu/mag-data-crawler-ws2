@@ -1,5 +1,15 @@
-requests>=2.31
+# Crawler (raw_data/crawler/crawl_sources.py): render JS + bóc PDF
+playwright>=1.44
+pymupdf>=1.24
 beautifulsoup4>=4.12
-lxml>=5.0
+
+# Registry + báo cáo (scripts/): đọc/ghi CSV, xuất sources.xlsx
 pandas>=2.1
-PyYAML>=6.0
+openpyxl>=3.1
+
+# Thu ảnh minh hoạ (html/harvest_images.py)
+requests>=2.31
+Pillow>=10.0
+
+# extract_llm.py / discover_sources.py gọi code_proxy bằng urllib trong thư viện chuẩn
+# -> không cần SDK anthropic, không cần ANTHROPIC_API_KEY

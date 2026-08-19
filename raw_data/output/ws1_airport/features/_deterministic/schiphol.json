@@ -1,0 +1,362 @@
+{
+  "record": {
+    "case_name": "Schiphol Airport City",
+    "aerotropolis": "Schiphol Airport City / Amsterdam Aerotropolis",
+    "country": "Hà Lan",
+    "is_target": false,
+    "airport_name": "Amsterdam Airport Schiphol",
+    "reference_city": "Amsterdam",
+    "official_website": "https://www.schiphol.nl",
+    "positioning": "AirportCity",
+    "planning_concept": "has been developed as an AirportCity where travellers, airlines and businesses can access all the services they need, 24 hours a day.",
+    "cornerstones": [
+      "Aviation",
+      "Consumer Products & Services",
+      "Real Estate"
+    ],
+    "subzones": [
+      "Schiphol Central Business District",
+      "Schiphol East",
+      "Schiphol Southeast",
+      "Schiphol Business District"
+    ],
+    "commercial_re": [
+      "logistics",
+      "cargo",
+      "office",
+      "real estate",
+      "retail",
+      "hotel",
+      "World Trade Center",
+      "The Base"
+    ],
+    "num_office_buildings": 35,
+    "num_companies_realestate": 450,
+    "num_companies_airport": 800,
+    "residential_product_desc": null,
+    "basic_amenities": [
+      "meeting",
+      "sports",
+      "restaurants",
+      "catering",
+      "child care",
+      "childcare",
+      "shops",
+      "Schiphol Plaza",
+      "café",
+      "fitness"
+    ],
+    "highlight_amenities": [
+      "World Trade Center",
+      "WTC",
+      "Hilton Hotel",
+      "Sheraton Hotel",
+      "The Base",
+      "The Outlook",
+      "BREEAM"
+    ],
+    "airport_area_ha": 2787.0,
+    "employees": 68000,
+    "passengers_million": 66.8,
+    "air_movements": 473815,
+    "cargo_million_tonnes": 1.49,
+    "destinations": 301,
+    "airlines": 120,
+    "transfer_pct": 36.3,
+    "cvp_product": [
+      "office",
+      "commercial space",
+      "development",
+      "logistics",
+      "cargo",
+      "retail",
+      "real estate"
+    ],
+    "cvp_price": "income from a range of sources, including airport charges and passenger charges, concession fees from retail and catering companies, revenue from advertising and parking services, property rents and leaseholds and income from associates.",
+    "office_rent_eur_m2_year": {
+      "min": 130.0,
+      "max": 280.0,
+      "count": 13
+    },
+    "cvp_price_note": "Giá chào thuê văn phòng; đơn giá tuỳ toà & phân khu",
+    "cvp_service": [
+      "Spot",
+      "Leasing Managers",
+      "area director",
+      "flexible real estate"
+    ],
+    "cvp_experience": [
+      "restaurants",
+      "sports",
+      "meeting",
+      "Schiphol Plaza",
+      "Hilton Hotel",
+      "Sheraton Hotel",
+      "café"
+    ],
+    "cvp_convenience": [
+      "Accessible by car, bus, train and plane.",
+      "highways A4, A5, A9, A10",
+      "high-speed train to Paris runs 9 times a day.",
+      "2-8 minutes' walk to the NS train station, Schiphol Plaza and the bus station."
+    ],
+    "cvp_brand": [
+      "Royal Schiphol Group",
+      "Schiphol Real Estate"
+    ],
+    "rail_connections": [
+      "Amsterdam - Schiphol Airport",
+      "Schiphol Airport - Rotterdam",
+      "Intercity direct"
+    ],
+    "founded_year": 1916,
+    "vision_label": "Vision 2050",
+    "vision_qualities": [
+      "Quality of Network",
+      "Quality of Life",
+      "Quality of Service",
+      "Quality of Work"
+    ],
+    "aviation_policy": "Aviation Policy Memorandum 2020-2050",
+    "logistics_park_ha": 43.0,
+    "trade_park_ha": 350.0,
+    "sustainability": [
+      "BREEAM",
+      "circular",
+      "most sustainable",
+      "biodiversity",
+      "CO2"
+    ],
+    "logistics_park_name": "Schiphol Logistics Park",
+    "trade_park_name": "Schiphol Trade Park",
+    "_pages_used": 28
+  },
+  "provenance": {
+    "positioning": {
+      "confidence": "high"
+    },
+    "planning_concept": {
+      "source_url": "https://www.schiphol.nl/en/schiphol-group/business-model/",
+      "source_file": "01_schiphol_group_business_model_airportcity_formula.txt",
+      "snippet": "has been developed as an AirportCity where travellers, airlines and businesses can access all the services they need, 24 hours a day.",
+      "confidence": "high"
+    },
+    "cornerstones": {
+      "source_url": "https://www.schiphol.nl/en/schiphol-group/business-model/",
+      "source_file": "01_schiphol_group_business_model_airportcity_formula.txt",
+      "snippet": "cornerstones of the AirportCity concept: Aviation, Consumer Products & Services and Real Estate.",
+      "confidence": "high"
+    },
+    "subzones": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/about-us/",
+        "https://www.schiphol.nl/en/real-estate/total-offering/?locality=schiphol-central-business-disctrict"
+      ],
+      "confidence": "high"
+    },
+    "commercial_re": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/schiphol-business-district/",
+        "https://www.schiphol.nl/en/schiphol-group/business-model/"
+      ],
+      "confidence": "high"
+    },
+    "num_office_buildings": {
+      "unit": "buildings",
+      "source_url": "https://www.schiphol.nl/en/real-estate/about-us/",
+      "source_file": "02_schiphol_real_estate_about_us.txt",
+      "snippet": "35 business buildings",
+      "confidence": "high"
+    },
+    "num_companies_realestate": {
+      "unit": "companies",
+      "source_url": "https://www.schiphol.nl/en/real-estate/about-us/",
+      "source_file": "02_schiphol_real_estate_about_us.txt",
+      "snippet": "more than 450 companies",
+      "confidence": "high"
+    },
+    "num_companies_airport": {
+      "unit": "companies",
+      "source_url": "https://www.schiphol.nl/en/you-and-schiphol/facts-about-airport/",
+      "source_file": "05_schiphol_airport_facts.txt",
+      "snippet": "around 800 other different companies",
+      "confidence": "high"
+    },
+    "basic_amenities": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/about-us/",
+        "https://www.schiphol.nl/en/real-estate/facilities/",
+        "https://www.schiphol.nl/en/real-estate/schiphol-business-district/",
+        "https://www.schiphol.nl/en/schiphol-group/business-model/"
+      ],
+      "confidence": "high"
+    },
+    "highlight_amenities": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/about-us/",
+        "https://www.schiphol.nl/en/real-estate/schiphol-business-district/",
+        "https://www.schiphol.nl/en/schiphol-group/business-model/"
+      ],
+      "confidence": "high"
+    },
+    "airport_area_ha": {
+      "unit": "ha",
+      "source_url": "https://www.schiphol.nl/en/you-and-schiphol/facts-about-airport/",
+      "source_file": "05_schiphol_airport_facts.txt",
+      "snippet": "2,787 hectares",
+      "confidence": "high"
+    },
+    "employees": {
+      "unit": "people",
+      "source_url": "https://www.schiphol.nl/en/you-and-schiphol/facts-about-airport/",
+      "source_file": "05_schiphol_airport_facts.txt",
+      "snippet": "Around 68,000 people work",
+      "confidence": "high"
+    },
+    "passengers_million": {
+      "unit": "million/năm",
+      "source_url": "https://www.schiphol.nl/en/aviation-partnerships/amsterdam-airport-schiphol-airport-facts/",
+      "source_file": "04_amsterdam_airport_schiphol_facts_figures_2025.txt",
+      "snippet": "66.8 million passengers",
+      "confidence": "high"
+    },
+    "air_movements": {
+      "unit": "movements/năm",
+      "source_url": "https://www.schiphol.nl/en/aviation-partnerships/amsterdam-airport-schiphol-airport-facts/",
+      "source_file": "04_amsterdam_airport_schiphol_facts_figures_2025.txt",
+      "snippet": "473,815 air transport movements",
+      "confidence": "high"
+    },
+    "cargo_million_tonnes": {
+      "unit": "triệu tấn/năm",
+      "source_url": "https://www.schiphol.nl/en/aviation-partnerships/amsterdam-airport-schiphol-airport-facts/",
+      "source_file": "04_amsterdam_airport_schiphol_facts_figures_2025.txt",
+      "snippet": "1.49 million tonnes of Cargo",
+      "confidence": "high"
+    },
+    "destinations": {
+      "unit": "điểm đến",
+      "source_url": "https://www.schiphol.nl/en/aviation-partnerships/amsterdam-airport-schiphol-airport-facts/",
+      "source_file": "04_amsterdam_airport_schiphol_facts_figures_2025.txt",
+      "snippet": "301 direct destinations",
+      "confidence": "high"
+    },
+    "airlines": {
+      "unit": "hãng",
+      "source_url": "https://www.schiphol.nl/en/aviation-partnerships/amsterdam-airport-schiphol-airport-facts/",
+      "source_file": "04_amsterdam_airport_schiphol_facts_figures_2025.txt",
+      "snippet": "120 airlines",
+      "confidence": "high"
+    },
+    "transfer_pct": {
+      "unit": "%",
+      "source_url": "https://www.schiphol.nl/en/aviation-partnerships/amsterdam-airport-schiphol-airport-facts/",
+      "source_file": "04_amsterdam_airport_schiphol_facts_figures_2025.txt",
+      "snippet": "36.3 % Transfer",
+      "confidence": "high"
+    },
+    "cvp_product": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/total-offering/?locality=schiphol-central-business-disctrict",
+        "https://www.schiphol.nl/en/schiphol-group/business-model/"
+      ],
+      "confidence": "high"
+    },
+    "cvp_price": {
+      "source_url": "https://www.schiphol.nl/en/schiphol-group/business-model/",
+      "source_file": "01_schiphol_group_business_model_airportcity_formula.txt",
+      "snippet": "income from a range of sources, including airport charges and passenger charges, concession fees from retail and catering companies, revenue from advertising an",
+      "confidence": "high"
+    },
+    "office_rent_eur_m2_year": {
+      "unit": "€/m²/năm (excl. VAT)",
+      "source_url": "https://www.schiphol.nl/en/real-estate/total-offering/?locality=schiphol-central-business-disctrict",
+      "source_file": "06_schiphol_real_estate_total_offering_central_busine.txt",
+      "confidence": "high"
+    },
+    "cvp_service": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/about-us/"
+      ],
+      "confidence": "high"
+    },
+    "cvp_experience": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/about-us/",
+        "https://www.schiphol.nl/en/real-estate/facilities/",
+        "https://www.schiphol.nl/en/real-estate/schiphol-business-district/",
+        "https://www.schiphol.nl/en/schiphol-group/business-model/"
+      ],
+      "confidence": "high"
+    },
+    "cvp_convenience": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/schiphol-business-district/",
+        "https://www.schiphol.nl/en/you-and-schiphol/facts-about-airport/"
+      ],
+      "source_files": [
+        "03_schiphol_business_district.txt",
+        "05_schiphol_airport_facts.txt"
+      ],
+      "confidence": "high"
+    },
+    "cvp_brand": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/real-estate/about-us/",
+        "https://www.schiphol.nl/en/schiphol-group/business-model/"
+      ],
+      "confidence": "high"
+    },
+    "rail_connections": {
+      "source_urls": [
+        "https://www.ns.nl/en/travel/destinations/schiphol"
+      ],
+      "source_files": [
+        "25_ns_travel_to_schiphol.txt"
+      ],
+      "confidence": "high"
+    },
+    "founded_year": {
+      "unit": "năm",
+      "source_url": "https://www.schiphol.nl/en/you-and-schiphol/airport-history/",
+      "source_file": "28_schiphol_airport_history.txt",
+      "snippet": "began life in 1916",
+      "confidence": "high"
+    },
+    "vision_qualities": {
+      "source_urls": [
+        "https://www.schiphol.nl/en/schiphol-group/annual-reports/"
+      ],
+      "confidence": "high"
+    },
+    "aviation_policy": {
+      "source_url": "https://www.schiphol.nl/en/schiphol-group/strategy",
+      "source_file": "14_schiphol_group_strategy.txt",
+      "snippet": "Aviation Policy Memorandum 2020-2050",
+      "confidence": "high"
+    },
+    "logistics_park_ha": {
+      "unit": "ha",
+      "source_url": "https://www.sadc.nl/locaties/schiphol-logistics-park/",
+      "source_file": "17_sadc_schiphol_logistics_park.txt",
+      "snippet": "43 hectare",
+      "confidence": "high"
+    },
+    "trade_park_ha": {
+      "unit": "ha",
+      "source_url": "https://www.sadc.nl/were-hard-at-work-at-schiphol-trade-park/",
+      "source_file": "19_sadc_schiphol_trade_park.txt",
+      "snippet": "350-hectare",
+      "confidence": "high"
+    },
+    "sustainability": {
+      "source_urls": [
+        "https://www.sadc.nl/locaties/schiphol-logistics-park/",
+        "https://www.sadc.nl/schiphol-trade-park-the-worlds-most-sustainable-logistic-business-park/",
+        "https://www.schiphol.nl/en/real-estate/about-us/",
+        "https://www.schiphol.nl/en/real-estate/schiphol-business-district/"
+      ],
+      "confidence": "high"
+    }
+  }
+}

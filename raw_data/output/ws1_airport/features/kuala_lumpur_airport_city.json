@@ -7,92 +7,36 @@
     "airport_name": "Kuala Lumpur International Airport",
     "reference_city": "Kuala Lumpur – Sepang",
     "official_website": "https://www.aeropolis.com.my",
-    "positioning": "Airport City of the 21st Century",
-    "planning_concept": "The development spans across 100 sq km with activities driven by the three core clusters, aligned with the national master plans and blueprints with the aim to elevate Malaysia as a foreign direct investment magnet and a high-income nation.",
+    "location_desc": "Nằm quanh sân bay Kuala Lumpur International Airport thuộc huyện Sepang, bang Selangor (phía nam Kuala Lumpur); được phục vụ bởi mạng lưới cao tốc và có kết nối trực tiếp tới cảng biển, tất cả trong bán kính 1 giờ lái xe",
+    "distance_to_city_km": null,
+    "area_km2": 100.0,
+    "airport_build_period": null,
+    "urban_build_period": null,
+    "founded_year": 1998,
+    "development_context": "Phát triển bất động sản ngoài nhà ga của Malaysia Airports gắn với các quy hoạch/chiến lược quốc gia (Logistics and Trade Facilitation Master Plan, National e-Commerce Strategic Roadmap 2020, National Key Economic Area, Kuala Lumpur Tourism Master Plan), nhằm đưa Malaysia thành nam châm hút FDI và quốc gia thu nhập cao",
+    "positioning": "Thành phố sân bay của thế kỷ 21 (Airport City of the 21st Century) – cửa ngõ logistics ưu tiên của châu Á và điểm đến MICE & nghỉ dưỡng hàng đầu",
+    "planning_concept": "Quy hoạch tổng thể thành phố sân bay tổng hoà trải rộng khoảng 1.600 acres, có tiềm năng mở rộng lên 8.500 acres trong phạm vi 100 km², gồm các khu chức năng bổ trợ cho làm việc – giải trí, dẫn dắt bởi ba cụm cốt lõi và hạ tầng logistics đầu-cuối liền mạch",
     "cornerstones": [
-      "Air Cargo and Logistics",
-      "Air Cargo & Logistics",
-      "Aerospace and Aviation",
-      "Aerospace & Aviation",
-      "MICE and Leisure",
-      "MICE & Leisure"
+      "Hàng hoá hàng không & logistics/kho vận (Air Cargo & Logistics)",
+      "Hàng không vũ trụ & hàng không (Aerospace & Aviation)",
+      "MICE & giải trí – nghỉ dưỡng (MICE & Leisure)"
     ],
     "subzones": [
+      "Business Park",
       "Aerospace Park",
-      "Digital Free Trade Zone",
-      "Gateway@klia2",
-      "klia2",
-      "Air Cargo"
+      "Logistics Park",
+      "Cainiao Aeropolis eWTP Hub (eHub)",
+      "Leisure & Recreational",
+      "Airport Central",
+      "KLIA Cargo Village",
+      "Aeropolis Industrial Zone @ Business Park",
+      "MRO Ecosystem @ ASZ1",
+      "Mitsui Outlet Park",
+      "gateway@klia2"
     ],
-    "area_km2": 100.0,
     "passengers_million": 63.12,
-    "air_movements": 408154,
     "cargo_million_tonnes": 0.64,
-    "founded_year": 1998,
-    "investor_governance": null,
-    "lead_developer": "Malaysia Airports",
-    "economic_zone_name": "Digital Free Trade Zone",
-    "commercial_re": [
-      "cargo",
-      "logistics",
-      "aerospace",
-      "MRO",
-      "retail",
-      "hotel",
-      "industrial",
-      "warehouse"
-    ],
-    "basic_amenities": [
-      "retail",
-      "hotel",
-      "convention",
-      "arena"
-    ],
-    "highlight_amenities": [
-      "Aerospace Park",
-      "ASEAN pavilion",
-      "indoor arena",
-      "convention centre",
-      "Sepang International Circuit"
-    ],
-    "cvp_product": [
-      "cargo",
-      "logistics",
-      "aerospace",
-      "MRO",
-      "industrial",
-      "warehouse"
-    ],
-    "cvp_service": [
-      "free trade zone",
-      "customs",
-      "e-commerce"
-    ],
-    "cvp_experience": [
-      "MICE",
-      "convention",
-      "arena",
-      "retail",
-      "leisure"
-    ],
-    "cvp_convenience": [
-      "KLIA Ekspres and KLIA Transit service, with allotted pick-up and drop-off areas for coaches, taxis, rented vehicles and private transportation.",
-      "air, sea and land connectivity."
-    ],
-    "rail_connections": [
-      "KL Sentral once the operator of KLIA Express, ERL Berhad introduce the new facility.",
-      "Express Rail Link) platform in the Main Terminal Building was awarded to Siemens ."
-    ],
-    "cvp_brand": [
-      "Malaysia Airports",
-      "Alibaba",
-      "Khazanah",
-      "AirAsia"
-    ],
-    "sustainability": [
-      "green"
-    ],
-    "distance_to_city_km": null,
+    "air_movements": 408154,
     "destinations": null,
     "airlines": null,
     "transfer_pct": null,
@@ -103,184 +47,576 @@
     "num_office_buildings": null,
     "jobs_created": null,
     "total_investment_usd": null,
-    "development_context": null,
-    "location_desc": null,
+    "investor_governance": "Do Malaysia Airports Holdings Berhad (MAHB) – doanh nghiệp nhà nước niêm yết trên Bursa Malaysia, công ty mẹ là Khazanah Nasional – phát triển và vận hành; Aeropolis là mảng phát triển bất động sản ngoài nhà ga tích hợp của MAHB, phối hợp cùng các bộ ngành và cơ quan như MIDA và Invest Selangor",
+    "gov_led_ratio_pct": 44.0,
+    "private_ratio_pct": 56.0,
+    "lead_developer": "Malaysia Airports Holdings Berhad (Malaysia Airports)",
+    "cvp_product": [
+      "kho vận/logistics hàng không (Logistics Park, KLIA Cargo Village)",
+      "công nghiệp công nghệ cao (high-tech industrial parks)",
+      "sản xuất hàng không vũ trụ và MRO (Aerospace Park)",
+      "kho bãi/warehousing (global mono-brand, SME)",
+      "văn phòng/business campus",
+      "khách sạn và căn hộ dịch vụ",
+      "bán lẻ theo mô hình điểm đến (power centres, bulky goods)",
+      "không gian hội họp và hội nghị"
+    ],
+    "commercial_re": [
+      "văn phòng/business campus",
+      "khách sạn và căn hộ dịch vụ",
+      "bán lẻ (outlet mall, power centres)",
+      "kho vận/logistics và trung tâm phân phối vùng (RDC)",
+      "nhà xưởng công nghiệp công nghệ cao",
+      "cơ sở MRO/hangar hàng không",
+      "không gian hội nghị – triển lãm (MICE)"
+    ],
+    "economic_zone_name": "Digital Free Trade Zone (DFTZ)",
     "economic_zone_year": null,
     "residential_product_desc": null,
-    "logistics_park_ha": null,
-    "logistics_park_name": null,
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_price": null,
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
+    "basic_amenities": [
+      "bán lẻ (Mitsui Outlet Park KLIA, gateway@klia2)",
+      "khách sạn và căn hộ dịch vụ",
+      "không gian họp và hội nghị",
+      "công viên giải trí theo chủ đề",
+      "wellness village (làng chăm sóc sức khoẻ)",
+      "trung tâm đào tạo & học viện kỹ thuật"
+    ],
+    "highlight_amenities": [
+      "Airport Central – grand central station (ga trung tâm nơi đường sắt gặp hàng không)",
+      "ASEAN pavilion",
+      "indoor arena (nhà thi đấu trong nhà)",
+      "convention centre (trung tâm hội nghị)",
+      "Mitsui Outlet Park KLIA",
+      "gateway@klia2",
+      "Aerospace Park",
+      "Sepang International Circuit"
+    ],
+    "cvp_price": "Thu tiền theo mô hình hợp tác B2B với Malaysia Airports: cho thuê đất/mặt bằng (lease model arrangements) và liên doanh (joint ventures), kèm dịch vụ hỗ trợ doanh nghiệp",
     "office_rent_eur_m2_year": null,
     "cvp_price_note": null,
-    "vision_label": null,
-    "vision_qualities": null,
-    "aviation_policy": null,
-    "smart_city": null,
-    "airport_build_period": null,
-    "urban_build_period": null,
-    "brand_partners": null,
-    "connection_modes": null,
-    "metro_lines": null,
-    "airport_privilege": null,
-    "experience_desc": null,
     "price_vs_reference": null,
-    "sales_scheme": null,
-    "_pages_used": 14
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "B2B với Malaysia Airports: thuê đất/nhà xưởng theo mô hình lease, liên doanh (joint venture); công trình build-to-suit tiêu chuẩn cao với quy mô lô đất linh hoạt, có thể mở rộng",
+    "cvp_service": [
+      "dịch vụ hỗ trợ doanh nghiệp (business facilitation): liên hệ các bộ ngành, hỗ trợ thương mại",
+      "Free Commercial Zone tại Aeronautical Support Zone 1 (khu thương mại tự do)",
+      "thông quan biên giới đầu-cuối tốc độ cao trong Digital Free Trade Zone (DFTZ)",
+      "giải pháp logistics đầu-cuối (end-to-end)",
+      "dịch vụ vận tải bonded trucking",
+      "cơ sở build-to-suit theo nhu cầu nhà đầu tư"
+    ],
+    "airport_privilege": null,
+    "has_airport_privilege": null,
+    "smart_city": "Định hướng ngành công nghệ cao và 'thông minh', lấy Industry 4.0 làm trụ cột; cơ sở xử lý hàng hoá tự động hoá và số hoá; sân bay vận hành bằng Total Airport Management Systems (TAMS) gồm hơn 40 hệ thống",
+    "has_smart_city": true,
+    "cvp_experience": [
+      "MICE (hội họp, khen thưởng, hội nghị, triển lãm)",
+      "convention centre (trung tâm hội nghị)",
+      "indoor arena",
+      "bán lẻ outlet (Mitsui Outlet Park KLIA)",
+      "công viên giải trí theo chủ đề",
+      "wellness village",
+      "du lịch thể thao (Sepang International Circuit)"
+    ],
+    "experience_desc": "Cụm MICE & Leisure mở rộng danh mục dịch vụ của KLIA để hành khách có trải nghiệm kinh doanh và giải trí phong phú hơn; thiết kế tích hợp pha trộn công việc và nghỉ dưỡng, biến sân bay thành điểm đến tự thân, với ga trung tâm nơi đường sắt gặp hàng không, ASEAN pavilion, indoor arena và convention centre phục vụ cả khách du lịch lẫn khu vực",
+    "cvp_convenience": [
+      "kết nối 5 tuyến cao tốc chính",
+      "hơn 300km mạng đường sắt tích hợp (khi hoàn chỉnh)",
+      "dịch vụ bonded trucking: KLIA – Port Klang 60 phút (67km)",
+      "KLIA – Singapore 210 phút (350km); KLIA – Thái Lan 390 phút (580km)",
+      "tiếp cận trực tiếp cảng biển trong vòng 1 giờ lái xe",
+      "KLIA Ekspres KL Sentral – KLIA Terminal 1 trong 30 phút",
+      "hub vận tải tích hợp đa phương thức (air, sea, land)"
+    ],
+    "connectivity_desc": "Mạng lưới hàng không – đường bộ – đường sắt tích hợp kết nối trực tiếp tới các nền kinh tế lớn trong khu vực; nằm gần các khu trung tâm kinh doanh, có 5 tuyến cao tốc lớn, hơn 300km đường sắt tích hợp và đường tiếp cận thẳng ra cảng biển trong bán kính 1 giờ lái xe; hướng tới trở thành cửa ngõ phân phối chính của ASEAN với kết nối hàng không, đường biển và đường bộ",
+    "connection_modes": [
+      "đường hàng không",
+      "đường sắt (KLIA Ekspres/KLIA Transit – ERL)",
+      "cao tốc/đường bộ (5 tuyến cao tốc chính)",
+      "xe buýt (bến xe tại KLIA và KLIA2, buýt liên tỉnh và shuttle)",
+      "đường biển (kết nối cảng biển, Port Klang)"
+    ],
+    "metro_lines": 2,
+    "rail_connections": [
+      "KLIA Ekspres (KL Sentral – KLIA Terminal 1 & 2, 30 phút)",
+      "KLIA Transit (dừng tại tất cả ga trên tuyến)",
+      "Express Rail Link (ERL) – tuyến số 6 thuộc Klang Valley Integrated Transit System",
+      "mạng đường sắt tích hợp hơn 300km (khi hoàn chỉnh)"
+    ],
+    "cvp_brand": [
+      "Malaysia Airports Holdings Berhad (MAHB)",
+      "Khazanah Nasional (công ty mẹ của MAHB)",
+      "Cainiao Network – Alibaba Group",
+      "AirAsia",
+      "Malaysia Airlines / MASkargo"
+    ],
+    "brand_desc": "Thương hiệu do Malaysia Airports xây dựng với định vị 'Airport City of the 21st Century' – khu đô thị sân bay thế hệ mới; KLIA Aeropolis là dự án chủ lực (flagship) trong tầm nhìn xây dựng các airport city thế kỷ 21 của Malaysia Airports, được truyền thông bằng luận điểm của John D. Kasarda: thế kỷ 20 là thành phố xây sân bay, thế kỷ 21 là sân bay xây thành phố",
+    "brand_partners": [
+      "Cainiao Network (Alibaba Group)",
+      "Mitsui Outlet Park KLIA",
+      "WCT Holdings Berhad",
+      "ExecuJet",
+      "Airbus Helicopters",
+      "GE Aviation",
+      "Spirit Aerosystems",
+      "Senior Aerospace Upeca",
+      "AirAsia",
+      "Malaysia Airlines",
+      "MASkargo",
+      "Siemens"
+    ],
+    "vision_label": "Airport City of the 21st Century",
+    "vision_qualities": [
+      "năng suất cao",
+      "đầu tư giá trị cao",
+      "tạo việc làm",
+      "chuỗi giá trị hoàn chỉnh"
+    ],
+    "aviation_policy": "Phát triển bám theo các quy hoạch/chính sách quốc gia: Logistics and Trade Facilitation Master Plan (2015–2020) do Bộ Giao thông chủ trì và National e-Commerce Strategic Roadmap 2020; cụm hàng không vũ trụ theo Second National Aerospace Industry Blueprint (Bộ Thương mại Quốc tế và Công nghiệp); cụm MICE & Leisure theo National Key Economic Area và Kuala Lumpur Tourism Master Plan (2015–2025)",
+    "sustainability": null,
+    "logistics_park_name": "Logistics Park",
+    "logistics_park_ha": null,
+    "trade_park_name": "Digital Free Trade Zone (DFTZ)",
+    "trade_park_ha": null
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "high",
+      "snippet": "KLIA AEROPOLIS | KLIA Aeropolis - Creating Tomorrow, Here",
+      "source": "S02",
+      "source_url": "https://www.aeropolis.com.my/projects/klia-aeropolis",
+      "source_file": "pages/02_klia_aeropolis_d_n_klia_aeropolis.txt",
+      "source_name": "KLIA Aeropolis – Dự án KLIA Aeropolis"
     },
-    "planning_concept": {
+    "aerotropolis": {
+      "confidence": "medium",
+      "snippet": "KLIA Aeropolis - Airport City of the 21st Century",
+      "source": "baseline"
+    },
+    "country": {
+      "confidence": "high",
+      "snippet": "District of Selangor in Malaysia",
+      "source": "S09",
+      "source_url": "https://en.wikipedia.org/wiki/Sepang_District",
+      "source_file": "pages/09_wikipedia_sepang_district.txt",
+      "source_name": "Wikipedia – Sepang District"
+    },
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
+    },
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "Kuala Lumpur International Airport features a number of modern design features that assist in the efficient operation of the airport.",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
+      "source_file": "pages/07_wikipedia_kuala_lumpur_international_airport.txt",
+      "source_name": "Wikipedia – Kuala Lumpur International Airport"
+    },
+    "reference_city": {
+      "confidence": "medium",
+      "snippet": "KLIA Aeropolis is planned to be a hub for aerospace, cargo, air logistics, and sports tourism by 2035",
+      "source": "baseline"
+    },
+    "official_website": {
+      "confidence": "high",
+      "snippet": "url: https://www.aeropolis.com.my/",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "location_desc": {
+      "confidence": "medium",
+      "snippet": "Served by an excellent network of highways\nand direct access to the seaport, all within a 1-hour drive.",
+      "source": "S06",
       "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
-      "source_file": "06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
-      "snippet": "The development spans across 100 sq km with activities driven by the three core clusters, aligned with the national master plans and blueprints with the aim to ",
-      "confidence": "high"
-    },
-    "cornerstones": {
-      "source_urls": [
-        "https://www.aeropolis.com.my/"
-      ],
-      "confidence": "high"
-    },
-    "subzones": {
-      "source_urls": [
-        "https://www.aeropolis.com.my/",
-        "https://www.aeropolis.com.my/projects/klia-aeropolis",
-        "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf"
-      ],
-      "confidence": "high"
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
     },
     "area_km2": {
-      "unit": "km²",
-      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
-      "source_file": "06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
-      "snippet": "spans across 100 sq km",
-      "confidence": "high"
-    },
-    "passengers_million": {
-      "unit": "triệu/năm",
-      "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-      "source_file": "07_wikipedia_kuala_lumpur_international_airport.txt",
-      "snippet": "Passengers 63,121,653",
-      "confidence": "high"
-    },
-    "air_movements": {
-      "unit": "lượt/năm",
-      "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-      "source_file": "07_wikipedia_kuala_lumpur_international_airport.txt",
-      "snippet": "Aircraft movements 408,154",
-      "confidence": "high"
-    },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm",
-      "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-      "source_file": "07_wikipedia_kuala_lumpur_international_airport.txt",
-      "snippet": "Cargo (tonnes) 638,910",
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "KLIA Aeropolis spans across 100 sq. km with activities driven by the three core clusters",
+      "source": "S02",
+      "source_url": "https://www.aeropolis.com.my/projects/klia-aeropolis",
+      "source_file": "pages/02_klia_aeropolis_d_n_klia_aeropolis.txt",
+      "source_name": "KLIA Aeropolis – Dự án KLIA Aeropolis"
     },
     "founded_year": {
-      "unit": "năm",
+      "confidence": "medium",
+      "snippet": "Pre-KLIA\n1998\n14.8 mil\nPassengers per annum",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "development_context": {
+      "confidence": "high",
+      "snippet": "aligned with the national master plans\nand blueprints with the aim to elevate Malaysia as a foreign direct\ninvestment magnet and a high-income nation.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "positioning": {
+      "confidence": "high",
+      "snippet": "KLIA Aeropolis - Airport City of the 21st Century",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "planning_concept": {
+      "confidence": "high",
+      "snippet": "KLIA Aeropolis is designed to be a holistic airport city\ndevelopment spanning across approximately 1,600 acres,\nwith the potential of growing up to 8,500 acres.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "cornerstones": {
+      "confidence": "high",
+      "snippet": "concentrating on 3 core clusters at present namely Air Cargo and Logistics, Aerospace and Aviation, and MICE and Leisure.",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "subzones": {
+      "confidence": "high",
+      "snippet": "Business Park\nAerospace Park\nLogistics Park\nCainiao Aeropolis eWTP Hub\nLeisure & Recreational\nAirport Central\nCainiao Aeropolis eWTP Hub (eHub)\nKLIA Cargo Village",
+      "source": "S02",
+      "source_url": "https://www.aeropolis.com.my/projects/klia-aeropolis",
+      "source_file": "pages/02_klia_aeropolis_d_n_klia_aeropolis.txt",
+      "source_name": "KLIA Aeropolis – Dự án KLIA Aeropolis"
+    },
+    "passengers_million": {
+      "confidence": "high",
+      "snippet": "Statistics (2025)\nPassengers\n63,121,653 (\n9.68%)",
+      "source": "S07",
       "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-      "source_file": "07_wikipedia_kuala_lumpur_international_airport.txt",
-      "snippet": "Main Terminal Building 1 & Contact Pier) 27 June 1998",
-      "confidence": "high"
+      "source_file": "pages/07_wikipedia_kuala_lumpur_international_airport.txt",
+      "source_name": "Wikipedia – Kuala Lumpur International Airport"
+    },
+    "cargo_million_tonnes": {
+      "confidence": "high",
+      "snippet": "Cargo (tonnes)\n638,910 (\n24.42%)",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
+      "source_file": "pages/07_wikipedia_kuala_lumpur_international_airport.txt",
+      "source_name": "Wikipedia – Kuala Lumpur International Airport"
+    },
+    "air_movements": {
+      "confidence": "high",
+      "snippet": "Aircraft movements\n408,154 (\n10.58%)",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
+      "source_file": "pages/07_wikipedia_kuala_lumpur_international_airport.txt",
+      "source_name": "Wikipedia – Kuala Lumpur International Airport"
+    },
+    "investor_governance": {
+      "confidence": "medium",
+      "snippet": "Type\nPublicly traded\nstate-owned enterprise\n... Parent\nKhazanah Nasional",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/Malaysia_Airports_Holdings",
+      "source_file": "pages/11_wikipedia_malaysia_airports_holdings.txt",
+      "source_name": "Wikipedia – Malaysia Airports Holdings"
+    },
+    "gov_led_ratio_pct": {
+      "confidence": "low",
+      "snippet": "Local institutional investors [Khazanah\nNasional Berhad, Permodalan Nasional\nBerhad, Employees Provident Fund\n(EPF)]: ~44%",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "private_ratio_pct": {
+      "confidence": "low",
+      "snippet": "•\t Local investors: ~16%\n•\t Foreign investors: ~40%",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
     },
     "lead_developer": {
+      "confidence": "high",
+      "snippet": "Aeropolis is the integrated and synergistic off-terminal real estate development and solutions by Malaysia Airports Holdings Berhad",
+      "source": "S01",
       "source_url": "https://www.aeropolis.com.my/",
-      "source_file": "01_klia_aeropolis_trang_ch_nh_th_c.txt",
-      "snippet": "Malaysia Airports",
-      "confidence": "high"
-    },
-    "economic_zone_name": {
-      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
-      "source_file": "06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
-      "snippet": "Digital Free Trade Zone",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-        "https://www.aeropolis.com.my/",
-        "https://www.aeropolis.com.my/projects/klia-aeropolis",
-        "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://www.aeropolis.com.my/clusters/mice-leisure/overview",
-        "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-        "https://www.aeropolis.com.my/",
-        "https://www.aeropolis.com.my/clusters/mice-leisure/overview"
-      ],
-      "confidence": "high"
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-        "https://www.aeropolis.com.my/",
-        "https://www.aeropolis.com.my/projects/klia-aeropolis"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "•  Business campuses/ offices •  Hotels/service apartments •  Destination-based retail formats (power centres, bulky goods) ... •  Aerospace manufacturing and components MRO •  Global mono-brand/ SME warehousing",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "commercial_re": {
+      "confidence": "high",
+      "snippet": "HIGH-TECH INDUSTRIAL PARKS ... •  Business campuses/ offices •  Hotels/service apartments •  Destination-based retail formats (power centres, bulky goods)",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "economic_zone_name": {
+      "confidence": "high",
+      "snippet": "Digital Free Trade Zone (DFTZ) A joint venture with Cainiao Network of Alibaba Group, that is expected to double the cargo volume and freighter movement by 2028.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "basic_amenities": {
+      "confidence": "medium",
+      "snippet": "The future of city living is one that is balanced. For leisure and recreation, a sizeable area is dedicated for a themed entertainment park and a wellness village. Work hard, play hard.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "highlight_amenities": {
+      "confidence": "medium",
+      "snippet": "Like every world-class city, KLIA Aeropolis will boast a grand central station, where rail travel meets air travel. ... a leading-edge ASEAN pavilion, an indoor arena, and a convention centre will be opened",
+      "source": "S05",
+      "source_url": "https://www.aeropolis.com.my/clusters/mice-leisure/overview",
+      "source_file": "pages/05_klia_aeropolis_c_m_mice_leisure.txt",
+      "source_name": "KLIA Aeropolis – Cụm MICE & Leisure"
+    },
+    "cvp_price": {
+      "confidence": "high",
+      "snippet": "EASE OF DOING BUSINESS •\t Smart partnership with Malaysia Airports – lease model arrangements, joint ventures •\t Business facilitation services: Government liaison, trade",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "sales_scheme": {
+      "confidence": "high",
+      "snippet": "•\t Smart partnership with Malaysia Airports – lease model arrangements, joint ventures",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-        "https://www.aeropolis.com.my/clusters/air-cargo-logistics/overview",
-        "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Having close ties to various ministries and government agencies is part of a smart partnership strategy, enabling business owners to easily set up their base here.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "smart_city": {
+      "confidence": "medium",
+      "snippet": "Key Features High-tech and smart industries Championing “Industry 4.0” Access to end-to-end logistics solutions High-spec build-to-suit facilities",
+      "source": "S04",
+      "source_url": "https://www.aeropolis.com.my/clusters/aerospace-aviation/aerospace-park",
+      "source_file": "pages/04_klia_aeropolis_aerospace_park.txt",
+      "source_name": "KLIA Aeropolis – Aerospace Park"
+    },
+    "has_smart_city": {
+      "confidence": "medium",
+      "snippet": "High-tech and smart industries Championing “Industry 4.0”",
+      "source": "S04",
+      "source_url": "https://www.aeropolis.com.my/clusters/aerospace-aviation/aerospace-park",
+      "source_file": "pages/04_klia_aeropolis_aerospace_park.txt",
+      "source_name": "KLIA Aeropolis – Aerospace Park"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://www.aeropolis.com.my/",
-        "https://www.aeropolis.com.my/clusters/mice-leisure/overview",
-        "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "The MICE (Meetings, Incentives, Conferences and Exhibitions) & Leisure sector of KLIA Aeropolis takes the role of expanding KLIA’s service portfolio to provide passengers a richer business and entertainment experience.",
+      "source": "S05",
+      "source_url": "https://www.aeropolis.com.my/clusters/mice-leisure/overview",
+      "source_file": "pages/05_klia_aeropolis_c_m_mice_leisure.txt",
+      "source_name": "KLIA Aeropolis – Cụm MICE & Leisure"
+    },
+    "experience_desc": {
+      "confidence": "high",
+      "snippet": "With integrated designs, KLIA Aeropolis is anticipated to be the city that incorporates a unique blend of business and leisure—encouraging the posibility of an airport to be a preferred destination by itself.",
+      "source": "S05",
+      "source_url": "https://www.aeropolis.com.my/clusters/mice-leisure/overview",
+      "source_file": "pages/05_klia_aeropolis_c_m_mice_leisure.txt",
+      "source_name": "KLIA Aeropolis – Cụm MICE & Leisure"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-        "https://www.aeropolis.com.my/clusters/air-cargo-logistics/overview"
-      ],
-      "source_files": [
-        "03_klia_aeropolis_c_m_air_cargo_logistics.txt",
-        "07_wikipedia_kuala_lumpur_international_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "By Road • Connected via 5 major expressways* • Bonded trucking services available – KLIA to Thailand : 390 mins (580km) – KLIA to Singapore : 210 mins (350km) – KLIA to Port Klang : 60 mins (67km)",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "Integrated air, road, and rail networks serve as a direct connection to major regional economies. Located within close proximity to core business districts and surrounded by fast-growing airport city development.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "connection_modes": {
+      "confidence": "medium",
+      "snippet": "Malaysia Airports' vision for KLIA Aeropolis through the Air Cargo & Logistics cluster, is to develop an integrated air cargo network consisting of air, sea and land connectivity.",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "metro_lines": {
+      "confidence": "low",
+      "snippet": "The KLIA Transit stops at all stations along the line, whereas the KLIA Ekspres runs as a direct non-stop express service between KL Sentral and KLIA Terminal 1 and 2.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/KLIA_Ekspres",
+      "source_file": "pages/08_wikipedia_klia_ekspres.txt",
+      "source_name": "Wikipedia – KLIA Ekspres"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport"
-      ],
-      "source_files": [
-        "07_wikipedia_kuala_lumpur_international_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "KLIA Ekspres operates between 05:00 and 00:00 daily. Trains depart every 20 minutes on all days, taking 30 minutes to travel between KL Sentral and KLIA Terminal 1",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/KLIA_Ekspres",
+      "source_file": "pages/08_wikipedia_klia_ekspres.txt",
+      "source_name": "Wikipedia – KLIA Ekspres"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport",
-        "https://www.aeropolis.com.my/",
-        "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Aeropolis is the integrated and synergistic off-terminal real estate development and solutions by Malaysia Airports Holdings Berhad with a focus on key economic growth activities aligned to national blueprints",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
     },
-    "sustainability": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Kuala_Lumpur_International_Airport"
-      ],
-      "confidence": "high"
+    "brand_desc": {
+      "confidence": "high",
+      "snippet": "“The 20th century was about cities building airports. The 21st century will be about airports building cities.” John D. Kasarda",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "brand_partners": {
+      "confidence": "medium",
+      "snippet": "•\t Within Subang Airport: Global aerospace players e.g. Airbus Helicopters, GE Aviation, Spirit Aerosystems, Senior Aerospace Upeca",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
+    },
+    "vision_label": {
+      "confidence": "high",
+      "snippet": "KLIA Aeropolis - Airport City of the 21st Century",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "vision_qualities": {
+      "confidence": "high",
+      "snippet": "High productivity High value investments Job creation Complete value chain",
+      "source": "S01",
+      "source_url": "https://www.aeropolis.com.my/",
+      "source_file": "pages/01_klia_aeropolis_trang_ch_nh_th_c.txt",
+      "source_name": "KLIA Aeropolis – Trang chính thức"
+    },
+    "aviation_policy": {
+      "confidence": "high",
+      "snippet": "Malaysia is poised to become the preferred logistics gateway to Asia in line with the Logistics and Trade Facilitation Master Plan (2015 – 2020) led by the Ministry of Transport.",
+      "source": "S03",
+      "source_url": "https://www.aeropolis.com.my/clusters/air-cargo-logistics/overview",
+      "source_file": "pages/03_klia_aeropolis_c_m_air_cargo_logistics.txt",
+      "source_name": "KLIA Aeropolis – Cụm Air Cargo & Logistics"
+    },
+    "logistics_park_name": {
+      "confidence": "high",
+      "snippet": "Development\nCainiao Aeropolis eWTP Hub (eHub)\nKLIA Cargo Village\nLogistics Park\nAeropolis Industrial Zone @ Business Park",
+      "source": "S03",
+      "source_url": "https://www.aeropolis.com.my/clusters/air-cargo-logistics/overview",
+      "source_file": "pages/03_klia_aeropolis_c_m_air_cargo_logistics.txt",
+      "source_name": "KLIA Aeropolis – Cụm Air Cargo & Logistics"
+    },
+    "trade_park_name": {
+      "confidence": "medium",
+      "snippet": "Digital Free Trade Zone (DFTZ)\nA joint venture with Cainiao Network of\nAlibaba Group",
+      "source": "S06",
+      "source_url": "https://www.aeropolis.com.my/sites/default/files/KLIA%20Aeropolis%20Brochure.pdf",
+      "source_file": "pages/06_klia_aeropolis_brochure_t_ng_quan_pdf.txt",
+      "source_name": "KLIA Aeropolis – Brochure tổng quan (PDF)"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu không nêu khoảng cách cụ thể (km) từ KLIA Aeropolis tới trung tâm Kuala Lumpur",
+    "airport_build_period": "Tài liệu không nêu năm khởi công – hoàn thành xây dựng sân bay",
+    "urban_build_period": "Tài liệu không nêu mốc thời gian bắt đầu phát triển khu đô thị KLIA Aeropolis",
+    "destinations": "Tài liệu chỉ nêu số điểm đến theo từng khu vực (7 Oceania, 29 China, 40 ASEAN), không có tổng số điểm đến trực tiếp",
+    "airlines": "Tài liệu chỉ nêu số hãng bay theo từng thị trường (3 Oceania, 25 China, 30 ASEAN), không có tổng số hãng khai thác",
+    "transfer_pct": "Tài liệu không nêu tỷ lệ hành khách transfer",
+    "airport_area_ha": "Tài liệu chỉ nêu diện tích Advance Cargo Centre (44 ha), không nêu tổng diện tích khuôn viên sân bay",
+    "employees": "Tài liệu chỉ có mốc 'Jobs' rời rạc trong dòng thời gian (1.000 / 4.000 / >19.000) không rõ thuộc thời điểm và phạm vi nào; số 10.000 nhân sự là của tập đoàn MAHB toàn quốc, không phải trong khu",
+    "num_companies_airport": "Tài liệu chỉ ghi 'Operators' theo mốc thời gian không rõ phạm vi (60+, >90 cho LTSAAS Regeneration 2025 and beyond), không phải số doanh nghiệp thực tế tại KLIA Aeropolis",
+    "num_companies_realestate": "Tài liệu không nêu số doanh nghiệp thuê bất động sản trong khu",
+    "num_office_buildings": "Tài liệu không nêu số toà nhà văn phòng trong KLIA Aeropolis",
+    "jobs_created": "Các con số việc làm trong tài liệu gắn với mốc tương lai của LTSAAS Regeneration ('2025 and beyond', >19,000 Jobs) và không tách bạch cho KLIA Aeropolis, không đủ căn cứ",
+    "total_investment_usd": "Tài liệu không nêu tổng vốn đầu tư của KLIA Aeropolis (RM9.2 tỷ là tổng vốn chủ sở hữu của MAHB, RM13.9 tỷ là vốn hoá thị trường)",
+    "economic_zone_year": "Tài liệu chỉ nêu tên Digital Free Trade Zone (DFTZ) và liên doanh với Cainiao/Alibaba, không nêu năm thành lập.",
+    "residential_product_desc": "KLIA Aeropolis định vị theo 3 cụm kinh doanh (air cargo & logistics, aerospace & aviation, MICE & leisure); tài liệu chỉ nhắc 'hotels/service apartments' trong Business Park, không mô tả sản phẩm nhà ở để bán.",
+    "residential_highrise_pct": "Tài liệu không nêu tỷ lệ sản phẩm nhà ở cao tầng.",
+    "residential_lowrise_pct": "Tài liệu không nêu tỷ lệ sản phẩm nhà ở thấp tầng.",
+    "residential_land_pct": "Tài liệu không nêu tỷ lệ đất nền/nhà liền thổ.",
+    "office_rent_eur_m2_year": "Tài liệu không có bất kỳ dòng chào giá thuê văn phòng nào (không có 'Starting at/From').",
+    "cvp_price_note": "Tài liệu không nêu chú thích đơn vị hay điều kiện giá.",
+    "price_vs_reference": "Tài liệu không so sánh mặt bằng giá với thành phố tham chiếu nào.",
+    "living_fee_usd_per_m2_month": "Tài liệu không nêu phí quản lý/duy trì.",
+    "has_urban_service_fee": "Không có bằng chứng về phí dịch vụ đô thị trong tài liệu.",
+    "airport_privilege": "Tài liệu chỉ nêu dịch vụ Fast Track thương mại chung của KLIA cho hành khách, không có bằng chứng ưu đãi riêng cho cư dân/doanh nghiệp trong KĐT.",
+    "has_airport_privilege": "Không có bằng chứng về đặc quyền sân bay dành riêng cho cư dân/doanh nghiệp trong khu.",
+    "sustainability": "BASELINE_SAI: giá trị 'green' không có bằng chứng trong tài liệu; không tìm thấy cam kết môi trường hay chứng chỉ xanh nào cho KLIA Aeropolis.",
+    "logistics_park_ha": "Tài liệu chỉ nêu tổng quỹ đất >1,000 acres cho cả Aerospace Park & Logistics Park, không tách riêng diện tích Logistics Park",
+    "trade_park_ha": "Tài liệu không nêu diện tích của Digital Free Trade Zone (DFTZ)"
+  },
+  "_meta": {
+    "case": "kuala_lumpur",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:29:01+0700",
+    "fields_total": 75,
+    "fields_filled": 47,
+    "coverage_pct": 62.7,
+    "high_confidence": 29,
+    "from_baseline": 3,
+    "dossier": {
+      "pages_total": 14,
+      "pages_kept": 14,
+      "raw_chars": 773160,
+      "dossier_chars": 115237
+    },
+    "warnings": [
+      "sustainability: bỏ giá trị baseline ['green'] — BASELINE_SAI: giá trị 'green' không có bằng chứng trong tài liệu; không tìm thấy cam kết môi trường hay chứng chỉ xanh n"
+    ],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "**KLIA Aeropolis**, còn được gọi là **KLIA Aeropolis / Airport City Sepang**, là khu đô thị sân bay tại **Malaysia**, gắn với **Kuala Lumpur International Airport** và lấy **Kuala Lumpur – Sepang** làm thành phố tham chiếu. Đây không phải là dự án mục tiêu của hồ sơ, và thông tin chính thức được công bố tại **https://www.aeropolis.com.my**.",
+    "location": "Khu đô thị nằm quanh sân bay **Kuala Lumpur International Airport** thuộc huyện **Sepang**, bang **Selangor** ở phía nam **Kuala Lumpur**, được phục vụ bởi mạng lưới cao tốc và có kết nối trực tiếp tới cảng biển, tất cả trong bán kính **1 giờ** lái xe. Được thành lập từ năm **1998** trên quy mô **100,0 km²**, dự án là mảng phát triển bất động sản ngoài nhà ga của **Malaysia Airports** gắn với các quy hoạch và chiến lược quốc gia như **Logistics and Trade Facilitation Master Plan**, **National e-Commerce Strategic Roadmap 2020**, **National Key Economic Area** và **Kuala Lumpur Tourism Master Plan**, nhằm đưa **Malaysia** thành nam châm hút **FDI** và quốc gia thu nhập cao.",
+    "positioning": "Dự án được định vị là **Thành phố sân bay của thế kỷ 21** (**Airport City of the 21st Century**) – cửa ngõ logistics ưu tiên của châu Á và điểm đến **MICE** & nghỉ dưỡng hàng đầu. Quy hoạch tổng thể thành phố sân bay tổng hoà trải rộng khoảng **1.600 acres**, có tiềm năng mở rộng lên **8.500 acres** trong phạm vi **100 km²**, gồm các khu chức năng bổ trợ cho làm việc – giải trí, dẫn dắt bởi ba cụm cốt lõi và hạ tầng logistics đầu-cuối liền mạch. Ba trụ cột phát triển gồm hàng hoá hàng không & logistics/kho vận (**Air Cargo & Logistics**), hàng không vũ trụ & hàng không (**Aerospace & Aviation**) và **MICE & Leisure**. Các phân khu bao gồm **Business Park**, **Aerospace Park**, **Logistics Park**, **Cainiao Aeropolis eWTP Hub (eHub)**, **Leisure & Recreational**, **Airport Central**, **KLIA Cargo Village**, **Aeropolis Industrial Zone @ Business Park**, **MRO Ecosystem @ ASZ1**, **Mitsui Outlet Park** và **gateway@klia2**.",
+    "kpi": "Về quy mô khai thác, sân bay phục vụ **63,12 triệu** khách mỗi năm và xử lý **0,64 triệu tấn** hàng hoá mỗi năm, với **408.154** lượt cất hạ cánh mỗi năm.",
+    "investment": "Dự án do **Malaysia Airports Holdings Berhad (MAHB)** – doanh nghiệp nhà nước niêm yết trên **Bursa Malaysia** với công ty mẹ là **Khazanah Nasional** – phát triển và vận hành, trong đó **Aeropolis** là mảng phát triển bất động sản ngoài nhà ga tích hợp của **MAHB**, phối hợp cùng các bộ ngành và cơ quan như **MIDA** và **Invest Selangor**. Bên dẫn dắt là **Malaysia Airports Holdings Berhad (Malaysia Airports)**, với tỷ lệ nhà nước **44,0 %** và tỷ lệ tư nhân **56,0 %**.",
+    "product": "Danh mục sản phẩm chào bán gồm kho vận/logistics hàng không (**Logistics Park**, **KLIA Cargo Village**), công nghiệp công nghệ cao, sản xuất hàng không vũ trụ và **MRO** tại **Aerospace Park**, kho bãi cho thương hiệu toàn cầu và **SME**, văn phòng/business campus, khách sạn và căn hộ dịch vụ, bán lẻ theo mô hình điểm đến (**power centres**, bulky goods) cùng không gian hội họp và hội nghị. Bất động sản thương mại trải từ văn phòng, khách sạn, bán lẻ dạng outlet mall và power centres, kho vận và trung tâm phân phối vùng (**RDC**), nhà xưởng công nghiệp công nghệ cao, cơ sở **MRO**/hangar hàng không đến không gian hội nghị – triển lãm (**MICE**), gắn với đặc khu **Digital Free Trade Zone (DFTZ)**. Hệ tiện ích cơ bản bao gồm bán lẻ tại **Mitsui Outlet Park KLIA** và **gateway@klia2**, khách sạn và căn hộ dịch vụ, không gian họp và hội nghị, công viên giải trí theo chủ đề, **wellness village** và trung tâm đào tạo & học viện kỹ thuật. Điểm nhấn là **Airport Central** – grand central station nơi đường sắt gặp hàng không, **ASEAN pavilion**, indoor arena, convention centre, **Mitsui Outlet Park KLIA**, **gateway@klia2**, **Aerospace Park** và **Sepang International Circuit**.",
+    "price": "Nguồn thu được tổ chức theo mô hình hợp tác **B2B** với **Malaysia Airports**, gồm cho thuê đất và mặt bằng theo **lease model arrangements** cùng các liên doanh (**joint ventures**), kèm dịch vụ hỗ trợ doanh nghiệp. Cơ chế khai thác cho phép thuê đất/nhà xưởng theo mô hình lease hoặc lập liên doanh, với công trình **build-to-suit** tiêu chuẩn cao và quy mô lô đất linh hoạt, có thể mở rộng.",
+    "service": "Nhà đầu tư được cung cấp dịch vụ hỗ trợ doanh nghiệp (**business facilitation**) như liên hệ các bộ ngành và hỗ trợ thương mại, **Free Commercial Zone** tại **Aeronautical Support Zone 1**, thông quan biên giới đầu-cuối tốc độ cao trong **Digital Free Trade Zone (DFTZ)**, giải pháp logistics đầu-cuối, dịch vụ vận tải **bonded trucking** và cơ sở **build-to-suit** theo nhu cầu. Định hướng công nghệ cao và 'thông minh' lấy **Industry 4.0** làm trụ cột, với cơ sở xử lý hàng hoá tự động hoá và số hoá, còn sân bay được vận hành bằng **Total Airport Management Systems (TAMS)** gồm hơn **40** hệ thống.",
+    "experience": "Trải nghiệm tại đây gồm **MICE** (hội họp, khen thưởng, hội nghị, triển lãm), convention centre, indoor arena, bán lẻ outlet tại **Mitsui Outlet Park KLIA**, công viên giải trí theo chủ đề, **wellness village** và du lịch thể thao tại **Sepang International Circuit**. Cụm **MICE & Leisure** mở rộng danh mục dịch vụ của **KLIA** để hành khách có trải nghiệm kinh doanh và giải trí phong phú hơn; thiết kế tích hợp pha trộn công việc và nghỉ dưỡng, biến sân bay thành điểm đến tự thân, với ga trung tâm nơi đường sắt gặp hàng không, **ASEAN pavilion**, indoor arena và convention centre phục vụ cả khách du lịch lẫn khu vực.",
+    "convenience": "Khu đô thị kết nối **5** tuyến cao tốc chính và hơn **300 km** mạng đường sắt tích hợp khi hoàn chỉnh, tiếp cận trực tiếp cảng biển trong vòng **1 giờ** lái xe và hoạt động như hub vận tải tích hợp đa phương thức gồm hàng không, đường biển và đường bộ. Dịch vụ **bonded trucking** nối **KLIA** – **Port Klang** trong **60 phút** (**67 km**), **KLIA** – **Singapore** trong **210 phút** (**350 km**) và **KLIA** – **Thái Lan** trong **390 phút** (**580 km**), trong khi **KLIA Ekspres** đưa khách từ **KL Sentral** tới **KLIA Terminal 1** trong **30 phút**. Mạng lưới hàng không – đường bộ – đường sắt tích hợp kết nối trực tiếp tới các nền kinh tế lớn trong khu vực, nằm gần các khu trung tâm kinh doanh và hướng tới trở thành cửa ngõ phân phối chính của **ASEAN**. Các phương thức kết nối gồm đường hàng không, đường sắt (**KLIA Ekspres**/**KLIA Transit** – **ERL**), cao tốc/đường bộ, xe buýt với bến tại **KLIA** và **KLIA2** cùng đường biển qua **Port Klang**, với **2** tuyến metro và tuyến **Express Rail Link (ERL)** là tuyến số **6** thuộc **Klang Valley Integrated Transit System**, trong đó **KLIA Transit** dừng tại tất cả các ga trên tuyến.",
+    "brand": "Các thương hiệu chủ lực gồm **Malaysia Airports Holdings Berhad (MAHB)**, **Khazanah Nasional** với vai trò công ty mẹ của **MAHB**, **Cainiao Network – Alibaba Group**, **AirAsia** và **Malaysia Airlines / MASkargo**. Thương hiệu do **Malaysia Airports** xây dựng với định vị **'Airport City of the 21st Century'** – khu đô thị sân bay thế hệ mới; **KLIA Aeropolis** là dự án chủ lực trong tầm nhìn xây dựng các airport city thế kỷ **21** của **Malaysia Airports**, được truyền thông bằng luận điểm của **John D. Kasarda**: thế kỷ **20** là thành phố xây sân bay, thế kỷ **21** là sân bay xây thành phố. Hệ đối tác thương hiệu bao gồm **Cainiao Network (Alibaba Group)**, **Mitsui Outlet Park KLIA**, **WCT Holdings Berhad**, **ExecuJet**, **Airbus Helicopters**, **GE Aviation**, **Spirit Aerosystems**, **Senior Aerospace Upeca**, **AirAsia**, **Malaysia Airlines**, **MASkargo** và **Siemens**.",
+    "vision": "Tầm nhìn mang tên **Airport City of the 21st Century**, hướng tới năng suất cao, đầu tư giá trị cao, tạo việc làm và chuỗi giá trị hoàn chỉnh. Phát triển bám theo các quy hoạch và chính sách quốc gia gồm **Logistics and Trade Facilitation Master Plan (2015–2020)** do **Bộ Giao thông** chủ trì và **National e-Commerce Strategic Roadmap 2020**; cụm hàng không vũ trụ theo **Second National Aerospace Industry Blueprint** của **Bộ Thương mại Quốc tế và Công nghiệp**, còn cụm **MICE & Leisure** theo **National Key Economic Area** và **Kuala Lumpur Tourism Master Plan (2015–2025)**.",
+    "parks": "Khu chức năng chuyên biệt gồm khu logistics mang tên **Logistics Park** và khu thương mại – công nghiệp là **Digital Free Trade Zone (DFTZ)**."
   }
 }

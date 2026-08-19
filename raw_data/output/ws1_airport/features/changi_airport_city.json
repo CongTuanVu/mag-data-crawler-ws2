@@ -7,292 +7,715 @@
     "airport_name": "Singapore Changi Airport",
     "reference_city": "Singapore",
     "official_website": "https://www.changiairport.com",
-    "positioning": "Airport City / Air Hub",
-    "planning_concept": "the Changi East development project, which includes the building of a new Terminal 5 for Changi Airport.",
-    "cornerstones": null,
+    "location_desc": "Nằm tại Changi, đầu phía đông đảo Singapore; khu Changi East và Changi East Urban District (CEUD) nằm ngay cạnh Terminal 5, kề sân bay Changi và các phân khu Changi Business Park, Changi Airfreight Centre.",
+    "distance_to_city_km": null,
+    "area_km2": 10.8,
+    "airport_build_period": "1975-nay",
+    "urban_build_period": "1997-nay",
+    "founded_year": 1981,
+    "development_context": "Lưu lượng hành khách tại Changi được dự báo tăng 3–4% mỗi năm trong 20 năm tới, công suất hiện hữu sẽ đạt giới hạn vào cuối thập niên 2020; dự án Changi East là lời đáp cho tăng trưởng này nhằm giữ lợi thế cạnh tranh dài hạn của Changi và Singapore.",
+    "positioning": "Trung tâm hàng không (air hub) hàng đầu khu vực gắn với khu đô thị sân bay: Changi East Urban District là điểm đến kinh doanh và lifestyle sôi động",
+    "planning_concept": "Phát triển Changi East rộng 1.080 ha quanh Terminal 5 xây theo từng giai đoạn (modular), kết nối đa phương thức hàng không – đường bộ – đường biển, cùng Changi East Urban District (CEUD) ngay cửa ngõ T5 do Chính phủ dẫn dắt quy hoạch ý tưởng",
+    "cornerstones": [
+      "Phát triển air hub (Air Hub Development)",
+      "Vận hành và quản lý sân bay",
+      "Quản lý bán lẻ (Retail Management)",
+      "Hệ thống & công nghệ (Systems & Technology)",
+      "Phát triển hàng hoá/cargo"
+    ],
     "subzones": [
       "Changi East",
       "Terminal 5",
-      "Jewel",
+      "Changi East Urban District (CEUD)",
+      "Jewel Changi Airport",
       "Changi Business Park",
-      "Changi Airfreight Centre"
+      "Changi Airfreight Centre",
+      "Airport Logistics Park of Singapore (ALPS)",
+      "Changi North Industrial Park",
+      "Changi East Industrial Zone"
     ],
-    "area_km2": null,
-    "distance_to_city_km": null,
     "passengers_million": 69.98,
     "cargo_million_tonnes": 2.08,
     "air_movements": 374000,
     "destinations": 170,
     "airlines": 100,
     "transfer_pct": null,
-    "airport_area_ha": null,
-    "employees": null,
+    "airport_area_ha": 1200.0,
+    "employees": 60000,
     "num_companies_airport": null,
     "num_companies_realestate": null,
     "num_office_buildings": null,
     "jobs_created": null,
-    "founded_year": 1981,
     "total_investment_usd": null,
-    "development_context": "Passenger traffic at Singapore Changi Airport was an all-time high in 2025, with 69.98 million passenger movements recorded, a 3.4% increase compared to 2024.",
-    "location_desc": null,
-    "investor_governance": "Changi Airport Group (CAG)? Do reach out to us if you have enquiries pertaining to media, careers, advertising or whistleblowing.",
-    "lead_developer": "Changi Airport Group",
+    "investor_governance": "Sân bay Changi được doanh nghiệp hoá tháng 7/2009 và từ đó do Changi Airport Group (CAG) vận hành; CAG là pháp nhân thuộc sở hữu Chính phủ Singapore, do Bộ Tài chính (Ministry of Finance) nắm giữ. Dự án T5 do Bộ Giao thông (MOT), Cục Hàng không dân dụng Singapore (CAAS) và CAG cùng thực hiện; Chính phủ dẫn dắt quy hoạch ý tưởng Changi East Urban District.",
+    "gov_led_ratio_pct": null,
+    "private_ratio_pct": null,
+    "lead_developer": "Changi Airport Group (CAG)",
+    "cvp_product": [
+      "bán lẻ",
+      "ẩm thực/F&B",
+      "văn phòng (dự án văn phòng mới tại Terminal 3)",
+      "business park (không gian business park cho thuê tại Changi Business Park)",
+      "khách sạn",
+      "hàng hoá hàng không/cargo",
+      "logistics/kho vận (Changi Airfreight Centre, Airport Logistics Park)",
+      "công nghiệp (Changi North Industrial Park, Changi East Industrial Zone)",
+      "quảng cáo/nhượng quyền mặt bằng"
+    ],
+    "commercial_re": [
+      "bán lẻ",
+      "ẩm thực/F&B",
+      "văn phòng",
+      "business park",
+      "khách sạn",
+      "trung tâm thương mại (mall)",
+      "cargo/hàng hoá hàng không",
+      "logistics/kho vận",
+      "trung tâm hội chợ triển lãm (Singapore Expo)"
+    ],
     "economic_zone_name": null,
     "economic_zone_year": null,
-    "commercial_re": [
-      "retail",
-      "dining",
-      "office",
-      "business park",
-      "hotel",
-      "cargo",
-      "logistics"
-    ],
     "residential_product_desc": null,
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
     "basic_amenities": [
-      "retail",
-      "dining",
-      "gardens",
-      "lounge",
-      "cinema",
-      "swimming pool",
-      "playground"
+      "bán lẻ",
+      "ẩm thực/F&B",
+      "vườn/mảng xanh trong nhà (Forest Valley)",
+      "phòng chờ (Changi Lounge)",
+      "siêu thị (NTUC FairPrice)",
+      "khách sạn",
+      "tuyến đi bộ/đạp xe (Changi Airport Connector)",
+      "công viên (Canopy Park, Changi Beach Park)",
+      "trung tâm hội nghị triển lãm (Singapore Expo)"
     ],
     "highlight_amenities": [
-      "Rain Vortex",
+      "Rain Vortex (thác nước trong nhà cao 40m)",
       "Forest Valley",
       "Canopy Park",
-      "Jewel",
-      "Changi Experience Studio"
+      "Jewel Changi Airport",
+      "Kinetic Rain",
+      "Changi Airport Connector & Jurassic Mile",
+      "Singapore Expo",
+      "Garden of Harmony"
     ],
-    "logistics_park_ha": null,
-    "logistics_park_name": null,
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_product": [
-      "office",
-      "business park",
-      "retail",
-      "cargo",
-      "logistics",
-      "industrial"
-    ],
-    "cvp_price": null,
+    "cvp_price": "Thu tiền chủ yếu qua cho thuê mặt bằng (leasing) và nhượng quyền thương mại (concession) trong nhà ga, cho thuê bảng quảng cáo, cùng cho thuê không gian business park/thuê đất công nghiệp từ JTC theo giá thuê hằng tháng trên mỗi m².",
     "office_rent_eur_m2_year": null,
-    "cvp_price_note": null,
+    "cvp_price_note": "Giá thuê không gian business park tại 15 Changi Business Park Central 1 niêm yết theo tháng, từ 35 $/m²/tháng, diện tích sàn 110 – 1.113,58 m²; mọi mức giá đã bao gồm GST.",
+    "price_vs_reference": null,
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "Mô hình B2B: cho thuê mặt bằng bán lẻ/quảng cáo và hợp tác nhượng quyền với đối tác (leasing, advertising, đầu tư vào thương hiệu Changi); nhà đầu tư có thể thuê đất từ JTC Corporation để tự xây dựng cơ sở của mình.",
     "cvp_service": [
-      "transit",
-      "lounge",
-      "baggage",
-      "concierge"
+      "dịch vụ trung chuyển/transit",
+      "phòng chờ trả phí (Changi Lounge)",
+      "làm thủ tục sớm & bag-drop tự động (Jewel Early Check-in Lounge)",
+      "gửi hành lý 24/7 (baggage storage)",
+      "xe lăn tự hành hỗ trợ hành khách hạn chế vận động",
+      "hỗ trợ đặc biệt (Special Assistance Lanes)",
+      "Changi Experience Ambassadors (nhân viên chăm sóc khách lưu động)",
+      "ví điện tử Changi Pay & chương trình Changi Rewards",
+      "dịch vụ tư vấn/leasing & quảng cáo cho doanh nghiệp",
+      "shuttle bus miễn phí theo yêu cầu tới Changi Business Park"
     ],
+    "airport_privilege": "Không có ưu đãi riêng cho cư dân/doanh nghiệp trong khu; các tiện ích như phòng chờ Changi Lounge, gửi hành lý, check-in sớm tại Jewel đều là dịch vụ trả phí mở cho mọi hành khách, còn Changi Rewards là chương trình khách hàng thân thiết bán lẻ chung.",
+    "has_airport_privilege": false,
+    "smart_city": "Số hoá tập trung vào vận hành sân bay và trải nghiệm khách: hơn 360 cổng tự động (automated gates) tại khu đi/đến, cổng vệ tinh đầu tiên cho khai thác chuyến bay từ xa, xe lăn tự hành, ứng dụng iChangi HD cung cấp thông tin chuyến bay và bản đồ nhà ga thời gian thực, ví điện tử Changi Pay thanh toán QR không tiếp xúc, cùng bộ phận Systems & Technology của CAG; T5 sẽ có hệ thống quản lý toà nhà và năng lượng thông minh.",
+    "has_smart_city": true,
     "cvp_experience": [
-      "Rain Vortex",
-      "Canopy Park",
-      "gardens",
-      "cinema",
-      "retail",
-      "dining"
+      "Rain Vortex và Light & Music Showcase",
+      "Forest Valley với hai đường mòn thiên nhiên",
+      "Canopy Park (vườn và tiện ích giải trí trên tầng thượng)",
+      "Changi Experience Studio (trò chơi tương tác về nghề sân bay)",
+      "Garden of Harmony",
+      "mua sắm hơn 260 cửa hàng bán lẻ & F&B tại Jewel",
+      "Duplex Boulevard – cụm boutique trung – cao cấp",
+      "rạp chiếu phim/khu giải trí",
+      "Changi Airport Connector & Jurassic Mile (đường đạp xe, chạy bộ 3,5 km)",
+      "Kinetic Rain – tác phẩm điêu khắc chuyển động lớn nhất thế giới"
     ],
+    "experience_desc": "Jewel Changi Airport đón hơn 80 triệu lượt khách mỗi năm với tổ hợp điểm đến đa chiều gồm thác Rain Vortex biến thành show ánh sáng – âm nhạc mỗi tối, Forest Valley, Canopy Park, trải nghiệm tương tác tại Changi Experience Studio và Garden of Harmony; sân bay còn tổ chức các chiến dịch/sự kiện theo mùa như lễ hội bóng đá 2026 với phim mới, chiếu trận đấu miễn phí và hoạt động trên toàn sân bay.",
     "cvp_convenience": [
-      "some 100 airlines operate more than 7,300 weekly scheduled flights at Changi Airport, connecting Singapore to over 170 cities in 50 countries and territories worldwide.",
-      "connecting Singapore to over 170 cities in 50 countries and territories worldwide."
+      "khoảng 100 hãng bay khai thác hơn 7.300 chuyến/tuần, nối Singapore tới hơn 170 thành phố ở 50 quốc gia và vùng lãnh thổ",
+      "trung tâm giao thông mặt đất trong nhà ga T5 kết nối tàu, xe buýt, taxi",
+      "hệ thống người vận chuyển tự động (APM) nối T5 với T2 và Skytrain giữa T1–T2–T3",
+      "kết nối MRT trực tiếp tại ga Changi Airport (T2, T3)",
+      "trục đường mới Changi Southern Corridor nối T5 với Tanah Merah Coast Road, East Coast Parkway và Pan Island Expressway",
+      "chuyển tiếp hàng không – đường biển qua Tanah Merah Ferry Terminal",
+      "Changi Business Park cách PIE 3 phút, ECP 5 phút và gần Expo MRT",
+      "một máy bay cất/hạ cánh mỗi 80 giây"
     ],
+    "connectivity_desc": "Changi là một trong những trung tâm hàng không kết nối nhất châu Á, nối Singapore trực tiếp tới khoảng 170 thành phố toàn cầu với gần 100 hãng bay và hơn 7.300 chuyến/tuần; đây là sân bay quốc tế bận rộn thứ tư thế giới và nằm trong nhóm 10 trung tâm hàng hoá hàng không quốc tế bận rộn nhất. Về mặt đất, khu được phục vụ bởi MRT, xe buýt, taxi, hệ thống cao tốc PIE/ECP và trong tương lai là kết nối hàng không – đường biển qua Tanah Merah Ferry Terminal.",
+    "connection_modes": [
+      "hàng không",
+      "MRT/metro",
+      "xe buýt (công cộng, xuyên biên giới và shuttle miễn phí)",
+      "taxi",
+      "cao tốc (Pan Island Expressway, East Coast Parkway, Changi Southern Corridor)",
+      "phà (Tanah Merah Ferry Terminal, Changi Point Ferry Terminal)",
+      "Skytrain nội khu & automated people mover",
+      "đường đi bộ/xe đạp (Changi Airport Connector)"
+    ],
+    "metro_lines": 2,
     "rail_connections": [
-      "Thomson-East Coast Line will be extended to Terminal 5 to connect it directly to the city centre, and further northwards to the Johor Bahru-Singapore Rapid Transit System (RTS) Link terminal at Woodlands North."
+      "East–West Line (nhánh tàu con thoi Tanah Merah – Changi Airport, ga Changi Airport nối trực tiếp T2 và T3)",
+      "Thomson–East Coast Line kéo dài tới Terminal 5, nối thẳng vào trung tâm thành phố và lên phía bắc tới ga RTS Link Johor Bahru–Singapore ở Woodlands North",
+      "Cross Island Line dự kiến nối Terminal 5 với Punggol Digital District và Jurong Lake District, có ga Aviation Park phục vụ Changi Airfreight Centre và Changi East Industrial Zone",
+      "Downtown Line – ga Xilin phục vụ Changi Business Park",
+      "Expo MRT station phục vụ Changi Business Park"
     ],
     "cvp_brand": [
-      "Changi Airport Group",
-      "Jewel",
-      "JTC",
-      "CapitaLand"
+      "Changi Airport Group (CAG)",
+      "Jewel Changi Airport Trustee Pte Ltd",
+      "CapitaLand",
+      "JTC Corporation",
+      "Ministry of Transport (MOT)",
+      "Civil Aviation Authority of Singapore (CAAS)"
     ],
-    "vision_label": null,
-    "vision_qualities": null,
-    "aviation_policy": null,
+    "brand_desc": "Thương hiệu được xây trên định vị \"sân bay được vinh danh nhiều nhất thế giới\" với hơn 700 giải thưởng, trong đó 14 lần đoạt danh hiệu World's Best Airport của Skytrax, giải ASQ của Airports Council International và 37 năm liên tiếp là sân bay tốt nhất thế giới do Business Traveller (UK) bình chọn; Changi tự định vị là điểm đến phong cách sống chứ không chỉ là nhà ga, và mời gọi đối tác \"đầu tư vào thương hiệu Changi Airport\" qua cho thuê, quảng cáo và tư vấn.",
+    "brand_partners": [
+      "CapitaLand",
+      "Moshe Safdie",
+      "RSP Architects Planners & Engineers",
+      "Buro Happold Engineering",
+      "Lighting Planners Associates",
+      "Obayashi Corporation",
+      "YOTELAIR / Yotel",
+      "Crowne Plaza",
+      "Apple Store",
+      "adidas",
+      "Nike",
+      "Fila",
+      "New Balance",
+      "Pokémon Centre Singapore",
+      "A&W Restaurants",
+      "NTUC FairPrice",
+      "Shaw Theatres",
+      "SATS",
+      "dnata",
+      "Collins Aerospace",
+      "Singapore Airlines",
+      "Ascendas Land (Singapore) Pte Ltd",
+      "Frasers Centrepoint Limited",
+      "Nakano Corporation",
+      "Certis CISCO",
+      "Mott MacDonald Singapore",
+      "Surbana Jurong Consultants",
+      "DP Architects",
+      "Park Avenue Hotels & Suites",
+      "Singapore Expo"
+    ],
+    "vision_label": "Changi East",
+    "vision_qualities": [
+      "duy trì vị thế đầu mối hàng không hàng đầu khu vực và thế giới",
+      "kết nối đa phương thức hàng không – đường bộ – đường biển",
+      "xanh và bền vững (Green Mark Platinum Super Low Energy)",
+      "khả năng chống chịu về vận hành và khí hậu",
+      "thiết kế mô-đun, xây theo giai đoạn bám nhu cầu tăng trưởng",
+      "trải nghiệm hành khách vượt trội, sân bay được vinh danh nhiều nhất thế giới",
+      "duy trì lợi thế cạnh tranh dài hạn cho Singapore và các thế hệ tương lai"
+    ],
+    "aviation_policy": "Không có văn bản chính sách riêng được nêu tên; phát triển do Ministry of Transport (MOT), Civil Aviation Authority of Singapore (CAAS) và Changi Airport Group (CAG) cùng chủ trì, với dự án Changi East/Terminal 5 công bố lần đầu năm 2013 và việc doanh nghiệp hoá sân bay Changi từ 1/7/2009 (CAG tiếp quản từ CAAS).",
     "sustainability": [
-      "sustainability",
-      "solar",
-      "carbon",
-      "green"
+      "Green Mark Platinum Super Low Energy Building cho Terminal 5",
+      "một trong những hệ thống điện mặt trời áp mái lớn nhất Singapore (đủ điện cho khoảng 20.000 căn hộ HDB 4 phòng/năm)",
+      "Distributed District Cooling System để tăng hiệu quả năng lượng và giảm phát thải carbon",
+      "sẵn sàng sử dụng nhiên liệu thay thế, gồm Sustainable Aviation Fuel (SAF)",
+      "cấp điện và làm mát cố định mặt đất cho máy bay đỗ tại cửa ra",
+      "hệ thống quản lý toà nhà và năng lượng thông minh",
+      "công bố Sustainability Report thường niên (từ năm tài chính 2022 tích hợp trong Annual Report)"
     ],
-    "smart_city": null,
-    "airport_build_period": null,
-    "urban_build_period": null,
-    "brand_partners": null,
-    "connection_modes": null,
-    "metro_lines": null,
-    "airport_privilege": null,
-    "experience_desc": null,
-    "price_vs_reference": null,
-    "sales_scheme": null,
-    "_pages_used": 15
+    "logistics_park_name": "Airport Logistics Park of Singapore (ALPS)",
+    "logistics_park_ha": null,
+    "trade_park_name": "Changi Business Park",
+    "trade_park_ha": 71.07
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
-    "planning_concept": {
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "the Changi East development project, which includes the building of a new Terminal 5 for Changi Airport.",
-      "confidence": "high"
+    "aerotropolis": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
-    "subzones": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Changi_East",
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
-      ],
-      "confidence": "high"
+    "country": {
+      "confidence": "high",
+      "snippet": "The airport is managed by the Changi Airport Group, a corporate entity owned by the\nSingapore Government",
+      "source": "S09",
+      "source_url": "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
+      "source_file": "pages/09_wikipedia_singapore_changi_airport.txt",
+      "source_name": "Wikipedia – Singapore Changi Airport"
     },
-    "passengers_million": {
-      "unit": "triệu/năm",
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "69.98 million passenger movements",
-      "confidence": "high"
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm",
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "Airfreight throughput totalled 2.08 million tonnes",
-      "confidence": "high"
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "Since Singapore Changi Airport officially began commercial operations in 1981, its history has been marked by steady expansion",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
     },
-    "air_movements": {
-      "unit": "lượt/năm",
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "to 374,000 movements",
-      "confidence": "high"
+    "reference_city": {
+      "confidence": "high",
+      "snippet": "The complex and airport are located in\nChangi\n, at the eastern end of Singapore",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/Jewel_Changi_Airport",
+      "source_file": "pages/11_wikipedia_jewel_changi_airport.txt",
+      "source_name": "Wikipedia – Jewel Changi Airport"
     },
-    "destinations": {
-      "unit": "thành phố",
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "over 170 cities in 50 countries",
-      "confidence": "high"
+    "official_website": {
+      "confidence": "high",
+      "snippet": "url: https://www.changiairport.com/en/corporate.html",
+      "source": "S01",
+      "source_url": "https://www.changiairport.com/en/corporate.html",
+      "source_file": "pages/01_changi_airport_group_trang_doanh_nghi_p.txt",
+      "source_name": "Changi Airport Group – Trang doanh nghiệp"
     },
-    "airlines": {
-      "unit": "hãng",
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "some 100 airlines operate",
-      "confidence": "high"
+    "location_desc": {
+      "confidence": "medium",
+      "snippet": "The complex and airport are located in\nChangi\n, at the eastern end of Singapore, approximately",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/Jewel_Changi_Airport",
+      "source_file": "pages/11_wikipedia_jewel_changi_airport.txt",
+      "source_name": "Wikipedia – Jewel Changi Airport"
+    },
+    "area_km2": {
+      "confidence": "medium",
+      "snippet": "T5 will be located within the 1,080-hectare Changi East development that is almost as big as the land area of today’s Changi Airport.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "airport_build_period": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
+    },
+    "urban_build_period": {
+      "confidence": "medium",
+      "snippet": "Launched in July 1997, the 66-hectare or Changi Business Park is JTC Corporation's second business park",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_Business_Park",
+      "source_file": "pages/12_wikipedia_changi_business_park.txt",
+      "source_name": "Wikipedia – Changi Business Park"
     },
     "founded_year": {
-      "unit": "năm",
-      "source_url": "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
-      "source_file": "05_changi_our_story_l_ch_s.txt",
-      "snippet": "officially commenced operations in 1981",
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Changi Airport began its commercial operations in July 1981, with the opening of Terminal 1.",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
     },
     "development_context": {
-      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
-      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
-      "snippet": "Passenger traffic at Singapore Changi Airport was an all-time high in 2025, with 69.98 million passenger movements recorded, a 3.4% increase compared to 2024.",
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Passenger traffic at Changi Airport is expected to grow by 3–4% every year for the next 20 years. At this rate, current airport capacity will be reached by the late 2020s.The Changi East development is a response",
+      "source": "S05",
+      "source_url": "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+      "source_file": "pages/05_changi_our_story_l_ch_s.txt",
+      "source_name": "Changi – Our Story (lịch sử)"
+    },
+    "positioning": {
+      "confidence": "medium",
+      "snippet": "the additional capacity from T5 will strengthen Changi Airport’s position as a leading air hub for the region and beyond",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "planning_concept": {
+      "confidence": "medium",
+      "snippet": "Located at the doorstep of T5, the Changi East Urban District (CEUD) will serve as a vibrant business and lifestyle destination, providing new spaces for Singaporeans to connect, work and play.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "cornerstones": {
+      "confidence": "medium",
+      "snippet": "What We Do\nAir Hub Development ... We manage the operational needs of Changi and Seletar Airports. ... Retail Management ... Systems & Technology",
+      "source": "S01",
+      "source_url": "https://www.changiairport.com/en/corporate.html",
+      "source_file": "pages/01_changi_airport_group_trang_doanh_nghi_p.txt",
+      "source_name": "Changi Airport Group – Trang doanh nghiệp"
+    },
+    "subzones": {
+      "confidence": "medium",
+      "snippet": "The Changi Airfreight Centre (formerly known as Airport Cargo Complex) and the\nAirport Logistics Park\n(ALPS) Terminal are two main facilities",
+      "source": "S10",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_East",
+      "source_file": "pages/10_wikipedia_changi_east.txt",
+      "source_name": "Wikipedia – Changi East"
+    },
+    "passengers_million": {
+      "confidence": "high",
+      "snippet": "Changi Airport served 69.98 million passengers and handled 374,000 aircraft movements in 2025",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "cargo_million_tonnes": {
+      "confidence": "high",
+      "snippet": "Changi Airport handled 2.08 million tonnes of cargo in 2025.",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "air_movements": {
+      "confidence": "high",
+      "snippet": "Changi Airport served 69.98 million passengers and handled 374,000 aircraft movements in 2025",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "destinations": {
+      "confidence": "high",
+      "snippet": "100 airlines operate out of Changi Airport, serving about 170 destinations across close to 50 countries.",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "airlines": {
+      "confidence": "high",
+      "snippet": "100 airlines operate out of Changi Airport, serving about 170 destinations across close to 50 countries.",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "airport_area_ha": {
+      "confidence": "high",
+      "snippet": "Changi Airport sits on over 1,200 hectares of land, including 870 hectares that were reclaimed from the sea.",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "employees": {
+      "confidence": "high",
+      "snippet": "The Changi Airport community comprises 60,000 staff working across the terminals and airside.",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
     },
     "investor_governance": {
+      "confidence": "high",
+      "snippet": "Changi Airport was corporatised in July 2009 and has since been operated by Changi Airport Group (CAG).",
+      "source": "S02",
       "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
-      "source_file": "02_changi_fact_sheet_s_n_bay.txt",
-      "snippet": "Changi Airport Group (CAG)? Do reach out to us if you have enquiries pertaining to media, careers, advertising or whistleblowing.",
-      "confidence": "high"
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
     },
     "lead_developer": {
-      "source_url": "https://www.changiairport.com/en/corporate.html",
-      "source_file": "01_changi_airport_group_trang_doanh_nghi_p.txt",
-      "snippet": "Changi Airport Group",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Changi_East",
-        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Jewel_Changi_Airport",
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Changi Airport was corporatised in July 2009 and has since been operated by Changi Airport Group (CAG).",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Changi_East",
-        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Leasing Opportunities\nFind out how we can help your business reach international audiences.\nAdvertising Opportunities\nShowcase your brand at the world’s most awarded airport.",
+      "source": "S01",
+      "source_url": "https://www.changiairport.com/en/corporate.html",
+      "source_file": "pages/01_changi_airport_group_trang_doanh_nghi_p.txt",
+      "source_name": "Changi Airport Group – Trang doanh nghiệp"
+    },
+    "commercial_re": {
+      "confidence": "medium",
+      "snippet": "Completed in 2012, a large area of 71.07-hectare Changi Business Park would open as a mixed-use development project. Comprising a retail shopping mall, office building, and hotel building",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_Business_Park",
+      "source_file": "pages/12_wikipedia_changi_business_park.txt",
+      "source_name": "Wikipedia – Changi Business Park"
+    },
+    "basic_amenities": {
+      "confidence": "medium",
+      "snippet": "Changi Airport has around 300 retail and 140 food and beverage outlets in the transit and public areas across its terminals",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "highlight_amenities": {
+      "confidence": "high",
+      "snippet": "At the heart of the complex stands the breathtaking 40m-high Rain Vortex and the world’s tallest indoor waterfall.",
+      "source": "S08",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
+      "source_file": "pages/08_changi_fact_sheet_jewel.txt",
+      "source_name": "Changi – Fact Sheet Jewel"
+    },
+    "cvp_price": {
+      "confidence": "medium",
+      "snippet": "Total Monthly Rent\nFrom $35 per sqm/mth",
+      "source": "S13",
+      "source_url": "https://www.jtc.gov.sg/find-space/changi-business-park",
+      "source_file": "pages/13_jtc_changi_business_park.txt",
+      "source_name": "JTC – Changi Business Park"
+    },
+    "cvp_price_note": {
+      "confidence": "high",
+      "snippet": "Total Monthly Rent\nFrom $35 per sqm/mth\nUnit Floor Size\n110 - 1,113.58 sqm\nAvailability\nEnquire about availability\nAll rates quoted are inclusive of GST.",
+      "source": "S13",
+      "source_url": "https://www.jtc.gov.sg/find-space/changi-business-park",
+      "source_file": "pages/13_jtc_changi_business_park.txt",
+      "source_name": "JTC – Changi Business Park"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "Investors can lease land sites from JTC Corporation to construct their facilities.",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_Business_Park",
+      "source_file": "pages/12_wikipedia_changi_business_park.txt",
+      "source_name": "Wikipedia – Changi Business Park"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
-        "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "The Jewel Early Check-in Lounge has both manned check-in counters and automated kiosks, as well as automated bag-drop machines.",
+      "source": "S08",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
+      "source_file": "pages/08_changi_fact_sheet_jewel.txt",
+      "source_name": "Changi – Fact Sheet Jewel"
+    },
+    "airport_privilege": {
+      "confidence": "low",
+      "snippet": "The pay-per-use Changi Lounge offers a comfortable environment to rest, relax or work.",
+      "source": "S08",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
+      "source_file": "pages/08_changi_fact_sheet_jewel.txt",
+      "source_name": "Changi – Fact Sheet Jewel"
+    },
+    "has_airport_privilege": {
+      "confidence": "low",
+      "snippet": "The baggage storage service lets travellers explore Jewel luggage-free, enhancing convenience and comfort. Available 24 hours a day, this paid service ensures visitors can enjoy the destination at their own pace.",
+      "source": "S08",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
+      "source_file": "pages/08_changi_fact_sheet_jewel.txt",
+      "source_name": "Changi – Fact Sheet Jewel"
+    },
+    "smart_city": {
+      "confidence": "medium",
+      "snippet": "The airport has over 360 automated gates at Departure and Arrival that are accessible to all travellers, including 64 Special Assistance Lanes (SALs)",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "has_smart_city": {
+      "confidence": "medium",
+      "snippet": "The iChangi HD app is launched to provide passengers with real-time access to flight details, terminal maps, and information about airport offerings.",
+      "source": "S05",
+      "source_url": "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+      "source_file": "pages/05_changi_our_story_l_ch_s.txt",
+      "source_name": "Changi – Our Story (lịch sử)"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Jewel_Changi_Airport",
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "One of Jewel’s centrepiece attractions is the Forest Valley, a four-storey indoor landscape filled with thousands of trees and plants. Two nature trails wind through the space, rising 30m",
+      "source": "S08",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
+      "source_file": "pages/08_changi_fact_sheet_jewel.txt",
+      "source_name": "Changi – Fact Sheet Jewel"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "Changi Airport kicks off the 2026 football celebrations with new film, free match screenings, and airport-wide activities",
+      "source": "S01",
+      "source_url": "https://www.changiairport.com/en/corporate.html",
+      "source_file": "pages/01_changi_airport_group_trang_doanh_nghi_p.txt",
+      "source_name": "Changi Airport Group – Trang doanh nghiệp"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html"
-      ],
-      "source_files": [
-        "03_changi_ch_s_v_n_h_nh_2025.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "As of January 2026, some 100 airlines operate more than 7,300 weekly scheduled flights at Changi Airport, connecting Singapore to over 170 cities in 50 countries and territories worldwide.",
+      "source": "S03",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "pages/03_changi_ch_s_v_n_h_nh_2025.txt",
+      "source_name": "Changi – Chỉ số vận hành 2025"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "Changi Airport is the fourth busiest international air hub in the world, and one of the most connected gateways to the region.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "connection_modes": {
+      "confidence": "high",
+      "snippet": "It connects via MRT, buses, taxis, new Southern Corridor roads, and air-sea transfers at Tanah Merah Ferry Terminal.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "metro_lines": {
+      "confidence": "medium",
+      "snippet": "Line\nEast–West Line\n(until mid-2030s)\nThomson–East Coast Line",
+      "source": "S14",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_Airport_MRT_station",
+      "source_file": "pages/14_wikipedia_changi_airport_mrt_station.txt",
+      "source_name": "Wikipedia – Changi Airport MRT station"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
-      ],
-      "source_files": [
-        "07_changi_fact_sheet_terminal_5.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Thomson-East Coast Line will be extended to Terminal 5 to connect it directly to the city centre, and further northwards to the Johor Bahru-Singapore Rapid Transit System (RTS) Link terminal at Woodlands North.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Changi_Business_Park",
-        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
-        "https://www.changiairport.com/en/corporate.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "First announced in 2013, Changi Airport’s T5 is a project undertaken by the Ministry of Transport (MOT), the Civil Aviation Authority of Singapore (CAAS) and Changi Airport Group (CAG).",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "brand_desc": {
+      "confidence": "high",
+      "snippet": "Changi Airport is the world’s most awarded airport with over 700 accolades. This includes 14 ‘World’s Best Airport’ awards from the Skytrax World Airports Awards",
+      "source": "S02",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "pages/02_changi_fact_sheet_s_n_bay.txt",
+      "source_name": "Changi – Fact Sheet sân bay"
+    },
+    "brand_partners": {
+      "confidence": "medium",
+      "snippet": "Jewel was designed by a consortium led by world-renowned architect Moshe Safdie, with consortium partners RSP Architects Planners & Engineers, Buro Happold Engineering, and Lighting Planners Associates",
+      "source": "S08",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
+      "source_file": "pages/08_changi_fact_sheet_jewel.txt",
+      "source_name": "Changi – Fact Sheet Jewel"
+    },
+    "vision_label": {
+      "confidence": "medium",
+      "snippet": "The Changi East development is a response to this expected growth. It’s a bold strategy to maintain Changi Airport’s and Singapore’s competitive edge for the long term.",
+      "source": "S05",
+      "source_url": "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+      "source_file": "pages/05_changi_our_story_l_ch_s.txt",
+      "source_name": "Changi – Our Story (lịch sử)"
+    },
+    "vision_qualities": {
+      "confidence": "medium",
+      "snippet": "the additional capacity from T5 will strengthen Changi Airport’s position as a leading air hub for the region and beyond, and will ensure that future generations of Singaporeans can continue to benefit from Changi’s global connectivity.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "aviation_policy": {
+      "confidence": "low",
+      "snippet": "On 1 July 2009, Changi Airport is corporatised and Changi Airport Group (CAG) is formed. The Company’s immediate and ultimate holding entity is the Minister for Finance, incorporated in Singapore.",
+      "source": "S05",
+      "source_url": "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+      "source_file": "pages/05_changi_our_story_l_ch_s.txt",
+      "source_name": "Changi – Our Story (lịch sử)"
     },
     "sustainability": {
-      "source_urls": [
-        "https://www.changiairport.com/en/corporate.html",
-        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "T5 will be a Green Mark Platinum Super Low Energy Building and have one of the largest rooftop solar systems in Singapore, with the potential to generate enough solar energy to power about 20,000 4-room HDB flats for a year.",
+      "source": "S07",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+      "source_file": "pages/07_changi_fact_sheet_terminal_5.txt",
+      "source_name": "Changi – Fact Sheet Terminal 5"
+    },
+    "logistics_park_name": {
+      "confidence": "medium",
+      "snippet": "The Changi Airfreight Centre (formerly known as Airport Cargo Complex) and the\nAirport Logistics Park\n(ALPS) Terminal are two main facilities that handle the airport-related goods and services daily.",
+      "source": "S10",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_East",
+      "source_file": "pages/10_wikipedia_changi_east.txt",
+      "source_name": "Wikipedia – Changi East"
+    },
+    "trade_park_name": {
+      "confidence": "medium",
+      "snippet": "Launched in July 1997, the 66-hectare or Changi Business Park is JTC Corporation's second business park following the\nInternational Business Park",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_Business_Park",
+      "source_file": "pages/12_wikipedia_changi_business_park.txt",
+      "source_name": "Wikipedia – Changi Business Park"
+    },
+    "trade_park_ha": {
+      "confidence": "high",
+      "snippet": "Completed in 2012, a large area of 71.07-hectare Changi Business Park would open as a\nmixed-use development",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Changi_Business_Park",
+      "source_file": "pages/12_wikipedia_changi_business_park.txt",
+      "source_name": "Wikipedia – Changi Business Park"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu không nêu con số khoảng cách từ khu đô thị/sân bay tới trung tâm Singapore (câu ở [S11] bị cắt sau chữ 'approximately').",
+    "transfer_pct": "Tài liệu không nêu tỷ lệ hành khách transfer.",
+    "num_companies_airport": "Tài liệu không nêu số doanh nghiệp hoạt động tại sân bay.",
+    "num_companies_realestate": "Tài liệu không nêu số doanh nghiệp thuê bất động sản trong khu.",
+    "num_office_buildings": "Tài liệu không nêu tổng số toà nhà văn phòng trong khu.",
+    "jobs_created": "Tài liệu chỉ nói T5 sẽ 'create quality jobs for Singaporeans' mà không có số việc làm cụ thể.",
+    "total_investment_usd": "Tài liệu không nêu tổng mức đầu tư của khu đô thị sân bay; chỉ có chi phí lẻ như Jewel S$1,7 tỷ và hợp đồng hầm S$321,7 triệu, không phải tổng đầu tư.",
+    "gov_led_ratio_pct": "Tài liệu không nêu tỷ lệ vốn/vai trò nhà nước bằng con số cụ thể.",
+    "private_ratio_pct": "Tài liệu không nêu tỷ lệ vốn tư nhân bằng con số cụ thể.",
+    "economic_zone_name": "Tài liệu chỉ nhắc tới Changi Business Park, Changi Airfreight Centre, Airport Logistics Park, Changi East Industrial Zone – không nêu tên một khu kinh tế đặc biệt/đặc khu gắn với khu đô thị sân bay.",
+    "economic_zone_year": "Không có đặc khu kinh tế nào được nêu tên nên không có năm thành lập.",
+    "residential_product_desc": "Tài liệu không mô tả sản phẩm nhà ở; chỉ đề cập khách sạn/lưu trú ngắn ngày (YOTELAIR, Crowne Plaza, Park Avenue Hotels & Suites) phục vụ khách bay, đây là khu thiên về business/aviation.",
+    "residential_highrise_pct": "Nguồn không nêu bất kỳ tỷ lệ cơ cấu sản phẩm nhà ở nào.",
+    "residential_lowrise_pct": "Nguồn không nêu bất kỳ tỷ lệ cơ cấu sản phẩm nhà ở nào.",
+    "residential_land_pct": "Nguồn không nêu bất kỳ tỷ lệ cơ cấu sản phẩm nhà ở nào.",
+    "office_rent_eur_m2_year": "Nguồn chỉ nêu giá thuê business park \"From $35 per sqm/mth\" bằng đô la Singapore (đã gồm GST), không có tỷ giá quy đổi sang EUR trong tài liệu nên không thể quy đổi.",
+    "price_vs_reference": "Tài liệu không so sánh mặt bằng giá của khu với thành phố tham chiếu nào.",
+    "living_fee_usd_per_m2_month": "Không có thông tin về phí quản lý/duy trì tính theo USD/m²/tháng trong tài liệu.",
+    "has_urban_service_fee": "Không có bằng chứng về phí dịch vụ đô thị trong tài liệu.",
+    "logistics_park_ha": "Tài liệu không nêu diện tích của Airport Logistics Park (ALPS)."
+  },
+  "_meta": {
+    "case": "changi",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:10:29+0700",
+    "fields_total": 75,
+    "fields_filled": 55,
+    "coverage_pct": 73.3,
+    "high_confidence": 26,
+    "from_baseline": 4,
+    "dossier": {
+      "pages_total": 15,
+      "pages_kept": 15,
+      "raw_chars": 612142,
+      "dossier_chars": 135326
+    },
+    "warnings": [],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "Hồ sơ **Singapore Changi Aerotropolis** mô tả khu đô thị sân bay **Changi Airport City / Changi East** tại **Singapore**, gắn với sân bay **Singapore Changi Airport** và thành phố tham chiếu **Singapore**. Đây không phải là dự án mục tiêu, thông tin chính thức được công bố tại **https://www.changiairport.com**.",
+    "location": "Khu nằm tại **Changi**, đầu phía đông đảo **Singapore**; **Changi East** và **Changi East Urban District (CEUD)** nằm ngay cạnh **Terminal 5**, kề sân bay **Changi** cùng các phân khu **Changi Business Park** và **Changi Airfreight Centre**, với diện tích khu đô thị **10,8 km²**. Sân bay được xây dựng trong giai đoạn **1975**–nay, khu đô thị trong giai đoạn **1997**–nay, còn năm thành lập là **1981**. Lưu lượng hành khách tại **Changi** được dự báo tăng **3–4%** mỗi năm trong **20** năm tới và công suất hiện hữu sẽ đạt giới hạn vào cuối thập niên **2020**; dự án **Changi East** là lời đáp cho tăng trưởng này nhằm giữ lợi thế cạnh tranh dài hạn của **Changi** và **Singapore**.",
+    "positioning": "Khu được định vị là trung tâm hàng không (air hub) hàng đầu khu vực gắn với khu đô thị sân bay, trong đó **Changi East Urban District** là điểm đến kinh doanh và lifestyle sôi động. Ý tưởng quy hoạch là phát triển **Changi East** rộng **1.080 ha** quanh **Terminal 5** theo từng giai đoạn (modular), kết nối đa phương thức hàng không – đường bộ – đường biển, cùng **Changi East Urban District (CEUD)** ngay cửa ngõ **T5** do Chính phủ dẫn dắt quy hoạch ý tưởng. Các trụ cột gồm phát triển air hub (**Air Hub Development**), vận hành và quản lý sân bay, quản lý bán lẻ (**Retail Management**), hệ thống & công nghệ (**Systems & Technology**) và phát triển hàng hoá/cargo. Các phân khu bao gồm **Changi East**, **Terminal 5**, **Changi East Urban District (CEUD)**, **Jewel Changi Airport**, **Changi Business Park**, **Changi Airfreight Centre**, **Airport Logistics Park of Singapore (ALPS)**, **Changi North Industrial Park** và **Changi East Industrial Zone**.",
+    "kpi": "Sân bay phục vụ **69,98 triệu** khách/năm và **2,08 triệu** tấn hàng hoá/năm, với **374.000** lượt cất hạ cánh mỗi năm. Mạng bay kết nối **170** điểm đến với **100** hãng bay, trên diện tích sân bay **1.200,0 ha** và lực lượng lao động **60.000** người.",
+    "investment": "Sân bay **Changi** được doanh nghiệp hoá tháng **7/2009** và từ đó do **Changi Airport Group (CAG)** vận hành; **CAG** là pháp nhân thuộc sở hữu Chính phủ **Singapore**, do Bộ Tài chính (**Ministry of Finance**) nắm giữ. Dự án **T5** do Bộ Giao thông (**MOT**), Cục Hàng không dân dụng Singapore (**CAAS**) và **CAG** cùng thực hiện, trong khi Chính phủ dẫn dắt quy hoạch ý tưởng **Changi East Urban District**, với bên dẫn dắt là **Changi Airport Group (CAG)**.",
+    "product": "Sản phẩm chào bán trải rộng từ bán lẻ, ẩm thực/F&B, văn phòng (dự án văn phòng mới tại **Terminal 3**), không gian business park cho thuê tại **Changi Business Park**, khách sạn, hàng hoá hàng không/cargo, logistics/kho vận (**Changi Airfreight Centre**, **Airport Logistics Park**), công nghiệp (**Changi North Industrial Park**, **Changi East Industrial Zone**) đến quảng cáo/nhượng quyền mặt bằng. Nhóm bất động sản thương mại gồm bán lẻ, ẩm thực/F&B, văn phòng, business park, khách sạn, trung tâm thương mại (mall), cargo/hàng hoá hàng không, logistics/kho vận và trung tâm hội chợ triển lãm (**Singapore Expo**). Tiện ích cơ bản có bán lẻ, ẩm thực/F&B, vườn và mảng xanh trong nhà (**Forest Valley**), phòng chờ (**Changi Lounge**), siêu thị (**NTUC FairPrice**), khách sạn, tuyến đi bộ/đạp xe (**Changi Airport Connector**), công viên (**Canopy Park**, **Changi Beach Park**) và trung tâm hội nghị triển lãm (**Singapore Expo**). Các tiện ích điểm nhấn là **Rain Vortex** (thác nước trong nhà cao **40m**), **Forest Valley**, **Canopy Park**, **Jewel Changi Airport**, **Kinetic Rain**, **Changi Airport Connector & Jurassic Mile**, **Singapore Expo** và **Garden of Harmony**.",
+    "price": "Doanh thu chủ yếu đến từ cho thuê mặt bằng (leasing) và nhượng quyền thương mại (concession) trong nhà ga, cho thuê bảng quảng cáo, cùng cho thuê không gian business park và thuê đất công nghiệp từ **JTC** theo giá thuê hằng tháng trên mỗi m². Giá thuê không gian business park tại **15 Changi Business Park Central 1** niêm yết theo tháng, từ **35 $/m²/tháng**, diện tích sàn **110 – 1.113,58 m²**, và mọi mức giá đã bao gồm **GST**. Cơ chế vận hành theo mô hình **B2B**: cho thuê mặt bằng bán lẻ/quảng cáo và hợp tác nhượng quyền với đối tác (leasing, advertising, đầu tư vào thương hiệu **Changi**), còn nhà đầu tư có thể thuê đất từ **JTC Corporation** để tự xây dựng cơ sở của mình.",
+    "service": "Dịch vụ gồm trung chuyển/transit, phòng chờ trả phí (**Changi Lounge**), làm thủ tục sớm và bag-drop tự động (**Jewel Early Check-in Lounge**), gửi hành lý **24/7**, xe lăn tự hành hỗ trợ hành khách hạn chế vận động, hỗ trợ đặc biệt (**Special Assistance Lanes**), đội ngũ **Changi Experience Ambassadors**, ví điện tử **Changi Pay** và chương trình **Changi Rewards**, dịch vụ tư vấn/leasing & quảng cáo cho doanh nghiệp cùng shuttle bus miễn phí theo yêu cầu tới **Changi Business Park**. Không có ưu đãi riêng cho cư dân hay doanh nghiệp trong khu: các tiện ích như phòng chờ **Changi Lounge**, gửi hành lý, check-in sớm tại **Jewel** đều là dịch vụ trả phí mở cho mọi hành khách, còn **Changi Rewards** là chương trình khách hàng thân thiết bán lẻ chung. Số hoá tập trung vào vận hành sân bay và trải nghiệm khách với hơn **360** cổng tự động tại khu đi/đến, cổng vệ tinh đầu tiên cho khai thác chuyến bay từ xa, xe lăn tự hành, ứng dụng **iChangi HD** cung cấp thông tin chuyến bay và bản đồ nhà ga thời gian thực, ví điện tử **Changi Pay** thanh toán QR không tiếp xúc cùng bộ phận **Systems & Technology** của **CAG**; **T5** sẽ có hệ thống quản lý toà nhà và năng lượng thông minh.",
+    "experience": "Trải nghiệm gồm **Rain Vortex** và **Light & Music Showcase**, **Forest Valley** với hai đường mòn thiên nhiên, **Canopy Park** (vườn và tiện ích giải trí trên tầng thượng), **Changi Experience Studio** với trò chơi tương tác về nghề sân bay, **Garden of Harmony**, mua sắm tại hơn **260** cửa hàng bán lẻ & F&B ở **Jewel**, **Duplex Boulevard** – cụm boutique trung – cao cấp, rạp chiếu phim và khu giải trí, **Changi Airport Connector & Jurassic Mile** với đường đạp xe, chạy bộ **3,5 km**, cùng **Kinetic Rain** – tác phẩm điêu khắc chuyển động lớn nhất thế giới. **Jewel Changi Airport** đón hơn **80 triệu** lượt khách mỗi năm với tổ hợp điểm đến đa chiều gồm thác **Rain Vortex** biến thành show ánh sáng – âm nhạc mỗi tối, **Forest Valley**, **Canopy Park**, trải nghiệm tương tác tại **Changi Experience Studio** và **Garden of Harmony**; sân bay còn tổ chức các chiến dịch, sự kiện theo mùa như lễ hội bóng đá **2026** với phim mới, chiếu trận đấu miễn phí và hoạt động trên toàn sân bay.",
+    "convenience": "Khoảng **100** hãng bay khai thác hơn **7.300** chuyến/tuần, nối **Singapore** tới hơn **170** thành phố ở **50** quốc gia và vùng lãnh thổ, với một máy bay cất/hạ cánh mỗi **80 giây**; trung tâm giao thông mặt đất trong nhà ga **T5** kết nối tàu, xe buýt, taxi, hệ thống người vận chuyển tự động (**APM**) nối **T5** với **T2** và **Skytrain** giữa **T1–T2–T3**, cùng kết nối **MRT** trực tiếp tại ga **Changi Airport** (**T2**, **T3**), trục đường mới **Changi Southern Corridor** nối **T5** với **Tanah Merah Coast Road**, **East Coast Parkway** và **Pan Island Expressway**, chuyển tiếp hàng không – đường biển qua **Tanah Merah Ferry Terminal**, trong khi **Changi Business Park** cách **PIE** **3** phút, **ECP** **5** phút và gần **Expo MRT**. **Changi** là một trong những trung tâm hàng không kết nối nhất châu Á, là sân bay quốc tế bận rộn thứ tư thế giới và nằm trong nhóm **10** trung tâm hàng hoá hàng không quốc tế bận rộn nhất, còn về mặt đất được phục vụ bởi **MRT**, xe buýt, taxi, hệ thống cao tốc **PIE**/**ECP** và trong tương lai là kết nối hàng không – đường biển qua **Tanah Merah Ferry Terminal**. Các phương thức kết nối gồm hàng không, **MRT**/metro, xe buýt (công cộng, xuyên biên giới và shuttle miễn phí), taxi, cao tốc (**Pan Island Expressway**, **East Coast Parkway**, **Changi Southern Corridor**), phà (**Tanah Merah Ferry Terminal**, **Changi Point Ferry Terminal**), **Skytrain** nội khu và automated people mover, cùng đường đi bộ/xe đạp (**Changi Airport Connector**), với **2** tuyến metro. Hệ thống đường sắt gồm **East–West Line** (nhánh tàu con thoi **Tanah Merah – Changi Airport**, ga **Changi Airport** nối trực tiếp **T2** và **T3**), **Thomson–East Coast Line** kéo dài tới **Terminal 5** và nối thẳng vào trung tâm thành phố cũng như lên phía bắc tới ga **RTS Link Johor Bahru–Singapore** ở **Woodlands North**, **Cross Island Line** dự kiến nối **Terminal 5** với **Punggol Digital District** và **Jurong Lake District** cùng ga **Aviation Park** phục vụ **Changi Airfreight Centre** và **Changi East Industrial Zone**, **Downtown Line** với ga **Xilin** và **Expo MRT station** phục vụ **Changi Business Park**.",
+    "brand": "Các thương hiệu chủ lực gồm **Changi Airport Group (CAG)**, **Jewel Changi Airport Trustee Pte Ltd**, **CapitaLand**, **JTC Corporation**, **Ministry of Transport (MOT)** và **Civil Aviation Authority of Singapore (CAAS)**. Thương hiệu được xây trên định vị \"sân bay được vinh danh nhiều nhất thế giới\" với hơn **700** giải thưởng, trong đó **14** lần đoạt danh hiệu **World's Best Airport** của **Skytrax**, giải **ASQ** của **Airports Council International** và **37** năm liên tiếp là sân bay tốt nhất thế giới do **Business Traveller (UK)** bình chọn; **Changi** tự định vị là điểm đến phong cách sống chứ không chỉ là nhà ga và mời gọi đối tác \"đầu tư vào thương hiệu **Changi Airport**\" qua cho thuê, quảng cáo và tư vấn. Danh sách đối tác thương hiệu gồm **CapitaLand**, **Moshe Safdie**, **RSP Architects Planners & Engineers**, **Buro Happold Engineering**, **Lighting Planners Associates**, **Obayashi Corporation**, **YOTELAIR / Yotel**, **Crowne Plaza**, **Apple Store**, **adidas**, **Nike**, **Fila**, **New Balance**, **Pokémon Centre Singapore**, **A&W Restaurants**, **NTUC FairPrice**, **Shaw Theatres**, **SATS**, **dnata**, **Collins Aerospace**, **Singapore Airlines**, **Ascendas Land (Singapore) Pte Ltd**, **Frasers Centrepoint Limited**, **Nakano Corporation**, **Certis CISCO**, **Mott MacDonald Singapore**, **Surbana Jurong Consultants**, **DP Architects**, **Park Avenue Hotels & Suites** và **Singapore Expo**.",
+    "vision": "Tầm nhìn mang tên **Changi East** hướng tới duy trì vị thế đầu mối hàng không hàng đầu khu vực và thế giới, kết nối đa phương thức hàng không – đường bộ – đường biển, xanh và bền vững (**Green Mark Platinum Super Low Energy**), khả năng chống chịu về vận hành và khí hậu, thiết kế mô-đun xây theo giai đoạn bám nhu cầu tăng trưởng, trải nghiệm hành khách vượt trội của sân bay được vinh danh nhiều nhất thế giới, cùng lợi thế cạnh tranh dài hạn cho **Singapore** và các thế hệ tương lai. Không có văn bản chính sách riêng được nêu tên; phát triển do **Ministry of Transport (MOT)**, **Civil Aviation Authority of Singapore (CAAS)** và **Changi Airport Group (CAG)** cùng chủ trì, với dự án **Changi East**/**Terminal 5** công bố lần đầu năm **2013** và việc doanh nghiệp hoá sân bay **Changi** từ **1/7/2009** khi **CAG** tiếp quản từ **CAAS**. Về bền vững, **Terminal 5** đạt **Green Mark Platinum Super Low Energy Building**, khu có một trong những hệ thống điện mặt trời áp mái lớn nhất **Singapore** (đủ điện cho khoảng **20.000** căn hộ **HDB** **4** phòng mỗi năm), **Distributed District Cooling System** để tăng hiệu quả năng lượng và giảm phát thải carbon, sẵn sàng sử dụng nhiên liệu thay thế gồm **Sustainable Aviation Fuel (SAF)**, cấp điện và làm mát cố định mặt đất cho máy bay đỗ tại cửa ra, hệ thống quản lý toà nhà và năng lượng thông minh, cùng **Sustainability Report** thường niên (từ năm tài chính **2022** tích hợp trong **Annual Report**).",
+    "parks": "Khu logistics chuyên biệt là **Airport Logistics Park of Singapore (ALPS)**, còn khu thương mại/công nghiệp là **Changi Business Park** với diện tích **71,07 ha**."
   }
 }

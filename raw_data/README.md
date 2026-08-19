@@ -5,7 +5,6 @@ Khối này lo phần **lấy dữ liệu thô về** và **chứa toàn bộ ou
 ```
 raw_data/
 ├── crawler/
-│   ├── base_crawler.py     # HTTP client dùng chung (requests + retry + provenance)
 │   └── crawl_<ws>.py       # crawl raw cho từng workstream
 └── output/
     └── <ws>/
@@ -25,7 +24,7 @@ raw_data/
 ## Chạy
 
 ```bash
-python raw_data/crawler/crawl_airport.py      # -> output/ws1_airport/raw/
+python raw_data/crawler/crawl_sources.py --name <case>   # -> output/ws1_airport/raw/<case>/
 ```
 
 Sau đó chạy extractor tương ứng để sinh `output/<ws>/features/`.

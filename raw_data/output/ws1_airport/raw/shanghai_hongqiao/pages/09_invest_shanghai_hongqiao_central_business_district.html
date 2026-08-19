@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<title>Invest Shanghai</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/invest/front_res/en/css/layout-en.css?t=1">    
+<link rel="stylesheet" href="/invest/front_res/en/css/reset.css"> 
+<link rel="stylesheet" href="/invest/front_res/en/css/screen-en.css">
+<link rel="stylesheet" href="/invest/search/message/css/toastr.min.css">
+<link rel="stylesheet" href="/invest/front_res/en/css/login.css">
+<link rel="stylesheet" href="/invest/front_res/en/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/invest/front_res/en/css/owl.theme.default.css">
+<link rel="stylesheet" href="/invest/front_res/select/select.css">
+<link rel="stylesheet" href="/invest/front_res/en/css/jquery-ui.min.css">
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery-migrate.min.js"></script> 
+<script type="text/javascript" src="/invest/front_res/en/js/jquery.js"></script>
+<script type="text/javascript" src="/invest/front_res/en/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/invest/common_res/js/jquery.form.min.js"></script>
+<script type="text/javascript" src="/invest/common_res/js/pony.js"></script>
+<script type="text/javascript" src="/invest/core_res/js/front.js"></script>
+<script type="text/javascript" src="/invest/core_res/js/admin.js"></script>
+<script type="text/javascript" src="/invest/front_res/js/jsencrypt.min.js"></script>
+<script type="text/javascript" src="/invest/search/message/js/toastr.min.js"></script>
+<script type="text/javascript" src="/invest/front_res/select/jquery.styleSelect.js"></script>
+<script type="text/javascript" src="/invest/layer/layer.js"></script><link rel="stylesheet" href="https://www.investsh.org.cn/invest/layer/theme/default/layer.css?v=3.1.1" id="layuicss-layer">
+<script src="/invest/My97DatePicker/WdatePicker.js" type="text/javascript" language="javascript"></script><link href="https://www.investsh.org.cn/invest/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/invest/layer/skin/skin.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<script type="text/javascript">
+var cxt =  '/';
+var moreNotData='no more data!';
+var pageNo=2;
+function loadMore(className,moreUrl){
+	$.ajax({
+		type: "post",
+		url : moreUrl,
+		dataType:'json',
+		data: 'pageNo='+pageNo,
+		success: function(response){
+			if(response.code==0){
+				if (response.msg=='') {
+                	layer.msg(moreNotData,{'icon':3});
+				} else {
+					pageNo++;
+					if(className=='locate-cont'){
+						var jcName="."+className;
+						$(jcName).append(response.msg);
+					}else if(className!='news-detail-cont'){
+						var jcName="."+className+" ul:first";
+						$(jcName).append(response.msg);
+					}else{
+						var jcName="."+className;
+						$(jcName).append(response.msg);
+					}
+				}
+			}else{
+				layer.msg(response.msg,{icon:3});
+			}
+		} 
+	}); 
+}
+</script><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></head>
+
+
+
+<body>
+	<div><a href="javascript:void(0);" onclick="javascript:window.open('/invest/serviceMeasures/en/index');">
+        <div class="qa-en ui-draggable ui-draggable-handle" id="qaDraggable1"></div>
+</a>
+<a href="javascript:void(0);" onclick="toQa();">
+    <div class="qa-wx-en ui-draggable ui-draggable-handle" id="qaDraggable"></div>
+</a>
+
+<div class="top">
+	<div class="top-cont">
+		
+		<div class="login-box">
+			<span id="cookieSpan" style="display: inline;">Cookies need to be enabled to log on</span>
+			<form id="loginForm" onsubmit="return login();">
+				<ul>
+					<li class="user-input">
+					<!-- User Account -->
+						<input type="text" id="loginName" value="" placeholder="User Account" maxlength="20" required="" oninvalid="setCustomValidity('Please enter your account number.');" oninput="setCustomValidity('');" tabindex="1">
+					</li>
+					<li class="password-input">
+					<!-- Password -->
+						<input type="password" id="password" value="" placeholder="Password" maxlength="20" required="" oninvalid="setCustomValidity('Please enter your password.');" oninput="setCustomValidity('');" autocomplete="off" tabindex="2">
+					</li>
+					<li class="yzm-input">
+						<input type="text" id="verificationCodeLogin" value="" placeholder="Verification code" autocomplete="off" required="" oninvalid="setCustomValidity('Please enter verification code.');" oninput="setCustomValidity('');" tabindex="3">
+					</li>
+					<li class="yzm-img"></li>
+				</ul>
+				<!-- <div class="remember cl">
+				    <div class="l te"><span class="re-pass sel"><input type="checkbox" id="un-login"></span>Remember Account</div>
+				    <a href="javascript:void(0);" class="f-password">Forget Password</a>
+				</div> -->
+				<div class="bt-login">
+					<input type="submit" value="Login" tabindex="4">
+				</div>
+				<div class="bt-reg" style="text-align:center;">
+					<a href="javascript:void(0);" onclick="javascript:window.open('/invest/en/index/commonUserRegister');">
+						<input style="width: 48%;margin: 7px 3px 0 0;" name="" type="button" value="Register" tabindex="5">
+					</a>
+					<input style="width: 48%;margin: 7px 0 0 3px;background: #C0C0C0;color: #000;" name="" type="button" value="Forgot Password" onclick="sendLoginFormLogin('loginFormTel');" tabindex="6">
+				</div>
+			</form>
+			<form style="display: none;" id="loginFormTel" onsubmit="return loginTel();">
+				<ul>
+					<li class="user-input">
+					<!-- User Account -->
+						<input type="text" id="loginNameTel" value="" placeholder="User Account" maxlength="20" required="" oninvalid="setCustomValidity('Please enter your account number.');" oninput="setCustomValidity('');" tabindex="7">
+					</li>
+					<li class="yzm-input" style="border:0;width: 100%">
+						<input style="border: 1px solid #dfdfdf;border-radius: 4px;width: 150px;margin-left: 0;padding-left: 10px;" type="text" id="verificationCodeLoginTel" value="" placeholder="Verification code" autocomplete="off" required="" oninvalid="setCustomValidity('Please enter verification code.');" oninput="setCustomValidity('');" tabindex="8">
+						<button type="button" onclick="sendCheckCodeLoginForm()" style=" min-width: 60px; height: 36px;border-radius: 3px;padding: 5px; background: #fff; color: #f99e4d; border: 1px solid #f99e4d;" id="yzmMsgLoginForm" tabindex="14">Send</button>
+					</li>
+				</ul>
+				<!-- <div class="remember cl">
+				    <div class="l te"><span class="re-pass sel"><input type="checkbox" id="un-login"></span>记住帐号</div>
+				    <a href="javascript:void(0);" class="f-password">忘记密码</a>
+				</div> -->
+				<div class="bt-login">
+					<input type="submit" value="Login" tabindex="9">
+				</div>
+				<div class="bt-reg" style="text-align:center;">
+					<input style="width: 48%;margin: 7px 3px 0 0;" name="" type="button" value="Register" onclick="javascript:window.open('/invest/en/index/commonUserRegister');" tabindex="10">
+					<input style="width: 48%;margin: 7px 0 0 3px;background: #C0C0C0;color: #000;" name="" type="button" value="Password Login" onclick="sendLoginFormLogin('loginForm');" tabindex="11">
+				</div>
+			</form>
+		</div><!-- login-box层 -->
+		
+    	<div class="logo" onclick="javascript:window.open('/en/index');" style="cursor: pointer;"></div>
+        <div class="nav-bar"></div><!-- 手机右侧bar -->
+        <div class="top-nav">
+           	<ul>
+                <li>
+				
+               	
+               		<a href="javascript:void(0);" class="login">login/join</a>
+                
+                </li>
+                <li><a href="mailto:investshanghai@investsh.org.cn" class="main">email</a></li>
+                <li class="lag">
+                		<a href="/cn"> 中文 </a>
+                		<a href="/" class="sel">&nbsp;English&nbsp;</a>
+                        <a href="/ger">Deutsch</a>
+                        <a href="/jp"> 日本語 </a>
+                        <a href="/es">Español&nbsp;</a>
+                </li>
+<!--                 <li class="zn100"><a></a></li> -->
+            </ul>
+			<div class="login-md"></div><!-- 登陆模式层 -->
+        </div><!-- 注册 邮件 语言 -->
+        <div class="tr-md"></div><!-- 收缩触发层 不要删除 -->
+    </div><!-- top-cont end -->
+</div><!-- top end -->
+
+<script type="text/javascript" src="/invest/front_res/en/js/login_en.js?t=20240131"></script>
+<script src="/invest/core_res/js/jsencrypt.min.js" type="text/javascript"></script>
+<style>
+	.qa{ background:url("\/invest\/front_res\/en\/images\/q\&a-en\.png"); width:108px; height:270px; background-size:100%; position:fixed; right:0; top:40%; z-index:99}
+	@media screen and (max-width: 812px) {
+		.qa{ width:56px; height:82px; position:fixed; right:0; top:43%;}
+	}
+	#cookieSpan{
+	display: block;
+	min-height: 14px;
+	height: auto;
+	padding: 8px 0 2px;
+	line-height: 14px;
+	font-size: 12px;
+	color: #fc4343;
+	display:none;
+	}
+</style>
+<script type="text/javascript">
+$(function(){
+	$("#qaDraggable1").draggable();
+	$("#qaDraggable").draggable();
+	$("#qaDraggable2").draggable();
+	var cookieTestValue='0';
+	if('1'!=cookieTestValue){
+		$("#cookieSpan").show();
+	}
+	$("#investMoveLanguage").on('change',function () {//监听select的改变
+		　var value = $("#investMoveLanguage").val();
+		  window.location.href="/"+value;
+	});
+})
+function logout(){
+	layer.confirm('Are you sure to logout?',{btn: [ 'confirm','cancel' ],btn1: function(){
+			try {
+				$.ajax({
+					url: '//'+window.location.host+'/invest_plus/destroySession',
+					type:'post',
+					dataType:'json',
+					success:function(r){
+						location.href=cxt+'logout';
+					}, 
+					error: function (data) {
+						location.href=cxt+'logout';
+		  			}
+				})
+			} catch (e) {
+				location.href=cxt+'logout';
+			}	
+        },
+        btn2: function(index){
+        	layer.close(index);
+        }
+    });
+
+}
+
+function toQa() {
+	$('html,body').animate({scrollTop: '0px'}, 800);
+	var loginUserName = '' ? '' : '';
+	if (!loginUserName) {
+		$('.login-box, .tr-md').css('display', 'block');
+	} else {
+		if(''=='1' || ''=='3'){
+			window.open('//'+window.location.host+'/invest_plus/index','_self');
+		}else{
+			window.open('//'+window.location.host+'/invest_plus/index','_self');
+		}
+	}
+	
+}
+
+function zlxzDownload(fileUrl,fileName){
+	var loginUserName = '' ? '' : '';
+	if (!loginUserName) {
+		layer.confirm('Please login to read the full text',{title:'tip', btn: [ 'confirm','cancel' ],btn1: function(){
+				layer.closeAll();	
+				$('html,body').animate({scrollTop: '0px'}, 800);
+				$('.login-box, .tr-md').css('display', 'block');
+		    },
+		    btn2: function(index){
+		    	layer.close(index);
+			}
+		});
+	} else {
+		 $.ajax({
+             type: "POST",
+             url: "/cms/attachmentLog/download",
+             data: $('#zlxzDownloadForm').serialize(),
+             dataType: "json",
+             success: function(data){
+             }
+        });
+		window.open('//'+window.location.host+'/upload'+$('#zlxzDownloadForm input[name="fileUrl"]').val(),'_self');
+	}
+}
+window.onload=function(){
+	if ('false'=='true') {
+		var obj = document.getElementById('zlxzDownloadForm')
+		if (obj) {
+			zlxzDownload();
+		}
+	}
+}
+</script></div>
+	<div class="list-main clearfix">
+		<div class="list-cont ">
+			
+	<div class="bd-nav"><a href="/en/index">HOME</a> &gt; <a href="javascript:window.close()">Policies Guide</a></div>
+
+			<!-- list-con end -->
+			<div class="cont news-detail clearfix" style="min-height: 400px">
+				<h1>Shanghai Hongqiao Central Business District</h1>
+				<div class="date">
+					<span>Publish Date：2019/11/04</span>
+					<span>Source：</span>
+				</div>
+				
+					
+			     
+					
+			     
+					
+			     
+				<div class="news-detail-cont pic-100">
+					<p></p><p><img src="http://183.194.243.204/upload/upload/article/image/2019_4/11_4/pir3k2kb92kr.png" style="float:left; margin:0 20px 0 0;" alt="" width="429" height="261"></p>
+<br><p style=" text-indent:2em; margin:10px 0;">Hongqiao Central Business District is a new platform specified in China’s Planning work for the Integrated Development of the Yangtze River Delta Region and will be built into Hongqiao International Open Hub, an international central business district and an international trade center. Located in the west of downtown Shanghai and at the core of the Yangtze River Delta megalopolis, Hongqiao Central Business District hosts the perennial venue of China International Import Expo. With a total planned area of 151 square kilometers, it has the world’s largest Hongqiao Integrated Transportation Hub and National Exhibition and Convention Center. Since the launch of its planning and development in 2009, Hongqiao Central Business District has focused on the development of headquarters economy and the modern service industry, made efforts to improve its international trade functions, given priorities to international trade, MICE tourism, modern logistics, aviation services, satellite navigation, medicine and health care, culture and creative, professional services, financial services, artificial intelligence, information services, and other industries, and has gradually developed a pattern featuring big transportation, big exhibition, and big commerce.</p>
+<br><p style=" text-indent:2em; margin:10px 0;">The Implementation Plan for Accelerating the Development of Hongqiao Central Business District into an International Open Hub has been released and put into force. We will focus on bringing together a number of high-level trade entities and functional platforms, develop headquarters, platform, digital and exhibition economy, relax restrictions on access of foreign investment companies, support exhibitions and conferences accredited by authoritative international organizations, establish an institutional system that is in line with the prevailing international rules, and explore more pilot measures to expand opening-up in such areas as digital trade, financial services, information services, and exhibition services.</p>
+<br><div class="qa-cont">
+<br><div class="q">1. What are the priorities supported by the Administrative Measures of Shanghai Hongqiao Central Business District for Special Development Fund?</div>
+<br><div class="a">
+<br><p>The Administrative Measures of Shanghai Hongqiao Central Business District for Special Development Fund provides a fund pool of RMB 2 billion, which will focus on business and transportation projects that promote industrial agglomeration, function creation, and talent attraction. We will provide free financial support, subsidized loans, government subsidies, and government procurement of services for major projects that optimize the business environment, promote low-carbon practice area, green ecological demonstration city and smart Hongqiao, and gather innovative and entrepreneurial talents (in principle, only one form of support will be applied).</p>
+<br></div>
+<br></div>
+<br><div class="qa-cont">
+<br><div class="q">2. What highlight policies does Hongqiao Central Business District have to offer in terms of industrial support?</div>
+<br><div class="a">We support the development of headquarters economy and provide a decoration subsidy of up to RMB 6 million to a headquarters enterprise that settles in Hongqiao Central Business District and is certified by the competent national or municipal functional department.<br>
+<br>For the branding activities and high-end international commerce and trade activities conducted by various market players in Hongqiao Central Business District, we will provide a subsidy of up to RMB 1 million for any single eligible activity.<br>
+<br>We will provide supportive policies, including rent subsidies and start-up subsidies, to enterprises that conform to regional functional positioning and industrial orientation and meet certain standards.
+<br></div>
+<br><div class="qa-cont">
+<br><div class="q">3. What policies does Hongqiao Central Business District have for functional platforms?</div>
+<br><div class="a">Hongqiao Imported Goods Exhibition and Trading Center provides three years’ rent subsidy and a startup subsidy of up to RMB 1.5 million for eligible enterprises in this District; the goods stored in the bonded logistics center of Hongqiao Central Business District (Type B) are exempt from warehousing charges for a certain period of time.<br>
+<br>Hongqiao Overseas Trade Center provides rent-free office space for three years and a start-up subsidy of up to RMB1.5 million for eligible overseas non-profit trade service and investment service international organizations or institutions, chambers of commerce, and trade associations.<br>
+<br>Yangtze River Delta E-commerce Center will provide three years’ rent subsidy and a startup subsidy of up to RMB 1.5 million to eligible e-commerce and other digital trading enterprises or associations, in an attempt to build Hongqiao Digital Trading Port.</div>
+<br></div>
+<br><div class="qa-cont">
+<br><div class="q">4、What policies does Hongqiao Central Business District have in offering services for enterprises and talent?</div>
+<br><div class="a">We will set up a service window for foreigners to apply for a permit to work in China, and reward merit points and offer other types of convenience for foreign reserve talent, talent with special skills and high-end talent employed by enterprises in this District to apply for work permits. Meanwhile, we will provide convenience to foreign talent who are employed by enterprises in the Yangtze River Delta and assigned to work in Hongqiao Central Business District, such as applying for work permits.<br>
+<br>We will provide services for trademark registration (including the Madrid System for the international registration of marks) for enterprises in Hongqiao Central Business District as well as a series of featured services (such as legal assistance in international trade and international commercial arbitration) so as to provide convenient and reliable services and support for enterprises.</div>
+<br></div>
+<br><div style="text-align: center;"><img src="http://183.194.243.204/upload/upload/article/image/2019_4/11_4/h4jbk2kbo3c7.png" alt="" width="108" height="107"></div><p></p>
+				</div>
+				<!-- news-detail-cont end -->
+
+				
+
+				<div class="yw">
+					<div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- cont end -->
+		</div>
+		<!-- list-con end -->
+	</div>
+	<!-- list-main end -->
+<!-- 	[@cms.Include name='new_return.html' solution='default'/] -->
+	<div><style>
+#Investment_Networking li{
+	display:inherit;
+	text-align:left; 
+	padding-top:0;
+	font-size: 12px;
+	line-height: 22px;
+	width: 100%;
+}
+#Investment_Networking span{
+	text-align:left; 
+	font-size: 12px;
+}
+</style>
+<div class="footer clearfix">
+	<div class="footer-cont">
+    	<div class="copyright col-5">
+    		<div class="logo" onclick="javascript:window.open('/en/index');" style="cursor: pointer;"></div>
+            <div><a href="javascript:void(0);" class="cont-us" onclick="javascript:window.open('/encontactus/index');">CONTACT US</a> <a href="https://beian.miit.gov.cn" class="ICP" target="_blank" rel="noopener noreferrer">沪ICP备13003990号-16 公网安备31010502002042号</a></div>
+            <div class="entrance">
+            <div class="index-select" style="width: 280px;">
+		<div tabindex="12" class="selectDark" id="selectbox_municipal_entrance1787131333496" style="position: relative;"><ul style="position: absolute; z-index: 100; bottom: 30px; left: 0px; display: none;"><li data-id="" class="first"><span style="display: block;" class="selected">Municipal Entrance</span></li><li data-id="https://english.shanghai.gov.cn/"><span style="display: block;">International Services Shanghai </span></li><li data-id="https://www.ciie.org/zbh/en/"><span style="display: block;">CHINA INTERNATIONAL IMPORT EXPO</span></li><li data-id="https://en.sww.sh.gov.cn/"><span style="display: block;">Shanghai Municipal commission of commerce</span></li><li data-id="https://rsj.sh.gov.cn/tenglish_17612/index.html"><span style="display: block;">Shanghai Municipal Human Resources and Social Security Bureau</span></li><li data-id="https://fgw.sh.gov.cn/"><span style="display: block;">Shanghai Municipal Development&amp; Reform Commission</span></li><li data-id="https://www.sheitc.sh.gov.cn/"><span style="display: block;">Shanghai Municipal Commission of Economy and Informatization</span></li><li data-id="http://sfj.sh.gov.cn/"><span style="display: block;">Shanghai Municipal Bureau of Justice</span></li><li data-id="http://czj.sh.gov.cn/"><span style="display: block;">Shanghai Municipal Finance Bureau</span></li><li data-id="https://ghzyj.sh.gov.cn/"><span style="display: block;">Shanghai Municipal Planning and Natural Resources Bureau</span></li><li data-id="https://stcsm.sh.gov.cn/"><span style="display: block;">Science and Technology Commission Shanghai Municipality</span></li><li data-id="https://sthj.sh.gov.cn/"><span style="display: block;">Shanghai Municipal Bureau of Ecology and Environment</span></li><li data-id="http://sipa.sh.gov.cn/"><span style="display: block;">Shanghai Intellectual Property Administration</span></li><li data-id="http://www.scmc.org.cn/"><span style="display: block;">Shanghai Commercial Mediation Center</span></li></ul><span data-id="" class="passiveSelect">Municipal Entrance</span></div><select name="municipal_entrance" onchange="javascript:if(''!=this.value){window.open(this.value)};" class="mySelect" tabindex="12" style="display: none;">
+				<option class="first" value="" selected="selected">Municipal Entrance</option>
+				<option value="https://english.shanghai.gov.cn/">International Services Shanghai </option>
+				<option value="https://www.ciie.org/zbh/en/">CHINA INTERNATIONAL IMPORT EXPO</option>
+				<option value="https://en.sww.sh.gov.cn/">Shanghai Municipal commission of commerce</option>
+				<option value="https://rsj.sh.gov.cn/tenglish_17612/index.html">Shanghai Municipal Human Resources and Social Security Bureau</option>
+				<option value="https://fgw.sh.gov.cn/">Shanghai Municipal Development&amp; Reform Commission</option>
+				<option value="https://www.sheitc.sh.gov.cn/">Shanghai Municipal Commission of Economy and Informatization</option>
+				<option value="http://sfj.sh.gov.cn/">Shanghai Municipal Bureau of Justice</option>
+				<option value="http://czj.sh.gov.cn/">Shanghai Municipal Finance Bureau</option>
+				<option value="https://ghzyj.sh.gov.cn/">Shanghai Municipal Planning and Natural Resources Bureau</option>
+				<option value="https://stcsm.sh.gov.cn/">Science and Technology Commission Shanghai Municipality</option>
+				<option value="https://sthj.sh.gov.cn/">Shanghai Municipal Bureau of Ecology and Environment</option>
+				<option value="http://sipa.sh.gov.cn/">Shanghai Intellectual Property Administration</option>
+				<option value="http://www.scmc.org.cn/">Shanghai Commercial Mediation Center</option>
+		</select>
+		</div>
+		<div class="index-select" style="width: 280px;">
+		<div tabindex="13" class="selectDark" id="selectbox_district_entrance1787131333497" style="position: relative;"><ul style="position: absolute; z-index: 100; bottom: 30px; left: 0px; display: none;"><li data-id="" class="first"><span style="display: block;" class="selected">District Entrance</span></li><li data-id="http://english.pudong.gov.cn/"><span style="display: block;">Pudong New Area</span></li><li data-id="https://english.shhuangpu.gov.cn/"><span style="display: block;">Huangpu District</span></li><li data-id="https://english.jingan.gov.cn/"><span style="display: block;">Jing'an District</span></li><li data-id="http://www.xuhui.gov.cn/"><span style="display: block;">Xuhui District</span></li><li data-id="https://www.shcn.gov.cn/english/"><span style="display: block;">Changning District</span></li><li data-id="https://www.shpt.gov.cn/"><span style="display: block;">Putuo District</span></li><li data-id="https://www.shhk.gov.cn/English/"><span style="display: block;">Hongkou District</span></li><li data-id="https://english.shyp.gov.cn/ywb/index.html"><span style="display: block;">Yangpu District</span></li><li data-id="https://www.shbsq.gov.cn/shbs/en/"><span style="display: block;">Baoshan District</span></li><li data-id="http://www.shmh.gov.cn/shmh_English/index.html"><span style="display: block;">Minhang District</span></li><li data-id="http://english.jiading.gov.cn/"><span style="display: block;">Jiading District</span></li><li data-id="https://en.jinshan.gov.cn/"><span style="display: block;">Jinshan District</span></li><li data-id="https://english.songjiang.gov.cn/"><span style="display: block;">Songjiang District</span></li><li data-id="https://www.shqp.gov.cn/english/"><span style="display: block;">Qingpu District</span></li><li data-id="https://www.fengxian.gov.cn/english/index.html"><span style="display: block;">Fengxian District</span></li><li data-id="https://www.shcm.gov.cn/wwb/index.html"><span style="display: block;">Chongming District</span></li><li data-id="https://en.lingang.gov.cn/"><span style="display: block;">Lin-gang Special Area of China (Shanghai) Pilot Free Trade Zone</span></li><li data-id="http://en.shhqcbd.gov.cn/index.html"><span style="display: block;">Shanghai Hongqiao International CBD</span></li></ul><span data-id="" class="passiveSelect">District Entrance</span></div><select name="district_entrance" onchange="javascript:if(''!=this.value){window.open(this.value)};" class="mySelect" tabindex="13" style="display: none;">
+				<option class="first" value="" selected="selected">District Entrance</option>
+				<option value="http://english.pudong.gov.cn/">Pudong New Area</option>
+				<option value="https://english.shhuangpu.gov.cn/">Huangpu District</option>
+				<option value="https://english.jingan.gov.cn/">Jing'an District</option>
+				<option value="http://www.xuhui.gov.cn/">Xuhui District</option>
+				<option value="https://www.shcn.gov.cn/english/">Changning District</option>
+				<option value="https://www.shpt.gov.cn/">Putuo District</option>
+				<option value="https://www.shhk.gov.cn/English/">Hongkou District</option>
+				<option value="https://english.shyp.gov.cn/ywb/index.html">Yangpu District</option>
+				<option value="https://www.shbsq.gov.cn/shbs/en/">Baoshan District</option>
+				<option value="http://www.shmh.gov.cn/shmh_English/index.html">Minhang District</option>
+				<option value="http://english.jiading.gov.cn/">Jiading District</option>
+				<option value="https://en.jinshan.gov.cn/">Jinshan District</option>
+				<option value="https://english.songjiang.gov.cn/">Songjiang District</option>
+				<option value="https://www.shqp.gov.cn/english/">Qingpu District</option>
+				<option value="https://www.fengxian.gov.cn/english/index.html">Fengxian District</option>
+				<option value="https://www.shcm.gov.cn/wwb/index.html">Chongming District</option>
+				<option value="https://en.lingang.gov.cn/">Lin-gang Special Area of China (Shanghai) Pilot Free Trade Zone</option>
+				<option value="http://en.shhqcbd.gov.cn/index.html">Shanghai Hongqiao International CBD</option>
+		</select>
+		</div>
+            </div>
+        </div><!-- copyright end -->
+        <div class="t-code col-5">
+        	<ul>
+            	<li>
+                	<div id="Investment_Networking" class="index-select" style="width: 280px;padding-bottom: 2px;">
+						<div tabindex="14" class="selectDark" id="selectbox_Investment_Networking1787131333498" style="position: relative;"><ul style="position: absolute; z-index: 100; bottom: 30px; left: 0px; display: none;"><li data-id="" class="first"><span style="display: block;" class="selected">Investment Networking</span></li><li data-id="https://www.shfia.cn/"><span style="display: block;">Shanghai Association of Enterprises With Foreign Investment</span></li><li data-id="https://chj.shlingang.com/chj/home/"><span style="display: block;">Shanghai Caohejing Hi-Tech Park Development Corp.</span></li><li data-id="https://www.jetro.go.jp/"><span style="display: block;">Japan External Trade Organization Shanghai</span></li><li data-id="https://www.jpcic-sh.org/#/index"><span style="display: block;">Shanghai Japanese Commerce &amp; Industry Club</span></li><li data-id="https://www.investhk.gov.hk/"><span style="display: block;">Invest Hong Kong</span></li><li data-id="http://www.sbmia.org.cn/m20554/about.html"><span style="display: block;">KOTRA</span></li><li data-id="https://china.ahk.de/zh/legal/imprint"><span style="display: block;">Delegation of German Industry and Commerce Shanghai</span></li><li data-id="https://www.gov.uk/government/organisations/uk-trade-investment"><span style="display: block;">UK Trande &amp; Investment</span></li><li data-id="https://www.amcham-shanghai.org/en/"><span style="display: block;">The American Chamber of Commerce in Shanghai</span></li><li data-id="https://shanghai.lps-china.com/zh-hans/partners/the-canadian-chamber-of-commerce-in-shanghai/"><span style="display: block;">The Canadian Chamber of Commerce in Shanghai</span></li><li data-id="https://china.embassy.gov.au/bjngchinese/trade.html"><span style="display: block;">Australian Trade Commission</span></li><li data-id="http://m.abcdao.com/open/go.php/?url=chileabroad.gov.cl/china/"><span style="display: block;">Trade Commission of Chile - ProChile Shanghai</span></li><li data-id="https://itpo-shanghai.unido.org/"><span style="display: block;">United Nations Industrial Development Organization</span></li><li data-id="https://thaibizchina.com/"><span style="display: block;">Royal Thai Consulate-General in Shanghai</span></li><li data-id="https://invest.sheitc.sh.gov.cn"><span style="display: block;">Investment Promotion Platform</span></li><li data-id="https://waipa.org/"><span style="display: block;">WAIPA</span></li><li data-id="https://gunmash.cn/"><span style="display: block;">GUNMA SHANGHAI Office</span></li><li data-id="https://www.investcapetown.com/"><span style="display: block;">Invest Cape Town</span></li></ul><span data-id="" class="passiveSelect">Investment Networking</span></div><select name="Investment_Networking" onchange="javascript:if(''!=this.value){window.open(this.value)};" class="mySelect" tabindex="14" style="display: none;">
+								<option class="first" value="" selected="selected">Investment Networking</option>
+								<option value="https://www.shfia.cn/">Shanghai Association of Enterprises With Foreign Investment</option>
+								<option value="https://chj.shlingang.com/chj/home/">Shanghai Caohejing Hi-Tech Park Development Corp.</option>
+								<option value="https://www.jetro.go.jp/">Japan External Trade Organization Shanghai</option>
+								<option value="https://www.jpcic-sh.org/#/index">Shanghai Japanese Commerce &amp; Industry Club</option>
+								<option value="https://www.investhk.gov.hk/">Invest Hong Kong</option>
+								<option value="http://www.sbmia.org.cn/m20554/about.html">KOTRA</option>
+								<option value="https://china.ahk.de/zh/legal/imprint">Delegation of German Industry and Commerce Shanghai</option>
+								<option value="https://www.gov.uk/government/organisations/uk-trade-investment">UK Trande &amp; Investment</option>
+								<option value="https://www.amcham-shanghai.org/en/">The American Chamber of Commerce in Shanghai</option>
+								<option value="https://shanghai.lps-china.com/zh-hans/partners/the-canadian-chamber-of-commerce-in-shanghai/">The Canadian Chamber of Commerce in Shanghai</option>
+								<option value="https://china.embassy.gov.au/bjngchinese/trade.html">Australian Trade Commission</option>
+								<option value="http://m.abcdao.com/open/go.php/?url=chileabroad.gov.cl/china/">Trade Commission of Chile - ProChile Shanghai</option>
+								<option value="https://itpo-shanghai.unido.org/">United Nations Industrial Development Organization</option>
+								<option value="https://thaibizchina.com/">Royal Thai Consulate-General in Shanghai</option>
+								<option value="https://invest.sheitc.sh.gov.cn">Investment Promotion Platform</option>
+								<option value="https://waipa.org/">WAIPA</option>
+								<option value="https://gunmash.cn/">GUNMA SHANGHAI Office</option>
+								<option value="https://www.investcapetown.com/">Invest Cape Town</option>
+						</select>
+					</div>
+                </li>
+            	<li>
+                	<div>Invest Shanghai</div>
+                    <div><img width="122px" height="122px" src="/invest/front_res/en/images/weixinQR.jpg"></div>
+                </li>
+            </ul>
+        </div><!-- t-code end -->
+
+    
+	</div><!-- footer-cont end -->
+</div><!-- footer end -->
+<script type="text/javascript" src="/js/pv.js?v=1"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".index-select .mySelect").styleSelect({styleClass: "selectDark"});
+		$(".selectDark").on("click",function(){
+			$(".selectDark ul").css("display","none");
+			$(this).find("ul").css("display","block");
+		});
+	});
+</script></div>
+
+
+</div><div style="position: absolute; z-index: 19700; top: -1970px; left: -1970px;"><iframe src="https://www.investsh.org.cn/invest/My97DatePicker/My97DatePicker.html" frameborder="0" border="0" scrolling="no" style="width: 186px; height: 199px;"></iframe></div></body></html>

@@ -1,0 +1,292 @@
+{
+  "record": {
+    "case_name": "Dubai South",
+    "aerotropolis": "Dubai South / Dubai World Central",
+    "country": "UAE",
+    "is_target": false,
+    "airport_name": "Al Maktoum International Airport",
+    "reference_city": "Dubai",
+    "official_website": "https://www.dubaisouth.ae",
+    "positioning": "Airport City / Dubai World Central",
+    "planning_concept": "Dubai South is where success thrives through innovation, technology, opportunities, sustainability, and smart investment.",
+    "cornerstones": [
+      "aviation",
+      "logistics",
+      "real estate"
+    ],
+    "subzones": [
+      "Logistics District",
+      "Residential District",
+      "Expo City"
+    ],
+    "area_km2": 145.0,
+    "distance_to_city_km": null,
+    "passengers_million": 260.0,
+    "cargo_million_tonnes": 12.0,
+    "air_movements": null,
+    "destinations": null,
+    "airlines": null,
+    "transfer_pct": null,
+    "airport_area_ha": null,
+    "employees": null,
+    "num_companies_airport": 4200,
+    "num_companies_realestate": null,
+    "num_office_buildings": null,
+    "jobs_created": null,
+    "founded_year": 2006,
+    "total_investment_usd": "128 billion AED ($34.85 billion USD)",
+    "development_context": "During the year, Dubai South welcomed 653 new companies, bringing the total number of operational businesses to more than 4,200, while achieving a 90% retention rate among existing companies.",
+    "location_desc": "The 18-kilometre Logistics District features several zones optimised for efficient distribution.",
+    "investor_governance": null,
+    "lead_developer": "Dubai South",
+    "economic_zone_name": "Dubai South Free Zone",
+    "economic_zone_year": null,
+    "commercial_re": [
+      "logistics",
+      "warehouse",
+      "office",
+      "retail",
+      "aviation",
+      "MRO",
+      "e-commerce",
+      "business centre"
+    ],
+    "residential_product_desc": null,
+    "basic_amenities": [
+      "retail",
+      "schools",
+      "parks",
+      "community"
+    ],
+    "highlight_amenities": [
+      "Expo City",
+      "EZDubai",
+      "golf"
+    ],
+    "logistics_park_ha": null,
+    "logistics_park_name": null,
+    "trade_park_ha": null,
+    "trade_park_name": null,
+    "cvp_product": [
+      "warehouse",
+      "office",
+      "logistics",
+      "retail",
+      "plots",
+      "business centre"
+    ],
+    "cvp_price": null,
+    "office_rent_eur_m2_year": null,
+    "cvp_price_note": null,
+    "cvp_service": [
+      "business setup",
+      "free zone",
+      "100% foreign ownership"
+    ],
+    "cvp_experience": [
+      "Expo City",
+      "retail",
+      "parks",
+      "golf",
+      "community"
+    ],
+    "cvp_convenience": [
+      "movement of cargo between the seaport and airport in as little as 20 minutes",
+      "The 18-kilometre Logistics District features several zones optimised for efficient distribution."
+    ],
+    "rail_connections": [
+      "Expo Stations on Dubai Metro Route 2020 are now open"
+    ],
+    "cvp_brand": [
+      "Dubai South",
+      "Emirates",
+      "DP World",
+      "Expo City Dubai"
+    ],
+    "vision_label": null,
+    "vision_qualities": null,
+    "aviation_policy": null,
+    "sustainability": [
+      "sustainability",
+      "green"
+    ],
+    "smart_city": null,
+    "airport_build_period": null,
+    "urban_build_period": null,
+    "brand_partners": null,
+    "connection_modes": null,
+    "metro_lines": null,
+    "airport_privilege": null,
+    "experience_desc": null,
+    "price_vs_reference": null,
+    "sales_scheme": null,
+    "_pages_used": 18
+  },
+  "provenance": {
+    "positioning": {
+      "confidence": "high"
+    },
+    "planning_concept": {
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "snippet": "Dubai South is where success thrives through innovation, technology, opportunities, sustainability, and smart investment.",
+      "confidence": "high"
+    },
+    "cornerstones": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en"
+      ],
+      "confidence": "high"
+    },
+    "subzones": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en",
+        "https://www.dubaisouth.ae/en/live"
+      ],
+      "confidence": "high"
+    },
+    "area_km2": {
+      "unit": "km²",
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "snippet": "145 SQUARE KILOMETERS",
+      "confidence": "high"
+    },
+    "passengers_million": {
+      "unit": "triệu/năm (công suất thiết kế)",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
+      "source_file": "13_wikipedia_al_maktoum_international_airport.txt",
+      "snippet": "capacity for up to 260 million passengers",
+      "confidence": "high"
+    },
+    "cargo_million_tonnes": {
+      "unit": "triệu tấn/năm (công suất)",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
+      "source_file": "13_wikipedia_al_maktoum_international_airport.txt",
+      "snippet": "12 million tonnes",
+      "confidence": "high"
+    },
+    "num_companies_airport": {
+      "unit": "doanh nghiệp",
+      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
+      "source_file": "11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
+      "snippet": "total number of operational businesses to more than 4,200,",
+      "confidence": "high"
+    },
+    "founded_year": {
+      "unit": "năm",
+      "source_url": "https://en.wikipedia.org/wiki/Dubai_South",
+      "source_file": "12_wikipedia_dubai_south.txt",
+      "snippet": "in 2006, planned to be an economic zone",
+      "confidence": "high"
+    },
+    "total_investment_usd": {
+      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
+      "source_file": "13_wikipedia_al_maktoum_international_airport.txt",
+      "snippet": "128 billion AED ($34.85 billion USD)",
+      "confidence": "high"
+    },
+    "development_context": {
+      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
+      "source_file": "11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
+      "snippet": "During the year, Dubai South welcomed 653 new companies, bringing the total number of operational businesses to more than 4,200, while achieving a 90% retention",
+      "confidence": "high"
+    },
+    "location_desc": {
+      "source_url": "https://www.dubaisouth.ae/en/work/logistics",
+      "source_file": "03_dubai_south_logistics_district.txt",
+      "snippet": "The 18-kilometre Logistics District features several zones optimised for efficient distribution.",
+      "confidence": "high"
+    },
+    "lead_developer": {
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "snippet": "Dubai South",
+      "confidence": "high"
+    },
+    "economic_zone_name": {
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "05_dubai_south_free_zone.txt",
+      "snippet": "Dubai South Free Zone",
+      "confidence": "high"
+    },
+    "commercial_re": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en",
+        "https://www.dubaisouth.ae/en/work",
+        "https://www.dubaisouth.ae/en/work/commercial-property"
+      ],
+      "confidence": "high"
+    },
+    "basic_amenities": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en",
+        "https://www.dubaisouth.ae/en/work"
+      ],
+      "confidence": "high"
+    },
+    "highlight_amenities": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dubai_South",
+        "https://www.dubaisouth.ae/en/live",
+        "https://www.dubaisouth.ae/en/work"
+      ],
+      "confidence": "high"
+    },
+    "cvp_product": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en",
+        "https://www.dubaisouth.ae/en/work",
+        "https://www.dubaisouth.ae/en/work/commercial-property"
+      ],
+      "confidence": "high"
+    },
+    "cvp_service": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en"
+      ],
+      "confidence": "high"
+    },
+    "cvp_experience": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dubai_South",
+        "https://www.dubaisouth.ae/en",
+        "https://www.dubaisouth.ae/en/live",
+        "https://www.dubaisouth.ae/en/work"
+      ],
+      "confidence": "high"
+    },
+    "cvp_convenience": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en/work/logistics"
+      ],
+      "source_files": [
+        "03_dubai_south_logistics_district.txt"
+      ],
+      "confidence": "high"
+    },
+    "rail_connections": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dubai_Metro"
+      ],
+      "source_files": [
+        "16_wikipedia_dubai_metro.txt"
+      ],
+      "confidence": "high"
+    },
+    "cvp_brand": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Expo_City_Dubai",
+        "https://www.dubaisouth.ae/en",
+        "https://www.dubaisouth.ae/en/our-leadership"
+      ],
+      "confidence": "high"
+    },
+    "sustainability": {
+      "source_urls": [
+        "https://www.dubaisouth.ae/en"
+      ],
+      "confidence": "high"
+    }
+  }
+}

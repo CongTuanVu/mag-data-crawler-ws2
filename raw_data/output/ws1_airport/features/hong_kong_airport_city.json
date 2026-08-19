@@ -7,257 +7,687 @@
     "airport_name": "Hong Kong International Airport",
     "reference_city": "Hong Kong",
     "official_website": "https://www.hongkongairport.com",
-    "positioning": "Airport City / SKYCITY",
-    "planning_concept": null,
+    "location_desc": "Nằm trên đảo sân bay Chek Lap Kok (Islands District, Lantau); SKYCITY/AsiaWorld-Expo nằm sát nhà ga sân bay, có ga AsiaWorld-Expo trên tuyến Airport Express; kết nối tới Tung Chung, Hong Kong Port Island và Hong Kong–Zhuhai–Macau Bridge",
+    "distance_to_city_km": null,
+    "area_km2": 0.25,
+    "airport_build_period": "1992-1998",
+    "urban_build_period": "2019-nay",
+    "founded_year": 1998,
+    "development_context": "Di dời sân bay từ Kai Tak (đã quá tải công suất thiết kế) ra Chek Lap Kok trong khuôn khổ Hong Kong Airport Core Programme; sau đó AAHK công bố blueprint Airport City năm 2019 nhằm khai thác vị trí địa lý và hạ tầng mới, thúc đẩy kinh tế Hong Kong và Greater Bay Area",
+    "positioning": "Airport City / SKYCITY – điểm nhấn (landmark) mới hàng đầu thế giới, lớn nhất khu vực, tích hợp thương mại, văn hoá đại chúng, giao dịch nghệ thuật, giải trí và nghỉ dưỡng",
+    "planning_concept": "Kết hợp các chức năng lõi của sân bay với các mảng kinh doanh liên quan để tạo cộng hưởng mạnh, tận dụng tối đa vị trí địa lý độc đáo của sân bay và các hạ tầng mới; tạo cộng hưởng giữa AsiaWorld-Expo, 11 SKIES và các thành phần khác của SKYCITY thành một tổ hợp du lịch – nghỉ dưỡng – kinh doanh – sự kiện",
+    "cornerstones": [
+      "hoạt động thương mại",
+      "văn hoá đại chúng",
+      "giao dịch nghệ thuật (art trading)",
+      "giải trí",
+      "nghỉ dưỡng/leisure"
+    ],
     "subzones": [
       "SKYCITY",
       "AsiaWorld-Expo",
       "11 SKIES",
+      "Hong Kong Port Island",
       "SkyPier",
-      "Tung Chung",
-      "Cathay City"
+      "Tung Chung"
     ],
-    "passengers_million": 71.5,
-    "cargo_million_tonnes": 4.8,
-    "air_movements": 419795,
-    "destinations": 200,
-    "airlines": 140,
-    "founded_year": 1998,
-    "total_investment_usd": "HK$9 billion",
-    "investor_governance": "Airport Authority Hong Kong (AA) is a statutory body wholly owned by the Hong Kong SAR Government.",
-    "lead_developer": "Airport Authority Hong Kong",
+    "passengers_million": 60.992,
+    "cargo_million_tonnes": 5.07,
+    "air_movements": 394730,
+    "destinations": 180,
+    "airlines": 100,
+    "transfer_pct": null,
+    "airport_area_ha": 1905.0,
+    "employees": 68000,
+    "num_companies_airport": null,
+    "num_companies_realestate": null,
+    "num_office_buildings": 3,
+    "jobs_created": null,
+    "total_investment_usd": "HK$141.5 billion (dự án mở rộng ba đường băng); AAHK phê duyệt gói mở rộng HKD 140 tỷ (khoảng 18 tỷ USD)",
+    "investor_governance": "Airport Authority Hong Kong (AA) là cơ quan theo luật định (statutory body) do Chính quyền Đặc khu Hành chính Hong Kong sở hữu toàn bộ, thành lập năm 1995, chịu trách nhiệm vận hành và phát triển HKIA, hoạt động theo Airport Authority Ordinance (Chương 483). Hội đồng quản trị gồm Chủ tịch, CEO và từ 8 đến 15 thành viên khác.",
+    "gov_led_ratio_pct": null,
+    "private_ratio_pct": null,
+    "lead_developer": "Airport Authority Hong Kong (AAHK)",
+    "cvp_product": [
+      "bán lẻ",
+      "ẩm thực",
+      "văn phòng hạng A (Grade-A office)",
+      "khách sạn",
+      "giải trí",
+      "triển lãm – hội nghị (MICE)",
+      "hàng hoá hàng không (air cargo)",
+      "bến du thuyền (marina)",
+      "hệ sinh thái nghệ thuật (art ecosystem)"
+    ],
     "commercial_re": [
-      "retail",
-      "dining",
-      "hotel",
-      "office",
-      "cargo",
-      "logistics",
-      "exhibition",
-      "entertainment"
+      "bán lẻ",
+      "ẩm thực",
+      "khách sạn",
+      "văn phòng",
+      "giải trí",
+      "trung tâm triển lãm – hội nghị (MICE)",
+      "hàng hoá hàng không/logistics",
+      "kho lưu trữ tác phẩm nghệ thuật chuyên dụng"
     ],
+    "economic_zone_name": null,
+    "economic_zone_year": null,
+    "residential_product_desc": "Airport City tại HKIA không chào bán sản phẩm nhà ở (chỉ có khách sạn, văn phòng, thương mại); nhà ở nằm ở đô thị hậu phương Tung Chung – chủ yếu là chung cư cao tầng tư nhân (Coastal Skyline, The Visionary, Century Link, Seaview Crescent) và nhà ở công (Yat Tung Estate, Cheung Tung Estate…)",
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
     "basic_amenities": [
-      "retail",
-      "dining",
-      "hotel",
-      "shopping"
+      "bán lẻ",
+      "ẩm thực",
+      "khách sạn",
+      "trung tâm mua sắm",
+      "chợ thực phẩm tươi (Jet Fresh Market)",
+      "không gian công cộng và đường dạo ven biển (promenade)"
     ],
     "highlight_amenities": [
       "SKYCITY",
-      "AsiaWorld-Expo",
+      "AsiaWorld-Expo (và giai đoạn 2)",
       "11 SKIES",
-      "arena"
+      "nhà thi đấu trong nhà đa năng lớn nhất Hong Kong trên 20.000 chỗ",
+      "bến du thuyền lớn nhất Hong Kong khoảng 600 chỗ neo",
+      "tổ hợp sportainment trên Hong Kong Port Island",
+      "Jet Fresh Market",
+      "sân golf SkyCity Nine Eagles"
     ],
-    "cvp_product": [
-      "retail",
-      "office",
-      "hotel",
-      "cargo",
-      "exhibition"
-    ],
-    "cvp_experience": [
-      "retail",
-      "dining",
-      "entertainment",
-      "exhibition"
-    ],
-    "cvp_convenience": [
-      "Skypier , began operations in 2008 and 2009 respectively.",
-      "Hong Kong–Zhuhai–Macau Bridge Control Point, with services between Chek Lap Kok , Hong Kong to Zhuhai and Macau ."
-    ],
-    "rail_connections": [
-      "Tung Chung line which follows the same route as the MTR Airport Express Line to Central Station with cheaper fare but longer journey time.",
-      "Airport Express Line to Central Station with cheaper fare but longer journey time."
-    ],
-    "cvp_brand": [
-      "Airport Authority Hong Kong",
-      "Cathay Pacific",
-      "AsiaWorld-Expo"
-    ],
-    "sustainability": [
-      "carbon",
-      "sustainability",
-      "green"
-    ],
-    "cornerstones": null,
-    "area_km2": null,
-    "distance_to_city_km": null,
-    "transfer_pct": null,
-    "airport_area_ha": null,
-    "employees": null,
-    "num_companies_airport": null,
-    "num_companies_realestate": null,
-    "num_office_buildings": null,
-    "jobs_created": null,
-    "development_context": null,
-    "location_desc": null,
-    "economic_zone_name": null,
-    "economic_zone_year": null,
-    "residential_product_desc": null,
-    "logistics_park_ha": null,
-    "logistics_park_name": null,
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_price": null,
+    "cvp_price": "AAHK (chủ sở hữu đất sân bay) không bán đất mà khai thác qua hợp tác thương mại: giao dự án cho nhà phát triển tư nhân (11 SKIES do New World Development đầu tư) và cho thuê mặt bằng (Space for Lease) theo nguyên tắc thương mại thận trọng",
     "office_rent_eur_m2_year": null,
     "cvp_price_note": null,
-    "cvp_service": null,
-    "vision_label": null,
-    "vision_qualities": null,
-    "aviation_policy": null,
-    "smart_city": null,
-    "airport_build_period": null,
-    "urban_build_period": null,
-    "brand_partners": null,
-    "connection_modes": null,
-    "metro_lines": null,
-    "airport_privilege": null,
-    "experience_desc": null,
-    "price_vs_reference": null,
-    "sales_scheme": null,
-    "_pages_used": 15
+    "price_vs_reference": "Tại Tung Chung (đô thị hậu phương của sân bay), giá hàng hoá tiêu dùng hằng ngày nhìn chung cao hơn các khu vực nội đô do ít cạnh tranh bán lẻ",
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "Mô hình B2B/hợp tác công – tư: AAHK giữ đất và triển khai cùng đối tác (AsiaWorld-Expo được xây theo hình thức public–private partnership giữa Chính quyền Hong Kong và chủ đất; 11 SKIES do New World Development phát triển), mặt bằng thương mại/văn phòng cho thuê thay vì bán",
+    "cvp_service": [
+      "dịch vụ logistics hàng không (Aviation Logistics Services)",
+      "dịch vụ hàng hoá hàng không (Air Cargo)",
+      "đào tạo nhân lực hàng không (Aviation Academy)",
+      "dịch vụ hàng không thương gia tại Hong Kong Business Aviation Centre (phòng chờ, ground handling, xử lý hành lý, tiếp nhiên liệu, an ninh, hải quan, lập kế hoạch bay)",
+      "dịch vụ tổ chức sự kiện của AsiaWorld-Expo (Event Production, Catering, Rigging Services, ICT, Advertising, Guest Services)",
+      "làm thủ tục check-in từ xa (upstream check-in) tại Macao Checkpoint"
+    ],
+    "airport_privilege": "Hành khách trung chuyển qua SkyPier được miễn thủ tục xuất nhập cảnh và hải quan tại HKIA, rút ngắn thời gian di chuyển; ngoài ra có dịch vụ upstream check-in tại Macao Checkpoint của Hong Kong–Zhuhai–Macau Bridge và bãi đỗ xe tự động Park & Fly phục vụ khách bay",
+    "has_airport_privilege": true,
+    "smart_city": "Chưa có công bố chiến lược đô thị thông minh tổng thể cho toàn khu; mới có các cấu phần số hoá/tự động hoá: hạng mục “Smart Venue” của AsiaWorld-Expo, thiết bị khử khuẩn thông minh (đèn UV), hệ thống Automated People Mover (APM) tốc độ 80km/h, hệ thống xử lý hành lý tự động và bãi đỗ xe tự động Park & Fly",
+    "has_smart_city": true,
+    "cvp_experience": [
+      "bán lẻ",
+      "ẩm thực",
+      "giải trí trong nhà quy mô lớn (11 SKIES)",
+      "triển lãm – hội nghị và concert tại AsiaWorld-Expo",
+      "du thuyền và thể thao dưới nước tại marina",
+      "tổ hợp sportainment",
+      "hệ sinh thái nghệ thuật (gallery, studio, trưng bày)",
+      "ngắm máy bay và ẩm thực tại Jet Fresh Market",
+      "đường dạo ven biển và lễ hội tại không gian công cộng"
+    ],
+    "experience_desc": "Airport City tổ chức đời sống trải nghiệm quanh AsiaWorld-Expo – nơi diễn ra concert quốc tế (Oasis, Green Day, Le Sserafim), lễ trao giải Mnet Asian Music Awards từ 2013 và các triển lãm như ITU Telecom World 2006, Asian Aerospace; các không gian công cộng ven biển được kết nối liên hoàn để tổ chức nhiều loại lễ hội thu hút du khách, bên cạnh du thuyền, thể thao và trải nghiệm ẩm thực ngắm máy bay",
+    "cvp_convenience": [
+      "Airport Express và Tung Chung line (MTR) chạy thẳng vào trung tâm; Tung Chung line đi qua 8 ga trong 31 phút",
+      "AsiaWorld-Expo nằm sát nhà ga sân bay, có thể đi bộ",
+      "SkyPier – phà xuyên biên giới tới các cảng vùng Pearl River Delta và Macau, miễn thủ tục nhập cảnh cho khách trung chuyển",
+      "Coach Station 36 bến với 320 chuyến/ngày đi 90 thành phố – thị trấn vùng PRD",
+      "Hong Kong–Zhuhai–Macau Bridge: xe buýt con thoi 24/24, giãn cách 5 phút, qua cầu ~40 phút",
+      "Automated People Mover nối nhà ga với T2 Concourse và SkyPier",
+      "bãi đỗ xe tự động Park & Fly, Park & Visit tại Hong Kong Port"
+    ],
+    "connectivity_desc": "HKIA kết nối trên 200 điểm đến toàn cầu với khoảng 140 hãng hàng không; Airport City nằm ngay cạnh sân bay và được nối vào mạng lưới đa phương thức: đường sắt Airport Express/Tung Chung line, phà SkyPier tới Pearl River Delta và Macau, xe khách xuyên biên giới tới 90 thành phố PRD và Hong Kong–Zhuhai–Macau Bridge, giúp khu tiếp cận trực tiếp thị trường Greater Bay Area",
+    "connection_modes": [
+      "đường sắt đô thị MTR (Tung Chung line)",
+      "đường sắt sân bay tốc hành (Airport Express)",
+      "xe buýt và xe khách xuyên biên giới (coach)",
+      "cầu vượt biển/cao tốc (Hong Kong–Zhuhai–Macau Bridge)",
+      "phà (SkyPier)",
+      "tàu điện tự động nội khu (Automated People Mover)",
+      "taxi và xe cá nhân với bãi đỗ Park & Fly"
+    ],
+    "metro_lines": 2,
+    "rail_connections": [
+      "Airport Express – phục vụ ga Airport và ga AsiaWorld-Expo, nối tới Kowloon và Hong Kong Station",
+      "Tung Chung line – 8 ga, hành trình 31 phút, cùng lộ trình với Airport Express nhưng giá rẻ hơn",
+      "Chuyển tiếp West Rail line tại Nam Cheong station và Disneyland Resort line tại Sunny Bay station",
+      "Automated People Mover của HKIA nối nhà ga với T2 Concourse và SkyPier"
+    ],
+    "cvp_brand": [
+      "Airport Authority Hong Kong (AAHK)",
+      "Chính quyền Đặc khu hành chính Hong Kong (chủ sở hữu 100% AAHK)",
+      "AsiaWorld-Expo Management Limited",
+      "HKIA Services Holdings Ltd (HKIA SHL)",
+      "New World Development",
+      "Cathay Pacific"
+    ],
+    "brand_desc": "AAHK định vị Airport City là địa danh (landmark) mới tầm thế giới và lớn nhất khu vực, tích hợp thương mại, văn hoá đại chúng, giao dịch nghệ thuật, giải trí và nghỉ dưỡng; blueprint công bố lần đầu năm 2019 nhằm cộng hưởng chức năng lõi của sân bay với các mảng kinh doanh liên quan, biến khu thành điểm đến du lịch cao cấp cho khách Hong Kong, Greater Bay Area và toàn cầu",
+    "brand_partners": [
+      "New World Development",
+      "Regala Skycity Hotel",
+      "Hong Kong SkyCity Marriott Hotel",
+      "AsiaWorld-Expo",
+      "Cathay Pacific",
+      "HKExpress",
+      "Hong Kong Business Aviation Centre"
+    ],
+    "vision_label": "HKIA Master Plan 2030 (MP 2030)",
+    "vision_qualities": [
+      "trung tâm hàng không quốc tế hàng đầu",
+      "động lực then chốt cho tăng trưởng kinh tế Hong Kong",
+      "vận hành hiệu quả và quan tâm tới môi trường",
+      "vượt trên kỳ vọng của khách hàng",
+      "áp dụng nguyên tắc thương mại thận trọng",
+      "trân trọng con người",
+      "nuôi dưỡng văn hoá đổi mới sáng tạo",
+      "chuẩn mực cao về an toàn và an ninh",
+      "cải tiến liên tục – cam kết – hợp tác"
+    ],
+    "aviation_policy": "Airport Authority Ordinance (Chương 483, Luật Hong Kong) – văn bản pháp lý điều chỉnh Airport Authority Hong Kong, cơ quan pháp định thuộc sở hữu hoàn toàn của Chính quyền HKSAR, chịu trách nhiệm vận hành và phát triển HKIA; định hướng mở rộng theo HKIA Master Plan 2030 công bố ngày 2/6/2011 với hệ thống ba đường băng (3RS)",
+    "sustainability": [
+      "chương trình phát triển bền vững và Sustainability Report 2024/25 công bố thường niên",
+      "chuyên mục Greenest Airport Updates",
+      "tài chính bền vững (Sustainable Finance)",
+      "xếp hạng và ghi nhận ESG (ESG Ratings and Recognitions)",
+      "chính sách môi trường (Environment/Policies) của AAHK",
+      "cam kết vận hành hiệu quả đi kèm quan tâm tới môi trường trong sứ mệnh AAHK",
+      "dự án 3RS lấn biển bằng phương pháp không nạo vét (deep cement mixing) và phải qua Báo cáo đánh giá tác động môi trường (EIA) cùng giấy phép môi trường"
+    ],
+    "logistics_park_name": null,
+    "logistics_park_ha": null,
+    "trade_park_name": null,
+    "trade_park_ha": null
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "high",
+      "snippet": "The Airport City at Hong Kong International Airport (HKIA) is developing into a new, world-leading landmark, the largest in the region",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
     },
-    "subzones": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
-        "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754"
-      ],
-      "confidence": "high"
+    "aerotropolis": {
+      "confidence": "high",
+      "snippet": "SKYCITY is Hong Kong’s most highly anticipated landmark. It occupies approximately 25 hectares of land and will be one of the largest integrated commercial developments in Hong Kong",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
     },
-    "passengers_million": {
-      "unit": "triệu/năm (số 2019)",
+    "country": {
+      "confidence": "high",
+      "snippet": "The Airport Authority Hong Kong (AA) is a statutory body wholly owned by the Hong Kong SAR Government.",
+      "source": "S02",
+      "source_url": "https://www.hongkongairport.com/en/airport-authority/vision-mission/index.page",
+      "source_file": "pages/02_hkia_vision_mission_airport_authority.txt",
+      "source_name": "HKIA – Vision & Mission (Airport Authority)"
+    },
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
+    },
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "Facts and Figures, HKIA at a Glance - Hong Kong International Airport",
+      "source": "S01",
       "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
-      "source_file": "01_hkia_facts_figures.txt",
-      "snippet": "71.5 million passengers handled",
-      "confidence": "high"
+      "source_file": "pages/01_hkia_facts_figures.txt",
+      "source_name": "HKIA – Facts & Figures"
     },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm (số 2019)",
-      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
-      "source_file": "01_hkia_facts_figures.txt",
-      "snippet": "4.8 million tonnes of cargo and airmail",
-      "confidence": "high"
+    "reference_city": {
+      "confidence": "high",
+      "snippet": "To strengthen HKIA as the leading international aviation hub and a key engine for the economic growth of Hong Kong.",
+      "source": "S02",
+      "source_url": "https://www.hongkongairport.com/en/airport-authority/vision-mission/index.page",
+      "source_file": "pages/02_hkia_vision_mission_airport_authority.txt",
+      "source_name": "HKIA – Vision & Mission (Airport Authority)"
     },
-    "air_movements": {
-      "unit": "lượt/năm (số 2019)",
+    "official_website": {
+      "confidence": "high",
+      "snippet": "url: https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
+      "source": "S01",
       "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
-      "source_file": "01_hkia_facts_figures.txt",
-      "snippet": "419,795 air traffic movements",
-      "confidence": "high"
+      "source_file": "pages/01_hkia_facts_figures.txt",
+      "source_name": "HKIA – Facts & Figures"
     },
-    "destinations": {
-      "unit": "điểm đến",
-      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
-      "source_file": "01_hkia_facts_figures.txt",
-      "snippet": "over 200 destinations worldwide",
-      "confidence": "high"
+    "location_desc": {
+      "confidence": "medium",
+      "snippet": "AsiaWorld–Expo is next to the airport; visitors can walk to the venue in a short distance. The venue is next to the AsiaWorld–Expo station, on the Airport Express",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/AsiaWorld-Expo",
+      "source_file": "pages/08_wikipedia_asiaworld_expo.txt",
+      "source_name": "Wikipedia – AsiaWorld-Expo"
     },
-    "airlines": {
-      "unit": "hãng",
-      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
-      "source_file": "01_hkia_facts_figures.txt",
-      "snippet": "destinations worldwide by around 140 airlines",
-      "confidence": "high"
+    "area_km2": {
+      "confidence": "medium",
+      "snippet": "SKYCITY is Hong Kong’s most highly anticipated landmark. It occupies approximately 25 hectares of land",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "airport_build_period": {
+      "confidence": "medium",
+      "snippet": "The actual operation of the airport commenced on 6 July 1998, concluding the six-year construction that cost 60 billion US dollars.",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "urban_build_period": {
+      "confidence": "medium",
+      "snippet": "First unveiled in 2019, the Airport City blueprint combines the airport’s core functions with related business segments to create strong synergy",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
     },
     "founded_year": {
-      "unit": "năm",
+      "confidence": "high",
+      "snippet": "July\n1998\nfirst opened",
+      "source": "S01",
+      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
+      "source_file": "pages/01_hkia_facts_figures.txt",
+      "source_name": "HKIA – Facts & Figures"
+    },
+    "development_context": {
+      "confidence": "medium",
+      "snippet": "First unveiled in 2019, the Airport City blueprint combines the airport’s core functions with related business segments to create strong synergy, fully leveraging the airport's unique geographical location with a view to seizing the opportunities brought by various new infrastructures.",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "positioning": {
+      "confidence": "high",
+      "snippet": "The Airport City at Hong Kong International Airport (HKIA) is developing into a new, world-leading landmark, the largest in the region, that integrates commercial activities, popular culture, art trading, entertainment and leisure",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "planning_concept": {
+      "confidence": "medium",
+      "snippet": "Creating strong synergy between AsiaWorld-Expo, 11 SKIES and other components of SKYCITY, the development offers a total travel, leisure, business and event hub that will be unprecedented anywhere.",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "cornerstones": {
+      "confidence": "high",
+      "snippet": "that integrates commercial activities, popular culture, art trading, entertainment and leisure under an expanded development blueprint spearheaded by Airport Authority Hong Kong (AAHK)",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "subzones": {
+      "confidence": "medium",
+      "snippet": "including a new hotel and three Grade-A office towers, both opened for business already, as well as 11 SKIES ... AAHK is also making plans for a brand-new sportainment complex on the Hong Kong Port Island",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "passengers_million": {
+      "confidence": "high",
+      "snippet": "Statistics (2025)\nPassengers\n60,992,000",
+      "source": "S06",
       "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
-      "source_file": "06_wikipedia_hong_kong_international_airport.txt",
-      "snippet": "Opened in 1998",
-      "confidence": "high"
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "cargo_million_tonnes": {
+      "confidence": "high",
+      "snippet": "Cargo (metric tonnes)\n5,070,000",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "air_movements": {
+      "confidence": "high",
+      "snippet": "Aircraft movements\n394,730",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "destinations": {
+      "confidence": "medium",
+      "snippet": "More than 100 airlines operate flights from the airport to over 180 cities across the globe.",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "airlines": {
+      "confidence": "medium",
+      "snippet": "More than 100 airlines operate flights from the airport to over 180 cities across the globe.",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "airport_area_ha": {
+      "confidence": "high",
+      "snippet": "Hong Kong International Airport covers an area of 4,707 acres or\n1,905 hectares (7.36",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "employees": {
+      "confidence": "high",
+      "snippet": "Around\n68,000\nstaff",
+      "source": "S01",
+      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
+      "source_file": "pages/01_hkia_facts_figures.txt",
+      "source_name": "HKIA – Facts & Figures"
+    },
+    "num_office_buildings": {
+      "confidence": "medium",
+      "snippet": "including a new hotel and three Grade-A office towers, both opened for business already",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
     },
     "total_investment_usd": {
+      "confidence": "medium",
+      "snippet": "The airport opened its third runway in July 2022 as part of a HK$141.5 billion expansion project that would increase its land footprint by 50%.",
+      "source": "S06",
       "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
-      "source_file": "06_wikipedia_hong_kong_international_airport.txt",
-      "snippet": "HK$9 billion",
-      "confidence": "high"
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
     },
     "investor_governance": {
+      "confidence": "high",
+      "snippet": "The Airport Authority Hong Kong (AA) is a statutory body wholly owned by the Hong Kong SAR Government. Established in 1995, the AA is responsible for the operation and development of Hong Kong International Airport (HKIA).",
+      "source": "S02",
       "source_url": "https://www.hongkongairport.com/en/airport-authority/vision-mission/index.page",
-      "source_file": "02_hkia_vision_mission_airport_authority.txt",
-      "snippet": "Airport Authority Hong Kong (AA) is a statutory body wholly owned by the Hong Kong SAR Government.",
-      "confidence": "high"
+      "source_file": "pages/02_hkia_vision_mission_airport_authority.txt",
+      "source_name": "HKIA – Vision & Mission (Airport Authority)"
     },
     "lead_developer": {
-      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
-      "source_file": "01_hkia_facts_figures.txt",
-      "snippet": "Airport Authority Hong Kong",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://threerunwaysystem.hongkongairport.com/en/three-runway-system/project-overview/",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
-        "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "under an expanded development blueprint spearheaded by Airport Authority Hong Kong (AAHK)",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://threerunwaysystem.hongkongairport.com/en/three-runway-system/project-overview/",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
-        "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "AAHK has since proactively taken forward various projects, including a new hotel and three Grade-A office towers, both opened for business already, as well as 11 SKIES,",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "commercial_re": {
+      "confidence": "high",
+      "snippet": "one of the largest integrated commercial developments in Hong Kong providing AsiaWorld-Expo guests and organisers with an eclectic selection of retail chains, dining, hotels, entertainment facilities",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "residential_product_desc": {
+      "confidence": "medium",
+      "snippet": "Currently, Tung Chung is primarily residential, but an office block and hotel have already been completed.",
+      "source": "S09",
+      "source_url": "https://en.wikipedia.org/wiki/Tung_Chung",
+      "source_file": "pages/09_wikipedia_tung_chung.txt",
+      "source_name": "Wikipedia – Tung Chung"
+    },
+    "basic_amenities": {
+      "confidence": "high",
+      "snippet": "Retail, dining and entertainment facilities with the gross floor area of 350,000 sqm",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "highlight_amenities": {
+      "confidence": "high",
+      "snippet": "AAHK is taking forward the Phase 2 development of AsiaWorld-Expo, which will include Hong Kong’s largest multi-purpose indoor arena with a seating capacity of over 20,000 people",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "cvp_price": {
+      "confidence": "low",
+      "snippet": "Major highlights include the “11 SKIES” developed by New World Development – the first destination to combine wellness and wealth management with entertainment in Hong Kong.",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "price_vs_reference": {
+      "confidence": "medium",
+      "snippet": "In Tung Chung, the prices of everyday items are generally higher than the urban areas because of the low competition of shops in Tung Chung.",
+      "source": "S09",
+      "source_url": "https://en.wikipedia.org/wiki/Tung_Chung",
+      "source_file": "pages/09_wikipedia_tung_chung.txt",
+      "source_name": "Wikipedia – Tung Chung"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "The complex was built under a public–private partnership involving the Hong Kong government, landowner",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/AsiaWorld-Expo",
+      "source_file": "pages/08_wikipedia_asiaworld_expo.txt",
+      "source_name": "Wikipedia – AsiaWorld-Expo"
+    },
+    "cvp_service": {
+      "confidence": "medium",
+      "snippet": "It provides services for executive aircraft and passengers, including a passenger lounge, private rooms and showers, business centre facilities, ground handling, baggage handling, fuelling, security",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "airport_privilege": {
+      "confidence": "medium",
+      "snippet": "opened in December 2009, enabling travellers using the Skypier to avoid immigration and customs formalities at HKIA, cutting travel times.",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/SkyPier",
+      "source_file": "pages/11_wikipedia_skypier.txt",
+      "source_name": "Wikipedia – SkyPier"
+    },
+    "has_airport_privilege": {
+      "confidence": "medium",
+      "snippet": "enabling travellers using the Skypier to avoid immigration and customs formalities at HKIA, cutting travel times.",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/SkyPier",
+      "source_file": "pages/11_wikipedia_skypier.txt",
+      "source_name": "Wikipedia – SkyPier"
+    },
+    "smart_city": {
+      "confidence": "low",
+      "snippet": "Venue Highlights\nAwards\nAffiliations & Associations\nSmart Venue",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "has_smart_city": {
+      "confidence": "medium",
+      "snippet": "the first phase of the facility will have upgraded facilities and smart sanitizing equipment such as UV lights costing HK$600 million",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/AsiaWorld-Expo",
+      "source_file": "pages/08_wikipedia_asiaworld_expo.txt",
+      "source_name": "Wikipedia – AsiaWorld-Expo"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://threerunwaysystem.hongkongairport.com/en/three-runway-system/project-overview/",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "New projects include an ecosystem for the art industry, AsiaWorld-Expo Phase 2 development, a marina with ancillary facilities, a fresh food market, and more.",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "Public spaces will be interconnected for various kinds of festive celebrations that draw visitors.",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport"
-      ],
-      "source_files": [
-        "06_wikipedia_hong_kong_international_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "The 36 bays at the new Coach Station allow cross-border coaches to make 320 trips a day carrying passengers between the airport and 90 cities and towns in the PRD.",
+      "source": "S06",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
+      "source_file": "pages/06_wikipedia_hong_kong_international_airport.txt",
+      "source_name": "Wikipedia – Hong Kong International Airport"
+    },
+    "connectivity_desc": {
+      "confidence": "medium",
+      "snippet": "over\n200\ndestinations worldwide by around 140 airlines",
+      "source": "S01",
+      "source_url": "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page",
+      "source_file": "pages/01_hkia_facts_figures.txt",
+      "source_name": "HKIA – Facts & Figures"
+    },
+    "connection_modes": {
+      "confidence": "high",
+      "snippet": "The pier is linked to the airport terminal by an extension of the\nHong Kong International Airport Automated People Mover",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/SkyPier",
+      "source_file": "pages/11_wikipedia_skypier.txt",
+      "source_name": "Wikipedia – SkyPier"
+    },
+    "metro_lines": {
+      "confidence": "high",
+      "snippet": "The Lantau Airport rail link consists of two train lines, the Tung Chung line and the\nAirport Express",
+      "source": "S10",
+      "source_url": "https://en.wikipedia.org/wiki/Tung_Chung_line",
+      "source_file": "pages/10_wikipedia_tung_chung_line.txt",
+      "source_name": "Wikipedia – Tung Chung line"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport"
-      ],
-      "source_files": [
-        "06_wikipedia_hong_kong_international_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "The line currently travels through eight stations in 31 minutes along its route.",
+      "source": "S10",
+      "source_url": "https://en.wikipedia.org/wiki/Tung_Chung_line",
+      "source_file": "pages/10_wikipedia_tung_chung_line.txt",
+      "source_name": "Wikipedia – Tung Chung line"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport",
-        "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
-        "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "under an expanded development blueprint spearheaded by Airport Authority Hong Kong (AAHK), with the aim of driving further economic development of Hong Kong and the Greater Bay Area.",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "brand_desc": {
+      "confidence": "high",
+      "snippet": "The Airport City at Hong Kong International Airport (HKIA) is developing into a new, world-leading landmark, the largest in the region,",
+      "source": "S04",
+      "source_url": "https://www.hongkongairport.com/en/media-centre/press-release/2024/pr_1754",
+      "source_file": "pages/04_aahk_th_ng_c_o_skytopia_airport_city.txt",
+      "source_name": "AAHK – Thông cáo SKYTOPIA / Airport City"
+    },
+    "brand_partners": {
+      "confidence": "medium",
+      "snippet": "Major highlights include the “11 SKIES” developed by New World Development ... the newly opened Regala Skycity Hotel provides around 1,200 rooms",
+      "source": "S05",
+      "source_url": "https://www.asiaworld-expo.com/en-us/visiting/around-awe/skycity/",
+      "source_file": "pages/05_asiaworld_expo_skycity.txt",
+      "source_name": "AsiaWorld-Expo – SKYCITY"
+    },
+    "vision_label": {
+      "confidence": "medium",
+      "snippet": "the Airport Authority Hong Kong (\"AAHK\") proposed the expansion of HKIA into a three-runway system (\"3RS\") ... through the introduction of Master Plan 2030 (\"MP 2030\") in 2011",
+      "source": "S07",
+      "source_url": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport_Master_Plan_2030",
+      "source_file": "pages/07_wikipedia_hkia_master_plan_2030.txt",
+      "source_name": "Wikipedia – HKIA Master Plan 2030"
+    },
+    "vision_qualities": {
+      "confidence": "high",
+      "snippet": "To strengthen HKIA as the leading international aviation hub and a key engine for the economic growth of Hong Kong.",
+      "source": "S02",
+      "source_url": "https://www.hongkongairport.com/en/airport-authority/vision-mission/index.page",
+      "source_file": "pages/02_hkia_vision_mission_airport_authority.txt",
+      "source_name": "HKIA – Vision & Mission (Airport Authority)"
+    },
+    "aviation_policy": {
+      "confidence": "high",
+      "snippet": "The AA is governed by the Airport Authority Ordinance (\nChapter 483, The Laws of Hong Kong",
+      "source": "S02",
+      "source_url": "https://www.hongkongairport.com/en/airport-authority/vision-mission/index.page",
+      "source_file": "pages/02_hkia_vision_mission_airport_authority.txt",
+      "source_name": "HKIA – Vision & Mission (Airport Authority)"
     },
     "sustainability": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport_Master_Plan_2030",
-        "https://www.hongkongairport.com/en/the-airport/hkia-at-a-glance/fact-figures.page"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Reclaiming approximately 650 hectares of land north of the existing airport island ... using non-dredge methods including deep cement mixing",
+      "source": "S03",
+      "source_url": "https://threerunwaysystem.hongkongairport.com/en/three-runway-system/project-overview/",
+      "source_file": "pages/03_hkia_three_runway_system_t_ng_quan_d_n.txt",
+      "source_name": "HKIA – Three-Runway System (tổng quan dự án)"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu không nêu khoảng cách từ khu đô thị sân bay tới trung tâm Hong Kong",
+    "transfer_pct": "Tài liệu không nêu tỷ lệ hành khách trung chuyển",
+    "num_companies_airport": "Tài liệu không nêu số doanh nghiệp hoạt động tại sân bay",
+    "num_companies_realestate": "Tài liệu không nêu số doanh nghiệp thuê bất động sản trong khu",
+    "jobs_created": "Tài liệu không nêu số việc làm dự kiến/đã tạo riêng cho khu đô thị sân bay",
+    "gov_led_ratio_pct": "Tài liệu không nêu tỷ lệ vốn/vai trò nhà nước bằng con số cụ thể cho khu đô thị sân bay",
+    "private_ratio_pct": "Tài liệu không nêu tỷ lệ vốn tư nhân bằng con số cụ thể",
+    "economic_zone_name": "Tài liệu không nêu bất kỳ đặc khu kinh tế/khu thương mại tự do nào gắn với Airport City HKIA (chỉ nhắc Greater Bay Area và Northern Metropolis là bối cảnh vùng).",
+    "economic_zone_year": "Không có tên đặc khu kinh tế nên không có năm thành lập trong tài liệu.",
+    "residential_highrise_pct": "Tài liệu không nêu tỷ lệ % sản phẩm nhà ở cao tầng.",
+    "residential_lowrise_pct": "Tài liệu không nêu tỷ lệ % sản phẩm nhà ở thấp tầng.",
+    "residential_land_pct": "Tài liệu không nêu tỷ lệ % đất nền/nhà liền thổ.",
+    "office_rent_eur_m2_year": "Tài liệu không có dòng chào giá thuê văn phòng (Starting at/From) hay bất kỳ mức giá EUR/m²/năm nào.",
+    "cvp_price_note": "Không có bảng giá hay chú thích điều kiện giá trong tài liệu.",
+    "living_fee_usd_per_m2_month": "Tài liệu không nêu phí quản lý/duy trì theo USD/m²/tháng.",
+    "has_urban_service_fee": "Không có bằng chứng về phí dịch vụ đô thị trong tài liệu.",
+    "logistics_park_name": "Tài liệu không nêu tên riêng của khu logistics trong khu đô thị sân bay",
+    "logistics_park_ha": "Tài liệu không nêu diện tích khu logistics",
+    "trade_park_name": "Tài liệu không nêu tên riêng của khu thương mại tự do/khu mậu dịch",
+    "trade_park_ha": "Tài liệu không nêu diện tích khu thương mại"
+  },
+  "_meta": {
+    "case": "hong_kong",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:22:44+0700",
+    "fields_total": 75,
+    "fields_filled": 55,
+    "coverage_pct": 73.3,
+    "high_confidence": 29,
+    "from_baseline": 1,
+    "dossier": {
+      "pages_total": 15,
+      "pages_kept": 15,
+      "raw_chars": 910316,
+      "dossier_chars": 137614
+    },
+    "warnings": [],
+    "narrative_groups": 12
+  },
+  "narrative": {
+    "identity": "Hồ sơ **Hong Kong Airport City / SKYCITY** thuộc **Hong Kong**, gắn với sân bay **Hong Kong International Airport** và thành phố tham chiếu **Hong Kong**. Đây không phải dự án mục tiêu, thông tin chính thức được công bố tại **https://www.hongkongairport.com**.",
+    "location": "Khu nằm trên đảo sân bay **Chek Lap Kok** (**Islands District**, **Lantau**), với **SKYCITY**/**AsiaWorld-Expo** nằm sát nhà ga sân bay, có ga **AsiaWorld-Expo** trên tuyến **Airport Express** và kết nối tới **Tung Chung**, **Hong Kong Port Island** cùng **Hong Kong–Zhuhai–Macau Bridge**. Trên diện tích **0,25** km², sân bay được xây trong giai đoạn **1992-1998** và khu đô thị phát triển từ **2019** đến nay, mốc thành lập là năm **1998**. Bối cảnh hình thành là việc di dời sân bay từ **Kai Tak** (đã quá tải công suất thiết kế) ra **Chek Lap Kok** trong khuôn khổ **Hong Kong Airport Core Programme**; sau đó **AAHK** công bố blueprint **Airport City** năm **2019** nhằm khai thác vị trí địa lý và hạ tầng mới, thúc đẩy kinh tế **Hong Kong** và **Greater Bay Area**.",
+    "positioning": "**Airport City / SKYCITY** được định vị là điểm nhấn (landmark) mới hàng đầu thế giới và lớn nhất khu vực, tích hợp thương mại, văn hoá đại chúng, giao dịch nghệ thuật, giải trí và nghỉ dưỡng. Ý tưởng quy hoạch là kết hợp các chức năng lõi của sân bay với các mảng kinh doanh liên quan để tạo cộng hưởng mạnh, tận dụng tối đa vị trí địa lý độc đáo cùng các hạ tầng mới, đồng thời tạo cộng hưởng giữa **AsiaWorld-Expo**, **11 SKIES** và các thành phần khác của **SKYCITY** thành một tổ hợp du lịch – nghỉ dưỡng – kinh doanh – sự kiện. Các trụ cột gồm hoạt động thương mại, văn hoá đại chúng, giao dịch nghệ thuật (art trading), giải trí và nghỉ dưỡng/leisure, phân bổ theo các phân khu **SKYCITY**, **AsiaWorld-Expo**, **11 SKIES**, **Hong Kong Port Island**, **SkyPier** và **Tung Chung**.",
+    "kpi": "Sân bay phục vụ **60,992** triệu khách/năm và **5,07** triệu tấn hàng hoá/năm, với **394.730** lượt cất hạ cánh mỗi năm, **180** điểm đến và **100** hãng bay. Trên diện tích sân bay **1.905** ha, khu vực có **68.000** lao động và **3** toà văn phòng.",
+    "investment": "Tổng mức đầu tư ở mức **HK$141,5 tỷ** cho dự án mở rộng ba đường băng, trong đó **AAHK** phê duyệt gói mở rộng **140 tỷ HKD** (khoảng **18 tỷ USD**). Bên dẫn dắt là **Airport Authority Hong Kong (AAHK)** – cơ quan theo luật định (statutory body) do **Chính quyền Đặc khu Hành chính Hong Kong** sở hữu toàn bộ, thành lập năm **1995**, chịu trách nhiệm vận hành và phát triển **HKIA** theo **Airport Authority Ordinance** (**Chương 483**), với Hội đồng quản trị gồm Chủ tịch, CEO và từ **8** đến **15** thành viên khác.",
+    "product": "Danh mục chào bán trải rộng từ bán lẻ, ẩm thực, văn phòng hạng A (**Grade-A office**), khách sạn, giải trí, triển lãm – hội nghị (**MICE**), hàng hoá hàng không (air cargo), bến du thuyền (marina) đến hệ sinh thái nghệ thuật, còn bất động sản thương mại gồm bán lẻ, ẩm thực, khách sạn, văn phòng, giải trí, trung tâm **MICE**, hàng hoá hàng không/logistics và kho lưu trữ tác phẩm nghệ thuật chuyên dụng. **Airport City** tại **HKIA** không chào bán sản phẩm nhà ở mà chỉ có khách sạn, văn phòng và thương mại; nhà ở nằm ở đô thị hậu phương **Tung Chung** – chủ yếu là chung cư cao tầng tư nhân (**Coastal Skyline**, **The Visionary**, **Century Link**, **Seaview Crescent**) và nhà ở công (**Yat Tung Estate**, **Cheung Tung Estate**…). Tiện ích cơ bản gồm bán lẻ, ẩm thực, khách sạn, trung tâm mua sắm, chợ thực phẩm tươi **Jet Fresh Market** cùng không gian công cộng và đường dạo ven biển (promenade). Điểm nhấn là **SKYCITY**, **AsiaWorld-Expo** (và giai đoạn **2**), **11 SKIES**, nhà thi đấu trong nhà đa năng lớn nhất **Hong Kong** trên **20.000** chỗ, bến du thuyền lớn nhất **Hong Kong** khoảng **600** chỗ neo, tổ hợp sportainment trên **Hong Kong Port Island**, **Jet Fresh Market** và sân golf **SkyCity Nine Eagles**.",
+    "price": "**AAHK** là chủ sở hữu đất sân bay nhưng không bán đất mà khai thác qua hợp tác thương mại: giao dự án cho nhà phát triển tư nhân (**11 SKIES** do **New World Development** đầu tư) và cho thuê mặt bằng (**Space for Lease**) theo nguyên tắc thương mại thận trọng. Mô hình vận hành là B2B/hợp tác công – tư, trong đó **AsiaWorld-Expo** được xây theo hình thức public–private partnership giữa **Chính quyền Hong Kong** và chủ đất, còn mặt bằng thương mại/văn phòng được cho thuê thay vì bán. Tại **Tung Chung** – đô thị hậu phương của sân bay – giá hàng hoá tiêu dùng hằng ngày nhìn chung cao hơn các khu vực nội đô do ít cạnh tranh bán lẻ.",
+    "service": "Hệ dịch vụ gồm logistics hàng không (**Aviation Logistics Services**), hàng hoá hàng không (**Air Cargo**), đào tạo nhân lực hàng không (**Aviation Academy**), dịch vụ hàng không thương gia tại **Hong Kong Business Aviation Centre** (phòng chờ, ground handling, xử lý hành lý, tiếp nhiên liệu, an ninh, hải quan, lập kế hoạch bay), dịch vụ tổ chức sự kiện của **AsiaWorld-Expo** (**Event Production**, **Catering**, **Rigging Services**, **ICT**, **Advertising**, **Guest Services**) và làm thủ tục check-in từ xa (upstream check-in) tại **Macao Checkpoint**. Về đặc quyền sân bay, hành khách trung chuyển qua **SkyPier** được miễn thủ tục xuất nhập cảnh và hải quan tại **HKIA**, rút ngắn thời gian di chuyển, bên cạnh upstream check-in tại **Macao Checkpoint** của **Hong Kong–Zhuhai–Macau Bridge** và bãi đỗ xe tự động **Park & Fly**. Chưa có công bố chiến lược đô thị thông minh tổng thể cho toàn khu, mới có các cấu phần số hoá/tự động hoá gồm hạng mục **“Smart Venue”** của **AsiaWorld-Expo**, thiết bị khử khuẩn thông minh (đèn UV), hệ thống **Automated People Mover (APM)** tốc độ **80km/h**, hệ thống xử lý hành lý tự động và bãi đỗ xe tự động **Park & Fly**.",
+    "experience": "Trải nghiệm cung cấp gồm bán lẻ, ẩm thực, giải trí trong nhà quy mô lớn tại **11 SKIES**, triển lãm – hội nghị và concert tại **AsiaWorld-Expo**, du thuyền và thể thao dưới nước tại marina, tổ hợp sportainment, hệ sinh thái nghệ thuật (gallery, studio, trưng bày), ngắm máy bay và ẩm thực tại **Jet Fresh Market**, cùng đường dạo ven biển và lễ hội tại không gian công cộng. **Airport City** tổ chức đời sống trải nghiệm quanh **AsiaWorld-Expo** – nơi diễn ra concert quốc tế của **Oasis**, **Green Day**, **Le Sserafim**, lễ trao giải **Mnet Asian Music Awards** từ **2013** và các triển lãm như **ITU Telecom World 2006**, **Asian Aerospace**. Các không gian công cộng ven biển được kết nối liên hoàn để tổ chức nhiều loại lễ hội thu hút du khách, bên cạnh du thuyền, thể thao và trải nghiệm ẩm thực ngắm máy bay.",
+    "convenience": "**Airport Express** và **Tung Chung line** (**MTR**) chạy thẳng vào trung tâm với **2** tuyến metro, trong đó **Tung Chung line** đi qua **8** ga trong **31** phút và có giá rẻ hơn dù cùng lộ trình với **Airport Express** – tuyến phục vụ ga **Airport** và ga **AsiaWorld-Expo**, nối tới **Kowloon** và **Hong Kong Station**, đồng thời chuyển tiếp **West Rail line** tại **Nam Cheong station** và **Disneyland Resort line** tại **Sunny Bay station**. **AsiaWorld-Expo** nằm sát nhà ga sân bay và có thể đi bộ; **SkyPier** khai thác phà xuyên biên giới tới các cảng vùng **Pearl River Delta** và **Macau** với miễn thủ tục nhập cảnh cho khách trung chuyển; **Coach Station** có **36** bến với **320** chuyến/ngày đi **90** thành phố – thị trấn vùng **PRD**; **Hong Kong–Zhuhai–Macau Bridge** có xe buýt con thoi **24/24**, giãn cách **5** phút, qua cầu khoảng **40** phút; **Automated People Mover** nối nhà ga với **T2 Concourse** và **SkyPier**, cùng bãi đỗ xe tự động **Park & Fly**, **Park & Visit** tại **Hong Kong Port**. **HKIA** kết nối trên **200** điểm đến toàn cầu với khoảng **140** hãng hàng không, còn **Airport City** nằm ngay cạnh sân bay và được nối vào mạng lưới đa phương thức gồm đường sắt, phà, xe khách xuyên biên giới và cầu vượt biển, giúp khu tiếp cận trực tiếp thị trường **Greater Bay Area**.",
+    "brand": "Các thương hiệu chủ lực gồm **Airport Authority Hong Kong (AAHK)**, **Chính quyền Đặc khu hành chính Hong Kong** (chủ sở hữu **100%** **AAHK**), **AsiaWorld-Expo Management Limited**, **HKIA Services Holdings Ltd (HKIA SHL)**, **New World Development** và **Cathay Pacific**, bên cạnh các đối tác **Regala Skycity Hotel**, **Hong Kong SkyCity Marriott Hotel**, **AsiaWorld-Expo**, **HKExpress** và **Hong Kong Business Aviation Centre**. **AAHK** định vị **Airport City** là địa danh (landmark) mới tầm thế giới và lớn nhất khu vực, tích hợp thương mại, văn hoá đại chúng, giao dịch nghệ thuật, giải trí và nghỉ dưỡng; blueprint công bố lần đầu năm **2019** nhằm cộng hưởng chức năng lõi của sân bay với các mảng kinh doanh liên quan, biến khu thành điểm đến du lịch cao cấp cho khách **Hong Kong**, **Greater Bay Area** và toàn cầu.",
+    "vision": "Tầm nhìn được xác lập trong **HKIA Master Plan 2030 (MP 2030)** với các giá trị: trung tâm hàng không quốc tế hàng đầu, động lực then chốt cho tăng trưởng kinh tế **Hong Kong**, vận hành hiệu quả và quan tâm tới môi trường, vượt trên kỳ vọng của khách hàng, áp dụng nguyên tắc thương mại thận trọng, trân trọng con người, nuôi dưỡng văn hoá đổi mới sáng tạo, chuẩn mực cao về an toàn và an ninh cùng cải tiến liên tục – cam kết – hợp tác. Về chính sách hàng không, **Airport Authority Ordinance** (**Chương 483**, Luật **Hong Kong**) điều chỉnh **Airport Authority Hong Kong** – cơ quan pháp định thuộc sở hữu hoàn toàn của **Chính quyền HKSAR**, chịu trách nhiệm vận hành và phát triển **HKIA** – với định hướng mở rộng theo **HKIA Master Plan 2030** công bố ngày **2/6/2011** và hệ thống ba đường băng (**3RS**). Về bền vững, **AAHK** duy trì chương trình phát triển bền vững và **Sustainability Report 2024/25** công bố thường niên, chuyên mục **Greenest Airport Updates**, tài chính bền vững (**Sustainable Finance**), xếp hạng và ghi nhận **ESG (ESG Ratings and Recognitions)**, chính sách môi trường (**Environment/Policies**) cùng cam kết vận hành hiệu quả đi kèm quan tâm tới môi trường trong sứ mệnh; dự án **3RS** lấn biển bằng phương pháp không nạo vét (**deep cement mixing**) và phải qua Báo cáo đánh giá tác động môi trường (**EIA**) cùng giấy phép môi trường."
   }
 }

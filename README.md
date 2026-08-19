@@ -4,85 +4,47 @@ Pipeline crawl dữ liệu web theo mô hình **feature-driven** để **benchma
 đô thị Sân bay (airport city / aerotropolis)** trên thế giới, phục vụ đối chiếu
 với dự án **Gia Bình Airport City (GBAC)**.
 
-Bạn định nghĩa *cần lấy trường gì* (Features); một *Agent Extractor* đọc định
-nghĩa đó như một skill và **sinh ra file Python** để trích xuất; *Raw Data* lo
-phần crawl web; cuối cùng khối *HTML* dệt dữ liệu thành **trang hồ sơ 2-slide
-tiếng Việt, tự chứa** (mở bằng double-click, không cần server).
+Bạn định nghĩa *cần lấy trường gì* (Features); crawler lo phần lấy raw từ web;
+một *extractor LLM* đọc raw và điền trường kèm nguồn; cuối cùng khối *HTML* dệt
+dữ liệu thành **cổng tra cứu tự chứa** (mở bằng double-click, không cần server).
 
-## Luồng Core Crawler
-
-```
-Research (Domain)
-      │  người dùng định nghĩa domain + trường cần lấy
-      ▼
-features/<ws>/feature_spec.md              ← [1] ĐỊNH NGHĨA feature (nguồn sự thật)
-      │
-      ▼
-agent_extractor/SKILL.md (+ <ws>/extractor_skill.md)   ← [2] SKILL: spec → cách extract
-      │  (agent học skill, sinh code)
-      ▼
-agent_extractor/<ws>/extract_*.py          ← FILE.PY được gen ra
-      ▲
-      │  đọc dữ liệu thô (.txt đã crawl)
-raw_data/crawler/crawl_*.py ──crawl web──▶ raw_data/output/<ws>/raw/<case>/
-      │
-      ▼ (chạy extractor)
-raw_data/output/<ws>/features/             ← [3] DATA cuối + provenance từng trường
-      │
-      ▼
-html/SKILL.md → html/build_html.py         ← [4] TRÌNH BÀY: trang hồ sơ tiếng Việt
-      │
-      ▼
-html/<case>.html · html/index.html
-```
-
-Ánh xạ với sơ đồ trong `refer_img/image.png`:
-
-| Khối trong sơ đồ        | Thư mục trong repo                         |
-|-------------------------|--------------------------------------------|
-| Research (Domain)       | `features/<ws>/feature_spec.md`            |
-| Crawler Raw (Raw_data)  | `raw_data/crawler/` → `output/<ws>/raw/`   |
-| Agent Extractor (skill) | `agent_extractor/SKILL.md` + `<ws>/`       |
-| file.py                 | `agent_extractor/<ws>/extract_*.py`        |
-| Deploy / feature storage| `raw_data/output/<ws>/features/`           |
-| (mở rộng) Trình bày     | `html/SKILL.md` → `html/build_html.py`     |
-
-## Cấu trúc thư mục
+## Luồng pipeline
 
 ```
-mag-data-crawler/
-├── config/
-│   └── sources.yaml                    # nguồn URL dạng file (dùng cho luồng legacy)
-├── refer_file/                         # BẢNG NGUỒN đã tuyển tay (input của crawler chính)
-│   ├── Schiphol.txt                    # 10 nguồn đợt 1
-│   ├── schiphol1.txt                   # 24 nguồn đợt 2 (crawl append)
-│   └── aerotropolis1.txt               # danh sách case aerotropolis thế giới
-├── refer_img/                          # 2 slide gốc — tham chiếu feature & thiết kế trang
-├── features/                           # [1] ĐỊNH NGHĨA feature
-│   └── ws1_airport/feature_spec.md     # schema thực thi v2 (42 trường) + khung Group A/B
-├── agent_extractor/                    # [2] SKILL + code extractor được gen
-│   ├── SKILL.md                        # meta-skill: quy trình đọc spec → gen .py
-│   └── ws1_airport/
-│       ├── extractor_skill.md
-│       ├── extract_airport_city.py     # ★ extractor đang dùng (case study aerotropolis)
-│       └── extract_airport.py          # legacy: OpenFlights airports.dat
-├── raw_data/                           # [3] crawl web + lưu output
-│   ├── crawler/
-│   │   ├── base_crawler.py             # HTTP client chung (requests + retry + manifest)
-│   │   ├── crawl_sources.py            # ★ crawler chính (Playwright, append, PDF)
-│   │   ├── crawl_aerotropolis.py       # crawl HTML tĩnh theo CSV danh sách case
-│   │   ├── crawl_aerotropolis_pw.py    # Playwright: thu ảnh + screenshot full-page
-│   │   └── crawl_airport.py            # legacy: tải file theo config/sources.yaml
-│   └── output/ws1_airport/
-│       ├── raw/<case>/                 # pages/*.html|.txt|.png|.pdf + manifest.json + crawl_log.csv
-│       └── features/                   # <case>_airport_city.json + benchmark.{csv,jsonl}
-├── html/                               # [4] lớp trình bày
-│   ├── SKILL.md                        # skill dựng trang hồ sơ
-│   ├── harvest_images.py               # thu + nén ảnh minh hoạ → assets/<case>/
-│   ├── build_html.py                   # dệt lời văn tiếng Việt → trang tự chứa
-│   └── assets/<case>/                  # *.jpg + images.json
-└── scripts/
-    └── run_ws.py                       # orchestrator (hiện mới map luồng legacy)
+refer_file/aerotropolis.txt             ← [0] ĐẦU VÀO DUY NHẤT: danh sách TÊN aerotropolis
+        │                                    (không có URL — chỉ tên, quốc gia, sân bay)
+        ▼
+scripts/discover_sources.py             ← [1] LLM TRA WEB tìm nguồn cho từng khu
+        │  gọi model kèm web_search / web_fetch, probe URL rồi ghi vào registry
+        ▼
+refer_file/sources.csv (+ cases.csv, .xlsx)   ← [2] DANH SÁCH NGUỒN tập trung
+        │  scripts/build_source_registry.py chuẩn hoá + join trạng thái crawl
+        ▼
+raw_data/crawler/crawl_sources.py       ← [3] CRAWL (Playwright, append-only, bóc PDF)
+        ▼
+raw_data/output/ws1_airport/raw/<case>/pages/*.{html,txt,png}  +  manifest.json
+        ▼
+agent_extractor/ws1_airport/llm_prep.py ← [4a] nén raw 3,9M ký tự → dossier ~66k/case
+agent_extractor/ws1_airport/extract_llm.py ← [4b] LLM điền 75 trường + provenance
+        │       (gọi model qua code_proxy → Claude Code CLI, KHÔNG cần API key)
+        ▼
+raw_data/output/ws1_airport/features/<case>_airport_city.json
+        │  record + provenance(source_url, snippet, confidence) + missing(lý do)
+        │  + narrative: lời văn tiếng Việt từng nhóm (viết từ record, không thêm dữ kiện)
+        ▼
+scripts/validate_features.py            ← [5] kiểm kiểu + gộp benchmark + coverage report
+        ▼
+html/build_portal.py                    ← [6] CỔNG TRA CỨU: tìm kiếm + modal chi tiết
+        ▼
+html/index.html
+```
+
+Chạy cả 7 bước bằng một lệnh:
+
+```bash
+python scripts/run_ws.py ws1_airport
+python scripts/run_ws.py ws1_airport --steps extract,validate,web
+python scripts/run_ws.py ws1_airport --steps crawl --cases incheon,changi
 ```
 
 ## Cài đặt
@@ -90,101 +52,169 @@ mag-data-crawler/
 ```bash
 cd mag-data-crawler
 python -m pip install -r requirements.txt
-# Luồng chính cần thêm 3 gói chưa có trong requirements.txt:
-python -m pip install playwright pymupdf Pillow
 python -m playwright install chromium
 ```
 
-## Chạy luồng chính — hồ sơ 1 aerotropolis (ví dụ Schiphol)
-
-Bốn bước, chạy tuần tự:
-
-```bash
-# 1. Crawl các nguồn đã tuyển (render JS, lưu html/txt/png, bóc PDF). Mặc định APPEND.
-python raw_data/crawler/crawl_sources.py --name schiphol --input refer_file/schiphol1.txt
-
-# 2. Trích xuất feature theo feature_spec (deterministic, không gọi LLM/mạng)
-python agent_extractor/ws1_airport/extract_airport_city.py --name schiphol
-
-# 3. Thu ảnh minh hoạ từ chính các trang đã crawl (tuỳ chọn)
-python html/harvest_images.py --name schiphol
-
-# 4. Dựng trang hồ sơ tiếng Việt (tự nhúng ảnh nếu có)
-python html/build_html.py --name schiphol
-```
-
-Cờ hữu ích của `crawl_sources.py`: `--fresh` (bỏ data cũ, crawl lại từ đầu),
-`--no-shots` (không chụp screenshot), `--headful` (xem trình duyệt chạy),
-`--timeout N`.
-
-Kết quả:
-
-- `raw_data/output/ws1_airport/raw/schiphol/` — `pages/` (html + txt + png),
-  `manifest.json`, `crawl_log.csv`
-- `raw_data/output/ws1_airport/features/schiphol_airport_city.json` — `record`
-  (42 trường) + `provenance` (nguồn từng trường)
-- `raw_data/output/ws1_airport/features/airport_city_benchmark.{csv,jsonl}` —
-  bảng benchmark, mỗi case 1 dòng
-- `html/schiphol.html` và `html/index.html` — trang tự chứa (data + ảnh base64)
-
-### Trạng thái hiện tại
-
-Đã chạy hoàn chỉnh **1 case: Schiphol** — 29 nguồn (27 ok) qua 2 đợt crawl
-append, 28 trang text → **42 trường, 41 có dữ liệu** (chỉ
-`residential_product_desc` null) → trang hồ sơ. Số liệu chốt: **66,8 triệu** hành
-khách · **473.815** lượt bay · **2.787 ha** · **68.000** lao động · thuê văn
-phòng **€130–280/m²/năm**.
-
-## Luồng legacy (dataset dạng file)
-
-Vẫn giữ để crawl các nguồn là *file dữ liệu* (CSV/JSON) khai báo trong
-`config/sources.yaml` — hiện chỉ có OpenFlights `airports.dat`:
+Hai bước `discover` và `extract` gọi model qua [`code_proxy/`](code_proxy/README.md) — một HTTP
+server localhost nói Anthropic Messages API nhưng bên dưới chạy `claude --print`,
+nên dùng phiên đăng nhập Claude Code sẵn có, **không cần `ANTHROPIC_API_KEY`**:
 
 ```bash
-python scripts/run_ws.py ws1_airport          # crawl_airport.py → extract_airport.py
-python scripts/run_ws.py ws1_airport --crawl-only
-python scripts/run_ws.py ws1_airport --extract-only
+claude auth status                                            # phải thấy "loggedIn": true
+
+# terminal 1
+CLAUDE_PROXY_MODEL=claude-opus-5 ./code_proxy/start.sh --timeout 900
+# terminal 2
+export ANTHROPIC_BASE_URL=http://127.0.0.1:11439
 ```
 
-> `scripts/run_ws.py` **mới map luồng legacy**, chưa gọi 4 bước của luồng chính.
-> Với case-study aerotropolis, gõ tay 4 lệnh ở mục trên.
+## Chạy từng bước
+
+```bash
+# [1] LLM tra web tìm nguồn (đầu vào: refer_file/aerotropolis.txt)
+python scripts/discover_sources.py --missing        # chỉ case chưa có nguồn nào
+python scripts/discover_sources.py --all --want 25  # bổ sung thêm cho mọi case
+python scripts/discover_sources.py --case taoyuan --dry-run
+
+# [2] chuẩn hoá registry + join trạng thái crawl từ manifest
+python scripts/build_source_registry.py
+#     --rev HEAD để lấy lại bảng .txt đã xoá khỏi working tree
+
+# [3] crawl 1 case (mặc định đọc refer_file/sources.csv, lọc theo --name)
+python raw_data/crawler/crawl_sources.py --name incheon
+#     cờ: --fresh (crawl lại từ đầu) · --shots (chụp ảnh trang) · --headful · --timeout N
+#         --input refer_file/incheon.txt (dùng bảng .txt thay cho registry)
+
+# [4] trích feature bằng LLM (2 lượt/case: dữ kiện cứng + phân tích CVP)
+python agent_extractor/ws1_airport/extract_llm.py --case incheon
+python agent_extractor/ws1_airport/extract_llm.py --all
+python agent_extractor/ws1_airport/extract_llm.py --all --dry-run        # chỉ in cỡ prompt
+python agent_extractor/ws1_airport/extract_llm.py --all --narrative-only # chỉ viết lại lời văn
+
+# xem trước dossier mà LLM sẽ đọc
+python agent_extractor/ws1_airport/llm_prep.py --case incheon --out /tmp/incheon.md
+
+# [5] validate + gộp bảng + báo cáo độ phủ
+python scripts/validate_features.py
+
+# [6] dựng cổng tra cứu (thêm --no-images cho file nhẹ)
+python html/build_portal.py
+```
+
+Ảnh minh hoạ cho thẻ trên cổng tra cứu (tuỳ chọn, chạy trước bước [6]):
+
+```bash
+python html/harvest_images.py --name incheon      # -> html/assets/incheon/
+```
+
+## Danh sách nguồn: `refer_file/`
+
+Đầu vào bắt buộc chỉ là `aerotropolis.txt` — danh sách tên khu, **không có URL**.
+Nguồn crawl do `discover_sources.py` (LLM tra web) sinh ra, rồi
+`build_source_registry.py` chuẩn hoá và join với `manifest.json` để biết URL nào
+đã crawl được:
+
+| File | Nội dung |
+|---|---|
+| `refer_file/cases.csv` | 1 dòng / case: định danh, website chính thức, số nguồn, số trang đã crawl |
+| `refer_file/sources.csv` | 1 dòng / URL: `case_id`, `url`, `purpose`, `target_fields`, `priority`, trạng thái crawl |
+| `refer_file/sources.xlsx` | cùng nội dung, 2 sheet — bản cho người biên tập |
+| `refer_file/aerotropolis.txt` | **đầu vào gốc**: 10 aerotropolis, chỉ tên + quốc gia + sân bay |
+
+Cột `origin` cho biết nguồn đến từ đâu: `llm` (discover tra web), `curated` (người
+tuyển tay trong bảng `.txt`), `manifest` (URL đã crawl nhưng không có trong registry).
+
+Thêm nguồn: hoặc chạy `discover_sources.py` để LLM tự tìm, hoặc mở `sources.csv`
+(`.xlsx`) thêm dòng `case_id` + `url` rồi chạy lại crawl → extract.
+
+Thêm **khu mới**: thêm một dòng vào `refer_file/aerotropolis.txt` (tên, quốc gia,
+sân bay), rồi `python scripts/run_ws.py ws1_airport` — discover sẽ tự tìm nguồn cho nó.
+
+## Cấu trúc thư mục
+
+```
+mag-data-crawler/
+├── code_proxy/                         # HTTP proxy: Messages API -> claude CLI (không cần API key)
+├── refer_file/
+│   ├── aerotropolis.txt                # ★ ĐẦU VÀO GỐC: danh sách tên aerotropolis
+│   └── cases.csv · sources.csv · sources.xlsx   # registry nguồn (sinh ra)
+├── refer_img/                          # 2 slide gốc — tham chiếu feature & thiết kế trang
+├── features/ws1_airport/
+│   ├── feature_spec.md                 # [1] định nghĩa feature dạng văn bản
+│   └── schema.json                     # ★ 75 trường máy đọc: nhóm, kiểu, đơn vị, keyword lọc
+├── agent_extractor/
+│   ├── SKILL.md                        # meta-skill: spec -> extractor
+│   └── ws1_airport/
+│       ├── llm_prep.py                 # ★ nén raw -> dossier (bỏ boilerplate, chấm điểm block)
+│       ├── extract_llm.py              # ★ extractor LLM: 75 trường + provenance
+│       └── extract_airport_city.py     # extractor regex — giữ làm baseline + REGISTRY định danh case
+├── raw_data/
+│   ├── crawler/crawl_sources.py        # ★ crawler chính (Playwright, append, PDF, đọc registry)
+│   └── output/ws1_airport/
+│       ├── raw/<case>/                 # pages/*.{html,txt,png} + manifest.json + crawl_log.csv
+│       ├── features/                   # <case>_airport_city.json + benchmark + coverage_*
+│       │   └── _deterministic/         # bản regex trước khi LLM ghi đè (để đối chiếu)
+│       └── _llm_log/                   # phản hồi JSON thô của model, theo case & lượt
+├── html/
+│   ├── build_portal.py                 # ★ cổng tra cứu: tìm kiếm + modal chi tiết
+│   ├── harvest_images.py               # thu + nén ảnh minh hoạ -> assets/<case>/
+│   └── index.html                      # ★ output cổng tra cứu
+└── scripts/
+    ├── discover_sources.py             # ★ LLM tra web tìm URL nguồn (web_search/web_fetch)
+    ├── build_source_registry.py        # dựng refer_file/{cases,sources}.csv|.xlsx
+    ├── validate_features.py            # validate + benchmark + coverage report
+    └── run_ws.py                       # orchestrator 6 bước
+```
+
+## Output dữ liệu
+
+| File | Nội dung |
+|---|---|
+| `features/<case>_airport_city.json` | `record` (75 trường) · `provenance` từng trường · `missing` kèm lý do · `_meta` (model, độ phủ, cảnh báo) |
+| `features/airport_city_benchmark.csv/.jsonl` | bảng phẳng, 1 dòng / case, khoá `case_name` |
+| `features/coverage_report.csv` | 1 dòng / (case, trường): có giá trị chưa, nguồn, confidence, lý do thiếu |
+| `features/coverage_summary.csv` | 1 dòng / case: % độ phủ, số trường high/medium/low, số lấy từ baseline |
+| `html/index.html` | cổng tra cứu tự chứa: tìm kiếm, lọc quốc gia, sắp xếp; bấm 1 khu mở hồ sơ dạng bảng nhãn–lời văn + tab tra cứu 75 trường kèm nguồn |
 
 ## Thêm một case aerotropolis mới
 
-1. Soạn bảng nguồn `refer_file/<case>.txt` (markdown, mỗi dòng 1 link `[tên](url)`
-   + cột "dùng để lấy gì") hoặc `.csv` có cột `url`/`website_url`.
-2. Crawl: `python raw_data/crawler/crawl_sources.py --name <case> --input refer_file/<case>.txt`.
-3. Thêm định danh case vào `REGISTRY` trong
-   [`extract_airport_city.py`](agent_extractor/ws1_airport/extract_airport_city.py)
-   (`case_name`, `country`, `airport_name`, `reference_city`, `official_website`, `is_target`).
-4. Chỉnh/bổ sung regex trích xuất cho cách hành văn của website case đó
-   (bộ pattern hiện tại bám sát website Schiphol, **không tự chuyển sang case khác**).
-5. Thêm `CURATION["<case>"]` trong [`harvest_images.py`](html/harvest_images.py)
-   (map `mục → slug trang nguồn → caption`), rồi chạy harvest + build.
+1. Thêm 1 dòng vào [`refer_file/aerotropolis.txt`](refer_file/aerotropolis.txt):
+   `| 11 | Tên khu | Quốc gia | Sân bay trung tâm | ghi chú |`
+2. `python scripts/run_ws.py ws1_airport --cases <case_id>`
 
-## Thêm một workstream mới
+`case_id` được sinh tự động từ tên (bỏ dấu, bỏ chữ "aerotropolis"/"airport city");
+xem lại bằng `python scripts/build_source_registry.py` rồi đọc `refer_file/cases.csv`.
+Không cần viết regex riêng, không cần tự tuyển URL: discover tìm nguồn, extractor
+LLM đọc hiểu văn bản.
 
-1. Tạo `features/<ws>/feature_spec.md` mô tả các trường (dùng WS airport làm mẫu).
-2. Khai báo nguồn: `config/sources.yaml` (nguồn dạng file) hoặc bảng nguồn trong
-   `refer_file/` (nguồn dạng website).
-3. Tạo `agent_extractor/<ws>/extractor_skill.md` (copy skill, chỉnh mapping).
-4. Để agent đọc `agent_extractor/SKILL.md` + spec → sinh `extract_<ws>.py`.
-5. Viết `raw_data/crawler/crawl_<ws>.py` dựa trên `base_crawler.py`, hoặc tái dùng
-   `crawl_sources.py` nếu nguồn là danh sách URL.
-6. Thêm 1 entry vào `PIPELINES` trong `scripts/run_ws.py`.
+Muốn định danh chuẩn hơn (tên tiếng Việt, website chính thức) thì thêm case vào
+`REGISTRY` trong [`extract_airport_city.py`](agent_extractor/ws1_airport/extract_airport_city.py).
+
+## Thêm một trường mới
+
+Sửa `features/ws1_airport/schema.json` (thêm `name`, `type`, `label`, `unit`,
+`desc`, `kw` để lọc đoạn liên quan), rồi chạy lại `extract → validate → web`.
+Prompt, validator và trang web đều đọc từ file này — không hardcode ở nơi khác.
 
 ## Nguyên tắc dữ liệu
 
 - **Raw là bất biến (append-only).** Không sửa đè file trong `output/<ws>/raw/`.
-  Mỗi lần crawl ghi kèm `manifest.json` có `url` và `accessed_at`; crawl lại mặc
-  định **gộp thêm** (bỏ URL trùng, đánh số tiếp), giữ nguyên data cũ.
-- **Mỗi giá trị phải truy được nguồn.** Extractor ghi `source_url`, `source_file`,
-  `snippet` (câu gốc) và `confidence` cho từng trường; trang HTML gắn `ⓘ` link
-  nguồn ở cuối mỗi đoạn có dữ liệu.
-- **Không bịa số.** Trường nguồn không nêu → `null`; extractor để trống, trang
-  HTML tự bỏ mệnh đề tương ứng (vd `residential_product_desc` không xuất hiện).
-- **Ưu tiên nguồn chuẩn khi xung đột.** Chỉ số headline lấy từ trang "Facts &
-  Figures" (tham số `prefer=`) để tránh số marketing/cũ (vd "over 300" → **301**);
-  giá thuê chỉ bắt dòng mở đầu `Starting at`/`From` để loại "Service costs €65/m²".
-- **Extractor không gọi mạng, idempotent.** Chạy lại trên cùng raw cho cùng output.
+  Crawl lại mặc định **gộp thêm** (bỏ URL trùng, đánh số tiếp), giữ nguyên data cũ.
+- **Mỗi giá trị phải truy được nguồn.** Mỗi trường có `source_url`, `source_file`,
+  `snippet` (câu gốc) và `confidence`; trang web hiện đủ ba thứ đó khi bấm vào case.
+- **Không bịa số.** Model chỉ thấy dossier trích từ raw đã crawl, không có mạng.
+  Trường không có bằng chứng → `null` + lý do trong `missing`, không suy đoán.
+- **Mã nguồn được đối chiếu ngược.** LLM phải dẫn mã `[Snn]`; mã không khớp
+  `manifest.json` bị hạ `confidence` xuống `low` và gắn cờ `unverified_source`.
+- **Không mất dữ liệu cũ.** Bản regex được backup sang `features/_deterministic/`;
+  trường LLM không xác minh được vẫn giữ giá trị regex, đánh dấu `source=baseline`.
+- **Ưu tiên nguồn chuẩn khi xung đột.** Chỉ số headline lấy từ trang thống kê
+  chính thức, tránh số marketing kiểu "over 300".
 - Crawl hợp pháp: tôn trọng `robots.txt`, không vượt auth/paywall.
+
+## Ghi chú
+
+`extract_airport_city.py` (1133 dòng regex) không còn nằm trong pipeline nhưng vẫn
+được giữ vì hai lý do: `REGISTRY` trong đó là nguồn định danh case cho
+`build_source_registry.py`, và bản trích của nó trong
+`features/_deterministic/` là mốc đối chiếu để phát hiện LLM trả sai.

@@ -4,309 +4,625 @@
     "aerotropolis": "Western Sydney Aerotropolis / Bradfield City",
     "country": "Úc",
     "is_target": false,
-    "airport_name": "Western Sydney International (Nancy-Bird Walton)",
+    "airport_name": "Western Sydney International (Nancy-Bird Walton) Airport",
     "reference_city": "Sydney",
     "official_website": "https://www.wsiairport.com.au",
-    "positioning": "Aerotropolis",
-    "planning_concept": "The Aerotropolis will create an innovation precinct and a home for technology, science and creative industries, ensuring the Western Parkland City has:",
-    "cornerstones": null,
+    "location_desc": "Khu đô thị sân bay bao quanh sân bay Western Sydney International mới tại Badgerys Creek, phía tây Sydney; nằm ở trung tâm mạng lưới đường bộ, cảng biển và hàng không của bang NSW, là 'trái tim' của Western Parkland City, kết nối tới Greater Parramatta và Harbour CBD. Trung tâm khu là Bradfield City, nằm ngay cạnh sân bay.",
+    "distance_to_city_km": null,
+    "area_km2": 112.0,
+    "airport_build_period": "2018-2025",
+    "urban_build_period": null,
+    "founded_year": 2026,
+    "development_context": "Sân bay Western Sydney là chất xúc tác cho quá trình đô thị hoá tương lai của Tây Sydney; được thúc đẩy bởi đầu tư của Chính phủ Liên bang vào sân bay mới cùng tuyến Sydney Metro – Western Sydney Airport Line và hạ tầng đường bộ, nhằm hiện thực hoá tầm nhìn 'A Metropolis of Three Cities' của Greater Sydney Commission, đưa Aerotropolis thành trái tim của Western Parkland City.",
+    "positioning": "Aerotropolis – trung tâm kinh tế sôi động của Tây Sydney, hub việc làm kỹ năng cao trong hàng không vũ trụ và quốc phòng, sản xuất, y tế, vận tải hàng hoá và logistics/kho vận, nông nghiệp công nghệ, giáo dục và nghiên cứu",
+    "planning_concept": "Tạo lập một khu đổi mới sáng tạo (innovation precinct) – nơi tụ hội các ngành công nghệ, khoa học và công nghiệp sáng tạo; phát triển theo các phân khu ưu tiên với ba trụ đỡ: việc làm đẳng cấp thế giới, khả năng tiếp cận – kết nối tốt bằng hạ tầng công cộng, và chất lượng sống cao theo hướng 'beyond business as usual' tạo thành phố mát hơn, xanh hơn.",
+    "cornerstones": [
+      "hàng không vũ trụ và quốc phòng",
+      "sản xuất (manufacturing) / sản xuất tiên tiến",
+      "y tế",
+      "vận tải hàng hoá và logistics/kho vận",
+      "nông nghiệp công nghệ (agribusiness)",
+      "giáo dục và nghiên cứu"
+    ],
     "subzones": [
       "Aerotropolis Core",
       "Badgerys Creek",
       "Wianamatta-South Creek",
       "Northern Gateway",
       "Agribusiness",
+      "Luddenham Village",
       "Bradfield City"
     ],
-    "area_km2": 112.0,
-    "distance_to_city_km": null,
-    "passengers_million": 10.0,
-    "cargo_million_tonnes": 1.8,
+    "passengers_million": null,
+    "cargo_million_tonnes": null,
     "air_movements": null,
     "destinations": null,
     "airlines": null,
     "transfer_pct": null,
-    "airport_area_ha": 1700.0,
+    "airport_area_ha": 1780.0,
     "employees": null,
     "num_companies_airport": null,
     "num_companies_realestate": null,
     "num_office_buildings": null,
-    "jobs_created": 200000,
-    "founded_year": 2026,
-    "urban_build_period": "Western Sydney to open to passengers on 25 October and freight on 26 July 2026",
-    "total_investment_usd": "Over $25 billion investment by the NSW and Commonwealth Governments in the airport and critical transport infrastructure",
-    "development_context": "With over $14.4 billion in planned developments, the Aerotropolis is expected to create 200,000 jobs.",
-    "location_desc": "As Australia’s first new city in 100 years, Bradfield City will set a new benchmark in liveability, connectivity, sustainability and innovation.",
-    "investor_governance": "The Bradfield Development Authority is building Western Sydney's future through Bradfield City and attracting investment to the Aerotropolis.",
+    "jobs_created": 12800,
+    "total_investment_usd": "Hơn 25 tỷ AUD do Chính phủ NSW và Chính phủ Liên bang đầu tư vào sân bay và hạ tầng giao thông thiết yếu; cùng hơn 14,4 tỷ AUD các dự án phát triển đã lên kế hoạch trong Aerotropolis (nguồn không quy đổi sang USD)",
+    "investor_governance": "Mô hình do nhà nước dẫn dắt: Bradfield Development Authority (cơ quan thuộc Chính phủ bang NSW) chịu trách nhiệm kiến tạo Bradfield City và thu hút đầu tư vào Aerotropolis, phối hợp với chính quyền, doanh nghiệp và cộng đồng; có Investor Concierge Service (dịch vụ hỗ trợ nhà đầu tư miễn phí) và chương trình giới thiệu đầu tư InvestorLink cho các chủ đất tư nhân; đối tác tư nhân tham gia phát triển từng phân khu (ví dụ Plenary với First Land Release).",
+    "gov_led_ratio_pct": null,
+    "private_ratio_pct": null,
     "lead_developer": "Bradfield Development Authority",
-    "airport_build_period": "Construction of Stage 1 began on 24 September 2018, and major construction was completed in June 2025.",
-    "commercial_re": [
-      "advanced manufacturing",
-      "logistics",
-      "agribusiness",
-      "retail",
-      "hotel",
-      "university",
-      "cargo",
-      "commercial"
+    "cvp_product": [
+      "nhà ở (10.000 căn, giai đoạn đầu 1.400 căn)",
+      "nhà ở giá phù hợp (tối thiểu 10%)",
+      "bất động sản thương mại/văn phòng",
+      "khách sạn trung tâm thành phố",
+      "bán lẻ",
+      "ẩm thực (Food & Beverage Precinct)",
+      "University Precinct (phân khu đại học)",
+      "Enterprise Precinct (không gian linh hoạt cho công nghệ, sản xuất, nghiên cứu)",
+      "AMRF Precinct (sản xuất tiên tiến)"
     ],
-    "residential_product_desc": "Major Australian infrastructure developer Plenary will deliver the first 1,400 homes on a 5.7 hectare First Land Release adjacent to the Advance Manufacturing Readiness Facility, Central Park and the Bradfield Metro Station, with 10% designated as affordable housing.",
+    "commercial_re": [
+      "văn phòng/thương mại",
+      "khách sạn",
+      "bán lẻ",
+      "ẩm thực (F&B)",
+      "dịch vụ thiết yếu",
+      "không gian doanh nghiệp linh hoạt, modular cho công nghệ – sản xuất – nghiên cứu (Enterprise Precinct)",
+      "kho vận/logistics và công nghiệp nhẹ (nhà kho, trung tâm phân phối)"
+    ],
+    "economic_zone_name": null,
+    "economic_zone_year": null,
+    "residential_product_desc": "Nhà phát triển hạ tầng lớn của Úc là Plenary sẽ xây 1.400 căn nhà đầu tiên trên quỹ đất First Land Release rộng 5,7 ha, nằm cạnh Advanced Manufacturing Readiness Facility, Central Park và Bradfield Metro Station, trong đó 10% là nhà ở giá phù hợp (affordable housing). Toàn Bradfield City hướng tới 10.000 căn nhà thế hệ mới, phát triển theo mô hình mật độ cao, gắn với giao thông công cộng (transit oriented), nhà ở tích hợp với thương mại, đại học, bán lẻ, nhà trẻ và cơ sở y tế; phần lớn căn nhà nằm trong bán kính đi bộ 400 m tới ga metro.",
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
     "basic_amenities": [
-      "university",
-      "retail",
-      "childcare",
-      "health facilities",
-      "Central Park",
-      "open space"
+      "đại học (University Precinct)",
+      "bán lẻ",
+      "nhà trẻ (childcare)",
+      "cơ sở y tế",
+      "Central Park (2 ha)",
+      "không gian mở, công viên, đường thuỷ và sân chơi",
+      "cơ sở văn hoá, giáo dục và cộng đồng",
+      "không gian tổ chức sự kiện"
     ],
     "highlight_amenities": [
-      "Advanced Manufacturing Readiness Facility",
-      "Central Park",
-      "Bradfield Metro Station"
+      "Advanced Manufacturing Readiness Facility (AMRF) – cơ sở sản xuất tiên tiến",
+      "nhà máy đóng gói tiên tiến bán dẫn (semiconductor advanced packaging facility)",
+      "Central Park 2 ha",
+      "Green Loop 2,2 km",
+      "Bradfield Metro Station",
+      "khách sạn trung tâm thành phố phục vụ công tác, sự kiện ngành và khách quốc tế"
     ],
-    "logistics_park_ha": null,
-    "logistics_park_name": null,
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_product": [
-      "advanced manufacturing",
-      "commercial",
-      "residential",
-      "university",
-      "industrial"
-    ],
-    "cvp_price": null,
+    "cvp_price": "Không công bố biểu giá bán/cho thuê; nguồn thu chủ yếu đến từ việc nhà nước phát hành quỹ đất theo giai đoạn cho khu vực tư nhân phát triển (First Land Release – City Precinct 5,7 ha), kèm yêu cầu tối thiểu 10% nhà ở giá phù hợp.",
     "office_rent_eur_m2_year": null,
     "cvp_price_note": null,
+    "price_vs_reference": null,
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "Mô hình B2B do nhà nước dẫn dắt: Bradfield Development Authority phát hành quỹ đất theo giai đoạn cho khu vực tư nhân (First Land Release – City Precinct 5,7 ha, đối tác phát triển Plenary), song song chương trình giới thiệu đầu tư InvestorLink kết nối chủ đất tư nhân trong Aerotropolis (từ 1.000 m² trở lên) với nhà đầu tư/khách thuê.",
     "cvp_service": [
-      "Investor Concierge",
-      "InvestorLink",
-      "Planning referrals",
-      "Special Infrastructure Contributions"
+      "Investor Concierge Service (dịch vụ hỗ trợ nhà đầu tư miễn phí, bảo mật)",
+      "cập nhật cơ hội và tăng trưởng trong Aerotropolis",
+      "phân tích kinh tế và dữ liệu kỹ năng lao động",
+      "kết nối đối tác chuỗi cung ứng và hợp tác nghiên cứu",
+      "tư vấn về grant và ưu đãi tài chính",
+      "hỗ trợ tìm mặt bằng văn phòng hoặc công nghiệp",
+      "InvestorLink (chương trình giới thiệu đầu tư)",
+      "Planning referrals (tư vấn thủ tục quy hoạch cho dự án lớn)",
+      "AMRF hỗ trợ công nghệ, chuyên môn và đào tạo cho doanh nghiệp"
     ],
+    "airport_privilege": null,
+    "has_airport_privilege": null,
+    "smart_city": "Hạ tầng số của Bradfield City được thiết kế 'future ready': kết nối cáp quang dung lượng cao, tốc độ siêu cao và phủ sóng di động rộng khắp, tạo nền tảng cho một phân khu kết nối cao độ; thành phố cũng được định vị ở giao điểm của các mạng lưới hàng không, đường bộ, đường sắt và số hoá, kết hợp công nghệ tiên tiến với các ngành công nghiệp tương lai.",
+    "has_smart_city": true,
     "cvp_experience": [
-      "Central Park",
-      "open space",
-      "walkable",
-      "cycle"
+      "Central Park 2 ha – quảng trường dân sự biểu tượng để gặp gỡ, vui chơi, thư giãn",
+      "hơn 36 ha không gian mở công cộng, đường thuỷ và sân chơi",
+      "Green Loop 2,2 km đi bộ và xe đạp, kể câu chuyện Country và văn hoá First Nations",
+      "ẩm thực điểm đến nhìn ra Central Park",
+      "không gian sự kiện, cơ sở văn hoá – giáo dục – cộng đồng",
+      "trung tâm nghệ thuật, văn hoá và giải trí",
+      "sức sống 24/7"
     ],
+    "experience_desc": "Bradfield City được định hướng là thành phố toàn cầu sôi động, vừa thúc đẩy đổi mới công nghiệp vừa là trung tâm nghệ thuật, văn hoá và giải trí, hoạt động như một hệ sinh thái 'around the clock' của văn hoá, sáng tạo và đổi mới đặt trong môi trường công viên. Trải nghiệm gắn với Central Park 2 ha, Green Loop 2,2 km kết nối cảnh quan và hệ thống nước, các cơ sở văn hoá – giáo dục – cộng đồng và không gian sự kiện; với hơn một nửa dân số thế giới chỉ cách 14 giờ bay, thành phố hướng tới thành điểm đến du lịch và giải trí.",
     "cvp_convenience": [
-      "Most homes will be within a 400 metre walk of the Bradfield Metro Station, supporting walkability and reducing car dependency.",
-      "the airport offers 24-hour and curfew-free operations"
+      "Metro tốc độ cao tới sân bay chỉ 5 phút",
+      "phần lớn nhà ở nằm trong bán kính đi bộ 400 m tới Bradfield Metro Station",
+      "tuyến metro 23 km nối St Marys và tuyến T1 Western Line tới toàn Greater Sydney",
+      "cao tốc M12 mới không thu phí",
+      "nâng cấp The Northern Road và Elizabeth Drive",
+      "5 mạng lưới xe buýt mới với tần suất 30 phút",
+      "sân bay WSI hoạt động 24/7, không giới nghiêm"
     ],
+    "connectivity_desc": "Bradfield City được kiến tạo xoay quanh tuyến Metro tốc độ cao mới: tới sân bay chỉ 5 phút và nối vào Greater Sydney qua tuyến T1 Đông–Tây từ St Marys. Tuyến Sydney Metro – Western Sydney Airport dài 23 km với 6 nhà ga liên kết khu dân cư với các trung tâm việc làm; cùng với nâng cấp The Northern Road, Elizabeth Drive và cao tốc M12 không thu phí, 5 mạng lưới xe buýt tần suất 30 phút, và sân bay quốc tế 24/7 phục vụ chuyến bay nội địa, quốc tế và hàng hoá — tạo giao điểm của mạng lưới hàng không, đường bộ, đường sắt và hạ tầng số.",
+    "connection_modes": [
+      "metro (Sydney Metro – Western Sydney Airport)",
+      "đường sắt ngoại ô (T1 Western Line tại St Marys)",
+      "xe buýt (5 mạng lưới mới, tần suất 30 phút)",
+      "cao tốc/đường bộ (M12, The Northern Road, Elizabeth Drive)",
+      "hàng không (Western Sydney International 24/7, hành khách và hàng hoá)",
+      "đi bộ và xe đạp (Green Loop, đô thị walkable)"
+    ],
+    "metro_lines": 1,
     "rail_connections": [
-      "deliver six new stations between St Marys and the new Bradfield City Centre",
-      "The city-shaping project, from St Marys through to the new airport and Bradfield City Centre, will provide a major economic stimulus for Western Sydney, supporting more than 14,000 jobs during construction for the NSW and national economies."
+      "Sydney Metro – Western Sydney Airport (23 km, 6 ga từ St Marys tới Bradfield City Centre)",
+      "T1 Western Line (kết nối chuyển tuyến tại St Marys)",
+      "North South Rail Line (Bradfield là Giai đoạn 1, đề xuất kéo dài lên Schofields)"
     ],
     "cvp_brand": [
       "Bradfield Development Authority",
-      "WSA Co",
-      "Sydney Metro"
+      "Chính quyền bang NSW (NSW Government)",
+      "Chính phủ Liên bang Úc (Commonwealth Government)",
+      "Western Sydney International (Nancy-Bird Walton) Airport – WSI",
+      "Sydney Metro",
+      "Plenary (đối tác phát triển First Land Release)"
     ],
-    "vision_label": null,
-    "vision_qualities": null,
-    "aviation_policy": null,
+    "brand_desc": "Thương hiệu do Bradfield Development Authority – cơ quan nhà nước của NSW – dẫn dắt, với thông điệp xây dựng tương lai Tây Sydney thông qua Bradfield City và thu hút đầu tư vào Aerotropolis. Định vị 'được xây dựng cho những gì tiếp theo' (built for what's next) với ba trụ: dẫn đầu về đổi mới, về chất lượng sống và về kết nối; đồng thời gắn với bản sắc First Nations (Connected to Country, tác phẩm nghệ thuật của các hoạ sĩ Dalmarri) và cam kết bền vững, trong vai trò 'thành phố mới nhất của Úc'.",
+    "brand_partners": [
+      "Plenary",
+      "Ingham Property Group (IPG)",
+      "Parklife Metro",
+      "Qantas Freight",
+      "Menzies Aviation",
+      "dnata Cargo",
+      "Texel Air"
+    ],
+    "vision_label": "A Metropolis of Three Cities",
+    "vision_qualities": [
+      "việc làm đẳng cấp thế giới, hơn 100.000 cơ hội việc làm mới trên toàn Aerotropolis tới năm 2056",
+      "khả năng tiếp cận và kết nối vượt trội nhờ hạ tầng công cộng",
+      "chất lượng sống xuất sắc với cách tiếp cận 'beyond business as usual', tạo thành phố mát hơn và xanh hơn",
+      "dẫn đầu về đổi mới sáng tạo (Next in innovation)",
+      "dẫn đầu về chất lượng sống (Next in liveability)",
+      "dẫn đầu về kết nối (Next in connectivity)"
+    ],
+    "aviation_policy": "Phát triển chịu sự chi phối của State Environmental Planning Policy (Precincts – Western Parkland City) 2021 (ban đầu là SEPP (Western Sydney Aerotropolis) 2020, chuyển sang SEPP hợp nhất tháng 3/2022), quy định phân vùng sử dụng đất, hành lang hạ tầng, thu hồi đất, di sản, bảo vệ đa dạng sinh học và an toàn hàng không; cùng Western Sydney Aerotropolis Precinct Plan, Western Sydney Aerotropolis Development Control Plan và Aviation Safeguarding Guidelines nhằm bảo vệ khả năng vận hành 24 giờ của sân bay mới.",
     "sustainability": [
-      "sustainability",
-      "open space",
-      "biodiversity",
-      "blue-green",
-      "net zero"
+      "Sustainability and Resilience Strategy 2024-2028 (Chiến lược Bền vững và Thích ứng) của Bradfield Development Authority với các mục tiêu tham vọng",
+      "lồng ghép bền vững và thích ứng khí hậu vào mọi giai đoạn phát triển",
+      "First Building xây dựng với bền vững và designing with Country làm cốt lõi, dùng vật liệu tự nhiên và mái xanh để giảm nhiệt",
+      "hơn 36 ha không gian mở công cộng và Green Loop 2,2 km giúp làm mát đô thị và tăng vận động chủ động",
+      "thử nghiệm giải pháp carbon thấp và kinh tế tuần hoàn, hỗ trợ chuyển đổi sản xuất net zero (CleanTech)",
+      "bảo vệ hành lang suối và khu vực đa dạng sinh học, hạ tầng blue-green"
     ],
-    "_pages_used": 19
+    "logistics_park_name": "Cargo Precinct (khu hàng hoá 24 giờ của WSI)",
+    "logistics_park_ha": null,
+    "trade_park_name": null,
+    "trade_park_ha": null
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "high",
+      "snippet": "The Western Sydney Aerotropolis will become a thriving economic centre in Western Sydney.",
+      "source": "S02",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
+      "source_file": "pages/02_nsw_planning_western_sydney_aerotropolis_trang_ch_.txt",
+      "source_name": "NSW Planning – Western Sydney Aerotropolis (trang chính)"
     },
-    "planning_concept": {
+    "aerotropolis": {
+      "confidence": "high",
+      "snippet": "The Western Sydney Aerotropolis surrounds the new Western Sydney International Airport at Badgerys Creek and is set to become a thriving economic hub. ... At its centre will be Bradfield City",
+      "source": "S01",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "pages/01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "source_name": "NSW Gov – Investing in the Western Sydney Aerotropolis"
+    },
+    "country": {
+      "confidence": "high",
+      "snippet": "Discover how the Bradfield Development Authority is creating Bradfield City, Australia’s newest city, with world-class infrastructure and jobs.",
+      "source": "S05",
+      "source_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+      "source_file": "pages/05_nsw_gov_delivering_bradfield_city.txt",
+      "source_name": "NSW Gov – Delivering Bradfield City"
+    },
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
+    },
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "Benefiting from proximity to the new Western Sydney International (Nancy-Bird Walton) Airport, the Aerotropolis will contribute towards 200,000 new jobs in the broader Western Parkland City",
+      "source": "S02",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
+      "source_file": "pages/02_nsw_planning_western_sydney_aerotropolis_trang_ch_.txt",
+      "source_name": "NSW Planning – Western Sydney Aerotropolis (trang chính)"
+    },
+    "reference_city": {
+      "confidence": "high",
+      "snippet": "The Greater Sydney Commission has established a clear, overarching vision for Sydney – A Metropolis of Three Cities",
+      "source": "S03",
       "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
-      "source_file": "03_nsw_planning_aerotropolis_explained.txt",
-      "snippet": "The Aerotropolis will create an innovation precinct and a home for technology, science and creative industries, ensuring the Western Parkland City has:",
-      "confidence": "high"
+      "source_file": "pages/03_nsw_planning_aerotropolis_explained.txt",
+      "source_name": "NSW Planning – Aerotropolis explained"
     },
-    "subzones": {
-      "source_urls": [
-        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained"
-      ],
-      "confidence": "high"
-    },
-    "area_km2": {
-      "unit": "km²",
-      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
-      "snippet": "11,200 hectares of rezoned land",
-      "confidence": "high"
-    },
-    "passengers_million": {
-      "unit": "triệu/năm (công suất giai đoạn 1)",
-      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
-      "source_file": "11_wikipedia_western_sydney_airport.txt",
-      "snippet": "capacity of up to 10 million annual passengers",
-      "confidence": "high"
-    },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm (công suất)",
-      "source_url": "https://australianaviation.com.au/2026/07/western-sydney-airport-officially-opens-to-freight/",
-      "source_file": "19_australian_aviation_wsi_ch_nh_th_c_m_cho_h_ng_ho.txt",
-      "snippet": "capacity to deliver 1.8 million tonnes of air cargo",
-      "confidence": "high"
-    },
-    "airport_area_ha": {
-      "unit": "ha",
-      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
-      "source_file": "11_wikipedia_western_sydney_airport.txt",
-      "snippet": "consists of approximately 1,700 hectares",
-      "confidence": "high"
-    },
-    "jobs_created": {
-      "unit": "việc làm",
-      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
-      "snippet": "expected to create 200,000 jobs",
-      "confidence": "high"
-    },
-    "founded_year": {
-      "unit": "năm",
-      "source_url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026",
-      "source_file": "10_th_t_ng_c_ng_y_m_c_a_ch_nh_th_c_wsi.txt",
-      "snippet": "will welcome its first passengers on 25 October 2026",
-      "confidence": "high"
-    },
-    "urban_build_period": {
-      "source_url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026",
-      "source_file": "10_th_t_ng_c_ng_y_m_c_a_ch_nh_th_c_wsi.txt",
-      "snippet": "Western Sydney to open to passengers on 25 October and freight on 26 July 2026",
-      "confidence": "high"
-    },
-    "total_investment_usd": {
-      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
-      "snippet": "Over $25 billion investment by the NSW and Commonwealth Governments in the airport and critical transport infrastructure",
-      "confidence": "high"
-    },
-    "development_context": {
-      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
-      "snippet": "With over $14.4 billion in planned developments, the Aerotropolis is expected to create 200,000 jobs.",
-      "confidence": "high"
+    "official_website": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
     "location_desc": {
-      "source_url": "https://bradfield.city/what-bradfield-city",
-      "source_file": "06_bradfield_city_what_is_bradfield_city.txt",
-      "snippet": "As Australia’s first new city in 100 years, Bradfield City will set a new benchmark in liveability, connectivity, sustainability and innovation.",
-      "confidence": "high"
-    },
-    "investor_governance": {
-      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
-      "source_file": "08_bradfield_development_authority_about_us.txt",
-      "snippet": "The Bradfield Development Authority is building Western Sydney's future through Bradfield City and attracting investment to the Aerotropolis.",
-      "confidence": "high"
-    },
-    "lead_developer": {
+      "confidence": "high",
+      "snippet": "The Western Sydney Aerotropolis surrounds the new Western Sydney International Airport at Badgerys Creek and is set to become a thriving economic hub. ... 11,200 hectares of rezoned land at the centre of NSW’s road, port, and air networks.",
+      "source": "S01",
       "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-      "source_file": "01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
-      "snippet": "Bradfield Development Authority",
-      "confidence": "high"
+      "source_file": "pages/01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "source_name": "NSW Gov – Investing in the Western Sydney Aerotropolis"
+    },
+    "area_km2": {
+      "confidence": "high",
+      "snippet": "11,200 hectares of rezoned land at the centre of NSW’s road, port, and air networks.",
+      "source": "S01",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "pages/01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "source_name": "NSW Gov – Investing in the Western Sydney Aerotropolis"
     },
     "airport_build_period": {
-      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
-      "source_file": "11_wikipedia_western_sydney_airport.txt",
+      "confidence": "high",
       "snippet": "Construction of Stage 1 began on 24 September 2018, and major construction was completed in June 2025.",
-      "confidence": "high"
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+      "source_file": "pages/11_wikipedia_western_sydney_airport.txt",
+      "source_name": "Wikipedia – Western Sydney Airport"
     },
-    "commercial_re": {
-      "source_urls": [
-        "https://bradfield.city/",
-        "https://bradfield.city/what-bradfield-city",
-        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis"
-      ],
-      "confidence": "high"
+    "founded_year": {
+      "confidence": "high",
+      "snippet": "“It’s exciting progress as we gear up to seeing Western Sydney International’s first passenger flights commence on October 25.”",
+      "source": "S10",
+      "source_url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026",
+      "source_file": "pages/10_th_t_ng_c_ng_y_m_c_a_ch_nh_th_c_wsi.txt",
+      "source_name": "Thủ tướng Úc – Ngày mở cửa chính thức WSI"
     },
-    "residential_product_desc": {
-      "source_url": "https://bradfield.city/what-bradfield-city",
-      "source_file": "06_bradfield_city_what_is_bradfield_city.txt",
-      "snippet": "Major Australian infrastructure developer Plenary will deliver the first 1,400 homes on a 5.7 hectare First Land Release adjacent to the Advance Manufacturing R",
-      "confidence": "high"
+    "development_context": {
+      "confidence": "high",
+      "snippet": "The Western Sydney Airport is the catalyst for much of Western Sydney’s future urbanisation. Propelled by Commonwealth Government investment in the new Airport as well as the Sydney Metro",
+      "source": "S03",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
+      "source_file": "pages/03_nsw_planning_aerotropolis_explained.txt",
+      "source_name": "NSW Planning – Aerotropolis explained"
     },
-    "basic_amenities": {
-      "source_urls": [
-        "https://bradfield.city/what-bradfield-city",
-        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis"
-      ],
-      "confidence": "high"
+    "positioning": {
+      "confidence": "high",
+      "snippet": "the Aerotropolis will contribute towards 200,000 new jobs in the broader Western Parkland City and become a high skill jobs hub across aerospace and defence, manufacturing, healthcare, freight and logistics, agribusiness, education and research industries.",
+      "source": "S02",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
+      "source_file": "pages/02_nsw_planning_western_sydney_aerotropolis_trang_ch_.txt",
+      "source_name": "NSW Planning – Western Sydney Aerotropolis (trang chính)"
     },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://bradfield.city/what-bradfield-city",
-        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city"
-      ],
-      "confidence": "high"
+    "planning_concept": {
+      "confidence": "high",
+      "snippet": "The Aerotropolis will create an innovation precinct and a home for technology, science and creative industries, ensuring the Western Parkland City has:",
+      "source": "S03",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
+      "source_file": "pages/03_nsw_planning_aerotropolis_explained.txt",
+      "source_name": "NSW Planning – Aerotropolis explained"
+    },
+    "cornerstones": {
+      "confidence": "high",
+      "snippet": "become a high skill jobs hub across aerospace and defence, manufacturing, healthcare, freight and logistics, agribusiness, education and research industries.",
+      "source": "S02",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
+      "source_file": "pages/02_nsw_planning_western_sydney_aerotropolis_trang_ch_.txt",
+      "source_name": "NSW Planning – Western Sydney Aerotropolis (trang chính)"
+    },
+    "subzones": {
+      "confidence": "high",
+      "snippet": "Western Sydney Aerotropolis\nAerotropolis Core, Badgerys Creek and Wianamatta-South Creek precincts\nAgribusiness precinct\nLuddenham Village Interim Strategy\nNorthern Gateway precinct",
+      "source": "S03",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
+      "source_file": "pages/03_nsw_planning_aerotropolis_explained.txt",
+      "source_name": "NSW Planning – Aerotropolis explained"
+    },
+    "airport_area_ha": {
+      "confidence": "high",
+      "snippet": "Bird Walton) Airport\nThe declared airport site located on approximately\n1,780 hectares of land at Badgerys Creek.",
+      "source": "S18",
+      "source_url": "https://www.planning.nsw.gov.au/sites/default/files/2025-07/western-sydney-aerotropolis-development-control-plan-amendment.pdf",
+      "source_file": "pages/18_nsw_planning_development_control_plan_b_n_s_a_i_pd.txt",
+      "source_name": "NSW Planning – Development Control Plan (bản sửa đổi, PDF)"
+    },
+    "jobs_created": {
+      "confidence": "high",
+      "snippet": "The entire WSI project has created over 12,800 jobs, with around half of those jobs going to local workers.",
+      "source": "S10",
+      "source_url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026",
+      "source_file": "pages/10_th_t_ng_c_ng_y_m_c_a_ch_nh_th_c_wsi.txt",
+      "source_name": "Thủ tướng Úc – Ngày mở cửa chính thức WSI"
+    },
+    "total_investment_usd": {
+      "confidence": "high",
+      "snippet": "Over $25 billion investment by the NSW and Commonwealth Governments in the airport and critical transport infrastructure. ... With over $14.4 billion in planned developments, the Aerotropolis is expected to create 200,000 jobs.",
+      "source": "S01",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "pages/01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "source_name": "NSW Gov – Investing in the Western Sydney Aerotropolis"
+    },
+    "investor_governance": {
+      "confidence": "high",
+      "snippet": "The Bradfield Development Authority is building Western Sydney's future through Bradfield City and attracting investment to the Aerotropolis. ... We work with governments, businesses, and the community",
+      "source": "S08",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
+      "source_file": "pages/08_bradfield_development_authority_about_us.txt",
+      "source_name": "Bradfield Development Authority – About us"
+    },
+    "lead_developer": {
+      "confidence": "high",
+      "snippet": "Leading delivery of the 114-hectare Bradfield City precinct.",
+      "source": "S08",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
+      "source_file": "pages/08_bradfield_development_authority_about_us.txt",
+      "source_name": "Bradfield Development Authority – About us"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://bradfield.city/what-bradfield-city",
-        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "5.7 hectare mixed-use site that will deliver the first 1,400 homes, commercial, essential services, hotel, retail, and the University and Food & Beverage Precincts.",
+      "source": "S07",
+      "source_url": "https://bradfield.city/",
+      "source_file": "pages/07_bradfield_city_trang_ch_nh.txt",
+      "source_name": "Bradfield City – Trang chính"
+    },
+    "commercial_re": {
+      "confidence": "medium",
+      "snippet": "5.7 hectare mixed-use site that will deliver the first 1,400 homes, commercial, essential services, hotel, retail, and the University and Food & Beverage Precincts.",
+      "source": "S07",
+      "source_url": "https://bradfield.city/",
+      "source_file": "pages/07_bradfield_city_trang_ch_nh.txt",
+      "source_name": "Bradfield City – Trang chính"
+    },
+    "residential_product_desc": {
+      "confidence": "high",
+      "snippet": "Major Australian infrastructure developer Plenary will deliver the first 1,400 homes on a 5.7 hectare First Land Release adjacent to the Advance Manufacturing Readiness Facility, Central Park and the Bradfield Metro Station, with 10% designated as affordable housing.",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "basic_amenities": {
+      "confidence": "high",
+      "snippet": "The core city precinct will integrate housing with commercial uses, a university, retail, childcare and health facilities.",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "highlight_amenities": {
+      "confidence": "high",
+      "snippet": "Anchored by the Advanced Manufacturing Readiness Facility and semiconductor advanced packaging facility to support high-value technology, engineering, and research companies.",
+      "source": "S07",
+      "source_url": "https://bradfield.city/",
+      "source_file": "pages/07_bradfield_city_trang_ch_nh.txt",
+      "source_name": "Bradfield City – Trang chính"
+    },
+    "cvp_price": {
+      "confidence": "low",
+      "snippet": "It is the first major land release in Bradfield City for the private sector.",
+      "source": "S05",
+      "source_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+      "source_file": "pages/05_nsw_gov_delivering_bradfield_city.txt",
+      "source_name": "NSW Gov – Delivering Bradfield City"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "It is the first major land release in Bradfield City for the private sector.",
+      "source": "S05",
+      "source_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+      "source_file": "pages/05_nsw_gov_delivering_bradfield_city.txt",
+      "source_name": "NSW Gov – Delivering Bradfield City"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "The\nBradfield Development Authority's\nInvestor Concierge Service is a free, confidential program that offers tailored support to help your business succeed in the Aerotropolis.",
+      "source": "S01",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
+      "source_file": "pages/01_nsw_gov_investing_in_the_western_sydney_aerotropol.txt",
+      "source_name": "NSW Gov – Investing in the Western Sydney Aerotropolis"
+    },
+    "smart_city": {
+      "confidence": "high",
+      "snippet": "Bradfield City's digital infrastructure will offer future ready, high-capacity, ultra-high-speed fibre connectivity and extensive mobile coverage.",
+      "source": "S05",
+      "source_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+      "source_file": "pages/05_nsw_gov_delivering_bradfield_city.txt",
+      "source_name": "NSW Gov – Delivering Bradfield City"
+    },
+    "has_smart_city": {
+      "confidence": "high",
+      "snippet": "Together, these systems lay the foundation for a highly connected, future-ready precinct.",
+      "source": "S05",
+      "source_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+      "source_file": "pages/05_nsw_gov_delivering_bradfield_city.txt",
+      "source_name": "NSW Gov – Delivering Bradfield City"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://bradfield.city/what-bradfield-city",
-        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "One third of Bradfield City (more than 36 hectares) will be public open space, including the iconic two-hectare Central Park, anchoring a walkable, cycle‑friendly environment.",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "This vibrant, global city will drive industry innovation and serve as a central hub for arts, culture, and entertainment.",
+      "source": "S05",
+      "source_url": "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
+      "source_file": "pages/05_nsw_gov_delivering_bradfield_city.txt",
+      "source_name": "NSW Gov – Delivering Bradfield City"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://bradfield.city/what-bradfield-city",
-        "https://en.wikipedia.org/wiki/Western_Sydney_Airport"
-      ],
-      "source_files": [
-        "06_bradfield_city_what_is_bradfield_city.txt",
-        "11_wikipedia_western_sydney_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Most homes will be within a 400 metre walk of the Bradfield Metro Station, supporting walkability and reducing car dependency.",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "Bradfield City is being created around a new high-speed Metro, connecting to the airport in just five minutes and to Greater Sydney via the main East-West T1 line from St Marys.",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "connection_modes": {
+      "confidence": "high",
+      "snippet": "Major upgrades to the Northern Road and Elizabeth Drive, as well as the new toll-free M12 motorway, will connect Bradfield City to the rest of Sydney.",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "metro_lines": {
+      "confidence": "medium",
+      "snippet": "The 23km Sydney Metro – Western Sydney Airport line will connect Bradfield City to Western Sydney International Airport, St Marys, and then on to the T1 Western Line.",
+      "source": "S07",
+      "source_url": "https://bradfield.city/",
+      "source_file": "pages/07_bradfield_city_trang_ch_nh.txt",
+      "source_name": "Bradfield City – Trang chính"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://www.sydneymetro.info/westernsydneyairportline"
-      ],
-      "source_files": [
-        "12_sydney_metro_western_sydney_airport_line_t_ng_quan.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "The 23km Sydney Metro – Western Sydney Airport line will connect Bradfield City to Western Sydney International Airport, St Marys, and then on to the T1 Western Line.",
+      "source": "S07",
+      "source_url": "https://bradfield.city/",
+      "source_file": "pages/07_bradfield_city_trang_ch_nh.txt",
+      "source_name": "Bradfield City – Trang chính"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
-        "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/our-projects/investing-western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "The Bradfield Development Authority is building Western Sydney's future through Bradfield City and attracting investment to the Aerotropolis.",
+      "source": "S08",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
+      "source_file": "pages/08_bradfield_development_authority_about_us.txt",
+      "source_name": "Bradfield Development Authority – About us"
+    },
+    "brand_desc": {
+      "confidence": "medium",
+      "snippet": "We do this by leading the creation of Australia's newest city, attracting investment to the region, and growing industry.",
+      "source": "S08",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
+      "source_file": "pages/08_bradfield_development_authority_about_us.txt",
+      "source_name": "Bradfield Development Authority – About us"
+    },
+    "brand_partners": {
+      "confidence": "medium",
+      "snippet": "First Land Release development partner Plenary brings extensive experience delivering complex, mixed‑use and education precincts, strengthening confidence in the early stages of city‑making",
+      "source": "S06",
+      "source_url": "https://bradfield.city/what-bradfield-city",
+      "source_file": "pages/06_bradfield_city_what_is_bradfield_city.txt",
+      "source_name": "Bradfield City – What is Bradfield City"
+    },
+    "vision_label": {
+      "confidence": "medium",
+      "snippet": "The Greater Sydney Commission has established a clear, overarching vision for Sydney –\nA Metropolis of Three Cities",
+      "source": "S03",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
+      "source_file": "pages/03_nsw_planning_aerotropolis_explained.txt",
+      "source_name": "NSW Planning – Aerotropolis explained"
+    },
+    "vision_qualities": {
+      "confidence": "high",
+      "snippet": "excellent access and connectivity, provided through public infrastructure\nexcellent liveability, where a 'beyond business as usual' approach will focus on creating a cooler and greener city.",
+      "source": "S03",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/western-sydney-aerotropolis-explained",
+      "source_file": "pages/03_nsw_planning_aerotropolis_explained.txt",
+      "source_name": "NSW Planning – Aerotropolis explained"
+    },
+    "aviation_policy": {
+      "confidence": "high",
+      "snippet": "The Government originally established the State Environmental Planning Policy controls for the Aerotropolis under the State Environmental Planning Policy (Western Sydney Aerotropolis) 2020.",
+      "source": "S04",
+      "source_url": "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis",
+      "source_file": "pages/04_nsw_planning_khung_ph_p_l_quy_ho_ch_aerotropolis.txt",
+      "source_name": "NSW Planning – Khung pháp lý quy hoạch Aerotropolis"
     },
     "sustainability": {
-      "source_urls": [
-        "https://bradfield.city/",
-        "https://shared-drupal-s3fs.s3.ap-southeast-2.amazonaws.com/master-test/s3fs-public/dpe-public/documents/NSW%2BPlanning%2BPortal%2Bexhibitions%2B/IPG/1.+Final+documents/Western+Sydney+Aerotropolis+Precinct+Plan+July+2025.pdf",
-        "https://www.nsw.gov.au/about-nsw/precinct-development/delivering-bradfield-city",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis",
-        "https://www.planning.nsw.gov.au/plans-for-your-area/priority-growth-areas-and-precincts/western-sydney-aerotropolis/the-planning-framework-for-the-aerotropolis"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "We are embedding sustainability and climate resilience into every stage of development. Our Sustainability and Resilience Strategy 2024-2028 sets ambitious targets",
+      "source": "S08",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us",
+      "source_file": "pages/08_bradfield_development_authority_about_us.txt",
+      "source_name": "Bradfield Development Authority – About us"
+    },
+    "logistics_park_name": {
+      "confidence": "medium",
+      "snippet": "Western Sydney International Airport has officially opened its new cargo precinct, marking a major milestone for the airport and supply chains.",
+      "source": "S19",
+      "source_url": "https://australianaviation.com.au/2026/07/western-sydney-airport-officially-opens-to-freight/",
+      "source_file": "pages/19_australian_aviation_wsi_ch_nh_th_c_m_cho_h_ng_ho.txt",
+      "source_name": "Australian Aviation – WSI chính thức mở cho hàng hoá"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu chỉ nhắc tới việc bị phê bình về 'the distance to the Sydney CBD' nhưng không nêu con số km cụ thể.",
+    "urban_build_period": "BASELINE_SAI: giá trị cũ là ngày mở cửa sân bay cho hành khách/hàng hoá, không phải giai đoạn xây dựng khu đô thị; tài liệu không nêu mốc bắt đầu – kết thúc xây dựng đô thị.",
+    "passengers_million": "BASELINE_SAI: 10 triệu khách/năm là CÔNG SUẤT thiết kế Giai đoạn 1 ('expected to handle up to 10 million annual passengers'), sân bay mới mở cho hành khách từ 25/10/2026 nên chưa có sản lượng thực tế.",
+    "cargo_million_tonnes": "BASELINE_SAI: 1,8 triệu tấn là công suất tối đa của cargo precinct ('will eventually have capacity to service up to 1.8m tonnes'), không phải sản lượng đã ghi nhận.",
+    "air_movements": "Tài liệu không nêu số lượt cất hạ cánh thực tế/năm.",
+    "destinations": "Tài liệu chỉ liệt kê các đường bay sẽ khai thác trong tương lai (Melbourne, Gold Coast, Brisbane, Auckland, Changi), không có số điểm đến thực tế đang khai thác.",
+    "airlines": "Tài liệu chỉ nêu các hãng đã công bố kế hoạch bay (Jetstar, Qantas, Air New Zealand, Singapore Airlines), không có số hãng đang khai thác thực tế.",
+    "transfer_pct": "Tài liệu không đề cập tỷ lệ khách transfer.",
+    "employees": "Tài liệu chỉ nêu số việc làm dự báo (200.000; 28.000 vào 2031) và số việc làm do dự án xây dựng tạo ra, không có số người đang làm việc trong khu.",
+    "num_companies_airport": "Tài liệu không nêu số doanh nghiệp hoạt động tại sân bay.",
+    "num_companies_realestate": "Tài liệu không nêu số doanh nghiệp thuê bất động sản trong khu.",
+    "num_office_buildings": "Tài liệu không nêu số toà nhà văn phòng.",
+    "gov_led_ratio_pct": "Tài liệu không nêu tỷ lệ vốn/quỹ đất do nhà nước dẫn dắt.",
+    "private_ratio_pct": "Tài liệu không nêu tỷ lệ tư nhân cụ thể.",
+    "economic_zone_name": "Tài liệu chỉ mô tả Aerotropolis là vùng tăng trưởng ưu tiên/khu quy hoạch (rezoned land, priority precincts), không nêu tên đặc khu kinh tế hay khu thương mại tự do nào.",
+    "economic_zone_year": "Không có đặc khu kinh tế được nêu tên nên không có năm thành lập.",
+    "residential_highrise_pct": "Tài liệu chỉ nói 'high density, transit oriented' mà không nêu tỷ lệ % nhà cao tầng.",
+    "residential_lowrise_pct": "Không có số liệu tỷ lệ nhà thấp tầng trong tài liệu.",
+    "residential_land_pct": "Không có số liệu tỷ lệ đất nền/nhà liền thổ trong tài liệu.",
+    "office_rent_eur_m2_year": "Tài liệu không có bất kỳ dòng chào giá thuê văn phòng (Starting at/From) nào.",
+    "cvp_price_note": "Không có thông tin về đơn vị hay điều kiện giá trong tài liệu.",
+    "price_vs_reference": "Tài liệu không so sánh mặt bằng giá với Sydney CBD hay thành phố tham chiếu nào.",
+    "living_fee_usd_per_m2_month": "Tài liệu không đề cập phí quản lý/duy trì.",
+    "has_urban_service_fee": "Không có bằng chứng về phí dịch vụ đô thị trong tài liệu.",
+    "airport_privilege": "Tài liệu không nêu bất kỳ ưu đãi hàng không riêng (fast track, ưu đãi vé, priority) dành cho cư dân/doanh nghiệp trong khu; chỉ nêu lợi thế vị trí và metro 5 phút tới sân bay.",
+    "has_airport_privilege": "Không có bằng chứng khẳng định hay phủ định về đặc quyền sân bay dành cho cư dân/doanh nghiệp.",
+    "logistics_park_ha": "Tài liệu không nêu diện tích của cargo precinct.",
+    "trade_park_name": "Tài liệu không đề cập khu thương mại tự do hay công viên thương mại có tên riêng.",
+    "trade_park_ha": "Không có khu thương mại được nêu tên nên không có diện tích."
+  },
+  "_meta": {
+    "case": "western_sydney",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:41:11+0700",
+    "fields_total": 75,
+    "fields_filled": 46,
+    "coverage_pct": 61.3,
+    "high_confidence": 35,
+    "from_baseline": 2,
+    "dossier": {
+      "pages_total": 19,
+      "pages_kept": 19,
+      "raw_chars": 1656868,
+      "dossier_chars": 148725
+    },
+    "warnings": [
+      "urban_build_period: bỏ giá trị baseline 'Western Sydney to open to passengers on 25 October and freight on 26 July 2026' — BASELINE_SAI: giá trị cũ là ngày mở cửa sân bay cho hành khách/hàng hoá, không phải giai đoạn xây dựng khu đô thị; tài l",
+      "passengers_million: bỏ giá trị baseline 10.0 — BASELINE_SAI: 10 triệu khách/năm là CÔNG SUẤT thiết kế Giai đoạn 1 ('expected to handle up to 10 million annual passenge",
+      "cargo_million_tonnes: bỏ giá trị baseline 1.8 — BASELINE_SAI: 1,8 triệu tấn là công suất tối đa của cargo precinct ('will eventually have capacity to service up to 1.8m"
+    ],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "**Western Sydney Aerotropolis** – còn gọi là **Bradfield City** – là khu đô thị sân bay tại **Úc**, gắn với **Western Sydney International (Nancy-Bird Walton) Airport** và lấy **Sydney** làm thành phố tham chiếu. Đây không phải dự án mục tiêu của hồ sơ, thông tin chính thức được công bố tại **https://www.wsiairport.com.au**.",
+    "location": "Khu đô thị rộng **112 km²** bao quanh sân bay **Western Sydney International** mới tại **Badgerys Creek**, phía tây **Sydney**, nằm ở trung tâm mạng lưới đường bộ, cảng biển và hàng không của bang **NSW** và được xem là 'trái tim' của **Western Parkland City**, kết nối tới **Greater Parramatta** và **Harbour CBD**, với trung tâm là **Bradfield City** ngay cạnh sân bay. Sân bay được xây dựng trong giai đoạn **2018-2025** và khu đô thị thành lập năm **2026**. Sân bay **Western Sydney** đóng vai trò chất xúc tác cho quá trình đô thị hoá tương lai của Tây **Sydney**, được thúc đẩy bởi đầu tư của Chính phủ Liên bang vào sân bay mới cùng tuyến **Sydney Metro – Western Sydney Airport Line** và hạ tầng đường bộ, nhằm hiện thực hoá tầm nhìn **'A Metropolis of Three Cities'** của **Greater Sydney Commission**.",
+    "positioning": "Aerotropolis được định vị là trung tâm kinh tế sôi động của Tây **Sydney**, hub việc làm kỹ năng cao trong hàng không vũ trụ và quốc phòng, sản xuất, y tế, vận tải hàng hoá và logistics/kho vận, nông nghiệp công nghệ, giáo dục và nghiên cứu. Ý tưởng quy hoạch là tạo lập một khu đổi mới sáng tạo (innovation precinct) quy tụ các ngành công nghệ, khoa học và công nghiệp sáng tạo, phát triển theo các phân khu ưu tiên với ba trụ đỡ: việc làm đẳng cấp thế giới, khả năng tiếp cận – kết nối tốt bằng hạ tầng công cộng và chất lượng sống cao theo hướng **'beyond business as usual'** để tạo thành phố mát hơn, xanh hơn. Các phân khu gồm **Aerotropolis Core**, **Badgerys Creek**, **Wianamatta-South Creek**, **Northern Gateway**, **Agribusiness**, **Luddenham Village** và **Bradfield City**.",
+    "kpi": "Sân bay có diện tích **1.780 ha** và dự án tạo ra **12.800** việc làm.",
+    "investment": "Hơn **25 tỷ AUD** được Chính phủ **NSW** và Chính phủ Liên bang đầu tư vào sân bay cùng hạ tầng giao thông thiết yếu, bên cạnh hơn **14,4 tỷ AUD** các dự án phát triển đã lên kế hoạch trong Aerotropolis (nguồn không quy đổi sang USD). Mô hình quản trị do nhà nước dẫn dắt với **Bradfield Development Authority** – cơ quan thuộc Chính phủ bang **NSW** – chịu trách nhiệm kiến tạo **Bradfield City** và thu hút đầu tư vào Aerotropolis, phối hợp với chính quyền, doanh nghiệp và cộng đồng. Cơ quan này vận hành **Investor Concierge Service** (dịch vụ hỗ trợ nhà đầu tư miễn phí) và chương trình giới thiệu đầu tư **InvestorLink** cho các chủ đất tư nhân, đồng thời có đối tác tư nhân tham gia phát triển từng phân khu, ví dụ **Plenary** với **First Land Release**.",
+    "product": "Danh mục sản phẩm gồm nhà ở với **10.000** căn (giai đoạn đầu **1.400** căn), nhà ở giá phù hợp tối thiểu **10%**, bất động sản thương mại/văn phòng, khách sạn trung tâm thành phố, bán lẻ, ẩm thực (**Food & Beverage Precinct**), **University Precinct**, **Enterprise Precinct** với không gian linh hoạt, modular cho công nghệ – sản xuất – nghiên cứu, **AMRF Precinct** sản xuất tiên tiến, cùng dịch vụ thiết yếu và kho vận/logistics, công nghiệp nhẹ như nhà kho, trung tâm phân phối. Nhà phát triển hạ tầng lớn của Úc là **Plenary** sẽ xây **1.400** căn nhà đầu tiên trên quỹ đất **First Land Release** rộng **5,7 ha**, nằm cạnh **Advanced Manufacturing Readiness Facility**, **Central Park** và **Bradfield Metro Station**, trong đó **10%** là nhà ở giá phù hợp. Toàn **Bradfield City** hướng tới **10.000** căn nhà thế hệ mới theo mô hình mật độ cao, gắn với giao thông công cộng, tích hợp thương mại, đại học, bán lẻ, nhà trẻ và cơ sở y tế, với phần lớn căn nhà nằm trong bán kính đi bộ **400 m** tới ga metro. Tiện ích gồm đại học, bán lẻ, nhà trẻ, cơ sở y tế, **Central Park** rộng **2 ha**, không gian mở, công viên, đường thuỷ và sân chơi, cơ sở văn hoá – giáo dục – cộng đồng và không gian sự kiện, cùng các điểm nhấn như **Advanced Manufacturing Readiness Facility (AMRF)**, nhà máy đóng gói tiên tiến bán dẫn, **Green Loop** dài **2,2 km**, **Bradfield Metro Station** và khách sạn trung tâm thành phố phục vụ công tác, sự kiện ngành và khách quốc tế.",
+    "price": "Dự án không công bố biểu giá bán hoặc cho thuê; nguồn thu chủ yếu đến từ việc nhà nước phát hành quỹ đất theo giai đoạn cho khu vực tư nhân phát triển (**First Land Release – City Precinct** rộng **5,7 ha**), kèm yêu cầu tối thiểu **10%** nhà ở giá phù hợp. Cơ chế vận hành theo mô hình B2B do nhà nước dẫn dắt, với **Bradfield Development Authority** phát hành quỹ đất theo giai đoạn cho khu vực tư nhân mà đối tác phát triển là **Plenary**, song song chương trình giới thiệu đầu tư **InvestorLink** kết nối chủ đất tư nhân trong Aerotropolis (từ **1.000 m²** trở lên) với nhà đầu tư và khách thuê.",
+    "service": "Hệ dịch vụ gồm **Investor Concierge Service** (hỗ trợ nhà đầu tư miễn phí, bảo mật), cập nhật cơ hội và tăng trưởng trong Aerotropolis, phân tích kinh tế và dữ liệu kỹ năng lao động, kết nối đối tác chuỗi cung ứng và hợp tác nghiên cứu, tư vấn về grant và ưu đãi tài chính, hỗ trợ tìm mặt bằng văn phòng hoặc công nghiệp, chương trình **InvestorLink**, **Planning referrals** tư vấn thủ tục quy hoạch cho dự án lớn và **AMRF** hỗ trợ công nghệ, chuyên môn cùng đào tạo cho doanh nghiệp. Hạ tầng số của **Bradfield City** được thiết kế **'future ready'** với kết nối cáp quang dung lượng cao, tốc độ siêu cao và phủ sóng di động rộng khắp, tạo nền tảng cho một phân khu kết nối cao độ; thành phố cũng được định vị ở giao điểm của các mạng lưới hàng không, đường bộ, đường sắt và số hoá, kết hợp công nghệ tiên tiến với các ngành công nghiệp tương lai.",
+    "experience": "**Bradfield City** được định hướng là thành phố toàn cầu sôi động, vừa thúc đẩy đổi mới công nghiệp vừa là trung tâm nghệ thuật, văn hoá và giải trí, hoạt động như một hệ sinh thái **'around the clock'** của văn hoá, sáng tạo và đổi mới đặt trong môi trường công viên. Trải nghiệm xoay quanh **Central Park** rộng **2 ha** – quảng trường dân sự biểu tượng để gặp gỡ, vui chơi, thư giãn, hơn **36 ha** không gian mở công cộng cùng đường thuỷ và sân chơi, **Green Loop** dài **2,2 km** dành cho đi bộ và xe đạp kể câu chuyện Country và văn hoá **First Nations**, ẩm thực điểm đến nhìn ra **Central Park**, không gian sự kiện và các cơ sở văn hoá – giáo dục – cộng đồng với sức sống **24/7**. Với hơn một nửa dân số thế giới chỉ cách **14 giờ** bay, thành phố hướng tới trở thành điểm đến du lịch và giải trí.",
+    "convenience": "**Bradfield City** được kiến tạo xoay quanh tuyến Metro tốc độ cao mới với thời gian tới sân bay chỉ **5 phút** và kết nối vào **Greater Sydney** qua tuyến **T1** Đông–Tây từ **St Marys**; phần lớn nhà ở nằm trong bán kính đi bộ **400 m** tới **Bradfield Metro Station**. Tuyến **Sydney Metro – Western Sydney Airport** dài **23 km** với **6** nhà ga liên kết khu dân cư với các trung tâm việc làm, bên cạnh **T1 Western Line** chuyển tuyến tại **St Marys** và **North South Rail Line** mà **Bradfield** là Giai đoạn **1**, đề xuất kéo dài lên **Schofields**. Hệ thống còn có cao tốc **M12** mới không thu phí, nâng cấp **The Northern Road** và **Elizabeth Drive**, **5** mạng lưới xe buýt mới tần suất **30 phút**, mạng đi bộ và xe đạp qua **Green Loop** trong đô thị walkable, cùng sân bay **WSI** hoạt động **24/7** không giới nghiêm phục vụ chuyến bay nội địa, quốc tế và hàng hoá — tạo giao điểm của mạng lưới hàng không, đường bộ, đường sắt và hạ tầng số.",
+    "brand": "Thương hiệu do **Bradfield Development Authority** – cơ quan nhà nước của **NSW** – dẫn dắt, với thông điệp xây dựng tương lai Tây **Sydney** thông qua **Bradfield City** và thu hút đầu tư vào Aerotropolis, cùng các thương hiệu chủ lực **NSW Government**, **Commonwealth Government**, **Western Sydney International (Nancy-Bird Walton) Airport – WSI**, **Sydney Metro** và **Plenary** trong vai trò đối tác phát triển **First Land Release**. Định vị **'built for what's next'** dựa trên ba trụ: dẫn đầu về đổi mới, về chất lượng sống và về kết nối, đồng thời gắn với bản sắc **First Nations** (**Connected to Country**, tác phẩm nghệ thuật của các hoạ sĩ **Dalmarri**) và cam kết bền vững trong vai trò 'thành phố mới nhất của Úc'. Các đối tác thương hiệu gồm **Plenary**, **Ingham Property Group (IPG)**, **Parklife Metro**, **Qantas Freight**, **Menzies Aviation**, **dnata Cargo** và **Texel Air**.",
+    "vision": "Tầm nhìn **A Metropolis of Three Cities** hướng tới việc làm đẳng cấp thế giới với hơn **100.000** cơ hội việc làm mới trên toàn Aerotropolis tới năm **2056**, khả năng tiếp cận và kết nối vượt trội nhờ hạ tầng công cộng, chất lượng sống xuất sắc theo cách tiếp cận **'beyond business as usual'** tạo thành phố mát hơn và xanh hơn, cùng ba định hướng dẫn đầu **Next in innovation**, **Next in liveability** và **Next in connectivity**. Phát triển chịu sự chi phối của **State Environmental Planning Policy (Precincts – Western Parkland City) 2021** (ban đầu là **SEPP (Western Sydney Aerotropolis) 2020**, chuyển sang SEPP hợp nhất tháng **3/2022**) quy định phân vùng sử dụng đất, hành lang hạ tầng, thu hồi đất, di sản, bảo vệ đa dạng sinh học và an toàn hàng không, cùng **Western Sydney Aerotropolis Precinct Plan**, **Western Sydney Aerotropolis Development Control Plan** và **Aviation Safeguarding Guidelines** nhằm bảo vệ khả năng vận hành **24 giờ** của sân bay mới. Về bền vững, **Bradfield Development Authority** triển khai **Sustainability and Resilience Strategy 2024-2028** với các mục tiêu tham vọng, lồng ghép bền vững và thích ứng khí hậu vào mọi giai đoạn phát triển, xây dựng **First Building** với bền vững và designing with Country làm cốt lõi bằng vật liệu tự nhiên và mái xanh để giảm nhiệt, phát triển hơn **36 ha** không gian mở công cộng và **Green Loop** dài **2,2 km** giúp làm mát đô thị và tăng vận động chủ động, thử nghiệm giải pháp carbon thấp và kinh tế tuần hoàn, hỗ trợ chuyển đổi sản xuất net zero (**CleanTech**), bảo vệ hành lang suối, khu vực đa dạng sinh học và hạ tầng blue-green.",
+    "parks": "Khu chức năng logistics chuyên biệt là **Cargo Precinct** – khu hàng hoá **24 giờ** của **WSI**."
   }
 }

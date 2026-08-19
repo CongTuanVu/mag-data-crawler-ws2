@@ -7,13 +7,20 @@
     "airport_name": "Incheon International Airport",
     "reference_city": "Incheon – Seoul",
     "official_website": "https://www.airport.kr",
-    "positioning": "Airport Economic Zone",
-    "planning_concept": "A vast economic area where various airport-related industries converge, creating an industrial ecosystem where diverse economic activities and values are generated through an extensive aviation network.",
+    "location_desc": "Nằm cách trung tâm Incheon chỉ 8 km và cách trung tâm Seoul khoảng 50 km; Incheon Free Economic Zone tiếp giáp Incheon Port và có thể tiếp cận các vùng đô thị lớn chỉ trong 60-90 phút. Sân bay nằm ở phía tây trung tâm Incheon, trên phần đất lấn biển giữa hai đảo Yeongjong và Yongyu.",
+    "distance_to_city_km": 50.0,
+    "area_km2": 122.34,
+    "airport_build_period": null,
+    "urban_build_period": "2003-nay",
+    "founded_year": 2001,
+    "development_context": "Được chỉ định là khu kinh tế tự do đầu tiên của Hàn Quốc năm 2003, IFEZ là trọng tâm trong chiến lược của chính phủ nhằm đưa Hàn Quốc trở thành trung tâm kinh tế của Đông Bắc Á.",
+    "positioning": "Khu kinh tế sân bay (Airport Economic Zone) – nền tảng kinh doanh toàn cầu, trung tâm du lịch và kinh doanh của Đông Bắc Á",
+    "planning_concept": "Một vùng kinh tế rộng lớn nơi hội tụ nhiều ngành liên quan đến hàng không, tạo ra hệ sinh thái công nghiệp trong đó các hoạt động và giá trị kinh tế đa dạng được sinh ra nhờ mạng lưới hàng không rộng khắp; phân thành vùng kinh tế trực tiếp (Direct Economic Zone) và vùng kinh tế hậu phương (Hinterland Economic Zone).",
     "cornerstones": [
-      "Business/R&D Hub",
-      "Tourism/Logistics Hub",
-      "Advanced Industry Hub",
-      "Aviation Support Hub"
+      "Trung tâm kinh doanh & R&D (Business/R&D Hub)",
+      "Trung tâm du lịch & logistics/kho vận (Tourism/Logistics Hub)",
+      "Trung tâm công nghiệp tiên tiến (Advanced Industry Hub)",
+      "Trung tâm hỗ trợ hàng không - MRO, FBO (Aviation Support Hub)"
     ],
     "subzones": [
       "Songdo International City",
@@ -21,12 +28,10 @@
       "Cheongna International City",
       "Airport Logistics Complex"
     ],
-    "area_km2": 122.34,
-    "distance_to_city_km": 50.0,
-    "passengers_million": 70.0,
+    "passengers_million": 70.86,
     "cargo_million_tonnes": 2.95,
     "air_movements": 358000,
-    "destinations": 178,
+    "destinations": 152,
     "airlines": 100,
     "transfer_pct": null,
     "airport_area_ha": null,
@@ -34,325 +39,669 @@
     "num_companies_airport": 3300,
     "num_companies_realestate": 35,
     "num_office_buildings": null,
-    "jobs_created": 120000,
-    "founded_year": 2001,
+    "jobs_created": null,
+    "total_investment_usd": "81.333,1 tỷ won (tổng chi phí dự án IFEZ; nguồn không quy đổi sang USD)",
+    "investor_governance": "Khu kinh tế do Incheon Free Economic Zone Authority (Cơ quan Khu kinh tế tự do Incheon) quản lý; các chủ đầu tư thực hiện dự án gồm Incheon Metropolitan City, Korea Land and Housing Corporation (LH), Incheon Urban Development and Tourism Corporation, Incheon International Airport Corporation và Midan City Development Corporation. Riêng khu kinh tế sân bay do Incheon International Airport Corporation dẫn dắt.",
+    "gov_led_ratio_pct": null,
+    "private_ratio_pct": null,
+    "lead_developer": "Incheon International Airport Corporation (IIAC) – dẫn dắt phát triển khu kinh tế sân bay; Incheon Free Economic Zone Authority (IFEZ) là cơ quan quản lý khu kinh tế tự do",
+    "cvp_product": [
+      "logistics/kho vận",
+      "MRO (bảo dưỡng - sửa chữa - đại tu máy bay)",
+      "R&D",
+      "fulfillment center (trung tâm hoàn tất đơn hàng)",
+      "GDC (trung tâm phân phối toàn cầu)",
+      "khu phức hợp công nghiệp",
+      "nền tảng kinh doanh (business platform)",
+      "officetel",
+      "khách sạn",
+      "khu nghỉ dưỡng phức hợp",
+      "văn phòng",
+      "cơ sở thương mại"
+    ],
+    "commercial_re": [
+      "logistics/kho vận",
+      "nhà ga hàng hoá (cargo terminal)",
+      "MRO",
+      "văn phòng",
+      "bán lẻ/thương mại",
+      "khách sạn",
+      "casino",
+      "khu nghỉ dưỡng (resort)",
+      "GDC",
+      "fulfillment center",
+      "officetel",
+      "trung tâm y tế"
+    ],
     "economic_zone_name": "Incheon Free Economic Zone",
     "economic_zone_year": 2003,
-    "development_context": "Designated as Korea's first free economic zone in 2003, IFEZ has been the focal point of the government's strategies to become the Northeast Asian economic hub.",
-    "location_desc": "Located just 8km away from downtown Incheon, and about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port and can easily be accessed to major metropolitan areas only 60-90 minutes away.",
-    "investor_governance": "The Incheon Free Economic Zone is positioning itself as the center for new and upcoming industries such as new and future industries such as bio-healthcare, smart manufacturing, high-tech finance and future robots, information and communication (IT) and artificial intelligence (AI) while making great strides as a hub for distribution, logistics, tourism, and MICE.",
-    "lead_developer": "Incheon International Airport Corporation",
-    "commercial_re": [
-      "logistics",
-      "cargo",
-      "MRO",
-      "office",
-      "retail",
-      "hotel",
-      "casino",
-      "resort",
-      "GDC",
-      "fulfillment center"
-    ],
-    "residential_product_desc": null,
+    "residential_product_desc": "IFEZ được quy hoạch là khu sống - làm việc tự túc gồm nhà ở, trường học, bệnh viện, mua sắm và giải trí; riêng Yeongjong phát triển thành airport city/aerotropolis sinh thái với tiện ích nhà ở cho nhân viên sân bay và khách; Songdo là cộng đồng 167.000 cư dân. Trong khu vực sân bay có 4 toà officetel thuộc IBC-I.",
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
     "basic_amenities": [
-      "Seminar rooms",
-      "sports complex",
-      "fitness center",
-      "business center",
-      "banquet hall"
+      "phòng hội thảo (seminar rooms)",
+      "tổ hợp thể thao",
+      "phòng tập thể hình",
+      "trung tâm thương vụ (business center)",
+      "sảnh tiệc (banquet hall)",
+      "trung tâm y tế",
+      "trường học",
+      "bệnh viện",
+      "công viên và không gian xanh"
     ],
     "highlight_amenities": [
-      "15,000-seat performance arena",
-      "indoor water park",
-      "foreigner-only casino",
-      "largest hotel ballroom in Korea",
-      "digital entertainment street"
+      "Arena biểu diễn 15.000 chỗ đầu tiên của Hàn Quốc",
+      "công viên nước trong nhà mái vòm kính",
+      "casino dành riêng cho người nước ngoài lớn nhất Hàn Quốc",
+      "sảnh tiệc khách sạn lớn nhất Hàn Quốc",
+      "phố giải trí kỹ thuật số dài 150 m với đèn LED",
+      "công viên giải trí ngoài trời sức chứa 30.000 người",
+      "Grand Hyatt Hotel, Best Western Hotel, Nest Hotel",
+      "INSPIRE Entertainment Resort (khu nghỉ dưỡng phức hợp)"
     ],
-    "logistics_park_ha": 209.3,
-    "logistics_park_name": "Airport Logistics Complex (Free Trade Area)",
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_product": [
-      "logistics",
-      "MRO",
-      "R&D",
-      "fulfillment center",
-      "industrial complex",
-      "business platform"
-    ],
-    "cvp_price": null,
+    "cvp_price": "Cho thuê đất/mặt bằng trong khu thương mại tự do với phí thuê thấp và ưu đãi thuế, hoãn nộp thuế hải quan; thu hút đầu tư theo hình thức mời gọi nhà đầu tư dự án (IBC-I, IBC-II, IBC-III) thay vì bán sản phẩm đại trà.",
     "office_rent_eur_m2_year": null,
     "cvp_price_note": null,
+    "price_vs_reference": null,
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "Mô hình B2B thu hút đầu tư: mời gọi nhà đầu tư/đơn vị vận hành dự án cho IBC-I, IBC-II và IBC-III, kết hợp cho thuê đất/nhà xưởng trong khu thương mại tự do cho doanh nghiệp thuê với phí thuê thấp.",
     "cvp_service": [
-      "Visa-Free Entry",
-      "English as an Official Language",
-      "Regulatory Free Zone",
-      "customs duty deferment",
-      "low rental fees"
+      "Nhập cảnh miễn thị thực (Visa-Free Entry)",
+      "Tiếng Anh là ngôn ngữ chính thức trong khu",
+      "Khu tự do về quy định (Regulatory Free Zone)",
+      "Hoãn nộp thuế hải quan (customs duty deferment)",
+      "Phí thuê thấp",
+      "Dịch vụ một cửa (One-stop Service) cho nhà đầu tư",
+      "Miễn/giảm thuế và hỗ trợ hoạt động kinh doanh",
+      "Hệ thống nhập cư cho nhà đầu tư (Investor Immigration System)",
+      "IFEZ Global Center hỗ trợ cư dân nước ngoài",
+      "Đào tạo nhân lực chuyên môn và dịch vụ hành chính chủ động"
     ],
+    "airport_privilege": null,
+    "has_airport_privilege": null,
+    "smart_city": "Định hướng chuyển đổi số toàn diện: mục tiêu 'Achieving Full Digital Transformation', chiến lược đổi mới hạ tầng số, thủ tục xuất cảnh Smart Pass (2023) và giải thưởng ACI Technology Innovation Award; Songdo trong IFEZ là smart city, Incheon là thành phố dựa trên kết nối internet ubiquitous.",
+    "has_smart_city": true,
     "cvp_experience": [
-      "arena",
-      "water park",
+      "arena biểu diễn",
+      "công viên nước trong nhà",
       "casino",
-      "banquet hall",
-      "fitness center",
-      "resort"
+      "sảnh tiệc/hội nghị",
+      "phòng tập thể hình",
+      "khu nghỉ dưỡng phức hợp (integrated resort)",
+      "mua sắm",
+      "công viên giải trí ngoài trời",
+      "phố giải trí kỹ thuật số",
+      "sân golf",
+      "hội nghị quốc tế (MICE)",
+      "lễ hội văn hoá và cơ sở du lịch - giải trí"
     ],
+    "experience_desc": "Trải nghiệm xoay quanh tổ hợp giải trí INSPIRE với khách sạn 5 sao ba toà, arena 15.000 chỗ, công viên nước trong nhà mái vòm kính, casino cho người nước ngoài, công viên giải trí ngoài trời 30.000 người và phố giải trí kỹ thuật số 150 m; bổ sung bằng khu resort IBC-III (khách sạn, giải trí, mua sắm), hội nghị quốc tế/MICE và các lễ hội văn hoá, cơ sở du lịch - nghỉ dưỡng của Incheon.",
     "cvp_convenience": [
-      "Located just 8km away from downtown Incheon, and about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port and can easily be accessed to major metropolitan areas only 60-90 minutes away.",
-      "Non-stop between Incheon Int’l Airport and Seoul Station"
+      "Cách trung tâm Incheon 8 km và trung tâm Seoul khoảng 50 km, tiếp giáp cảng Incheon, tới các vùng đô thị lớn chỉ 60-90 phút",
+      "Tàu tốc hành AREX chạy thẳng không dừng giữa Incheon Int'l Airport và Seoul Station (43 phút từ Terminal 1)",
+      "Kết nối Incheon với Seoul và vùng thủ đô trong vòng 1 giờ",
+      "Hạ tầng gồm Incheon International Airport, Incheon New Port, tuyến GTX-B và Airport Railroad, tiếp cận 147 thành phố trên 1 triệu dân trong 3 giờ bay",
+      "Đường cao tốc qua cầu Yeongjong Bridge và Incheon Bridge",
+      "Xe buýt limousine sân bay tới nhiều điểm ở Seoul"
     ],
+    "connectivity_desc": "Khu có mạng lưới giao thông hoàn chỉnh: Incheon International Airport, cảng Incheon/Incheon New Port, tuyến GTX-B và Airport Railroad, cho phép tiếp cận 147 thành phố trên 1 triệu dân trong vòng 3 giờ; mạng bay của Incheon nối 152 thành phố tại 53 quốc gia qua 87 hãng hàng không (tháng 12/2022); kết nối Seoul và vùng thủ đô trong 1 giờ.",
+    "connection_modes": [
+      "đường sắt sân bay (AREX - tàu thường và tàu tốc hành)",
+      "tàu maglev",
+      "metro (Incheon Metro tuyến 1 và 2 qua ga trung chuyển)",
+      "xe buýt limousine sân bay và xe buýt liên tỉnh",
+      "taxi",
+      "đường cao tốc (Incheon Int'l Airport Expressway, 2nd Gyeongin Expressway)",
+      "cầu Yeongjong Bridge và Incheon Bridge",
+      "cảng biển (Incheon Port/Incheon New Port)",
+      "tuyến GTX-B (đường sắt tốc độ cao vùng)"
+    ],
+    "metro_lines": null,
     "rail_connections": [
-      "Airport Railroad Express (AREX) takes you conveniently and quickly from Gimpo Int’l Airport and Incheon Int’l Airport to various destinations in Seoul."
+      "Airport Railroad Express (AREX) - tàu thường và tàu tốc hành nối Incheon Int'l Airport với Seoul Station (43 phút không dừng từ Terminal 1)",
+      "Trung chuyển sang Incheon Metro 2 tại ga Geomam và Incheon Metro 1 tại ga Gyeyang",
+      "Tuyến GTX-B",
+      "Tàu maglev (ga tàu maglev tại Southern Waterside Zone)",
+      "KTX (Korea Train eXpress) - trước đây khai thác tại ga sân bay trên Gyeongbu Line và Gyeonjeon Line"
     ],
     "cvp_brand": [
       "Incheon International Airport Corporation",
-      "Incheon Free Economic Zone Authority",
-      "INSPIRE"
+      "Incheon Free Economic Zone Authority (IFEZ)",
+      "Incheon Metropolitan City",
+      "Korea Land and Housing Corporation (LH)",
+      "INSPIRE Entertainment Resort"
+    ],
+    "brand_desc": "Thương hiệu được định vị là cửa ngõ và trung tâm kinh doanh của Đông Bắc Á: Incheon International Airport Corporation xây dựng hình ảnh 'Beyond an Airport, Changing the World' cùng thương hiệu ESG 'INCHEON AIRPORT' và mục tiêu trở thành ESG hub số 1 thế giới; IFEZ tự định vị là khu kinh tế tự do đầu tiên của Hàn Quốc, đặt chuẩn mực cho các đặc khu, là 'Gateway to Korea Wide Open to the World' và trung tâm các ngành mới như bio-healthcare, sản xuất thông minh, tài chính công nghệ cao, robot, IT và AI.",
+    "brand_partners": [
+      "World Bank",
+      "Green Climate Fund (GCF)",
+      "Association of World Election Bodies",
+      "Samsung BioLogics",
+      "Celltrion",
+      "Boeing",
+      "BMW",
+      "GM",
+      "Grand Hyatt",
+      "Best Western",
+      "Korean Air",
+      "Asiana Airlines",
+      "IAI (Israel Aerospace Industries)",
+      "Hyundai Movex",
+      "New York State University",
+      "George Mason University",
+      "Ghent University"
     ],
     "vision_label": "Beyond an Airport, Changing the World",
     "vision_qualities": [
-      "Challenge",
-      "Cooperation",
-      "Creativity",
-      "Integrity"
+      "Challenge (Thách thức)",
+      "Cooperation (Hợp tác)",
+      "Creativity (Sáng tạo)",
+      "Integrity (Chính trực)"
     ],
-    "aviation_policy": null,
+    "aviation_policy": "Act on the Promotion of a New Airport for Seoul Metropolitan Area Construction (Luật thúc đẩy xây dựng sân bay mới cho Vùng thủ đô Seoul) - kế hoạch phát triển được công bố ngày 30/6/2009; nền tảng pháp lý của doanh nghiệp là Incheon International Airport Corporation Act (ban hành 26/01/1999)",
     "sustainability": [
-      "RE100",
-      "Green Mobility",
-      "Low-Carbon Eco-Friendly Airport",
-      "renewable energy"
+      "RE100 (sân bay châu Á đầu tiên tham gia, 2022)",
+      "ACI Airport Carbon Accreditation - đạt cấp cao nhất, đầu tiên tại Hàn Quốc (2023)",
+      "Sân bay sinh thái phát thải carbon thấp (Low-Carbon Eco-Friendly Airport)",
+      "Chuyển đổi sang năng lượng tái tạo",
+      "Green & Hydrogen Airport (sân bay xanh - hydro)",
+      "Chiến lược Incheon Airport Green New Deal (năng lượng, giao thông, giảm carbon, chuyển đổi xanh)",
+      "Quản trị ESG bền vững, ESG Vision 'Fly to the World Best ESG Hub'",
+      "Green Report (xuất bản từ 1995) và Sustainability Report (từ 2007)"
     ],
-    "_pages_used": 21
+    "logistics_park_name": "Airport Logistics Complex (Free Trade Area)",
+    "logistics_park_ha": 209.3,
+    "trade_park_name": null,
+    "trade_park_ha": null
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "medium",
+      "snippet": "Incheon Free Economic Zone",
+      "source": "baseline"
     },
-    "planning_concept": {
-      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
-      "source_file": "02_incheon_airport_business_hub_airport_economic_zone.txt",
-      "snippet": "A vast economic area where various airport-related industries converge, creating an industrial ecosystem where diverse economic activities and values are genera",
-      "confidence": "high"
+    "aerotropolis": {
+      "confidence": "medium",
+      "snippet": "has been developed as an eco-friendly airport city and\naerotropolis\n. It is a functional city with residential amenities for airport staff and visitors",
+      "source": "S19",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_Free_Economic_Zone",
+      "source_file": "pages/19_wikipedia_incheon_free_economic_zone.txt",
+      "source_name": "Wikipedia – Incheon Free Economic Zone"
     },
-    "cornerstones": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4387/subview.do"
-      ],
-      "confidence": "high"
+    "country": {
+      "confidence": "high",
+      "snippet": "The\nIncheon Free Economic Zone\n(IFEZ), located in\nSouth Korea\nis a\nKorean Free Economic Zone",
+      "source": "S19",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_Free_Economic_Zone",
+      "source_file": "pages/19_wikipedia_incheon_free_economic_zone.txt",
+      "source_name": "Wikipedia – Incheon Free Economic Zone"
     },
-    "subzones": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4389/subview.do",
-        "https://www.ifez.go.kr/world/content/view.do?sn=484"
-      ],
-      "confidence": "high"
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "Incheon Free Economic Zone",
+      "source": "baseline"
     },
-    "area_km2": {
-      "unit": "km²",
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "Incheon International Airport Corporation > About the Corporation > General Overview > Incheon Airport at a Glance > Incheon Airport in Numbers",
+      "source": "S03",
+      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
+      "source_file": "pages/03_incheon_airport_at_a_glance.txt",
+      "source_name": "Incheon Airport – At a Glance"
+    },
+    "reference_city": {
+      "confidence": "high",
+      "snippet": "Located just 8km away from downtown Incheon, and about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port",
+      "source": "S10",
       "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
-      "source_file": "10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
-      "snippet": "total area of 122.34 square kilometers",
-      "confidence": "high"
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
     },
-    "distance_to_city_km": {
-      "unit": "km",
-      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
-      "source_file": "10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
-      "snippet": "about 50km from central Seoul",
-      "confidence": "high"
-    },
-    "passengers_million": {
-      "unit": "triệu/năm",
-      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
-      "source_file": "03_incheon_airport_at_a_glance.txt",
-      "snippet": "7 0 Million Passengers",
-      "confidence": "high"
-    },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm",
-      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
-      "source_file": "03_incheon_airport_at_a_glance.txt",
-      "snippet": "2.95 Million Tons",
-      "confidence": "high"
-    },
-    "air_movements": {
-      "unit": "lượt/năm",
-      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
-      "source_file": "03_incheon_airport_at_a_glance.txt",
-      "snippet": "358,000 Flights Number of flights",
-      "confidence": "high"
-    },
-    "destinations": {
-      "unit": "thành phố",
-      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
-      "source_file": "03_incheon_airport_at_a_glance.txt",
-      "snippet": "178 Cities Served",
-      "confidence": "high"
-    },
-    "airlines": {
-      "unit": "hãng",
-      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
-      "source_file": "03_incheon_airport_at_a_glance.txt",
-      "snippet": "100 Airlines Serving",
-      "confidence": "high"
-    },
-    "num_companies_airport": {
-      "unit": "doanh nghiệp",
-      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
-      "source_file": "11_ifez_about_us_authority.txt",
-      "snippet": "3,300 businesses",
-      "confidence": "high"
-    },
-    "num_companies_realestate": {
-      "unit": "doanh nghiệp",
-      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
-      "source_file": "07_incheon_airport_logistics_free_trade_area.txt",
-      "snippet": "Currently, 35 logistics companies",
-      "confidence": "high"
-    },
-    "jobs_created": {
-      "unit": "việc làm",
-      "source_url": "https://www.airport.kr/co_en/4211/subview.do",
-      "source_file": "08_incheon_airport_esg_management.txt",
-      "snippet": "Creation of new jobs (by 2030) 120,000",
-      "confidence": "high"
-    },
-    "founded_year": {
-      "unit": "năm",
-      "source_url": "https://en.wikipedia.org/wiki/Incheon_International_Airport",
-      "source_file": "18_wikipedia_incheon_international_airport.txt",
-      "snippet": "opened for business on 29 March 2001",
-      "confidence": "high"
-    },
-    "economic_zone_name": {
-      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
-      "source_file": "11_ifez_about_us_authority.txt",
-      "snippet": "Incheon Free Economic Zone (IFEZ)",
-      "confidence": "high"
-    },
-    "economic_zone_year": {
-      "unit": "năm",
-      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
-      "source_file": "11_ifez_about_us_authority.txt",
-      "snippet": "designation in 2003 as Korea's first free economic zone",
-      "confidence": "high"
-    },
-    "development_context": {
-      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
-      "source_file": "10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
-      "snippet": "Designated as Korea's first free economic zone in 2003, IFEZ has been the focal point of the government's strategies to become the Northeast Asian economic hub.",
-      "confidence": "high"
+    "official_website": {
+      "confidence": "medium",
+      "snippet": "url: https://www.airport.kr/co_en/4389/subview.do",
+      "source": "S01",
+      "source_url": "https://www.airport.kr/co_en/4389/subview.do",
+      "source_file": "pages/01_incheon_airport_development_of_a_complex_city_air_.txt",
+      "source_name": "Incheon Airport – Development of a Complex City (Air City)"
     },
     "location_desc": {
+      "confidence": "high",
+      "snippet": "Located just 8km away from downtown Incheon, and about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port and can easily be accessed to major metropolitan areas",
+      "source": "S10",
       "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
-      "source_file": "10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
-      "snippet": "Located just 8km away from downtown Incheon, and about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port and can easily be",
-      "confidence": "high"
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
+    },
+    "distance_to_city_km": {
+      "confidence": "high",
+      "snippet": "about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port",
+      "source": "S10",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
+    },
+    "area_km2": {
+      "confidence": "high",
+      "snippet": "Area\n: Total 122.34㎢\nEstimated population\n: 543,653 (210,111 households)",
+      "source": "S22",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=499",
+      "source_file": "pages/22_ifez_investment_zones_songdo_yeongjong_cheongna.txt",
+      "source_name": "IFEZ – Investment Zones (Songdo / Yeongjong / Cheongna)"
+    },
+    "urban_build_period": {
+      "confidence": "medium",
+      "snippet": "Project Period\n: 2003 - 2030 (Phase 1 : Completed in 2009)",
+      "source": "S22",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=499",
+      "source_file": "pages/22_ifez_investment_zones_songdo_yeongjong_cheongna.txt",
+      "source_name": "IFEZ – Investment Zones (Songdo / Yeongjong / Cheongna)"
+    },
+    "founded_year": {
+      "confidence": "high",
+      "snippet": "This airport opened for business on 29 March 2001, to replace the older\nGimpo International Airport",
+      "source": "S18",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_International_Airport",
+      "source_file": "pages/18_wikipedia_incheon_international_airport.txt",
+      "source_name": "Wikipedia – Incheon International Airport"
+    },
+    "development_context": {
+      "confidence": "high",
+      "snippet": "Designated as Korea's first free economic zone in 2003, IFEZ has been the focal point of the government's strategies to become the Northeast Asian economic hub.",
+      "source": "S10",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
+    },
+    "positioning": {
+      "confidence": "high",
+      "snippet": "Incheon Airport is leading the transformation of the future airport industrial ecosystem by establishing an airport economic zone.",
+      "source": "S02",
+      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
+      "source_file": "pages/02_incheon_airport_business_hub_airport_economic_zone.txt",
+      "source_name": "Incheon Airport – Business Hub / Airport Economic Zone"
+    },
+    "planning_concept": {
+      "confidence": "high",
+      "snippet": "A vast economic area where various airport-related industries converge, creating an industrial ecosystem where diverse economic activities and values are generated through an extensive aviation network.",
+      "source": "S02",
+      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
+      "source_file": "pages/02_incheon_airport_business_hub_airport_economic_zone.txt",
+      "source_name": "Incheon Airport – Business Hub / Airport Economic Zone"
+    },
+    "cornerstones": {
+      "confidence": "high",
+      "snippet": "Four Key Strategies of the Airport Economic Zone\n...\nBusiness/R&D Hub\n...\nTourism/Logistics Hub\n...\nAdvanced Industry Hub\n...\nAviation Support Hub",
+      "source": "S02",
+      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
+      "source_file": "pages/02_incheon_airport_business_hub_airport_economic_zone.txt",
+      "source_name": "Incheon Airport – Business Hub / Airport Economic Zone"
+    },
+    "subzones": {
+      "confidence": "high",
+      "snippet": "Location\n: Regions of Yeonsu-gu (Songdo International City), Jung-gu (Yeongjong International City), Seo-gu (Cheongna International City), Incheon Metropolitan City",
+      "source": "S22",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=499",
+      "source_file": "pages/22_ifez_investment_zones_songdo_yeongjong_cheongna.txt",
+      "source_name": "IFEZ – Investment Zones (Songdo / Yeongjong / Cheongna)"
+    },
+    "passengers_million": {
+      "confidence": "medium",
+      "snippet": "In 2019, the airport served a total of 70,857,908 passengers.",
+      "source": "S18",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_International_Airport",
+      "source_file": "pages/18_wikipedia_incheon_international_airport.txt",
+      "source_name": "Wikipedia – Incheon International Airport"
+    },
+    "cargo_million_tonnes": {
+      "confidence": "high",
+      "snippet": "In 2022, out of the 2.95 million tons of international air cargo processed at Incheon International Airport, 1.12 million tons were transshipment cargo",
+      "source": "S07",
+      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
+      "source_file": "pages/07_incheon_airport_logistics_free_trade_area.txt",
+      "source_name": "Incheon Airport – Logistics / Free Trade Area"
+    },
+    "air_movements": {
+      "confidence": "high",
+      "snippet": "358,000\nFlights\nNumber of flights",
+      "source": "S03",
+      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
+      "source_file": "pages/03_incheon_airport_at_a_glance.txt",
+      "source_name": "Incheon Airport – At a Glance"
+    },
+    "destinations": {
+      "confidence": "high",
+      "snippet": "As of December 2022, Incheon International Airport’s network connects to 152 cities in 53 countries through 87 airlines, operating non-stop 365 days a year.",
+      "source": "S07",
+      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
+      "source_file": "pages/07_incheon_airport_logistics_free_trade_area.txt",
+      "source_name": "Incheon Airport – Logistics / Free Trade Area"
+    },
+    "airlines": {
+      "confidence": "high",
+      "snippet": "100\nAirlines\nServing",
+      "source": "S03",
+      "source_url": "https://www.airport.kr/co_en/4189/subview.do",
+      "source_file": "pages/03_incheon_airport_at_a_glance.txt",
+      "source_name": "Incheon Airport – At a Glance"
+    },
+    "num_companies_airport": {
+      "confidence": "medium",
+      "snippet": "has rapidly developed into a global city housing more than 400,000 residents, 3,300 businesses, 14 international organizations including GCF, and renowned foreign universities",
+      "source": "S11",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
+      "source_file": "pages/11_ifez_about_us_authority.txt",
+      "source_name": "IFEZ – About Us / Authority"
+    },
+    "num_companies_realestate": {
+      "confidence": "medium",
+      "snippet": "Currently, 35 logistics companies and one manufacturing company are operating within the Airport Logistics Complex",
+      "source": "S07",
+      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
+      "source_file": "pages/07_incheon_airport_logistics_free_trade_area.txt",
+      "source_name": "Incheon Airport – Logistics / Free Trade Area"
+    },
+    "total_investment_usd": {
+      "confidence": "medium",
+      "snippet": "Expected population and total project expenses\n543,653 people / 81,333.1 billion won",
+      "source": "S10",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
     },
     "investor_governance": {
-      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
-      "source_file": "11_ifez_about_us_authority.txt",
-      "snippet": "The Incheon Free Economic Zone is positioning itself as the center for new and upcoming industries such as new and future industries such as bio-healthcare, sma",
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Project implementer\nIncheon Metropolitan City, Korea Land and Housing Corporation (LH), Incheon Urban Development and Tourism Corporation, Incheon International Airport Corporation",
+      "source": "S22",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=499",
+      "source_file": "pages/22_ifez_investment_zones_songdo_yeongjong_cheongna.txt",
+      "source_name": "IFEZ – Investment Zones (Songdo / Yeongjong / Cheongna)"
     },
     "lead_developer": {
-      "source_url": "https://www.airport.kr/co_en/4389/subview.do",
-      "source_file": "01_incheon_airport_development_of_a_complex_city_air_.txt",
-      "snippet": "Incheon International Airport Corporation",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4387/subview.do",
-        "https://www.airport.kr/co_en/4389/subview.do",
-        "https://www.fez.go.kr/portal/en/main.do"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
-        "https://www.airport.kr/co_en/4389/subview.do"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952"
-      ],
-      "confidence": "high"
-    },
-    "logistics_park_ha": {
-      "unit": "ha",
-      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
-      "source_file": "07_incheon_airport_logistics_free_trade_area.txt",
-      "snippet": "2,093,000 square meters was designated as a Free Trade Area",
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Incheon Airport is leading the transformation of the future airport industrial ecosystem by establishing an airport economic zone.",
+      "source": "S02",
+      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
+      "source_file": "pages/02_incheon_airport_business_hub_airport_economic_zone.txt",
+      "source_name": "Incheon Airport – Business Hub / Airport Economic Zone"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4387/subview.do",
-        "https://www.airport.kr/co_en/4389/subview.do"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Direct Economic Zone\nRegulatory Free Zone\nGDC, Fulfillment Center\nVisa-Free Entry, English as an Official Language ... Development of state-of-the-art MRO complex and FBO facilities",
+      "source": "S02",
+      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
+      "source_file": "pages/02_incheon_airport_business_hub_airport_economic_zone.txt",
+      "source_name": "Incheon Airport – Business Hub / Airport Economic Zone"
+    },
+    "commercial_re": {
+      "confidence": "high",
+      "snippet": "Facilities :\n4 officetel buildings, medical center, Grand Hyatt Hotel, Best Western Hotel, etc. ... Phase 1 : Hotel (796 rooms), Casino, etc. ... Accommodations (hotels, etc.), office, commercial facilities",
+      "source": "S01",
+      "source_url": "https://www.airport.kr/co_en/4389/subview.do",
+      "source_file": "pages/01_incheon_airport_development_of_a_complex_city_air_.txt",
+      "source_name": "Incheon Airport – Development of a Complex City (Air City)"
+    },
+    "economic_zone_name": {
+      "confidence": "high",
+      "snippet": "Designated as Korea's first free economic zone in 2003, IFEZ has been the focal point of the government's strategies to become the Northeast Asian economic hub.",
+      "source": "S10",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
+    },
+    "economic_zone_year": {
+      "confidence": "high",
+      "snippet": "Incheon's Free Economic Zone was officially designated by the Korean government in August 2003.",
+      "source": "S19",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_Free_Economic_Zone",
+      "source_file": "pages/19_wikipedia_incheon_free_economic_zone.txt",
+      "source_name": "Wikipedia – Incheon Free Economic Zone"
+    },
+    "residential_product_desc": {
+      "confidence": "medium",
+      "snippet": "IFEZ is planned to be a self-contained living and business district featuring air and sea transportation, a logistics complex, an international business center, financial services, residences, schools and hospitals, and shopping and entertainment centers.",
+      "source": "S19",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_Free_Economic_Zone",
+      "source_file": "pages/19_wikipedia_incheon_free_economic_zone.txt",
+      "source_name": "Wikipedia – Incheon Free Economic Zone"
+    },
+    "basic_amenities": {
+      "confidence": "high",
+      "snippet": "Other facilities\nSeminar rooms, sports complex, arena, indoor water park, casino, banquet hall, fitness center, business center, etc.",
+      "source": "S17",
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
+      "source_file": "pages/17_inspire_entertainment_resort_visitkorea.txt",
+      "source_name": "INSPIRE Entertainment Resort (VISITKOREA)"
+    },
+    "highlight_amenities": {
+      "confidence": "high",
+      "snippet": "The resort also features Korea's first-ever 15,000-seat performance arena, an indoor water park roofed with a glass dome, and a banquet hall consisting of cutting-edge equipment and the largest hotel ballroom in Korea.",
+      "source": "S17",
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
+      "source_file": "pages/17_inspire_entertainment_resort_visitkorea.txt",
+      "source_name": "INSPIRE Entertainment Resort (VISITKOREA)"
+    },
+    "cvp_price": {
+      "confidence": "medium",
+      "snippet": "Tenant companies are guaranteed the freedom to engage in manufacturing, logistics, and trade activities, benefiting from low rental fees and customs duty deferment among other advantages.",
+      "source": "S07",
+      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
+      "source_file": "pages/07_incheon_airport_logistics_free_trade_area.txt",
+      "source_name": "Incheon Airport – Logistics / Free Trade Area"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "Simultaneously, we are seeking investments for both IBC-I and IBC-II and working on the development of a resort complex in IBC- III to attract additional investments.",
+      "source": "S01",
+      "source_url": "https://www.airport.kr/co_en/4389/subview.do",
+      "source_file": "pages/01_incheon_airport_development_of_a_complex_city_air_.txt",
+      "source_name": "Incheon Airport – Development of a Complex City (Air City)"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4333/subview.do",
-        "https://www.airport.kr/co_en/4387/subview.do"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Regulatory Free Zone\nGDC, Fulfillment Center\nVisa-Free Entry, English as an Official Language",
+      "source": "S02",
+      "source_url": "https://www.airport.kr/co_en/4387/subview.do",
+      "source_file": "pages/02_incheon_airport_business_hub_airport_economic_zone.txt",
+      "source_name": "Incheon Airport – Business Hub / Airport Economic Zone"
+    },
+    "smart_city": {
+      "confidence": "medium",
+      "snippet": "GOAL\nAchieving Full\nDigital\nTransformation ... [AIRPORT INFRASTRUCTURE]\nDigital and Airport Infrastructure Innovation\nAcceleration in Digital Transformation",
+      "source": "S05",
+      "source_url": "https://www.airport.kr/co_en/4183/subview.do",
+      "source_file": "pages/05_incheon_airport_vision.txt",
+      "source_name": "Incheon Airport – Vision"
+    },
+    "has_smart_city": {
+      "confidence": "high",
+      "snippet": "The\nSongdo\ndistrict development began in 1994 and was built on\nreclaimed land\n. It is a\nsmart city",
+      "source": "S19",
+      "source_url": "https://en.wikipedia.org/wiki/Incheon_Free_Economic_Zone",
+      "source_file": "pages/19_wikipedia_incheon_free_economic_zone.txt",
+      "source_name": "Wikipedia – Incheon Free Economic Zone"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
-        "https://www.airport.kr/co_en/4389/subview.do"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Inspire Entertainment Resort is a grand resort complex comprising a variety of amenities and entertainment.",
+      "source": "S17",
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
+      "source_file": "pages/17_inspire_entertainment_resort_visitkorea.txt",
+      "source_name": "INSPIRE Entertainment Resort (VISITKOREA)"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "In addition, the resort also has an outdoor entertainment park that can accommodate a maximum of 30,000 people, Korea's largest foreigner-only casino, a 150-meter digital entertainment street with stunning LED decor, and other leisure amenities.",
+      "source": "S17",
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187952",
+      "source_file": "pages/17_inspire_entertainment_resort_visitkorea.txt",
+      "source_name": "INSPIRE Entertainment Resort (VISITKOREA)"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
-        "https://www.ifez.go.kr/world/content/view.do?sn=484"
-      ],
-      "source_files": [
-        "10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
-        "15_seoul_metropolitan_gov_getting_to_seoul_from_inche.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Located just 8km away from downtown Incheon, and about 50km from central Seoul, the Incheon Free Economic Zone is adjacent to the Incheon Port and can easily be accessed to major metropolitan areas only 60-90 minutes away.",
+      "source": "S10",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=484",
+      "source_file": "pages/10_ifez_why_ifez_l_i_th_c_nh_tranh.txt",
+      "source_name": "IFEZ – Why IFEZ (lợi thế cạnh tranh)"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "With our outstanding infrastructure which includes the Incheon International Airport, Incheon New Port, GTX-B Line, and Airport Railroad, all of which can reach 147 cities with a population of 1 million or more within 3 hours",
+      "source": "S11",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
+      "source_file": "pages/11_ifez_about_us_authority.txt",
+      "source_name": "IFEZ – About Us / Authority"
+    },
+    "connection_modes": {
+      "confidence": "high",
+      "snippet": "You can get to Seoul conveniently and quickly from Gimpo Int’l Airport and Incheon Int’l Airport via various modes of transportation (e.g. airport limousine bus, express train, taxi).",
+      "source": "S15",
+      "source_url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
+      "source_file": "pages/15_seoul_metropolitan_gov_getting_to_seoul_from_inche.txt",
+      "source_name": "Seoul Metropolitan Gov – Getting to Seoul from Incheon Airport"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/"
-      ],
-      "source_files": [
-        "15_seoul_metropolitan_gov_getting_to_seoul_from_inche.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Airport Railroad Express (AREX) takes you conveniently and quickly from Gimpo Int’l Airport and Incheon Int’l Airport to various destinations in Seoul.",
+      "source": "S15",
+      "source_url": "https://english.seoul.go.kr/service/entry/getting-to-seoul-from-incheon-airport/",
+      "source_file": "pages/15_seoul_metropolitan_gov_getting_to_seoul_from_inche.txt",
+      "source_name": "Seoul Metropolitan Gov – Getting to Seoul from Incheon Airport"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4389/subview.do",
-        "https://www.ifez.go.kr/world/content/view.do?sn=484"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Project implementer\nIncheon Metropolitan City, Korea Land and Housing Corporation (LH), Incheon Urban Development and Tourism Corporation, Incheon International Airport Corporation, Midan City Development Corporation",
+      "source": "S22",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=499",
+      "source_file": "pages/22_ifez_investment_zones_songdo_yeongjong_cheongna.txt",
+      "source_name": "IFEZ – Investment Zones (Songdo / Yeongjong / Cheongna)"
+    },
+    "brand_desc": {
+      "confidence": "medium",
+      "snippet": "\"Korea's first Incheon Free Economic Zone is setting the standards for free economic zones.\"",
+      "source": "S11",
+      "source_url": "https://www.ifez.go.kr/world/content/view.do?sn=616",
+      "source_file": "pages/11_ifez_about_us_authority.txt",
+      "source_name": "IFEZ – About Us / Authority"
+    },
+    "brand_partners": {
+      "confidence": "high",
+      "snippet": "The thirteen international organizations located in Incheon include the World Bank, the Green Climate Fund, and the Association of World Election Bodies.\n75 multinational companies from 15 countries have set up in Incheon, including Samsung BioLogics, Celltrion, Boeing, BMW and GM.",
+      "source": "S13",
+      "source_url": "https://www.fez.go.kr/portal/en/ifez.do",
+      "source_file": "pages/13_korea_fez_ifez_area_information.txt",
+      "source_name": "Korea FEZ – IFEZ Area Information"
+    },
+    "vision_label": {
+      "confidence": "high",
+      "snippet": "VISION\nBeyond an Airport, Changing the World",
+      "source": "S05",
+      "source_url": "https://www.airport.kr/co_en/4183/subview.do",
+      "source_file": "pages/05_incheon_airport_vision.txt",
+      "source_name": "Incheon Airport – Vision"
     },
     "vision_qualities": {
+      "confidence": "high",
+      "snippet": "CORE VALUE\nChallenge\nCooperation\nCreativity\nIntegrity",
+      "source": "S05",
       "source_url": "https://www.airport.kr/co_en/4183/subview.do",
-      "source_file": "05_incheon_airport_vision.txt",
-      "snippet": "CORE VALUE Challenge Cooperation Creativity Integrity",
-      "confidence": "high"
+      "source_file": "pages/05_incheon_airport_vision.txt",
+      "source_name": "Incheon Airport – Vision"
+    },
+    "aviation_policy": {
+      "confidence": "high",
+      "snippet": "Public announcement of the development plan under the Act on the Promotion of a New Airport for Seoul Metropolitan Area Construction (June 30, 2009)",
+      "source": "S01",
+      "source_url": "https://www.airport.kr/co_en/4389/subview.do",
+      "source_file": "pages/01_incheon_airport_development_of_a_complex_city_air_.txt",
+      "source_name": "Incheon Airport – Development of a Complex City (Air City)"
     },
     "sustainability": {
-      "source_urls": [
-        "https://www.airport.kr/co_en/4184/subview.do",
-        "https://www.airport.kr/co_en/4211/subview.do",
-        "https://www.airport.kr/co_en/4389/subview.do"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Became the first Asian airport to join the global RE100 initiative",
+      "source": "S06",
+      "source_url": "https://www.airport.kr/co_en/4184/subview.do",
+      "source_file": "pages/06_incheon_airport_history.txt",
+      "source_name": "Incheon Airport – History"
+    },
+    "logistics_park_name": {
+      "confidence": "high",
+      "snippet": "Incheon International Airport’s Free Trade Area consists of the Airport Logistics Complex and Cargo Terminal area",
+      "source": "S07",
+      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
+      "source_file": "pages/07_incheon_airport_logistics_free_trade_area.txt",
+      "source_name": "Incheon Airport – Logistics / Free Trade Area"
+    },
+    "logistics_park_ha": {
+      "confidence": "medium",
+      "snippet": "In April 2005, 2,093,000 square meters was designated as a Free Trade Area followed by an expansion in December 2007 when an additional 922,000 square meters of the First Airport Logistics Complex was also designated.",
+      "source": "S07",
+      "source_url": "https://www.airport.kr/co_en/4333/subview.do",
+      "source_file": "pages/07_incheon_airport_logistics_free_trade_area.txt",
+      "source_name": "Incheon Airport – Logistics / Free Trade Area"
     }
+  },
+  "missing": {
+    "airport_build_period": "Tài liệu chỉ nêu Metropolitan Area New Airport Construction Promotion Act (5/1991) và ngày khai trương 29/3/2001, không nêu rõ giai đoạn xây dựng dạng YYYY-YYYY.",
+    "transfer_pct": "Tài liệu chỉ nêu tỷ lệ hàng hoá trung chuyển (~38% cargo transshipment), không có tỷ lệ hành khách transfer.",
+    "airport_area_ha": "Không có tài liệu nào nêu diện tích khuôn viên sân bay Incheon; con số 122,34 km² là toàn IFEZ.",
+    "employees": "Không tài liệu nào nêu số người làm việc thực tế trong khu.",
+    "num_office_buildings": "Tài liệu chỉ nêu '4 officetel buildings' thuộc giai đoạn 1 của IBC-I, không phải số toà nhà văn phòng của toàn khu.",
+    "jobs_created": "BASELINE_SAI: con số 120.000 trong S08 là mục tiêu tạo việc làm mới đến năm 2030 (by 2030), không phải số việc làm đã tạo thực tế.",
+    "gov_led_ratio_pct": "Không tài liệu nào nêu tỷ lệ vốn/vai trò nhà nước bằng số cụ thể.",
+    "private_ratio_pct": "Không tài liệu nào nêu tỷ lệ vốn tư nhân bằng số cụ thể.",
+    "residential_highrise_pct": "Tài liệu không nêu tỷ lệ sản phẩm nhà ở cao tầng.",
+    "residential_lowrise_pct": "Tài liệu không nêu tỷ lệ sản phẩm nhà ở thấp tầng.",
+    "residential_land_pct": "Tài liệu không nêu tỷ lệ sản phẩm đất nền.",
+    "office_rent_eur_m2_year": "Tài liệu không có dòng chào giá thuê văn phòng theo EUR/m²/năm.",
+    "cvp_price_note": "Tài liệu không nêu chú thích đơn vị/điều kiện giá thuê.",
+    "price_vs_reference": "Tài liệu không so sánh mặt bằng giá với thành phố tham chiếu.",
+    "living_fee_usd_per_m2_month": "Tài liệu không nêu phí quản lý/duy trì theo USD/m²/tháng.",
+    "has_urban_service_fee": "Không có bằng chứng về việc thu phí dịch vụ đô thị trong tài liệu.",
+    "airport_privilege": "Tài liệu không nêu ưu đãi sân bay riêng (fast track, ưu đãi vé, ưu tiên) dành cho cư dân/doanh nghiệp trong khu.",
+    "has_airport_privilege": "Không có bằng chứng về đặc quyền sân bay dành riêng cho cư dân/doanh nghiệp trong khu.",
+    "metro_lines": "Tài liệu chỉ nhắc AREX cùng các ga trung chuyển sang Incheon Metro 1 và 2, không nêu rõ số tuyến metro phục vụ trực tiếp khu.",
+    "trade_park_name": "Tài liệu không nêu khu thương mại/business park có tên riêng tách biệt (chỉ có International Business Complex IBC-I/II/III nhưng không kèm định danh trade park).",
+    "trade_park_ha": "Không có diện tích của khu thương mại riêng biệt trong tài liệu."
+  },
+  "_meta": {
+    "case": "incheon",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T15:34:34+0700",
+    "fields_total": 75,
+    "fields_filled": 54,
+    "coverage_pct": 72.0,
+    "high_confidence": 36,
+    "from_baseline": 2,
+    "dossier": {
+      "pages_total": 21,
+      "pages_kept": 21,
+      "raw_chars": 520280,
+      "dossier_chars": 132635
+    },
+    "warnings": [
+      "jobs_created: bỏ giá trị baseline 120000 — BASELINE_SAI: con số 120.000 trong S08 là mục tiêu tạo việc làm mới đến năm 2030 (by 2030), không phải số việc làm đã tạ"
+    ],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "**Incheon Airport City / IFEZ** là hồ sơ thuộc **Incheon Aerotropolis / Incheon Free Economic Zone** tại **Hàn Quốc**, gắn với **Incheon International Airport** và lấy **Incheon – Seoul** làm thành phố tham chiếu. Đây không phải dự án mục tiêu của nghiên cứu; thông tin chính thức được công bố tại **https://www.airport.kr**.",
+    "location": "Khu đô thị nằm cách trung tâm **Incheon** chỉ **8** km và cách trung tâm **Seoul** khoảng **50** km, tiếp giáp **Incheon Port** và có thể tiếp cận các vùng đô thị lớn chỉ trong **60-90** phút, trong khi sân bay nằm ở phía tây trung tâm **Incheon**, trên phần đất lấn biển giữa hai đảo **Yeongjong** và **Yongyu**. Với diện tích **122,34** km², khu được thành lập năm **2001** và xây dựng từ **2003** đến nay. Được chỉ định là khu kinh tế tự do đầu tiên của **Hàn Quốc** năm **2003**, **IFEZ** là trọng tâm trong chiến lược của chính phủ nhằm đưa **Hàn Quốc** trở thành trung tâm kinh tế của **Đông Bắc Á**.",
+    "positioning": "Khu được định vị là khu kinh tế sân bay (**Airport Economic Zone**) – nền tảng kinh doanh toàn cầu, trung tâm du lịch và kinh doanh của **Đông Bắc Á**. Ý tưởng quy hoạch là một vùng kinh tế rộng lớn nơi hội tụ nhiều ngành liên quan đến hàng không, tạo ra hệ sinh thái công nghiệp trong đó các hoạt động và giá trị kinh tế đa dạng được sinh ra nhờ mạng lưới hàng không rộng khắp, phân thành vùng kinh tế trực tiếp (**Direct Economic Zone**) và vùng kinh tế hậu phương (**Hinterland Economic Zone**). Bốn trụ cột gồm trung tâm kinh doanh & R&D, trung tâm du lịch & logistics/kho vận, trung tâm công nghiệp tiên tiến và trung tâm hỗ trợ hàng không **MRO**, **FBO**, triển khai qua các phân khu **Songdo International City**, **Yeongjong International City**, **Cheongna International City** và **Airport Logistics Complex**.",
+    "kpi": "Sân bay phục vụ **70,86** triệu khách/năm và **2,95** triệu tấn hàng hoá mỗi năm với **358.000** lượt cất hạ cánh/năm, kết nối **152** điểm đến cùng **100** hãng bay. Tại sân bay có **3.300** công ty hoạt động, trong đó **35** công ty thuê bất động sản.",
+    "investment": "Tổng chi phí dự án **IFEZ** đạt **81.333,1** tỷ won (nguồn không quy đổi sang USD). Khu kinh tế do **Incheon Free Economic Zone Authority** (Cơ quan Khu kinh tế tự do Incheon) quản lý, còn các chủ đầu tư thực hiện dự án gồm **Incheon Metropolitan City**, **Korea Land and Housing Corporation (LH)**, **Incheon Urban Development and Tourism Corporation**, **Incheon International Airport Corporation** và **Midan City Development Corporation**. Riêng khu kinh tế sân bay do **Incheon International Airport Corporation (IIAC)** dẫn dắt phát triển.",
+    "product": "Danh mục chào bán trải rộng từ logistics/kho vận, **MRO** (bảo dưỡng - sửa chữa - đại tu máy bay), **R&D**, fulfillment center, **GDC** (trung tâm phân phối toàn cầu), khu phức hợp công nghiệp và nền tảng kinh doanh đến officetel, khách sạn, khu nghỉ dưỡng phức hợp, văn phòng và cơ sở thương mại; bất động sản thương mại còn có nhà ga hàng hoá, bán lẻ, casino, resort và trung tâm y tế, trong đặc khu **Incheon Free Economic Zone** lập năm **2003**. Về nhà ở, **IFEZ** được quy hoạch là khu sống - làm việc tự túc gồm nhà ở, trường học, bệnh viện, mua sắm và giải trí; **Yeongjong** phát triển thành airport city/aerotropolis sinh thái với tiện ích nhà ở cho nhân viên sân bay và khách, **Songdo** là cộng đồng **167.000** cư dân, còn trong khu vực sân bay có **4** toà officetel thuộc **IBC-I**. Tiện ích cơ bản gồm phòng hội thảo, tổ hợp thể thao, phòng tập thể hình, trung tâm thương vụ, sảnh tiệc, trung tâm y tế, trường học, bệnh viện cùng công viên và không gian xanh. Điểm nhấn là arena biểu diễn **15.000** chỗ đầu tiên của **Hàn Quốc**, công viên nước trong nhà mái vòm kính, casino dành riêng cho người nước ngoài lớn nhất **Hàn Quốc**, sảnh tiệc khách sạn lớn nhất **Hàn Quốc**, phố giải trí kỹ thuật số dài **150** m với đèn LED, công viên giải trí ngoài trời sức chứa **30.000** người cùng **Grand Hyatt Hotel**, **Best Western Hotel**, **Nest Hotel** và **INSPIRE Entertainment Resort**.",
+    "price": "Mô hình doanh thu dựa trên cho thuê đất/mặt bằng trong khu thương mại tự do với phí thuê thấp, ưu đãi thuế và hoãn nộp thuế hải quan, thu hút đầu tư theo hình thức mời gọi nhà đầu tư dự án **IBC-I**, **IBC-II**, **IBC-III** thay vì bán sản phẩm đại trà. Cơ chế khai thác là mô hình **B2B** mời gọi nhà đầu tư/đơn vị vận hành cho ba dự án này, kết hợp cho doanh nghiệp thuê đất và nhà xưởng trong khu thương mại tự do với phí thuê thấp.",
+    "service": "Nhà đầu tư và doanh nghiệp được hưởng nhập cảnh miễn thị thực, tiếng Anh là ngôn ngữ chính thức trong khu, khu tự do về quy định (**Regulatory Free Zone**), hoãn nộp thuế hải quan, phí thuê thấp, dịch vụ một cửa, miễn/giảm thuế và hỗ trợ hoạt động kinh doanh, hệ thống nhập cư cho nhà đầu tư, **IFEZ Global Center** hỗ trợ cư dân nước ngoài cùng đào tạo nhân lực chuyên môn và dịch vụ hành chính chủ động. Khu theo định hướng chuyển đổi số toàn diện với mục tiêu **'Achieving Full Digital Transformation'**, chiến lược đổi mới hạ tầng số, thủ tục xuất cảnh **Smart Pass** (**2023**) và giải thưởng **ACI Technology Innovation Award**; **Songdo** trong **IFEZ** là smart city còn **Incheon** là thành phố dựa trên kết nối internet ubiquitous.",
+    "experience": "Trải nghiệm xoay quanh tổ hợp giải trí **INSPIRE** với khách sạn 5 sao ba toà, arena **15.000** chỗ, công viên nước trong nhà mái vòm kính, casino cho người nước ngoài, công viên giải trí ngoài trời **30.000** người và phố giải trí kỹ thuật số **150** m. Bổ sung cho tổ hợp này là khu resort **IBC-III** (khách sạn, giải trí, mua sắm), hội nghị quốc tế/**MICE**, sân golf, sảnh tiệc, phòng tập thể hình, mua sắm cùng các lễ hội văn hoá và cơ sở du lịch - nghỉ dưỡng của **Incheon**.",
+    "convenience": "Khu cách trung tâm **Incheon** **8** km và trung tâm **Seoul** khoảng **50** km, tiếp giáp cảng **Incheon** và tới các vùng đô thị lớn chỉ **60-90** phút, với hạ tầng gồm **Incheon International Airport**, **Incheon New Port**, tuyến **GTX-B** và **Airport Railroad**, cho phép tiếp cận **147** thành phố trên 1 triệu dân trong vòng **3** giờ bay. Tàu tốc hành **AREX** chạy thẳng không dừng giữa **Incheon Int'l Airport** và **Seoul Station** trong **43** phút từ **Terminal 1**, kết nối **Seoul** và vùng thủ đô trong vòng **1** giờ; hành khách còn có tàu maglev, **Incheon Metro** tuyến **1** và **2** qua ga trung chuyển **Geomam** và **Gyeyang**, xe buýt limousine sân bay và liên tỉnh, taxi, **Incheon Int'l Airport Expressway**, **2nd Gyeongin Expressway** cùng cầu **Yeongjong Bridge** và **Incheon Bridge**. Mạng bay của **Incheon** nối **152** thành phố tại **53** quốc gia qua **87** hãng hàng không (tháng **12/2022**); ga sân bay từng khai thác **KTX** trên **Gyeongbu Line** và **Gyeonjeon Line**, còn ga tàu maglev đặt tại **Southern Waterside Zone**.",
+    "brand": "Các thương hiệu chủ lực gồm **Incheon International Airport Corporation**, **Incheon Free Economic Zone Authority (IFEZ)**, **Incheon Metropolitan City**, **Korea Land and Housing Corporation (LH)** và **INSPIRE Entertainment Resort**. Thương hiệu được định vị là cửa ngõ và trung tâm kinh doanh của **Đông Bắc Á**: **Incheon International Airport Corporation** xây dựng hình ảnh **'Beyond an Airport, Changing the World'** cùng thương hiệu ESG **'INCHEON AIRPORT'** và mục tiêu trở thành ESG hub số **1** thế giới, còn **IFEZ** tự định vị là khu kinh tế tự do đầu tiên của **Hàn Quốc**, đặt chuẩn mực cho các đặc khu, là **'Gateway to Korea Wide Open to the World'** và trung tâm các ngành mới như bio-healthcare, sản xuất thông minh, tài chính công nghệ cao, robot, IT và AI. Hệ sinh thái đối tác quy tụ **World Bank**, **Green Climate Fund (GCF)**, **Association of World Election Bodies**, **Samsung BioLogics**, **Celltrion**, **Boeing**, **BMW**, **GM**, **Grand Hyatt**, **Best Western**, **Korean Air**, **Asiana Airlines**, **IAI (Israel Aerospace Industries)**, **Hyundai Movex**, **New York State University**, **George Mason University** và **Ghent University**.",
+    "vision": "Tầm nhìn **'Beyond an Airport, Changing the World'** dựa trên bốn giá trị **Challenge**, **Cooperation**, **Creativity** và **Integrity**. Nền tảng chính sách là **Act on the Promotion of a New Airport for Seoul Metropolitan Area Construction** với kế hoạch phát triển công bố ngày **30/6/2009**, cùng **Incheon International Airport Corporation Act** ban hành ngày **26/01/1999**. Về bền vững, đây là sân bay châu Á đầu tiên tham gia **RE100** (**2022**), đạt cấp cao nhất **ACI Airport Carbon Accreditation** đầu tiên tại **Hàn Quốc** (**2023**), phát triển sân bay sinh thái phát thải carbon thấp, chuyển đổi sang năng lượng tái tạo, mô hình **Green & Hydrogen Airport** và chiến lược **Incheon Airport Green New Deal** về năng lượng, giao thông, giảm carbon và chuyển đổi xanh. Quản trị ESG bền vững theo ESG Vision **'Fly to the World Best ESG Hub'** được minh bạch hoá qua **Green Report** (xuất bản từ **1995**) và **Sustainability Report** (từ **2007**).",
+    "parks": "Khu chức năng chuyên biệt về kho vận là **Airport Logistics Complex (Free Trade Area)** với diện tích **209,3** ha."
   }
 }

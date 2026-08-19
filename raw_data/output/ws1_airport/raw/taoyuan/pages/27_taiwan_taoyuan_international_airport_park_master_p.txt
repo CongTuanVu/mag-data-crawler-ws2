@@ -1,0 +1,5643 @@
+ 
+ 
+Taiwan Taoyuan International Airport Park 
+Master Plan Revised Edition  
+(Target Year 2042) 
+ 
+ 
+ 
+ 
+ 
+ 
+(Summary) 
+ 
+ 
+ 
+ 
+ 
+ 
+      Taoyuan International Airport Corporation Ltd. 
+ 
+2019/08 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+I 
+ 
+Table of Contents 
+1 Chapter 1 Introduction ...................................................................... 1 
+1.1 Plan and Background ..................................................................... 1 
+1.2 Planning Scope .............................................................................. 3 
+2 Chapter 2 Airport Current Situation ................................................. 4 
+2.1 Airport Facilities ............................................................................. 4 
+2.2 Air Traffic Volume .......................................................................... 7 
+3 Chapter 3 Airport Traffic Forecast ................................................. 10 
+3.1 Global Aviation Development Trends .......................................... 10 
+3.2 Domestic Policy and Economic Development Trends and     
+Other Development Impacts ....................................................... 11 
+3.3 Air Traffic Forecast ....................................................................... 13 
+4 Chapter 4 Future Airport Development Plans ............................... 20 
+4.1 Planning Principles ...................................................................... 20 
+4.2 Layout .......................................................................................... 20 
+5 Chapter 5 Free Trade Zone Planning ............................................. 37 
+5.1 General Development Direction Analysis .................................... 37 
+5.2 Planning Principles ...................................................................... 37 
+6 Chapter 6 Ground Transportation System Planning .................... 40 
+6.1 Development Objectives and Principles ...................................... 40 
+6.2 Current Status and Traffic Bottleneck Analysis ............................ 41 
+6.3 Transportation Improvement Suggestions ................................... 42 
+6.4 Free Trade Zone .......................................................................... 48 
+7 Chapter 7 Development Methods and Threshold ......................... 49 
+7.1 Staged Development Plan ........................................................... 49 
+7.2 Airport Infrastructure Development Threshold ............................. 53 
+8 Chapter 8 Construction Costs, Financial Planning and   
+Economic Benefit Analysis ............................................................. 56 
+8.1 Annual Funding Demands ........................................................... 56 
+8.2 Financial Planning ........................................................................ 58 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+II 
+ 
+8.3 Economic Benefit Analysis ........................................................... 62 
+9 Chapter 9 Conclusions and Suggestions ...................................... 64 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+III 
+ 
+Figure 
+Figure 1-1 
+Airport Park Related Plans .................................................. 2 
+Figure 1-2 
+Plan Land Use Scope .......................................................... 3 
+Figure 2-1 
+Location of the Main Airport Facilities .................................. 6 
+Figure 2-2 
+Annual Passenger Traffic .................................................... 7 
+Figure 2-3 
+Transfer Passenger Traffic and Proportion .......................... 8 
+Figure 2-4 
+Annual Cargo Traffic ............................................................ 9 
+Figure 3-1 
+Air Passenger Traffic Forecast Results ............................. 15 
+Figure 3-2 
+Air Cargo Traffic Forecast Results ..................................... 17 
+Figure 4-1 
+Overall Airport Development Principles ............................. 20 
+Figure 4-2 
+Overall Airport Layout (Target Year 2042) ......................... 21 
+Figure 4-3 
+Third Runway Navigation Aid Equipment Location ............ 22 
+Figure 4-4 
+Yuanshan Apron Planning ................................................. 24 
+Figure 4-5 
+North A3 Area Development Concept................................ 25 
+Figure 4-6 
+Suggested Layout of the North Satellite Concourse Area . 26 
+Figure 4-7 
+Layout of New Cargo Area ................................................ 27 
+Figure 4-8 
+Layout of F&R Stations ...................................................... 28 
+Figure 4-9 
+Layout of MRO Area .......................................................... 28 
+Figure 4-10 Layout of GSE Maintenance Area ..................................... 29 
+Figure 4-11 Layout of Catering Facilities .............................................. 30 
+Figure 4-12 Planning of Airside Service Road ...................................... 31 
+Figure 4-13 Layout of Utilities ............................................................... 32 
+Figure 4-14 Future Layout of the East Area of EC Taxiway .................. 33 
+Figure 4-15 EC Taxiway Expansion and Existing Facilities .................. 33 
+Figure 4-16 Aircraft Noise Forecast of 2042 ......................................... 35 
+Figure 4-17 OLS Layout of the Three-Runway System ........................ 36 
+Figure 5-1 
+Overall Free Trade Zone Development Principles ............. 38 
+Figure 5-2 
+Overall Free Trade Zone Layout ........................................ 38 
+Figure 5-3 
+Industrial Zoning Diagram .................................................. 39 
+Figure 6-1 
+The Framework Diagram of Ground Transportation   
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+IV 
+ 
+System Planning ................................................................ 40 
+Figure 6-2 
+The Traffic Flow of Airport in 2015 ..................................... 41 
+Figure 6-3 
+GTC Configuration ............................................................. 43 
+Figure 6-4 
+The Elevation View of GTC ............................................... 43 
+Figure 6-5 
+Traffic Flow in the Target Year........................................... 44 
+Figure 6-6 
+Hangzhan North and South Roads Layout ........................ 45 
+Figure 6-7 
+The Demand of Number of Lanes in the Target Year ........ 46 
+Figure 6-8 
+Airport Access Highway System and Improvement  
+Strategies .......................................................................... 47 
+Figure 6-9 
+Transportation System of FTZ ........................................... 48 
+Figure 6-10 Grade Separation Layout of FTZ ....................................... 48 
+Figure 8-1 
+Airport Corporation Change in Debt to Equity Ratio .......... 59 
+Figure 9-1 
+Staged Development Plan of Airport Constructions ........... 65 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+V 
+ 
+Table 
+Table 2-1 Taiwan Taoyuan International Airport Main Facilities ............. 5 
+Table 3-1 The Impact Factors and Influence Degrees of Traffic   
+Forecast in Different Scenarios ............................................. 14 
+Table 3-2 Air Passenger Traffic Forecast Results ................................ 16 
+Table 3-3 Air Cargo Traffic Forecast Results ........................................ 17 
+Table 3-4 Air Passenger and Cargo Traffic Forecast Results ............... 19 
+Table 4-1 Planning of Passenger Aircraft Stands (2042) ...................... 23 
+Table 4-2 Supply and Demand of Passenger Aircraft Stands ............... 23 
+Table 4-3 Planning of East Area of EC Taxiway ................................... 34 
+Table 6-1 GTC Requirements ............................................................... 43 
+Table 7-1 Staged Development Strategies and Goals .......................... 49 
+Table 7-2 Staged Development Schedule ............................................ 50 
+Table 7-2 Staged Development Schedule (Continued) ......................... 51 
+Table 7-3 Internal and External Control Factors of Construction   
+Project ................................................................................... 52 
+Table 7-4 Development Threshold of the 3rd Runway ........................... 53 
+Table 7-5 Development Threshold of T3 and T3S ................................ 54 
+Table 7-6 Development Threshold of the Cargo Terminal .................... 55 
+Table 8-1 Suggested PPP/Outsourcing Development Models and   
+Items for Taoyuan Airport Areas ........................................... 56 
+Table 8-2 Overall Construction Projects Annual Funding Demands ..... 57 
+Table 8-3 Summary of the Financial Plan ............................................. 59 
+Table 8-4 Sensitivity Analysis Results and Response Actions ............. 61 
+Table 8-5 Economic Benefit Analysis Results ....................................... 62 
+Table 8-6 Benefits of the Development and Construction of      
+Taoyuan Airport Park ............................................................ 63 
+Table 9-1 Staged Development Schedule in the Near Five Years   
+(2016-2020) ........................................................................... 66 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+1 
+ 
+1 Chapter 1 Introduction 
+1.1 Plan and Background 
+In 2009, the central government of Taiwan announced the enactment of the 
+International Airport Park Development Act, which aims to further strengthen the 
+country’s competitiveness, boost economic prosperity, and assist with the 
+implementation of the Taoyuan Aerotropolis policy. In this context, a number of 
+relevant plans have been planned and executed in the three stages of feasibility 
+studies, comprehensive planning, and construction planning – as shown in Figure 
+1-1. 
+Following the authorization by the Executive Yuan of the Airport Park 
+Conceptual Plan (hereafter referred to as the “COPAP”), the development of the 
+Airport Park moved on to the comprehensive planning stage and divided into two 
+parallel axial directions: construction development and land acquisition. To 
+advance the construction development process, Taoyuan International Airport 
+Corporation (TIAC) has initiated the Airport Park Master Plan. And with respect 
+to land acquisition, the competent authority the Ministry of Transportation and 
+Communications (MOTC) has requested the Ministry of the Interior (MOI, which 
+is the central government’s urban planning competent authority) to execute the 
+Airport Park Special District Plan. After the Airport Park Master Plan and the 
+Airport Park Special District Plan are approved, both processes then enter the 
+construction planning stage. At this stage, all the major construction projects will 
+be drawn up in accordance with the established development demands and then 
+implemented after having obtained all the required administrative approvals. 
+Based on the overall development vision for the Airport Park and its 
+surrounding areas, the COPAP outlines the development strategy and provides a 
+long-term development blueprint for the next 20 to 30 years. Its conclusions serve 
+as the basis for the formulation of the Airport Park Master Plan, which in turn 
+focuses on the main construction projects for the next 5 to 10 years and provides 
+detailed layout and planning to serve as a ready reference for the ongoing and 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+2 
+ 
+future construction operations. 
+ 
+Note:   The second edition of Airport Park Master Plan started on 2014.7.31, and renamd as “Airport Park 
+Master Plan Revised Edition (Target Year 2042)” based on the 2017.6.15 review meeting.  
+Figure 1-1 Airport Park Related Plans 
+As the Airport Park land expropriation work continues to move forward, 
+planning for the newly acquired land on the north side of the Park must begin as 
+early as possible, with the capacity and layout of the facilities continually 
+reviewed, so as to provide an effective basis for further decisions. Therefore, this 
+revised edition of the Airport Park Master Plan re-examines the development 
+planning of the existing Park land and attempts to provide a blueprint and a 
+development strategy for the planning of the newly acquired land, and offer 
+specifics in terms of its planning layout. The basis of this effort includes the 
+findings and conclusion of the COPAP (as approved on 2011.4.11), the Airport 
+Park Master Plan (approved on 2012.6.28), the Airport Park Special District Plan 
+(finalized on 2018.3.27), as well as the results of the planning for the main 
+construction projects design. 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+3 
+ 
+This plan has 2042 as its target year, and seeks to continue the development 
+direction taken by the COPAP, which has the following important components:  
+1. Turning the Airport Park into a key East Asia hub airport with a balanced 
+distribution of inbound, outbound and transferring passenger and cargo 
+flows;  
+2. Enhancing the Airport’s capabilities in providing a superior and 
+convenient environment for passengers and cargo operations and thus 
+continuing to contribute to Taiwan’s industrial development. 
+1.2 Planning Scope  
+The land use scope for this plan derives from the two major areas outlined in 
+the Airport Park Special District Plan – namely the Airport Zone, and the Free 
+Trade Zone. The Airport Park Special District Plan was finalized on July 29, 2014 
+(Meeting No. 832) and presented for public viewing on August 11, 2017, before 
+finally being approved and passed on March 27, 2018 (Meeting No. 919). 
+However, the actual scope and specific area allocated in the Plan shall be further 
+adjusted and revised based on various practical considerations during its 
+authorization and the site zonal expropriation demarcation and surveying. 
+The proposed expansion land areas of the Airport Zone and the Free Trade 
+Zone are 610.89 hectares and 73.81 hectares respectively. The locations are shown 
+in Figure 1-2. 
+ 
+Figure 1-2 Plan Land Use Scope 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+4 
+ 
+2 Chapter 2 Airport Current Situation 
+2.1 Airport Facilities  
+The main facilities of the Taiwan Taoyuan International Airport are shown in 
+Table 2-1 and briefly described as follows. 
+I. Airside Movement Area 
+1. Runways: The airport has two runways – 05L/23R (North Runway) with 
+3,660 meters in length and 05R/23L (South Runway) with 3, 800 meters 
+in length, both runways are 60 meters wide with the centerline spacing 
+of 1,506 meters. The declared runway capacity is 50 aircraft movements 
+per hour. 
+2. Taxiways: The existing taxiways have a minimum width of 30 meters; 
+details are presented in Figure 2-1. 
+3. Apron: There are currently 86 active aircraft stands and 30 maintenance 
+aircraft stands, as shown in Table 2-1. 
+II. Passenger Terminals 
+1. Terminal 1: The floor area is 182,796 square meters, and the capacity is 
+15 million passengers per annum (MPPA). 
+2. Terminal 2: The floor area is 316,643 square meters, and the capacity is 
+17 MPPA (Following the completion of the expansion project, increased 
+to 22 MPPA). 
+III. Cargo Terminals 
+There is a total of 4 cargo terminals, with the annual total cargo traffic 
+capacity of 2.9 million metric tons. 
+IV. Utilities  
+1. MRO Areas: 6 maintenance hangars in 2 MRO areas. 
+2. Other facilities:  
+These include a fuel farm, a fire & rescue station, catering facilities, 
+main substations, water storage and pump stations, wastewater treatment 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+5 
+ 
+plants, ground service equipment maintenance area, etc. 
+Table 2-1 Taiwan Taoyuan International Airport Main Facilities 
+Items 
+Location 
+Specifications in 2016 
+Area 
+(m²) 
+Runway 
+05L/23R (North Runway) 
+3,660 m long, 60 m wide 
+－ 
+05R/23L (South Runway) 
+3,800 m long, 60 m wide 
+Capacity (aircraft movements / hour) 
+50 (two runway) 
+Largest Aircraft Type 
+A380 and B747-8F 
+Taxiway 
+WC, EC 
+30 m wide 
+－ 
+Others (N/ L/ Q/ S/ R/ Q/ NP / NN/ NC) 
+30-35 m wide; NC:  30-45 m wide 
+Apron 
+Passenger 
+Terminal 
+38 
+450, 524 
+Remote 
+23 
+200, 148 
+Cargo 
+Cargo area 
+15 
+333, 413 
+North east area 
+10 
+Maintenance  
+30 
+339, 469 
+Passenger 
+Terminal 
+Annual Capacity  
+(Peak Hour Passengers) 
+Terminal 1 15 MPPA (4, 000 passengers/hour) 
+182, 796 
+Terminal 2 17 MPPA (5, 000 passengers/hour) 
+316, 643 
+Terminal 3 45 MPPA (10, 688 passengers/hour)1 385, 131 
+Cargo 
+Terminal 
+Annual 
+Capacity 
+Inside 
+Airport Zone 
+TACTL 
+ 980 thousand metric tons 
+133, 079 
+EGAC 
+ 820 thousand metric tons 
+72, 366 
+Outside 
+Airport Zone EVERTER  300 thousand metric tons 
+43, 000 
+Free Trade 
+Zone 
+Farglory 
+FTZ 
+ 800 thousand metric tons 
+167, 042 
+MRO Area 
+CAL 
+Hanger 1 
+5E1C 
+43, 600 
+Hanger 2 
+EVA 
+Hanger 1 
+5E2D2C 
+55, 645 
+Hanger 2 
+Hanger 3 
+Hanger 4 
+Utilities 
+Fuel Supply 
+System 
+Fuel Farm  
+Tank Capacity 56, 000 Kl 
+－ 
+Water 
+System 
+1st Water  
+Storage/Pump Station 
+Storage Capacity 15, 000 m2 
+2nd Water  
+Storage/Pump Station 
+Storage Capacity 13, 200 m2 
+Wastewater 
+System 
+1st Wastewater 
+Treatment Plant 
+Throughput 11, 000 CMD 
+Power 
+System 
+1st Substation 
+5 set:  161Kv/11.4Kv 40 MVA 
+Transformer 
+Waste 
+Treatment 
+Incinerator 
+Throughput 120 metric tons per day 
+Fire & 
+Rescue 
+F&R Station 
+CAT10 category 
+Catering 
+Facilities 
+EGSC 
+32, 000 (Land Area 17, 000 square meters) 
+32, 767 
+CPCS 
+30, 000 (Land Area 25, 000 square meters) 
+29, 341 
+TACS 
+ －  (Land Area 26, 016 square meters) 
+19, 825 
+Note:  “The Taoyuan International Airport Terminal 3 Area Construction Plan” (approved in March 2015)” 
+Soure: 1. TIAC website, http: //www.taoyuanairport.com.tw/company_ch/media-centre.  
+ 
+2. Civil Air Transportation Statistics, June 2016, CAA.  
+ 3. China Airline Website, http: //emd.china-airlines.com/lang-tc/facility.html.  
+ 4. EVA Air Website, http: //www.egat.com.tw/ch/Facility-Tour.aspx.  
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+6 
+ 
+ 
+Note: Jhuwei Fuhai Temple is not in Airport Park area. 
+Figure 2-1 Location of the Main Airport Facilities  
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+7 
+ 
+2.2 Air Traffic Volume 
+I. Passenger Traffic 
+Figure 2-2 presents the main international passenger traffic trends at Taiwan 
+Taoyuan International Airport for the past decades. Arrivals and departures have 
+generally been in an uptrend interrupted by the SARS incident in 2003, and the 
+negative growth caused by the global financial crisis of 2008-2009. In 2008, 
+Taiwan and China agreed to allow weekend and weekday cross-strait charter 
+flights, whereas prior to that charter flights were only allowed during the Spring 
+Festival. The end of 2008 also saw the establishment of direct cross-strait flights 
+between the two countries. A number of positive factors, such as Chinese tourists 
+being allowed to visit Taiwan, increasing numbers of Taiwanese passengers 
+traveling abroad, the general flourishing of the Asian aviation market, an increase 
+in airlines’ air routes and numbers of aircraft, as well as the emergence of low-cost 
+airlines, and strong globalization trends, all led to a significant growth in air traffic 
+since 2009. The average annual growth rate for the years from 2009 to 2017 was 
+about 8.6%, and by 2017 the passenger traffic volume increased to 44.88 million 
+passengers. 
+ 
+Source:  
+1. Civil Air Transportation Statistics, June 2016, CAA.  
+2. After 2009, the transfer passengers are counted twice. 
+Figure 2-2 Annual Passenger Traffic 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+8 
+ 
+II. Transfer Passenger Traffic 
+The Taoyuan International Airport transfer passenger traffic and proportion 
+data for the period between 2009 and 2017 is shown in Figure 2-3. As can be seen,  
+with the exception of 2011 and 2012 the volume grew year by year and reached 
+4.929 million passengers in 2017. At the same time, the proportion of transfer 
+passengers to the total passenger number of passengers increased to 11% in 2017. 
+The main reason for this is the strong growth of the aviation market in the Asia-
+Pacific region. In fact, the largest portion of transfer passengers at Taoyuan 
+International Airport are those traveling from the Southeast Asian countries, such 
+as Vietnam and the Philippines, to the United States. The rapid economic growth 
+of the Southeast Asian countries in recent years has naturally boosted the demand 
+for air travel and led to a significant increase in the number of passengers 
+transferring at Taoyuan International Airport. 
+ 
+Source:  
+1. Statistics of the Taoyuan International Airport Corporation (TIAC) 
+2. The percentage is the proportion of transfer passenger (counted twice) to total passengers.  
+Figure 2-3 Transfer Passenger Traffic and Proportion 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+9 
+ 
+III. Cargo Traffic 
+The key metrics for the Airport’s international cargo traffic (excluding 
+baggage) are presented in Figure 2-4. The cargo traffic grew significantly prior to 
+2004, with something of stagnation after 2004. The growth in cargo volumes from 
+import and export operations remained flat from 2000 onwards, but the transfer 
+cargo volume grew significantly between 2001 and 2010. The average growth rate 
+of transfer cargo traffic from 1993 to 2008 was about 19.8%, which led to the 
+growth in the overall cargo traffic. However, the growth of cargo traffic became 
+negative from 2007 to 2009 due to the global financial crisis. In 2016, the trend 
+changed into positive growth due to the booming export of consumer electronics 
+and the flourishing of e-commerce and cross-border e-commerce shopping. 
+ 
+Source:  
+1. Civil Air Transportation Statistics, June 2016, CAA.  
+2. Cargo transfer volume after 2009 is calculated as the sum of goods entering and leaving warehouses 
+and goods directly transited between flights.  
+Figure 2-4 Annual Cargo Traffic 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+10 
+ 
+3 Chapter 3 Airport Traffic Forecast 
+3.1 Global Aviation Development Trends 
+I. The Growth of the Asia Pacific Aviation Market 
+The global passenger traffic is forecast to grow at a rate of 4.7% (according 
+to Airbus) or 5.0% (according to Boeing) between 2013 to 2033; taken alone, the 
+Asia-Pacific region (including China) is projected to grow at a rate of 5.7% 
+(Airbus). 
+The continued growth of the global and Asia-Pacific markets is mainly 
+influenced by the growth of new economy markets in such regions as Latin 
+America, Africa, and Asia-Pacific, as well as the rise of airlines with low-cost air 
+transport services. 
+II. The Development of Strategic Alliances 
+At present, the world aviation industry is showing a trend towards the 
+development of strategic alliances between the industry actors. Participation in the 
+alliances helps the member airlines improve service quality and operating 
+efficiency. The three major aviation alliances currently are Star Alliance, Sky 
+Team and One World. 
+III. The Rise of Low-Cost Airlines 
+Low-cost airlines’ development strategy is mostly focused on short-haul 
+routes. They have gradually expanded their global market share and adjusted their 
+business methods, venturing into long-haul routes and cooperating with other 
+airlines, including traditional ones. 
+IV. The Development of New Aircraft 
+Key global aircraft manufacturers Airbus and Boeing continue to develop and 
+launch new aircraft in response to the evolving market demands. For instance, 
+Airbus has launched Airbus A380 with the concept of a very large aircraft, 
+increasing the traffic per flight to reduce flight frequency. On the other hand, 
+Boeing has introduced the B787 aircraft, which is characterized by higher energy 
+and fuel savings. 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+11 
+ 
+V. International Jet Fuel Price Trends 
+The cost of jet fuel accounts for about 40% of the aviation industry operating 
+costs. Therefore, fluctuations in jet fuel prices have a considerable impact on the 
+profitability of airlines and aviation company stock prices. According to Airbus' 
+long-term oil price trend forecast, due to the limited crude oil resources and the 
+increase in mining costs, oil prices will continue to increase, so the airlines will 
+have to continue raising their fares. 
+ 
+3.2 Domestic Policy and Economic Development Trends and Other 
+Development Impacts 
+I. General Domestic Economic Development Trends 
+Air passenger and cargo traffic numbers are closely related to a country’s 
+overall economic development, and their growth trends tend to be reflected in its 
+GDP (gross domestic product) growth. According to the “2015 Taiwan’s Overall 
+Economic Forecast” released by the Taiwan Institute of Economic Research in 
+November 2014, a number of issues will have a significant impact on Taiwan’s 
+future overall economic development, among them are: the timing and magnitude 
+of the US Federal Reserve’s interest rate changes, international energy price 
+trends, geopolitical conflicts, Ebola epidemic, China-Korea Free Trade Agreement 
+(FTA) and the emergence of China’s so-called “Red Supply Chains”. 
+II. The Development of Cross-Strait Exchanges 
+Cross-strait flights between Taiwan and China have been opened to 
+scheduled passenger and cargo flights since 2008, with the number of destinations 
+and flights expected to increase further. It is estimated that the traffic will increase 
+year by year, but the growth rate will slow down. The number of Chinese tourists 
+(both individual and group tourists) permitted to visit Taiwan is regulated by China 
+through the use of quotas, with the demand outstripping the number of permits 
+issued. Similarly, the numbers of transfer passengers from China is subject to the 
+relevant government controls, which is more unfavorable to the domestic industry. 
+The authorities have a deep understanding of this issue and continue to negotiate 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+12 
+ 
+with their counterparts. 
+III. Relevant Trade Agreements 
+In recent years, trade and economic cooperation between countries all over 
+the world have been liberalized under the multilateral structure of the WTO. At 
+the same time, countries develop regional economic integration through various 
+trade agreements. Due to the tensions between Taiwan and China, Taiwan’s 
+international presence has been suppressed and excluded from the Asia-Pacific 
+economic integration structure, which will have a certain impact on Taiwan’s 
+economy and trade. At present, the government has proposed individual action 
+plans for individual countries/regions, and has signed four FTAs with five 
+countries. Other notable arrangements include the Cross-Straits Economic 
+Cooperation Framework Agreement (ECFA), the Agreement between New 
+Zealand and the Separate Customs Territory of Taiwan, Penghu, Kinmen, and 
+Matsu on Economic Cooperation (ANZTEC) and the Agreement between 
+Singapore and the Separate Customs Territory of Taiwan, Penghu, Kinmen and 
+Matsu on Economic Partnership (ASTEP). 
+IV. Bilateral Air Transport Agreements 
+In recent years, Taiwan has made concrete progress in the negotiation and 
+revision of bilateral air transport agreements, advancement in the Open Skies, and 
+the construction of aviation networks. At the end of 2015, there were 55 
+countries/regions that signed bilateral air transport agreements with Taiwan. 
+Regarding the development of the air transport agreement in the surrounding areas, 
+it is expected that the air traffic control in the Asian region will continue to be 
+relaxed, and the air transport market will move towards a more open direction in 
+response to the rapid growth of air transport demand in the region. 
+V. The “Ten Million Tourists” Plan  
+The government of Taiwan has actively promoted the policy of attracting 
+China’s tourists, relaxing visa regulations, simplifying the procedures of arrival 
+and departure, and expanding international routes, all of which has greatly 
+improved the convenience of international passengers coming to Taiwan. In 2015, 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+13 
+ 
+the number of visitors to Taiwan exceeded 10 million. In order to continuously 
+promote the transformation and upgrading of the tourism industry, the government 
+has identified four major directions for future development, among which are: 
+actively exploring emerging markets in Southeast Asia and Muslim countries, 
+actively participating in the international cruise market, strengthening exhibitions 
+and incentive travel, and increasing the number of free travelers from China to 
+enhance the quality of tourism. 
+VI. The Impact of Other Developments 
+Other air traffic development factors include the implementation of the 
+Taoyuan Aerotropolis Project, construction of the airport access transportation 
+system and other projects (including roads and railways). A number of related 
+development forecasts are drawn constantly up to reflect all the developments in 
+this respect (economic growth forecast, population forecast, industrial 
+development trend, etc.). 
+ 
+3.3 Air Traffic Forecast 
+I. Development Scenarios Analysis 
+Taiwan’s aviation market is affected by a host of internal and external factors, 
+which can be summarized under the categories of “global aviation development,” 
+“domestic policy and economic development,” and “other development impacts.” 
+The analysis of the possible development trends and the impact on Taiwan’s 
+aviation market is shown in Table 3-1. The analysis produces three future 
+development scenarios for the air passenger and cargo traffic at Taoyuan 
+International Airport – conservative, moderate and optimistic. 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+14 
+ 
+Table 3-1 The Impact Factors and Influence Degrees of Traffic Forecast in Different Scenarios 
+Impact Factors 
+Level of Influence 
+Scenarios 
+Item 
+Trends and Relevance 
+Negative 
+Effects 
+Minor 
+Effects 
+Positive 
+Effects 
+Conservative 
+Scenario 
+Moderate 
+Scenario 
+Optimistic 
+Scenario 
+Global Aviation 
+Development 
+The Growth of the Asia 
+Pacific Aviation Market 
+Asia-Pacific aviation market growth drives demand 
+growth. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Development of 
+Strategic Alliance 
+More flexible airline operations have a positive impact on 
+the market. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Rise of Low-cost Airlines 
+The rise of LCC will help the development of air traffic 
+and transfer market in Taoyuan airport. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Trend of International Jet 
+Fuel Price 
+Jet fuel prices will continue to grow in the long run, with 
+low market sensitivity. 
+ 
+ 
+ 
+ 
+ 
+ 
+Domestic Policy and 
+Economic 
+Development 
+Domestic Overall Economic 
+Development Trend 
+Economic growth drives demand. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Development of Cross-
+Strait Exchanges 
+The opening of flight transfer through Taiwan drives the 
+market demand. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Relevant Trade 
+Agreement 
+Trade agreement signing helps economic growth and 
+drive demand. 
+ 
+ 
+ 
+ 
+ 
+ 
+Bilateral Air Transport 
+Agreement 
+Countries have signed air transport agreements, market 
+liberalization, and increased competition. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Development of Tourism 
+Market 
+The overall tourism demand continues to increase, and 
+the four directions enhance quality. 
+ 
+ 
+ 
+ 
+ 
+ 
+Other 
+Development 
+Impacts 
+The Trend of Population 
+Growth 
+The population growth has slowed down, but the average 
+passengers of travel abroad have increased. The impact 
+of population is slight. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Trend of Industrial 
+Development 
+The population growth has slowed down and the impact 
+is slight, but the average passengers of travel abroad 
+have increased. 
+ 
+ 
+ 
+ 
+ 
+ 
+New Southbound Policy 
+The relaxation of tourist visas in Southeast Asia, air 
+transport agreements and industrial investment 
+development make a positive impact on traffic. 
+ 
+ 
+ 
+ 
+ 
+ 
+Note:1.「  」, 「  」, 「  」indicate the degree of influence. 
+2.「  」indicate the degrees in different scenarios. 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+15 
+ 
+II. Air Traffic Forecast Results 
+1. Passenger Traffic  
+The results for the international air passenger traffic forecast under various 
+scenarios are presented in Figure 3-1 and Table 3-2. In the 2042 target year, the 
+Taoyuan International Airport passenger traffic is projected to reach between 
+67.35 and 86.6 million passengers depending on the scenario, with the average 
+annual growth rate between 2013 to 2042 of 2.58% to 3.47%. 
+ 
+ 
+Note: 1. This plan builds a forecast model with the traffic data before 2013, and the optimistic development is 
+similar to the actual development trend in recent year. 
+2. After 2009, the transfer passengers are counted twice.  
+Figure 3-1 Air Passenger Traffic Forecast Results 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+16 
+ 
+Table 3-2 Air Passenger Traffic Forecast Results 
+Unit: Million Passenger 
+Scenarios 
+Category 
+Year 
+2020 
+2025 
+2030 
+2035 
+2042 
+Passenger- 
+Conservative 
+Scenario 
+Local Tourist 
+19.47 
+21.52 
+23.73 
+25.60 
+28.35 
+Foreign Tourist 
+18.46 
+21.67 
+24.79 
+27.71 
+30.69 
+O/D Traffic 
+37.93 
+43.19 
+48.51 
+53.31 
+59.04 
+Transfer 
+(counted twice) 
+4.74 
+5.54 
+6.40 
+7.23 
+8.31 
+Total 
+42.67 
+48.73 
+54.91 
+60.53 
+67.35 
+Proportion of 
+Transfer 
+11% 
+11% 
+12% 
+12% 
+12% 
+Passenger- 
+Moderate 
+Scenario 
+Local Tourist 
+20.33 
+23.29 
+26.55 
+29.42 
+32.58 
+Foreign Tourist 
+18.46 
+21.67 
+24.79 
+27.75 
+30.74 
+O/D Traffic 
+38.80 
+44.95 
+51.33 
+57.17 
+63.32 
+Transfer 
+(counted twice) 
+5.31 
+6.86 
+8.72 
+10.82 
+13.93 
+Total 
+44.11 
+51.81 
+60.05 
+67.98 
+77.25 
+Proportion of 
+Transfer 
+12% 
+13% 
+15% 
+16% 
+18% 
+Passenger- 
+Optimistic 
+Scenario 
+Local Tourist 
+21.97 
+25.79 
+29.57 
+32.81 
+35.89 
+Foreign Tourist 
+19.97 
+23.23 
+26.39 
+29.38 
+32.09 
+O/D Traffic 
+41.95 
+49.02 
+55.96 
+62.19 
+67.98 
+Transfer 
+(counted twice) 
+7.26 
+9.57 
+12.36 
+15.55 
+18.62 
+Total 
+49.21 
+58.59 
+68.32 
+77.74 
+86.60 
+Proportion of 
+Transfer 
+15% 
+16% 
+18% 
+20% 
+22% 
+ 
+2. Cargo Traffic 
+The main factor affecting the air cargo traffic volumes is the GDP. With the 
+forecasted expansion of GDP under different scenarios, the estimated import and 
+export cargo traffic volumes of Taoyuan International Airport are shown in Figure 
+3-2 and Table 3-3. Overall, the import and export air cargo traffic is expected to 
+grow to a scale of 1.59 to 2 million metric tons in the target year; the total amount, 
+which includes the transfer amount, is expected to be between 2.89 and 5 million 
+metric tons. 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+17 
+ 
+ 
+Note:
+1. 
+This plan presents a forecast model with the traffic data before 2013, and the optimistic development trend is 
+similar to the actual development in recent years.  
+2. 
+After 2009, the cargo transfer volume is counted twice. 
+Figure 3-2 Air Cargo Traffic Forecast Results 
+Table 3-3 Air Cargo Traffic Forecast Results 
+Unit: million metric tons 
+Scenarios 
+Category 
+Year 
+2020 
+2025 
+2030 
+2035 
+2042 
+Cargo- 
+Conservative 
+Development 
+Import 
+0.548 
+0.603 
+0.654 
+0.700 
+0.751 
+Export 
+0.619 
+0.678 
+0.734 
+0.784 
+0.839 
+Transfer 
+1.075 
+1.147 
+1.209 
+1.257 
+1.304 
+Total 
+2.242 
+2.428 
+2.597 
+2.741 
+2.894 
+Proportion of 
+Transfer 
+48 % 
+47 % 
+47 % 
+46 % 
+45 % 
+Cargo- 
+Moderate 
+Development 
+Import 
+0.587 
+0.667 
+0.743 
+0.811 
+0.886 
+Export 
+0.661 
+0.747 
+0.829 
+0.901 
+0.983 
+Transfer 
+1.148 
+1.267 
+1.369 
+1.451 
+1.532 
+Total 
+2.396 
+2.681 
+2.941 
+3.163 
+3.401 
+Proportion of 
+Transfer 
+48 % 
+47 % 
+47 % 
+46 % 
+45 % 
+Cargo- 
+Optimistic 
+Development 
+Import 
+0.587 
+0.667 
+0.744 
+0.824 
+0.950 
+Export 
+0.661 
+0.747 
+0.829 
+0.916 
+1.051 
+Transfer 
+1.330 
+1.630 
+1.959 
+2.341 
+3.001 
+Total 
+2.578 
+3.045 
+3.532 
+4.081 
+5.002 
+Proportion of 
+Transfer 
+52 % 
+54 % 
+55 % 
+57 % 
+60 % 
+Note: The cargo transfer volume is counted twice. 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+18 
+ 
+III. Brief summary 
+According to the forecast results of the air passenger traffic, by the target year 
+(2042), the total passenger traffic of Taoyuan International Airport will have 
+reached 77.25 million under the moderate scenario. In the optimistic scenario, it 
+will reach 86.6 million passengers. With the goal of becoming a key East Asia hub 
+airport, all facilities should retain the flexibility to meet the maximum demand and 
+adopt a staged development approach to reduce the risk of uncertainty. Therefore, 
+we suggest using the optimistic scenario forecast results as the design basis, as 
+shown in Table 3-4. 
+For Taoyuan International Airport to develop into an East Asia hub airport, 
+the transfer ratio is set at 22%. It is expected that China’s controls of passenger 
+transfers will gradually liberalize, and with the growth of the Southeast Asian 
+economies, the transfer numbers for passengers from Southeast Asia, North 
+America, and Northeast Asia will increase. It is also expected that cross-strait 
+routes, low-cost airline flights, and long-haul flights will gradually increase. In the 
+future, Code C and Code E aircraft will be the prevalent categories, with the 
+average number of seats being 274, and the carrying capacity of 70%. The 
+passenger aircraft movement is estimated to reach 451,000 flights and 40,000 
+flights for cargo aircraft. 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+19 
+ 
+Table 3-4 Air Passenger and Cargo Traffic Forecast Results 
+Scenario 
+Item 
+Year 
+(Actual Value) 
+Year 
+(Estimated Value) 
+Annual 
+Average 
+Growth 
+Rate (%) 
+2013 
+2014 
+2015 
+2020 
+2025 
+2030 
+2035 
+2042 
+Passenger- 
+Optimistic 
+Scenario 
+O/D Traffic 
+(Million 
+Passenger) 
+28.61 
+32.00 
+34.44 
+41.95 
+49.02 
+55.96 
+62.19 
+67.98 
+3.47 
+Transfer 
+Traffic 
+(Million 
+Passenger) 
+3.60 
+3.80 
+4.03 
+7.26 
+9.57 
+12.36 
+15.55 
+18.62 
+Total 
+(Million 
+Passenger) 
+32.21 
+35.80 
+38.47 
+49.21 
+58.59 
+68.32 
+77.74 
+86.60 
+Cargo- 
+Promotion of 
+FTZ  
+O/D Traffic 
+(Million Metric 
+Ton) 
+1.010 
+1.040 
+1.051 
+1.248 
+1.414 
+1.573 
+1.740 
+2.001 
+3.27 
+Transfer Traffic 
+(Million Metric 
+Ton) 
+0.960 
+1.030 
+0.970 
+1.330 
+1.630 
+1.959 
+2.341 
+3.001 
+Total 
+(Million Metric 
+Ton) 
+1.970 
+2.070 
+2.021 
+2.578 
+3.045 
+3.532 
+4.081 
+5.002 
+Annual 
+Aircraft 
+Movement  
+Passenger 
+Flights 
+(Thousand 
+Flights) 
+- 
+182.44 199.82 246.03 292.94 346.78 404.91 451.06 
+3.25 
+Cargo 
+Flights 
+(Thousand 
+Flights) 
+- 
+24.15 
+25.33 
+28.87 
+31.66 
+34.61 
+37.54 
+40.02 
+Total 
+(Thousand 
+Flights) 
+- 
+208.86 225.15 274.90 324.60 381.39 442.45 491.08 
+Note: The estimated value is calculated based on the actual traffic in 2013 and the period from 2013 to the target 
+year. 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+20 
+ 
+4 Chapter 4 Future Airport Development Plans 
+4.1 Planning Principles 
+Considering the functions of various airport infrastructures, they can be 
+divided into core, sub-core, and others based on their importance for future 
+development and layout planning. The locations of each type is demonstrated in 
+Figure 4-1. 
+ 
+ 
+Figure 4-1 Overall Airport Development Principles 
+  
+4.2 Layout 
+Under the framework developed in the COPAP, we propose the overall 
+airport layout (Figure 4-2) to meet the traffic demand set for the target year in this 
+plan. 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+21 
+ 
+ 
+Figure 4-2 Overall Airport Layout (Target Year 2042) 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+22 
+ 
+I. Runway and Taxiway 
+The third runway will be 4,000 m long, constructed in the north area, at least 
+1,295 m away from the north runway. The location of the navigational aid 
+equipment is shown in Figure 4-3. 
+Concerning the taxiway layout, there will be two vertical taxiways 
+respectively to the east and west of the satellite concourse. In the existing airport 
+area, we propose several taxiway constructions, including: WC taxiway relocation 
+and expansion, NP taxiway extension, parallel taxiway on the north side of the 
+North Runway, 05L end-around taxiway, and EC taxiway expansion. 
+ 
+Figure 4-3 Third Runway Navigation Aid Equipment Location 
+ 
+II. Aircraft Stand 
+After reviewing air traffic growth and civil aircraft market trends, we propose 
+the layout of the aircraft stands in 2042 as outlined below. If Code F aircraft stands 
+can be flexibly allocated to Code C or Code E aircraft, the number of aircraft 
+stands in the target year can meet the demand of 177 passenger aircraft stands, 
+which fully meet the demand of each type of aircraft, as shown in Table 4-1. 
+ 
+ 
+DWR ASR
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+23 
+ 
+Table 4-1 Planning of Passenger Aircraft Stands (2042) 
+Aircraft Type 
+T1+T2 
+T3+T3S 
+Code C 
+ 7 
+ 43 
+Code E 
+42 
+ 59 
+Code F 
+ 10 
+ 16 
+Total 
+59 
+118 
+ 
+The gap between demand and supply in specific years is reviewed, as per 
+Table 4-2. From 2018 to 2020, the demand for passenger aircraft stands is higher 
+than the supply. The gap in 2019 is the most significant. After 2019, construction 
+of T3 aircraft stands will be completed one after another. Demand and supply of 
+active aircraft stands will turn from negative to positive in 2021. Completion in 
+the long term of the north satellite concourse passenger aircraft stands will provide 
+38 new active stands and 34 over-night stands allowing to meet the future 
+projected demand.  
+Table 4-2 Supply and Demand of Passenger Aircraft Stands 
+Type of 
+Stand 
+Supply / 
+Demand 
+2017 
+2018 
+2019 
+2020 
+2021 
+2025 
+Active 
+Demand 
+60 
+68 
+71 
+74 
+77 
+88 
+Supply 
+63  
+61  
+61  
+69  
+84  
+95  
+Gap 
+3 
+-7 
+-10 
+-5 
+7 
+7 
+Active 
++ 
+Over-
+night 
+Demand 
+73 
+81 
+84 
+87 
+91 
+103 
+Supply 
+63  
+61  
+61  
+69  
+84  
+95  
+Gap 
+-10 
+-20 
+-23 
+-18 
+-7 
+-8 
+Events of 
+Increasing Aircraft 
+Stands 
+- Turn Cargo 
+stands into 
+passenger 
+stands(+2) 
+- Turn 801-808 
+into active 
+stands 
+ 
+- T3 apron 
+(+2F6E) 
+- Yuanshan 
+apron 
+(+4C1E)) 
+- T3 apron 
+(+2F6E) 
+- T3 apron 
+(+2F4E5C) 
+- T1 air bridge 
+replacement 
+(+2) 
+- End of  
+APM and 
+underground 
+service road 
+construction 
+(+2) 
+- A3 north apron 
+(+1F3E4C) 
+- End of airside 
+facilities 
+reinforcement 
+(+3) 
+Events of 
+Decreasing Aircraft 
+Stands 
+ 
+- T1’s air bridge 
+replacement 
+(-2) 
+- 801-808 
+demolition (-8) 
+- Airside facilities 
+reinforcement  
+(-3) 
+- APM and 
+underground 
+service road 
+construction (-
+2) 
+ 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+24 
+ 
+We suggest to implement the following apron construction projects in the 
+near future:  
+1. Yuanshan Apron Construction 
+To fully utilize the available airport land resources, mitigate the shortage 
+of aircraft stands in the terminal area, and address the shortage of remote 
+apron nearby A1 to A9 stands, we suggest to build 5 new aircraft stands in 
+the area which previously housed the Yuanshan Catering Area, including 1 
+Code E and 4 Code C stands, as shown in Figure 4-4 (B). 
+ 
+(A) Current Land-use 
+(B) Proposed Apron Layout 
+Figure 4-4 Yuanshan Apron Planning 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+25 
+ 
+2. North A3 Area development 
+Considering the shortage of aircraft stands, we suggest to change the 
+previous General Aviation Center into apron. The NP taxiway needs to be 
+extended to the west. The new apron can increase 1 Code F stand, 3 Code E 
+stands, and 4 Code C stands, as shown in Figure 4-5. 
+ 
+ 
+Figure 4-5 North A3 Area Development Concept 
+ 
+ 
+05L
+NP taxiway extension
+Aviation 
+related 
+industries
+North 
+A3 area
+Previous general 
+aviation apron
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+26 
+ 
+III. Passenger Terminal Planning (Introducing Smart Facilities) 
+Terminal 1 expansion was completed in 2013 and has allowed increasing its 
+capacity to 15 MPPA (million passengers per annum). After T2 expansion (to be 
+completed in 2019), T2 capacity has been increased to 22 MPPA. When T3 
+construction is completed, the new terminal will be able to serve 45 million 
+passengers. The layout of the north satellite concourse is shown in Figure 4-6. 
+ 
+Figure 4-6 Suggested Layout of the North Satellite Concourse Area 
+ 
+In 2017, IATA has launched the Fast Travel Program. Additionally, IATA 
+and ACI have recently started promoting the NEXTT (New Experience in Travel 
+and Technologies) initiative. Introducing smart facilities to airports has become a 
+worldwide trend. With smart mobile devices, passengers can now go through the 
+check-in, security, and boarding procedures on their own. Smart facilities not only 
+enhance operational efficiency and reduce required human resources, but also 
+make the layout of an airport simpler and more intuitive, so the benefits of 
+terminals and satellite concourses with limited space can be maximized. 
+During the planning and design stage of the terminal facilities, the Airport 
+Corporation will continue to review and introduce various new passenger 
+processing procedures to meet the passengers’ needs and fully utilize the terminal 
+space to maximize efficiency and capacity. 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+27 
+ 
+IV. New Cargo Area 
+The proposed layout of the new cargo area is presented in Figure 4-7. There 
+shall be at least 42 cargo aircraft stands to meet the long term demand. Other 
+facilities in the new cargo area include cargo terminals, a mail center, utilities, and 
+an administrative office. 
+ 
+Figure 4-7 Layout of New Cargo Area 
+ 
+V. Fire & Rescue Station 
+According to ICAO Annex 14, the location of the F&R station shall be 
+determined by the minimum reaction time. The existing South F&R station is on 
+the south side of the south runway, so the F&R vehicles need to cross the runway. 
+We suggest to re-locate the South F&R station to the east side of EC taxiway and 
+integrate the South station with the existing North F&R station. Besides, we 
+recommend integrating the existing West and East F&R stations on the west side 
+of WC taxiway and constructing a new F&R station on the east side of the satellite 
+concourse (for the third runway), as shown in Figure 4-8. 
+ 
+ 
+Mail 
+Center
+Utilities
+Office
+APM depot
+Utilities
+Administration and strategic reservation
+23R
+3rd Runway
+Cargo Terminal
+Cargo Terminal
+Cargo Terminal
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+28 
+ 
+ 
+Figure 4-8 Layout of F&R Stations 
+VI. MRO Area 
+The existing MRO hangars are respectively on the east and the west side of 
+the airport. We suggest the MRO companies to build hangars in the North West 
+MRO area and the south A3 area, as shown in Figure 4-9. 
+ 
+Figure 4-9 Layout of MRO Area 
+New North 
+F&R station
+New East 
+F&R station
+New West F&R station
+2E1C
+2E
+2E
+Planned in future
+Under construction
+3E
+2E
+3E
+3F
+South A3 area can be used by MRO 
+industry (e.g. 3 F + 2E hangar)
+2E
+1
+2
+3
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+29 
+ 
+VII. 
+Ground Service Equipment (GSE) Maintenance Area 
+The existing GSE maintenance areas are respectively on the east side of EC 
+taxiway, close to China Airlines hangar (TIAS), and on the west side, close to 
+EVA hangar (EGAS). Considering the future requirements, we suggest reserving 
+the west side of the new satellite concourse area for GSE maintenance area, as 
+shown in Figure 4-10. 
+ 
+Figure 4-10 
+Layout of GSE Maintenance Area 
+ 
+ 
+2
+1
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+30 
+ 
+VIII. Catering Facilities 
+To increase convenience of the ground operations and enhance overall 
+efficiency, we suggest locating the catering facilities (which are closely connected 
+to the ground operations) in the airside area. Referring to the Airport Park Master 
+Plan (First Edition), the catering facilities will be located between the Hangqin 
+North Road and the Hanqin South Road, as shown in Figure 4-11. The area can be 
+flexibly allocated to the ground service facilities.  
+Other catering facilities (those not essential to the core area), such as food 
+factory, can be located outside of the area. 
+ 
+Figure 4-11 
+Layout of Catering Facilities 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+31 
+ 
+IX. Service Road 
+According to IATA suggestion, to meet the requirements of ground vehicles 
+especially for luggage and cargo, the minimum lane width is 5 m. The main airside 
+service road in this study is 10 m wide, and the underground section is 
+recommended to be at least 18 m wide. The peripheral road is 7 m wide, the same 
+as the existing peripheral road. 
+Service roads are all 2-way, and mainly 2-way 2-lane, except for the 4-lane 
+service road in front of the contact apron to separate the traffic. The outer lane is 
+for slow traffic flow, and the inner lane is for passing traffic. Figure 4-12 shows 
+the layout of the airside service road. 
+ 
+Figure 4-12 
+Planning of Airside Service Road 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+32 
+ 
+X. Utilities 
+Considering the future requirements, we recommend reserving the area for 
+an energy center, water storage and pump stations, wastewater treatment plants, 
+substations, fuel farm, administrative office, and warehouses, as shown in Figure 
+4-13. 
+ 
+ 
+Figure 4-13 
+Layout of Utilities 
+ 
+Considering the long term development, the layout of the future utilities in 
+the area on the east side of EC taxiway is shown in Figure 4-14. Figure 4-15 shows 
+the existing facilities which need to be relocated. The Airport Corporation will 
+further communicate and negotiate with relevant units on the future planning and 
+design stage. Table 4-3 shows the existing facilities and future plans. 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+33 
+ 
+ 
+Figure 4-14 
+Future Layout of the East Area of EC Taxiway 
+ 
+ 
+Figure 4-15 
+EC Taxiway Expansion and Existing Facilities 
+ 
+ 
+Water
+NP taxiway extension
+airside
+Related 
+industries
+Adjust boundary of CAL apron before 2020
+East 
+F&R
+Custom
+MFB
+(parking, 
+office, 
+business, etc)
+Relocate existing cargo terminals after 2030
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+34 
+ 
+Table 4-3 Planning of East Area of EC Taxiway 
+Existing Facilities 
+Future Plan 
+Suggested Location 
+Relocation Year 
+Cargo Department 
+Ground 
+Service 
+T2 Expanded Area (North) 
+2018 
+1st Water 
+Storage/Pump Station 
+EC Taxiway 
+Expansion 
+(South 
+Section) 
+South side of Aviation Police 
+Bureau 
+2020 
+CAL Hangar 
+Adjust Apron Boundary, 
+Dangerous Goods to Suitable 
+Location 
+Before 2020 
+South of Aviation 
+Police Bureau 
+Court/Warehouse 
+1st Water 
+Storage/Pump 
+Station 
+Nearby Cargo Area Parking 
+Lot 
+2020 
+Aviation Police Bureau  New East F&R 
+Station 
+New Cargo Area;  
+Administrative Area or Others  
+2025 
+North F&R Station 
+EC Taxiway 
+Expansion 
+(North Section) 
+New East F&R Station 
+2026 
+Mail Center 
+New Cargo Area 
+Mail Center 
+2025 
+Post Office 
+2025 
+Chunghwa Telecom 
+New Cargo Area 
+Administrative Area or Others 
+Before 2025 
+Customs Clearance 
+Building 
+Quarantine Bureau  
+SMR 
+North Area  
+(T3S or 2nd Tower) 
+Centers for Disease 
+Control 
+Remote Apron 
+T2 Expanded Area (South) 
+2021 
+Cargo Warehouse 
+New Cargo Area 
+From 2028  
+ 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+35 
+ 
+XI. Aircraft Noise Forecast 
+Following the announcement by the Taoyuan City Government of the 
+Taoyuan International Airport Aviation Noise Control Zone on March 31, 2016, 
+the control area is divided into three levels and includes a total of 33 administrative 
+units, among which are Linkou District in New Taipei City, and Dayuan, Luzhu, 
+Guanyin, Zhongli and other districts in Taoyuan City. 
+Based on the forecast for the total numbers of aircraft takeoffs and landings, 
+we estimate a Day-Night Average Sound Level (DNL) of 2042 with 
+CandnaA/INM. The 60-65 decibel (Level 1) range is about 70.47 square 
+kilometers; 65-75 decibel (Level 2) range is about 38.64 square kilometers: and 
+the range of over 75 decibels (Level 3) is about 5.79 square kilometers. The ranges 
+are presented in Figure 4-16. The results for the three ranges are respectively 
+approximately 1.6 times, 1.6 times and 1.45 times greater than the current situation 
+in 2016. 
+ 
+Source: “The 3rd runway preliminary plan (approved in July 2018)” 
+Figure 4-16 
+Aircraft Noise Forecast of 2042 
+ 60.0 <= ... < 65.0
+ 65.0 <= ... < 75.0
+ 75.0 <= ...  
+坑口活動中心
+果林活動中心
+觀音幼兒園
+大園區公所
+藍埔村長家
+山東里活動中心
+上大國小
+海湖國小
+大園國小
+溪海村民宅
+新坡國小
+廣福村民宅
+0
+05C
+05L
+05R
+23C
+23L
+5Km
+DNL
+村
+三民里
+三石村
+三和村
+上大村
+上竹村
+下田村
+下罟里
+下福里
+大仁里
+大正里
+大同村
+大有里
+大竹村
+大坑村
+大宏里
+大明里
+大勇里
+大海村
+大堀村
+大崗村
+大強里
+大智里
+大湖村
+大華村
+大華村
+大園村
+大義里
+大榮里
+大潭村
+大興里
+山東里
+山腳村
+山鼻村
+中成里
+中信里
+中原里
+中埔里
+中泰里
+中湖里
+中湖里
+中聖里
+中寧里
+中福村
+中德里
+五福村
+五權村
+五權里
+仁愛里
+內定里
+內厝村
+內厝里
+內海村
+內壢里
+公西村
+太平里
+文中里
+文化村
+文化里
+月眉里
+水尾里
+北埔里
+北港村
+外社村
+永光里
+永福里
+永豐里
+瓦窯村
+田心村
+白玉村
+石牌村
+石磊村
+同安里
+同德里
+圳頭村
+成巨?
+竹圍村
+羊稠村
+自立里自治里
+自強里
+自強里
+西林
+西埔里
+坑口村
+坑子村
+坑尾村
+宏竹村
+汴洲里
+沙崙村
+赤欄村
+和平村
+和平里
+幸福里
+忠孝里
+忠義里
+忠福里
+明德里
+東明村
+東湖里
+東勢里
+果林村
+武威村
+芝芭里
+金湖村
+金華里
+長庚
+長興村
+青埔里
+保生村
+保障村
+南上村
+南美村
+南崁村
+南港村
+南勢里
+南榮村
+南興村
+後厝村
+後湖村
+春日里
+洽溪里
+茄明里
+茄苳里
+埔心村
+海口村
+海湖村
+草漯村
+高明里
+高城里
+崙坪村
+清華村
+莊敬里
+莊敬里
+頂福里
+富竹村
+富林村
+富源村
+復華里
+復興里
+湖北
+湖南里
+菁
+塔腳村
+新生村
+新坡村
+新屋村
+新埔里
+新莊村
+新興村
+新興村
+會稽里
+楓樹村
+溪海村
+瑞平里
+瑞慶里
+過嶺里
+嘉寶里
+福德里
+鳳祥里
+鳳鳴里
+廣福村
+廣興村
+樂山里
+樂善
+樹林村
+橫峰村
+興仁里
+興和里
+錦中村
+錦興村
+龍山里
+龍安里
+龍岡里
+龍祥里
+龍壽
+龍壽里
+龍鳳里
+營盤村
+舊路村
+藍埔村
+麗林里
+麗園里
+寶山里
+寶安里
+寶慶里
+蘆竹村
+觀音村
+竹圍國小
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+36 
+ 
+XII. 
+Obstacle Limitation Surfaces 
+The boundary and the height of the obstacle limitation surfaces around Taoyuan International Airport are 
+compliant with the “Measures to height control of buildings and other obstacles around the navigation aids of airfield” 
+by MOTC and the “Civil Aerodrome Design and Operation Standards” by CAA. The goal is mainly to ensure the 
+aircraft landing, departure, and the airport operations are not influenced by the development in the restricted area. 
+Considering the current regulations, the OLS area of the existing south and north runway, and the results of the 
+“The 3rd runway preliminary plan (approved in July 2018)”, we propose the OLS layout of the 3-runway system 
+shown in Figure 4-17. 
+ 
+Source: “The 3rd runway preliminary plan (approved in July 2018)” 
+Figure 4-17 
+OLS Layout of the Three-Runway System 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+37 
+ 
+5 Chapter 5 Free Trade Zone Planning 
+5.1 General Development Direction Analysis 
+Taoyuan International Airport Free Trade Zone (FTZ) development strategy 
+is aimed at the following strategic objectives: being logistics oriented; providing 
+simple value-added processing; and boosting the development of associated 
+services. We propose making the Zone an “Asia-Pacific Value Creation Hub” as 
+the overall development goal, with the following principles for the function 
+positioning: 
+I. 
+Export Taiwan's advanced technology services:  
+Focus on the strategy of manufacturing servitization, and the use of 
+Taiwanese manufacturers’ advantages, such as key technology/parts 
+manufacturing, integration with management function and after-sales service 
+(including maintenance and repair), and creation of additional value for the 
+customer service. 
+II. Promotion of industrial development model innovation:   
+Allow global logistics related industries to enter the Free Trade Zone to boost 
+the industrial development innovation. 
+III. Connect with the emerging supply chain:   
+The export value of the emerging industries in Taiwan is growing rapidly. 
+The advantages of the industry technology and the regional logistics platform 
+strengthen the role of Taiwan in the global emerging supply chain. 
+ 
+5.2 Planning Principles 
+I. Layout  
+The future development and layout planning of Free Trade Zone are shown 
+in Figure 5-1 and Figure 5-2. It is recommended to set up exclusive roads in the 
+restricted area and three sentry posts to control access. Initially, two warehouses 
+are established to deal with the cargo import and storage registration, customs 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+38 
+ 
+management, and logistics and warehousing. The future layout of warehouses will 
+depend on the demand of the resident company, resulting in different spatial 
+development. 
+ 
+Figure 5-1 Overall Free Trade Zone Development Principles 
+ 
+Figure 5-2 Overall Free Trade Zone Layout 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+39 
+ 
+II. Industrial Zoning 
+The six major industries in the project are located in the Free Trade Zone 
+Enterprises Area, as shown in Figure 5-3. The layout of detail industrial blocks 
+can be adjusted according to actual demands and tender considerations. The initial 
+proposal for industrial development is as follows:  
+1. The west portion of the Nankan River has the location advantage of being 
+close to the New Cargo Area, so it is recommended to introduce the 
+supply chain management of aerospace and the maintenance area of 
+medical equipment, which has a smaller size. The space function is 
+mainly value-added. 
+2. The warehousing logistics and smart logistics are the main development 
+industries. So, it is recommended to locate them in the east portion of the 
+Nankan River, which is a relatively complete area. On the one hand, it is 
+adjacent to the warehouse, and on the other hand, it can establish the core 
+area in the Free Trade Zone. 
+3. The easternmost block to the east block of Nankan River is planned for 
+international flower and art treasures auction area, and its space functions 
+are mainly logistics and warehousing. 
+ 
+Figure 5-3 Industrial Zoning Diagram 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+40 
+ 
+6 Chapter 6 Ground Transportation System 
+Planning 
+6.1 Development Objectives and Principles 
+Taoyuan International Airport is the main airdrome in Taiwan, and the 
+generated passenger and cargo ground traffic flows are quite heavy. For the traffic 
+characteristics and the location of passenger and cargo transportation, the planning 
+principles are as follows (the framework diagram is shown in Figure 6-1). 
+I. Separation of passengers and cargo flows and exclusive planning. 
+II. Passenger transportation service achieves the goal of timeliness, safety, 
+comfort, and convenience. 
+III. Cargo transportation services enhance industrial competitiveness and 
+achieve the goals of timeliness, safety, and stability. 
+IV. The airport transportation system and the surrounding Aerotropolis 
+achieve convenient and smooth connection. 
+V. With the goals of green, sustainable and smart development, the smart, 
+low-carbon and energy-saving transportation systems are introduced to 
+the airport. 
+ 
+Figure 6-1 The Framework Diagram of Ground Transportation 
+System Planning 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+41 
+ 
+6.2 Current Status and Traffic Bottleneck Analysis  
+The current traffic flow of Taoyuan International Airport is shown in Figure 
+6-2. The internal flow is a single counter-clockwise cycle. It is connected to the 
+Provincial Highway No. 4 through the underground road below the EC taxiway. 
+ 
+Figure 6-2 The Traffic Flow of Airport in 2015 
+ 
+As the airport traffic grows, the internal and external ground traffic will also 
+increase. For the external ground traffic system, the residential and employed 
+population growth due to Aerotropolis will also increase the loading. The analysis 
+of the future traffic system and bottleneck are as follows:  
+ 
+I. In the future, the capacity of National Freeway No. 2 will become 
+overloaded, and National Freeway No. 1 A will be required to provide 
+some of its service capacity. 
+II. The traffic of the U-turn lane is quite heavy and is in need of a relief 
+strategy.  
+III. Due to the limited land area available for the Airport Park, the parking 
+lot land usage needs to be diversified. The parking lot space is insufficient 
+to meet the demand, so it is necessary to encourage the use of mass 
+transportation and off-site parking. 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+42 
+ 
+6.3 Transportation Improvement Suggestions 
+I. Ground Transportation Center (GTC) 
+Through the establishment of a GTC, integration of multi-transportation 
+mode will allow achieving the purpose of concentrating mass transportation and 
+scheduling facilities. During preliminary planning, the location is between T3 and 
+T2 (the current P4 area), and the structure will be integrated with the Multi-
+Function Building (MFB). Facilities requirements and configuration are shown in 
+Tables 6-1 and Figure 6-3. The concept of traffic flow is based on the concept of 
+diversion of people and vehicles, coordinated with the floor plan of the T2 and T3 
+terminal, as shown in Figure 6-4.
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+43 
+ 
+Table 6-1 GTC Requirements 
+ 
+Type 
+Boarding 
+Stand 
+Waiting Stand  
+Freeway 
+Schedule Bus 
+11 
+ 11 
+Tour Bus 
+16 
+ 4 
+Taxi/Rental Car 
+16 
+350 
+ 
+ 
+Note: The Red Area is GTC and the elevation view is shown in Figure 6-4.  
+Figure 6-3 GTC Configuration 
+ 
+  
+Figure 6-4 The Elevation View of GTC 
+(Current P3)
+MFB
+MFB
+MFB
+MFB+MBE
+MFB
+WC
+BUS Platform
+BUS Curb
+BUS Curb
+EC
+Arrival Curb
+Arrival Curb
+Arrival Curb
+Departure
+Curb
+Departure
+Curb
+Departure
+Curb
+Arrival
+B2F: Parking Lot
+B2F: Parking Lot
+GTC and Hall
+Apron
+3F or
+above:
+Office and
+Commercia
+l Facilities
+3F or
+above:
+Office and
+Commercia
+l Facilities
+Hall
+B1F: Parking Lot
+B1F: Parking Lot
+3F or
+above:
+Office and
+Commercia
+l Facilities
+3F or
+above:
+Office and
+Commercia
+l Facilities
+MFB
+(Current P1)
+MRT Station
+MRT Station
+(Current P2)
+Arrival
+Terminal and
+Commercial Facilities,
+Parking Lot, Pick-up
+Area
+Terminal and
+Commercial Facilities
+B1F: Commercial Facilities
+T3
+T2 Expansion
+Departure
+Departure
+Tower Area
+MRT Station
+Apron
+B1F or
+below:
+Parking Lot
+1F: Waiting Stand
+Departure
+Arrival
+Terminal and Commercial
+Facilities
+Office and
+Commercial
+Facilities
+Office and Commercial
+Facilities
+Parking Lot
+T1 Renovation
+(Current P4)
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+44 
+ 
+II. Overall Transportation System 
+With the operation of the Airport MRT and T3, it is recommended to 
+construct the underpass between the Hangzhan South Road and the Hangqin South 
+Road to introduce anti-clockwise circular access to the airport, as shown in Figure 
+6-5. 
+ 
+Figure 6-5 Traffic Flow in the Target Year  
+ 
+The traffic of the existing cargo area is predicted to be nearly 3,500 pcu/h 
+from the east side of the morning peak after the completion of the National 
+Freeway No.1 A in 2027. The underpass of the North and South Roads should 
+have six lanes in two-ways. The existing Hangzhan North Road has three lanes. It 
+is suggested that the newly planned South Road underpass will be laid in three 
+lanes. The layout of the target year is shown in Figure 6-6. 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+45 
+ 
+ 
+Figure 6-6 Hangzhan North and South Roads Layout
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+46 
+ 
+The estimated passenger and employee-derived traffic for the target year (2042) are used to determine the 
+number of lanes, as shown in Figure 6-7. 
+ 
+ 
+Figure 6-7 The Demand of Number of Lanes in the Target Year 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+47 
+ 
+III. Airport Access Transportation System 
+The future access transportation system of Taoyuan International Airport is 
+shown in Figure 6-8. It will connect the National Freeway No.2, National Freeway 
+No.2 A, National Freeway No.1 A, Provincial Highway No.15 and Provincial 
+Highway No.61. 
+Besides, with the traffic demand of New Cargo Area and North West MRO 
+Area, and the insufficient capacity of Dayuan Interchange, the proposed 
+improvement strategies are as follows:  
+1. It is recommended to have a direct road from National Freeway No.1 A 
+to the existing cargo terminal area. 
+2. Adding an access road of the New Cargo Area.  
+3. Adding an access road of the North West MRO Area to directly connect 
+with the Provincial Highway No.15. 
+4. Widening the Dayuan Interchange to three lanes (currently conducted by 
+Freeway Bureau, MOTC)  
+ 
+Figure 6-8 Airport Access Highway System and Improvement 
+Strategies 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+48 
+ 
+6.4 Free Trade Zone 
+The transportation planning of the Free Trade Zone is divided into two systems, within and outside the restricted 
+area, as shown in Figure 6-9. The exclusive roads within the restricted area shall be an isolated system. Therefore, it 
+is recommended to plan an underpass to connect with the National Freeway No.1 A, and viaducts to cross the Nankan 
+River, as shown in Figure 6-10. 
+ 
+Figure 6-9 Transportation System of FTZ 
+ 
+Figure 6-10 
+Grade Separation Layout of FTZ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+49 
+ 
+7 Chapter 7 Development Methods and 
+Threshold 
+7.1 Staged Development Plan 
+Based on the planning principles of airport development in the 2042 target 
+year, we propose 37 construction projects carried out through a two-zone, three-
+stage development method. The development strategies and goals of the main 
+construction projects are shown in Table 7-1, the development schedule is shown 
+in Table 7-2, and the internal and external control factors of construction projects 
+are sorted in Table 7-3. 
+Table 7-1 Staged Development Strategies and Goals 
+Area 
+Stage 
+Existing Land  
+Acquired New Land 
+ 
+Stage 1 
+(before 
+2016) 
+Goal 1: Ground Improvement Ⅰ 
+ 
+Pavement Rehabilitation, WC Taxiway 
+Relocation and Expansion  
+Goal 2: Terminal Construction 
+ 
+Terminal 2 Expansion, Terminal 3 Area 
+Development (Including related 
+Constructions)  
+－ 
+Stage 2 
+(2016-
+2020) 
+Goal 3: Ground Improvement Ⅱ 
+ 
+Airside Facilities Reinforcement 
+Goal 4: Facilities Improvement 
+ 
+T1 Baggage Handling System 
+Improvement, Yuanshan Apron 
+Construction, Cargo Area Parking Lot 
+Goal 5: North Area Planning 
+ 
+North Area Ground Leveling and 
+Drainage, 3rd Runway and 
+Satellite Concourse Planning and 
+Environmental Impact Assessment 
+(EIA)  
+Stage 3 
+(2021-
+2042) 
+Goal 6: Ground Improvement Ⅲ 
+ 
+Parallel Taxiway on the North Side of 
+the North Runway, NP Taxiway 
+Extension 
+Goal 7: East Area of EC Taxiway 
+Replanning Ⅰ 
+ 
+EC Taxiway Expansion (South Section), 
+Hangzhan S. Rd. Underpass 
+Goal 9: East Area of EC Taxiway 
+Replanning Ⅱ 
+ 
+EC Taxiway Expansion (North Section) 
+Goal 8: North Area DevelopmentⅠ 
+ 
+3rd Runway, Satellite Concourse 
+(West) and Related Constructions 
+North West MRO Area, A3 Area 
+Development 
+Goal 10: North Area Development 
+Ⅱ 
+ 
+FTZ, New Cargo Area, Satellite 
+Concourse (East) 
+Note: Phases are tentative due to the progress of new land acquisition. 
+
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+50 
+ 
+Table 7-2 Staged Development Schedule 
+Area 
+Construction Projects 
+Initial Phase The 1st ～5th year 
+5th year～ 
+Long Term 
+2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 204
+2 
+Existing Land 
+Terminal Area 
+T1 Renovation Plan (Completed) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pavement Rehabilitation (Completed) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WC Taxiway Relocation and Expansion 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Terminal 3 Area Development 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Terminal 2 Expansion 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+T1 Baggage Handling System Improvement 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Airside Facilities Reinforcement 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Yuanshan Apron Construction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PMS Integration  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+North 
+Land 
+Parallel Taxiway on the North Side of the North 
+Runway 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+East Area of EC 
+Taxiway 
+Cargo Area Parking Lot  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EC Taxiway Expansion (South Section) 
+(Including Hangzhan S. Rd. Underpass and the 1st 
+Water Storage/Pump Station) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EC Taxiway Expansion (North Section) 
+(Including the Hangzhan N. Rd. Underpass and New East F&R 
+Station) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+East Wastewater Treatment Plant Expansion 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3rd Substation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West Area of 
+WC Taxiway 
+2st Water Storage/Pump Station Relocation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West Wastewater Treatment Plant (Phase I) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West Wastewater Treatment Plant (Phase II) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West F&R Station 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NP Taxiway Extension 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Planning, Design, 
+and EIA 
+ 
+ 
+Construction  
+Note: The construction projects with shadow refer to the “From the year 2017 to 2019 budget of preliminarily project and individual construction project.” The schedule include the phase 
+of planning, design, EIA, and construction. 
+
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+51 
+ 
+Table 7-2 Staged Development Schedule (Continued) 
+Area 
+Construction Project 
+Initial Phase The 1st ～5th year 
+5th year～ 
+Long Term 
+2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 
+Acquired New Land 
+North Land 
+North Area Ground Leveling and Drainage
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3rd Runway and Related Taxiway 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+New North F&R Station 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Satellite Concourse and Apron (West) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Satellite Concourse and Apron (East) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APM System 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Service Roads 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2nd Fuel Farm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+North West MRO Area - Apron  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+North West MRO Area - Hanger 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+New Cargo Area Apron 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+New Cargo Area 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+New 
+FTZ 
+FTZ - Ground Leveling and Drainage  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FTZ - Warehouses 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Transportation 
+System 
+New Cargo Area - Transportation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+North West MRO Area - Transportation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West 
+Side 
+A3 Area Development 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                  
+                                                
+Planning, Design, 
+and EIA 
+ 
+ 
+Construction  
+ 
+
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+52 
+ 
+Table 7-3 Internal and External Control Factors of Construction Project 
+Stage 
+Period 
+Goal 
+Construction Project 
+Internal Control Factors 
+External Control Factors 
+Project 
+Period  
+Advance Project 
+Period 
+Related Project 
+Period 
+EIA 
+External Authority / 
+Department / Facilities 
+Stage 1 
+Before 
+2016  
+1 
+Ground 
+Improvement Ⅰ 
+Pavement Rehabilitation 
+2010-2017 
+－ 
+－ 
+－ 
+－ 
+－ 
+－ 
+2 
+Terminal 
+Construction 
+Terminal 2 Expansion 
+2015-2019 
+－ 
+－ 
+－ 
+－ 
+－ 
+－ 
+Terminal 3 Area Development 
+2014-2024 
+WC Taxiway 
+Relocation and 
+Expansion 
+2014-2019 
+ PMS Integration 
+2019-2023  
+Completed 
+CAA, ANWS, Airline Company, 
+Bureau of High Speed Rail (A14 
+Station), Taoyuan City Government 
+(Construction Permit, Fire Control, 
+etc.), Construction and Planning 
+Agency(Special Building Permit), 
+Users (Space Demands) 
+ 
+West Wastewater Treatment Plant 
+(Phase I) 
+2019-2023 
+ West F&R Station 
+2019-2021 
+Stage 2 
+2016-
+2020 
+3 
+Ground 
+Improvement Ⅱ 
+Airside Facilities Improvement 
+2017-2020 
+－ 
+－ 
+－ 
+－ 
+－ 
+－ 
+4 
+Facilities 
+Improvement 
+T1 Baggage Handling System 
+Improvement 
+2016-2019 
+－ 
+－ 
+－ 
+－ 
+－ 
+－ 
+Yuanshan Apron 
+Construction 
+2017-2020 
+Existing Facilities 
+Relocation 
+In process 
+ TIAS Ground Service Area Relocation 
+In process 
+－ 
+South Area of TIAS Ground Service, 
+Gas Station 
+ G4 Gas Station Relocation 
+In process 
+5 
+North Area 
+Planning 
+North Area Ground 
+Leveling and Drainage 
+2017-2026 
+Land Acquisition 
+2017-2023 
+ 3rd Runway and Related Taxiway 
+ 3rd Runway and Satellite Concourse 
+Planning and EIA  
+2017-2021 
+－ 
+CAA (Land Acquired Schedule) 
+Stage 3 
+2021-
+2042 
+6 
+Ground 
+Improvement Ⅲ 
+Parallel Taxiway on the North 
+Side of the North Runway 
+2021-2023 
+Navigation Aids 
+Equipment Relocation 
+Shall 
+conduct 
+ 3rd Runway and Related Taxiway 
+2017-2025 
+－ 
+CAA, ANWS 
+NP Taxiway Extension 
+2021-2022 
+2nd Water 
+Storage/Pump Station 
+Relocation 
+2019-2022 
+ North A3 Area Development 
+2023-2024 
+－ 
+CAA (Land Acquired Schedule) 
+7 
+East Area of EC 
+Taxiway 
+Replanning Ⅰ 
+EC Taxiway Expansion (South 
+Section) and Underpass 
+2019-2022 
+1st Water 
+Storage/Pump Station 
+Relocation, Facilities 
+in the South of 
+Aviation Police 
+Bureau Relocation 
+2019-2020 
+ Hangzhan S. Rd. Underpass 
+2019-2022 
+－ 
+CAL(Apron Rearrange), Aviation 
+Police Bureau, etc.  
+Cargo Area Parking Lot 
+2020-2023 
+－ 
+－ 
+ 
+ 
+－ 
+－ 
+8 
+North Area 
+DevelopmentⅠ 
+3rd Runway and Related 
+Taxiway 
+2023-2025 
+North Area Ground 
+Leveling and 
+Drainage 
+2017-2026 
+ Service Roads 
+2022-2027 
+In process 
+CAA (Land Acquired Schedule), 
+ANWS, Taoyuan City Government, 
+Directorate General of Highways, 
+etc.  
+ New North F&R Station 
+2023-2025 
+ 2nd Fuel Farm 
+2024-2026 
+Satellite Concourse and Apron 
+(West) 
+2024-2026 
+North Area Ground 
+Leveling and 
+Drainage 
+2017-2026 
+ APM System 
+2022-2026 
+Shall conduct 
+ 
+East Wastewater Treatment Plant 
+Expansion 
+2023-2025 
+Satellite Concourse and Apron 
+(East) 
+2027-2029 
+ 3rd Substation 
+2024-2025 
+ 
+West Wastewater Treatment Plant 
+(Phase II) 
+2024-2026 
+9 
+East Area of EC 
+Taxiway 
+Replanning Ⅱ 
+EC Taxiway Expansion (North 
+Section) 
+2025-2028 
+New East F&R 
+Station 
+2025-2026 
+ Reorganize East Area of EC Taxiway 
+2025-2032 
+－ 
+Post Office, Quarantine Bureau, 
+ANWS (SMR Relocation), Aviation 
+Police Bureau 
+1
+0 
+North Area 
+Development Ⅱ 
+New Cargo Area Development 
+2022-2034 
+North Area Ground 
+Leveling and 
+Drainage 
+2017-2026 
+ New Cargo Area - Transportation 
+2023-2025 
+Shall conduct 
+by the user 
+CAA (Land Acquired Schedule), 
+Freight Forwarder, Users of Existing 
+Cargo Area 
+North West MRO Area 
+Development  
+2023-2026 
+ North West MRO Area - Transportation 
+2023-2024 
+－ 
+CAA (Land Acquired Schedule),  
+Aircraft Maintenance Operators 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+53 
+ 
+7.2 Airport Infrastructure Development Threshold 
+I. Runway 
+The third runway lead time and construction period are expected to be about 
+9 years. Therefore, the development threshold shall be 9 years before the 
+completion of construction. The development threshold is based on the actual 
+traffic and the average growth rate of the aircraft movements in the peak hour in 
+the past three years, as shown in Table 7-4. 
+Table 7-4 Development Threshold of the 3rd Runway 
+      Infrastructure  
+Period 
+3rd Runway 
+Lead time + construction period 
+9 years 
+▼Threshold 
+Average growth rate of peak hour ATM in 
+the past 3 years reach 5% 
+Actual movements reach 38 ATM/hr 
+Average growth rate of peak hour ATM in 
+the past 3 years reach 3% 
+Actual movements reach 45 ATM/hr 
+Average growth rate of peak hour ATM in 
+the past 3 years reach 1% 
+Actual movements reach 54 ATM/hr 
+Note:  Air Transport Movement (ATM) 
+ 
+According to the historical traffic data, the two-way aircraft movement in the 
+1st peak hour in 2014 is 44 ATMs, and the average growth rate is above 5%. The 
+development threshold has been achieved, so the relevant early-stage work should 
+be started in 2017. According to the decision made by Taoyuan Aerotropolis Team 
+of Executive Yuan in 26th July 2016, the 3rd runway construction shall be 
+completed before the end of 2025. 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+54 
+ 
+II. Passenger Terminal 
+We estimate the development thresholds of each infrastructure according to 
+the passenger capacity at each stage. The lead time and construction period are 
+temporarily estimated. The development thresholds are based on the actual annual 
+passenger and the average growth rate of the annual passengers in the past three 
+years, as shown in Table 7-5. 
+According to the historical traffic data, the annual passenger volume in 2015 
+is 38.47 million passengers, and the annual passenger average growth rate in the 
+past three years is above 1%, so Terminal 3 early-stage construction work has 
+already been commenced. 
+Table 7-5 Development Threshold of T3 and T3S 
+  Infrastructure  
+Period 
+T3 
+T3S (Phase I) 
+T3S (Phase II) 
+Lead time + 
+construction period 
+8 years 
+9 years 
+9 years 
+▼Threshold 
+Annual passenger 
+average growth rate 
+in the past 3 years 
+reach 5% 
+Actual annual 
+passenger volume 
+reaches 
+27.58 MPPA 
+Actual annual 
+passenger volume 
+reaches 
+39.15 MPPA 
+Actual annual 
+passenger volume 
+reaches 
+47.21 MPPA 
+Annual passenger 
+average growth rate 
+in the past 3 years 
+reach 3% 
+Actual annual 
+passenger volume 
+reaches 
+32.16 MPPA 
+Actual annual 
+passengers reach 
+46.55 MPPA 
+Actual annual 
+passenger volume 
+reaches 
+56.14 MPPA 
+Annual passenger 
+average growth rate 
+in the past 3 years 
+reach 1% 
+Actual annual 
+passenger volume 
+reaches 
+37.63 MPPA 
+Actual annual 
+passenger volume 
+reaches 
+55.54 MPPA 
+Actual annual 
+passenger volume 
+reaches 
+66.97 MPPA 
+Note:  Million Passengers Per Annum (MPPA) 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+55 
+ 
+III. Cargo Terminal 
+We estimate the development threshold of the new cargo area based on the 
+existing 4 cargo terminals with a total capacity of 2.6 million metric tons per year. 
+The development threshold is based on the actual cargo volume and the average 
+growth rate of the annual cargo in the past three years, as shown in Table 7-6. 
+Taoyuan Airport annual cargo volume in 2015 is 2.02 million metric tons, 
+and the cargo volume annual average growth rate for the past three years is 0.7%, 
+so the development threshold of the new cargo area has not been achieved. 
+However, we suggest relocating the existing cargo terminals to the new cargo area 
+in the north section to enhance operation efficiency. The development threshold 
+of the new cargo area will be in line with the land expropriation process. 
+Table 7-6 Development Threshold of the Cargo Terminal 
+      Infrastructure 
+period 
+New cargo area 
+Lead time + construction period 
+8 years 
+▼Threshold 
+Average growth rate of annual cargo in the 
+past 3 years reach 5% 
+Actual cargo reach 1.75 million metric tons  
+Average growth rate of annual cargo in the 
+past 3 years reach 3% 
+Actual cargo reach 2.05 million metric tons 
+Average growth rate of annual cargo in the 
+past 3 years reach 1% 
+Actual cargo reach 2.40 million metric tons 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+56 
+ 
+8 Chapter 8 Construction Costs, Financial 
+Planning and Economic Benefit Analysis 
+8.1 Annual Funding Demands 
+According to the different scale and characteristics of each project, the 
+estimation of annual construction costs and funding includes the initial phases 
+such as feasibility, planning, EIA (Environmental Impact Assessment) (if needed), 
+and the design phase. The annual funding demands are calculated in the 2016 
+currency, and the construction costs index is 1.5% per year. The overall annual 
+funding demands are shown in Table 8-2. 
+As shown in Table 8-1, for the new cargo area, the Free Trade Zone, and the 
+North West MRO area, adopting an outsourcing model or one with private sector 
+BOT involvement is recommended. The evaluation results are also financially 
+beneficial if a private contractor is engaged for both construction and operation. 
+Table 8-1 Suggested PPP/Outsourcing Development Models and 
+Items for Taoyuan Airport Areas 
+Area 
+Construction 
+Area 
+(ha) 
+Cost Development 
+Mode 
+Benefit for Airport 
+Corporation 
+Benefit for Private Sectors 
+(Operation Pried assumed: 
+30 year) 
+1.Reduce capital demands 
+2.Reduce personnel costs 
+and operational risks 
+3.Share profits with private 
+sectors 
+Internal 
+Rate of 
+Return 
+(IRR) 
+Actual 
+Payback 
+Period 
+Self-
+Liquidating 
+Ratio 
+(SLR) 
+New Cargo 
+Area 
+35  
+(Operation 
+Area: 20) 
+NT$ 
+26.778 
+Billion 
+Land lease 
+same as 
+current mode 
+Land Rent 
+(2029～2042) 
+NT$ 2.376 
+Billion 
+6.00% The 30th 
+year 
+114.30% 
+Royalty 
+(2029～2042) 
+NT$ 9.427 
+Billion 
+Free Trade 
+Zone 
+73.81 
+NT$ 
+35.877 
+Billion 
+Develop 3 
+zones by 3 
+stages 
+Land Rent 
+(2027～2042) 
+NT$ 1.472 
+Billion 
+10.26% The 13th 
+year 
+173.03% 
+Royalty 
+(2033～2042) 
+NT$ 5.616 
+Billion 
+North West 
+MRO Area 
+9.4 
+NT$ 
+9.091 
+Billion 
+Land lease 
+same as 
+current mode 
+Land Rent 
+(2024～2042) 
+NT$ 1.925 
+Billion 
+17.74% The 8th 
+year 
+300.01% 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+57 
+ 
+Table 8-2 Overall Construction Projects Annual Funding Demands 
+Unit: NT$ Million (current year currency value) 
+Item 
+Construction Projects 
+Initial Phase 
+The 1st ～5th year 
+The 5th year～ 
+Long Term 
+Airport 
+Corporation 
+Private 
+Sector 
+2014 
+2015 
+2016 
+2017 
+2018 
+2019 
+2020 
+2021 
+2022 
+2023 
+2024 
+2025 
+2026 
+2027 
+2028 
+2029 
+2030 
+2031 
+2032 
+2033 
+2034 
+1 
+T1 Renovation Plan (Completed) 
+2, 971.00 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2, 971.00 
+ 
+2 
+Pavement Rehabilitation (Completed) 
+6, 098.97 1, 224.35 1, 249.00 
+919.07 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9, 491.39 
+ 
+3 
+WC Taxiway Relocation and Expansion 
+225.89 
+100.00 1, 603.94 
+600.00 
+678.45 
+400.00 
+3, 608.28 
+ 
+4 
+Terminal 3 Area Development 
+219.00 
+60.00 
+490.00 3, 600.00 8, 315.00 5, 000.00 33, 234.00 
+11, 
+018.80 
+12, 
+752.20 
+74, 689.00 
+ 
+5 
+Terminal 2 Expansion 
+300.00 
+230.00 
+470.00 
+947.46 
+350.13 
+2, 297.59 
+ 
+6 
+T1 Baggage Handling System Improvement 
+6.60 
+480.00 
+136.00 
+290.09 
+912.69 
+ 
+7 
+Airside Facilities Reinforcement 
+ 
+800.00 
+975.93 
+650.62 
+600.00 
+3, 026.54 
+ 
+8 
+Yuanshan Apron Construction 
+ 
+50.00 
+218.23 
+61.13 
+108.42 
+437.78 
+ 
+9 
+Cargo Area Parking Lot  
+ 
+ 
+30.01 
+44.64 1, 673.42 
+982.80 
+ 
+ 
+2, 730.86 
+ 
+10 
+2st Water Storage/Pump Station Relocation 
+ 
+ 
+ 
+68.48 
+67.81 
+95.37 
+71.51 
+303.16 
+ 
+11 
+West Wastewater Treatment Plant (Phase I) 
+ 
+85.88 
+371.55 
+396.52 
+246.29 
+7.13 
+1, 107.36 
+ 
+12 
+West F&R Station 
+ 
+ 
+ 
+38.28 
+174.47 
+86.26 
+299.01 
+ 
+13 
+PMS Integration  
+ 
+103.54 
+682.55 
+641.69 
+251.98 
+189.87 
+1, 869.62 
+ 
+14 
+EC Taxiway Expansion (South Section)  
+(Including Hangzhan S. Rd. Underpass and the 1st Water 
+Storage/Pump Station) 
+10.44 
+729.15 1, 075.61 
+760.16 
+2, 575.37 
+ 
+15 
+North Area Ground Leveling and Drainage  
+34.42 
+12.91 
+12.91 
+25.81 
+129.07 
+215.10 2, 745.48 3, 028.98 2, 951.46 3, 494.99 
+ 
+12, 651.13 
+ 
+16 
+3rd Runway and Related Taxiway 
+34.87 
+13.08 
+13.08 
+26.15 
+130.76 
+87.17 1, 230.15 4, 686.72 5, 436.59 
+ 
+11, 658.57 
+ 
+17 
+Satellite Concourse and Apron (West) 
+58.69 
+22.01 
+22.01 
+44.01 
+220.07 
+366.77 5, 681.18 6, 115.88 5, 675.53 
+18, 206.15 
+ 
+18 
+Satellite Concourse and Apron (East) 
+57.42 
+21.53 
+21.53 
+43.07 
+215.34 
+358.91 5, 813.06 6, 257.85 5, 807.27 
+18, 595.98 
+ 
+19 
+NP Taxiway Extension 
+ 
+ 
+ 
+6.438 
+195.17 
+201.60 
+ 
+20 
+Parallel Taxiway on the North Side of the North 
+Runway 
+ 
+ 
+ 
+ 
+39.76 
+543.44 
+551.60 
+1, 134.80 
+ 
+21 
+North A3 Area Development 
+ 
+ 
+24.52 
+690.69 
+715.21 
+ 
+22 
+APM System 
+167.82 
+391.58 5, 776.47 6, 040.79 5, 951.07 
+18, 327.73 
+ 
+23 
+New North F&R Station 
+6.51 
+109.99 
+120.94 
+ 
+237.44 
+ 
+24 
+Service Roads 
+60.97 
+142.25 1, 462.58 1, 613.61 1, 572.30 1, 861.87 
+6, 713.58 
+ 
+25 
+East Wastewater Treatment Plant Expansion 
+8.39 
+194.59 
+234.49 
+437.47 
+ 
+26 
+3rd Substation 
+31.19 
+950.84 
+982.03 
+ 
+27 
+West Wastewater Treatment Plant (Phase II) 
+7.05 
+202.70 
+109.14 
+318.89 
+ 
+28 
+2nd Fuel Farm 
+25.92 
+290.19 
+332.15 
+648.26 
+ 
+29 
+EC Taxiway Expansion (North Section)  
+(Including the Hangzhan N. Rd. Underpass and New East F&R Station)
+152.19 
+756.37 
+625.72 
+635.10 
+2, 169.38 
+ 
+30 
+New Cargo Area Apron 
+3.84 
+1.54 
+2.30 
+19.21 
+23.05 
+397.10 
+417.51 
+444.96 
+473.15 
+414.76 
+2, 197.42 
+ 
+30A 
+New Cargo Area 
+47.66 
+19.07 
+28.60 
+238.31 
+285.98 3, 396.06 3, 108.36 3, 154.98 3, 202.31 3, 250.34 
+3, 299.10 3, 348.58 3, 398.78 
+ 
+26, 778.13 
+31 
+New Cargo Area - Transportation 
+36.85 
+553.45 
+608.55 
+1, 198.85 
+ 
+32 
+North West MRO Area - Apron  
+14.50 
+408.38 
+422.88 
+ 
+32A 
+North West MRO Area - Hanger 
+255.65 2, 914.97 2, 893.83 3, 026.23 
+ 
+9, 090.68 
+33 
+North West MRO Area - Transportation 
+8.00 
+225.21 
+ 
+ 
+233.21 
+ 
+34 
+FTZ - Ground Leveling and Drainage  
+12.78 
+6.39 
+6.39 
+25.55 
+30.66 
+46.00 
+627.09 
+700.15 
+732.20 
+786.89 
+754.33 
+743.11 
+ 
+ 
+4, 471.54 
+ 
+34A 
+FTZ - Warehouses 
+102.51 
+51.26 
+51.26 
+205.03 
+246.03 
+369.05 5, 031.49 5, 617.65 5, 874.71 6, 313.57 6, 052.27 
+5, 962.40 
+ 
+ 
+ 
+35, 877.23 
+Total 
+Airport Corporation 
+(by the value of current year currency value) 
+9, 514.86 1, 684.35 3, 579.54 7, 208.36 
+11, 
+113.16 7, 128.10 36, 173.47 
+13, 
+764.77 
+17, 
+255.52 6, 714.32 22, 910.25 
+24, 
+983.44 
+18, 
+319.51 9, 324.84 8, 010.61 6, 984.43 1, 260.04 1, 169.09 
+743.11 
+ 
+ 207, 841.77 
+ 
+Private Sector  
+(by the value of current year currency value) 
+102.51 
+98.92 
+325.98 3, 148.60 3, 378.17 3, 681.26 8, 427.55 8, 726.01 9, 029.69 9, 515.88 9, 302.61 
+9, 261.50 3, 348.58 3, 398.78 
+ 
+71, 746.04 
+ 
+Grand Total 
+9, 514.86 1, 684.35 3, 579.54 7, 208.36 
+11, 
+113.16 7, 128.10 36, 173.47 
+13, 
+867.28 
+17, 
+354.44 7, 040.30 26, 058.85 
+28, 
+361.61 
+22, 
+000.77 
+17, 
+752.39 
+16, 
+736.62 16, 014.12 
+10, 
+775.92 
+10, 
+471.70 10, 004.61 3, 348.58 3, 398.78 
+279, 587.81 
+Note: The funding demands of No.1~No.14 and No.29 item refer to the “From the year 2017 to 2019 budget of preliminarily project and individual construction project.” Others include the costs of initial phases such as planning, design, and EIA.
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+58 
+ 
+8.2 Financial Planning 
+I. Overall Financial Plan 
+According to the growth of the traffic and the demand for infrastructure, we 
+plan the construction schedule and estimate the budgets for each project. Based on 
+conservative and stable development principles, we estimate the operating 
+revenue, related to the traffic in the moderate development scenario. Besides, 
+estimates are provided for various infrastructures in the optimistic development 
+scenario to meet the maximum demand. 
+Due to the growing traffic of the passenger and cargo, the revenue and the 
+net profits will increase. However, during the evaluation period (2016 to 2042), 
+there will be a large amount of capital demand driven by the construction. As 65% 
+of the Taoyuan Airport Corporation’s retained earnings need to be allocated to the 
+local compensation funds and the CAA Operating Fund, the cash flow is 
+insufficient to support the situation. 
+In order to generate positive cash flow, the financial model of the project 
+assumes that the financing is provided mainly by banks, supplemented by the 
+government increasing the Airport Company’s capital.  
+The principle of the government-provided capital increase, which refers to 
+the Airport Park Master Plan (First Edition), will allow controlling the total debt-
+to-equity ratios within 2 during the financial trial. It is estimated that the Airport 
+Corporation needs to increase its capital by NT$ 25.5 billion from the government 
+and receive the funding from the bank of NT$ 294.1 billion to support the hefty 
+future construction costs. 
+The financial plan is presented in Table 8-3. The Airport Corporation basic 
+financial situation evaluation results are as per Figure 8-1. 
+ 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+59 
+ 
+Table 8-3 Summary of the Financial Plan 
+Item 
+(Project Period) 
+The Project 
+(2014-2042) 
+Construction Costs 
+(not including private participation) 
+(Project Period) 
+NT$ 196.6 Billion 
+(2016 to 2032) 
+Interest Expense 
+NT$ 50.7 Billion 
+(to 2050) 
+Total Cost 
+(Construction Cost + Interest Expense) 
+NT$ 247.3 Billion 
+Main Financial 
+Indicators 
+Loan Ending 
+Balance 
+(Peak Period) 
+NT$ 116.6 Billion 
+(2026) 
+Debt/Equity Ratio 
+～2022 
+≦1.5 times 
+2023～ 
+≦2.0 times 
+Government Capital Increase 
+25.5 Billion 
+(Including the amount of 2016-2017 
+which budgeted by the MOTC) 
+Note 1: Because the construction projects amounts of T1 Renovation Plan, Pavement Rehabilitation, WC Taxiway 
+Relocation and Expansion, Terminal 3 Area Development, and Terminal 2 Expansion are higher than the 
+Airport Park Master Plan (First Edition). The Airport Park Master Plan (Revised Edition) financial plan adopts 
+the preliminarily report to estimate from 2016 to 2032 annual construction funding demands, and compile the 
+financial statements to 2042. 
+Note 2: The actual construction costs of T1 Renovation Plan, Pavement Rehabilitation, WC Taxiway Relocation and 
+Expansion, Terminal 3 Area Development, and Terminal 2 Expansion, before 2015 is NT$ 11.2 billion and the 
+Airport Park Master Plan (Revised Edition) construction costs is NT$ 196.6 billion, total amounts to NT$ 207.8 
+billion. 
+Note 3: In the situation of a government-provided capital increase to NT$25.5 billion, the interest expense is NT$50.7 
+billion. 
+ 
+ 
+Figure 8-1 Airport Corporation Change in Debt to Equity Ratio 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+60 
+ 
+To meet the needs of interim and long-term funds and reduce annual 
+financing amount, the suggested strategies are as follows:  
+ 
+Increase in profit and cost control 
+1. Review the aviation rates regularly to improve the intensity of 
+commercial development. 
+2. Review the allocation ratio of airport service fee and the special paid-
+in capital ratio regularly. 
+3. After the new land acquisition, review the land rental rate according 
+to the regulation. 
+ 
+Multi-dimensional financing tools 
+1. The source of funds is mainly from the Airport Corporation's retained 
+earnings and financing, supplemented by the government increase the 
+capital.  
+2. Finance from the financing market with the progress of the project. 
+ 
+II. Financial Sensitivity Analysis 
+Besides the government's capital increase, most of the funding sources come 
+from the Airport Corporation's retained earnings and financing. Due to the 
+financial benefit analysis being based on the predictive factors, we conduct 
+sensitivity analysis on four variables that have significant impacts on the income: 
+(1) construction costs, (2) passenger traffic, (3) changes in interest rates and 
+(4) the assumption that the government has stopped investing from 2018, as a 
+reference for risk control and business strategy adjustments. 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+61 
+ 
+Table 8-4 Sensitivity Analysis Results and Response Actions 
+Situation 
+Results & 
+Response  
+Construction Costs  
+Increase by 10% 
+Passenger Traffic Decreases by 
+20% 
+Interest Rates  
+increase to 6% 
+Government Stops Increasing 
+Capital from 2018 
+Financing 
+amount 
+NT$ 294.1 Billion 
+NT$ 294.1 Billion 
+NT$ 294.1 Billion 
+NT$ 392.8 Billion  
+(Add NT$ 98.7 Billion) 
+Government 
+Capital 
+Increase 
+NT$ 25.5 Billion 
+NT$ 25.5 Billion 
+NT$ 25.5 Billion 
+NT$1.752 Billion  
+(2016～2017) 
+Debt Equity 
+Ratio 
+Exceeds 2 from 2025 
+Exceeds 2 from 2025 
+Exceeds 2 from 2025 
+Exceeds 2 from 2025 
+Retained 
+Earnings 
+Reserve 
+Positive to Negative from 2032 
+Results Equity <Capital  
+Positive to Negative from 2030 
+Results Equity <Capital 
+Positive to Negative from 2034 
+Results Equity <Capital 
+Positive to Negative from 2034 
+Results Equity <Capital 
+Response 
+Actions 
+Item 
+Implemen-
+tation 
+Period 
+Item 
+Implemen-
+tation 
+Period 
+Item 
+Implemen-
+tation 
+Period 
+Item 
+Implemen-
+tation 
+Period 
+1. Increase 10% of 
+Landing Fee and 
+Baggage Facility Fee 
+From 
+2016 
+1. Decrease the External 
+Distribution Ratio of 
+Airport Service Fee  
+(50%→30%) 
+From 
+2016 
+1. Increase 10% of 
+Landing Fee and 
+Baggage Facility Fee 
+From 
+2016 
+1. Increase 10% of 
+Landing Fee and 
+Baggage Facility Fee 
+From 
+2016 
+2. Increase Airport 
+Service Fee to NT$700 
+From 
+2016 
+2.  
+(1) Decrease the External 
+Distribution Ratio of 
+Airport Service Fee 
+(50%→40%) 
+(2) Increase Retain 
+Earning Paid-in Capital 
+Ratio to 45%  
+(35%→45%) 
+From 
+2016 
+2. Increase Airport 
+Service Fee to NT$700 
+From 
+2016 
+2. Increase Airport 
+Service Fee to NT$700 
+From 
+2016 
+3. Increase Retain 
+Earning Paid-in Capital 
+Ratio to 50%  
+(35%→50%) 
+2016～
+2026 
+2016～
+2026 
+3. Increase Retain 
+Earning Paid-in Capital 
+Ratio to 50%  
+(35%→50%) 
+From 
+2016 
+3. Increase Retain 
+Earning Paid-in Capital 
+Ratio to 45%  
+(35%→45%) 
+2016～
+2026 
+Implement Item 1, 2 and 3  
+at the Same Time 
+Implement Item 1 or 2  
+Implement Item 1, 2 and 3 
+at the Same Time 
+Implement Item 1, 2 and 3 
+at the Same Time 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+62 
+ 
+8.3 Economic Benefit Analysis 
+After the airport construction completion, user benefits will include 
+reductions of passengers’ delay time, as well as cargo delay time, and 
+improvement of the aircrafts airside operation time. The results of the evaluation 
+are shown in Table 8-5. The cost-benefit ratio is over 1, Net Present Value of the 
+project is above 0, and the IRR is more than the discount rate of 5.5%. So, it is 
+economically viable. 
+Table 8-5 Economic Benefit Analysis Results 
+Evaluation Indicators 
+Value 
+Net Revenue Present Value 
+NT$ 723, 480 Million 
+Net Cost Present Value 
+NT$ 494, 770 Million 
+Net Present Value (NPV) 
+NT$ 228, 710 Million 
+Cost-Benefit Ratio (B/C) 
+1.46 
+Internal Rate of Return (IRR) 
+10.86% 
+ 
+In addition to the internal user benefits showing above, the development of 
+airport parks will also drive external and government benefits, including:  
+ 
+Direct Benefits: 
+1. Increased airport service fee. 
+2. Increased revenue of airport-related industries. 
+3. Increased airline companies’ revenue. 
+4. Increased airport’s access transportation income. 
+5. Increased spending of foreign visitors in Taiwan. 
+6. Facility construction cost. 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+ 
+63 
+ 
+ 
+Indirect Benefits:  
+1. Increased output of the related industries. 
+2. Increased output due to the stimulation of consumption by increasing 
+the employees’ income. 
+ 
+Government Benefits 
+1. Increase in the central government’s tax income. 
+2. Create Job opportunities. 
+ 
+The results of the benefit evaluation are shown in Table 8-6. 
+Table 8-6 Benefits of the Development and Construction of 
+Taoyuan Airport Park 
+Benefits 
+Airport Park Development 
+Airport Construction 
+Direct Benefits 
+NT$ 436.7 Billion  
+NT$ 268.4 Billion 
+Indirect 
+Benefits 
+First phase 
+NT$ 514.7 Billion 
+NT$ 547 Billion 
+Second phase 
+NT$ 236.2 Billion 
+NT$ 113.7 Billion 
+Subtotal 
+NT$ 750.9 Billion 
+NT$ 660.6 Billion 
+Total Benefits 
+NT$ 1, 187.6 Billion 
+NT$ 929.1 Billion 
+Central government tax 
+income Increase 
+NT$ 56.8 Billion 
+NT$ 44.5 Billion 
+Job Opportunities Created 
+119 Thousand People 
+73 Thousand People 
+ 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+64 
+ 
+9 Chapter 9 Conclusions and Suggestions 
+Airport infrastructure construction schedule and threshold will allow to much 
+better anticipate the supply and demand situation of future facilities, understand 
+the development blueprints of each stage, arrange related administrative 
+operations, properly prepare manpower, funds, and resources. As a reference, the 
+relevant authorities can promote the feasibility studies or construction project. 
+The overall construction schedule has taken into account the land acquisition 
+schedule, traffic growth and infrastructure demand, airside and landside 
+operational efficiency, operational needs, existing land usage, construction and 
+administrative processes, related utilities construction schedule, planning stage, 
+EIA (Environmental Impact Assessment) etc. to ensure the schedule can meet the 
+growth of the airport and provide a superior operating environment. 
+With the trend of the new generation airport, Taoyuan International Airport 
+will continue to promote smart airport as a policy through advanced technology to 
+enhance airport security, passenger satisfaction, and operational efficiency. In 
+addition to improving the overall operational efficiency and passenger experience 
+of the airport at a direct level, the smart airport can also drive the development of 
+IoT (Internet of Things) related service industries and attract the industry 
+investment at an indirect level. 
+The project will focus on the next five years (2016-2020). The main 
+construction projects are organized in Figure 9-1 and Table 9-1. 
+ 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+65 
+ 
+ 
+Figure 9-1 Staged Development Plan of Airport Constructions 
+
+ 
+Taiwan Taoyuan International Airport Park Master Plan Revised Edition (Target Year 2042) 
+Summary 
+ 
+ 
+66 
+ 
+Table 9-1 Staged Development Schedule in the Near Five Years (2016-2020) 
+Area 
+Construction Projects 
+Initial Phase The 1st ～5th year 
+5th year～ 
+Long Term 
+2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 
+Existing 
+Terminal 
+Area 
+Pavement Rehabilitation (Completed)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WC Taxiway Relocation and 
+Expansion 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Terminal 3 Area Development 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Terminal 2 Expansion 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+T1 Baggage Handling System 
+Improvement 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Airside Facilities Reinforcement 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Yuanshan Apron Construction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cargo Area Parking Lot  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+East 
+Area of 
+EC 
+Taxiway 
+Terminal 2 Expansion 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EC Taxiway Expansion (Including 
+Underpass, 1st Water Storage/Pump 
+Station, and New East F&R Station) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West 
+Area of 
+WC 
+Taxiway 
+2st Water Storage/Pump Station 
+Relocation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West Wastewater Treatment Plant 
+(Phase I) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+West F&R Station 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NP Taxiway Extension 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+North 
+Acquired 
+Land  
+North Area Ground Leveling and 
+Drainage 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3rd Runway and Related Taxiway 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Satellite Concourse and Apron (West)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Satellite Concourse and Apron (East)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Planning, Design, 
+and EIA 
+ 
+Construction 
+ 

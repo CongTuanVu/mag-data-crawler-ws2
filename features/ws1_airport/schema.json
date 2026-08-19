@@ -1,0 +1,175 @@
+{
+  "version": "v3",
+  "workstream": "ws1_airport",
+  "key": "case_name",
+  "spec": "features/ws1_airport/feature_spec.md",
+  "note": "Nguồn sự thật DUY NHẤT về danh sách trường. llm_prep.py dùng `kw` để lọc đoạn liên quan; validate_features.py dùng `type` để kiểm tra; build_portal.py dùng `label`/`group` để render. Sửa trường ở đây, đừng hardcode nơi khác.",
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Định danh",
+      "icon": "🏷️",
+      "fields": [
+        {"name": "case_name", "type": "string", "label": "Tên case", "desc": "Tên KĐT sân bay (khoá, không rỗng, không trùng)", "kw": []},
+        {"name": "aerotropolis", "type": "string", "label": "Aerotropolis", "desc": "Tên đầy đủ / tên gọi khác", "kw": []},
+        {"name": "country", "type": "string", "label": "Quốc gia", "desc": "Quốc gia", "kw": []},
+        {"name": "is_target", "type": "bool", "label": "Là dự án mục tiêu", "desc": "true chỉ với Gia Binh Airport City (GBAC)", "kw": []},
+        {"name": "airport_name", "type": "string", "label": "Sân bay", "desc": "Sân bay gắn với KĐT", "kw": ["airport", "international airport"]},
+        {"name": "reference_city", "type": "string", "label": "Thành phố tham chiếu", "desc": "Đô thị lõi tham chiếu", "kw": []},
+        {"name": "official_website", "type": "string", "label": "Website chính thức", "desc": "Trang chủ chính thức", "kw": []}
+      ]
+    },
+    {
+      "id": "location",
+      "label": "Vị trí & lịch sử",
+      "icon": "📍",
+      "fields": [
+        {"name": "location_desc", "type": "string", "label": "Mô tả vị trí", "desc": "Vị trí địa lý, quan hệ với sân bay và đô thị lõi", "kw": ["located", "location", "situated", "km from", "miles from", "vị trí"]},
+        {"name": "distance_to_city_km", "type": "float", "unit": "km", "label": "Cách trung tâm", "desc": "Khoảng cách tới trung tâm thành phố tham chiếu", "kw": ["km from", "kilometres from", "kilometers from", "miles from", "distance to", "away from the city"]},
+        {"name": "area_km2", "type": "float", "unit": "km²", "label": "Diện tích KĐT", "desc": "Quy mô diện tích khu đô thị (không phải diện tích sân bay)", "kw": ["km2", "km²", "square kilometre", "square kilometer", "sq km", "hectare", "ha of land", "acres"]},
+        {"name": "airport_build_period", "type": "string", "label": "Giai đoạn xây sân bay", "desc": "Dạng YYYY-YYYY hoặc YYYY-nay", "kw": ["construction began", "opened in", "phase 1", "commenced", "khởi công"]},
+        {"name": "urban_build_period", "type": "string", "label": "Giai đoạn xây KĐT", "desc": "Dạng YYYY-nay", "kw": ["master plan", "development period", "by 2030", "by 2040", "2003-2030"]},
+        {"name": "founded_year", "type": "int", "label": "Năm thành lập", "desc": "Năm sân bay/KĐT khai trương hoặc thành lập", "kw": ["founded", "established", "opened", "inaugurated", "since 19", "since 20"]},
+        {"name": "development_context", "type": "string", "label": "Bối cảnh phát triển", "desc": "Động lực/bối cảnh chính sách dẫn tới dự án", "kw": ["policy", "national plan", "strategy", "in response to", "government initiative", "free economic zone act"]}
+      ]
+    },
+    {
+      "id": "positioning",
+      "label": "Định vị & quy hoạch",
+      "icon": "🧭",
+      "fields": [
+        {"name": "positioning", "type": "string", "label": "Định vị", "desc": "Định vị chiến lược (vd AirportCity, Aviation & Tourism Hub)", "kw": ["positioning", "positioned as", "vision to be", "hub for", "gateway"]},
+        {"name": "planning_concept", "type": "string", "label": "Ý tưởng quy hoạch", "desc": "Concept quy hoạch không gian", "kw": ["master plan", "planning concept", "urban design", "concept of", "developed as"]},
+        {"name": "cornerstones", "type": "string_list", "label": "Trụ cột", "desc": "Các trụ cột/mảng kinh doanh cốt lõi", "kw": ["cornerstone", "pillar", "core business", "three pillars", "key clusters"]},
+        {"name": "subzones", "type": "string_list", "label": "Phân khu", "desc": "Danh sách phân khu chức năng", "kw": ["district", "zone", "precinct", "sub-zone", "cluster", "park", "village"]}
+      ]
+    },
+    {
+      "id": "kpi",
+      "label": "Chỉ số quy mô",
+      "icon": "📊",
+      "fields": [
+        {"name": "passengers_million", "type": "float", "unit": "triệu khách/năm", "label": "Hành khách", "desc": "Ưu tiên trang Facts & Figures chính thức", "kw": ["passengers", "million passengers", "passenger traffic", "handled"]},
+        {"name": "cargo_million_tonnes", "type": "float", "unit": "triệu tấn/năm", "label": "Hàng hoá", "desc": "Sản lượng hàng hoá hàng không", "kw": ["cargo", "freight", "tonnes", "tons of cargo", "air freight"]},
+        {"name": "air_movements", "type": "int", "unit": "lượt/năm", "label": "Lượt cất hạ cánh", "desc": "Air traffic movements", "kw": ["movements", "aircraft movements", "flights", "atm"]},
+        {"name": "destinations", "type": "int", "unit": "điểm đến", "label": "Điểm đến", "desc": "Số điểm đến trực tiếp", "kw": ["destinations", "cities served", "direct destinations"]},
+        {"name": "airlines", "type": "int", "unit": "hãng", "label": "Hãng bay", "desc": "Số hãng bay khai thác", "kw": ["airlines", "carriers"]},
+        {"name": "transfer_pct", "type": "float", "unit": "%", "label": "Khách trung chuyển", "desc": "Tỷ lệ hành khách transfer", "kw": ["transfer passengers", "transfer", "transit passengers"]},
+        {"name": "airport_area_ha", "type": "float", "unit": "ha", "label": "Diện tích sân bay", "desc": "Diện tích khuôn viên sân bay", "kw": ["airport area", "hectares", "ha", "site area", "acres"]},
+        {"name": "employees", "type": "int", "unit": "người", "label": "Lao động", "desc": "Số người làm việc trong khu", "kw": ["employees", "people work", "jobs", "workforce", "employed"]},
+        {"name": "num_companies_airport", "type": "int", "unit": "công ty", "label": "DN tại sân bay", "desc": "Số doanh nghiệp hoạt động tại sân bay", "kw": ["companies", "businesses", "firms", "tenants"]},
+        {"name": "num_companies_realestate", "type": "int", "unit": "công ty", "label": "DN thuê BĐS", "desc": "Số doanh nghiệp thuê BĐS trong khu", "kw": ["companies", "tenants", "office tenants"]},
+        {"name": "num_office_buildings", "type": "int", "unit": "toà", "label": "Toà văn phòng", "desc": "Số toà nhà văn phòng", "kw": ["office buildings", "business buildings", "towers"]},
+        {"name": "jobs_created", "type": "int", "unit": "việc làm", "label": "Việc làm tạo ra", "desc": "Số việc làm dự kiến/đã tạo", "kw": ["jobs", "employment", "create", "new jobs"]}
+      ]
+    },
+    {
+      "id": "investment",
+      "label": "Đầu tư & quản trị",
+      "icon": "🏛️",
+      "fields": [
+        {"name": "total_investment_usd", "type": "string", "label": "Tổng mức đầu tư", "desc": "Giữ nguyên văn + quy đổi tỷ USD nếu nguồn nêu", "kw": ["investment", "billion", "trillion won", "usd", "cost of", "budget", "vốn đầu tư"]},
+        {"name": "investor_governance", "type": "string", "label": "Chủ đầu tư / quản trị", "desc": "Mô hình chủ đầu tư và bộ máy quản trị", "kw": ["authority", "corporation", "government", "public-private", "managed by", "operated by", "developer"]},
+        {"name": "gov_led_ratio_pct", "type": "float", "unit": "%", "label": "Tỷ lệ nhà nước", "desc": "Chỉ điền khi nguồn nêu số cụ thể", "kw": ["state-owned", "government share", "public sector", "%"]},
+        {"name": "private_ratio_pct", "type": "float", "unit": "%", "label": "Tỷ lệ tư nhân", "desc": "Chỉ điền khi nguồn nêu số cụ thể", "kw": ["private sector", "private investment", "%"]},
+        {"name": "lead_developer", "type": "string", "label": "Bên dẫn dắt", "desc": "Tổ chức dẫn dắt phát triển", "kw": ["developer", "developed by", "led by", "group", "authority"]}
+      ]
+    },
+    {
+      "id": "product",
+      "label": "Sản phẩm (CVP 1)",
+      "icon": "🏗️",
+      "fields": [
+        {"name": "cvp_product", "type": "string_list", "label": "Sản phẩm chào bán", "desc": "Các dòng sản phẩm BĐS/dịch vụ chào ra thị trường", "kw": ["office", "logistics", "retail", "hotel", "warehouse", "industrial", "land for lease", "space"]},
+        {"name": "commercial_re", "type": "string_list", "label": "BĐS thương mại", "desc": "Các loại hình BĐS thương mại", "kw": ["commercial", "office", "logistics", "cargo", "retail", "hotel", "business park", "industrial"]},
+        {"name": "economic_zone_name", "type": "string", "label": "Tên đặc khu / FTZ", "desc": "Tên khu kinh tế đặc biệt gắn với KĐT", "kw": ["free trade zone", "free economic zone", "special economic zone", "ftz", "bonded"]},
+        {"name": "economic_zone_year", "type": "int", "label": "Năm lập đặc khu", "desc": "Năm thành lập đặc khu", "kw": ["designated in", "established in", "free economic zone", "since"]},
+        {"name": "residential_product_desc", "type": "string", "label": "Sản phẩm nhà ở", "desc": "Mô tả sản phẩm nhà ở; null nếu khu thiên business", "kw": ["residential", "housing", "apartments", "homes", "dwellings", "population of"]},
+        {"name": "residential_highrise_pct", "type": "float", "unit": "%", "label": "Tỷ lệ cao tầng", "desc": "Chỉ điền khi nguồn nêu số", "kw": ["high-rise", "apartment", "%"]},
+        {"name": "residential_lowrise_pct", "type": "float", "unit": "%", "label": "Tỷ lệ thấp tầng", "desc": "Chỉ điền khi nguồn nêu số", "kw": ["low-rise", "townhouse", "%"]},
+        {"name": "residential_land_pct", "type": "float", "unit": "%", "label": "Tỷ lệ đất nền", "desc": "Chỉ điền khi nguồn nêu số", "kw": ["land plot", "landed housing", "%"]},
+        {"name": "basic_amenities", "type": "string_list", "label": "Tiện ích cơ bản", "desc": "Trường học, y tế, công viên, TMDV…", "kw": ["school", "hospital", "clinic", "park", "supermarket", "shops", "restaurants", "child care", "sports", "meeting"]},
+        {"name": "highlight_amenities", "type": "string_list", "label": "Tiện ích điểm nhấn", "desc": "Công trình biểu tượng, tổ hợp lớn", "kw": ["landmark", "iconic", "resort", "casino", "arena", "convention", "museum", "theme park", "outlet", "jewel"]}
+      ]
+    },
+    {
+      "id": "price",
+      "label": "Giá (CVP 2)",
+      "icon": "💰",
+      "fields": [
+        {"name": "cvp_price", "type": "string", "label": "Mô hình doanh thu / giá", "desc": "Cách khu thu tiền: charges, concession, rent…", "kw": ["revenue", "charges", "concession", "rent", "lease", "tariff", "fee", "pricing"]},
+        {"name": "office_rent_eur_m2_year", "type": "object", "unit": "EUR/m²/năm", "label": "Giá thuê văn phòng", "desc": "{min,max,count} — chỉ bắt dòng chào giá Starting at/From", "kw": ["starting at", "from €", "per m2", "per sqm", "rent", "asking rent"]},
+        {"name": "cvp_price_note", "type": "string", "label": "Ghi chú giá", "desc": "Chú thích đơn vị/điều kiện giá", "kw": ["excl. vat", "service costs", "per year", "asking price"]},
+        {"name": "price_vs_reference", "type": "string", "label": "Giá so với đô thị lõi", "desc": "So sánh mặt bằng giá với thành phố tham chiếu", "kw": ["cheaper than", "compared to", "lower than", "price level", "so với"]},
+        {"name": "living_fee_usd_per_m2_month", "type": "string", "unit": "USD/m²/tháng", "label": "Phí sinh hoạt", "desc": "Phí quản lý/duy trì, dạng dải", "kw": ["management fee", "service charge", "maintenance fee", "per month"]},
+        {"name": "has_urban_service_fee", "type": "bool", "label": "Có phí dịch vụ KĐT", "desc": "true/false theo bằng chứng nguồn", "kw": ["service charge", "management fee", "estate fee"]},
+        {"name": "sales_scheme", "type": "string", "label": "Cơ chế bán / cho thuê", "desc": "B2B, thuê trước–mua sau, đấu giá đất…", "kw": ["lease", "sale", "tender", "land sale", "b2b", "long-term lease", "concession"]}
+      ]
+    },
+    {
+      "id": "service",
+      "label": "Dịch vụ (CVP 3)",
+      "icon": "🛎️",
+      "fields": [
+        {"name": "cvp_service", "type": "string_list", "label": "Dịch vụ cung cấp", "desc": "Dịch vụ hỗ trợ doanh nghiệp/cư dân", "kw": ["service", "support", "one-stop", "leasing", "facility management", "concierge", "incentive"]},
+        {"name": "airport_privilege", "type": "string", "label": "Đặc quyền sân bay", "desc": "Fast track, ưu đãi vé, priority cho cư dân/DN trong khu", "kw": ["fast track", "priority", "discount", "privilege", "member", "lounge"]},
+        {"name": "has_airport_privilege", "type": "bool", "label": "Có đặc quyền sân bay", "desc": "true/false theo bằng chứng nguồn", "kw": ["fast track", "priority", "privilege"]},
+        {"name": "smart_city", "type": "string", "label": "Smart city", "desc": "Mức độ tích hợp IoT/AI/hạ tầng số", "kw": ["smart city", "iot", "digital twin", "5g", "ai", "automation", "smart mobility"]},
+        {"name": "has_smart_city", "type": "bool", "label": "Có smart city", "desc": "true/false theo bằng chứng nguồn", "kw": ["smart city", "smart"]}
+      ]
+    },
+    {
+      "id": "experience",
+      "label": "Trải nghiệm (CVP 4)",
+      "icon": "🎭",
+      "fields": [
+        {"name": "cvp_experience", "type": "string_list", "label": "Trải nghiệm cung cấp", "desc": "Tiện ích/hoạt động tạo trải nghiệm", "kw": ["restaurants", "shopping", "entertainment", "attraction", "garden", "leisure", "hotel", "spa"]},
+        {"name": "experience_desc", "type": "string", "label": "Mô tả trải nghiệm", "desc": "Sự kiện, lễ hội, tour, đời sống trong khu", "kw": ["event", "festival", "exhibition", "concert", "tour", "experience", "visitors enjoy"]}
+      ]
+    },
+    {
+      "id": "convenience",
+      "label": "Thuận tiện (CVP 5)",
+      "icon": "🚇",
+      "fields": [
+        {"name": "cvp_convenience", "type": "string_list", "label": "Yếu tố thuận tiện", "desc": "Đa phương thức, cao tốc, thời gian di chuyển", "kw": ["highway", "motorway", "expressway", "minutes from", "connected", "accessible", "shuttle", "multimodal"]},
+        {"name": "connectivity_desc", "type": "string", "label": "Mô tả kết nối", "desc": "Tổng quan khả năng kết nối vùng/quốc tế", "kw": ["connectivity", "connected to", "within reach", "hours flight", "catchment"]},
+        {"name": "connection_modes", "type": "string_list", "label": "Phương thức kết nối", "desc": "metro; rail; bus; cao tốc; ferry…", "kw": ["metro", "subway", "train", "rail", "bus", "ferry", "taxi", "highway"]},
+        {"name": "metro_lines", "type": "int", "unit": "tuyến", "label": "Số tuyến metro", "desc": "Số tuyến metro/đường sắt đô thị phục vụ khu", "kw": ["metro line", "subway line", "line 1", "mrt", "rail line"]},
+        {"name": "rail_connections", "type": "string_list", "label": "Tuyến đường sắt", "desc": "Các tuyến đường sắt kết nối cụ thể", "kw": ["railway", "rail link", "express", "intercity", "high-speed", "arex", "mrt", "airport line"]}
+      ]
+    },
+    {
+      "id": "brand",
+      "label": "Thương hiệu (CVP 6)",
+      "icon": "⭐",
+      "fields": [
+        {"name": "cvp_brand", "type": "string_list", "label": "Thương hiệu chủ lực", "desc": "Tổ chức/thương hiệu đứng sau khu", "kw": ["group", "corporation", "brand", "authority", "holding"]},
+        {"name": "brand_desc", "type": "string", "label": "Mô hình thương hiệu", "desc": "Cách xây dựng và định vị thương hiệu khu", "kw": ["brand", "award", "ranked", "reputation", "world's best", "recognised"]},
+        {"name": "brand_partners", "type": "string_list", "label": "Đối tác thương hiệu", "desc": "Đối tác lớn hiện diện trong khu", "kw": ["partner", "tenant", "anchor", "hilton", "marriott", "samsung", "amazon", "dhl", "signed"]}
+      ]
+    },
+    {
+      "id": "vision",
+      "label": "Tầm nhìn & bền vững",
+      "icon": "🌱",
+      "fields": [
+        {"name": "vision_label", "type": "string", "label": "Tên tầm nhìn", "desc": "Nhãn tầm nhìn (vd Vision 2050)", "kw": ["vision", "vision 20", "our vision", "mission"]},
+        {"name": "vision_qualities", "type": "string_list", "label": "Giá trị tầm nhìn", "desc": "Các trụ giá trị trong tầm nhìn", "kw": ["quality of", "core value", "strategic goal", "pillars of our vision"]},
+        {"name": "aviation_policy", "type": "string", "label": "Chính sách hàng không", "desc": "Văn bản chính sách chi phối phát triển", "kw": ["policy", "memorandum", "white paper", "act", "regulation", "national aviation"]},
+        {"name": "sustainability", "type": "string_list", "label": "Bền vững", "desc": "Cam kết/chứng chỉ môi trường", "kw": ["sustainability", "carbon", "net zero", "renewable", "breeam", "leed", "green", "biodiversity", "circular", "esg"]}
+      ]
+    },
+    {
+      "id": "parks",
+      "label": "Khu chức năng chuyên biệt",
+      "icon": "📦",
+      "fields": [
+        {"name": "logistics_park_name", "type": "string", "label": "Tên khu logistics", "desc": "null nếu không có tên riêng", "kw": ["logistics park", "logistics centre", "cargo village", "distribution park"]},
+        {"name": "logistics_park_ha", "type": "float", "unit": "ha", "label": "Diện tích khu logistics", "desc": "Quy đổi về ha tại nguồn (m² × 1e-4)", "kw": ["logistics park", "hectares", "square meters", "sqm"]},
+        {"name": "trade_park_name", "type": "string", "label": "Tên khu thương mại/CN", "desc": "null nếu không có tên riêng", "kw": ["trade park", "business park", "industrial park", "tech park"]},
+        {"name": "trade_park_ha", "type": "float", "unit": "ha", "label": "Diện tích khu thương mại/CN", "desc": "Quy đổi về ha tại nguồn", "kw": ["trade park", "business park", "hectares"]}
+      ]
+    }
+  ]
+}

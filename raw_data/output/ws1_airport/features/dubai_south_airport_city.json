@@ -1,292 +1,674 @@
 {
   "record": {
     "case_name": "Dubai South",
-    "aerotropolis": "Dubai South / Dubai World Central",
+    "aerotropolis": "Dubai South / Dubai World Central (DWC)",
     "country": "UAE",
     "is_target": false,
     "airport_name": "Al Maktoum International Airport",
     "reference_city": "Dubai",
     "official_website": "https://www.dubaisouth.ae",
-    "positioning": "Airport City / Dubai World Central",
-    "planning_concept": "Dubai South is where success thrives through innovation, technology, opportunities, sustainability, and smart investment.",
+    "location_desc": "Nằm ở phía nam Dubai, vị trí chiến lược giữa khu vực Bắc Dubai và Abu Dhabi (giữa Downtown Dubai và Abu Dhabi), bao quanh Al Maktoum International Airport; tiếp cận dễ dàng qua cao tốc E611 hoặc E311 và kết nối liền mạch tới cảng Jebel Ali qua hành lang logistics thông quan.",
+    "distance_to_city_km": null,
+    "area_km2": 145.0,
+    "airport_build_period": "2010-2027",
+    "urban_build_period": "2006-nay",
+    "founded_year": 2006,
+    "development_context": "Hình thành như sự tiếp nối tầm nhìn của H.H. Sheikh Mohammed bin Rashid Al Maktoum cho tương lai của Dubai; gắn với Dubai Strategic Plan và được thiết kế để phù hợp với Dubai Plan 2021, nhằm tăng trưởng kinh tế bền vững thông qua môi trường thân thiện với doanh nghiệp và thu hút đầu tư nước ngoài.",
+    "positioning": "Đại dự án đô thị (single urban master development) lớn nhất Dubai, định vị là hệ sinh thái hàng không – logistics kết hợp các cộng đồng đa chức năng và dân cư; một aerotropolis với khu thương mại tự do, logistics, hàng không và lifestyle, sẽ chứa sân bay lớn nhất thế giới khi hoàn thành.",
+    "planning_concept": "Tạo lập một cộng đồng sống và làm việc sôi động dựa trên ba mảng sản phẩm – dịch vụ đặc thù là hàng không (Aviation), logistics và bất động sản (Real-Estate), kết hợp hạ tầng đẳng cấp thế giới và giao thông đa phương thức nối không – bộ – biển; lấy khách hàng, người dân làm trung tâm với concept 'THE CITY OF YOU'.",
     "cornerstones": [
-      "aviation",
-      "logistics",
-      "real estate"
+      "hàng không (Aviation)",
+      "logistics/kho vận",
+      "bất động sản (Real-Estate)"
     ],
     "subzones": [
-      "Logistics District",
-      "Residential District",
-      "Expo City"
+      "Logistics District (khu logistics, gồm Freight Forwarding Zone, EZDubai, Contract Logistics Zone)",
+      "Mohammed bin Rashid Aerospace Hub (MBRAH) – hàng không thương gia, MRO, đào tạo, văn phòng & bán lẻ",
+      "Free Zone (khu thương mại tự do)",
+      "Commercial Property / Business Park (văn phòng, business centre, bán lẻ)",
+      "The Residential District (khu dân cư)",
+      "Expo City Dubai"
     ],
-    "area_km2": 145.0,
-    "distance_to_city_km": null,
-    "passengers_million": 260.0,
-    "cargo_million_tonnes": 12.0,
+    "passengers_million": null,
+    "cargo_million_tonnes": null,
     "air_movements": null,
     "destinations": null,
     "airlines": null,
     "transfer_pct": null,
-    "airport_area_ha": null,
+    "airport_area_ha": 14400.0,
     "employees": null,
     "num_companies_airport": 4200,
     "num_companies_realestate": null,
     "num_office_buildings": null,
     "jobs_created": null,
-    "founded_year": 2006,
-    "total_investment_usd": "128 billion AED ($34.85 billion USD)",
-    "development_context": "During the year, Dubai South welcomed 653 new companies, bringing the total number of operational businesses to more than 4,200, while achieving a 90% retention rate among existing companies.",
-    "location_desc": "The 18-kilometre Logistics District features several zones optimised for efficient distribution.",
-    "investor_governance": null,
-    "lead_developer": "Dubai South",
+    "total_investment_usd": "82 tỷ USD – tổng chi phí sân bay theo ước tính của chính quyền Dubai ('The total cost of the airport has been estimated by the Dubai government to be $82 billion'); riêng nhà ga hành khách mở rộng mới là 128 billion AED (~34,85 tỷ USD)",
+    "investor_governance": "Mô hình do nhà nước Dubai dẫn dắt: cơ quan quản lý – điều tiết là Dubai Aviation City Corporation (DACC), với Chủ tịch là H.H. Sheikh Ahmed bin Saeed Al Maktoum và Chủ tịch điều hành H.E. Khalifa Al Zaffin; bộ phận Free Zone Management thuộc DACC cấp phép, visa, work permit và dịch vụ hành chính; các CEO riêng cho Logistics District và Mohammed Bin Rashid Aerospace Hub, còn Dubai South Properties phụ trách phát triển bất động sản.",
+    "gov_led_ratio_pct": null,
+    "private_ratio_pct": null,
+    "lead_developer": "Dubai South (thuộc Dubai Aviation City Corporation – DACC)",
+    "cvp_product": [
+      "kho vận/warehouse",
+      "văn phòng",
+      "trung tâm doanh nghiệp (business centre)",
+      "khu công viên doanh nghiệp (business park)",
+      "lô đất (land plots)",
+      "bán lẻ",
+      "nhà ở (biệt thự, nhà phố, căn hộ)",
+      "cơ sở built-to-suit",
+      "giải pháp văn phòng logistics"
+    ],
+    "commercial_re": [
+      "văn phòng",
+      "trung tâm doanh nghiệp (business centre)",
+      "bán lẻ",
+      "kho bãi/warehouse",
+      "logistics/kho vận",
+      "thương mại điện tử (EZDubai)",
+      "hàng không & MRO",
+      "lô đất công nghiệp/hạ tầng sẵn có"
+    ],
     "economic_zone_name": "Dubai South Free Zone",
     "economic_zone_year": null,
-    "commercial_re": [
-      "logistics",
-      "warehouse",
-      "office",
-      "retail",
-      "aviation",
-      "MRO",
-      "e-commerce",
-      "business centre"
-    ],
-    "residential_product_desc": null,
+    "residential_product_desc": "Cộng đồng dân cư gồm các dự án sở hữu vĩnh viễn (freehold) và thuê dài hạn (leasehold): biệt thự và nhà phố The Pulse Villas/Townhouses loại 2–4 phòng ngủ, căn hộ Pulse Apartments, cộng đồng biệt thự có cổng The Pulse Beachfront, cùng các dự án mới South Square, Beachfront Gates, HAYAT, South Bay và South Living Tower.",
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
     "basic_amenities": [
-      "retail",
-      "schools",
-      "parks",
-      "community"
+      "không gian xanh",
+      "cơ sở thể thao",
+      "trường học",
+      "dịch vụ y tế",
+      "bán lẻ",
+      "công viên cây xanh",
+      "khu vui chơi trẻ em",
+      "bể bơi"
     ],
     "highlight_amenities": [
-      "Expo City",
-      "EZDubai",
-      "golf"
+      "South Bay Mall (200.000 sq. ft.)",
+      "Sakany Square Mall",
+      "Pulse Retail",
+      "Business Park Retail",
+      "The VIP Terminal (nhà ga phản lực tư nhân)",
+      "EZDubai (khu thương mại điện tử)",
+      "Expo City Dubai",
+      "bể bơi bãi cát tại The Pulse Beachfront"
     ],
-    "logistics_park_ha": null,
-    "logistics_park_name": null,
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_product": [
-      "warehouse",
-      "office",
-      "logistics",
-      "retail",
-      "plots",
-      "business centre"
-    ],
-    "cvp_price": null,
+    "cvp_price": "Thu tiền qua cho thuê và bán bất động sản thương mại: cho thuê kho, văn phòng, trung tâm doanh nghiệp và lô đất, với nhiều mô hình đầu tư gồm liên doanh (joint venture), sở hữu vĩnh viễn (freehold) và thuê (leasing); mức phí thương mại thay đổi theo loại cơ sở, diện tích và thời hạn thuê.",
     "office_rent_eur_m2_year": null,
-    "cvp_price_note": null,
+    "cvp_price_note": "Chi phí thiết lập và mô hình thương mại khác nhau tùy cơ sở, quy mô và thời hạn; khách phải liên hệ đội ngũ Dubai South để biết chi tiết — không công bố biểu giá.",
+    "price_vs_reference": "Nguồn chỉ nêu định tính là \"điều khoản thương mại cạnh tranh\" cùng miễn 100% thuế doanh nghiệp và thuế cá nhân, không so sánh mặt bằng giá cụ thể với thành phố tham chiếu.",
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "B2B cho khối thương mại: đăng ký doanh nghiệp và thuê qua Customer Portal, với các lựa chọn liên doanh, sở hữu vĩnh viễn (freehold) hoặc thuê; khối nhà ở bán theo hình thức freehold và leasehold do Dubai South Properties phát triển, các dự án mới (HAYAT, Beachfront Gates, South Square) đều bán hết (sell-out) khi mở bán.",
     "cvp_service": [
-      "business setup",
-      "free zone",
-      "100% foreign ownership"
+      "dịch vụ thành lập doanh nghiệp (DWC LLC, chi nhánh, giấy phép freelancer)",
+      "khu thương mại tự do (free zone) với 100% sở hữu nước ngoài",
+      "cấp thị thực (visa)",
+      "thư NOC, thẻ ra vào, giấy phép lao động",
+      "cấp phép kinh doanh nhanh",
+      "Customer Portal với hơn 100 dịch vụ trực tuyến",
+      "Employment Dispute Center (trung tâm hoà giải tranh chấp lao động)",
+      "dịch vụ quy hoạch và hành chính đô thị tại chỗ",
+      "giải pháp flexi-desk/smart desk"
     ],
+    "airport_privilege": "Không có ưu đãi sân bay cho cư dân; đặc quyền hàng không thuộc về khách/doanh nghiệp hàng không tại The VIP Terminal của MBRAH: 5 FBO phục vụ phản lực tư nhân, kho nhiên liệu riêng có thời gian phản hồi 20 phút, suất ăn riêng, cơ sở bảo dưỡng, nhiều hangar và dịch vụ trực thăng đưa đón; ngoài ra Freight Forwarding Zone được tiếp cận trực tiếp nhà ga hàng hoá Al Maktoum International Airport.",
+    "has_airport_privilege": true,
+    "smart_city": "Tài liệu chỉ nêu định hướng chung về đổi mới sáng tạo và công nghệ (\"innovation, technology\"), cùng các giải pháp smart desk cho văn phòng và Customer Portal số hoá hơn 100 dịch vụ; không mô tả mức độ tích hợp IoT/AI hay hạ tầng số đô thị.",
+    "has_smart_city": null,
     "cvp_experience": [
-      "Expo City",
-      "retail",
-      "parks",
-      "golf",
-      "community"
+      "công viên xanh và không gian mở",
+      "khu vui chơi trẻ em",
+      "bể bơi bãi cát (The Pulse Beachfront)",
+      "tiện ích chăm sóc sức khoẻ (wellness) và hồ cảnh quan tại South Square",
+      "cơ sở thể thao",
+      "bán lẻ và ẩm thực (South Bay Mall, Sakany Square Mall, Pulse Retail)",
+      "Expo City Dubai (điểm đến văn hoá, giải trí, sự kiện)"
     ],
+    "experience_desc": "Đời sống trong khu xoay quanh cộng đồng có cổng, công viên xanh, khu vui chơi trẻ em, bể bơi lớn và tiện ích wellness; South Bay Mall bổ sung tổ hợp bán lẻ, ẩm thực và chăm sóc sức khoẻ. Kế cận là Expo City Dubai — thành phố mở, miễn vé vào khu vực công cộng, với các điểm tham quan, công viên, sự kiện và workshop, nhà hàng, Al Wasl Plaza mở cửa 24/7.",
     "cvp_convenience": [
-      "movement of cargo between the seaport and airport in as little as 20 minutes",
-      "The 18-kilometre Logistics District features several zones optimised for efficient distribution."
+      "hạ tầng giao thông đa phương thức kết nối đường không, đường bộ và đường biển",
+      "hành lang logistics thông quan 200 km² cho phép vận chuyển hàng giữa cảng biển và sân bay chỉ trong 20 phút",
+      "Logistics District dài 18 km với nhiều phân khu tối ưu phân phối",
+      "Freight Forwarding Zone tiếp cận trực tiếp nhà ga hàng hoá Al Maktoum International Airport",
+      "vị trí giữa Downtown Dubai và Abu Dhabi",
+      "ga metro Expo 2020 trên tuyến Route 2020 của Dubai Metro"
     ],
+    "connectivity_desc": "Dubai South nằm ở vị trí chiến lược nối ba châu lục và cầu nối Đông – Tây, giữa Downtown Dubai và Abu Dhabi; là đại dự án đô thị đơn lẻ lớn nhất Dubai với hạ tầng giao thông đa phương thức kết nối hàng không, đường bộ và đường biển, bao quanh Al Maktoum International Airport và liền kề cảng Jebel Ali qua hành lang logistics thông quan.",
+    "connection_modes": [
+      "hàng không (Al Maktoum International Airport)",
+      "đường biển (cảng Jebel Ali qua hành lang logistics thông quan)",
+      "đường bộ/cao tốc",
+      "metro (Dubai Metro – Route 2020/Red Line, ga Expo 2020)"
+    ],
+    "metro_lines": 1,
     "rail_connections": [
-      "Expo Stations on Dubai Metro Route 2020 are now open"
+      "Dubai Metro Red Line – nhánh Route 2020 tới ga Expo 2020 (dự kiến kéo dài tới Al Maktoum International Airport)"
     ],
     "cvp_brand": [
       "Dubai South",
-      "Emirates",
-      "DP World",
+      "Dubai Aviation City Corporation (DACC)",
+      "Dubai South Properties",
+      "Mohammed bin Rashid Aerospace Hub (MBRAH)",
+      "EZDubai",
       "Expo City Dubai"
     ],
-    "vision_label": null,
-    "vision_qualities": null,
-    "aviation_policy": null,
-    "sustainability": [
-      "sustainability",
-      "green"
+    "brand_desc": "Dubai South định vị là \"THE CITY OF YOU\" – đại dự án đô thị đơn lẻ lớn nhất Dubai, hình thành như sự tiếp nối tầm nhìn của H.H. Sheikh Mohammed bin Rashid Al Maktoum, lấy khách hàng và cư dân làm trung tâm, xây dựng thương hiệu quanh ba trụ cột hàng không, logistics và bất động sản trong một cộng đồng sống – làm việc năng động.",
+    "brand_partners": [
+      "DHL",
+      "UPS",
+      "Expeditors",
+      "Ford",
+      "Avia Solutions Group",
+      "Atherion Aerospace",
+      "UUDS",
+      "Tariq Al Futtaim",
+      "Al Burj Holding",
+      "Satys",
+      "Tim Aerospace",
+      "RH Aero",
+      "GE",
+      "Majid Al Futtaim",
+      "flydubai",
+      "General Civil Aviation Authority (GCAA)"
     ],
-    "smart_city": null,
-    "airport_build_period": null,
-    "urban_build_period": null,
-    "brand_partners": null,
-    "connection_modes": null,
-    "metro_lines": null,
-    "airport_privilege": null,
-    "experience_desc": null,
-    "price_vs_reference": null,
-    "sales_scheme": null,
-    "_pages_used": 18
+    "vision_label": "Dubai Plan 2021",
+    "vision_qualities": [
+      "xuất sắc trong hàng không, logistics và bất động sản",
+      "cộng đồng sống và làm việc sôi động",
+      "hạ tầng đẳng cấp thế giới",
+      "đổi mới sáng tạo và khởi nghiệp",
+      "hạnh phúc và trao quyền cho con người",
+      "tăng trưởng kinh tế bền vững",
+      "môi trường thân thiện với doanh nghiệp, thu hút đầu tư nước ngoài"
+    ],
+    "aviation_policy": "Dubai Strategic Plan / Dubai Plan 2021 của H.H. Sheikh Mohammed bin Rashid Al Maktoum, với Dubai Aviation City Corporation (DACC) là cơ quan quản lý điều tiết Dubai South.",
+    "sustainability": [
+      "phát triển cộng đồng bền vững, lành mạnh và hạnh phúc",
+      "bền vững là một trong các trụ cột thành công của khu",
+      "cam kết tăng trưởng bền vững trong hàng không, logistics và bất động sản",
+      "logistics bền vững (sự kiện Era of Sustainable Logistics Middle East and Africa)"
+    ],
+    "logistics_park_name": "Logistics District",
+    "logistics_park_ha": null,
+    "trade_park_name": "Dubai South Free Zone",
+    "trade_park_ha": null
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
-    },
-    "planning_concept": {
+    "case_name": {
+      "confidence": "high",
+      "snippet": "Dubai South | Free Zone, Logistics, Aviation & Lifestyle Hub in Dubai",
+      "source": "S01",
       "source_url": "https://www.dubaisouth.ae/en",
-      "source_file": "01_dubai_south_trang_ch_ch_nh_th_c.txt",
-      "snippet": "Dubai South is where success thrives through innovation, technology, opportunities, sustainability, and smart investment.",
-      "confidence": "high"
+      "source_file": "pages/01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "source_name": "Dubai South – Trang chủ chính thức"
     },
-    "cornerstones": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en"
-      ],
-      "confidence": "high"
-    },
-    "subzones": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en",
-        "https://www.dubaisouth.ae/en/live"
-      ],
-      "confidence": "high"
-    },
-    "area_km2": {
-      "unit": "km²",
-      "source_url": "https://www.dubaisouth.ae/en",
-      "source_file": "01_dubai_south_trang_ch_ch_nh_th_c.txt",
-      "snippet": "145 SQUARE KILOMETERS",
-      "confidence": "high"
-    },
-    "passengers_million": {
-      "unit": "triệu/năm (công suất thiết kế)",
-      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
-      "source_file": "13_wikipedia_al_maktoum_international_airport.txt",
-      "snippet": "capacity for up to 260 million passengers",
-      "confidence": "high"
-    },
-    "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm (công suất)",
-      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
-      "source_file": "13_wikipedia_al_maktoum_international_airport.txt",
-      "snippet": "12 million tonnes",
-      "confidence": "high"
-    },
-    "num_companies_airport": {
-      "unit": "doanh nghiệp",
-      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
-      "source_file": "11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
-      "snippet": "total number of operational businesses to more than 4,200,",
-      "confidence": "high"
-    },
-    "founded_year": {
-      "unit": "năm",
+    "aerotropolis": {
+      "confidence": "medium",
+      "snippet": "Dubai World Central Logistics City: Focused on enhancing Dubai's capacity as a global logistics hub.",
+      "source": "S12",
       "source_url": "https://en.wikipedia.org/wiki/Dubai_South",
-      "source_file": "12_wikipedia_dubai_south.txt",
-      "snippet": "in 2006, planned to be an economic zone",
-      "confidence": "high"
+      "source_file": "pages/12_wikipedia_dubai_south.txt",
+      "source_name": "Wikipedia – Dubai South"
     },
-    "total_investment_usd": {
+    "country": {
+      "confidence": "high",
+      "snippet": "to further fuel the national economy and sustain the UAE’s global pacesetting position.",
+      "source": "S01",
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "pages/01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "source_name": "Dubai South – Trang chủ chính thức"
+    },
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
+    },
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "This includes the Freight Forwarding Zone, which offers direct access to Al Maktoum International Airport cargo terminals.",
+      "source": "S03",
+      "source_url": "https://www.dubaisouth.ae/en/work/logistics",
+      "source_file": "pages/03_dubai_south_logistics_district.txt",
+      "source_name": "Dubai South – Logistics District"
+    },
+    "reference_city": {
+      "confidence": "high",
+      "snippet": "Dubai Airports Company\nServes\nDubai\nLocation\nJebel Ali\n, Dubai, United Arab Emirates",
+      "source": "S13",
       "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
-      "source_file": "13_wikipedia_al_maktoum_international_airport.txt",
-      "snippet": "128 billion AED ($34.85 billion USD)",
-      "confidence": "high"
+      "source_file": "pages/13_wikipedia_al_maktoum_international_airport.txt",
+      "source_name": "Wikipedia – Al Maktoum International Airport"
     },
-    "development_context": {
-      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
-      "source_file": "11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
-      "snippet": "During the year, Dubai South welcomed 653 new companies, bringing the total number of operational businesses to more than 4,200, while achieving a 90% retention",
-      "confidence": "high"
+    "official_website": {
+      "confidence": "high",
+      "snippet": "url: https://www.dubaisouth.ae/en",
+      "source": "S01",
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "pages/01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "source_name": "Dubai South – Trang chủ chính thức"
     },
     "location_desc": {
-      "source_url": "https://www.dubaisouth.ae/en/work/logistics",
-      "source_file": "03_dubai_south_logistics_district.txt",
-      "snippet": "The 18-kilometre Logistics District features several zones optimised for efficient distribution.",
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Directions:\nEasily accessible via E611 or E311 highways.\nStrategic location between North Dubai and Abu Dhabi.",
+      "source": "S01",
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "pages/01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "source_name": "Dubai South – Trang chủ chính thức"
+    },
+    "area_km2": {
+      "confidence": "high",
+      "snippet": "AN INTEGRATED ECOSYSTEM OF\n145\nSQUARE KILOMETERS",
+      "source": "S02",
+      "source_url": "https://www.dubaisouth.ae/en/work",
+      "source_file": "pages/02_dubai_south_work_t_ng_quan_khu_ch_c_n_ng.txt",
+      "source_name": "Dubai South – Work (tổng quan khu chức năng)"
+    },
+    "airport_build_period": {
+      "confidence": "medium",
+      "snippet": "The project was originally expected to be fully operational by 2017, although the\n2008 financial crisis\nsubsequently postponed the completion of the complex to 2027.",
+      "source": "S13",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
+      "source_file": "pages/13_wikipedia_al_maktoum_international_airport.txt",
+      "source_name": "Wikipedia – Al Maktoum International Airport"
+    },
+    "urban_build_period": {
+      "confidence": "medium",
+      "snippet": "is a city that was under construction in\nDubai\nUnited Arab Emirates\nin 2006, planned to be an economic zone to support a number of activities including logistics, aviation, commercial",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Dubai_South",
+      "source_file": "pages/12_wikipedia_dubai_south.txt",
+      "source_name": "Wikipedia – Dubai South"
+    },
+    "founded_year": {
+      "confidence": "medium",
+      "snippet": "is a city that was under construction in\nDubai\nUnited Arab Emirates\nin 2006, planned to be an economic zone",
+      "source": "S12",
+      "source_url": "https://en.wikipedia.org/wiki/Dubai_South",
+      "source_file": "pages/12_wikipedia_dubai_south.txt",
+      "source_name": "Wikipedia – Dubai South"
+    },
+    "development_context": {
+      "confidence": "high",
+      "snippet": "Dubai South was conceived to align with Dubai Plan 2021, contributing towards the emirate’s continuous efforts for sustainable economic growth.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "positioning": {
+      "confidence": "high",
+      "snippet": "Dubai South is Dubai’s largest single urban master development, focusing on an aviation and logistics ecosystem that includes a diverse range of mixed-use and residential communities to suit different lifestyles.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "planning_concept": {
+      "confidence": "high",
+      "snippet": "Creating a vibrant living and working community through leveraging our unique Aviation, Logistics, and Real-Estate products & services, coupled with world-class infrastructure solutions.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "cornerstones": {
+      "confidence": "high",
+      "snippet": "To be a prime catalyst contributing to the economy through excellence in Aviation, Logistics and Real-Estate products & services.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "subzones": {
+      "confidence": "medium",
+      "snippet": "OVERVIEW\nRegistration & Licensing\nFREE ZONE\nLOGISTICS\nMBR AEROSPACE HUB\nCOMMERCIAL PROPERTY",
+      "source": "S02",
+      "source_url": "https://www.dubaisouth.ae/en/work",
+      "source_file": "pages/02_dubai_south_work_t_ng_quan_khu_ch_c_n_ng.txt",
+      "source_name": "Dubai South – Work (tổng quan khu chức năng)"
+    },
+    "airport_area_ha": {
+      "confidence": "medium",
+      "snippet": "It will cover an area of\n36,000 acres (14,400\nha)",
+      "source": "S13",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
+      "source_file": "pages/13_wikipedia_al_maktoum_international_airport.txt",
+      "source_name": "Wikipedia – Al Maktoum International Airport"
+    },
+    "num_companies_airport": {
+      "confidence": "medium",
+      "snippet": "During the year, Dubai South welcomed 653 new companies, bringing the total number of operational businesses to more than 4,200, while achieving a 90% retention rate among existing companies.",
+      "source": "S11",
+      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
+      "source_file": "pages/11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
+      "source_name": "Dubai South – Tổng kết 2025: thu hút 653 doanh nghiệp"
+    },
+    "total_investment_usd": {
+      "confidence": "high",
+      "snippet": "The total cost of the airport has been estimated by the Dubai government to be $82 billion.",
+      "source": "S13",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Maktoum_International_Airport",
+      "source_file": "pages/13_wikipedia_al_maktoum_international_airport.txt",
+      "source_name": "Wikipedia – Al Maktoum International Airport"
+    },
+    "investor_governance": {
+      "confidence": "high",
+      "snippet": "As an important function of the regulatory authority Dubai Aviation City Corporation (DACC), the Free Zone Management fosters ingenuity and ease of business set up and operations",
+      "source": "S05",
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "pages/05_dubai_south_free_zone.txt",
+      "source_name": "Dubai South – Free Zone"
     },
     "lead_developer": {
-      "source_url": "https://www.dubaisouth.ae/en",
-      "source_file": "01_dubai_south_trang_ch_ch_nh_th_c.txt",
-      "snippet": "Dubai South",
-      "confidence": "high"
-    },
-    "economic_zone_name": {
-      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
-      "source_file": "05_dubai_south_free_zone.txt",
-      "snippet": "Dubai South Free Zone",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en",
-        "https://www.dubaisouth.ae/en/work",
-        "https://www.dubaisouth.ae/en/work/commercial-property"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en",
-        "https://www.dubaisouth.ae/en/work"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Dubai_South",
-        "https://www.dubaisouth.ae/en/live",
-        "https://www.dubaisouth.ae/en/work"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Dubai South, the largest single-urban master development focusing on aviation, logistics and real estate, concluded 2025 with strong performance and notable milestones across its various districts.",
+      "source": "S11",
+      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
+      "source_file": "pages/11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
+      "source_name": "Dubai South – Tổng kết 2025: thu hút 653 doanh nghiệp"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en",
-        "https://www.dubaisouth.ae/en/work",
-        "https://www.dubaisouth.ae/en/work/commercial-property"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Explore vibrant business centers, flourishing business parks, and alluring land plots designed to fulfill various companies’ needs and boost productivity",
+      "source": "S02",
+      "source_url": "https://www.dubaisouth.ae/en/work",
+      "source_file": "pages/02_dubai_south_work_t_ng_quan_khu_ch_c_n_ng.txt",
+      "source_name": "Dubai South – Work (tổng quan khu chức năng)"
+    },
+    "commercial_re": {
+      "confidence": "high",
+      "snippet": "Our commercial property provides attractive opportunities for office, business centre and retail businesses.",
+      "source": "S06",
+      "source_url": "https://www.dubaisouth.ae/en/work/commercial-property",
+      "source_file": "pages/06_dubai_south_commercial_property.txt",
+      "source_name": "Dubai South – Commercial Property"
+    },
+    "economic_zone_name": {
+      "confidence": "high",
+      "snippet": "Dubai South Free Zone | Business Setup, Visas & Licensing Services",
+      "source": "S05",
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "pages/05_dubai_south_free_zone.txt",
+      "source_name": "Dubai South – Free Zone"
+    },
+    "residential_product_desc": {
+      "confidence": "high",
+      "snippet": "This dynamic community features a range of freehold and leasehold residential projects, catering to diverse lifestyles.",
+      "source": "S07",
+      "source_url": "https://www.dubaisouth.ae/en/live",
+      "source_file": "pages/07_dubai_south_live_khu_d_n_c.txt",
+      "source_name": "Dubai South – Live (khu dân cư)"
+    },
+    "basic_amenities": {
+      "confidence": "high",
+      "snippet": "Tradition meets modern living with amenities like green spaces, sports facilities, schools, and medical services.",
+      "source": "S01",
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "pages/01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "source_name": "Dubai South – Trang chủ chính thức"
+    },
+    "highlight_amenities": {
+      "confidence": "medium",
+      "snippet": "Dubai South Properties also announced its first retail and lifestyle destination, South Bay Mall, spanning 200,000 sq. ft.",
+      "source": "S11",
+      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
+      "source_file": "pages/11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
+      "source_name": "Dubai South – Tổng kết 2025: thu hút 653 doanh nghiệp"
+    },
+    "cvp_price": {
+      "confidence": "medium",
+      "snippet": "Our commercial property landscape is rich with attractive investment prospects, from joint ventures to freehold and leasing options.",
+      "source": "S02",
+      "source_url": "https://www.dubaisouth.ae/en/work",
+      "source_file": "pages/02_dubai_south_work_t_ng_quan_khu_ch_c_n_ng.txt",
+      "source_name": "Dubai South – Work (tổng quan khu chức năng)"
+    },
+    "cvp_price_note": {
+      "confidence": "medium",
+      "snippet": "Different commercial models are available depending on the facility, required size, and duration. You can get in touch with our team for further information.",
+      "source": "S04",
+      "source_url": "https://www.dubaisouth.ae/en/work/mbrah",
+      "source_file": "pages/04_dubai_south_mbr_aerospace_hub.txt",
+      "source_name": "Dubai South – MBR Aerospace Hub"
+    },
+    "price_vs_reference": {
+      "confidence": "low",
+      "snippet": "COMPETITIVE COMMERCIAL TERMS ... 100% CORPORATE AND PERSONAL TAX EXEMPTION",
+      "source": "S08",
+      "source_url": "https://www.dubaisouth.ae/en/thrive",
+      "source_file": "pages/08_dubai_south_thrive_ti_n_ch_c_ng_ng.txt",
+      "source_name": "Dubai South – Thrive (tiện ích & cộng đồng)"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "Our commercial property landscape is rich with attractive investment prospects, from joint ventures to freehold and leasing options.",
+      "source": "S02",
+      "source_url": "https://www.dubaisouth.ae/en/work",
+      "source_file": "pages/02_dubai_south_work_t_ng_quan_khu_ch_c_n_ng.txt",
+      "source_name": "Dubai South – Work (tổng quan khu chức năng)"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "providing all types of services such as visas issuance, NOC letters, access cards, and work permits that would assist business owners to set up and run their businesses",
+      "source": "S05",
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "pages/05_dubai_south_free_zone.txt",
+      "source_name": "Dubai South – Free Zone"
+    },
+    "airport_privilege": {
+      "confidence": "medium",
+      "snippet": "At The VIP Terminal, we offer private jet owners a variety of customisable options, from a dedicated fuel farm with a 20-minute response time to dedicated catering options, maintenance facilities, several aircraft hangars, and helicopter shuttle services.",
+      "source": "S04",
+      "source_url": "https://www.dubaisouth.ae/en/work/mbrah",
+      "source_file": "pages/04_dubai_south_mbr_aerospace_hub.txt",
+      "source_name": "Dubai South – MBR Aerospace Hub"
+    },
+    "has_airport_privilege": {
+      "confidence": "medium",
+      "snippet": "The VIP Terminal redefines the private jet experience, offering tailored solutions in this one-of-a-kind aviation hub.",
+      "source": "S04",
+      "source_url": "https://www.dubaisouth.ae/en/work/mbrah",
+      "source_file": "pages/04_dubai_south_mbr_aerospace_hub.txt",
+      "source_name": "Dubai South – MBR Aerospace Hub"
+    },
+    "smart_city": {
+      "confidence": "low",
+      "snippet": "Dubai South is where success thrives through innovation, technology, opportunities, sustainability, and smart investment.",
+      "source": "S08",
+      "source_url": "https://www.dubaisouth.ae/en/thrive",
+      "source_file": "pages/08_dubai_south_thrive_ti_n_ch_c_ng_ng.txt",
+      "source_name": "Dubai South – Thrive (tiện ích & cộng đồng)"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Dubai_South",
-        "https://www.dubaisouth.ae/en",
-        "https://www.dubaisouth.ae/en/live",
-        "https://www.dubaisouth.ae/en/work"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "The property offers an extraordinary lifestyle through its amenities, green parks, and designated kids play areas.",
+      "source": "S07",
+      "source_url": "https://www.dubaisouth.ae/en/live",
+      "source_file": "pages/07_dubai_south_live_khu_d_n_c.txt",
+      "source_name": "Dubai South – Live (khu dân cư)"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "Expo City Dubai is an open city and access to the public areas will not require tickets. Payment and tickets will be required to enter specific attractions, or attend some events.",
+      "source": "S18",
+      "source_url": "https://www.expocitydubai.com/en/",
+      "source_file": "pages/18_expo_city_dubai_trang_ch_nh_th_c.txt",
+      "source_name": "Expo City Dubai – Trang chính thức"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en/work/logistics"
-      ],
-      "source_files": [
-        "03_dubai_south_logistics_district.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Linked via a dedicated 200 square-kilometre, customs-bonded logistics corridor that facilitates the movement of cargo between the seaport and airport in as little as 20 minutes",
+      "source": "S03",
+      "source_url": "https://www.dubaisouth.ae/en/work/logistics",
+      "source_file": "pages/03_dubai_south_logistics_district.txt",
+      "source_name": "Dubai South – Logistics District"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "It will also house the world’s largest airport upon completion, complemented by a multi-modal transport infrastructure connecting air, land, and sea.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "connection_modes": {
+      "confidence": "medium",
+      "snippet": "complemented by a multi-modal transport infrastructure connecting air, land, and sea",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "metro_lines": {
+      "confidence": "medium",
+      "snippet": "The section from Al Furjan to Expo 2020 was opened on 1 June 2021, allowing the extension to be fully operational, as well as the transfer of the main Red Line route from Life Pharmacy to Expo 2020.",
+      "source": "S15",
+      "source_url": "https://en.wikipedia.org/wiki/Route_2020",
+      "source_file": "pages/15_wikipedia_route_2020_metro_t_i_expo_dubai_south.txt",
+      "source_name": "Wikipedia – Route 2020 (metro tới Expo/Dubai South)"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Dubai_Metro"
-      ],
-      "source_files": [
-        "16_wikipedia_dubai_metro.txt"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Eventually it is planned to extend the line beyond Expo 2020 to\nAl Maktoum International Airport\n, south of the Expo site.",
+      "source": "S15",
+      "source_url": "https://en.wikipedia.org/wiki/Route_2020",
+      "source_file": "pages/15_wikipedia_route_2020_metro_t_i_expo_dubai_south.txt",
+      "source_name": "Wikipedia – Route 2020 (metro tới Expo/Dubai South)"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Expo_City_Dubai",
-        "https://www.dubaisouth.ae/en",
-        "https://www.dubaisouth.ae/en/our-leadership"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "As an important function of the regulatory authority Dubai Aviation City Corporation (DACC), the Free Zone Management fosters ingenuity and ease of business set up",
+      "source": "S05",
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "pages/05_dubai_south_free_zone.txt",
+      "source_name": "Dubai South – Free Zone"
+    },
+    "brand_desc": {
+      "confidence": "high",
+      "snippet": "A hub for innovation with a progressive outlook towards the future, Dubai South was realised as a continuation of the vision of His Highness Sheikh Mohammed bin Rashid Al Maktoum",
+      "source": "S01",
+      "source_url": "https://www.dubaisouth.ae/en",
+      "source_file": "pages/01_dubai_south_trang_ch_ch_nh_th_c.txt",
+      "source_name": "Dubai South – Trang chủ chính thức"
+    },
+    "brand_partners": {
+      "confidence": "high",
+      "snippet": "strategic agreements were signed with global players such as DHL and UPS ... including Avia Solutions Group, the world’s largest ACMI provider, Atherion Aerospace, UUDS, Tariq Al Futtaim and Al Burj Holding",
+      "source": "S11",
+      "source_url": "https://www.dubaisouth.ae/en/newsroom/dubai-south-concludes-a-strong-2025-attracts-653-new-companies",
+      "source_file": "pages/11_dubai_south_t_ng_k_t_2025_thu_h_t_653_doanh_nghi_p.txt",
+      "source_name": "Dubai South – Tổng kết 2025: thu hút 653 doanh nghiệp"
+    },
+    "vision_label": {
+      "confidence": "high",
+      "snippet": "Dubai South was conceived to align with Dubai Plan 2021, contributing towards the emirate’s continuous efforts for sustainable economic growth.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "vision_qualities": {
+      "confidence": "high",
+      "snippet": "OUR VISION\nTo be a prime catalyst contributing to the economy through excellence in Aviation, Logistics and Real-Estate products & services.",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
+    },
+    "aviation_policy": {
+      "confidence": "medium",
+      "snippet": "When the Dubai Strategic Plan was unveiled by H.H. Sheikh Mohammed bin Rashid Al Maktoum, it sought to impress the importance of happiness upon Dubai’s population",
+      "source": "S09",
+      "source_url": "https://www.dubaisouth.ae/en/our-leadership",
+      "source_file": "pages/09_dubai_south_ban_l_nh_o.txt",
+      "source_name": "Dubai South – Ban lãnh đạo"
     },
     "sustainability": {
-      "source_urls": [
-        "https://www.dubaisouth.ae/en"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Dubai South is creating a vibrant community to invest, live and work within a sustainable, healthy and happy environment.",
+      "source": "S05",
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "pages/05_dubai_south_free_zone.txt",
+      "source_name": "Dubai South – Free Zone"
+    },
+    "logistics_park_name": {
+      "confidence": "high",
+      "snippet": "The 18-kilometre Logistics District features several zones optimised for efficient distribution.",
+      "source": "S03",
+      "source_url": "https://www.dubaisouth.ae/en/work/logistics",
+      "source_file": "pages/03_dubai_south_logistics_district.txt",
+      "source_name": "Dubai South – Logistics District"
+    },
+    "trade_park_name": {
+      "confidence": "medium",
+      "snippet": "Dubai South Free Zone | Business Setup, Visas & Licensing Services",
+      "source": "S05",
+      "source_url": "https://www.dubaisouth.ae/en/work/freezone",
+      "source_file": "pages/05_dubai_south_free_zone.txt",
+      "source_name": "Dubai South – Free Zone"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu chỉ có tiêu đề 'KM AWAY FROM JEBEL ALI PORT' bị thiếu số và mô tả định tính 'between North Dubai and Abu Dhabi'; không nêu khoảng cách km tới trung tâm Dubai.",
+    "passengers_million": "BASELINE_SAI: 260 triệu là công suất thiết kế/dự kiến khi hoàn thành ('capacity for up to 260 million passengers'), không phải lượng khách thực tế; tài liệu chỉ có 102.000 khách trong Q1/2014.",
+    "cargo_million_tonnes": "BASELINE_SAI: 12 triệu tấn là 'projected annual capacity' (công suất dự kiến) của sân bay, không phải sản lượng hàng hoá đã ghi nhận.",
+    "air_movements": "Tài liệu không nêu số lượt bay (air traffic movements) thực tế/năm.",
+    "destinations": "Tài liệu chỉ liệt kê bảng hãng bay/điểm đến mà không có con số tổng số điểm đến.",
+    "airlines": "Tài liệu chỉ mô tả định tính ('only a handful of airlines operated passenger services') và số hãng tại thời điểm khai trương 2010, không có số hãng khai thác hiện tại.",
+    "transfer_pct": "Tài liệu không nêu tỷ lệ hành khách transfer.",
+    "employees": "Tài liệu chỉ nêu '500,000 job opportunities' là mục tiêu/năng lực của khu, không phải số người đang làm việc thực tế.",
+    "num_companies_realestate": "Tài liệu không tách riêng số doanh nghiệp thuê bất động sản trong khu.",
+    "num_office_buildings": "Tài liệu không nêu số toà nhà văn phòng.",
+    "jobs_created": "Con số 500.000 là cơ hội việc làm dự kiến ('A DYNAMIC WORK HUB WITH UP TO 500,000 job opportunities'), không phải việc làm đã tạo thực tế.",
+    "gov_led_ratio_pct": "Tài liệu không nêu tỷ lệ vốn/vai trò nhà nước bằng số cụ thể.",
+    "private_ratio_pct": "Tài liệu không nêu tỷ lệ vốn tư nhân bằng số cụ thể (100% foreign ownership là ưu đãi sở hữu doanh nghiệp, không phải tỷ lệ vốn dự án).",
+    "economic_zone_year": "Tài liệu không nêu năm thành lập khu thương mại tự do (free zone) của Dubai South.",
+    "residential_highrise_pct": "Tài liệu không nêu tỷ lệ % sản phẩm nhà ở cao tầng.",
+    "residential_lowrise_pct": "Tài liệu không nêu tỷ lệ % sản phẩm nhà ở thấp tầng.",
+    "residential_land_pct": "Tài liệu không nêu tỷ lệ % sản phẩm đất nền.",
+    "office_rent_eur_m2_year": "Tài liệu không có dòng chào giá thuê văn phòng (Starting at/From) theo EUR/m²/năm.",
+    "living_fee_usd_per_m2_month": "Tài liệu không nêu mức phí quản lý/duy trì theo USD/m²/tháng.",
+    "has_urban_service_fee": "Tài liệu không có bằng chứng về việc thu phí dịch vụ đô thị.",
+    "has_smart_city": "Tài liệu không nêu chương trình đô thị thông minh (IoT/AI/hạ tầng số) cụ thể, chỉ nói chung về đổi mới và công nghệ — không đủ bằng chứng để kết luận true/false.",
+    "logistics_park_ha": "Nguồn chỉ nêu chiều dài 18 km của Logistics District và hành lang logistics thông quan 200 km², không nêu diện tích khu logistics theo ha.",
+    "trade_park_ha": "Nguồn chỉ nêu diện tích 7 km² freezone của MBRAH (phân khu hàng không), không nêu diện tích khu thương mại tự do Dubai South Free Zone."
+  },
+  "_meta": {
+    "case": "dubai_south",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:16:49+0700",
+    "fields_total": 75,
+    "fields_filled": 52,
+    "coverage_pct": 69.3,
+    "high_confidence": 28,
+    "from_baseline": 1,
+    "dossier": {
+      "pages_total": 18,
+      "pages_kept": 18,
+      "raw_chars": 638742,
+      "dossier_chars": 131732
+    },
+    "warnings": [
+      "passengers_million: bỏ giá trị baseline 260.0 — BASELINE_SAI: 260 triệu là công suất thiết kế/dự kiến khi hoàn thành ('capacity for up to 260 million passengers'), khôn",
+      "cargo_million_tonnes: bỏ giá trị baseline 12.0 — BASELINE_SAI: 12 triệu tấn là 'projected annual capacity' (công suất dự kiến) của sân bay, không phải sản lượng hàng hoá"
+    ],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "**Dubai South** là hồ sơ aerotropolis **Dubai South / Dubai World Central (DWC)** tại **UAE**, gắn với **Al Maktoum International Airport** và lấy **Dubai** làm thành phố tham chiếu. Đây không phải là dự án mục tiêu, và thông tin chính thức được công bố tại **https://www.dubaisouth.ae**.",
+    "location": "Khu đô thị rộng **145 km²** nằm ở phía nam **Dubai**, giữ vị trí chiến lược giữa khu vực Bắc **Dubai** và **Abu Dhabi** (giữa **Downtown Dubai** và **Abu Dhabi**), bao quanh **Al Maktoum International Airport**, tiếp cận dễ dàng qua cao tốc **E611** hoặc **E311** và kết nối liền mạch tới cảng **Jebel Ali** qua hành lang logistics thông quan. Khu được thành lập năm **2006**, với giai đoạn xây dựng đô thị từ **2006** đến nay và giai đoạn xây sân bay **2010-2027**. Dự án hình thành như sự tiếp nối tầm nhìn của **H.H. Sheikh Mohammed bin Rashid Al Maktoum** cho tương lai của **Dubai**, gắn với **Dubai Strategic Plan** và được thiết kế để phù hợp với **Dubai Plan 2021**, nhằm tăng trưởng kinh tế bền vững thông qua môi trường thân thiện với doanh nghiệp và thu hút đầu tư nước ngoài.",
+    "positioning": "Là đại dự án đô thị (single urban master development) lớn nhất **Dubai**, khu định vị như hệ sinh thái hàng không – logistics kết hợp các cộng đồng đa chức năng và dân cư, một aerotropolis với khu thương mại tự do, logistics, hàng không và lifestyle, sẽ chứa sân bay lớn nhất thế giới khi hoàn thành. Ý tưởng quy hoạch là tạo lập cộng đồng sống và làm việc sôi động dựa trên ba trụ cột hàng không (**Aviation**), logistics/kho vận và bất động sản (**Real-Estate**), kết hợp hạ tầng đẳng cấp thế giới cùng giao thông đa phương thức nối không – bộ – biển, lấy khách hàng và người dân làm trung tâm với concept **'THE CITY OF YOU'**. Cấu trúc phân khu gồm **Logistics District** (với **Freight Forwarding Zone**, **EZDubai**, **Contract Logistics Zone**), **Mohammed bin Rashid Aerospace Hub (MBRAH)** cho hàng không thương gia, MRO, đào tạo, văn phòng và bán lẻ, **Free Zone**, **Commercial Property / Business Park**, **The Residential District** và **Expo City Dubai**.",
+    "kpi": "Sân bay trong khu có diện tích **14.400 ha**, với **4.200 công ty** hoạt động.",
+    "investment": "Tổng chi phí sân bay được chính quyền **Dubai** ước tính ở mức **82 tỷ USD**, trong đó riêng nhà ga hành khách mở rộng mới là **128 billion AED** (khoảng **34,85 tỷ USD**). Mô hình quản trị do nhà nước **Dubai** dẫn dắt, với cơ quan quản lý – điều tiết là **Dubai Aviation City Corporation (DACC)**, Chủ tịch là **H.H. Sheikh Ahmed bin Saeed Al Maktoum** và Chủ tịch điều hành **H.E. Khalifa Al Zaffin**; bộ phận **Free Zone Management** thuộc **DACC** cấp phép, visa, work permit và dịch vụ hành chính. Các CEO riêng phụ trách **Logistics District** và **Mohammed Bin Rashid Aerospace Hub**, còn **Dubai South Properties** phát triển bất động sản; bên dẫn dắt chung là **Dubai South** thuộc **Dubai Aviation City Corporation (DACC)**.",
+    "product": "Danh mục chào bán gồm kho vận/warehouse, văn phòng, trung tâm doanh nghiệp, khu công viên doanh nghiệp, lô đất, bán lẻ, nhà ở (biệt thự, nhà phố, căn hộ), cơ sở built-to-suit và giải pháp văn phòng logistics; khối bất động sản thương mại trải rộng từ văn phòng, business centre, bán lẻ, kho bãi, logistics, thương mại điện tử (**EZDubai**), hàng không & MRO đến lô đất công nghiệp có hạ tầng sẵn có trong **Dubai South Free Zone**. Sản phẩm nhà ở là các cộng đồng dân cư sở hữu vĩnh viễn (freehold) và thuê dài hạn (leasehold), gồm biệt thự và nhà phố **The Pulse Villas/Townhouses** loại **2–4 phòng ngủ**, căn hộ **Pulse Apartments**, cộng đồng biệt thự có cổng **The Pulse Beachfront**, cùng các dự án mới **South Square**, **Beachfront Gates**, **HAYAT**, **South Bay** và **South Living Tower**. Tiện ích cơ bản gồm không gian xanh, cơ sở thể thao, trường học, dịch vụ y tế, bán lẻ, công viên cây xanh, khu vui chơi trẻ em và bể bơi, trong khi các điểm nhấn là **South Bay Mall** (**200.000 sq. ft.**), **Sakany Square Mall**, **Pulse Retail**, **Business Park Retail**, **The VIP Terminal** (nhà ga phản lực tư nhân), **EZDubai**, **Expo City Dubai** và bể bơi bãi cát tại **The Pulse Beachfront**.",
+    "price": "Doanh thu đến từ cho thuê và bán bất động sản thương mại — kho, văn phòng, trung tâm doanh nghiệp và lô đất — với nhiều mô hình đầu tư gồm liên doanh, sở hữu vĩnh viễn (freehold) và thuê, mức phí thương mại thay đổi theo loại cơ sở, diện tích và thời hạn thuê. Chi phí thiết lập và mô hình thương mại khác nhau tùy cơ sở, quy mô, thời hạn nên khách phải liên hệ đội ngũ **Dubai South** để biết chi tiết, không có biểu giá công bố; nguồn chỉ nêu định tính \"điều khoản thương mại cạnh tranh\" cùng miễn **100%** thuế doanh nghiệp và thuế cá nhân, không so sánh mặt bằng giá cụ thể với thành phố tham chiếu. Khối thương mại bán theo hướng B2B với đăng ký doanh nghiệp và thuê qua **Customer Portal**, còn khối nhà ở do **Dubai South Properties** phát triển bán theo hình thức freehold và leasehold, trong đó các dự án mới **HAYAT**, **Beachfront Gates** và **South Square** đều bán hết (sell-out) khi mở bán.",
+    "service": "Khu cung cấp dịch vụ thành lập doanh nghiệp (**DWC LLC**, chi nhánh, giấy phép freelancer), khu thương mại tự do với **100%** sở hữu nước ngoài, cấp thị thực, thư NOC, thẻ ra vào, giấy phép lao động, cấp phép kinh doanh nhanh, **Customer Portal** với hơn **100 dịch vụ** trực tuyến, **Employment Dispute Center**, dịch vụ quy hoạch và hành chính đô thị tại chỗ cùng giải pháp flexi-desk/smart desk. Không có ưu đãi sân bay cho cư dân; đặc quyền hàng không thuộc về khách và doanh nghiệp hàng không tại **The VIP Terminal** của **MBRAH** với **5 FBO** phục vụ phản lực tư nhân, kho nhiên liệu riêng có thời gian phản hồi **20 phút**, suất ăn riêng, cơ sở bảo dưỡng, nhiều hangar và dịch vụ trực thăng đưa đón, ngoài ra **Freight Forwarding Zone** được tiếp cận trực tiếp nhà ga hàng hoá **Al Maktoum International Airport**. Về đô thị thông minh, tài liệu chỉ nêu định hướng chung về đổi mới sáng tạo và công nghệ (\"innovation, technology\") cùng các giải pháp smart desk cho văn phòng và **Customer Portal** số hoá hơn **100 dịch vụ**, không mô tả mức độ tích hợp IoT/AI hay hạ tầng số đô thị.",
+    "experience": "Trải nghiệm tại khu gồm công viên xanh và không gian mở, khu vui chơi trẻ em, bể bơi bãi cát tại **The Pulse Beachfront**, tiện ích chăm sóc sức khoẻ (wellness) và hồ cảnh quan tại **South Square**, cơ sở thể thao, bán lẻ và ẩm thực tại **South Bay Mall**, **Sakany Square Mall**, **Pulse Retail**, cùng **Expo City Dubai** là điểm đến văn hoá, giải trí và sự kiện. Đời sống trong khu xoay quanh cộng đồng có cổng, công viên xanh, khu vui chơi trẻ em, bể bơi lớn và tiện ích wellness, với **South Bay Mall** bổ sung tổ hợp bán lẻ, ẩm thực và chăm sóc sức khoẻ. Kế cận là **Expo City Dubai** — thành phố mở, miễn vé vào khu vực công cộng, với các điểm tham quan, công viên, sự kiện và workshop, nhà hàng, cùng **Al Wasl Plaza** mở cửa **24/7**.",
+    "convenience": "Hạ tầng giao thông đa phương thức kết nối đường không, đường bộ và đường biển, với hành lang logistics thông quan **200 km²** cho phép vận chuyển hàng giữa cảng biển và sân bay chỉ trong **20 phút**, **Logistics District** dài **18 km** với nhiều phân khu tối ưu phân phối, và **Freight Forwarding Zone** tiếp cận trực tiếp nhà ga hàng hoá **Al Maktoum International Airport**. Vị trí nằm giữa **Downtown Dubai** và **Abu Dhabi**, nối ba châu lục và làm cầu nối Đông – Tây, bao quanh **Al Maktoum International Airport** và liền kề cảng **Jebel Ali** qua hành lang logistics thông quan. Các phương thức kết nối gồm hàng không, đường biển, đường bộ/cao tốc và **1 tuyến** metro — **Dubai Metro Red Line** với nhánh **Route 2020** tới ga **Expo 2020**, dự kiến kéo dài tới **Al Maktoum International Airport**.",
+    "brand": "Hệ thương hiệu gồm **Dubai South**, **Dubai Aviation City Corporation (DACC)**, **Dubai South Properties**, **Mohammed bin Rashid Aerospace Hub (MBRAH)**, **EZDubai** và **Expo City Dubai**. **Dubai South** định vị là **\"THE CITY OF YOU\"** – đại dự án đô thị đơn lẻ lớn nhất **Dubai**, hình thành như sự tiếp nối tầm nhìn của **H.H. Sheikh Mohammed bin Rashid Al Maktoum**, lấy khách hàng và cư dân làm trung tâm, xây dựng thương hiệu quanh ba trụ cột hàng không, logistics và bất động sản trong một cộng đồng sống – làm việc năng động. Các đối tác thương hiệu gồm **DHL**, **UPS**, **Expeditors**, **Ford**, **Avia Solutions Group**, **Atherion Aerospace**, **UUDS**, **Tariq Al Futtaim**, **Al Burj Holding**, **Satys**, **Tim Aerospace**, **RH Aero**, **GE**, **Majid Al Futtaim**, **flydubai** và **General Civil Aviation Authority (GCAA)**.",
+    "vision": "Tầm nhìn mang tên **Dubai Plan 2021**, hướng tới sự xuất sắc trong hàng không, logistics và bất động sản, cộng đồng sống và làm việc sôi động, hạ tầng đẳng cấp thế giới, đổi mới sáng tạo và khởi nghiệp, hạnh phúc và trao quyền cho con người, tăng trưởng kinh tế bền vững cùng môi trường thân thiện với doanh nghiệp để thu hút đầu tư nước ngoài. Chính sách hàng không dựa trên **Dubai Strategic Plan / Dubai Plan 2021** của **H.H. Sheikh Mohammed bin Rashid Al Maktoum**, với **Dubai Aviation City Corporation (DACC)** là cơ quan quản lý điều tiết **Dubai South**. Về bền vững, khu theo đuổi phát triển cộng đồng bền vững, lành mạnh và hạnh phúc, coi bền vững là một trong các trụ cột thành công, cam kết tăng trưởng bền vững trong hàng không, logistics, bất động sản và logistics bền vững qua sự kiện **Era of Sustainable Logistics Middle East and Africa**.",
+    "parks": "Khu chức năng chuyên biệt gồm khu logistics mang tên **Logistics District** và khu thương mại – công nghiệp là **Dubai South Free Zone**."
   }
 }

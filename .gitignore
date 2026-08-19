@@ -20,3 +20,10 @@ Thumbs.db
 # raw_data/output/**/raw/*
 # raw_data/output/**/features/*
 !raw_data/output/**/.gitkeep
+
+# Log phản hồi thô của model (dựng lại được bằng cách chạy lại extract_llm.py)
+raw_data/output/**/_llm_log/
+
+# Proxy runtime
+code_proxy/runtime/
+code_proxy/proxy.log

@@ -1,0 +1,298 @@
+{
+  "record": {
+    "case_name": "Singapore Changi Aerotropolis",
+    "aerotropolis": "Changi Airport City / Changi East",
+    "country": "Singapore",
+    "is_target": false,
+    "airport_name": "Singapore Changi Airport",
+    "reference_city": "Singapore",
+    "official_website": "https://www.changiairport.com",
+    "positioning": "Airport City / Air Hub",
+    "planning_concept": "the Changi East development project, which includes the building of a new Terminal 5 for Changi Airport.",
+    "cornerstones": null,
+    "subzones": [
+      "Changi East",
+      "Terminal 5",
+      "Jewel",
+      "Changi Business Park",
+      "Changi Airfreight Centre"
+    ],
+    "area_km2": null,
+    "distance_to_city_km": null,
+    "passengers_million": 69.98,
+    "cargo_million_tonnes": 2.08,
+    "air_movements": 374000,
+    "destinations": 170,
+    "airlines": 100,
+    "transfer_pct": null,
+    "airport_area_ha": null,
+    "employees": null,
+    "num_companies_airport": null,
+    "num_companies_realestate": null,
+    "num_office_buildings": null,
+    "jobs_created": null,
+    "founded_year": 1981,
+    "total_investment_usd": null,
+    "development_context": "Passenger traffic at Singapore Changi Airport was an all-time high in 2025, with 69.98 million passenger movements recorded, a 3.4% increase compared to 2024.",
+    "location_desc": null,
+    "investor_governance": "Changi Airport Group (CAG)? Do reach out to us if you have enquiries pertaining to media, careers, advertising or whistleblowing.",
+    "lead_developer": "Changi Airport Group",
+    "economic_zone_name": null,
+    "economic_zone_year": null,
+    "commercial_re": [
+      "retail",
+      "dining",
+      "office",
+      "business park",
+      "hotel",
+      "cargo",
+      "logistics"
+    ],
+    "residential_product_desc": null,
+    "basic_amenities": [
+      "retail",
+      "dining",
+      "gardens",
+      "lounge",
+      "cinema",
+      "swimming pool",
+      "playground"
+    ],
+    "highlight_amenities": [
+      "Rain Vortex",
+      "Forest Valley",
+      "Canopy Park",
+      "Jewel",
+      "Changi Experience Studio"
+    ],
+    "logistics_park_ha": null,
+    "logistics_park_name": null,
+    "trade_park_ha": null,
+    "trade_park_name": null,
+    "cvp_product": [
+      "office",
+      "business park",
+      "retail",
+      "cargo",
+      "logistics",
+      "industrial"
+    ],
+    "cvp_price": null,
+    "office_rent_eur_m2_year": null,
+    "cvp_price_note": null,
+    "cvp_service": [
+      "transit",
+      "lounge",
+      "baggage",
+      "concierge"
+    ],
+    "cvp_experience": [
+      "Rain Vortex",
+      "Canopy Park",
+      "gardens",
+      "cinema",
+      "retail",
+      "dining"
+    ],
+    "cvp_convenience": [
+      "some 100 airlines operate more than 7,300 weekly scheduled flights at Changi Airport, connecting Singapore to over 170 cities in 50 countries and territories worldwide.",
+      "connecting Singapore to over 170 cities in 50 countries and territories worldwide."
+    ],
+    "rail_connections": [
+      "Thomson-East Coast Line will be extended to Terminal 5 to connect it directly to the city centre, and further northwards to the Johor Bahru-Singapore Rapid Transit System (RTS) Link terminal at Woodlands North."
+    ],
+    "cvp_brand": [
+      "Changi Airport Group",
+      "Jewel",
+      "JTC",
+      "CapitaLand"
+    ],
+    "vision_label": null,
+    "vision_qualities": null,
+    "aviation_policy": null,
+    "sustainability": [
+      "sustainability",
+      "solar",
+      "carbon",
+      "green"
+    ],
+    "smart_city": null,
+    "airport_build_period": null,
+    "urban_build_period": null,
+    "brand_partners": null,
+    "connection_modes": null,
+    "metro_lines": null,
+    "airport_privilege": null,
+    "experience_desc": null,
+    "price_vs_reference": null,
+    "sales_scheme": null,
+    "_pages_used": 15
+  },
+  "provenance": {
+    "positioning": {
+      "confidence": "high"
+    },
+    "planning_concept": {
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "the Changi East development project, which includes the building of a new Terminal 5 for Changi Airport.",
+      "confidence": "high"
+    },
+    "subzones": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Changi_East",
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
+      ],
+      "confidence": "high"
+    },
+    "passengers_million": {
+      "unit": "triệu/năm",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "69.98 million passenger movements",
+      "confidence": "high"
+    },
+    "cargo_million_tonnes": {
+      "unit": "triệu tấn/năm",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "Airfreight throughput totalled 2.08 million tonnes",
+      "confidence": "high"
+    },
+    "air_movements": {
+      "unit": "lượt/năm",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "to 374,000 movements",
+      "confidence": "high"
+    },
+    "destinations": {
+      "unit": "thành phố",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "over 170 cities in 50 countries",
+      "confidence": "high"
+    },
+    "airlines": {
+      "unit": "hãng",
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "some 100 airlines operate",
+      "confidence": "high"
+    },
+    "founded_year": {
+      "unit": "năm",
+      "source_url": "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+      "source_file": "05_changi_our_story_l_ch_s.txt",
+      "snippet": "officially commenced operations in 1981",
+      "confidence": "high"
+    },
+    "development_context": {
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html",
+      "source_file": "03_changi_ch_s_v_n_h_nh_2025.txt",
+      "snippet": "Passenger traffic at Singapore Changi Airport was an all-time high in 2025, with 69.98 million passenger movements recorded, a 3.4% increase compared to 2024.",
+      "confidence": "high"
+    },
+    "investor_governance": {
+      "source_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+      "source_file": "02_changi_fact_sheet_s_n_bay.txt",
+      "snippet": "Changi Airport Group (CAG)? Do reach out to us if you have enquiries pertaining to media, careers, advertising or whistleblowing.",
+      "confidence": "high"
+    },
+    "lead_developer": {
+      "source_url": "https://www.changiairport.com/en/corporate.html",
+      "source_file": "01_changi_airport_group_trang_doanh_nghi_p.txt",
+      "snippet": "Changi Airport Group",
+      "confidence": "high"
+    },
+    "commercial_re": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Changi_East",
+        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html"
+      ],
+      "confidence": "high"
+    },
+    "basic_amenities": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jewel_Changi_Airport",
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html"
+      ],
+      "confidence": "high"
+    },
+    "highlight_amenities": {
+      "source_urls": [
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html"
+      ],
+      "confidence": "high"
+    },
+    "cvp_product": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Changi_East",
+        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
+      ],
+      "confidence": "high"
+    },
+    "cvp_service": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
+        "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html"
+      ],
+      "confidence": "high"
+    },
+    "cvp_experience": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jewel_Changi_Airport",
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/about-us/the-changi-airport-story/our-story.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/fact-sheet-changi-airport.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html"
+      ],
+      "confidence": "high"
+    },
+    "cvp_convenience": {
+      "source_urls": [
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/2025-operating-indicators.html"
+      ],
+      "source_files": [
+        "03_changi_ch_s_v_n_h_nh_2025.txt"
+      ],
+      "confidence": "high"
+    },
+    "rail_connections": {
+      "source_urls": [
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
+      ],
+      "source_files": [
+        "07_changi_fact_sheet_terminal_5.txt"
+      ],
+      "confidence": "high"
+    },
+    "cvp_brand": {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Changi_Business_Park",
+        "https://en.wikipedia.org/wiki/Singapore_Changi_Airport",
+        "https://www.changiairport.com/en/corporate.html"
+      ],
+      "confidence": "high"
+    },
+    "sustainability": {
+      "source_urls": [
+        "https://www.changiairport.com/en/corporate.html",
+        "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html"
+      ],
+      "confidence": "high"
+    }
+  }
+}

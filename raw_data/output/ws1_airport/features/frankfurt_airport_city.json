@@ -7,268 +7,642 @@
     "airport_name": "Frankfurt Airport",
     "reference_city": "Frankfurt Rhine-Main",
     "official_website": "https://www.fraport.com",
-    "positioning": "Airport City",
-    "planning_concept": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksentwicklungsgesellschaft mbH and OFB Projektentwicklung GmbH each hold a one-third stake.",
+    "location_desc": "Gateway Gardens nằm trong quận Flughafen (\"Sân bay\") của Frankfurt, ngay phía tây bắc nút giao Frankfurter Kreuz, được bao quanh bởi các đường cao tốc liên bang A 3, A 5 và B 43; khu vực là cựu khu nhà ở của không quân Mỹ tại Rhein-Main Air Base, sát Terminal 2 của sân bay.",
+    "distance_to_city_km": null,
+    "area_km2": 0.35,
+    "airport_build_period": null,
+    "urban_build_period": "2005-nay",
+    "founded_year": 1924,
+    "development_context": "Khu Gateway Gardens vốn là khu nhà ở của quân nhân Không quân Mỹ tại Rhein-Main Air Base, \"cửa ngõ vào châu Âu\" giai đoạn 1945–2004; sau khi căn cứ và khu nhà ở đóng cửa năm 2005, khu đất được chuyển đổi thành địa điểm kinh doanh cho các doanh nghiệp gắn với sân bay. Tháng 2/2008 hội đồng thành phố phê duyệt quy hoạch phát triển khu mới.",
+    "positioning": "Airport City – khu đô thị/địa điểm kinh doanh gắn với sân bay dành cho các doanh nghiệp liên quan hàng không",
+    "planning_concept": "Khu đô thị mới phát triển theo mô hình campus mở, không xây căn hộ ở do tiếng ồn máy bay; kết hợp hạ tầng kết nối tốt với môi trường xanh (công viên 2,4 ha), văn phòng, khách sạn, nhà trẻ, dịch vụ tiện ích và thể thao.",
+    "cornerstones": [
+      "văn phòng",
+      "bán lẻ",
+      "logistics/kho vận (Cargo Hub)",
+      "bất động sản & năng lượng",
+      "hội họp & sự kiện (MICE)",
+      "vận hành sân bay và dịch vụ mặt đất"
+    ],
     "subzones": [
       "Gateway Gardens",
       "The Squaire",
       "CargoCity Süd",
-      "Terminal 3",
-      "Airport City"
+      "Mönchhof Logistics Parks",
+      "Terminal 3"
     ],
-    "area_km2": 0.35,
     "passengers_million": 63.2,
     "cargo_million_tonnes": 2.1,
-    "airlines": 94,
+    "air_movements": 460272,
     "destinations": 301,
-    "founded_year": null,
-    "investor_governance": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksentwicklungsgesellschaft mbH and OFB Projektentwicklung GmbH each hold a one-third stake.",
-    "lead_developer": "Fraport AG",
-    "development_context": null,
-    "commercial_re": [
-      "office",
-      "hotel",
-      "conference",
-      "logistics",
-      "retail",
-      "warehouse",
-      "real estate"
-    ],
-    "basic_amenities": [
-      "restaurants",
-      "hotels",
-      "park",
-      "conference",
-      "cafés",
-      "shopping"
-    ],
-    "highlight_amenities": [
-      "The Squaire",
-      "Gateway Gardens"
-    ],
-    "cvp_product": [
-      "office",
-      "logistics",
-      "hotel",
-      "retail",
-      "real estate"
-    ],
-    "cvp_service": [
-      "energy",
-      "leasing",
-      "property management"
-    ],
-    "cvp_experience": [
-      "restaurants",
-      "hotels",
-      "park",
-      "shopping"
-    ],
-    "cvp_convenience": [
-      "Frankfurter Kreuz freeway intersection and has a surface area of around 35 hectares.",
-      "Long-distance station [ edit ] Long-distance station ICE 3 departing westward underneath The Squaire Main article: Frankfurt Airport long-distance station Frankfurt Airport long-distance station ( Frankfurt Flughafen Fernbahnhof ) was opened in 1999."
-    ],
-    "rail_connections": [
-      "S-Bahn station and the spacious park.",
-      "ICE 3 departing westward underneath The Squaire Main article: Frankfurt Airport long-distance station Frankfurt Airport long-distance station ( Frankfurt Flughafen Fernbahnhof ) was opened in 1999."
-    ],
-    "cvp_brand": [
-      "Fraport",
-      "Lufthansa",
-      "Groß & Partner",
-      "OFB"
-    ],
-    "sustainability": [
-      "climate",
-      "sustainability",
-      "renewable",
-      "noise"
-    ],
-    "cornerstones": null,
-    "distance_to_city_km": null,
-    "air_movements": null,
+    "airlines": 94,
     "transfer_pct": null,
-    "airport_area_ha": null,
+    "airport_area_ha": 2300.0,
     "employees": null,
     "num_companies_airport": null,
     "num_companies_realestate": null,
     "num_office_buildings": null,
     "jobs_created": null,
-    "total_investment_usd": null,
-    "location_desc": null,
+    "total_investment_usd": "1,7 tỷ euro (tổng vốn đầu tư cho Gateway Gardens; nguồn không quy đổi ra USD)",
+    "investor_governance": "Gateway Gardens là dự án hợp tác giữa Thành phố Frankfurt và công ty bất động sản Gateway Gardens GmbH, trong đó Fraport AG, Groß & Partner Grundstücksentwicklungsgesellschaft mbH và OFB Projektentwicklung GmbH mỗi bên nắm một phần ba cổ phần; công ty bất động sản chịu trách nhiệm trực tiếp phát triển khu đất và bán đất. Fraport AG do Nhà nước bang Hessen (31,31%) và Stadtwerke Frankfurt am Main Holding GmbH (20,32%) nắm giữ phần lớn.",
+    "gov_led_ratio_pct": 50.0,
+    "private_ratio_pct": 50.0,
+    "lead_developer": "Grundstücksgesellschaft Gateway Gardens GmbH (với Fraport AG, Groß & Partner và OFB Projektentwicklung)",
+    "cvp_product": [
+      "văn phòng",
+      "kho vận (warehouse)",
+      "không gian hangar",
+      "phòng chờ (lounge)",
+      "bất động sản logistics",
+      "khách sạn",
+      "bán lẻ"
+    ],
+    "commercial_re": [
+      "văn phòng",
+      "khách sạn",
+      "trung tâm hội nghị",
+      "bán lẻ/mua sắm",
+      "kho vận và logistics",
+      "bãi đỗ xe"
+    ],
     "economic_zone_name": null,
     "economic_zone_year": null,
     "residential_product_desc": null,
-    "logistics_park_ha": null,
-    "logistics_park_name": null,
-    "trade_park_ha": null,
-    "trade_park_name": null,
-    "cvp_price": null,
+    "residential_highrise_pct": null,
+    "residential_lowrise_pct": null,
+    "residential_land_pct": null,
+    "basic_amenities": [
+      "quán cà phê & nhà hàng",
+      "siêu thị",
+      "nhà trẻ song ngữ",
+      "công viên (2,4 ha)",
+      "phòng tập thể hình/fitness",
+      "khách sạn",
+      "phòng hội nghị",
+      "bãi đỗ xe"
+    ],
+    "highlight_amenities": [
+      "The Squaire",
+      "Airport City Mall",
+      "Frankfurt Airport Centre (FAC 1, FAC 2)",
+      "Sheraton Hotel & Conference Centre",
+      "b'mine Hotel Frankfurt Airport",
+      "Alpha Rotex"
+    ],
+    "cvp_price": "Thu tiền chủ yếu qua cho thuê bất động sản (văn phòng, kho, hangar, lounge) và bán đất/quyền phát triển: Grundstücksgesellschaft Gateway Gardens GmbH chịu trách nhiệm phát triển hạ tầng và bán đất trong khu.",
     "office_rent_eur_m2_year": null,
     "cvp_price_note": null,
+    "price_vs_reference": null,
+    "living_fee_usd_per_m2_month": null,
+    "has_urban_service_fee": null,
+    "sales_scheme": "Mô hình B2B: công ty phát triển dự án (Gateway Gardens GmbH - liên doanh Fraport AG, Groß & Partner, OFB, cùng City of Frankfurt) trực tiếp phát triển hạ tầng rồi bán đất cho nhà đầu tư/doanh nghiệp; phần còn lại cho thuê văn phòng, kho, hangar.",
+    "cvp_service": [
+      "tư vấn và hỗ trợ toàn diện về cho thuê (leasing)",
+      "quản lý tài sản & quản lý bất động sản (asset & property management)",
+      "quản lý năng lượng (energy management)",
+      "phát triển dự án & đầu tư",
+      "phát triển bất động sản văn phòng và logistics theo yêu cầu khách hàng",
+      "dịch vụ CNTT (Fraport IT-Services)"
+    ],
+    "airport_privilege": "Có chương trình ưu đãi dành riêng cho cộng đồng sân bay: \"Discounts Airport City Card\" (thẻ giảm giá Airport City) và các ưu đãi cho nhân viên làm việc tại sân bay.",
+    "has_airport_privilege": true,
+    "smart_city": "Không có mô tả về đô thị thông minh cấp khu; chỉ có chiến lược số hóa của Fraport cho vận hành sân bay: số hóa, Digital Factory, ứng dụng trí tuệ nhân tạo (AI@Fraport), chiến lược robotics và Airport Community App.",
+    "has_smart_city": null,
+    "cvp_experience": [
+      "nhà hàng, quán cà phê và bar",
+      "mua sắm/bán lẻ",
+      "công viên xanh rộng 2,4 ha",
+      "phòng tập thể hình",
+      "khách sạn",
+      "hội nghị & sự kiện",
+      "tour tham quan 360 độ khu (360-degree panorama)"
+    ],
+    "experience_desc": "Gateway Gardens định vị là khu làm việc kiểu campus mở, nhiều không gian xanh và kiến trúc hiện đại, đặt con người và nhu cầu của họ làm trung tâm; đầy đủ tiện ích cho đời sống hằng ngày (cà phê, nhà hàng, siêu thị, nhà trẻ song ngữ). Bên phía sân bay có các nhà hàng, cửa hàng, bar tạo nên một 'marketplace' sôi động cho hành khách và khách tham quan.",
+    "cvp_convenience": [
+      "ga S-Bahn ngầm Gateway Gardens (tuyến S8, S9, khai trương 2019), cách ga vùng sân bay khoảng 1 km",
+      "ga đường dài Frankfurt Airport long-distance station với 210 chuyến tàu đường dài/ngày, trong đó 185 chuyến ICE",
+      "ga vùng Frankfurt Airport regional station dưới Terminal 1",
+      "nút giao cao tốc Frankfurter Kreuz (A3/A5) với khoảng 320.000 xe/ngày",
+      "kết nối trực tiếp The Squaire với Terminal 1 bằng hành lang đi bộ và người vận chuyển MiniMetro (Squaire Metro)",
+      "tuyến xe buýt X17, 77"
+    ],
+    "connectivity_desc": "Khu nằm ngay cạnh sân bay lớn nhất nước Đức, sát nút giao Frankfurter Kreuz - một trong những nút giao Autobahn bận rộn nhất châu Âu (khoảng 320.000 xe/ngày), có ga đường sắt cao tốc riêng phục vụ tuyến Köln-Frankfurt cùng ga S-Bahn nội khu và ga vùng dưới Terminal 1. Frankfurt Airport là sân bay đa phương thức lớn thứ hai châu Âu; năm 2025 có 94 hãng hàng không khai thác 301 điểm đến tại 96 quốc gia.",
+    "connection_modes": [
+      "đường sắt cao tốc ICE (long-distance station)",
+      "đường sắt vùng (regional station)",
+      "S-Bahn (ga Gateway Gardens, tuyến S8/S9)",
+      "xe buýt (X17, 77)",
+      "đường cao tốc Autobahn A3/A5 qua Frankfurter Kreuz",
+      "người vận chuyển MiniMetro/Squaire Metro",
+      "hàng không (Frankfurt Airport)"
+    ],
+    "metro_lines": null,
+    "rail_connections": [
+      "Cologne–Frankfurt high-speed line (tuyến cao tốc Köln–Frankfurt)",
+      "Mannheim–Frankfurt railway",
+      "Frankfurt Airport loop (Rhine-Main S-Bahn)",
+      "Main Railway (tuyến Mainz–Kelsterbach–Frankfurt)",
+      "Các dịch vụ ICE và Intercity qua Frankfurt Airport long-distance station"
+    ],
+    "cvp_brand": [
+      "Fraport AG",
+      "City of Frankfurt",
+      "Groß & Partner Grundstücksentwicklungsgesellschaft mbH",
+      "OFB Projektentwicklung GmbH",
+      "Grundstücksgesellschaft Gateway Gardens GmbH"
+    ],
+    "brand_desc": "Thương hiệu dựa trên uy tín của Fraport - hơn 60 năm kinh nghiệm quản lý bất động sản tại Frankfurt Airport, địa điểm sân bay lớn nhất châu Âu, chuyên về bất động sản phức hợp và đặc thù. Gateway Gardens được định vị là một khu vực giàu lịch sử (căn cứ không quân Mỹ Rhein-Main Air Base, \"Gateway to Europe\" 1945-2004) được tái sinh thành khu đổi mới sáng tạo, kết nối tốt, hấp dẫn và có cộng đồng doanh nghiệp mạnh; hướng tới tư duy lại nơi làm việc với tiện nghi cao và kết nối hoàn hảo.",
+    "brand_partners": [
+      "LSG Sky Chefs",
+      "Condor",
+      "SunExpress",
+      "DB Schenker",
+      "KION",
+      "KPMG",
+      "Lufthansa",
+      "Hilton Frankfurt Airport",
+      "Hilton Garden Inn Frankfurt Airport",
+      "Sheraton",
+      "Steigenberger Group",
+      "b'mine Frankfurt",
+      "Staycity Aparthotel Frankfurt Airport",
+      "Discover Airlines"
+    ],
     "vision_label": null,
     "vision_qualities": null,
     "aviation_policy": null,
-    "smart_city": null,
-    "airport_build_period": null,
-    "urban_build_period": null,
-    "brand_partners": null,
-    "connection_modes": null,
-    "metro_lines": null,
-    "airport_privilege": null,
-    "experience_desc": null,
-    "price_vs_reference": null,
-    "sales_scheme": null,
-    "_pages_used": 14
+    "sustainability": [
+      "quản lý môi trường toàn tập đoàn và cải thiện liên tục hiệu quả môi trường, sử dụng bền vững tài nguyên thiên nhiên",
+      "tích hợp yếu tố sinh thái, kinh tế và xã hội vào mọi quyết định kinh doanh",
+      "dự án GREENVOLT về hạ tầng bền vững (thiết bị cấp điện mặt đất và trạm sạc, giảm phát thải CO₂) được EU tài trợ 2,55 triệu EUR",
+      "chứng chỉ platinum DGNB (German Sustainable Construction Association) cho trụ sở Fraport AG",
+      "đối thoại với cư dân lân cận về tiếng ồn và chất lượng không khí"
+    ],
+    "logistics_park_name": "Mönchhof Logistics Parks",
+    "logistics_park_ha": 100.0,
+    "trade_park_name": "CargoCity Süd",
+    "trade_park_ha": 98.0
   },
   "provenance": {
-    "positioning": {
-      "confidence": "high"
+    "case_name": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
-    "planning_concept": {
-      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-      "source_file": "03_fraport_real_estate_energy.txt",
-      "snippet": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksent",
-      "confidence": "high"
+    "aerotropolis": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
     },
-    "subzones": {
-      "source_urls": [
-        "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-        "https://en.wikipedia.org/wiki/Frankfurt_Airport",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html"
-      ],
-      "confidence": "high"
+    "country": {
+      "confidence": "high",
+      "snippet": "German transport company which operates Frankfurt Airport",
+      "source": "S13",
+      "source_url": "https://en.wikipedia.org/wiki/Fraport",
+      "source_file": "pages/13_wikipedia_fraport.txt",
+      "source_name": "Wikipedia – Fraport"
+    },
+    "is_target": {
+      "confidence": "medium",
+      "snippet": "",
+      "source": "baseline"
+    },
+    "airport_name": {
+      "confidence": "high",
+      "snippet": "Frankfurt Airport (FRA) welcomed approximately 63.2 million passengers in 2025.",
+      "source": "S01",
+      "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
+      "source_file": "pages/01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
+      "source_name": "Fraport – Số liệu vận tải cả năm 2025"
+    },
+    "reference_city": {
+      "confidence": "medium",
+      "snippet": "The Frankfurt Rhine-Main area is officially designated as a European Metropolitan region by the German Federal Ministry of Transport, Building and Urban Affairs",
+      "source": "S14",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Rhine-Main",
+      "source_file": "pages/14_wikipedia_frankfurt_rhine_main.txt",
+      "source_name": "Wikipedia – Frankfurt Rhine-Main"
+    },
+    "official_website": {
+      "confidence": "high",
+      "snippet": "www.fraport.com",
+      "source": "S13",
+      "source_url": "https://en.wikipedia.org/wiki/Fraport",
+      "source_file": "pages/13_wikipedia_fraport.txt",
+      "source_name": "Wikipedia – Fraport"
+    },
+    "location_desc": {
+      "confidence": "medium",
+      "snippet": "is not a city district of its own, but officially belongs to the district Flughafen (German for “Airport”). The area is located directly northwest of the freeway intersection and has a surface area of around 35 hectares. It is surrounded by the federal freeways A 3 and A 5 as well as the B 43.",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
     },
     "area_km2": {
-      "unit": "km² (khu Gateway Gardens)",
+      "confidence": "medium",
+      "snippet": "The area is located directly northwest of the freeway intersection and has a surface area of around 35 hectares.",
+      "source": "S06",
       "source_url": "https://www.skylineatlas.com/gateway-gardens/",
-      "source_file": "06_skylineatlas_gateway_gardens.txt",
-      "snippet": "surface area of around 35 hectares",
-      "confidence": "high"
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
+    },
+    "urban_build_period": {
+      "confidence": "medium",
+      "snippet": "Like the air base, the housing area was closed in 2005. Since then the area is being developed into a business location for airport-related companies.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "founded_year": {
+      "confidence": "medium",
+      "snippet": "Founded\n1924\n(as\nSüdwestdeutsche Luftverkehrs AG",
+      "source": "S13",
+      "source_url": "https://en.wikipedia.org/wiki/Fraport",
+      "source_file": "pages/13_wikipedia_fraport.txt",
+      "source_name": "Wikipedia – Fraport"
+    },
+    "development_context": {
+      "confidence": "medium",
+      "snippet": "Gateway Gardens is a former housing area for the US Air Force personnel based at the Rhein-Main Air Base, close to Terminal 2. Like the air base, the housing area was closed in 2005. Since then the area is being developed into a business location for airport-related companies.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "positioning": {
+      "confidence": "medium",
+      "snippet": "Since then the area is being developed into a business location for airport-related companies.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "planning_concept": {
+      "confidence": "medium",
+      "snippet": "No apartments will be built in due to the noise pollution caused by the airport. ... already has numerous office and conference buildings, hotels, restaurants and cafés as well as a small park (2.4 hectares). Further local supply facilities, a day care centre and fitness facilities are planned.",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
+    },
+    "cornerstones": {
+      "confidence": "medium",
+      "snippet": "Airlines ... Cargo Hub ... Retail ... Meetings & Events ... Fraport Real Estate & Energy offers more than 60 years of experience in real estate management at Frankfurt Airport",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "subzones": {
+      "confidence": "medium",
+      "snippet": "The 98-hectare CargoCity Süd (South) is home to a cargo centre for dispatch service providers and freight forwarding businesses.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
     },
     "passengers_million": {
-      "unit": "triệu/năm",
+      "confidence": "high",
+      "snippet": "Frankfurt Airport (FRA) welcomed approximately 63.2 million passengers in 2025.",
+      "source": "S01",
       "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-      "source_file": "01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
-      "snippet": "welcomed around 63.2 million passengers",
-      "confidence": "high"
+      "source_file": "pages/01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
+      "source_name": "Fraport – Số liệu vận tải cả năm 2025"
     },
     "cargo_million_tonnes": {
-      "unit": "triệu tấn/năm",
+      "confidence": "high",
+      "snippet": "Cargo volumes in Frankfurt (comprising airfreight and airmail) increased by 1.1 percent in 2025 to around 2.1 million metric tons.",
+      "source": "S01",
       "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-      "source_file": "01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
-      "snippet": "to around 2.1 million metric tons",
-      "confidence": "high"
+      "source_file": "pages/01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
+      "source_name": "Fraport – Số liệu vận tải cả năm 2025"
     },
-    "airlines": {
-      "unit": "hãng",
+    "air_movements": {
+      "confidence": "high",
+      "snippet": "The number of aircraft movements climbed by 4.4 per cent, to 460,272 takeoffs and landings.",
+      "source": "S01",
       "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-      "source_file": "01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
-      "snippet": "a total of 94 airlines served",
-      "confidence": "high"
+      "source_file": "pages/01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
+      "source_name": "Fraport – Số liệu vận tải cả năm 2025"
     },
     "destinations": {
-      "unit": "điểm đến",
+      "confidence": "high",
+      "snippet": "Over the full year, flights operated by a total of 94 airlines served 301 destinations in 96 countries.",
+      "source": "S01",
       "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-      "source_file": "01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
-      "snippet": "airlines served 301 destinations",
-      "confidence": "high"
+      "source_file": "pages/01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
+      "source_name": "Fraport – Số liệu vận tải cả năm 2025"
+    },
+    "airlines": {
+      "confidence": "high",
+      "snippet": "Over the full year, flights operated by a total of 94 airlines served 301 destinations in 96 countries.",
+      "source": "S01",
+      "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
+      "source_file": "pages/01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
+      "source_name": "Fraport – Số liệu vận tải cả năm 2025"
+    },
+    "airport_area_ha": {
+      "confidence": "high",
+      "snippet": "It covers an area of\n2,300 hectares (5,683 acres)\nof land",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "total_investment_usd": {
+      "confidence": "medium",
+      "snippet": "will be developed by a project development company in which the\nCity of Frankfurt\nholds a 50 percent stake and three partners a further 50 percent. The investment volume amounts to 1.7 billion euros.",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
     },
     "investor_governance": {
+      "confidence": "high",
+      "snippet": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksentwicklungsgesellschaft mbH and OFB Projektentwicklung GmbH each hold a one-third stake. The real estate company is responsible for the direct",
+      "source": "S03",
       "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-      "source_file": "03_fraport_real_estate_energy.txt",
-      "snippet": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksent",
-      "confidence": "high"
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "gov_led_ratio_pct": {
+      "confidence": "medium",
+      "snippet": "will be developed by a project development company in which the\nCity of Frankfurt\nholds a 50 percent stake and three partners a further 50 percent.",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
+    },
+    "private_ratio_pct": {
+      "confidence": "medium",
+      "snippet": "will be developed by a project development company in which the\nCity of Frankfurt\nholds a 50 percent stake and three partners a further 50 percent.",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
     },
     "lead_developer": {
-      "source_url": "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-      "source_file": "01_fraport_s_li_u_v_n_t_i_c_n_m_2025.txt",
-      "snippet": "Fraport AG",
-      "confidence": "high"
-    },
-    "commercial_re": {
-      "source_urls": [
-        "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-        "https://www.fraport.com/en/business-areas/services/real-estate0/our-track-record.html",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-        "https://www.gateway-gardens.de/en/"
-      ],
-      "confidence": "high"
-    },
-    "basic_amenities": {
-      "source_urls": [
-        "https://www.fraport.com/en/business-areas/services/real-estate0/our-track-record.html",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-        "https://www.gateway-gardens.de/en/"
-      ],
-      "confidence": "high"
-    },
-    "highlight_amenities": {
-      "source_urls": [
-        "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-        "https://en.wikipedia.org/wiki/Frankfurt_Airport"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "The development of\nis in the responsibility of the\nGrundstücksgesellschaft Gateway Gardens GmbH\n, a joint venture between\nGroß & Partner",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
     },
     "cvp_product": {
-      "source_urls": [
-        "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-        "https://www.fraport.com/en/business-areas/services/real-estate0/our-track-record.html",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "we are experts in complex and special real estate, support national and international customers in all operational and strategic issues and offer an extensive portfolio of offices, warehouses, hangar space and lounges",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "commercial_re": {
+      "confidence": "high",
+      "snippet": "The airport ground and the surrounding area of Frankfurt Airport offer a large variety of on-airport businesses as well as airport-related businesses, including office space, hotels, shopping areas, conference rooms and car parks.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "basic_amenities": {
+      "confidence": "high",
+      "snippet": "From cafés, restaurants and a supermarket to a bilingual day-care center for children.",
+      "source": "S05",
+      "source_url": "https://www.gateway-gardens.de/en/",
+      "source_file": "pages/05_gateway_gardens_trang_ch_nh_th_c_khu.txt",
+      "source_name": "Gateway Gardens – Trang chính thức khu"
+    },
+    "highlight_amenities": {
+      "confidence": "medium",
+      "snippet": "The Airport City Mall is located on the landside of Terminal 1, departure hall B. It offers national and international retailers and label stores, a supermarket and several restaurants.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "cvp_price": {
+      "confidence": "medium",
+      "snippet": "The real estate company is responsible for the direct development of the site and the sale of the land.",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "sales_scheme": {
+      "confidence": "medium",
+      "snippet": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksentwicklungsgesellschaft mbH and OFB Projektentwicklung GmbH each hold a one-third stake. The real estate company is responsible for the direct",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
     },
     "cvp_service": {
-      "source_urls": [
-        "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-        "https://www.fraport.com/en/business-areas/services/real-estate0/our-track-record.html",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "You can rely on our comprehensive advice and support in all leasing matters... At Frankfurt Airport, we develop customized third-party office and logistics properties for our clients as their point of contact for building project development.",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "airport_privilege": {
+      "confidence": "low",
+      "snippet": "Jobs at Frankfurt Airport\nDiscounts Airport City Card",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "has_airport_privilege": {
+      "confidence": "low",
+      "snippet": "Discounts Airport City Card",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "smart_city": {
+      "confidence": "medium",
+      "snippet": "Digitalization at Fraport: for greater efficiency, innovativeness, and a more secure future... Innovative technologies such as artificial intelligence are being leveraged to update and network airport operations.",
+      "source": "S02",
+      "source_url": "https://www.fraport.com/en/investors/traffic-figures.html",
+      "source_file": "pages/02_fraport_traffic_figures_c_ng_s_li_u.txt",
+      "source_name": "Fraport – Traffic Figures (cổng số liệu)"
     },
     "cvp_experience": {
-      "source_urls": [
-        "https://www.fraport.com/en/business-areas/services/real-estate0/our-track-record.html",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html",
-        "https://www.gateway-gardens.de/en/"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "Get an overview of the new North Portal, the S-Bahn station and the spacious park. Imagine what it would be like to work here.",
+      "source": "S05",
+      "source_url": "https://www.gateway-gardens.de/en/",
+      "source_file": "pages/05_gateway_gardens_trang_ch_nh_th_c_khu.txt",
+      "source_name": "Gateway Gardens – Trang chính thức khu"
+    },
+    "experience_desc": {
+      "confidence": "medium",
+      "snippet": "The spacious areas in the greenery, the open campus character of the quarter and the extraordinary, modern architectural environment are inspiring.",
+      "source": "S05",
+      "source_url": "https://www.gateway-gardens.de/en/",
+      "source_file": "pages/05_gateway_gardens_trang_ch_nh_th_c_khu.txt",
+      "source_name": "Gateway Gardens – Trang chính thức khu"
     },
     "cvp_convenience": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Frankfurt_Airport",
-        "https://www.skylineatlas.com/gateway-gardens/"
-      ],
-      "source_files": [
-        "06_skylineatlas_gateway_gardens.txt",
-        "08_wikipedia_frankfurt_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "The building provides direct access to the train station below with 210 daily long-distance train connections, of which 185 are ICE trains.",
+      "source": "S09",
+      "source_url": "https://en.wikipedia.org/wiki/The_Squaire",
+      "source_file": "pages/09_wikipedia_the_squaire.txt",
+      "source_name": "Wikipedia – The Squaire"
+    },
+    "connectivity_desc": {
+      "confidence": "high",
+      "snippet": "Frankfurt Airport is the second-largest multimodal transport airport in Europe and has several logistics facilities.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "connection_modes": {
+      "confidence": "high",
+      "snippet": "is an underground railway station 1 kilometre (1 mi) east of Frankfurt Airport regional station on lines of the Rhine-Main S-Bahn commuter network.",
+      "source": "S11",
+      "source_url": "https://en.wikipedia.org/wiki/Gateway_Gardens_station",
+      "source_file": "pages/11_wikipedia_gateway_gardens_station.txt",
+      "source_name": "Wikipedia – Gateway Gardens station"
     },
     "rail_connections": {
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Frankfurt_Airport",
-        "https://www.gateway-gardens.de/en/"
-      ],
-      "source_files": [
-        "05_gateway_gardens_trang_ch_nh_th_c_khu.txt",
-        "08_wikipedia_frankfurt_airport.txt"
-      ],
-      "confidence": "high"
+      "confidence": "medium",
+      "snippet": "It is served by long-distance trains, mostly ICE services running on the ... Trains scheduled to use platform tracks 6 and 7 run toward Mainz Cologne, while platforms 4 and 5 are used for services toward Frankfurt Central Station, Frankfurt South station or the Mannheim–Frankfurt railway toward Mann",
+      "source": "S10",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport_long-distance_station",
+      "source_file": "pages/10_wikipedia_frankfurt_airport_long_distance_station.txt",
+      "source_name": "Wikipedia – Frankfurt Airport long-distance station"
     },
     "cvp_brand": {
-      "source_urls": [
-        "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
-        "https://en.wikipedia.org/wiki/Frankfurt_Airport",
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "Gateway Gardens is a joint project of the City of Frankfurt and the Gateway Gardens GmbH real estate company, in which Fraport AG, Groß & Partner Grundstücksentwicklungsgesellschaft mbH and OFB Projektentwicklung GmbH each hold a one-third stake.",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "brand_desc": {
+      "confidence": "high",
+      "snippet": "Gateway Gardens, a location steeped in history, reinvented. Part of the US airbase and the “Gateway to Europe” from 1945 to 2004, it is now an innovative quarter that is not just conveniently located but also an attractive place to visit, well-connected and home to a fantastic business community",
+      "source": "S05",
+      "source_url": "https://www.gateway-gardens.de/en/",
+      "source_file": "pages/05_gateway_gardens_trang_ch_nh_th_c_khu.txt",
+      "source_name": "Gateway Gardens – Trang chính thức khu"
+    },
+    "brand_partners": {
+      "confidence": "high",
+      "snippet": "The first new building ( LSG Sky Chefs ) went into operation in May 2008. In May 2012, Condor moved its headquarters from neighbouring Kelsterbach here. The German headquarters of Sunexpress , the headquarters of the logistics group DB Schenker and the headquarters of KION",
+      "source": "S06",
+      "source_url": "https://www.skylineatlas.com/gateway-gardens/",
+      "source_file": "pages/06_skylineatlas_gateway_gardens.txt",
+      "source_name": "SkylineAtlas – Gateway Gardens"
     },
     "sustainability": {
-      "source_urls": [
-        "https://www.fraport.com/en/newsroom/press-releases/2026/traffic-figures/fraport-traffic-figures-2025.html"
-      ],
-      "confidence": "high"
+      "confidence": "high",
+      "snippet": "With the GREENVOLT project, Fraport is advancing sustainable infrastructure at Frankfurt Airport. Supported by EU funding, innovative ground power units and charging points are being installed—reducing CO₂ emissions and ensuring future-ready airport operations.",
+      "source": "S12",
+      "source_url": "https://www.fraport.com/en/sustainability.html",
+      "source_file": "pages/12_fraport_sustainability.txt",
+      "source_name": "Fraport – Sustainability"
+    },
+    "logistics_park_name": {
+      "confidence": "high",
+      "snippet": "Mönchhof Logistics Parks\nAttractive business park in close proximity to the airport\nThe Mönchhof area was once an old refinery site that was converted into a business park.",
+      "source": "S03",
+      "source_url": "https://b2b.frankfurt-airport.com/en/real-estate-it-services/fraport-real-estate-energy.html",
+      "source_file": "pages/03_fraport_real_estate_energy.txt",
+      "source_name": "Fraport – Real Estate & Energy"
+    },
+    "logistics_park_ha": {
+      "confidence": "high",
+      "snippet": "The Mönchhof Development Area used to be an old refinery site. We converted it into a commercial site comprising some 100 hectares of gross space.",
+      "source": "S04",
+      "source_url": "https://www.fraport.com/en/business-areas/services/real-estate0/our-track-record.html",
+      "source_file": "pages/04_fraport_our_track_record_danh_m_c_b_s.txt",
+      "source_name": "Fraport – Our Track Record (danh mục BĐS)"
+    },
+    "trade_park_name": {
+      "confidence": "medium",
+      "snippet": "The 98-hectare CargoCity Süd (\nSouth\n) is home to a cargo centre for dispatch service providers and freight forwarding businesses.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
+    },
+    "trade_park_ha": {
+      "confidence": "high",
+      "snippet": "The 98-hectare CargoCity Süd (\nSouth\n) is home to a cargo centre for dispatch service providers and freight forwarding businesses.",
+      "source": "S08",
+      "source_url": "https://en.wikipedia.org/wiki/Frankfurt_Airport",
+      "source_file": "pages/08_wikipedia_frankfurt_airport.txt",
+      "source_name": "Wikipedia – Frankfurt Airport"
     }
+  },
+  "missing": {
+    "distance_to_city_km": "Tài liệu không nêu khoảng cách từ khu đô thị/sân bay tới trung tâm Frankfurt.",
+    "airport_build_period": "Tài liệu không nêu giai đoạn xây dựng sân bay dưới dạng YYYY-YYYY.",
+    "transfer_pct": "Tài liệu không nêu tỷ lệ hành khách transfer.",
+    "employees": "Chỉ có số nhân viên của Fraport AG (20.591 năm 2024) chứ không phải tổng số người làm việc trong khu đô thị sân bay.",
+    "num_companies_airport": "Tài liệu không nêu số doanh nghiệp hoạt động tại sân bay.",
+    "num_companies_realestate": "Tài liệu không nêu số doanh nghiệp thuê bất động sản trong khu.",
+    "num_office_buildings": "Tài liệu chỉ nói \"numerous office and conference buildings\" và liệt kê một số dự án, không nêu con số tổng cụ thể.",
+    "jobs_created": "Chỉ có ước tính 3.400–4.000 việc làm mới từ nghiên cứu khả thi của dự án Airrail Centre (dự báo, không phải số thực tế) và không phải cho toàn khu.",
+    "economic_zone_name": "Tài liệu không nhắc tới tên khu kinh tế đặc biệt/FTZ gắn với khu đô thị sân bay Frankfurt.",
+    "economic_zone_year": "Không có thông tin về đặc khu kinh tế nên không có năm thành lập.",
+    "residential_product_desc": "Nguồn nêu rõ Gateway Gardens không xây căn hộ (\"No apartments will be built\"), khu định hướng thương mại - văn phòng nên không có sản phẩm nhà ở.",
+    "residential_highrise_pct": "Tài liệu không nêu tỷ lệ nhà ở cao tầng.",
+    "residential_lowrise_pct": "Tài liệu không nêu tỷ lệ nhà ở thấp tầng.",
+    "residential_land_pct": "Tài liệu không nêu tỷ lệ đất ở.",
+    "office_rent_eur_m2_year": "Tài liệu không có dòng chào giá thuê văn phòng (Starting at/From) theo EUR/m²/năm.",
+    "cvp_price_note": "Không có bằng chứng về đơn vị/điều kiện giá trong tài liệu.",
+    "price_vs_reference": "Tài liệu không so sánh mặt bằng giá của khu với thành phố tham chiếu.",
+    "living_fee_usd_per_m2_month": "Tài liệu không nêu phí quản lý/duy trì.",
+    "has_urban_service_fee": "Không có bằng chứng về phí dịch vụ đô thị trong tài liệu.",
+    "has_smart_city": "Tài liệu chỉ nói về số hóa vận hành sân bay của Fraport, không có bằng chứng về tích hợp hạ tầng số/IoT ở cấp khu đô thị.",
+    "metro_lines": "Tài liệu nêu ga Gateway Gardens thuộc mạng S-Bahn Rhein-Main và nhắc tới S9, nhưng không nêu rõ tổng số tuyến S-Bahn/metro phục vụ khu.",
+    "vision_label": "Tài liệu không nêu nhãn tầm nhìn kiểu 'Vision 20xx' cho khu đô thị sân bay Frankfurt (chỉ có tên chiến lược tập đoàn Fraport.2023, không phải tầm nhìn khu đô thị).",
+    "vision_qualities": "Không có bằng chứng về bộ trụ giá trị tầm nhìn của khu đô thị sân bay trong tài liệu.",
+    "aviation_policy": "Tài liệu không nêu văn bản chính sách hàng không/quy hoạch chi phối sự phát triển của khu."
+  },
+  "_meta": {
+    "case": "frankfurt",
+    "extractor": "extract_llm.py",
+    "schema": "features/ws1_airport/schema.json",
+    "model": "claude-opus-5",
+    "generated_at": "2026-08-19T14:18:58+0700",
+    "fields_total": 75,
+    "fields_filled": 51,
+    "coverage_pct": 68.0,
+    "high_confidence": 24,
+    "from_baseline": 3,
+    "dossier": {
+      "pages_total": 14,
+      "pages_kept": 14,
+      "raw_chars": 566868,
+      "dossier_chars": 138604
+    },
+    "warnings": [],
+    "narrative_groups": 13
+  },
+  "narrative": {
+    "identity": "**Frankfurt Airport City** là hồ sơ về aerotropolis **Frankfurt Airport City / Gateway Gardens** tại **Đức**, gắn với **Frankfurt Airport** và thành phố tham chiếu **Frankfurt Rhine-Main**. Đây không phải dự án mục tiêu, và thông tin chính thức được công bố tại **https://www.fraport.com**.",
+    "location": "**Gateway Gardens** nằm trong quận **Flughafen** (\"Sân bay\") của **Frankfurt**, ngay phía tây bắc nút giao **Frankfurter Kreuz**, được bao quanh bởi các đường cao tốc liên bang **A 3**, **A 5** và **B 43**, sát **Terminal 2** của sân bay và vốn là cựu khu nhà ở của không quân Mỹ tại **Rhein-Main Air Base**. Khu đô thị rộng **0,35 km²**, thành lập từ năm **1924** và được xây dựng trong giai đoạn **2005-nay**. Khu nhà ở quân nhân từng đóng vai trò \"cửa ngõ vào châu Âu\" giai đoạn **1945–2004**; sau khi căn cứ và khu nhà ở đóng cửa năm **2005**, khu đất được chuyển đổi thành địa điểm kinh doanh cho các doanh nghiệp gắn với sân bay, và tháng **2/2008** hội đồng thành phố phê duyệt quy hoạch phát triển khu mới.",
+    "positioning": "Khu được định vị là **Airport City** – khu đô thị/địa điểm kinh doanh gắn với sân bay dành cho các doanh nghiệp liên quan hàng không, phát triển theo mô hình campus mở và không xây căn hộ ở do tiếng ồn máy bay, kết hợp hạ tầng kết nối tốt với môi trường xanh (công viên **2,4 ha**), văn phòng, khách sạn, nhà trẻ, dịch vụ tiện ích và thể thao. Các trụ cột gồm văn phòng, bán lẻ, logistics/kho vận (**Cargo Hub**), bất động sản & năng lượng, hội họp & sự kiện (**MICE**) cùng vận hành sân bay và dịch vụ mặt đất, phân bổ trong các phân khu **Gateway Gardens**, **The Squaire**, **CargoCity Süd**, **Mönchhof Logistics Parks** và **Terminal 3**.",
+    "kpi": "Sân bay phục vụ **63,2 triệu** khách/năm và **2,1 triệu** tấn hàng hoá/năm, với **460.272** lượt cất hạ cánh mỗi năm. Mạng lưới khai thác đạt **301** điểm đến cùng **94** hãng bay, trên diện tích sân bay **2.300 ha**.",
+    "investment": "Tổng vốn đầu tư cho **Gateway Gardens** là **1,7 tỷ euro** (nguồn không quy đổi ra USD), với cơ cấu **50%** nhà nước và **50%** tư nhân. Dự án là hợp tác giữa **Thành phố Frankfurt** và công ty bất động sản **Gateway Gardens GmbH**, trong đó **Fraport AG**, **Groß & Partner Grundstücksentwicklungsgesellschaft mbH** và **OFB Projektentwicklung GmbH** mỗi bên nắm một phần ba cổ phần, còn công ty bất động sản chịu trách nhiệm trực tiếp phát triển khu đất và bán đất. Bên dẫn dắt là **Grundstücksgesellschaft Gateway Gardens GmbH**, trong khi **Fraport AG** do Nhà nước bang **Hessen** (**31,31%**) và **Stadtwerke Frankfurt am Main Holding GmbH** (**20,32%**) nắm giữ phần lớn.",
+    "product": "Sản phẩm chào bán gồm văn phòng, kho vận (warehouse), không gian hangar, phòng chờ (lounge), bất động sản logistics, khách sạn và bán lẻ; bất động sản thương mại trải rộng từ văn phòng, khách sạn, trung tâm hội nghị, bán lẻ/mua sắm đến kho vận, logistics và bãi đỗ xe. Tiện ích cơ bản có quán cà phê & nhà hàng, siêu thị, nhà trẻ song ngữ, công viên (**2,4 ha**), phòng tập thể hình/fitness, khách sạn, phòng hội nghị và bãi đỗ xe. Các điểm nhấn gồm **The Squaire**, **Airport City Mall**, **Frankfurt Airport Centre** (**FAC 1**, **FAC 2**), **Sheraton Hotel & Conference Centre**, **b'mine Hotel Frankfurt Airport** và **Alpha Rotex**.",
+    "price": "Doanh thu đến chủ yếu từ cho thuê bất động sản (văn phòng, kho, hangar, lounge) và bán đất/quyền phát triển, trong đó **Grundstücksgesellschaft Gateway Gardens GmbH** chịu trách nhiệm phát triển hạ tầng và bán đất trong khu. Cơ chế vận hành theo mô hình **B2B**: công ty phát triển dự án **Gateway Gardens GmbH** – liên doanh giữa **Fraport AG**, **Groß & Partner**, **OFB** cùng **City of Frankfurt** – trực tiếp phát triển hạ tầng rồi bán đất cho nhà đầu tư/doanh nghiệp, phần còn lại cho thuê văn phòng, kho và hangar.",
+    "service": "Dịch vụ cung cấp gồm tư vấn và hỗ trợ toàn diện về cho thuê (leasing), quản lý tài sản & quản lý bất động sản, quản lý năng lượng, phát triển dự án & đầu tư, phát triển bất động sản văn phòng và logistics theo yêu cầu khách hàng, cùng dịch vụ CNTT (**Fraport IT-Services**). Khu có chương trình ưu đãi dành riêng cho cộng đồng sân bay với \"**Discounts Airport City Card**\" và các ưu đãi cho nhân viên làm việc tại sân bay. Không có mô tả về đô thị thông minh cấp khu; chỉ có chiến lược số hóa của **Fraport** cho vận hành sân bay gồm số hóa, **Digital Factory**, ứng dụng trí tuệ nhân tạo (**AI@Fraport**), chiến lược robotics và **Airport Community App**.",
+    "experience": "Trải nghiệm tại khu gồm nhà hàng, quán cà phê và bar, mua sắm/bán lẻ, công viên xanh rộng **2,4 ha**, phòng tập thể hình, khách sạn, hội nghị & sự kiện cùng tour tham quan **360** độ khu (360-degree panorama). **Gateway Gardens** định vị là khu làm việc kiểu campus mở, nhiều không gian xanh và kiến trúc hiện đại, đặt con người và nhu cầu của họ làm trung tâm, với đầy đủ tiện ích cho đời sống hằng ngày như cà phê, nhà hàng, siêu thị và nhà trẻ song ngữ. Bên phía sân bay có các nhà hàng, cửa hàng, bar tạo nên một 'marketplace' sôi động cho hành khách và khách tham quan.",
+    "convenience": "Khu có ga **S-Bahn** ngầm **Gateway Gardens** (tuyến **S8**, **S9**, khai trương **2019**) cách ga vùng sân bay khoảng **1 km**, ga đường dài **Frankfurt Airport long-distance station** với **210** chuyến tàu đường dài/ngày trong đó **185** chuyến **ICE**, ga vùng **Frankfurt Airport regional station** dưới **Terminal 1**, nút giao cao tốc **Frankfurter Kreuz** (**A3**/**A5**) với khoảng **320.000** xe/ngày, kết nối trực tiếp **The Squaire** với **Terminal 1** bằng hành lang đi bộ và người vận chuyển **MiniMetro** (**Squaire Metro**), cùng các tuyến xe buýt **X17**, **77**. Vị trí nằm ngay cạnh sân bay lớn nhất nước **Đức**, sát **Frankfurter Kreuz** – một trong những nút giao **Autobahn** bận rộn nhất châu Âu – và có ga đường sắt cao tốc riêng phục vụ tuyến **Köln-Frankfurt**; **Frankfurt Airport** là sân bay đa phương thức lớn thứ hai châu Âu, năm **2025** có **94** hãng hàng không khai thác **301** điểm đến tại **96** quốc gia. Các phương thức kết nối gồm đường sắt cao tốc **ICE**, đường sắt vùng, **S-Bahn**, xe buýt, **Autobahn A3/A5**, **MiniMetro/Squaire Metro** và hàng không, dựa trên các tuyến **Cologne–Frankfurt high-speed line**, **Mannheim–Frankfurt railway**, **Frankfurt Airport loop** (**Rhine-Main S-Bahn**), **Main Railway** (tuyến **Mainz–Kelsterbach–Frankfurt**) cùng các dịch vụ **ICE** và **Intercity**.",
+    "brand": "Thương hiệu chủ lực gồm **Fraport AG**, **City of Frankfurt**, **Groß & Partner Grundstücksentwicklungsgesellschaft mbH**, **OFB Projektentwicklung GmbH** và **Grundstücksgesellschaft Gateway Gardens GmbH**, dựa trên uy tín của **Fraport** với hơn **60 năm** kinh nghiệm quản lý bất động sản tại **Frankfurt Airport** – địa điểm sân bay lớn nhất châu Âu, chuyên về bất động sản phức hợp và đặc thù. **Gateway Gardens** được định vị là một khu vực giàu lịch sử – căn cứ không quân Mỹ **Rhein-Main Air Base**, \"**Gateway to Europe**\" **1945-2004** – được tái sinh thành khu đổi mới sáng tạo, kết nối tốt, hấp dẫn và có cộng đồng doanh nghiệp mạnh, hướng tới tư duy lại nơi làm việc với tiện nghi cao và kết nối hoàn hảo. Các đối tác thương hiệu gồm **LSG Sky Chefs**, **Condor**, **SunExpress**, **DB Schenker**, **KION**, **KPMG**, **Lufthansa**, **Hilton Frankfurt Airport**, **Hilton Garden Inn Frankfurt Airport**, **Sheraton**, **Steigenberger Group**, **b'mine Frankfurt**, **Staycity Aparthotel Frankfurt Airport** và **Discover Airlines**.",
+    "vision": "Định hướng bền vững đặt trọng tâm vào quản lý môi trường toàn tập đoàn và cải thiện liên tục hiệu quả môi trường, sử dụng bền vững tài nguyên thiên nhiên, đồng thời tích hợp yếu tố sinh thái, kinh tế và xã hội vào mọi quyết định kinh doanh. Dự án **GREENVOLT** về hạ tầng bền vững – gồm thiết bị cấp điện mặt đất và trạm sạc nhằm giảm phát thải **CO₂** – được **EU** tài trợ **2,55 triệu EUR**, trong khi trụ sở **Fraport AG** đạt chứng chỉ platinum **DGNB** (**German Sustainable Construction Association**); khu cũng duy trì đối thoại với cư dân lân cận về tiếng ồn và chất lượng không khí.",
+    "parks": "Khu logistics **Mönchhof Logistics Parks** có diện tích **100 ha**, còn khu thương mại/công nghiệp **CargoCity Süd** rộng **98 ha**."
   }
 }
