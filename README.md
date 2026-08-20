@@ -138,23 +138,22 @@ mag-data-crawler/
 ├── refer_file/
 │   ├── aerotropolis.txt                # ★ ĐẦU VÀO GỐC: danh sách tên aerotropolis
 │   └── cases.csv · sources.csv · sources.xlsx   # registry nguồn (sinh ra)
-├── refer_img/                          # 2 slide gốc — tham chiếu feature & thiết kế trang
+├── refer_img/                          # slide gốc — tham chiếu feature & thiết kế trang
 ├── features/ws1_airport/
 │   ├── feature_spec.md                 # [1] định nghĩa feature dạng văn bản
-│   └── schema.json                     # ★ 75 trường máy đọc: nhóm, kiểu, đơn vị, keyword lọc
+│   ├── schema.json                     # ★ 75 trường máy đọc: nhóm, kiểu, đơn vị, keyword lọc
+│   └── cases_registry.json             # định danh case đã biết (tên VN, website chính thức)
 ├── agent_extractor/
 │   ├── SKILL.md                        # meta-skill: spec -> extractor
 │   └── ws1_airport/
 │       ├── llm_prep.py                 # ★ nén raw -> dossier (bỏ boilerplate, chấm điểm block)
 │       ├── extract_llm.py              # ★ extractor LLM: 75 trường + provenance
-│       └── extract_airport_city.py     # extractor regex — giữ làm baseline + REGISTRY định danh case
 ├── raw_data/
 │   ├── crawler/crawl_sources.py        # ★ crawler chính (Playwright, append, PDF, đọc registry)
 │   └── output/ws1_airport/
 │       ├── raw/<case>/                 # pages/*.{html,txt,png} + manifest.json + crawl_log.csv
 │       ├── features/                   # <case>_airport_city.json + benchmark + coverage_*
-│       │   └── _deterministic/         # bản regex trước khi LLM ghi đè (để đối chiếu)
-│       └── _llm_log/                   # phản hồi JSON thô của model, theo case & lượt
+│       └── _llm_log/                   # phản hồi JSON thô của model (không commit, xoá được)
 ├── html/
 │   ├── build_portal.py                 # ★ cổng tra cứu: tìm kiếm + modal chi tiết
 │   ├── harvest_images.py               # thu + nén ảnh minh hoạ -> assets/<case>/
@@ -188,7 +187,7 @@ Không cần viết regex riêng, không cần tự tuyển URL: discover tìm n
 LLM đọc hiểu văn bản.
 
 Muốn định danh chuẩn hơn (tên tiếng Việt, website chính thức) thì thêm case vào
-`REGISTRY` trong [`extract_airport_city.py`](agent_extractor/ws1_airport/extract_airport_city.py).
+[`features/ws1_airport/cases_registry.json`](features/ws1_airport/cases_registry.json).
 
 ## Thêm một trường mới
 
@@ -206,15 +205,24 @@ Prompt, validator và trang web đều đọc từ file này — không hardcode
   Trường không có bằng chứng → `null` + lý do trong `missing`, không suy đoán.
 - **Mã nguồn được đối chiếu ngược.** LLM phải dẫn mã `[Snn]`; mã không khớp
   `manifest.json` bị hạ `confidence` xuống `low` và gắn cờ `unverified_source`.
-- **Không mất dữ liệu cũ.** Bản regex được backup sang `features/_deterministic/`;
-  trường LLM không xác minh được vẫn giữ giá trị regex, đánh dấu `source=baseline`.
 - **Ưu tiên nguồn chuẩn khi xung đột.** Chỉ số headline lấy từ trang thống kê
   chính thức, tránh số marketing kiểu "over 300".
 - Crawl hợp pháp: tôn trọng `robots.txt`, không vượt auth/paywall.
 
 ## Ghi chú
 
-`extract_airport_city.py` (1133 dòng regex) không còn nằm trong pipeline nhưng vẫn
-được giữ vì hai lý do: `REGISTRY` trong đó là nguồn định danh case cho
-`build_source_registry.py`, và bản trích của nó trong
-`features/_deterministic/` là mốc đối chiếu để phát hiện LLM trả sai.
+Extractor regex `extract_airport_city.py` đã được gỡ khỏi repo. Phần duy nhất còn
+cần từ nó — bảng định danh case — nay nằm ở
+[`features/ws1_airport/cases_registry.json`](features/ws1_airport/cases_registry.json),
+do `build_source_registry.py` đọc trực tiếp.
+
+Cùng với nó, thư mục `features/_deterministic/` (mốc đối chiếu bản regex) cũng đã bị
+xoá. Hệ quả: `llm_prep.baseline_record()` nay rơi xuống nhánh dự phòng là đọc chính
+`features/<case>_airport_city.json` — tức output LLM lần trước — nên **lần extract sau
+sẽ tự xác nhận lại kết quả cũ thay vì đối chiếu với baseline độc lập**
+([`llm_prep.py:186`](agent_extractor/ws1_airport/llm_prep.py#L186)).
+Cần mốc độc lập trở lại thì khôi phục thư mục từ git:
+
+```bash
+git checkout <commit-trước-khi-xoá> -- raw_data/output/ws1_airport/features/_deterministic
+```

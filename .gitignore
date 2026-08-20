@@ -24,6 +24,11 @@ Thumbs.db
 # Log phản hồi thô của model (dựng lại được bằng cách chạy lại extract_llm.py)
 raw_data/output/**/_llm_log/
 
+# Log tiến trình batch (run_all.sh / run_batch.sh) — chỉ có giá trị trong lúc chạy
+raw_data/output/**/_batch_*.log
+raw_data/output/**/_batch_*.out
+raw_data/output/**/_proxy_*.log
+
 # Proxy runtime
 code_proxy/runtime/
 code_proxy/proxy.log

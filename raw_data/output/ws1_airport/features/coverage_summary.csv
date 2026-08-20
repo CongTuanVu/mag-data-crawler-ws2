@@ -4,7 +4,7 @@ dfw,Dallas–Fort Worth Aerotropolis,extract_llm.py,75,49,65.3,17,31,1,4,0,26
 dubai_south,Dubai South,extract_llm.py,75,52,69.3,28,22,2,1,0,23
 frankfurt,Frankfurt Airport City,extract_llm.py,75,51,68.0,24,25,2,3,0,24
 hong_kong,Hong Kong Airport City / SKYCITY,extract_llm.py,75,55,73.3,29,24,2,1,0,20
-incheon,Incheon Airport City / IFEZ,extract_llm.py,75,57,76.0,38,18,1,2,0,18
+incheon,Incheon Airport City / IFEZ,extract_llm.py,75,54,72.0,36,18,0,2,0,21
 kuala_lumpur,KLIA Aeropolis,extract_llm.py,75,47,62.7,29,15,3,3,0,28
 schiphol,Schiphol Airport City,extract_llm.py,75,61,81.3,44,15,2,4,0,14
 taoyuan,Taoyuan Aerotropolis,extract_llm.py,75,56,74.7,40,16,0,1,0,19

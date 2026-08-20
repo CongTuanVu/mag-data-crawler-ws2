@@ -79,7 +79,7 @@ def main() -> None:
         prov = data.get("provenance", {})
         miss = data.get("missing", {})
         case = path.name.replace("_airport_city.json", "")
-        extractor = data.get("_meta", {}).get("extractor", "extract_airport_city.py (regex)")
+        extractor = data.get("_meta", {}).get("extractor", "không rõ")
 
         key = rec.get("case_name")
         if not key:

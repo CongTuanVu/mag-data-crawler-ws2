@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import importlib.util
 import json
 import re
 import subprocess
@@ -41,7 +40,7 @@ WS = "ws1_airport"
 ROOT = Path(__file__).resolve().parents[1]
 REFER = ROOT / "refer_file"
 RAW = ROOT / "raw_data" / "output" / WS / "raw"
-EXTRACTOR = ROOT / "agent_extractor" / WS / "extract_airport_city.py"
+CASES_REGISTRY = ROOT / "features" / WS / "cases_registry.json"
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 FIELD_RE = re.compile(r"`([a-z][a-z0-9_]{2,})`")
@@ -222,10 +221,10 @@ def load_manifest(case_id: str) -> tuple[dict, dict]:
 
 
 def load_registry() -> dict:
-    spec = importlib.util.spec_from_file_location("_extract_airport_city", EXTRACTOR)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod.REGISTRY
+    """Định danh case đã biết, đọc từ features/<ws>/cases_registry.json."""
+    if not CASES_REGISTRY.exists():
+        return {}
+    return json.loads(CASES_REGISTRY.read_text(encoding="utf-8")).get("cases", {})
 
 
 def build(rev: str) -> tuple[list[dict], list[dict]]:

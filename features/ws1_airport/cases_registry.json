@@ -1,0 +1,97 @@
+{
+  "version": "v1",
+  "workstream": "ws1_airport",
+  "note": "Định danh case đã biết — không suy ra được từ raw. build_source_registry.py đọc file này để khớp dòng trong refer_file/aerotropolis.txt với case_id ổn định.",
+  "cases": {
+    "schiphol": {
+      "case_name": "Schiphol Airport City",
+      "aerotropolis": "Schiphol Airport City / Amsterdam Aerotropolis",
+      "country": "Hà Lan",
+      "is_target": false,
+      "airport_name": "Amsterdam Airport Schiphol",
+      "reference_city": "Amsterdam",
+      "official_website": "https://www.schiphol.nl"
+    },
+    "incheon": {
+      "case_name": "Incheon Airport City / IFEZ",
+      "aerotropolis": "Incheon Aerotropolis / Incheon Free Economic Zone",
+      "country": "Hàn Quốc",
+      "is_target": false,
+      "airport_name": "Incheon International Airport",
+      "reference_city": "Incheon – Seoul",
+      "official_website": "https://www.airport.kr"
+    },
+    "taoyuan": {
+      "case_name": "Taoyuan Aerotropolis",
+      "aerotropolis": "Taoyuan Aerotropolis / Đô thị sân bay Đào Viên",
+      "country": "Đài Loan",
+      "is_target": false,
+      "airport_name": "Taiwan Taoyuan International Airport",
+      "reference_city": "Đào Viên – Đài Bắc",
+      "official_website": "https://www.taoyuanairport.com.tw"
+    },
+    "western_sydney": {
+      "case_name": "Western Sydney Aerotropolis",
+      "aerotropolis": "Western Sydney Aerotropolis / Bradfield City",
+      "country": "Úc",
+      "is_target": false,
+      "airport_name": "Western Sydney International (Nancy-Bird Walton)",
+      "reference_city": "Sydney",
+      "official_website": "https://www.wsiairport.com.au"
+    },
+    "dubai_south": {
+      "case_name": "Dubai South",
+      "aerotropolis": "Dubai South / Dubai World Central",
+      "country": "UAE",
+      "is_target": false,
+      "airport_name": "Al Maktoum International Airport",
+      "reference_city": "Dubai",
+      "official_website": "https://www.dubaisouth.ae"
+    },
+    "changi": {
+      "case_name": "Singapore Changi Aerotropolis",
+      "aerotropolis": "Changi Airport City / Changi East",
+      "country": "Singapore",
+      "is_target": false,
+      "airport_name": "Singapore Changi Airport",
+      "reference_city": "Singapore",
+      "official_website": "https://www.changiairport.com"
+    },
+    "hong_kong": {
+      "case_name": "Hong Kong Airport City / SKYCITY",
+      "aerotropolis": "Hong Kong Airport City / SKYCITY",
+      "country": "Hong Kong",
+      "is_target": false,
+      "airport_name": "Hong Kong International Airport",
+      "reference_city": "Hong Kong",
+      "official_website": "https://www.hongkongairport.com"
+    },
+    "frankfurt": {
+      "case_name": "Frankfurt Airport City",
+      "aerotropolis": "Frankfurt Airport City / Gateway Gardens",
+      "country": "Đức",
+      "is_target": false,
+      "airport_name": "Frankfurt Airport",
+      "reference_city": "Frankfurt Rhine-Main",
+      "official_website": "https://www.fraport.com"
+    },
+    "dfw": {
+      "case_name": "Dallas–Fort Worth Aerotropolis",
+      "aerotropolis": "DFW Aerotropolis / DFW Airport commercial land",
+      "country": "Mỹ",
+      "is_target": false,
+      "airport_name": "Dallas Fort Worth International Airport",
+      "reference_city": "Dallas – Fort Worth",
+      "official_website": "https://www.dfwairport.com"
+    },
+    "kuala_lumpur": {
+      "case_name": "KLIA Aeropolis",
+      "aerotropolis": "KLIA Aeropolis / Airport City Sepang",
+      "country": "Malaysia",
+      "is_target": false,
+      "airport_name": "Kuala Lumpur International Airport",
+      "reference_city": "Kuala Lumpur – Sepang",
+      "official_website": "https://www.aeropolis.com.my"
+    }
+  }
+}

@@ -12,7 +12,7 @@ western_sydney,Western Sydney Aerotropolis,Western Sydney Aerotropolis / Bradfie
 zhengzhou,Zhengzhou Airport Economy Zone (ZAEZ),Zhengzhou Airport Economy Zone (ZAEZ),🇨🇳 Trung Quốc,,Zhengzhou Xinzheng International (CGO),,,refer_file/sources.csv,20,0,0,
 beijing_daxing,Beijing Daxing Airport Economic Zone,Beijing Daxing Airport Economic Zone,🇨🇳 Trung Quốc,,Beijing Daxing International (PKX),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 chengdu_tianfu,Chengdu Tianfu Airport City,Chengdu Tianfu Airport City,🇨🇳 Trung Quốc,,Chengdu Tianfu International (TFU),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-shanghai_hongqiao,Shanghai Hongqiao Airport Economy Zone / CBD,Shanghai Hongqiao Airport Economy Zone / CBD,🇨🇳 Trung Quốc,,Shanghai Hongqiao (SHA),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
+shanghai_hongqiao,Shanghai Hongqiao Airport Economy Zone / CBD,Shanghai Hongqiao Airport Economy Zone / CBD,🇨🇳 Trung Quốc,,Shanghai Hongqiao (SHA),,,refer_file/_discovered/,16,16,16,2026-08-19T09:23:04.024106+00:00
 guangzhou_baiyun,Guangzhou Baiyun Airport Economic Zone,Guangzhou Baiyun Airport Economic Zone,🇨🇳 Trung Quốc,,Guangzhou Baiyun International (CAN),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 roissy_cdg,Roissy–CDG / Le Bourget Aerotropolis,Roissy–CDG / Le Bourget Aerotropolis,🇫🇷 Pháp,,Paris Charles de Gaulle (CDG),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 munich,Munich Airport City,Munich Airport City,🇩🇪 Đức,,Munich Airport (MUC),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,

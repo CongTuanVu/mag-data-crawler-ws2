@@ -31,7 +31,7 @@ dự án **Gia Bình Airport City (GBAC)**.
 ## Schema thực thi (web extraction) — v2 · CHỐT
 
 > Đây là **schema mà pipeline đang sinh thật**: `crawl_sources.py` crawl website
-> chính thức → `extract_airport_city.py` (deterministic, không LLM) → record +
+> chính thức → `llm_prep.py` nén raw → `extract_llm.py` (LLM) → record +
 > provenance. Mỗi trường kèm `source_url`, `source_file`, `snippet`, `confidence`.
 > Cột "ví dụ" lấy từ case **Schiphol Airport City** (39 trường có dữ liệu / 28 trang).
 > Group A/B bên dưới là khung khái niệm gốc từ 2 slide (giữ để đối chiếu benchmark).

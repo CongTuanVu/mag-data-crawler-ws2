@@ -10,8 +10,7 @@ agent_extractor/
 ├── SKILL.md                      # meta-skill: quy trình chung để sinh extractor
 └── <workstream>/
     ├── llm_prep.py               # nén raw đã crawl thành dossier cho model
-    ├── extract_llm.py            # OUTPUT chính: điền feature bằng LLM + provenance
-    └── extract_airport_city.py   # bản deterministic (regex) — baseline đối chiếu
+    └── extract_llm.py            # OUTPUT chính: điền feature bằng LLM + provenance
 ```
 
 ## Nguyên tắc
@@ -27,6 +26,10 @@ Xem [`SKILL.md`](SKILL.md) để biết quy trình sinh code.
 
 ## Hai thế hệ extractor cho ws1_airport
 
+> Bản regex `extract_airport_city.py` và thư mục backup `features/_deterministic/`
+> đã được gỡ khỏi repo; bảng dưới giữ lại để hiểu vì sao pipeline chuyển sang LLM.
+> Bảng định danh case trong đó nay nằm ở `features/ws1_airport/cases_registry.json`.
+
 | | `extract_airport_city.py` (regex) | `extract_llm.py` (LLM) |
 |---|---|---|
 | Cách hoạt động | 1133 dòng regex + từ khoá bám theo cách hành văn từng website | Đọc hiểu dossier đã nén từ raw, model trả JSON theo `schema.json` |
@@ -35,9 +38,6 @@ Xem [`SKILL.md`](SKILL.md) để biết quy trình sinh code.
 | Case mới | phải viết thêm regex riêng | chạy được ngay, không sửa code |
 | Chi phí | miễn phí, tức thì | ~90 giây/case qua `code_proxy` |
 | Vai trò hiện tại | **baseline đối chiếu** — giá trị LLM không xác minh được thì giữ bản này (`source=baseline`) | **đường chính** |
-
-Bản regex được backup sang `raw_data/output/ws1_airport/features/_deterministic/`
-trước khi LLM ghi đè, nên luôn so lại được hai thế hệ.
 
 Chống bịa dữ liệu trong `extract_llm.py`:
 

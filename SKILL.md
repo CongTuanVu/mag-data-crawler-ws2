@@ -69,7 +69,7 @@ Bốn lớp bảo vệ dưới đây sinh ra từ lỗi thật đã gặp — đ
 |---|---|---|
 | Lấy **công suất/dự báo** làm số thực tế | Dubai South "capacity for up to 260 million passengers" → 260 tr khách/năm | Quy tắc 8 trong `SYSTEM_RULES`: cấm "capacity for", "when complete", "by 2030"; trả null kèm lý do |
 | Lấy **sai phạm vi** diện tích | Schiphol 350 ha (Trade Park) → `area_km2 = 3,5` cho cả khu đô thị | Quy tắc 9 + hàm `cross_check()` đối chiếu `area_km2` với `*_park_ha` |
-| Baseline sai **tự củng cố** qua các lần chạy | `baseline_record()` đọc chính file output nên vòng sau xác nhận lại lỗi vòng trước | Đọc `features/_deterministic/<case>.json` (bản regex gốc), không đọc output LLM |
+| Baseline sai **tự củng cố** qua các lần chạy | `baseline_record()` đọc chính file output nên vòng sau xác nhận lại lỗi vòng trước | Đọc `features/_deterministic/<case>.json` (bản regex gốc), không đọc output LLM — **thư mục này đã bị xoá, xem ghi chú cuối README** |
 | Model **không bác được** giá trị cũ sai | Giữ nguyên `sustainability = ['green']` do regex bịa | Cho phép trả `reason: "BASELINE_SAI: …"` → xoá hẳn giá trị thay vì giữ |
 
 Nguyên tắc chung: **thà trống còn hơn sai**. Trường không có bằng chứng phải vào khối
@@ -87,8 +87,8 @@ python scripts/run_ws.py ws1_airport --cases <case_id>
 
 `case_id` sinh tự động từ tên (bỏ dấu, bỏ chữ "aerotropolis"/"airport city"); xem lại
 trong `refer_file/cases.csv`. Muốn định danh chuẩn hơn (tên tiếng Việt, website chính
-thức) thì thêm case vào `REGISTRY` của
-[`extract_airport_city.py`](agent_extractor/ws1_airport/extract_airport_city.py).
+thức) thì thêm case vào
+[`features/ws1_airport/cases_registry.json`](features/ws1_airport/cases_registry.json).
 
 ## Thêm một trường mới
 

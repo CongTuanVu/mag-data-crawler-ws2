@@ -71,8 +71,7 @@ if __name__ == "__main__":
     main()
 ```
 
-Ví dụ hoàn chỉnh: [`ws1_airport/extract_airport_city.py`](ws1_airport/extract_airport_city.py)
-(bản deterministic) và [`ws1_airport/extract_llm.py`](ws1_airport/extract_llm.py) (bản LLM).
+Ví dụ hoàn chỉnh: [`ws1_airport/extract_llm.py`](ws1_airport/extract_llm.py) (bản LLM).
 
 ---
 
@@ -95,9 +94,9 @@ sớm; dùng extractor LLM thay thế:
    `snippet` nguyên văn + `confidence`; không có bằng chứng thì trả `null` + `reason`.
 5. **Đối chiếu ngược**: mã `[Snn]` phải khớp `manifest.json`, sai thì hạ
    `confidence` và gắn `unverified_source`.
-6. **Giữ baseline**: kết quả extractor regex cũ được đưa vào prompt làm mốc và
-   backup ra `features/_deterministic/`; trường LLM không xác minh được vẫn giữ giá
-   trị cũ với `source=baseline`.
+6. **Giữ baseline**: kết quả extract lần trước được đưa vào prompt làm mốc; trường
+   LLM không xác minh được vẫn giữ giá trị cũ với `source=baseline`. Mốc độc lập
+   (`features/_deterministic/`) đã bị xoá — xem ghi chú cuối README.
 7. **Validate**: `scripts/validate_features.py` kiểm kiểu theo `schema.json`, kiểm
    khoá trùng, xuất `coverage_report.csv` (từng trường) và `coverage_summary.csv`.
 
