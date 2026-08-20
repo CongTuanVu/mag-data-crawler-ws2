@@ -1,34 +1,20 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-env/
-.eggs/
-*.egg-info/
-
-# Secrets / config local
-.env
-config/*.local.yaml
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Crawl output: giữ cấu trúc thư mục nhưng không commit data nặng.
-# Bỏ comment các dòng dưới nếu KHÔNG muốn commit data crawl:
-# raw_data/output/**/raw/*
-# raw_data/output/**/features/*
-!raw_data/output/**/.gitkeep
-
-# Log phản hồi thô của model (dựng lại được bằng cách chạy lại extract_llm.py)
-raw_data/output/**/_llm_log/
-
-# Log tiến trình batch (run_all.sh / run_batch.sh) — chỉ có giá trị trong lúc chạy
-raw_data/output/**/_batch_*.log
-raw_data/output/**/_batch_*.out
-raw_data/output/**/_proxy_*.log
-
-# Proxy runtime
-code_proxy/runtime/
-code_proxy/proxy.log
+# ── CHỈ COMMIT html/index.html ──────────────────────────────────────────────
+# Mọi thứ khác ignore hết cho repo nhẹ (data crawl riêng đã 233MB).
+#
+# Hệ quả phải nhớ: trạng thái "khu nào đã chạy rồi" KHÔNG còn trong git.
+# Code nhận biết qua 3 file trên ổ đĩa local, không phải qua git:
+#   1. raw_data/output/ws1_airport/features/<case>_airport_city.json
+#      -> run_all.sh loại khu đó khỏi danh sách cần chạy
+#   2. refer_file/_discovered/<case>.csv        -> bỏ qua discover (~11 phút/khu)
+#   3. raw_data/output/ws1_airport/raw/<case>/manifest.json -> bỏ qua URL đã tải
+# Ba thứ này vẫn nằm nguyên trên máy (gitignore không xoá file), nên thêm một
+# aerotropolis mới vào refer_file/aerotropolis.txt rồi chạy lại run_all.sh thì
+# chỉ khu mới được chạy. Nhưng clone repo này về máy trắng thì mất sạch trạng
+# thái -> crawl lại từ đầu toàn bộ.
+#
+# Muốn commit thêm thứ gì, thêm một dòng "!" bên dưới.
+/*
+!/.gitignore
+!/html/
+/html/*
+!/html/index.html

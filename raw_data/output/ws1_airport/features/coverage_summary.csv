@@ -1,11 +1,27 @@
 ﻿case_id,case_name,extractor,fields_total,fields_filled,coverage_pct,high,medium,low,from_baseline,unverified_source,missing
+beijing_daxing,Beijing Daxing Airport City,extract_llm.py,75,58,77.3,37,17,4,1,0,17
+bwi,BWI Business District,extract_llm.py,75,48,64.0,21,25,2,0,0,27
 changi,Singapore Changi Aerotropolis,extract_llm.py,75,55,73.3,26,26,3,4,0,20
+charlotte_area,Charlotte Airport Area (CLT Destination District),extract_llm.py,75,57,76.0,38,18,1,1,0,18
+chengdu_tianfu,Chengdu Tianfu Airport City (成都天府国际空港新城),extract_llm.py,75,42,56.0,25,14,3,1,0,33
+chicago_o_hare,Chicago O'Hare Airport City,extract_llm.py,75,48,64.0,14,33,1,0,0,27
 dfw,Dallas–Fort Worth Aerotropolis,extract_llm.py,75,49,65.3,17,31,1,4,0,26
+doha,Doha Airport City,extract_llm.py,75,58,77.3,41,15,2,1,0,17
 dubai_south,Dubai South,extract_llm.py,75,52,69.3,28,22,2,1,0,23
+edmonton,Edmonton Airport City,extract_llm.py,75,55,73.3,35,17,3,0,0,20
+fort_worth_alliance,AllianceTexas,extract_llm.py,75,61,81.3,43,17,1,1,0,14
 frankfurt,Frankfurt Airport City,extract_llm.py,75,51,68.0,24,25,2,3,0,24
+guangzhou_baiyun,Guangzhou Airport Economic Zone,extract_llm.py,75,47,62.7,26,19,2,0,0,28
 hong_kong,Hong Kong Airport City / SKYCITY,extract_llm.py,75,55,73.3,29,24,2,1,0,20
+huntsville,Port of Huntsville,extract_llm.py,75,51,68.0,27,24,0,1,0,24
 incheon,Incheon Airport City / IFEZ,extract_llm.py,75,54,72.0,36,18,0,2,0,21
+istanbul,Istanbul Airport City,extract_llm.py,75,54,72.0,37,16,1,1,0,21
 kuala_lumpur,KLIA Aeropolis,extract_llm.py,75,47,62.7,29,15,3,3,0,28
 schiphol,Schiphol Airport City,extract_llm.py,75,61,81.3,44,15,2,4,0,14
+shanghai_hongqiao,Shanghai Hongqiao,extract_llm.py,75,56,74.7,34,21,1,0,0,19
+stockholm,Airport City Stockholm,extract_llm.py,75,50,66.7,33,14,3,1,0,25
 taoyuan,Taoyuan Aerotropolis,extract_llm.py,75,56,74.7,40,16,0,1,0,19
+vienna,Vienna AirportCity,extract_llm.py,75,54,72.0,29,23,2,1,0,21
 western_sydney,Western Sydney Aerotropolis,extract_llm.py,75,46,61.3,35,10,1,2,0,29
+zayed,Zayed Airport City,extract_llm.py,75,48,64.0,31,17,0,2,0,27
+zurich,The Circle Zurich Airport,extract_llm.py,75,49,65.3,34,14,1,0,0,26
