@@ -779,7 +779,7 @@ def _result_error(event: Dict[str, Any]) -> str:
     if any(sign in low for sign in _AUTH_SIGNS):
         # Nói thẳng cách sửa: người chạy crawler thường không nhìn log proxy.
         return ("Claude CLI chưa đăng nhập. Chạy `claude setup-token` rồi "
-                "`export CLAUDE_CODE_OAUTH_TOKEN=<token>` cho tiến trình proxy. "
+                "`export CLAUDE_CODE_OAUTH_TOKEN_CONGVT=<token>` cho tiến trình proxy. "
                 "(CLI báo: {})".format(detail[:120]))
     if status:
         return "Claude API error ({}): {}".format(status, detail[:300]).strip()
