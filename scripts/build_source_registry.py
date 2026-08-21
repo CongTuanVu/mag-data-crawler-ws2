@@ -111,13 +111,25 @@ def match_case_id(entry: dict, registry: dict, taken: set[str] | None = None) ->
 
     Khớp theo RANH GIỚI TỪ, không phải chuỗi con: "Shanghai Hongqiao" từng bị gán nhầm
     vào `hong_kong` vì "hong" nằm trong "hongqiao".
+
+    Ranh giới ở đây KHÔNG dùng `\\b` của regex, vì `\\b` coi dấu gạch nối là ranh giới:
+    "Frankfurt-Hahn Airport City" (sân bay HHN, cách Frankfurt 120km) từng khớp `frankfurt`
+    rồi bị đánh dấu đã xử lý theo dữ liệu của sân bay khác. Dùng `(?<![\\w-]) … (?![\\w-])`
+    để tên ghép bằng gạch nối được coi là một từ riêng.
+
+    Một registry cid chỉ được cấp cho ĐÚNG MỘT dòng: dòng thứ hai khớp cùng cid chắc chắn
+    là khu khác nên phải nhận slug riêng. Truyền `taken` để bật cơ chế này.
     """
     hay = f"{entry.get('name', '')} {entry.get('airport', '')}".lower()
     for cid, meta in registry.items():
+        if taken is not None and cid in _claimed(taken):
+            continue
         needles = {cid.replace("_", " ")} | {str(meta.get(k, "")).lower()
                                              for k in ("case_name", "airport_name", "aerotropolis")}
         for n in needles:
-            if n and re.search(rf"\b{re.escape(n)}\b", hay):
+            if n and re.search(rf"(?<![\w-]){re.escape(n)}(?![\w-])", hay):
+                if taken is not None:
+                    _claimed(taken).add(cid)
                 return cid
     slug = slugify_case(entry.get("name", ""))
     if taken is not None:                      # hai khu khác nhau không được chung case_id
@@ -127,6 +139,15 @@ def match_case_id(entry: dict, registry: dict, taken: set[str] | None = None) ->
             i += 1
         taken.add(slug)
     return slug
+
+
+# Registry cid đã bị một dòng chiếm, gắn kèm chính set `taken` của lần duyệt đó để hai
+# lần duyệt độc lập không ảnh hưởng nhau (vd discover chạy song song với build registry).
+_CLAIMED: dict[int, set[str]] = {}
+
+
+def _claimed(taken: set[str]) -> set[str]:
+    return _CLAIMED.setdefault(id(taken), set())
 
 
 def clean_url(url: str) -> str:
