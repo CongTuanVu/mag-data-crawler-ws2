@@ -53,8 +53,8 @@ CASE_COLS = ["case_id", "case_name", "aerotropolis", "country", "is_target", "ai
              "reference_city", "official_website", "source_list", "n_sources", "n_crawled",
              "n_pages", "last_crawl"]
 SOURCE_COLS = ["case_id", "idx", "priority", "anchor", "url", "purpose", "target_fields",
-               "origin", "discovered_at", "kind", "crawl_status", "http_status", "chars",
-               "text_file", "accessed_at"]
+               "has_images", "origin", "discovered_at", "kind", "crawl_status",
+               "http_status", "chars", "text_file", "accessed_at"]
 
 
 # Cụm chung có mặt ở hầu hết tên khu -> bỏ đi thì case_id mới ngắn và phân biệt được

@@ -186,11 +186,23 @@ Quy tắc bắt buộc:
 - `target_fields` chỉ liệt kê tên trường trong danh sách trên mà trang đó THỰC SỰ trả lời được.
 - `priority`: 5 = nguồn chính thức giàu số liệu, 1 = chỉ đối chiếu phụ.
 
+## Ảnh minh hoạ — tiêu chí phụ nhưng có tính điểm
+Trang nguồn còn được dùng để lấy ảnh minh hoạ cho hồ sơ, nên **khi hai trang có giá trị số liệu
+ngang nhau, hãy chọn trang có ảnh dùng được**. Ảnh dùng được nghĩa là:
+- ảnh chụp thật hoặc bản vẽ quy hoạch của CHÍNH khu này: ảnh trên không, phối cảnh, bản đồ phân
+  khu, nội thất nhà ga, công trình tiêu biểu;
+- bề rộng từ **800px trở lên** (trang thường để bản lớn trong `srcset` hoặc thư viện ảnh);
+- KHÔNG tính: logo, biểu tượng giao diện, ảnh chân dung lãnh đạo, banner quảng cáo, bản đồ định vị
+  kiểu "nước X nằm ở đâu", đồ hoạ dải mỏng.
+Đặt `has_images: true` khi trang có ít nhất một ảnh như vậy. Đừng vì ảnh mà hạ chuẩn số liệu —
+trang nhiều ảnh nhưng không có dữ liệu thì vẫn bỏ.
+
 ## Định dạng trả về (chỉ JSON, không thêm chữ nào khác)
 {{"sources": [
   {{"url": "https://...", "anchor": "tên trang ngắn gọn",
    "purpose": "trang này dùng để lấy gì (tiếng Việt, 1 câu)",
-   "target_fields": ["passengers_million", "subzones"], "priority": 5}}
+   "target_fields": ["passengers_million", "subzones"], "priority": 5,
+   "has_images": true}}
 ]}}"""
 
 
@@ -259,6 +271,7 @@ def discover(case_id: str, entry: dict, have: list[str], want: int, model: str,
                          "anchor": str(s.get("anchor", "")).strip(),
                          "url": s["url"], "purpose": str(s.get("purpose", "")).strip(),
                          "target_fields": ";".join(tf) if isinstance(tf, list) else str(tf),
+                         "has_images": "1" if s.get("has_images") else "",
                          "origin": "llm", "discovered_at": stamp,
                          "kind": "", "crawl_status": "chưa crawl", "http_status": "",
                          "chars": "", "text_file": "", "accessed_at": ""})

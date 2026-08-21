@@ -72,14 +72,27 @@ Quy tắc bắt buộc:
    công suất thiết kế, mục tiêu hay dự báo — dấu hiệu: "capacity for", "when complete", "expected",
    "will handle", "by 2030", "planned", "công suất", "dự kiến". Nguồn chỉ có số tương lai -> value null,
    reason ghi rõ đó là công suất/dự báo chứ không phải số thực tế.
-9. **Diện tích (area_km2)** phải là quy mô TOÀN khu đô thị sân bay. TUYỆT ĐỐI không lấy diện tích của
+9. **"KHÔNG CÓ" KHÔNG PHẢI LÀ 0.** Nguồn nói một dịch vụ/đối tượng không tồn tại — "no commercial
+   passenger service", "no airlines operate scheduled services", "chưa khai thác", "không có tuyến" —
+   thì trả {"value": null, "reason": "Không áp dụng: <trích ý nguồn>"}.
+   Điền 0 là SAI, vì 0 nghĩa là ĐÃ ĐO ĐƯỢC và kết quả bằng không; trang web sẽ hiển thị
+   "0 triệu lượt khách/năm" khiến người đọc tưởng dữ liệu hỏng, trong khi thực tế là sân bay
+   hàng hoá không hề phục vụ khách thương mại.
+   Chỉ được dùng 0 khi nguồn in rõ con số 0 trong một bảng thống kê.
+10. **Diện tích (area_km2)** phải là quy mô TOÀN khu đô thị sân bay. TUYỆT ĐỐI không lấy diện tích của
    một khu chuyên biệt đã có trường riêng (logistics park, trade/business park, một toà nhà, một phân
    khu nhỏ) — những con số đó thuộc `logistics_park_ha` / `trade_park_ha`. Nếu nguồn chỉ có diện tích
    phân khu chứ không có tổng, trả null và ghi rõ lý do trong reason.
-10. **Được phép bác bỏ giá trị baseline.** Nếu giá trị regex ở mục mốc đối chiếu sai định nghĩa trường
+11. **Được phép bác bỏ giá trị baseline.** Nếu giá trị regex ở mục mốc đối chiếu sai định nghĩa trường
    (vd lấy nhầm công suất tương lai, nhầm đơn vị, nhầm thực thể), trả {"value": null,
    "reason": "BASELINE_SAI: <giải thích>"} — hệ thống sẽ xoá giá trị cũ thay vì giữ lại.
-11. **Giá trị chữ phải viết bằng TIẾNG VIỆT** — trang web hiển thị thẳng giá trị này cho người đọc Việt:
+12. **Trường TÊN phải là tên viết cho người đọc, không phải mã.** `case_name`, `airport_name`,
+   `aerotropolis`, `economic_zone_name`, `logistics_park_name`, `trade_park_name` phải là tên đầy đủ
+   như tài liệu viết — "Dubai International Aviation District (DXB)", "Roissy–CDG / Le Bourget
+   Aerotropolis". TUYỆT ĐỐI không trả mã định danh dạng slug ("dubai_aviation_district",
+   "roissy_cdg", "lax_area"): đó là tên file nội bộ, đưa lên trang web là hỏng. Tài liệu không nêu
+   tên nào thì lấy tên ghi ở đầu prompt, không tự bịa và không dùng case_id.
+13. **Giá trị chữ phải viết bằng TIẾNG VIỆT** — trang web hiển thị thẳng giá trị này cho người đọc Việt:
    - dịch mọi trường mô tả (`*_desc`, `positioning`, `planning_concept`, `cvp_*`, `sustainability`,
      `investor_governance`, `sales_scheme`, `smart_city`, `airport_privilege`, `experience_desc`…);
    - **GIỮ NGUYÊN tên riêng**: tên công ty/cơ quan (Changi Airport Group, IFEZ), tên phân khu và địa
@@ -90,7 +103,7 @@ Quy tắc bắt buộc:
    - KHÔNG dịch: `case_name`, `aerotropolis`, `airport_name`, `official_website`,
      `economic_zone_name`, `logistics_park_name`, `trade_park_name`, `vision_label`, `brand_partners`;
    - **`snippet` phải giữ NGUYÊN VĂN ngôn ngữ gốc** — đó là bằng chứng để đối chiếu, tuyệt đối không dịch.
-12. Chỉ xuất DUY NHẤT một object JSON, không thêm lời dẫn, không bọc markdown."""
+14. Chỉ xuất DUY NHẤT một object JSON, không thêm lời dẫn, không bọc markdown."""
 
 
 def endpoint() -> str:
@@ -274,7 +287,14 @@ Quy tắc bắt buộc:
 6. Không mở đầu bằng "Nhóm này...", "Dữ liệu cho thấy..."; vào thẳng nội dung.
 7. Viết số theo kiểu Việt: dấu chấm ngăn hàng nghìn và dấu phẩy thập phân —
    `358000` -> **358.000**, `70.86` -> **70,86**, `2.95` -> **2,95**. Giữ nguyên giá trị, chỉ đổi cách viết.
-8. Chỉ xuất DUY NHẤT một object JSON."""
+8. **Trường trống thì BỎ HẲN khỏi câu, đừng viết thành 0 hay "chưa có".** Không có số hành khách thì
+   viết về hàng hoá và lượt bay, đừng viết "ghi nhận **0** triệu lượt khách" — câu đó khiến người đọc
+   tưởng dữ liệu hỏng. Tương tự: không "0 việc làm", không "0 phân khu", không "chưa rõ diện tích".
+   Câu chỉ nói về những gì THỰC SỰ có số liệu.
+9. **Không làm tròn số nhỏ về 0.** `0.37` viết là **0,37** triệu chứ không phải **0** triệu;
+   `0.017648` viết là **0,018** triệu. Sân bay nhỏ có số khách nhỏ là chuyện bình thường, làm tròn
+   xuống 0 là bóp méo dữ liệu.
+10. Chỉ xuất DUY NHẤT một object JSON."""
 
 
 def narrate(case: str, out: dict, model: str, timeout: int, retries: int) -> None:
