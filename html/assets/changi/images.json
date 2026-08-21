@@ -1,30 +1,23 @@
 {
-  "hero": {
-    "file": "hero.jpg",
-    "source_image": "https://changiairport.scene7.com/is/image/changiairport/terminal-5-aerial",
-    "page_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/fact-sheet-changi-airport-terminal-5.html",
-    "caption": "Phối cảnh trên không Nhà ga T5 và khu Changi East",
-    "bytes": 20663
-  },
   "planning": {
     "file": "planning.jpg",
     "source_image": "https://changiairport.scene7.com/is/image/changiairport/changi-east-development-site-plan:7by5?wid=250&hei=179&qlt=85,0&resMode=sharp2",
     "page_url": "https://www.changiairport.com/en/corporate/about-us/future-developments.html",
     "caption": "Sơ đồ mặt bằng khu phát triển Changi East",
-    "bytes": 71511
+    "bytes": 104396
   },
   "vision": {
     "file": "vision.jpg",
     "source_image": "https://changiairport.scene7.com/is/image/changiairport/aerial-view-of-terminal-5:7by5?wid=250&hei=179&qlt=85,0&resMode=sharp2",
     "page_url": "https://www.changiairport.com/en/corporate/about-us/future-developments.html",
     "caption": "Nhà ga T5 — bước mở rộng công suất lên 135 triệu khách/năm",
-    "bytes": 60072
+    "bytes": 90502
   },
   "experience": {
     "file": "experience.jpg",
     "source_image": "https://changiairport.scene7.com/is/image/changiairport/forest-valley-in-jewel-changi-airport:7by5?wid=1290&hei=921&qlt=85,0&resMode=sharp2",
     "page_url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2026/jewel-changi-airport-fact-sheet.html",
     "caption": "Forest Valley trong Jewel Changi Airport",
-    "bytes": 84464
+    "bytes": 123156
   }
 }

@@ -1,27 +1,103 @@
 ﻿case_id,case_name,extractor,fields_total,fields_filled,coverage_pct,high,medium,low,from_baseline,unverified_source,missing
+addis_ababa_bole,Addis Ababa Bole Airport City,extract_llm.py,75,49,65.3,22,26,1,1,0,26
+athens,athens,extract_llm.py,75,48,64.0,20,23,5,2,0,27
+atlanta,Aerotropolis Atlanta,extract_llm.py,75,46,61.3,29,17,0,1,0,29
+auckland,Auckland Airport Precinct,extract_llm.py,75,50,66.7,28,21,1,1,0,25
+barcelona_el_prat,barcelona_el_prat,extract_llm.py,75,52,69.3,28,24,0,0,0,23
+beijing_capital,Capital Airport Economic Demonstration Zone,extract_llm.py,75,59,78.7,30,26,3,1,0,16
 beijing_daxing,Beijing Daxing Airport City,extract_llm.py,75,58,77.3,37,17,4,1,0,17
+belo_horizonte,Belo Horizonte Airport City (BH Airport),extract_llm.py,75,56,74.7,22,34,0,1,0,19
+bengaluru,Bengaluru Airport City,extract_llm.py,75,52,69.3,31,21,0,1,0,23
+bremen_stadt,Airport-Stadt Bremen,extract_llm.py,75,50,66.7,30,19,1,1,0,25
+brisbane_precinct,Brisbane Airport City,extract_llm.py,75,59,78.7,35,24,0,0,0,16
+budapest,Budapest Airport City,extract_llm.py,75,51,68.0,25,23,3,2,0,24
 bwi,BWI Business District,extract_llm.py,75,48,64.0,21,25,2,0,0,27
+cairo,Cairo Airport City,extract_llm.py,75,40,53.3,11,24,5,1,0,35
 changi,Singapore Changi Aerotropolis,extract_llm.py,75,55,73.3,26,26,3,4,0,20
 charlotte_area,Charlotte Airport Area (CLT Destination District),extract_llm.py,75,57,76.0,38,18,1,1,0,18
 chengdu_tianfu,Chengdu Tianfu Airport City (成都天府国际空港新城),extract_llm.py,75,42,56.0,25,14,3,1,0,33
 chicago_o_hare,Chicago O'Hare Airport City,extract_llm.py,75,48,64.0,14,33,1,0,0,27
+clark,Clark,extract_llm.py,75,57,76.0,35,22,0,0,0,18
+cleveland_hopkins_district,Cleveland Hopkins Airport District (The Aerozone),extract_llm.py,75,46,61.3,24,22,0,0,0,29
+cochin,Cochin Airport City (CIAL Aerotropolis),extract_llm.py,75,59,78.7,34,23,2,0,0,16
+delhi,Delhi Aerocity,extract_llm.py,75,55,73.3,34,21,0,1,0,20
+denver,Colorado Aerotropolis,extract_llm.py,75,55,73.3,43,12,0,1,0,20
+detroit_region,Detroit Region Aerotropolis,extract_llm.py,75,50,66.7,32,16,2,1,0,25
 dfw,Dallas–Fort Worth Aerotropolis,extract_llm.py,75,49,65.3,17,31,1,4,0,26
 doha,Doha Airport City,extract_llm.py,75,58,77.3,41,15,2,1,0,17
+domodedovo,Domodedovo,extract_llm.py,75,53,70.7,22,27,4,0,0,22
+dubai_aviation_district,dubai_aviation_district,extract_llm.py,75,60,80.0,33,26,1,2,0,15
 dubai_south,Dubai South,extract_llm.py,75,52,69.3,28,22,2,1,0,23
+dublin_logistics_park,Dublin Airport Logistics Park,extract_llm.py,75,35,46.7,16,16,3,1,0,40
+dulles_innovation_corridor,dulles_innovation_corridor,extract_llm.py,75,51,68.0,17,33,1,2,0,24
+durban,Durban Aerotropolis,extract_llm.py,75,57,76.0,33,24,0,0,0,18
 edmonton,Edmonton Airport City,extract_llm.py,75,55,73.3,35,17,3,0,0,20
+ekurhuleni,Ekurhuleni Aerotropolis,extract_llm.py,75,52,69.3,31,20,1,0,0,23
 fort_worth_alliance,AllianceTexas,extract_llm.py,75,61,81.3,43,17,1,1,0,14
 frankfurt,Frankfurt Airport City,extract_llm.py,75,51,68.0,24,25,2,3,0,24
+gia_binh,Gia Binh Airport City (GBAC),extract_llm.py,75,46,61.3,26,20,0,0,0,29
 guangzhou_baiyun,Guangzhou Airport Economic Zone,extract_llm.py,75,47,62.7,26,19,2,0,0,28
+hamilton,Hamilton Airport Employment Growth District (AEGD),extract_llm.py,75,46,61.3,26,20,0,1,0,29
+haneda_innovation_city,HANEDA INNOVATION CITY,extract_llm.py,75,52,69.3,36,15,1,1,0,23
+heathrow,Heathrow,extract_llm.py,75,47,62.7,21,26,0,0,0,28
+helsinki_aviapolis,Aviapolis,extract_llm.py,75,50,66.7,27,22,1,1,0,25
 hong_kong,Hong Kong Airport City / SKYCITY,extract_llm.py,75,55,73.3,29,24,2,1,0,20
 huntsville,Port of Huntsville,extract_llm.py,75,51,68.0,27,24,0,1,0,24
+hyderabad,GMR AeroCity Hyderabad,extract_llm.py,75,53,70.7,34,19,0,1,0,22
 incheon,Incheon Airport City / IFEZ,extract_llm.py,75,54,72.0,36,18,0,2,0,21
+indianapolis,IND Aerotropolis,extract_llm.py,75,53,70.7,26,26,1,1,0,22
 istanbul,Istanbul Airport City,extract_llm.py,75,54,72.0,37,16,1,1,0,21
+jackson_evers,jackson_evers,extract_llm.py,75,47,62.7,12,33,2,1,0,28
+jeddah,Jeddah Airport City,extract_llm.py,75,48,64.0,37,9,2,0,0,27
+jfk_redevelopment,JFK Redevelopment Program,extract_llm.py,75,51,68.0,25,26,0,0,0,24
+kansas_city,kansas_city,extract_llm.py,75,46,61.3,15,29,2,1,0,29
+king_salman,King Salman International Airport,extract_llm.py,75,47,62.7,26,21,0,0,0,28
 kuala_lumpur,KLIA Aeropolis,extract_llm.py,75,47,62.7,29,15,3,3,0,28
+las_vegas_harry,las_vegas_harry,extract_llm.py,75,48,64.0,11,31,6,2,0,27
+lax_area,lax_area,extract_llm.py,75,55,73.3,32,22,1,2,0,20
+long_thanh,Long Thanh Airport City,extract_llm.py,75,50,66.7,32,17,1,1,0,25
+louisville,Louisville,extract_llm.py,75,51,68.0,30,20,1,0,0,24
+madrid_barajas,Ciudad Aeroportuaria Adolfo Suárez Madrid-Barajas,extract_llm.py,75,58,77.3,40,15,3,0,0,17
+manchester,Airport City Manchester,extract_llm.py,75,50,66.7,32,18,0,1,0,25
+memphis,Memphis Aerotropolis,extract_llm.py,75,55,73.3,29,24,2,1,0,20
+milwaukee_mitchell,milwaukee_mitchell,extract_llm.py,75,49,65.3,21,26,2,1,0,26
+msp_economic_area,msp_economic_area,extract_llm.py,75,49,65.3,27,21,1,2,0,26
+munich,Munich Airport City,extract_llm.py,75,55,73.3,34,20,1,0,0,20
+narita,Narita Airport City,extract_llm.py,75,39,52.0,19,18,2,1,0,36
+new_manila,New Manila International Airport Aerocity,extract_llm.py,75,48,64.0,27,19,2,0,0,27
+newark_liberty,newark_liberty,extract_llm.py,75,49,65.3,31,16,2,2,0,26
+noida,Noida Aerotropolis,extract_llm.py,75,48,64.0,19,25,4,1,0,27
+northwest_florida_beaches,Northwest Florida Beaches International Airport (ECP),extract_llm.py,75,52,69.3,27,24,1,1,0,23
+ontario_logistics_cluster,Ontario Logistics Cluster,extract_llm.py,75,52,69.3,22,29,1,2,0,23
+orlando,Orlando Aerotropolis,extract_llm.py,75,51,68.0,35,16,0,0,0,24
+oslo,Oslo Airport City,extract_llm.py,75,45,60.0,24,21,0,0,0,30
+panama,panama,extract_llm.py,75,57,76.0,31,25,1,2,0,18
+paris_vatry_eurocargo,Paris Vatry EuroCargo,extract_llm.py,75,51,68.0,28,20,3,2,0,24
+philadelphia,Philadelphia,extract_llm.py,75,56,74.7,26,28,2,1,0,19
+phoenix_mesa_gateway,Phoenix-Mesa Gateway Airport City,extract_llm.py,75,53,70.7,22,26,5,0,0,22
+phoenix_sky_harbor,Phoenix Sky Harbor,extract_llm.py,75,49,65.3,25,24,0,1,0,26
+piedmont_triad,Piedmont Triad Aeroplex (PTI),extract_llm.py,75,48,64.0,28,18,2,0,0,27
+pittsburgh_innovation_campus,Pittsburgh Airport Innovation Campus (Neighborhood 91),extract_llm.py,75,46,61.3,28,16,2,0,0,29
+raleigh_durham,Raleigh-Durham,extract_llm.py,75,45,60.0,23,22,0,0,0,30
+rickenbacker_global_logistics,Rickenbacker Global Logistics Park,extract_llm.py,75,44,58.7,25,19,0,1,0,31
+roissy_cdg,roissy_cdg,extract_llm.py,75,53,70.7,34,17,2,2,0,22
 schiphol,Schiphol Airport City,extract_llm.py,75,61,81.3,44,15,2,4,0,14
 shanghai_hongqiao,Shanghai Hongqiao,extract_llm.py,75,56,74.7,34,21,1,0,0,19
+shanghai_pudong,Shanghai Pudong Airport City (Shanghai Eastern Hub IBCZ),extract_llm.py,75,48,64.0,27,20,1,0,0,27
+soekarno_hatta,soekarno_hatta,extract_llm.py,75,46,61.3,25,21,0,0,0,29
+st_louis,St. Louis Aerotropolis,extract_llm.py,75,50,66.7,30,19,1,0,0,25
 stockholm,Airport City Stockholm,extract_llm.py,75,50,66.7,33,14,3,1,0,25
+subic_bay_freeport,Subic Bay Freeport,extract_llm.py,75,56,74.7,39,16,1,0,0,19
+suvarnabhumi,Suvarnabhumi Airport City,extract_llm.py,75,55,73.3,19,34,2,1,0,20
 taoyuan,Taoyuan Aerotropolis,extract_llm.py,75,56,74.7,40,16,0,1,0,19
+ted_stevens_anchorage,ted_stevens_anchorage,extract_llm.py,75,49,65.3,28,20,1,1,0,26
+tel_aviv,Airport City,extract_llm.py,75,38,50.7,15,23,0,1,0,37
+u_tapao,U-Tapao Airport and Eastern Airport City,extract_llm.py,75,58,77.3,34,24,0,1,0,17
+vancouver_yvr,vancouver_yvr,extract_llm.py,75,57,76.0,28,26,3,2,0,18
 vienna,Vienna AirportCity,extract_llm.py,75,54,72.0,29,23,2,1,0,21
+warsaw_chopin,Chopin Airport City,extract_llm.py,75,50,66.7,23,26,1,1,0,25
 western_sydney,Western Sydney Aerotropolis,extract_llm.py,75,46,61.3,35,10,1,2,0,29
 zayed,Zayed Airport City,extract_llm.py,75,48,64.0,31,17,0,2,0,27
+zhengzhou,Zhengzhou Airport Economy Zone,extract_llm.py,75,51,68.0,28,21,2,1,0,24
+zhuhai_jinwan_aviation,Jinwan Aviation Town,extract_llm.py,75,45,60.0,29,16,0,1,0,30
 zurich,The Circle Zurich Airport,extract_llm.py,75,49,65.3,34,14,1,0,0,26

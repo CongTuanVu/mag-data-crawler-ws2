@@ -1,30 +1,23 @@
 {
-  "hero": {
-    "file": "hero.jpg",
-    "source_image": "https://www.skylineatlas.com/wp-content/uploads/2020/10/gateway-gardens-frankfurt.jpg",
-    "page_url": "https://www.skylineatlas.com/gateway-gardens/",
-    "caption": "Toàn cảnh khu văn phòng Gateway Gardens cạnh sân bay Frankfurt",
-    "bytes": 64769
-  },
   "planning": {
     "file": "planning.jpg",
     "source_image": "https://www.gateway-gardens.de/assets/img/pages/main/main-slider/0@1x.jpeg",
     "page_url": "https://www.gateway-gardens.de/en/",
-    "caption": "Quy hoạch khu Gateway Gardens (~35 ha) trong quận sân bay",
-    "bytes": 149581
+    "caption": "Khu Gateway Gardens (~35 ha) giữa sân bay Frankfurt và nút giao Frankfurter Kreuz",
+    "bytes": 146611
   },
   "vision": {
     "file": "vision.jpg",
     "source_image": "https://www.fraport.com/content/dam/fraport-company/images/nachhaltigkeit/overview/AM_05_2022_AMF5267.jpg/_jcr_content/renditions/original./AM_05_2022_AMF5267.jpg",
     "page_url": "https://www.fraport.com/en/sustainability.html",
     "caption": "Định hướng phát triển bền vững của Fraport",
-    "bytes": 77145
+    "bytes": 124909
   },
   "experience": {
     "file": "experience.jpg",
     "source_image": "https://www.gateway-gardens.de/assets/img/pages/main/3@1x.jpeg",
     "page_url": "https://www.gateway-gardens.de/en/",
     "caption": "Không gian làm việc, khách sạn và tiện ích trong Gateway Gardens",
-    "bytes": 34529
+    "bytes": 35213
   }
 }

@@ -77,26 +77,32 @@ def slugify_case(name: str) -> str:
 
 
 def parse_case_list(path: Path | None = None) -> list[dict]:
-    """Đọc refer_file/aerotropolis.txt -> danh sách case gốc (chỉ tên, chưa có URL).
+    """Đọc bảng khu đô thị sân bay -> danh sách case gốc (chỉ tên, chưa có URL).
 
     Đây là đầu vào duy nhất bắt buộc của pipeline: mọi URL nguồn về sau hoặc do
     người tuyển tay, hoặc do `discover_sources.py` nhờ LLM tra web mà có.
+
+    Đọc CẢ `aerotropolis_done.txt`: khu đã xử lý được chuyển sang file đó cho gọn
+    hàng đợi, nhưng vẫn thuộc danh sách gốc. Bỏ qua nó thì registry, cases.csv và
+    tên hiển thị trên trang web đều mất sạch phần khu đã làm xong.
     """
-    path = path or REFER / "aerotropolis.txt"
-    if not path.exists():
-        return []
-    cases = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if not line.lstrip().startswith("|"):
+    paths = [path] if path else [REFER / "aerotropolis.txt", REFER / "aerotropolis_done.txt"]
+    cases, seen = [], set()
+    for p in paths:
+        if not p or not p.exists():
             continue
-        cells = [strip_md(c) for c in line.strip().strip("|").split("|")]
-        if len(cells) < 4 or not NUM_CELL_RE.match(cells[0].replace("*", "") or "x"):
-            continue
-        name = cells[1]
-        if not name or name.startswith("---"):
-            continue
-        cases.append({"name": name, "country": cells[2], "airport": cells[3],
-                      "note": cells[4] if len(cells) > 4 else ""})
+        for line in p.read_text(encoding="utf-8").splitlines():
+            if not line.lstrip().startswith("|"):
+                continue
+            cells = [strip_md(c) for c in line.strip().strip("|").split("|")]
+            if len(cells) < 4 or not NUM_CELL_RE.match(cells[0].replace("*", "") or "x"):
+                continue
+            name = cells[1]
+            if not name or name.startswith("---") or name in seen:
+                continue
+            seen.add(name)
+            cases.append({"name": name, "country": cells[2], "airport": cells[3],
+                          "note": cells[4] if len(cells) > 4 else ""})
     return cases
 
 

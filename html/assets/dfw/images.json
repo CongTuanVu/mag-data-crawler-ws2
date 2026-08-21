@@ -4,27 +4,27 @@
     "source_image": "https://images.ctfassets.net/m2p70vmwc019/2vaW0Mv9b7oPatvXkXV26W/96ef814666dc4f555763daa6a9d49d6b/Roadway_Terminal_D_Night.jpg",
     "page_url": "https://www.dfwairport.com/dfwnewsroom/study-dfw-airport-now-contributes-usd78-3-billion-annually-to-north-texas/",
     "caption": "Sân bay DFW về đêm — cửa ngõ hàng không của vùng Bắc Texas",
-    "bytes": 85948
+    "bytes": 146877
   },
   "planning": {
     "file": "planning.jpg",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/DFW_FAA_Airport_Diagram.png/250px-DFW_FAA_Airport_Diagram.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/DFW_FAA_Airport_Diagram.png/500px-DFW_FAA_Airport_Diagram.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "page_url": "https://en.wikipedia.org/wiki/Dallas_Fort_Worth_International_Airport",
     "caption": "Sơ đồ mặt bằng sân bay DFW (FAA airport diagram) — 5 nhà ga, 7 đường băng",
-    "bytes": 12465
+    "bytes": 185044
   },
   "vision": {
     "file": "vision.jpg",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/DFWAirportOverview.jpg/250px-DFWAirportOverview.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/DFWAirportOverview.jpg/500px-DFWAirportOverview.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "page_url": "https://en.wikipedia.org/wiki/Dallas_Fort_Worth_International_Airport",
     "caption": "Ảnh trên không DFW — quỹ đất 17.183 acre lớn hơn Manhattan",
-    "bytes": 21412
+    "bytes": 272816
   },
   "experience": {
     "file": "experience.jpg",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/DFW_Airport_gate_C35.jpg/250px-DFW_Airport_gate_C35.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/DFW_Airport_gate_C35.jpg/500px-DFW_Airport_gate_C35.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "page_url": "https://en.wikipedia.org/wiki/Dallas_Fort_Worth_International_Airport",
     "caption": "Không gian bán lẻ & ẩm thực trong nhà ga DFW",
-    "bytes": 14798
+    "bytes": 219800
   }
 }

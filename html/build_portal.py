@@ -18,7 +18,9 @@ from __future__ import annotations
 
 import argparse
 import base64
+import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -34,9 +36,42 @@ ROOT = HERE.parent
 FEATURES = ROOT / "raw_data" / "output" / WS / "features"
 SCHEMA_PATH = ROOT / "features" / WS / "schema.json"
 
+CASES_CSV = ROOT / "refer_file" / "cases.csv"
+
+# Chỉ còn là phương án chót: cờ và tên quốc gia lấy từ cases.csv (dựng từ bảng gốc),
+# nơi mỗi khu đã có sẵn đúng một biến thể tên. Bảng tay này chỉ dùng khi khu nào đó
+# không có mặt trong cases.csv.
 FLAGS = {"Hàn Quốc": "🇰🇷", "Hà Lan": "🇳🇱", "UAE": "🇦🇪", "Singapore": "🇸🇬",
-         "Hong Kong": "🇭🇰", "Mỹ": "🇺🇸", "Đức": "🇩🇪", "Malaysia": "🇲🇾",
-         "Đài Loan": "🇹🇼", "Úc": "🇦🇺", "Việt Nam": "🇻🇳"}
+         "Hong Kong": "🇭🇰", "Mỹ": "🇺🇸", "Hoa Kỳ": "🇺🇸", "Đức": "🇩🇪", "Malaysia": "🇲🇾",
+         "Đài Loan": "🇹🇼", "Úc": "🇦🇺", "Australia": "🇦🇺", "Việt Nam": "🇻🇳"}
+
+# Cặp ký tự Regional Indicator = 1 lá cờ. Cột country trong cases.csv có dạng "🇫🇷 Pháp".
+FLAG_RE = re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")
+# Tên hiển thị "xấu": trùng case_id hoặc trông như slug (chỉ chữ thường, số, gạch dưới).
+SLUGISH_RE = re.compile(r"^[a-z0-9_]+$")
+
+
+def load_labels() -> dict[str, tuple[str, str, str]]:
+    """case_id -> (tên khu, cờ, tên quốc gia), đọc từ cases.csv.
+
+    cases.csv do build_source_registry.py dựng thẳng từ bảng gốc, nên tên khu ở đây
+    là tên người viết chứ không phải slug, và mỗi nước chỉ có MỘT cách gọi — tránh
+    cảnh "Mỹ" và "Hoa Kỳ" thành hai mục riêng trong bộ lọc quốc gia.
+    """
+    if not CASES_CSV.exists():
+        return {}
+    labels = {}
+    with CASES_CSV.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            cid = (row.get("case_id") or "").strip()
+            if not cid:
+                continue
+            raw = (row.get("country") or "").strip()
+            m = FLAG_RE.search(raw)
+            labels[cid] = ((row.get("case_name") or "").strip(),
+                           m.group(0) if m else "",
+                           FLAG_RE.sub("", raw).strip())
+    return labels
 
 # Chỉ số hiện trên mặt thẻ (tên trường, nhãn ngắn, hậu tố).
 CARD_KPIS = [("passengers_million", "Khách", "tr"),
@@ -46,11 +81,23 @@ CARD_KPIS = [("passengers_million", "Khách", "tr"),
 
 
 def load_cases(with_images: bool) -> list[dict]:
+    labels = load_labels()
     cases = []
     for path in sorted(FEATURES.glob("*_airport_city.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
         case_id = path.name.replace("_airport_city.json", "")
         rec = data.get("record", data)
+
+        # LLM nhiều khi trả lại chính slug làm case_name ("dubai_aviation_district"),
+        # và mỗi lần lại gọi tên nước một kiểu. Bảng gốc mới là chuẩn, nên đè lên.
+        name, flag, country = labels.get(case_id, ("", "", ""))
+        shown = str(rec.get("case_name") or "").strip()
+        if name and (not shown or shown.lower() == case_id or SLUGISH_RE.match(shown)):
+            rec["case_name"] = name
+        if country:
+            rec["country"] = country
+        rec["_flag"] = flag or FLAGS.get(str(rec.get("country") or ""), "")
+
         hero = ""
         if with_images:
             hero = load_hero(case_id)
@@ -97,108 +144,134 @@ TEMPLATE = """<!DOCTYPE html>
 <title>Khu đô thị sân bay — Cổng tra cứu benchmark</title>
 <meta name="generator" content="mag-data-crawler / build_portal.py">
 <style>
+/* Bảng màu Urban Data / Professional, theo quy tắc 60-30-10:
+     60% nền   --bg / --card      trắng và xám rất nhạt
+     30% UI    --line / --muted   xám trung tính
+     10% nhấn  --accent           MỘT màu thương hiệu duy nhất (#2563eb)
+   Nguyên tắc chi phối: UI đơn sắc, chỉ DỮ LIỆU mới được nhiều màu. Nên tiêu đề,
+   nhãn, thẻ đều là xám/đen; màu chỉ xuất hiện ở link, nút, và các chỉ báo mang
+   nghĩa (--pos/--warn/--neg). Không bao giờ dùng xanh lá hay đỏ để trang trí:
+   người đọc sẽ hiểu ngay là tốt/xấu, tăng/giảm.
+   --navy2 = màu của hành động chính (nền tab đang chọn) -> chữ trên nó là --onaccent. */
 :root{
-  --navy:#1f3864; --navy2:#2e5496; --ink:#1c2b3a; --muted:#5b6b85;
-  --line:#d7dee9; --line2:#eaeff6; --bg:#eef1f6; --card:#fff;
-  --yellow:#fff2cc; --yellowln:#e6d28a; --green:#f2f8ec; --green2:#eef6e6; --greenln:#a9d08e;
-  --teal:#2e7d6b; --amber:#b8860b; --red:#b23c3c;
+  --hdr:#0f2747;
+  --navy:#0f2747; --navy2:#2563eb; --onaccent:#fff; --accent:#2563eb; --cyan:#0891b2;
+  --ink:#0f172a; --muted:#64748b; --neutral:#94a3b8;
+  --line:#e2e8f0; --line2:#f1f5f9; --bg:#f8fafc; --card:#fff;
+  --yellow:#f1f5f9; --yellowln:#e2e8f0; --green:#fff; --green2:#eaeff5; --greenln:#e2e8f0;
+  --pos:#16a34a; --warn:#d97706; --neg:#dc2626;
+  --pos-bg:#eaf7ef; --warn-bg:#fdf4e3; --neg-bg:#fceaea; --info-bg:#e8effc;
+  --teal:#2563eb; --amber:#d97706; --red:#dc2626;
 }
 @media (prefers-color-scheme: dark){
-  :root{--ink:#e8edf5; --muted:#9aa9c0; --line:#33405c; --line2:#26314a;
-        --bg:#141b2b; --card:#1b2436; --yellow:#3a3520; --yellowln:#5a5230; --green:#1d2a22;
-        --green2:#22301f; --greenln:#3f5f3a; --teal:#5fbfa4; --amber:#e0b451; --red:#e08585;}
+  :root{--hdr:#0a1a30; --navy:#dbeafe; --navy2:#3b82f6; --onaccent:#fff;
+        --accent:#60a5fa; --cyan:#22d3ee;
+        --ink:#e2e8f0; --muted:#94a3b8; --neutral:#64748b;
+        --line:#1e293b; --line2:#172033; --bg:#0b1220; --card:#111a2b;
+        --yellow:#172033; --yellowln:#1e293b; --green:#111a2b;
+        --green2:#162032; --greenln:#1e293b;
+        --pos:#4ade80; --warn:#fbbf24; --neg:#f87171;
+        --pos-bg:#0e2a1a; --warn-bg:#2e2410; --neg-bg:#2e1515; --info-bg:#12233f;
+        --teal:#60a5fa; --amber:#fbbf24; --red:#f87171;}
 }
 *{box-sizing:border-box}
+/* ui-sans-serif/system-ui đứng trước để lấy SF Pro (macOS) và Segoe UI Variable (Win11);
+   "Segoe UI" trần là bản dự phòng cho Win10 trở xuống. tabular-nums cho cột số thẳng hàng. */
 body{margin:0;background:var(--bg);color:var(--ink);line-height:1.55;
-     font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Arial,Helvetica,sans-serif}
-a{color:var(--navy2)}
-header.top{background:linear-gradient(105deg,var(--navy),var(--navy2));color:#fff;padding:26px 20px 22px}
+     font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,system-ui,
+                 "Segoe UI Variable Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+     -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+a{color:var(--accent)}
+header.top{background:var(--hdr);color:#fff;padding:26px 20px 22px}
 .wrap{max-width:1220px;margin:0 auto}
-header.top h1{margin:0 0 6px;font-size:26px;font-weight:800;letter-spacing:.2px}
-header.top p{margin:0;color:#cfe0f7;font-size:14px}
+header.top h1{margin:0 0 6px;font-size:26px;font-weight:700;letter-spacing:-.015em}
+header.top p{margin:0;color:#cbd5e1;font-size:14px}
 .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
-.stat{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);
-      border-radius:8px;padding:7px 13px;font-size:13px}
-.stat b{font-size:17px;display:block;line-height:1.25}
-.toolbar{position:sticky;top:0;z-index:20;background:var(--card);border-bottom:1px solid var(--line);
-         padding:12px 20px;box-shadow:0 2px 10px rgba(20,35,70,.06)}
+.stat{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);
+      border-radius:6px;padding:7px 13px;font-size:13px}
+.stat b{font-size:17px;display:block;line-height:1.25;font-weight:650}
+.toolbar{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);
+         padding:12px 20px}
 .toolbar .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 #q{flex:1 1 300px;min-width:220px;padding:10px 14px;font-size:15px;color:var(--ink);
-   border:1px solid var(--line);border-radius:8px;background:var(--bg)}
-#q:focus{outline:2px solid var(--navy2);outline-offset:1px}
-select{padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--bg);
+   border:1px solid var(--line);border-radius:6px;background:var(--card)}
+#q:focus{outline:2px solid var(--accent);outline-offset:1px}
+select{padding:9px 11px;border:1px solid var(--line);border-radius:6px;background:var(--card);
        color:var(--ink);font-size:14px}
 .count{color:var(--muted);font-size:13px;margin-left:auto}
 main{padding:22px 20px 60px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
-      cursor:pointer;transition:transform .13s,box-shadow .13s;display:flex;flex-direction:column}
-.card:hover,.card:focus-visible{transform:translateY(-3px);box-shadow:0 12px 28px rgba(20,35,70,.16);
-      outline:none;border-color:var(--navy2)}
-.card .thumb{height:118px;background:linear-gradient(120deg,var(--navy),var(--navy2));
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+      cursor:pointer;transition:border-color .12s,box-shadow .12s;display:flex;flex-direction:column}
+.card:hover,.card:focus-visible{outline:none;border-color:var(--muted);
+      box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.card .thumb{height:118px;background:var(--line2);
       background-size:cover;background-position:center;display:flex;align-items:flex-end}
-.card .thumb span{background:rgba(12,22,44,.62);color:#fff;font-size:12px;padding:4px 10px;
-      border-radius:0 8px 0 0;font-weight:600}
+.card .thumb span{background:rgba(15,39,71,.78);color:#fff;font-size:12px;padding:4px 10px;
+      border-radius:0 6px 0 0;font-weight:600}
 .card .body{padding:13px 15px 15px;flex:1;display:flex;flex-direction:column;gap:9px}
-.card h3{margin:0;font-size:16.5px;font-weight:750;color:var(--navy2)}
+.card h3{margin:0;font-size:16.5px;font-weight:650;color:var(--ink);letter-spacing:-.01em}
 .card .sub{color:var(--muted);font-size:12.5px;margin:-4px 0 0}
 .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:2px}
-.kpi{background:var(--line2);border-radius:7px;padding:6px 7px;text-align:center}
-.kpi b{display:block;font-size:14px;color:var(--navy2)}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 7px;text-align:center}
+.kpi b{display:block;font-size:14px;color:var(--ink);font-weight:650}
 .kpi span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.02em;
       display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .chips{display:flex;flex-wrap:wrap;gap:5px}
-.chip{background:var(--yellow);color:#5a4300;border-radius:999px;padding:2px 9px;font-size:11.5px}
+.chip{background:var(--line2);color:var(--muted);border:1px solid var(--line);
+      border-radius:4px;padding:2px 8px;font-size:11.5px}
 .cov{margin-top:auto;display:flex;align-items:center;gap:8px;font-size:11.5px;color:var(--muted)}
-.bar{flex:1;height:5px;background:var(--line2);border-radius:3px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--teal)}
+.bar{flex:1;height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--neutral)}
+.bar i.c-hi{background:var(--pos)} .bar i.c-mid{background:var(--warn)} .bar i.c-lo{background:var(--neg)}
 .empty{padding:50px 10px;text-align:center;color:var(--muted)}
 /* modal */
-.back{position:fixed;inset:0;background:rgba(10,18,36,.62);backdrop-filter:blur(3px);
+.back{position:fixed;inset:0;background:rgba(15,23,42,.6);backdrop-filter:blur(3px);
       display:none;z-index:50;padding:26px 14px;overflow:auto}
 .back.on{display:block}
-.modal{max-width:980px;margin:0 auto;background:var(--card);border-radius:14px;overflow:hidden;
-       box-shadow:0 26px 70px rgba(6,14,32,.5)}
-.mhead{background:linear-gradient(105deg,var(--navy),var(--navy2));color:#fff;padding:18px 24px;
+.modal{max-width:980px;margin:0 auto;background:var(--bg);border-radius:10px;overflow:hidden;
+       border:1px solid var(--line);box-shadow:0 16px 48px rgba(0,0,0,.28)}
+.mhead{background:var(--hdr);color:#fff;padding:18px 24px;
        display:flex;justify-content:space-between;gap:16px;align-items:flex-start;
        position:sticky;top:0;z-index:2}
-.mhead h2{margin:0 0 3px;font-size:21px}
-.mhead .msub{color:#cfe0f7;font-size:13px}
-.x{background:rgba(255,255,255,.16);border:0;color:#fff;font-size:20px;line-height:1;
-   width:34px;height:34px;border-radius:8px;cursor:pointer;flex:none}
-.x:hover{background:rgba(255,255,255,.3)}
+.mhead h2{margin:0 0 3px;font-size:21px;font-weight:650;letter-spacing:-.015em}
+.mhead .msub{color:#cbd5e1;font-size:13px}
+.x{background:rgba(255,255,255,.12);border:0;color:#fff;font-size:20px;line-height:1;
+   width:34px;height:34px;border-radius:6px;cursor:pointer;flex:none}
+.x:hover{background:rgba(255,255,255,.22)}
 .tabs{display:flex;flex-wrap:wrap;gap:5px;padding:11px 20px;border-bottom:1px solid var(--line);
       background:var(--bg);position:sticky;top:69px;z-index:1}
-.tab{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;
+.tab{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:6px;
      padding:5px 12px;font-size:12.5px;cursor:pointer}
-.tab.on{background:var(--navy2);border-color:var(--navy2);color:#fff;font-weight:600}
+.tab.on{background:var(--navy2);border-color:var(--navy2);color:var(--onaccent);font-weight:600}
 .mbody{padding:6px 24px 26px}
 .sec{padding-top:18px}
-.sec h4{margin:0 0 9px;font-size:15px;color:var(--navy2);display:flex;align-items:center;gap:8px}
+.sec h4{margin:0 0 9px;font-size:15px;color:var(--ink);font-weight:650;letter-spacing:-.01em;
+     display:flex;align-items:center;gap:8px}
 .sec h4 em{font-style:normal;color:var(--muted);font-size:12px;font-weight:400}
 /* hồ sơ: nhãn vàng bên trái | lời văn bên phải (giữ bố cục bản in cũ) */
 .hero{margin:0;border-bottom:1px solid var(--line)}
 .hero img{display:block;width:100%;max-height:270px;object-fit:cover}
 .hero figcaption{padding:6px 24px;font-size:12px;color:var(--muted);font-style:italic;background:var(--bg)}
 .rows{display:grid;grid-template-columns:186px 1fr}
-.rows .lab{background:var(--yellow);color:var(--navy);font-weight:700;font-size:13.5px;
+.rows .lab{background:var(--yellow);color:var(--ink);font-weight:600;font-size:13.5px;
      padding:15px 16px;border-right:1px solid var(--yellowln);border-bottom:1px solid var(--line2)}
 /* min-width:0 bắt buộc: nếu không, link nguồn dài sẽ nong cột 1fr và tràn khỏi modal */
 .rows .cell{padding:15px 22px;border-bottom:1px solid var(--line2);font-size:14.5px;
      min-width:0;overflow-wrap:anywhere}
 .rows .r2 .lab{background:var(--green2);border-right-color:var(--greenln)}
 .rows .r2 .cell{background:var(--green)}
-.rows .cell b{color:var(--navy2)}
+.rows .cell b{color:var(--ink)}
 .rows .cell .none{color:var(--muted)}
 .srcline{margin-top:9px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
 .srcline a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
 .kpirow{display:grid;grid-template-columns:repeat(auto-fit,minmax(104px,1fr));gap:8px;margin-top:12px}
-.kpibox{border:1px solid var(--line);border-top:3px solid var(--teal);border-radius:6px;
+.kpibox{border:1px solid var(--line);border-radius:6px;
      padding:8px 10px;background:var(--card)}
-.kpibox b{display:block;font-size:17px;color:var(--navy2);line-height:1.25}
+.kpibox b{display:block;font-size:17px;color:var(--ink);font-weight:650;line-height:1.25}
 .kpibox b i{font-style:normal;font-size:10.5px;font-weight:600;color:var(--muted)}
 .kpibox span{font-size:11.5px;color:var(--muted);display:block;margin-top:1px}
-.foot{padding:14px 24px 4px;font-size:12px;color:var(--muted);border-top:2px solid var(--navy2);
+.foot{padding:14px 24px 4px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);
      background:var(--bg);margin-top:18px}
 table.f{width:100%;border-collapse:collapse;font-size:14px}
 table.f td{border-bottom:1px solid var(--line2);padding:9px 10px;vertical-align:top}
@@ -208,8 +281,8 @@ table.f tr.none td{opacity:.55}
 .unit{color:var(--muted);font-weight:400;font-size:12.5px}
 .badge{font-size:10px;text-transform:uppercase;letter-spacing:.04em;border-radius:4px;
        padding:1px 6px;margin-left:7px;vertical-align:middle;font-weight:700}
-.b-high{background:#e3f3ec;color:var(--teal)} .b-medium{background:#fdf3dd;color:var(--amber)}
-.b-low{background:#fbe6e6;color:var(--red)} .b-none{background:var(--line2);color:var(--muted)}
+.b-high{background:var(--pos-bg);color:var(--pos)} .b-medium{background:var(--warn-bg);color:var(--warn)}
+.b-low{background:var(--neg-bg);color:var(--neg)} .b-none{background:var(--line2);color:var(--muted)}
 .src{display:block;margin-top:4px;font-size:12px;color:var(--muted)}
 .src q{font-style:italic}
 .miss{font-size:12.5px;color:var(--muted)}
@@ -281,20 +354,22 @@ CASES.forEach(c => {
           Math.round(100 * Object.values(r).filter(v => !isEmpty(v)).length / SCHEMA.nfields);
 });
 
+// Độ phủ là DỮ LIỆU nên được tô theo ngưỡng, không phải tô cho đẹp:
+// >=70% đủ dùng, 40-69% còn thiếu nhiều, <40% gần như không dùng được.
+function covClass(v){ return v >= 70 ? "c-hi" : v >= 40 ? "c-mid" : "c-lo"; }
+
 function statBar(){
   const avg = CASES.reduce((s,c)=>s+c.cov,0) / (CASES.length||1);
-  const pax = CASES.reduce((s,c)=>s+(c.record.passengers_million||0),0);
   const countries = new Set(CASES.map(c=>c.record.country).filter(Boolean)).size;
   $("#stats").innerHTML = [
     [CASES.length, "khu đô thị sân bay"], [countries, "quốc gia"],
-    [SCHEMA.nfields, "trường / khu"], [avg.toFixed(0)+"%", "độ phủ dữ liệu"],
-    [pax.toFixed(0)+" tr", "hành khách/năm (cộng dồn)"]
+    [SCHEMA.nfields, "trường / khu"], [avg.toFixed(0)+"%", "độ phủ dữ liệu"]
   ].map(([v,l]) => `<div class="stat"><b>${esc(v)}</b>${esc(l)}</div>`).join("");
 }
 
 function cardHTML(c, i){
   const r = c.record;
-  const flag = FLAGS[r.country] || "🌐";
+  const flag = r._flag || FLAGS[r.country] || "🌐";
   const kpis = CARD_KPIS.map(([f,label,suf]) => {
     const v = r[f];
     const txt = isEmpty(v) ? "—" : Array.isArray(v) ? v.length : short(typeof v === "number" ? v : parseFloat(v));
@@ -310,7 +385,7 @@ function cardHTML(c, i){
       <p class="sub">${esc(r.airport_name||"")}${r.reference_city?" · "+esc(r.reference_city):""}</p>
       <div class="kpis">${kpis}</div>
       <div class="chips">${chips}</div>
-      <div class="cov"><span>Độ phủ</span><span class="bar"><i style="width:${c.cov}%"></i></span><b>${c.cov}%</b></div>
+      <div class="cov"><span>Độ phủ</span><span class="bar"><i class="${covClass(c.cov)}" style="width:${c.cov}%"></i></span><b>${c.cov}%</b></div>
     </div></article>`;
 }
 
@@ -420,7 +495,7 @@ function openCase(i){
   $("#modal").innerHTML = `
     <div class="mhead">
       <div><h2>${esc(r.case_name||c.case_id)}</h2>
-        <div class="msub">${FLAGS[r.country]||"🌐"} ${esc(r.country||"")} · ${esc(r.airport_name||"")}
+        <div class="msub">${r._flag||FLAGS[r.country]||"🌐"} ${esc(r.country||"")} · ${esc(r.airport_name||"")}
           ${r.official_website?` · <a href="${esc(r.official_website)}" target="_blank" rel="noopener" style="color:#fff">website</a>`:""}
           · độ phủ ${c.cov}%${meta.model?` · model ${esc(meta.model)}`:""}</div></div>
       <button class="x" id="close" aria-label="Đóng">✕</button>

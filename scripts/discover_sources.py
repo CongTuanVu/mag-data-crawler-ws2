@@ -108,7 +108,52 @@ def field_menu() -> str:
                      for g in schema["groups"])
 
 
-def build_prompt(entry: dict, case_id: str, have: list[str], want: int) -> str:
+# Từ khoá tra web cho từng trường hay thiếu. Lượt discover đầu chỉ mô tả trường bằng
+# tên schema nên model tìm chung chung; nêu thẳng cụm từ mà trang nguồn thật sự dùng
+# (kể cả tiếng bản địa) thì kết quả bám sát số liệu hơn hẳn.
+FIELD_KEYWORDS = {
+    "passengers_million": [
+        "annual passenger traffic", "passenger throughput", "traffic statistics",
+        "passengers per year", "annual report traffic figures",
+        "lượng hành khách mỗi năm", "旅客吞吐量", "年間旅客数",
+    ],
+    "area_km2": [
+        "total site area hectares", "land area km2", "development footprint",
+        "master plan area", "gross site area", "acres of land",
+        "tổng diện tích quy hoạch", "占地面积", "敷地面積",
+    ],
+    "employees": [
+        "jobs created", "direct employment", "number of employees", "workforce",
+        "on-site jobs", "employment impact study", "economic impact jobs",
+        "số lao động làm việc", "就业人数", "雇用者数",
+    ],
+    "subzones": [
+        "zones and precincts", "sub-zones", "development districts", "clusters",
+        "masterplan zoning", "precinct list",
+        "các phân khu chức năng", "功能分区", "地区区分",
+    ],
+}
+
+
+def focus_block(focus: list[str]) -> str:
+    """Phần prompt nhấn vào các trường còn trống, kèm từ khoá tra web cụ thể."""
+    if not focus:
+        return ""
+    lines = ["\n## TRỌNG TÂM LẦN NÀY — các trường sau đang TRỐNG, phải tìm cho bằng được"]
+    for f in focus:
+        kws = FIELD_KEYWORDS.get(f, [])
+        lines.append(f"- `{f}`" + (f" — thử tra: {', '.join(kws)}" if kws else ""))
+    lines.append(
+        "\nMỗi trường trên hãy chạy ÍT NHẤT một lượt web_search riêng, ghép từ khoá với "
+        "tên khu và tên sân bay. Nguồn hay có các số này: báo cáo thường niên của đơn vị "
+        "vận hành sân bay, báo cáo tác động kinh tế (economic impact study), hồ sơ master "
+        "plan của cơ quan quy hoạch, trang 'facts & figures' hoặc 'about' của khu. "
+        "Trang nào KHÔNG chứa được ít nhất một trong các trường trọng tâm thì đừng trả về.")
+    return "\n".join(lines)
+
+
+def build_prompt(entry: dict, case_id: str, have: list[str], want: int,
+                 focus: list[str] | None = None) -> str:
     known = "\n".join(f"- {u}" for u in have[:40]) or "(chưa có nguồn nào)"
     return f"""Bạn đang tuyển nguồn dữ liệu để benchmark một khu đô thị sân bay (aerotropolis).
 
@@ -120,6 +165,7 @@ def build_prompt(entry: dict, case_id: str, have: list[str], want: int) -> str:
 
 ## Cần lấy được những trường này
 {field_menu()}
+{focus_block(focus or [])}
 
 ## Nguồn ĐÃ CÓ (đừng lặp lại)
 {known}
@@ -167,8 +213,9 @@ def probe(url: str, timeout: int = 15) -> tuple[bool, str]:
 
 
 def discover(case_id: str, entry: dict, have: list[str], want: int, model: str,
-             timeout: int, retries: int, jobs: int, dry_run: bool) -> list[dict]:
-    prompt = build_prompt(entry, case_id, have, want)
+             timeout: int, retries: int, jobs: int, dry_run: bool,
+             focus: list[str] | None = None) -> list[dict]:
+    prompt = build_prompt(entry, case_id, have, want, focus)
     print(f"\n=== {case_id} · đã có {len(have)} nguồn · xin thêm {want}")
     if dry_run:
         print(prompt[:1200] + "\n…")
@@ -232,6 +279,9 @@ def main() -> None:
     ap.add_argument("--no-registry", action="store_true",
                     help="không dựng lại sources.csv/xlsx (dùng khi chạy nhiều tiến trình song song)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--focus", default="",
+                    help="danh sách trường cần nhắm, cách nhau bởi dấu phẩy "
+                         "(vd: passengers_million,area_km2,employees,subzones)")
     args = ap.parse_args()
 
     reg = registry_mod.load_registry()
@@ -254,10 +304,12 @@ def main() -> None:
         print("[bỏ qua] mọi case đều đã có nguồn (dùng --all để bổ sung thêm).")
         return
 
+    focus = [f.strip() for f in args.focus.split(',') if f.strip()]
     new_rows: list[dict] = []
     for cid in targets:
         new_rows += discover(cid, entries.get(cid, {}), existing.get(cid, []), args.want,
-                             args.model, args.timeout, args.retries, args.jobs, args.dry_run)
+                             args.model, args.timeout, args.retries, args.jobs, args.dry_run,
+                             focus)
     if args.dry_run or not new_rows:
         print("\n[done] không ghi gì.")
         return

@@ -1,25 +1,82 @@
 ﻿case_id,case_name,aerotropolis,country,is_target,airport_name,reference_city,official_website,source_list,n_sources,n_crawled,n_pages,last_crawl
+roissy_cdg,Roissy–CDG / Le Bourget Aerotropolis,Roissy–CDG / Le Bourget Aerotropolis,🇫🇷 Pháp,,Paris Charles de Gaulle (CDG),,,refer_file/_discovered/,16,16,16,2026-08-20T13:06:13.561757+00:00
+ekurhuleni,Ekurhuleni Aerotropolis,Ekurhuleni Aerotropolis,🇿🇦 Nam Phi,,O.R. Tambo International (JNB),,,refer_file/_discovered/,16,15,15,2026-08-20T13:07:09.064866+00:00
+delhi,Delhi Aerocity,Delhi Aerocity,🇮🇳 Ấn Độ,,Indira Gandhi International (DEL),,,refer_file/_discovered/,16,16,16,2026-08-20T13:07:32.418689+00:00
+noida,Noida International (Jewar) Aerotropolis,Noida International (Jewar) Aerotropolis,🇮🇳 Ấn Độ,,Noida International Airport (DXN),,,refer_file/_discovered/,16,16,16,2026-08-20T13:04:19.225027+00:00
+bengaluru,Bengaluru Airport City,Bengaluru Airport City,🇮🇳 Ấn Độ,,Kempegowda International (BLR),,,refer_file/_discovered/,16,16,16,2026-08-20T13:21:49.607570+00:00
+hyderabad,Hyderabad Aerocity / GMR Airport City,Hyderabad Aerocity / GMR Airport City,🇮🇳 Ấn Độ,,Rajiv Gandhi International (HYD),,,refer_file/_discovered/,13,11,13,2026-08-20T13:20:09.441501+00:00
+u_tapao,U-Tapao Aerotropolis / EEC,U-Tapao Aerotropolis / EEC,🇹🇭 Thái Lan,,U-Tapao International (UTP),,,refer_file/_discovered/,16,15,16,2026-08-20T13:19:21.331322+00:00
+clark,Clark Aerotropolis / New Clark City,Clark Aerotropolis / New Clark City,🇵🇭 Philippines,,Clark International Airport (CRK),,,refer_file/_discovered/,15,14,15,2026-08-20T13:17:21.914929+00:00
+soekarno_hatta,Soekarno-Hatta Airport City (Jakarta),Soekarno-Hatta Airport City (Jakarta),🇮🇩 Indonesia,,Soekarno-Hatta International (CGK),,,refer_file/_discovered/,16,13,13,2026-08-20T13:38:34.196032+00:00
+long_thanh,Long Thành Airport City,Long Thành Airport City,🇻🇳 Việt Nam,,Long Thanh International Airport,,,refer_file/_discovered/,16,16,16,2026-08-20T13:30:20.187251+00:00
+auckland,Auckland Airport Business District,Auckland Airport Business District,🇳🇿 New Zealand,,Auckland Airport (AKL),,,refer_file/_discovered/,16,13,13,2026-08-20T13:30:59.237922+00:00
+memphis,Memphis Aerotropolis,Memphis Aerotropolis,🇺🇸 Mỹ,,Memphis International Airport (MEM),,,refer_file/_discovered/,16,16,16,2026-08-20T13:28:42.627062+00:00
+detroit_region,Detroit Region Aerotropolis,Detroit Region Aerotropolis,🇺🇸 Mỹ,,Detroit Metro (DTW) + Willow Run,,,refer_file/_discovered/,16,16,16,2026-08-20T13:50:44.677731+00:00
+atlanta,Atlanta Aerotropolis,Atlanta Aerotropolis,🇺🇸 Mỹ,,Hartsfield–Jackson Atlanta (ATL),,,refer_file/_discovered/,16,15,16,2026-08-20T13:46:54.512705+00:00
+panama,Panamá Aerotropolis / Tocumen,Panamá Aerotropolis / Tocumen,🇵🇦 Panama,,Tocumen International Airport (PTY),,,refer_file/_discovered/,16,16,16,2026-08-20T13:50:48.283871+00:00
+belo_horizonte,Belo Horizonte Aerotropolis / Confins,Belo Horizonte Aerotropolis / Confins,🇧🇷 Brazil,,Belo Horizonte–Confins (CNF),,,refer_file/_discovered/,17,16,16,2026-08-20T15:25:04.761817+00:00
+athens,Athens Airport City,Athens Airport City,🇬🇷 Hy Lạp,,Athens International (ATH),,,refer_file/_discovered/,16,9,16,2026-08-20T14:05:06.634248+00:00
+barcelona_el_prat,Barcelona El Prat Airport City,Barcelona El Prat Airport City,🇪🇸 Tây Ban Nha,,Barcelona El Prat (BCN),,,refer_file/_discovered/,16,15,16,2026-08-20T14:00:14.292627+00:00
+bremen_stadt,Bremen Airport-Stadt,Bremen Airport-Stadt,🇩🇪 Đức,,Bremen Airport (BRE),,,refer_file/_discovered/,16,15,16,2026-08-20T14:02:50.759877+00:00
+budapest,Budapest Airport City / BUD Cargo City,Budapest Airport City / BUD Cargo City,🇭🇺 Hungary,,Budapest Ferenc Liszt (BUD),,,refer_file/_discovered/,16,15,16,2026-08-20T13:56:29.578036+00:00
+dublin_logistics_park,Dublin Airport Logistics Park,Dublin Airport Logistics Park,🇮🇪 Ireland,,Dublin Airport (DUB),,,refer_file/_discovered/,13,13,13,2026-08-20T14:20:03.189024+00:00
+frankfurt,Frankfurt Airport City,Frankfurt Airport City / Gateway Gardens,Đức,False,Frankfurt Airport,Frankfurt Rhine-Main,https://www.fraport.com,refer_file/sources.csv,14,14,14,2026-08-09T14:58:07.745206+00:00
+helsinki_aviapolis,Helsinki Aviapolis,Helsinki Aviapolis,🇫🇮 Phần Lan,,Helsinki-Vantaa (HEL),,,refer_file/_discovered/,16,16,16,2026-08-20T14:13:00.666068+00:00
+heathrow,Heathrow Airport City / West London,Heathrow Airport City / West London,🇬🇧 Anh,,London Heathrow (LHR),,,refer_file/_discovered/,16,16,16,2026-08-20T14:16:27.640440+00:00
+domodedovo,Domodedovo Airport City,Domodedovo Airport City,🇷🇺 Nga,,Moscow Domodedovo (DME),,,refer_file/_discovered/,16,16,16,2026-08-20T14:09:51.089261+00:00
+oslo,Oslo Airport City (Gardermoen),Oslo Airport City (Gardermoen),🇳🇴 Na Uy,,Oslo Airport (OSL),,,refer_file/_discovered/,16,16,16,2026-08-20T14:31:41.630280+00:00
+paris_vatry_eurocargo,Paris Vatry Eurocargo Hub,Paris Vatry Eurocargo Hub,🇫🇷 Pháp,,Paris Vatry (XCR),,,refer_file/_discovered/,16,16,16,2026-08-20T14:28:00.568522+00:00
+warsaw_chopin,Warsaw Chopin / Airport City Poland,Warsaw Chopin / Airport City Poland,🇵🇱 Ba Lan,,Warsaw Chopin (WAW),,,refer_file/_discovered/,16,16,16,2026-08-20T14:30:33.543620+00:00
+dubai_aviation_district,Dubai International Aviation District (DXB),Dubai International Aviation District (DXB),🇦🇪 UAE,,Dubai International (DXB),,,refer_file/_discovered/,16,16,16,2026-08-20T14:22:55.302494+00:00
+jeddah,Jeddah Airport City,Jeddah Airport City,🇸🇦 Ả Rập Xê Út,,King Abdulaziz International (JED),,,refer_file/_discovered/,16,15,16,2026-08-20T15:12:08.658411+00:00
+brisbane_precinct,Brisbane Airport Precinct,Brisbane Airport Precinct,🇦🇺 Australia,,Brisbane Airport (BNE),,,refer_file/_discovered/,17,17,17,2026-08-20T14:37:51.213065+00:00
+cochin,Cochin Airport City (CIAL),Cochin Airport City (CIAL),🇮🇳 Ấn Độ,,Cochin International (COK),,,refer_file/_discovered/,16,9,15,2026-08-20T14:43:18.356931+00:00
+subic_bay_freeport,Subic Bay Freeport Airport Zone,Subic Bay Freeport Airport Zone,🇵🇭 Philippines,,Subic Bay International (SFS),,,refer_file/_discovered/,16,16,16,2026-08-20T14:35:05.058784+00:00
+zhuhai_jinwan_aviation,Zhuhai Jinwan Aviation City,Zhuhai Jinwan Aviation City,🇨🇳 Trung Quốc,,Zhuhai Jinwan (ZUH),,,refer_file/_discovered/,16,14,14,2026-08-20T15:25:25.052685+00:00
+gia_binh,Gia Bình Airport City,Gia Bình Airport City,🇻🇳 Việt Nam,,Gia Bình International Airport,,,refer_file/_discovered/,16,16,16,2026-08-20T14:49:14.511264+00:00
+cleveland_hopkins_district,Cleveland Hopkins Airport District,Cleveland Hopkins Airport District,🇺🇸 Mỹ,,Cleveland Hopkins (CLE),,,refer_file/_discovered/,16,16,16,2026-08-20T15:19:16.635582+00:00
+indianapolis,Indianapolis Aerotropolis,Indianapolis Aerotropolis,🇺🇸 Mỹ,,Indianapolis International (IND),,,refer_file/_discovered/,16,15,16,2026-08-20T14:46:31.896994+00:00
+jackson_evers,Jackson-Evers Aerotropolis,Jackson-Evers Aerotropolis,🇺🇸 Mỹ,,Jackson-Evers International (JAN),,,refer_file/_discovered/,15,14,15,2026-08-20T15:40:30.125285+00:00
+jfk_redevelopment,JFK Airport Redevelopment / Aerotropolis,JFK Airport Redevelopment / Aerotropolis,🇺🇸 Mỹ,,John F. Kennedy International (JFK),,,refer_file/_discovered/,16,16,16,2026-08-20T15:28:53.752241+00:00
+ontario_logistics_cluster,Ontario Airport Logistics Cluster (Inland Empire),Ontario Airport Logistics Cluster (Inland Empire),🇺🇸 Mỹ,,Ontario International (ONT),,,refer_file/_discovered/,14,10,14,2026-08-20T15:38:04.986257+00:00
+st_louis,St. Louis Aerotropolis / Midcoast,St. Louis Aerotropolis / Midcoast,🇺🇸 Mỹ,,St. Louis Lambert (STL),,,refer_file/_discovered/,16,16,16,2026-08-20T15:33:01.885741+00:00
+lax_area,LAX Airport Area / LA Aerotropolis,LAX Airport Area / LA Aerotropolis,🇺🇸 Mỹ,,Los Angeles International (LAX),,,refer_file/_discovered/,15,14,14,2026-08-20T15:53:47.693719+00:00
+louisville,Louisville Aerotropolis (UPS Worldport),Louisville Aerotropolis (UPS Worldport),🇺🇸 Mỹ,,Louisville International (SDF),,,refer_file/_discovered/,16,16,16,2026-08-20T15:43:01.592653+00:00
+las_vegas_harry,Las Vegas Harry Reid Airport District,Las Vegas Harry Reid Airport District,🇺🇸 Mỹ,,Harry Reid International (LAS),,,refer_file/_discovered/,16,16,16,2026-08-20T15:51:33.401203+00:00
+miami,Miami Aerotropolis / Airport City,Miami Aerotropolis / Airport City,🇺🇸 Mỹ,,Miami International (MIA),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
+milwaukee_mitchell,Milwaukee Mitchell Airport Business District,Milwaukee Mitchell Airport Business District,🇺🇸 Mỹ,,Milwaukee Mitchell (MKE),,,refer_file/_discovered/,16,14,15,2026-08-20T16:09:17.557334+00:00
+msp_economic_area,MSP Airport Economic Area,MSP Airport Economic Area,🇺🇸 Mỹ,,Minneapolis-Saint Paul (MSP),,,refer_file/_discovered/,16,15,16,2026-08-20T15:54:34.987359+00:00
+newark_liberty,Newark Liberty / Port Authority District,Newark Liberty / Port Authority District,🇺🇸 Mỹ,,Newark Liberty International (EWR),,,refer_file/_discovered/,21,21,21,2026-08-20T16:04:00.107339+00:00
+northwest_florida_beaches,Northwest Florida Beaches Airport & VentureCrossings,Northwest Florida Beaches Airport & VentureCrossings,🇺🇸 Mỹ,,Northwest Florida Beaches (ECP),,,refer_file/_discovered/,16,16,16,2026-08-20T16:01:59.874860+00:00
+philadelphia,Philadelphia Airport City,Philadelphia Airport City,🇺🇸 Mỹ,,Philadelphia International (PHL),,,refer_file/_discovered/,16,15,16,2026-08-20T16:19:53.372678+00:00
+phoenix_sky_harbor,Phoenix Sky Harbor Airport District,Phoenix Sky Harbor Airport District,🇺🇸 Mỹ,,Phoenix Sky Harbor (PHX),,,refer_file/_discovered/,16,16,16,2026-08-20T16:07:16.569872+00:00
+phoenix_mesa_gateway,Phoenix-Mesa Gateway Aerotropolis,Phoenix-Mesa Gateway Aerotropolis,🇺🇸 Mỹ,,Phoenix-Mesa Gateway (AZA),,,refer_file/_discovered/,13,13,13,2026-08-20T16:16:36.809600+00:00
+piedmont_triad,Piedmont Triad Aerotropolis,Piedmont Triad Aerotropolis,🇺🇸 Mỹ,,Piedmont Triad International (GSO),,,refer_file/_discovered/,16,15,15,2026-08-20T16:18:16.475840+00:00
+pittsburgh_innovation_campus,Pittsburgh Airport Innovation Campus,Pittsburgh Airport Innovation Campus,🇺🇸 Mỹ,,Pittsburgh International (PIT),,,refer_file/_discovered/,16,16,16,2026-08-20T16:32:21.662356+00:00
+raleigh_durham,Raleigh-Durham / Research Triangle Aerotropolis,Raleigh-Durham / Research Triangle Aerotropolis,🇺🇸 Mỹ,,Raleigh-Durham International (RDU),,,refer_file/_discovered/,15,15,15,2026-08-20T16:20:31.157175+00:00
+rickenbacker_global_logistics,Rickenbacker Global Logistics Park,Rickenbacker Global Logistics Park,🇺🇸 Mỹ,,Rickenbacker International (LCK),,,refer_file/_discovered/,18,18,18,2026-08-20T16:31:55.460483+00:00
+ted_stevens_anchorage,Ted Stevens Anchorage Cargo Hub,Ted Stevens Anchorage Cargo Hub,🇺🇸 Mỹ,,Ted Stevens Anchorage (ANC),,,refer_file/_discovered/,16,14,14,2026-08-20T16:32:16.339709+00:00
+vancouver_yvr,Vancouver YVR Airport City,Vancouver YVR Airport City,🇨🇦 Canada,,Vancouver International (YVR),,,refer_file/_discovered/,16,14,16,2026-08-20T16:42:25.954160+00:00
+dulles_innovation_corridor,Dulles Airport Innovation Corridor,Dulles Airport Innovation Corridor,🇺🇸 Mỹ,,Washington Dulles (IAD),,,refer_file/_discovered/,16,14,15,2026-08-20T16:36:01.917509+00:00
 incheon,Incheon Airport City / IFEZ,Incheon Aerotropolis / Incheon Free Economic Zone,Hàn Quốc,False,Incheon International Airport,Incheon – Seoul,https://www.airport.kr,refer_file/sources.csv,21,21,21,2026-08-09T13:29:11.921021+00:00
 schiphol,Schiphol Airport City,Schiphol Airport City / Amsterdam Aerotropolis,Hà Lan,False,Amsterdam Airport Schiphol,Amsterdam,https://www.schiphol.nl,refer_file/sources.csv,29,27,28,2026-08-08T03:46:26.059803+00:00
 dubai_south,Dubai South,Dubai South / Dubai World Central,UAE,False,Al Maktoum International Airport,Dubai,https://www.dubaisouth.ae,refer_file/sources.csv,18,18,18,2026-08-09T14:43:45.507081+00:00
 changi,Singapore Changi Aerotropolis,Changi Airport City / Changi East,Singapore,False,Singapore Changi Airport,Singapore,https://www.changiairport.com,refer_file/sources.csv,15,15,15,2026-08-09T14:43:06.985296+00:00
 hong_kong,Hong Kong Airport City / SKYCITY,Hong Kong Airport City / SKYCITY,Hong Kong,False,Hong Kong International Airport,Hong Kong,https://www.hongkongairport.com,refer_file/sources.csv,15,15,15,2026-08-09T14:54:27.564981+00:00
 dfw,Dallas–Fort Worth Aerotropolis,DFW Aerotropolis / DFW Airport commercial land,Mỹ,False,Dallas Fort Worth International Airport,Dallas – Fort Worth,https://www.dfwairport.com,refer_file/sources.csv,15,15,15,2026-08-09T14:57:29.133590+00:00
-frankfurt,Frankfurt Airport City,Frankfurt Airport City / Gateway Gardens,Đức,False,Frankfurt Airport,Frankfurt Rhine-Main,https://www.fraport.com,refer_file/sources.csv,14,14,14,2026-08-09T14:58:07.745206+00:00
 kuala_lumpur,KLIA Aeropolis,KLIA Aeropolis / Airport City Sepang,Malaysia,False,Kuala Lumpur International Airport,Kuala Lumpur – Sepang,https://www.aeropolis.com.my,refer_file/sources.csv,14,14,14,2026-08-09T14:58:03.544292+00:00
 taoyuan,Taoyuan Aerotropolis,Taoyuan Aerotropolis / Đô thị sân bay Đào Viên,Đài Loan,False,Taiwan Taoyuan International Airport,Đào Viên – Đài Bắc,https://www.taoyuanairport.com.tw,refer_file/sources.csv,30,28,29,2026-08-19T06:54:58.686280+00:00
 western_sydney,Western Sydney Aerotropolis,Western Sydney Aerotropolis / Bradfield City,Úc,False,Western Sydney International (Nancy-Bird Walton),Sydney,https://www.wsiairport.com.au,refer_file/sources.csv,19,19,19,2026-08-09T13:32:43.449244+00:00
-zhengzhou,Zhengzhou Airport Economy Zone (ZAEZ),Zhengzhou Airport Economy Zone (ZAEZ),🇨🇳 Trung Quốc,,Zhengzhou Xinzheng International (CGO),,,refer_file/_discovered/,35,14,14,2026-08-20T06:52:21.666211+00:00
+zhengzhou,Zhengzhou Airport Economy Zone (ZAEZ),Zhengzhou Airport Economy Zone (ZAEZ),🇨🇳 Trung Quốc,,Zhengzhou Xinzheng International (CGO),,,refer_file/_discovered/,15,14,14,2026-08-20T10:21:20.833797+00:00
 beijing_daxing,Beijing Daxing Airport Economic Zone,Beijing Daxing Airport Economic Zone,🇨🇳 Trung Quốc,,Beijing Daxing International (PKX),,,refer_file/_discovered/,16,13,13,2026-08-20T03:12:04.985925+00:00
 chengdu_tianfu,Chengdu Tianfu Airport City,Chengdu Tianfu Airport City,🇨🇳 Trung Quốc,,Chengdu Tianfu International (TFU),,,refer_file/_discovered/,16,14,15,2026-08-20T03:15:16.421269+00:00
 shanghai_hongqiao,Shanghai Hongqiao Airport Economy Zone / CBD,Shanghai Hongqiao Airport Economy Zone / CBD,🇨🇳 Trung Quốc,,Shanghai Hongqiao (SHA),,,refer_file/_discovered/,16,16,16,2026-08-20T02:19:56.215986+00:00
 guangzhou_baiyun,Guangzhou Baiyun Airport Economic Zone,Guangzhou Baiyun Airport Economic Zone,🇨🇳 Trung Quốc,,Guangzhou Baiyun International (CAN),,,refer_file/_discovered/,16,7,12,2026-08-20T03:05:55.928085+00:00
-roissy_cdg,Roissy–CDG / Le Bourget Aerotropolis,Roissy–CDG / Le Bourget Aerotropolis,🇫🇷 Pháp,,Paris Charles de Gaulle (CDG),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-munich,Munich Airport City,Munich Airport City,🇩🇪 Đức,,Munich Airport (MUC),,,refer_file/_discovered/,16,14,14,2026-08-20T06:52:21.665881+00:00
+munich,Munich Airport City,Munich Airport City,🇩🇪 Đức,,Munich Airport (MUC),,,refer_file/_discovered/,16,14,14,2026-08-20T10:21:20.833706+00:00
 zurich,Zurich Airport City / The Circle,Zurich Airport City / The Circle,🇨🇭 Thụy Sĩ,,Zurich Airport (ZRH),,,refer_file/_discovered/,16,13,16,2026-08-20T03:07:35.305169+00:00
 vienna,Vienna Airport City,Vienna Airport City,🇦🇹 Áo,,Vienna International Airport (VIE),,,refer_file/_discovered/,16,15,16,2026-08-20T03:14:34.945781+00:00
 stockholm,Airport City Stockholm (Arlanda),Airport City Stockholm (Arlanda),🇸🇪 Thụy Điển,,Stockholm Arlanda (ARN),,,refer_file/_discovered/,16,14,14,2026-08-20T03:22:26.895111+00:00
-manchester,Manchester Airport City,Manchester Airport City,🇬🇧 Anh,,Manchester Airport (MAN),,,refer_file/_discovered/,16,16,16,2026-08-20T06:52:21.668734+00:00
+manchester,Manchester Airport City,Manchester Airport City,🇬🇧 Anh,,Manchester Airport (MAN),,,refer_file/_discovered/,16,16,16,2026-08-20T10:21:20.833625+00:00
 madrid_barajas,Madrid–Barajas Airport City,Madrid–Barajas Airport City,🇪🇸 Tây Ban Nha,,Adolfo Suárez Madrid–Barajas (MAD),,,refer_file/_discovered/,16,16,16,2026-08-20T06:52:21.667871+00:00
 istanbul,Istanbul Airport Aerotropolis,Istanbul Airport Aerotropolis,🇹🇷 Thổ Nhĩ Kỳ,,Istanbul Airport (IST),,,refer_file/_discovered/,18,15,17,2026-08-20T03:29:52.239715+00:00
 doha,Airport City Doha,Airport City Doha,🇶🇦 Qatar,,Hamad International Airport (DOH),,,refer_file/_discovered/,16,16,16,2026-08-20T03:24:50.136153+00:00
@@ -27,78 +84,21 @@ zayed,Zayed Airport Business City / Abu Dhabi,Zayed Airport Business City / Abu 
 king_salman,King Salman International Airport City,King Salman International Airport City,🇸🇦 Ả Rập Xê Út,,King Salman International (RUH),,,refer_file/_discovered/,16,16,16,2026-08-20T06:52:21.670738+00:00
 tel_aviv,Airport City Tel Aviv,Airport City Tel Aviv,🇮🇱 Israel,,Ben Gurion International (TLV),,,refer_file/_discovered/,15,13,15,2026-08-20T06:52:21.670644+00:00
 cairo,Cairo Airport City,Cairo Airport City,🇪🇬 Ai Cập,,Cairo International Airport (CAI),,,refer_file/_discovered/,16,14,14,2026-08-20T06:52:21.671165+00:00
-ekurhuleni,Ekurhuleni Aerotropolis,Ekurhuleni Aerotropolis,🇿🇦 Nam Phi,,O.R. Tambo International (JNB),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 durban,Durban Aerotropolis / Dube TradePort,Durban Aerotropolis / Dube TradePort,🇿🇦 Nam Phi,,King Shaka International (DUR),,,refer_file/_discovered/,16,16,16,2026-08-20T06:52:33.617917+00:00
 addis_ababa_bole,Addis Ababa Bole Airport City,Addis Ababa Bole Airport City,🇪🇹 Ethiopia,,Bole International Airport (ADD),,,refer_file/_discovered/,16,11,11,2026-08-20T06:52:51.004381+00:00
-delhi,Delhi Aerocity,Delhi Aerocity,🇮🇳 Ấn Độ,,Indira Gandhi International (DEL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-noida,Noida International (Jewar) Aerotropolis,Noida International (Jewar) Aerotropolis,🇮🇳 Ấn Độ,,Noida International Airport (DXN),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-bengaluru,Bengaluru Airport City,Bengaluru Airport City,🇮🇳 Ấn Độ,,Kempegowda International (BLR),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-hyderabad,Hyderabad Aerocity / GMR Airport City,Hyderabad Aerocity / GMR Airport City,🇮🇳 Ấn Độ,,Rajiv Gandhi International (HYD),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 suvarnabhumi,Suvarnabhumi Airport City,Suvarnabhumi Airport City,🇹🇭 Thái Lan,,Suvarnabhumi Airport (BKK),,,refer_file/_discovered/,16,16,16,2026-08-20T06:52:48.307482+00:00
-u_tapao,U-Tapao Aerotropolis / EEC,U-Tapao Aerotropolis / EEC,🇹🇭 Thái Lan,,U-Tapao International (UTP),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-clark,Clark Aerotropolis / New Clark City,Clark Aerotropolis / New Clark City,🇵🇭 Philippines,,Clark International Airport (CRK),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-soekarno_hatta,Soekarno-Hatta Airport City (Jakarta),Soekarno-Hatta Airport City (Jakarta),🇮🇩 Indonesia,,Soekarno-Hatta International (CGK),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-long_thanh,Long Thành Airport City,Long Thành Airport City,🇻🇳 Việt Nam,,Long Thanh International Airport,,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 narita,Narita Airport City,Narita Airport City,🇯🇵 Nhật Bản,,Narita International Airport (NRT),,,refer_file/_discovered/,16,14,15,2026-08-20T06:52:56.700855+00:00
 haneda_innovation_city,Haneda Innovation City (HICity),Haneda Innovation City (HICity),🇯🇵 Nhật Bản,,Tokyo Haneda Airport (HND),,,refer_file/_discovered/,16,15,15,2026-08-20T06:52:59.136440+00:00
-auckland,Auckland Airport Business District,Auckland Airport Business District,🇳🇿 New Zealand,,Auckland Airport (AKL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 denver,Denver Aerotropolis,Denver Aerotropolis,🇺🇸 Mỹ,,Denver International Airport (DEN),,,refer_file/_discovered/,17,15,17,2026-08-20T06:53:08.230608+00:00
 orlando,Orlando Aerotropolis / Lake Nona,Orlando Aerotropolis / Lake Nona,🇺🇸 Mỹ,,Orlando International Airport (MCO),,,refer_file/_discovered/,10,10,10,2026-08-20T06:53:02.991891+00:00
-memphis,Memphis Aerotropolis,Memphis Aerotropolis,🇺🇸 Mỹ,,Memphis International Airport (MEM),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-detroit_region,Detroit Region Aerotropolis,Detroit Region Aerotropolis,🇺🇸 Mỹ,,Detroit Metro (DTW) + Willow Run,,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-atlanta,Atlanta Aerotropolis,Atlanta Aerotropolis,🇺🇸 Mỹ,,Hartsfield–Jackson Atlanta (ATL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-panama,Panamá Aerotropolis / Tocumen,Panamá Aerotropolis / Tocumen,🇵🇦 Panama,,Tocumen International Airport (PTY),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-belo_horizonte,Belo Horizonte Aerotropolis / Confins,Belo Horizonte Aerotropolis / Confins,🇧🇷 Brazil,,Belo Horizonte–Confins (CNF),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-athens,Athens Airport City,Athens Airport City,🇬🇷 Hy Lạp,,Athens International (ATH),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-barcelona_el_prat,Barcelona El Prat Airport City,Barcelona El Prat Airport City,🇪🇸 Tây Ban Nha,,Barcelona El Prat (BCN),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-bremen_stadt,Bremen Airport-Stadt,Bremen Airport-Stadt,🇩🇪 Đức,,Bremen Airport (BRE),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-budapest,Budapest Airport City / BUD Cargo City,Budapest Airport City / BUD Cargo City,🇭🇺 Hungary,,Budapest Ferenc Liszt (BUD),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-dublin_logistics_park,Dublin Airport Logistics Park,Dublin Airport Logistics Park,🇮🇪 Ireland,,Dublin Airport (DUB),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-helsinki_aviapolis,Helsinki Aviapolis,Helsinki Aviapolis,🇫🇮 Phần Lan,,Helsinki-Vantaa (HEL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-heathrow,Heathrow Airport City / West London,Heathrow Airport City / West London,🇬🇧 Anh,,London Heathrow (LHR),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-domodedovo,Domodedovo Airport City,Domodedovo Airport City,🇷🇺 Nga,,Moscow Domodedovo (DME),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-oslo,Oslo Airport City (Gardermoen),Oslo Airport City (Gardermoen),🇳🇴 Na Uy,,Oslo Airport (OSL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-paris_vatry_eurocargo,Paris Vatry Eurocargo Hub,Paris Vatry Eurocargo Hub,🇫🇷 Pháp,,Paris Vatry (XCR),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-warsaw_chopin,Warsaw Chopin / Airport City Poland,Warsaw Chopin / Airport City Poland,🇵🇱 Ba Lan,,Warsaw Chopin (WAW),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-dubai_aviation_district,Dubai International Aviation District (DXB),Dubai International Aviation District (DXB),🇦🇪 UAE,,Dubai International (DXB),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-jeddah,Jeddah Airport City,Jeddah Airport City,🇸🇦 Ả Rập Xê Út,,King Abdulaziz International (JED),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 beijing_capital,Beijing Capital Airport Economic Zone,Beijing Capital Airport Economic Zone,🇨🇳 Trung Quốc,,Beijing Capital International (PEK),,,refer_file/_discovered/,16,15,15,2026-08-20T06:53:30.423918+00:00
-brisbane_precinct,Brisbane Airport Precinct,Brisbane Airport Precinct,🇦🇺 Australia,,Brisbane Airport (BNE),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-cochin,Cochin Airport City (CIAL),Cochin Airport City (CIAL),🇮🇳 Ấn Độ,,Cochin International (COK),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 shanghai_pudong,Shanghai Pudong Airport Economy Zone,Shanghai Pudong Airport Economy Zone,🇨🇳 Trung Quốc,,Shanghai Pudong (PVG),,,refer_file/_discovered/,16,14,14,2026-08-20T06:53:22.976275+00:00
-subic_bay_freeport,Subic Bay Freeport Airport Zone,Subic Bay Freeport Airport Zone,🇵🇭 Philippines,,Subic Bay International (SFS),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-zhuhai_jinwan_aviation,Zhuhai Jinwan Aviation City,Zhuhai Jinwan Aviation City,🇨🇳 Trung Quốc,,Zhuhai Jinwan (ZUH),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-gia_binh,Gia Bình Airport City,Gia Bình Airport City,🇻🇳 Việt Nam,,Gia Bình International Airport,,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 new_manila,New Manila International Airport City (Bulacan),New Manila International Airport City (Bulacan),🇵🇭 Philippines,,New Manila International (Bulacan),,,refer_file/_discovered/,16,14,14,2026-08-20T06:53:52.995955+00:00
 bwi,BWI Airport Business District,BWI Airport Business District,🇺🇸 Mỹ,,Baltimore-Washington (BWI),,,refer_file/_discovered/,15,14,14,2026-08-20T03:36:12.527354+00:00
 charlotte_area,Charlotte Airport Area / Dixie River,Charlotte Airport Area / Dixie River,🇺🇸 Mỹ,,Charlotte Douglas (CLT),,,refer_file/_discovered/,16,16,16,2026-08-20T03:36:01.936434+00:00
 chicago_o_hare,Chicago O'Hare Aerotropolis,Chicago O'Hare Aerotropolis,🇺🇸 Mỹ,,Chicago O'Hare (ORD),,,refer_file/_discovered/,15,12,14,2026-08-20T03:36:13.485402+00:00
-cleveland_hopkins_district,Cleveland Hopkins Airport District,Cleveland Hopkins Airport District,🇺🇸 Mỹ,,Cleveland Hopkins (CLE),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 edmonton,Edmonton Airport City / Alberta Aerotropolis,Edmonton Airport City / Alberta Aerotropolis,🇨🇦 Canada,,Edmonton International (YEG),,,refer_file/_discovered/,13,12,12,2026-08-20T03:36:08.289900+00:00
 fort_worth_alliance,Fort Worth Alliance Global Logistics Hub,Fort Worth Alliance Global Logistics Hub,🇺🇸 Mỹ,,Fort Worth Alliance (AFW),,,refer_file/_discovered/,16,13,13,2026-08-20T03:38:17.177358+00:00
 huntsville,Huntsville / Port of Huntsville,Huntsville / Port of Huntsville,🇺🇸 Mỹ,,Huntsville International (HSV),,,refer_file/_discovered/,16,16,16,2026-08-20T03:37:35.399057+00:00
-indianapolis,Indianapolis Aerotropolis,Indianapolis Aerotropolis,🇺🇸 Mỹ,,Indianapolis International (IND),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-jackson_evers,Jackson-Evers Aerotropolis,Jackson-Evers Aerotropolis,🇺🇸 Mỹ,,Jackson-Evers International (JAN),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 hamilton,Hamilton Aerotropolis (Munro),Hamilton Aerotropolis (Munro),🇨🇦 Canada,,John C. Munro Hamilton (YHM),,,refer_file/_discovered/,16,15,16,2026-08-20T06:53:47.703840+00:00
-jfk_redevelopment,JFK Airport Redevelopment / Aerotropolis,JFK Airport Redevelopment / Aerotropolis,🇺🇸 Mỹ,,John F. Kennedy International (JFK),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
 kansas_city,Kansas City Airport City,Kansas City Airport City,🇺🇸 Mỹ,,Kansas City International (MCI),,,refer_file/_discovered/,14,7,14,2026-08-20T06:53:57.629708+00:00
-ontario_logistics_cluster,Ontario Airport Logistics Cluster (Inland Empire),Ontario Airport Logistics Cluster (Inland Empire),🇺🇸 Mỹ,,Ontario International (ONT),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-st_louis,St. Louis Aerotropolis / Midcoast,St. Louis Aerotropolis / Midcoast,🇺🇸 Mỹ,,St. Louis Lambert (STL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-lax_area,LAX Airport Area / LA Aerotropolis,LAX Airport Area / LA Aerotropolis,🇺🇸 Mỹ,,Los Angeles International (LAX),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-louisville,Louisville Aerotropolis (UPS Worldport),Louisville Aerotropolis (UPS Worldport),🇺🇸 Mỹ,,Louisville International (SDF),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-las_vegas_harry,Las Vegas Harry Reid Airport District,Las Vegas Harry Reid Airport District,🇺🇸 Mỹ,,Harry Reid International (LAS),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-miami,Miami Aerotropolis / Airport City,Miami Aerotropolis / Airport City,🇺🇸 Mỹ,,Miami International (MIA),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-milwaukee_mitchell,Milwaukee Mitchell Airport Business District,Milwaukee Mitchell Airport Business District,🇺🇸 Mỹ,,Milwaukee Mitchell (MKE),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-msp_economic_area,MSP Airport Economic Area,MSP Airport Economic Area,🇺🇸 Mỹ,,Minneapolis-Saint Paul (MSP),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-newark_liberty,Newark Liberty / Port Authority District,Newark Liberty / Port Authority District,🇺🇸 Mỹ,,Newark Liberty International (EWR),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-northwest_florida_beaches,Northwest Florida Beaches Airport & VentureCrossings,Northwest Florida Beaches Airport & VentureCrossings,🇺🇸 Mỹ,,Northwest Florida Beaches (ECP),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-philadelphia,Philadelphia Airport City,Philadelphia Airport City,🇺🇸 Mỹ,,Philadelphia International (PHL),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-phoenix_sky_harbor,Phoenix Sky Harbor Airport District,Phoenix Sky Harbor Airport District,🇺🇸 Mỹ,,Phoenix Sky Harbor (PHX),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-phoenix_mesa_gateway,Phoenix-Mesa Gateway Aerotropolis,Phoenix-Mesa Gateway Aerotropolis,🇺🇸 Mỹ,,Phoenix-Mesa Gateway (AZA),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-piedmont_triad,Piedmont Triad Aerotropolis,Piedmont Triad Aerotropolis,🇺🇸 Mỹ,,Piedmont Triad International (GSO),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-pittsburgh_innovation_campus,Pittsburgh Airport Innovation Campus,Pittsburgh Airport Innovation Campus,🇺🇸 Mỹ,,Pittsburgh International (PIT),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-raleigh_durham,Raleigh-Durham / Research Triangle Aerotropolis,Raleigh-Durham / Research Triangle Aerotropolis,🇺🇸 Mỹ,,Raleigh-Durham International (RDU),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-rickenbacker_global_logistics,Rickenbacker Global Logistics Park,Rickenbacker Global Logistics Park,🇺🇸 Mỹ,,Rickenbacker International (LCK),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-ted_stevens_anchorage,Ted Stevens Anchorage Cargo Hub,Ted Stevens Anchorage Cargo Hub,🇺🇸 Mỹ,,Ted Stevens Anchorage (ANC),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-vancouver_yvr,Vancouver YVR Airport City,Vancouver YVR Airport City,🇨🇦 Canada,,Vancouver International (YVR),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
-dulles_innovation_corridor,Dulles Airport Innovation Corridor,Dulles Airport Innovation Corridor,🇺🇸 Mỹ,,Washington Dulles (IAD),,,(chưa có nguồn — chạy discover_sources.py),0,0,0,
